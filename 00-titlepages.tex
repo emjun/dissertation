@@ -1,0 +1,67 @@
+%% Replace all of the orange portions with your personal info
+
+\begin{titlepage}
+\begin{center}
+\vspace*{\fill}
+\singlespace
+\thispagestyle{empty}
+{\LARGE { \thesisTitle \\} %self-explanatory
+\doublespacing
+\vspace*{\baselineskip}
+{\large \authorName }\\ %self-explanatory
+\vspace*{1.5\baselineskip}
+\large A dissertation
+\\ submitted in partial fulfillment of the\\
+requirements for the degree of\\
+\vspace*{\baselineskip}
+Doctor of Philosophy\\
+\vspace{1.5\baselineskip}
+University of Washington
+\\ \graduationYear}\\ % add year in YYYY format (e.g. 2020)
+\vspace{1.5\baselineskip}
+
+%add reading committee (just the reading committee, not the supervisory committee):
+\large \textit{Reading Committee:} \\
+
+\ifdefined\secondAdvisor 
+    \advisor, Co-Chair \\
+    \secondAdvisor, Co-Chair \\
+\else
+    \advisor, Chair
+\fi
+
+\readingCommitteeOne \\
+
+\ifdefined\readingCommitteeTwo
+    \readingCommitteeTwo \\
+\fi
+
+\ifdefined\readingCommitteeThree
+    \readingCommitteeThree \\
+\fi
+    
+
+\vspace{2\baselineskip}
+  Program Authorized to Offer Degree: \\
+Paul G. Allen School of Computer Science \& Engineering
+  
+% \newcommand{\advisor}{Main Guardian}
+% % if you have two advisors, uncomment these two
+% \newcommand{\firstAdvisor}{Parent One}
+% \newcommand{\secondAdvisor}{Parent Two}
+% \newcommand{\readingCommitteeOne}{First Reader}
+% \newcommand{\readingCommitteeTwo}{Second Reader}
+
+  
+  
+%%% Insert year and name:
+  \vspace*{\fill}
+  \clearpage
+  \thispagestyle{empty}
+  \singlespace{
+  \copyright~Copyright \graduationYear \\ %add year in YYYY format (e.g. 2020)
+  \vspace*{\baselineskip}
+  \authorName} %self-explanatory
+\end{center}
+\end{titlepage}
+
