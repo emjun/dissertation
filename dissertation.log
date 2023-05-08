@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  8 MAY 2023 14:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  8 MAY 2023 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1137,7 +1137,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [4] (./02-ack.tex) (./03-dedication.tex [5
 
 
-]) [6
+] [6
+
+
+]) [7
+
+] [8
+
 
 ] (./dissertation.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
@@ -1159,10 +1165,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \tf@toc=\write5
 \openout5 = `dissertation.toc'.
 
- [7
-
-
-] [8
+ [9] [10
 
 
 ]
@@ -1170,61 +1173,61 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \tf@lof=\write6
 \openout6 = `dissertation.lof'.
 
- [9] [10
+ [11] [12
 
 
 ] (./dissertation.lot)
 \tf@lot=\write7
 \openout7 = `dissertation.lot'.
 
- [11] [12
+ [13] [14
 
 
 
 ]
 Chapter 1.
-(./04-intro.tex) [13] [14
+(./04-intro.tex) [15] [16
 
 
 ]
 Chapter 2.
 (./05-exampleproject.tex
-<example-image-b.pdf, id=125, 321.2pt x 240.9pt>
+<example-image-b.pdf, id=133, 321.2pt x 240.9pt>
 File: example-image-b.pdf Graphic file (type pdf)
 <use example-image-b.pdf>
 Package pdftex.def Info: example-image-b.pdf  used on input line 22.
 (pdftex.def)             Requested size: 140.92793pt x 105.69858pt.
- [15]
+ [17]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 31
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-<example-image-a.pdf, id=134, 321.2pt x 240.9pt>
+<example-image-a.pdf, id=142, 321.2pt x 240.9pt>
 File: example-image-a.pdf Graphic file (type pdf)
 <use example-image-a.pdf>
 Package pdftex.def Info: example-image-a.pdf  used on input line 39.
 (pdftex.def)             Requested size: 234.8775pt x 176.16429pt.
-) [16 </usr/local/texlive/2021/texmf-dist/tex/latex/mwe/example-image-a.pdf> </
+) [18 </usr/local/texlive/2021/texmf-dist/tex/latex/mwe/example-image-a.pdf> </
 usr/local/texlive/2021/texmf-dist/tex/latex/mwe/example-image-b.pdf>]
 Chapter 3.
-[17
+[19
 
 
-] [18
+] [20
 
 
 ]
 Chapter 4.
-[19] [20
+[21] [22
 
 
 ]
 Chapter 5.
-(./06-conclusion.tex) (./dissertation.bbl [21] [22
+(./06-conclusion.tex) (./dissertation.bbl [23] [24
 
-]) [23] [24
+]) [25] [26
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) 
 has been already used, duplicate ignored
@@ -1241,13 +1244,13 @@ LaTeX Warning: No positions in optional float specifier.
 Package caption Warning: Unused \captionsetup[sub] on input line 79.
 See the caption package documentation for explanation.
 
-[25] (./dissertation.aux)
+[27] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: CCC72E634961795FD8D5C0BC8A989303;1363.
  ) 
 Here is how much of TeX's memory you used:
- 26592 strings out of 478994
- 468914 string characters out of 5858184
+ 26594 strings out of 478994
+ 468928 string characters out of 5858184
  776408 words of memory out of 5000000
  43456 multiletter control sequences out of 15000+600000
  441337 words of font info for 77 fonts, out of 8000000 for 9000
@@ -1260,10 +1263,10 @@ xlive/2021/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2021
 ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on dissertation.pdf (25 pages, 92943 bytes).
+Output written on dissertation.pdf (27 pages, 93202 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
  95 words of extra memory for PDF output out of 10000 (max. 10000000)
 
