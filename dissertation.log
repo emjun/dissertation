@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  8 MAY 2023 14:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  8 MAY 2023 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1146,34 +1146,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ] (./dissertation.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
+) [9])
 \tf@toc=\write5
 \openout5 = `dissertation.toc'.
 
- [9] [10
-
-
-]
+ [10]
 (./dissertation.lof)
 \tf@lof=\write6
 \openout6 = `dissertation.lof'.
 
- [11] [12
+ [11
+
+
+] [12
 
 
 ] (./dissertation.lot)
@@ -1191,82 +1191,75 @@ Chapter 1.
 
 ]
 Chapter 2.
-(./05-exampleproject.tex
-<example-image-b.pdf, id=133, 321.2pt x 240.9pt>
-File: example-image-b.pdf Graphic file (type pdf)
-<use example-image-b.pdf>
-Package pdftex.def Info: example-image-b.pdf  used on input line 22.
-(pdftex.def)             Requested size: 140.92793pt x 105.69858pt.
- [17]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 31
-.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-<example-image-a.pdf, id=142, 321.2pt x 240.9pt>
-File: example-image-a.pdf Graphic file (type pdf)
-<use example-image-a.pdf>
-Package pdftex.def Info: example-image-a.pdf  used on input line 39.
-(pdftex.def)             Requested size: 234.8775pt x 176.16429pt.
-) [18 </usr/local/texlive/2021/texmf-dist/tex/latex/mwe/example-image-a.pdf> </
-usr/local/texlive/2021/texmf-dist/tex/latex/mwe/example-image-b.pdf>]
-Chapter 3.
-[19
-
-
-] [20
+(./05-relatedWork.tex) [17] [18
 
 
 ]
+Chapter 3.
+(./06-tea.tex [19]) [20]
 Chapter 4.
-[21] [22
+(./07-hypothesisFormalization.tex) [21
+
+
+] [22
 
 
 ]
 Chapter 5.
-(./06-conclusion.tex) (./dissertation.bbl [23] [24
+(./08-tisane.tex) [23] [24
 
-]) [25] [26
+
+]
+Chapter 6.
+(./09-rTisane.tex) [25] [26
+
+
+]
+Chapter 7.
+(./10-conclusion.tex) (./dissertation.bbl [27] [28
+
+]
+
+Package natbib Warning: Empty `thebibliography' environment on input line 40.
+
+) [29] [30
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \chapter{Appendix One}
+l.58 \chapter{Appendix One}
                            
 Chapter A.
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 53.
+               Default added (so using `tbp') on input line 60.
 
 
 Package caption Warning: Unused \captionsetup[sub] on input line 79.
 See the caption package documentation for explanation.
 
-[27] (./dissertation.aux)
+[31] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: CCC72E634961795FD8D5C0BC8A989303;1363.
+(rerunfilecheck)             Checksum: 84A2008B7DF55CF1C3A47AB876FC46A1;8109.
  ) 
 Here is how much of TeX's memory you used:
- 26594 strings out of 478994
- 468928 string characters out of 5858184
- 776408 words of memory out of 5000000
- 43456 multiletter control sequences out of 15000+600000
- 441337 words of font info for 77 fonts, out of 8000000 for 9000
+ 26604 strings out of 478994
+ 468756 string characters out of 5858184
+ 778454 words of memory out of 5000000
+ 43435 multiletter control sequences out of 15000+600000
+ 443519 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,9n,119p,434b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 116i,8n,119p,765b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2021
-/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-d
-ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on dissertation.pdf (27 pages, 93202 bytes).
+xlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021
+/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dis
+t/fonts/type1/urw/times/utmri8a.pfb>
+Output written on dissertation.pdf (31 pages, 73838 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
- 95 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 326 compressed objects within 4 object streams
+ 73 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
