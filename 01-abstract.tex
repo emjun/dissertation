@@ -27,4 +27,35 @@ of the Supervisory Committee:\\ %change to co-chair if co-advised
 \end{centering}
 \vspace*{\baselineskip}
 
-{\color{orange} Insert abstract here.}
+Data analysis is critical to science, public policy, and business. Despite their
+importance, statistical analyses are difficult to author, especially for
+researchers with expertise outside of statistics. Existing statistical tools,
+prioritizing mathematical expressivity and computational control, are low-level
+while researchers’ motivating questions and hypotheses are high-level.
+Researchers need to translate their questions and hypotheses into low-level
+statistical code in an error-prone process that involves grappling with their
+domain knowledge, statistics, and programming. 
+
+In this talk, I will introduce two tools that embody a new way of authoring
+analyses: Tea and Tisane. Researchers directly express their domain knowledge
+through higher level abstractions, and the tools will validate the data, select
+a statistical analysis, and implement it, all while educating analysts about why
+a statistical approach is valid. Tea helps analysts author statistical tests.
+Tea’s key insight is that statistical test selection can be cast as a constraint
+satisfaction problem. Tisane enables analysts to author generalized linear
+models with or without mixed effects, which are difficult for even statistical
+experts to author. Using Tisane, analysts can express their conceptual models
+using a high-level domain specific language. Tisane translates these conceptual
+models into causal DAGs and engages analysts in a disambiguation process to
+arrive at an output statistical model. Real-world researchers have already used
+these tools to conduct analyses in published research that push their own
+disciplines forward. I will also introduce “hypothesis formalization,” a series
+of cognitive and operational steps analysts take to translate their research
+questions into statistical implementations. Hypothesis formalization
+retrospectively explains why Tea improves statistical testing and directly
+inspired the design of Tisane. 
+
+Tea and Tisane serve as platforms for further research into computational
+support for statistical analysis. This talk also exemplifies how combining
+human-computer interaction with other areas in and outside of computer science
+leads to software tools that impact real-world users.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  8 MAY 2023 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  8 MAY 2023 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1130,13 +1130,16 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [2
 
 ])
-(./01-abstract.tex) [3] [4
+(./01-abstract.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3])
+[4] (./02-ack.tex) (./03-dedication.tex [5
 
 
-] (./02-ack.tex) (./03-dedication.tex [5]) [6
+]) [6
 
-]
-(./dissertation.toc
+] (./dissertation.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1257,7 +1260,7 @@ xlive/2021/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2021
 ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on dissertation.pdf (25 pages, 89610 bytes).
+Output written on dissertation.pdf (25 pages, 91349 bytes).
 PDF statistics:
  230 PDF objects out of 1000 (max. 8388607)
  193 compressed objects within 2 object streams
