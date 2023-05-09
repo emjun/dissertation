@@ -1,36 +1,47 @@
-\contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Related work}{17}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Tea: A Domain-Specific Language and Runtime System for Hypothesis Testing}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Updating things if you've copied and pasted}{19}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Related Work:...}{20}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Design of Tea's DSL}{20}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Tea's constraint-based runtime system}{20}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Evaluation:...}{20}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Key tensions}{20}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Limitations, Ongoing work, Future directions}{20}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Summary of Contributions}{20}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Hypothesis Formalization: A conceptual framework describing how analysts translate research questions into statistical analyses}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Related Work}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Content analysis}{21}{section.4.2}%
-\contentsline {section}{\numberline {4.3}}{21}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Tisane: Authoring statistical models via formal reasoning from conceptual and data relationships}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Tisane's DSL: Formalizing implicit domain assumptions as conceptual models}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Deriving statistical models from conceptual models}{23}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Evaluation: Case studies with real-world researchers}{23}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Limitations}{23}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Summary of Contributions}{23}{section.5.5}%
-\contentsline {chapter}{\numberline {6}rTisane: }{25}{chapter.6}%
-\contentsline {section}{\numberline {6.1}rTisane: Re-designing Tisane}{25}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Exploratory study}{25}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Key insights and system changes}{25}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Evaluation: Lab study assessing the impact of connecting conceptual and statistical modeling}{25}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Summary of contributions}{25}{section.6.5}%
-\contentsline {chapter}{\numberline {7}Conclusion}{27}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Summary of contributions}{27}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Note on methodology and implications}{27}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Where all this is going / Why do we care about any of this?}{27}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Future work}{27}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}}{27}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}What about in the face of LLMs?}{27}{subsection.7.4.2}%
-\contentsline {chapter}{\numberline {A}Appendix One}{31}{chapter.1}%
-\contentsline {section}{\numberline {A.1}Appendix section 1}{31}{section.1.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{17}{chapter.1}%
+\contentsline {section}{Approach}{18}{section*.5}%
+\contentsline {section}{Thesis statement}{18}{section*.6}%
+\contentsline {section}{Challenge 1}{18}{section*.7}%
+\contentsline {subsection}{\numberline {1.0.1}Challenge 2: Represent and reason about key statistical analysis decisions}{19}{subsection.1.0.1}%
+\contentsline {subsection}{\numberline {1.0.2}Challenge 3: Increase analysts' statistical knowledge/understanding}{19}{subsection.1.0.2}%
+\contentsline {subsection}{\numberline {1.0.3}Summary of Contributions}{19}{subsection.1.0.3}%
+\contentsline {subsection}{\numberline {1.0.4}Thesis outline}{20}{subsection.1.0.4}%
+\contentsline {paragraph}{How to approach this dissertation}{20}{todo.3}%
+\contentsline {subsection}{\numberline {1.0.5}Prior Publication and Authorship}{20}{subsection.1.0.5}%
+\contentsline {chapter}{\numberline {2}Related work}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Donald Campbell's Theory of Validity}{21}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Tea: A Domain-Specific Language and Runtime System for Hypothesis Testing}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Updating things if you've copied and pasted}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Related Work:...}{24}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Design of Tea's DSL}{24}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Tea's constraint-based runtime system}{24}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Evaluation:...}{24}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Key tensions}{24}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Limitations, Ongoing work, Future directions}{24}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Summary of Contributions}{24}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Hypothesis Formalization: A conceptual framework describing how analysts translate research questions into statistical analyses}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Related Work}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Content analysis}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.3}}{25}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Tisane: Authoring statistical models via formal reasoning from conceptual and data relationships}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Tisane's DSL: Formalizing implicit domain assumptions as conceptual models}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Deriving statistical models from conceptual models}{27}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Evaluation: Case studies with real-world researchers}{27}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Limitations}{27}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Summary of Contributions}{27}{section.5.5}%
+\contentsline {chapter}{\numberline {6}rTisane: }{29}{chapter.6}%
+\contentsline {section}{\numberline {6.1}rTisane: Re-designing Tisane}{29}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Exploratory study}{29}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Key insights and system changes}{29}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Evaluation: Lab study assessing the impact of connecting conceptual and statistical modeling}{29}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Summary of contributions}{29}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Conclusion}{31}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Summary of contributions}{31}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Note on methodology and implications}{31}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Where all this is going / Why do we care about any of this?}{31}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Discussion: The role of programs and the act of programming as a reflective practice}{31}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Future work}{32}{section.7.5}%
+\contentsline {subsection}{\numberline {7.5.1}}{32}{subsection.7.5.1}%
+\contentsline {subsection}{\numberline {7.5.2}What about in the face of LLMs?}{32}{subsection.7.5.2}%
+\contentsline {chapter}{\numberline {A}Appendix One}{35}{chapter.1}%
+\contentsline {section}{\numberline {A.1}Appendix section 1}{35}{section.1.1}%

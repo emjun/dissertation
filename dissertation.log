@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  8 MAY 2023 14:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  9 MAY 2023 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1012,9 +1012,14 @@ Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 \c@SC@C=\count333
 \SC@BOX=\box78
 ))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/todo/todo.sty
+Package: todo 2010/03/31 v2.4142 To-do list (Federico Garcia)
+\@todotoks=\toks49
+\c@todo=\count334
+)
 (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count334
+\l__color_backend_stack_int=\count335
 \l__pdf_internal_box=\box79
 )
 (./dissertation.aux)
@@ -1038,21 +1043,21 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
-\c@lstlisting=\count335
+\c@lstlisting=\count336
 
 (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count336
+\scratchcounter=\count337
 \scratchdimen=\dimen328
 \scratchbox=\box80
-\nofMPsegments=\count337
-\nofMParguments=\count338
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count339
+\nofMPsegments=\count338
+\nofMParguments=\count339
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count340
 \MPscratchDim=\dimen329
-\MPnumerator=\count340
-\makeMPintoPDFobject=\count341
-\everyMPtoPDFconversion=\toks50
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
+\everyMPtoPDFconversion=\toks51
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1083,7 +1088,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count342
+\c@section@level=\count343
 )
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
@@ -1146,83 +1151,149 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ] (./dissertation.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 4.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [9])
+) [9] [10])
 \tf@toc=\write5
 \openout5 = `dissertation.toc'.
 
- [10]
-(./dissertation.lof)
+
+[11] [12
+
+
+] (./dissertation.lof)
 \tf@lof=\write6
 \openout6 = `dissertation.lof'.
 
- [11
-
-
-] [12
+ [13] [14
 
 
 ] (./dissertation.lot)
 \tf@lot=\write7
 \openout7 = `dissertation.lot'.
 
- [13] [14
+ [15] [16
 
 
 
 ]
 Chapter 1.
-(./04-intro.tex) [15] [16
+(./04-intro.tex
+
+Package natbib Warning: Citation `team2013r' on page 17 undefined on input line
+ 24.
 
 
-]
+Package natbib Warning: Citation `sanner1999python' on page 17 undefined on inp
+ut line 25.
+
+
+Package natbib Warning: Citation `spss' on page 17 undefined on input line 25.
+
+
+Package natbib Warning: Citation `sas' on page 17 undefined on input line 25.
+
+
+Package natbib Warning: Citation `mcelreath2020statistical' on page 17 undefine
+d on input line 27.
+
+[17]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 40.
+
+[18]
+
+LaTeX Warning: Reference `todolbl:1' on page 19 undefined on input line 103.
+
+[19]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 12
+6.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+LaTeX Warning: Reference `fig:overview' on page 20 undefined on input line 129.
+
+
+
+Package natbib Warning: Citation `jun2019tea' on page 20 undefined on input lin
+e 130.
+
+
+Package natbib Warning: Citation `jun2022tisane' on page 20 undefined on input 
+line 130.
+
+
+LaTeX Warning: Reference `fig:tools' on page 20 undefined on input line 136.
+
+
+Package natbib Warning: Citation `jun2019tea' on page 20 undefined on input lin
+e 137.
+
+
+Package natbib Warning: Citation `jun2022tisane' on page 20 undefined on input 
+line 137.
+
+
+LaTeX Warning: Reference `todolbl:2' on page 20 undefined on input line 151.
+
+
+LaTeX Warning: Reference `todolbl:3' on page 20 undefined on input line 153.
+
+
+LaTeX Warning: Reference `todolbl:4' on page 20 undefined on input line 155.
+
+) [20]
 Chapter 2.
-(./05-relatedWork.tex) [17] [18
-
-
-]
-Chapter 3.
-(./06-tea.tex [19]) [20]
-Chapter 4.
-(./07-hypothesisFormalization.tex) [21
+(./05-relatedWork.tex) [21
 
 
 ] [22
 
 
 ]
+Chapter 3.
+(./06-tea.tex [23]) [24]
+Chapter 4.
+(./07-hypothesisFormalization.tex) [25
+
+
+] [26
+
+
+]
 Chapter 5.
-(./08-tisane.tex) [23] [24
+(./08-tisane.tex) [27] [28
 
 
 ]
 Chapter 6.
-(./09-rTisane.tex) [25] [26
+(./09-rTisane.tex) [29] [30
 
 
 ]
 Chapter 7.
-(./10-conclusion.tex) (./dissertation.bbl [27] [28
-
-]
+(./10-conclusion.tex [31]) (./dissertation.bbl [32]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 40.
 
-) [29] [30
+) [33
+
+] [34
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) 
 has been already used, duplicate ignored
@@ -1239,27 +1310,34 @@ LaTeX Warning: No positions in optional float specifier.
 Package caption Warning: Unused \captionsetup[sub] on input line 79.
 See the caption package documentation for explanation.
 
-[31] (./dissertation.aux)
+
+Package natbib Warning: There were undefined citations.
+
+[35] (./dissertation.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 84A2008B7DF55CF1C3A47AB876FC46A1;8109.
+(rerunfilecheck)             Checksum: 0202D5AED9AE97B2ED25CD32712DE0EE;10633.
  ) 
 Here is how much of TeX's memory you used:
- 26604 strings out of 478994
- 468756 string characters out of 5858184
- 778454 words of memory out of 5000000
- 43435 multiletter control sequences out of 15000+600000
- 443519 words of font info for 77 fonts, out of 8000000 for 9000
+ 26736 strings out of 478994
+ 470407 string characters out of 5858184
+ 782761 words of memory out of 5000000
+ 43536 multiletter control sequences out of 15000+600000
+ 449665 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,8n,119p,765b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021
-/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (31 pages, 73838 bytes).
+xlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/20
+21/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-d
+ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/urw/times/utmri8a.pfb>
+Output written on dissertation.pdf (35 pages, 90410 bytes).
 PDF statistics:
- 367 PDF objects out of 1000 (max. 8388607)
- 326 compressed objects within 4 object streams
- 73 named destinations out of 1000 (max. 500000)
- 301 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 446 PDF objects out of 1000 (max. 8388607)
+ 400 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
