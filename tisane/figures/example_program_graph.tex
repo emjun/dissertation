@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{tikz}
+
+\usetikzlibrary{arrows}
+
+\tikzset{
+    vertex/.style={circle,draw,minimum size=1.5em},
+    edge/.style={->,> = latex'}
+}
+
+\begin{document}
+\begin{tikzpicture}
+
+% vertices
+% \node[vertex] (tutoring) at (-2,-2) {$5$};
+% \node[vertex] (hw) at (0,0) {$1$};
+% \node[vertex] (race) at (2,0) {$2$};
+% \node[vertex] (math) at (0,-2) {$3$};
+% \node[vertex] (exam) at (2,-2) {$4$};
+% \node[vertex] (mean_ses) at (2,-2) {$4$};
+% \node[vertex] (student) at (-2,-2) {$5$};
+% \node[vertex] (school) at (-2,-2) {$5$};
+\fill (0,0) circle (0.05) node[label=below:tutoring,draw]{};
+\fill (1,1) circle (0.05) node[label=below:student,draw]{};
+\fill (1,-1) circle (0.05) node[label=below:school,draw]{};
+\fill (2,3) circle (0.05) node[label=below:hw,draw]{};
+\fill (2,1) circle (0.05) node[label=below:race,draw]{};
+\fill (2,-1) circle (0.05) node[label=below:exam,draw]{};
+\fill (2,-3) circle (0.05) node[label=below:mean_ses,draw]{};
+\fill (3,0) circle (0.05) node[label=below:math,draw]{};
+
+
+%edges
+% \draw[edge] (1) -- (2) node[midway, above] {$\frac{1}{3}$};
+% \draw[edge] (1.260) -- (3.100);
+% \draw[edge] (1.325) -- (4.125) node[pos=.3, right, sloped, rotate=90] {$\frac{1}{3}$};
+% \draw[edge] (2) -- (3);
+% \draw[edge] (2) -- (4) node[midway, right] {$\frac{1}{2}$};
+% \draw[edge] (3.80) -- (1.280);
+% \draw[edge] (4) -- (3);
+% \draw[edge] (4.145) -- (1.305);
+% \draw[edge] (3.170) -- (5.10);
+% \draw[edge] (5.350) -- (3.190);
+\end{tikzpicture}
+\end{document}

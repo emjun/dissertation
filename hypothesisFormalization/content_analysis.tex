@@ -1,0 +1,339 @@
+\section{Formative content analysis} \label{sec:litSurvey} 
+To complement our in-depth synthesis of prior work, we conducted a formative
+content analysis of 50 peer-reviewed publications from five different domains. 
+
+\subsubsection{Methods}
+We randomly sampled ten papers published in 2019 from each of the following
+venues: (1) the Proceedings of the National Academy of Sciences (PNAS), (2)
+Nature, (3) Psychological Science (PS), (4) Journal of Financial Economics
+(JFE), and (5) the ACM Conference on Human Factors in Computing Systems (CHI).
+We sampled papers that used statistical analyses as either primary or secondary
+methodologies. Our sample represents a plurality of domains and recent
+practices.~\footnote{Google Scholar listed the venues among the top three in
+their respective areas in 2018. Venues were often clustered in the rankings
+without an obvious top-one, so we chose among the top three based on ease of
+access to publications (e.g., open access or access through our institution).
+Some papers were accepted and published before 2019, but the journals had
+included them in 2019 issues.}
+
+% We analyzed published papers because researchers are
+% not only likely but required to report significant operationalization choices in
+% their publications. 
+
+The first two authors iteratively developed a codebook to code papers at the
+paragraph-level. The codebook contained five broad categories: (i) research
+goals, (ii) data sample information, (iii) statistical analysis, (iv) results
+reporting, and (v) computation. Each category had more specific codes to capture
+more nuanced differences between papers. This tiered coding scheme enabled us to
+see general content patterns across papers and nuanced steps within papers. The
+first two authors reached substantial agreement (IRR = .69 - .72) even before
+resolving disagreements. The first three authors then (i) read and coded all
+sections of papers except the figures, tables, and auxiliary materials that did
+not pertain to methodology\footnote{PNAS and Nature papers included a materials
+and methods section after references that were distinct from extended tables,
+figures, and other auxiliary material. We coded the materials and methods
+sections in the appendices and included them in the content analysis. Our
+supplementary material describes our process in greater detail.}; (ii) discussed
+and summarized the papers' goals and main findings to ensure comprehension and
+identify contribution types; and (iii) visualized each paper as a ``reorderable
+matrix''~\cite{bertin2011graphics}. 
+
+\figureExampleReorderableMatrix
+
+We adapted Bertin's ``reorderable matrix''~\cite{bertin2011graphics}, an
+interactive visualization technique for data exploration, in our analysis. We
+visualized each paper in our sample as a matrix where each row represented a
+code in our codebook and each column represented a coded paragraph. We fixed the
+order of paragraphs to match the paper's progression. We colored codes (rows)
+according to their categories in our codebook, repeatedly reordered the rows
+representing codes, and transposed the matrices to detect visual patterns in the
+papers. Figure~\ref{figure:exampleReorderableMatrix} shows an example matrix. 
+% and each column represented a code in our codebook
+
+% We visualized each paper as a reorderable matrix in order to more easily and
+% systematically identify patterns in paper structure and content. 
+The visual representation of papers' content and structure helped us notice
+common patterns across papers and guided our follow-up analyses and discussions about what steps
+(\rqSteps) and considerations (\rqProcess) researchers reported having during
+hypothesis formalization. Across multiple papers, the matrices showed how
+researchers typically start with broader research goals that they decompose into
+specific hypotheses (i.e., hypothesis refinement) over the course of a paper
+section, for example. Within a single paper, the matrices visually showed patterns of how
+researchers motivated and pieced together multiple experiments and interpreted
+statistical results in order to make a primary scientific argument. Our
+supplementary materials include our codebook with definitions and examples as
+well as a summary, citation, and annotated matrix for each paper.
+
+% We were interested in (i) learning about the
+% breadth of steps involved in hypothesis formalization rather than assessing how
+% well papers fit a predetermined set of steps and (ii) detecting any
+% co-occurrence or ordering among steps. 
+
+% For example, research goals could be
+% statements or questions about something unknown, or focused examinations of
+% possible associations between constructs, among other codes. 
+
+\subsubsection{Findings}
+\begin{comment}
+\noindent\textbf{Overview:} We coded a total of 2,989 paragraphs across 50 papers. Results were the most
+commonly discussed topic. Approximately 31\% of the paragraphs (in 50 papers)
+discussed interpretations of statistical results, and ~11\% (in 37 papers)
+provided details about statistical results (e.g., parameter estimates).
+Interpreted results often co-occurred with statistical results. ~21\% of
+paragraphs (in 40 papers) described data collection design (e.g., how the
+experiment was designed, how the data were collected, etc.). Specifications of
+statistical models appeared in ~19\% of paragraphs (in 50 papers). ~11\% of
+paragraphs (in 45 papers) discussed proxy variables, or measures to quantify
+abstract constructs (e.g., music enjoyment). To our surprise, more papers
+mentioned software than included equations. Researchers mentioned software used
+for statistical analysis in 3\% of paragraphs (in 25 papers), sometimes even
+specifying function names and parameters, a level of detail we did not expect to
+find in publications. Only fifteen papers (JFE: 9, PS: 5, PNAS: 1) included
+equations in a total of 71 paragraphs. This suggests that mathematical
+equations, though part of the hypothesis formalization process, are less
+important to researchers than their tool-specific implementations.
+
+Papers published in PNAS and Nature had noticeably different structures than the
+CHI, JFE, and PS papers. The PNAS and Nature papers decoupled research goals,
+data sample properties, and results (in the main paper body) from data
+collection design and statistical analysis (in the appended materials and
+methods section). For individual studies in the CHI, JFE, and PS papers, codes
+repeated in noticeably linear patterns from research goals to data collection
+and sample information to proxy variables and statistical analyses to results.
+Although researchers write about the hypothesis operationalization and
+statistical analysis process linearly, prior observational work describes data
+analysis as highly iterative~\cite{}. The lack of information about hypothesis
+operationalization and the contradiction between scientific narratives and
+processes further suggest the opacity of hypothesis formalization and the need to study it and motivate our lab study. 
+
+We present more comprehensive tables and findings about paper structure, about paper
+contributions and venue differences in our supplementary material.
+
+% \ej{Fill this in: Through open coding and discussion, we identified 41 papers
+% that made empirical contributions showing or explaining a phenomenon, six
+% contributed novel methodologies, eight developed and evaluated prototype tools
+% (could be physical, biological, etc.), and nine made various other
+% contributions (e.g., replications, finding new a species, etc.). Table~\ref{}
+% gives an overview of contribution types across venues. -- Mention some papers
+% were overlapped? Move this to supp material?}
+
+\end{comment}
+
+The content analysis confirmed prior findings on (i) the connection between
+hypotheses and causal models (e.g.,\cite{mcelreath2020statistical}), (ii) the
+importance of proxies to quantify concepts, and (iii) the constraints that data
+collection design and logistics place on modeling. Extending prior work, the
+content analysis also (i) suggested that decomposing hypotheses into specific
+objectives is a mechanism by which conceptual hypotheses relate to causal
+models; (ii) crystallized the hypothesis refinement loop involving conceptual
+hypotheses, causal models and proxies; and (iii) surfaced the dual-search nature
+of hypothesis formalization by suggesting that model implementation may shape
+data collection. 
+
+\begin{comment}
+Researchers decompose hypotheses into sub-goals that correspond to statistical
+analyses. In approximately 70\% of papers in the corpus, we found that
+researchers deconstructed their motivating research questions and overarching
+hypotheses into more tightly scoped objectives or relationships of interest that
+map to specific statistical analyses. For example, in~\cite{N8}, the researchers
+asked how theories of macroevolution varied across groups of species. The
+authors divided pre-existing hypotheses into three classes of hypotheses and
+assessed each class in turn. For one class of ``geometric'' hypotheses about
+insect egg size, the researchers discriminated between two opposing hypotheses
+by examining ``the scaling exponent of length and width (the slope of the
+regression of log-transformed length and log-transformed width).'' As this
+example demonstrates, hypothesis formalization involves an \emph{iterative
+hypothesis refinement process at the conceptual level}. This refinement process
+distills hierarchies of hypotheses and/or a single conceptual hypothesis into
+sub-hypotheses and formalizes these sub-hypotheses in statistical model
+implementations. Researchers also relate sub-hypotheses to one other during this
+process, which implies their causal models about the motivating conceptual
+hypothesis (and domain).
+
+% The refinement process
+% implies researchers' causal models about the motivating conceptual hypothesis
+% (and domain) that is observable in how they relate sub-hypotheses to one
+% another. 
+
+Researchers concretize hypotheses using proxies that are based on theory or
+available data. Proxy variables further refine conceptual hypotheses by
+identifying how observable some concepts are, measuring the observable ones,
+indirectly measuring the less observable ones, and comparing measurement choices
+to other possible measures or ideal scenarios. As such, proxy variable selection
+is an important transition step between conceptual and data concerns during
+hypothesis formalization.
+
+
+% When defining proxy variables, researchers (i) used previously validated
+% measures when available for theoretical and methodological soundness, such as
+% the Barcelona Music Reward Questionnaire (BMRQ) to measure music reward
+% (in~\cite{PS1}), or (ii) developed new measures as a research contribution. For
+% example, in~\cite{CHI0}, the authors develop an EEG-based measure for
+% ``immersiveness'' in VR they demonstrated to be superior to previous measures
+% that required halting immersive VR experiences to ask users about immersion.
+% Researchers also sometimes justified choosing proxies based on available data.
+% For example, in~\cite{JFE5}, the researchers wanted to develop a proxy variable
+% for job rank based on titles and ``financial outcomes'' (e.g., compensation,
+% bonuses, etc.) to see if housing bankers were promoted or demoted after the 2008 stock market
+% crash. However, because the financial outcomes were not public, the researchers
+% relied on title only to compare bankers' ranks, which was sub-optimal because
+% job titles differ between companies. 
+
+Researchers consider their proxy choices as study limitations and consider
+alternative proxies to ensure that their findings are robust. Validating
+findings with multiple proxies suggests that hypothesis formalization can be a
+\emph{recursive process}. Proxies lead to follow-up hypotheses about possible
+latent measurement factors, for instance, which in turn lead to additional analyses that address
+the same conceptual hypothesis. 
+
+% In doing so, the researchers hypothesize that another latent variable or
+% measurement artifact is responsible for their findings.
+
+Data collection and sampling influence statistical analysis. Researchers often
+described their data sampling and study design as factors that necessitated
+additional steps in their analysis process. In~\cite{PS0} and~\cite{PS5},
+researchers accounted for effects of task order in their study protocol by
+running additional regressions or analyzing tasks separately. Researchers also
+ran initial analyses to assess the effect of possibly confounding variables in
+their study design, such as gender in~\cite{PS3} or location of stimuli
+in~\cite{PS4}. Other times, researchers performed robustness checks after their
+main analyses, such as in response to a gender imbalance in~\cite{PS5} and
+possible sample selection biases due to database constraints in~\cite{JFE1}.
+
+Although data collection driven by statistical modeling plans was expected of
+replication studies (e.g.,~\cite{PS8,PS5,PS0}) or papers that make
+methodological contributions (e.g.,~\cite{JFE6, JFE7}), we found an instance
+in~\cite{PS2}\textemdash neither replication nor methodological
+contribution\textemdash where researchers explicitly reported selecting a
+statistical model before designing their study. The researchers chose to use a
+well-validated computational model, the linear ballistic accumulator (LBA), to
+quantify aspects of human decision making. This model selection influenced the
+way they designed their study protocol so that they could obtain a sample large
+enough for accurate parameter estimation. 
+%  the human information-processing system that may underlie decision making.
+
+% specifically to collect a data sample that would lead to accurate parameter estimation with the LBA.
+
+% we found an instance of an analysis in~\cite{PS2} that neither replicated prior work nor methodological contirbution. 
+
+% Interestingly, there was one instance of an analysis from a paper that neither replicated prior work nor contributed a novel methodology where researchers
+% explicitly stated that they collected data with a specific statistical model in mind. 
+% had selected a statistical model for analysis before collecting data. In~\cite{PS2}, the researchers chose to use a well-validated computational
+% model, the linear ballistic accumulator (LBA), to quantify aspects of the human
+% information-processing system that may underlie decision making. This model
+% selection influenced their study protocol, which they designed specifically to
+% collect a data sample that would lead to accurate parameter estimation with the
+% LBA. 
+
+% For instance, in~\ej{\cite{}}, after the researchers found bankers involved in
+% the housing market were not punished with reduced employment or retention
+% prospects after the 2008 financial crisis, the researchers asked a follow-up
+% question about how employment may have differed between RMBS and non-RMBS
+% bankers. The researchers use the non-RMBS banker group as a counterfactual.
+% For the purpose of detecting firm-based fixed effects in their statistical
+% analysis and controlling for other factors, the researchers justify only
+% including non-RMBS with matched criteria and data from the top 18 underwriting
+% firms. Although the researchers write about their initial data selection
+% process without mentioning their analyses, it is clear that specific analyses
+% may require small adjustments to or new forms of collecting and sampling data.
+% Especially important here, is also that previously defined and tested
+% sub-hypotheses and their results underlie this process.
+
+% Based on prior work, we expected researchers to describe how their
+% experimental protocols and sampling procedures would affect statistical
+% models. We were suprised to find only \ej{one} example of modeling imposing
+% data collection constraints. 
+
+Based on these observations, it seems that modeling choices more frequently
+react to data collection processes and possible sample biases, following a
+linear data collection-first process implied by prior work. However, there are
+also instances where model implementation comes first and researchers' data
+collection procedures must adhere to modeling needs, suggesting a previously
+missing \emph{loop between statistical model implementation and data collection}
+that is separate from any influences conceptual hypotheses have on data
+collection. 
+
+% Pre-registration may require both of these processes although only the data
+% collection first linear process may be the one included in pre-registration
+% reports and publications. 
+\end{comment}
+
+\begin{comment}
+Although researchers discussed the structure of their analyses, we found that
+they did Although researchers more explicitly justified the structure of their
+models, they did not justify why the particular model was the best one or better
+than others they may have considered. There may be some trade-off analysis
+researchers calculated but did not write in the paper, which is a limitation of
+the literature survey that we hoped to address in the lab study. R
+
+
+Sometimes, researchers implicitly communicated why their model fit their design
+by discussing the two in tandem. For instance, no explicit rationale but
+basically translated into procedure for CHI Sq. test. 
+
+PNAS\_6 - page 19204 statistical consideraitons 
+
+Related to: Sample info - Statistical Analysis? 
+
+
+
+Other times, researchers were more explicit in how their statistical models took
+(i) the study design or (ii) latent structures in the data. For instance, <find
+PS example>. Find JFE example for structures. 
+
+\end{comment}
+
+
+\subsubsection{Limitations}
+The major limitation of analyzing published papers is the disconnect between
+actual and reported analytical practice. The pressures to write compelling
+scientific narratives~\cite{kerr1998harking} likely influence which aspects of
+hypothesis formalization are described or omitted. For instance, in practice, model
+implementations may constrain data collection more often than we found in our
+sample. Nevertheless, the lack of information in prior work and the content
+analysis suggests that hypothesis formalization remains an opaque process
+deserving of greater scrutiny. Hypothesis formalization may explain how analysts
+determine which tools to use and how domain expertise may influence the analytical conclusions reached. 
+
+\subsection{Expected Steps in Hypothesis Formalization}
+% \figurePriorWork 
+Towards our first two research questions about what actions analysts take to
+formalize hypotheses (\rqSteps) and why (\rqProcess), prior work and our
+formative content analysis suggest that hypothesis formalization involves steps
+in three categories: conceptual, data-based, and statistical.
+\textit{Conceptually,} analysts develop conceptual hypotheses and causal models
+about their domain that guide their data analysis. With respect to
+\textit{data}, analysts explore data and incorporate insights from exploration,
+which can be top-down or bottom-up, into their process of formalizing
+hypotheses. The \textit{statistical} concerns analysts must address involve
+mathematical and computational concerns, such as identifying a statistical
+approach (e.g., linear modeling), representing the problem mathematically (e.g.,
+writing out a linear model equation), and then implementing those using
+software. In our work, we find evidence to support separating statistical
+considerations into concerns about mathematics, statistical specification in
+tools, and model implementation using tools.
+
+A key observation about prior work is that there is a tension between iterative
+and linear workflows during hypothesis formalization. Although sensemaking
+processes involve iteration, concerns about methodological soundness, as
+evidenced in pre-registration efforts that require researchers to specify and
+follow their steps without deviation, advocate for, or even impose, more linear
+processes. More specifically, theories of sensemaking that draw on cognitive
+science, in particular~\cite{russell1993cost,grolemund2014cognitive}, propose
+larger iteration loops between conceptual and statistical considerations. Some
+textbooks and research concerning statistical thinking and
+practices~\cite{wild1999statisticalThinking,carver2016guidelines} appear less
+committed to iteration while other researchers and practitioners in applied
+statistics emphasize \textit{workflows} for iterating on statistical
+models~\cite{yu2020veridical,lee2019robust,gelman2013bayesianTextbook}.
+Workflows (e.g., model expansion) can help researchers start with simple models and build up to more
+complex ones by incrementally testing and refining their
+understanding of characterstics of the data, the model fitting algorithms, and
+computational settings~\cite{betancourt2020bayesianWorkflow,gelman2020bayesianWorkflow,gabry2019visualization}. Moreover, empirical work in HCI on data analysis embraces
+iteration during exploration and observes iteration during some phases of
+confirmatory data analysis, such as statistical model choice, but not in others,
+such as tool selection. In our work, we are sensitive to this tension and aim to
+provide more granular insight into iterations and linear processes involved in
+hypothesis formalization. We also anticipate that the steps identified in prior
+work will recur in our lab study, but we do not limit our investigation to these
+steps. 

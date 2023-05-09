@@ -1,28 +1,154 @@
-This chapter covers material from a single project.  There are typically 3-4 of these chapters total (but any number is fine as long as your advisor is on board).
-
-
-\section{Updating things if you've copied and pasted}
 If you are copying and pasting material from one of your papers, then remember to:
 \begin{itemize}
-    \item Remove the abstract and instead add a little overview of the chapter and how it ties in to the rest of the thesis. You should also mention the original paper's source like: ``This chapter includes materials originally published in $\backslash$citet\{myownppr\}''
-    \item Make sure the formatting still works -- this is single column now!
+    % \item Remove the abstract and instead add a little overview of the chapter and how it ties in to the rest of the thesis. You should also mention the original paper's source like: ``This chapter includes materials originally published in $\backslash$citet\{myownppr\}''
+    % \item Make sure the formatting still works -- this is single column now!
     \item Consider rephrasing conference-paper-style language:
     \begin{itemize}
         \item Find every place you mention some variation of ``in this paper'' and say ``in this chapter'' instead.
         \item Remove or rephrase the parts where you talk about ``our main contributions''.
         \item Rephrase the language describing code and data releases.
     \end{itemize}
-    \item Replace the conclusion section with a summary section. Again, you should tie this chapter back to the main themes of the thesis.
+    % \item Replace the conclusion section with a summary section. Again, you should tie this chapter back to the main themes of the thesis.
 \end{itemize}
 
+{\color{orange} Write an overview of chapter, how it ties to the rest of the thesis.}
 
-\section{Related Work:...}
-\section{Design of Tea's DSL}
-\section{Tea's constraint-based runtime system}
+{\color{orange} ``This chapter includes materials originally published in $\backslash$citet\{myownppr\}''}
+
+\section{Related work}
+% \vspace{-7pt}
+Tea extends prior work on domain-specific languages for the data life cycle, 
+tools for statistical analysis, and constraint-based approaches in HCI. 
+
+\vspace{-6pt}
+\subsection{Domain-specific Languages for the Data Life Cycle}
+Prior domain-specific languages (DSLs) have focused on several different stages
+of data exploration, experiment design, and data cleaning to shift the burden of
+accurate processing from users to systems. To support data exploration,
+Vega-lite~\cite{satyanarayan2017vega} is a high-level declarative language that
+supports users in developing interactive data visualizations without writing
+functional reactive components. PlanOut~\cite{bakshy2014planout} is a DSL for
+expressing and coordinating online field experiments. More niche than PlanOut,
+Touchstone2 provides the Touchstone Language for specifying condition
+randomization in experiments (e.g., Latin
+Squares)~\cite{eiselmayer2019touchstone2}.%Experimental design is also an
+essential aspect of the domain knowledge users encode in Tea programs. To
+support rapid data cleaning,  Wrangler~\cite{kandel2011wrangler} combines a
+mixed-initiative interface with a declarative transformation language. Tea can
+be integrated with tools such as Wrangler that produce cleaned CSV files ready
+for analysis.
+
+In comparison to these previous DSLs, Tea provides a language to support another crucial step in the data life cycle: statistical analysis. 
+
+%As a declarative language, Tea has a similar goal for statistical analysis. Tea users do not write any code that performs statistical procedures. They instead focuses on expressing their experimental designs, assumptions, and hypotheses with variables in their data. 
+
+
+\vspace{-13pt}
+\subsection{Tools for Statistical Analysis}
+Research has also introduced tools to support statistical analysis in diverse
+domains. ExperiScope~\cite{guimbretiere2007experiscope} supports users in
+analyzing complex data logs for interaction techniques. ExperiScope surfaces
+patterns in the data that would be difficult to detect manually and enables
+researchers to collect noisier data in the wild that have greater external
+validity. Touchstone~\cite{mackay2007touchstone} is a comprehensive tool that
+supports the design and launch of online experiments. Touchstone provides
+suggestions for data analysis based on experimental design.
+Touchstone2~\cite{eiselmayer2019touchstone2} builds upon Touchstone and provides
+more extensive guidance for evaluating the impact of experimental design on
+statistical power. Statsplorer~\cite{wacharamanotham2015statsplorer} is an
+educational web application for novices learning about statistics. While more
+focused on visualizing various alternatives for statistical tests, Statsplorer
+also automates test selection (for a limited number of statistical tests and by
+executing simple switch statements) and the checking of assumptions (though it
+is currently limited to tests of normality and equal
+variance).~\cite{wacharamanotham2015statsplorer} found that Statsplorer helps
+HCI students perform better in a subsequent statistics lecture. 
+
+In comparison to Statsplorer, Tea is specifically designed to integrate into
+existing workflows. Tea can be executed in any Python environment, including
+notebooks, which are widely used in data analysis. Tea enables reproducing and
+extending analyses by being script-based, and the analyses are focused on
+hypotheses that analysts specify. 
+
+%However, Statsplorer is an educational web application that supports a limited number of statistical tests and grounds the analysis procedure in data visualizations. 
+
+%Tea is a Python-based domain specific language designed to integrate into existing workflows that involve programming. Tea also captures users' domain knowledge, and analyses are focused on hypotheses. Tea currently provides a wider range of statistical tests than Statsplorer and can be extended to support emerging statistical practices. 
+\vspace{-13pt}
+\subsection{Constraint-based Systems in HCI}
+%\chasins{is this subsection really necessary??}
+Languages provide semantic structure and meaning that can be reasoned about
+automatically. For domains with well defined goals, constraint solvers can be a
+promising technique. Some of the previous constraint-based systems in HCI have
+been Draco~\cite{moritz2019formalizing} and SetCoLa~\cite{hoffswell2018setcola},
+which formalize visualization constraints for graphs. Whereas SetCoLa is
+specifically focused on graph layout, Draco formalizes visualization best
+practices as logical constraints to synthesize new visualizations. The knowledge
+base can grow and support new design recommendations with
+additional constraints.
+
+%Tea is more similar to Draco. Tea codifies tests and their preconditions as constraints. Tea aims to provide an architecture that supports the growth of a statistical analysis knowledge base as communities adopt new statistical best practices and methods. 
+
+Another constraint-based system is Scout~\cite{swearngin2018scout}, a mixed-initiative system that supports
+interface designers in rapid prototyping. Designers specify high-level 
+constraints based on design concepts (e.g., a profile picture should be more
+emphasized than the name), and Scout synthesizes novel interfaces. Scout also uses
+Z3's theories of booleans and integer linear arithmetic. %Tea currently uses booleans but could leverage integer arithmetic to increase the expressivity of constraints and statistical tests. 
+
+We extend this prior work by providing the first constraint-based system for statistical analysis. 
+
+
+\section{Statistical scope}
+Tea is designed for statistical tests common to Null Hypothesis Significance
+Testing (NHST). While there are calls to incorporate other methods of
+statistical analysis~\cite{kay2016researcher,kaptein2012rethinking}, Null
+Hypothesis Significance Testing (NHST) remains the norm in HCI and other
+disciplines. Therefore, Tea currently implements a module for NHST with the
+tests found to be most common by~\cite{wacharamanotham2015statsplorer}. In
+particular, Tea supports four classes of tests: correlation (parametric: \r,
+\pb; non-parametric: \ktau, \srho), bivariate mean comparison (parametric:
+\student, \paired; non-parametric: \mannu, \wilcox, \welch), multivariate mean
+comparison (parametric: \f, \rm, \facANOVA, \twoANOVA; non-parametric: \kw,
+\friedman), and comparison of proportions (\chiSq, \fisher). Tea also supports
+an implementation of bootstrapping~\cite{efron1992bootstrap}.
+
+% \section{Design of Tea's DSL}
+% \section{Tea's constraint-based runtime system}
+\input{tea/system.tex}
+
 Why constraints? are they really necessary?
-\section{Evaluation:...}
-\section{Key tensions}
+
+% \section{Evaluation:...}
+\input{tea/eval.tex}
+
+\section{Discussion: Key tensions}
 - inflated alpha
 - inherent tension in executing multiple statistical tests vs. sensitivity
+
 \section{Limitations, Ongoing work, Future directions}
+
+\subsection{Ongoing development}
+With teams of undergrads, I have continued to improve Tea in two specific ways. 
+
+First, recent development has focused on updating the outputs of Tea to include
+(i) interactive visualizations and (ii) text for reporting the statistical
+results in the American Psychological Association's recommended formats for each
+valid statistical test. The interactive visualizations aim to illustrate what
+the results of the statistical tests mean, such as scatterplots for correlations
+and heatmaps for the Chi-squared test. We selected the visualizations for each
+test based on recommendations from Franconeri et
+al.~\cite{franconeriVisualizationChooser}, what existing tools such as
+JMP~\cite{jmp} already use, and our own experiences using and trying to
+communicate statistical results. Development and initial user testing is on
+track to wrap up by the end of spring quarter. 
+
+Second, a usability issue with Tea's current API is its reliance of ``magic
+strings.'' We are currently refactoring the API to be more object-oriented by
+extending Tisane's variables data classes. We hope this revision will be more
+usable with ``free'' help from existing IDEs such as VSCode that provide API
+suggestions inline when specifying parameters. 
+
+Both features will be incorporated into a new release of Tea, which I have
+currently scheduled for June, 2022. 
+
 \section{Summary of Contributions}
+% Replace the conclusion section with a summary section. Again, you should tie this chapter back to the main themes of the thesis.

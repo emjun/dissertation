@@ -1,0 +1,114 @@
+\def\r{Pearson's r\xspace}
+\def\ktau{Kendall's $\tau$\xspace}
+\def\srho{Spearman's $\rho$\xspace}
+\def\pb{Pointbiserial\xspace}
+\def\student{Student's t-test\xspace}
+\def\paired{Paired t-test\xspace}
+\def\mannu{Mann-Whitney U\xspace}
+\def\wilcox{Wilcoxon signed rank\xspace}
+\def\welch{Welch's t-test\xspace}
+\def\f{F-test\xspace}
+\def\rm{Repeated measures one way ANOVA\xspace}
+\def\kw{Kruskal Wallis\xspace}
+\def\friedman{Friedman\xspace}
+\def\facANOVA{Factorial ANOVA\xspace}
+\def\twoANOVA{Two-way ANOVA\xspace}
+\def\chiSq{Chi Square\xspace}
+\def\fisher{Fisher's Exact\xspace}
+\def\boot{Bootstrap\xspace}
+
+\begin{table*}[htbp]
+    \begin{center}
+    \caption{\textbf{Results of applying Tea to 12 textbook tutorials.}\label{tab:results}}
+\begin{minipage}{\linewidth}
+% \vspace*{-12pt}
+\footnotesize{Tea is comparable to an expert selecting statistical tests. Tea can
+prevent false positive and false negative results by suggesting only tests that
+satisfy all assumptions. \textit{Tutorial} gives the test described in the
+textbook; \textit{Candidate tests (p-value)} gives all tests a user could run on
+the provided data with corresponding p-values; \textit{Assumptions} gives all
+satisfied (lightly shaded) and violated (white)
+assumptions; \textit{Tea suggests} indicates which tests Tea suggests based on
+their preconditions (assumptions about the data). \textbf{Emphasized} p-values indicate instances where a
+candidate test leads to a wrong conclusion about statistical significance.
+Although this table focuses on p-values, Tea produces richer output that
+provides a more holistic view of the statistical analysis results by including
+effect sizes, for instance. Refer to Figure~\ref{fig:modes} for an
+example of output from a Tea program.}
+\end{minipage}
+    \begin{tabularx}{\textwidth}{p{0.2\textwidth}p{0.4\textwidth}lc}
+    \toprule
+    \colH{Tutorial} & \colH{Candidate tests (p-value)} & \colH{Assumptions*} & \colH{Tea suggests} \\
+    \midrule
+      Pearson                   & \r    \hfill (6.96925e-06) & \valid{2} \valid{4} \invalid{5} & \no \\
+      \cite{kabacoff2011action} & \ktau \hfill (2.04198e-05) & \valid{2} \valid{4}             & \yes \\
+                                & \srho \hfill (2.83575e-05) & \valid{2} \valid{4}             & \yes \\
+    \midrule
+    \srho                       & \srho \hfill (.00172)  & \valid{2} \valid{4}           & \yes \\
+    \cite{field2012discoveringR} & \r    \hfill (.01115)    &   \valid{2} \invalid{4}                   & \no \\ 
+                                & \ktau \hfill (.00126) & \valid{2} \valid{4} & \yes \\
+    \midrule
+    \ktau                       & \ktau \hfill (.00126) & \valid{2} \valid{4}             & \yes \\
+    \cite{field2012discoveringR} & \r   \hfill (.01115) & \valid{2} \invalid{4}             & \no \\
+                                & \srho \hfill (.00172) & \valid{2} \valid{4}             & \yes \\
+    \midrule
+    \pb                         & \pb (\r)  \hfill (.00287) & \valid{2} \valid{4} \invalid{5}             & \no \\
+    \cite{field2012discoveringR} & \srho \hfill (.00477) & \valid{2} \invalid{4}             & \no \\
+                                 & \ktau \hfill (.00574) & \valid{2} \invalid{4}             & \no \\
+                                 &\boot     \hfill (<0.05)                 &           & \yes \\
+    \midrule
+    \student                     & \student \hfill (.00012) & \valid{2} \valid{4} \valid{5} \valid{6} \valid{7} \valid{8} & \yes \\
+    % \cite{kabacoff2011action}    & \paired  \hfill (N/A)                    & \valid{2} & \no \\
+    \cite{kabacoff2011action}    & \mannu   \hfill (9.27319e-05)  & \valid{2} \valid{4} \valid{7} \valid{8} & \yes \\
+                                %  & \wilcox  \hfill (N/A)                    & \valid{2} & \no \\
+                                 & \welch   \hfill (.00065)  & \valid{2} \valid{4} \valid{5} \valid{7} \valid{8} & \yes \\
+    \midrule
+    \paired                      & \paired \hfill (.03098)    & \valid{2} \valid{4} \valid{5} \valid{7} \valid{8} & \yes \\
+    \cite{field2012discoveringR} & \student \hfill (\textbf{.10684})    & \valid{2} \valid{4} \valid{5} \invalid{7} & \no \\
+                                 & \mannu   \hfill (\textbf{.06861})    & \valid{2} \valid{4} \invalid{7} & \no \\
+                                 & \wilcox  \hfill (.04586)   & \valid{2} \valid{4} \valid{7} \valid{8} & \yes \\
+                                 & \welch   \hfill (\textbf{.10724})    & \valid{2} \invalid{7} & \no \\
+    \midrule
+    \wilcox                      & \wilcox  \hfill (.04657)    & \valid{2} \valid{4} \valid{7} \valid{8} & \yes \\
+    \cite{field2012discoveringR} & \student \hfill (.02690)   & \valid{2} \valid{4} \invalid{7} & \no \\
+                                 & \paired  \hfill (.01488)   & \valid{2} \valid{4} \invalid{5} \valid{7} \valid{8} & \no \\
+                                 & \mannu   \hfill (.00560)   & \valid{2} \valid{4} \invalid{7} & \no \\
+                                 & \welch   \hfill (.03572)   & \valid{2} \valid{4} \invalid{7} & \no \\
+    \midrule 
+    \f                            & \f      \hfill (9.81852e-13)            & \valid{2} \valid{4} \valid{5} \valid{6} \valid{9} & \yes \\
+    \cite{field2012discoveringR}  & \kw     \hfill (2.23813e-07)  & \valid{2} \valid{4} \valid{9} & \yes \\ 
+                                  & \friedman \hfill (8.66714e-07) & \valid{2} \invalid{7} & \no \\
+                                %   & \rm     \hfill ()           & \valid{2}  & \no \\
+                                  & \facANOVA \hfill (9.81852e-13)          & \valid{2} \valid{4} \valid{5} \valid{6} \valid{9} & \yes \\
+    \midrule
+    \kw                           & \kw      \hfill (.03419)    & \valid{2} \valid{4} \valid{9} & \yes \\
+    \cite{field2012discoveringR}  & \f       \hfill (\textbf{.05578})              & \valid{2} \valid{4} \invalid{5} \valid{9} & \no \\
+                                  & \friedman \hfill (3.02610e-08) & \valid{2} \invalid{7} & \no \\
+                                %   & \rm     \hfill ()           & \valid{2} & \no \\
+                                  & \facANOVA \hfill (\textbf{.05578})             & \valid{2} \valid{4} \invalid{5} \valid{9} & \no \\
+    \midrule
+    \rm                           & \rm     \hfill (.0000)           & \valid{2} \valid{4} \valid{5} \valid{6} \valid{7} \valid{9} & \yes \\
+    \cite{field2012discoveringR}  & \kw     \hfill (4.51825e-06)  & \valid{2} \valid{4} \invalid{7} \valid{9} & \no \\
+                                  & \f      \hfill (1.24278e-07)           & \valid{2} \valid{4} \valid{5} \valid{6} \invalid{7} \valid{9} & \no \\
+                                  & \friedman \hfill (5.23589e-11) & \valid{2} \valid{4} \valid{7} \valid{9} & \yes \\ % friedman says 3+ groups
+                                  & \facANOVA \hfill (1.24278e-07)          & \valid{2} \valid{4} \valid{5} \valid{6} \valid{9} & \yes \\
+    \midrule
+    \twoANOVA                     &\twoANOVA \hfill (3.70282e-17)           & \valid{2} \valid{4} \invalid{5} \valid{9} & \no \\
+    \cite{field2012discoveringR}  &\boot     \hfill (<0.05)                 &           & \yes \\
+    \midrule
+    \chiSq                        & \chiSq \hfill (4.76743e-07) & \valid{2} \valid{4} \valid{9} & \yes \\
+    \cite{field2012discoveringR}  & \fisher \hfill (4.76743e-07) & \valid{2} \valid{4} \valid{9} & \yes \\
+    \bottomrule
+    \multicolumn{4}{p{\linewidth}}{*\small{\assume{1} one variable,
+                       \assume{2} two variables,
+                       \assume{3} two or more variables,
+                       \assume{4} continuous vs. categorical vs. ordinal data,
+                       \assume{5} normality,
+                       \assume{6} equal variance,
+                       \assume{7} dependent vs. independent observations,
+                       \assume{8} exactly two groups,
+                       \assume{9} two or more groups}}
+
+    \end{tabularx}
+    \end{center}
+\end{table*}

@@ -1,0 +1,443 @@
+\section{Exploratory Lab Study} \label{sec:inLabStudy}
+
+To address the limitation of the content analysis, understand analysts'
+considerations (\rqProcess) while formalizing their hypotheses (\rqSteps), and
+examine the role of statistical software in this process (\rqTools), we designed
+and conducted a virtual lab study with freelance data workers who approach the
+hypothesis formalization and analysis process with expectations of rigor but
+without the pressure of publication.
+
+\subsection{Methods} 
+\textbf{Data workers:} We recruited 24 data workers with experience in domains
+ranging from marketing to physics to education through Upwork (22) and by
+word of mouth (2).\footnote{We refer to our participants as data workers because they work with data but do not represent the entire population of data scientists, which may include statistical experts.}
+
+Twelve data workers held occupations as scientists, freelance data scientists,
+project managers, or software engineers. Six were currently enrolled in or had just
+finished graduate programs that involved data analysis. Five identified as
+current or recent undergraduates looking for jobs in data science. One was an
+educator. Data workers self-reported having significant experience on a 10-point
+scale adapted from a scale for programming experience~\cite{feigenspan2012measuring} (min=2, max=10, mean=6.4,
+std=2.04) and would presumably have familiarity with hypothesis formalization.
+
+The lab study enables us to contrast normative expert practices (found in 
+prior work and our formative content analysis) to observed practices with data
+workers who are not statistical experts but still work in real-world analysis
+settings (i.e., research, marketing, consulting). A benefit of studying these
+data workers is that they are likely to benefit most from new tools. 
+
+% \tabledata workers
+
+\noindent\textbf{Protocol:} %Based on our content analysis findings, 
+We designed
+and conducted a lab study with three parts. Parts 1 and 3 were recorded and automatically transcribed using Zoom. We compensated data workers \$45 for
+their time. The first author conducted the study and took notes throughout.
+
+\textit{Part 1: Structured Tasks.}  
+Part 1 asked data workers to imagine they were leading a research team to answer
+the following research question: ``What aspects of
+an individual's background and demographics are associated with income after
+they have graduated from high school?''\footnote{We chose the open-ended research
+question about income after high school because we expected it to be widely
+approachable and require no domain expertise to understand.}
+We asked data workers to complete the following tasks:
+\begin{itemize}
+    \item \textit{Task 1: Hypothesis generation.} Imagining they had access to
+    any kind of data thinkable, data workers brainstormed at least three
+    hypotheses related to the research question.
+    \item \textit{Task 2: Conceptual modeling.} Next, data workers saw a sample
+    data schema and developed a conceptual model for one or more of their
+    hypotheses. We used the term ``conceptual model'' instead of ``causal
+    model'' to avoid (mis)leading data workers. We provided the following
+    definition: ``A conceptual model summarizes the process by which some
+    outcome occurs. A conceptual model specifies the factors you think influence
+    an outcome, what factors you think do not influence an outcome, and how
+    those factors might interact to give rise to the outcome.'' 
+    \item \textit{Task 3: Statistical model specification.} Finally, we
+    presented data workers with a sample dataset and instructed them to specify
+    but not implement a statistical model to test one or more of their
+    hypotheses. %\ej{Given that statistical software tools were not discussed with statistical specification.} 
+\end{itemize}
+
+After the three tasks, we conducted a semi-structured interview with
+data workers about (i) their validity concerns\footnote{If data workers were
+unfamiliar with the term ``validity,'' we rephrased the questions to be about
+``soundness'' or ``reliability.''} and (ii) experiences. To help us
+contextualize our observations and assess the generalizability of our findings,
+we asked data workers to compare the study's structure and tasks to their
+day-to-day data analysis practices.
+
+\textit{Part 2: Take-home analysis.} After the first Zoom session, data workers
+implemented their analyses using the previously shown dataset, shared any
+analysis artifacts (e.g., scripts, output, visualizations, etc.), and completed
+a survey about their implementation experience. Prior to Part 3, the first
+author reviewed all submitted materials and developed participant-specific
+questions for the final interview.
+
+\textit{Part 3: Final Interview.} The first author asked data workers to give an
+overview of their analysis process and describe the hypotheses they tested, how
+their analysis impacted their conceptual model and understanding, why they made
+certain implementation choices, what challenges they faced (if any), and any
+additional concerns about validity.
+
+\noindent\textbf{Materials:} The data schema and dataset used in the study came from a
+publicly available dataset from the Pew Research Center~\cite{pewDataset}. Each
+task was presented in a separate document. All study materials are included as
+supplementary material.
+
+\noindent\textbf{Analysis:} The first author reviewed the data workers' artifacts multiple
+times to analyze their content and structure;
+thematically analyzed notes and transcripts from data workers' Zoom sessions;
+and regularly discussed observations with the other authors throughout analysis.
+
+\subsection{Findings and Discussion} 
+
+% \todo{To clarify, the math representations we expected participants to provide were equations and/or statistical test names (e.g., ANOVA). It is possible that our stimuli primed participants to respond how they would perform, rather than represent, the task even after we clarified the question’s intent. Another interpretation of findings is that data workers prefer to reason about and communicate their analyses procedurally even if they know the math. This would still suggest reviewing how tools support model expression, which we did. We will clarify our expectations about math equations and incorporate the alternative interpretation.]}
+
+Eighteen of the 24 data workers we recruited completed all three parts of the study.
+The other six data workers completed only the first Zoom session. In our analysis,
+we incorporate data from all data workers for as far as they completed the study. 
+
+We found that data workers had four major steps (\rqSteps) and considerations
+(\rqProcess): (i) identifying or creating proxies, (ii) fitting their present
+analysis to familiar approaches, (iii) using their tools to specify models
+(\rqTools), and (iv) minimizing bias by relying on data. Data workers also faced
+challenges acquiring and incorporating domain and statistical knowledge
+(\rqProcess).
+
+% Overall/In conclusion, we found that data workers do not reason about statistical
+% models independently. Instead, they rely on their prior experiences, tools, and
+% external information to identify and implement statistical models that answer their conceptual hypotheses
+
+\theme{Data workers consider proxies and data collection while articulating hypotheses.}
+We encouraged data workers to not consider the feasibility of collecting data
+while brainstorming hypotheses. Yet, while brainstorming hypotheses,
+data workers expressed concern with how to measure constructs [D2, D5, D8,
+D12, D18, D22, D24] and how to obtain data [D2, D6, D8, D9, D11, D21, D24].
+
+For instance, D18, a computer science student who had worked on more than five data
+analysis projects, grappled with the idea of `privilege' and how to best
+quantify it: \longquote{I'm trying to highlight the fact that those who will be
+privileged before graduation...that experience will enable them to make again
+more money after graduation. I won't say `privilege' because we need to quantify
+and qualify for that...it's just an abstract term.} Eventually, D18 wrote two
+separate hypotheses about `privilege,' operationalizing it as parental income:
+(1) ``People with higher incomes pre graduating, end up having higher
+differences between pre and post graduation incomes than those with lower
+incomes pre graduation.'' and (2) ``People with parents with lower incomes tend
+to have lower incomes pre graduation than those with parents with higher
+incomes.'' 
+
+D18 continued to deliberate `privilege' as measured by low and high income,
+saying, \shortquote{...again you need to be careful with low and high because
+these are just abstract terms. We need to quantify that. What does it mean to be
+`low?' What does it mean to be `high?'}. Finally, D18 decided to
+\shortquote{maybe use the American standards for low income and high income.}
+Although an accepted ``American standard'' may not exist, D18 nevertheless
+believed that cultural context was necessary to specify because it could provide
+a normalizing scale to compare income during analysis, demonstrating how
+data workers plan ahead for statistical modeling while brainstorming and refining
+hypotheses. 
+
+Similarly, D2, a freelance data scientist, was very specific about how to measure personality:
+%in their hypothesis
+``More extraverted individuals (extraversion measured using
+the corresponding social network graph) are likely to
+achieve higher yearly income later in life.'' 
+
+In the presence of the data schema, more data workers were concerned with proxies
+[D2, D5, D6, D7, D8, D9, D16, D18, D21]. Some even adapted their working
+definitions to match the available data, similar to how researchers in the
+content analysis determined proxies based on data. For instance, D8, who hypothesized that
+``individuals interested in STEM fields tend to earn more post high school than
+individuals interested in other fields,'' operationalized ``interest'' as
+``Major'' --- a variable included in the data schema --- even though they had
+previously brainstormed using other proxies such as club attendance in high school. 
+
+
+% Data workers' focus on measurement and data collection corroborate our findings from
+% the content analysis and show how conceptual hypotheses and data collection
+% inform one another.
+
+These data workers' closely related considerations of data and concept measurement
+demonstrate how conceptual hypotheses and data collection may inform each other,
+corroborating our findings from the content analysis.
+
+
+\theme{Data workers consider implementation and tools when specifying statistical models.}
+\figureLabStudyStatSpec When we asked data workers to specify their models
+without considering implementation, we anticipated they would name specific
+statistical tests (e.g., ``ANOVA''), approaches (e.g., ``linear regression'' or
+``decision trees''), or write mathematical models (e.g., $Y = B_0 + B_1X_{age} +
+B_2X_{gender}$) that they could then implement using their tools because (a) some
+researchers in the literature survey did so in their papers and (b) several data
+workers mentioned having years of analysis experience. However, despite the
+explicit instruction to disregard implementation, 16 data workers provided to-do
+lists or summaries of steps to perform a statistical analysis as their model
+specifications [D1, D2, D3, D5, D7, D8, D9, D11, D12, D14, D16, D18, D20, D21,
+D22, D23, D24]. Of these 16 data workers, eight also named specific statistical
+tests in their descriptions [D3, D7, D8, D11, D12, D14, D18, D20]. 
+
+For example, D8, a data science consultant with 7/10 analysis experience,
+specified a list of steps that included creating new variables that aggregated
+columns in the dataset, cleaning and wrangling the data, visualizing histograms,
+performing chi-squared test, and interpreting the statistical results. Notably,
+D8 also specified null and alternative hypotheses, which acted as an
+intermediate artifact during hypothesis formalization.
+Figure~\ref{figure:labStudyStatSpec} shows D8's statistical specification.
+
+Only four data workers named specific statistical methods without describing
+their steps [D4, D6, D15, D17]. Two data workers, D22, a neuroscientist by
+training with 8/10 analysis experience, and D19, an educator with 6/10 analysis
+experience, attempted to specify their models mathematically. D22 used the
+familiar R syntax: ``Current Income \textasciitilde\xspace Educational attainment + Gender +
+Interactions of those two.'' On the other hand, D19 gave up because although
+they knew the general form of logistic regression, they did not know how to
+represent the specific variables in the model they wanted to perform. 
+
+The implementation and software details data workers discussed and included in
+their specifications suggest that data workers prefer to skip over mathematical
+equations and jump to specification and implementation in their tools. Although
+it is possible that study instructions primed data workers to respond about how
+they would perform, rather than represent, the task even after researcher
+clarifications, this would not explain the level of implementation detail data
+workers included. Nine data workers went so far as to mention specific
+libraries, even functions, that they would use to program their analyses [D3,
+D9, D12, D13, D14, D16, D19, D21, D23]. In their reflective interviews, data
+workers also expressed that they often do not specify models outside of
+implementing them, which D19 succinctly described: \longquote{I don't normally
+write this down because all of this is in a [software] library.} 
+
+% even though some papers included equations as an intermediate step in our content analysis.
+% Another possible explanation for why data workers focused on implementation when
+% specifying their models is that some statistical paradigms, especially
+% machine-learning, are designed to automatically discover the statistical
+% structure of data. In a machine-learning setting, for instance, data workers do
+% not have to think about the functional form of statistical models but rather
+% think about the machine learning architecture or approach for discovering this
+% form. We were not able to test or verify this possibility with the data workers
+% because we did not collect comprehensive information about their exposure to
+% several statistical paradigms. Nevertheless, the inclination to defer functional
+% formulation of statistical models to implementation underscores the importance of tools during statistical analysis.
+
+Data workers' statistical knowledge appears to be situated in the programs they
+write, and their knowledge of and familiarity with tools constrains the
+statistical methods they explore and consider. As such, tools may be a key point
+of intervention for guiding data workers toward statistical methods that may be
+unfamiliar but are best suited for their conceptual hypotheses.
+
+\theme{Data workers try to fit analyses to previous projects and familiar approaches.}
+Data workers spent significant thought and time categorizing their analyses as
+``prediction,'' ``classification,'' or ``correlation'' problems [D2, D3, D7,
+D10, D11, D18, D19, D21, D22]. To categorize, data workers relied on their
+previous projects. While reflecting on their typical analysis process, D21, a software engineer working in healthcare, said (emphasis added),
+\longquote{I usually tend to jump...to look at data and \textbf{match [the
+analysis problem] with similar patterns} I have seen in the past and start
+implementing that or do some rough diagrams [for thinking about parameters, data
+type, and implementation] on paper...and start implementing it.} 
+
+Data workers also looked at variable data types (i.e., categorical or continuous) to
+categorize. For example, D3, a freelance analyst, pivoted from thinking about \textbf{predicting}
+income to \textbf{classifying} income groups (emphasis added) based on data type
+information: \longquote{The income, the column, the target value here, is
+categorical. I think maybe it wouldn't be a bad idea to see what
+\textbf{classification} tasks, what we could do. So instead of trying to
+\textbf{predict} because we're not trying to \textbf{predict an exact number},
+it seems...like more of a \textbf{classification} problem...}
+
+A provocative case of adhering to prior experiences was D6, a psychological research scientist. Although several
+data workers were surprised and frustrated that income was ordinal in the dataset
+with categories such as``Under \$10K,'' ``\$10K to \$20K,'' ``\$20K to \$30K,''
+up to ''150K+'', none went so far as D6 to synthetically generate normally
+distributed income data so that they could implement the linear regression
+models they had specified despite saying they knew that income was not normally
+distributed. 
+
+When asked further about the importance of normal data, D6 described how they
+plan analyses based on having normal data, strive to collect normally
+distributed, and rely on domain knowledge to transform the data to be normal
+when it may not be after collection: \longquote{...I feel like having non normal
+data is something that's like hard for us to deal with. Like it just kind of
+messes everything up like. And I know, I know it's not always assumption of all
+the tasks, but just that we tend to try really hard to get our variables to be
+normally distributed. So, you know, we might like transform it or, you know,
+kind of clean it like clean outliers, maybe transform if needed...I mean, it
+makes sense because like a lot of measures we do use are like depressive
+symptoms or anxiety symptoms and kind of they're naturally normally
+distributed...I can probably count on my hand the number of non parametric tests
+I've like included in manuscripts.} D6's description of their day-to-day
+analyses exemplifies the dual-search nature of hypothesis formalization: Data
+workers (i) jump from hypothesis refinement to model specification or
+implementation with specific proxies in mind and then (ii) collect and
+manipulate their data to fit their model choices. 
+
+We recognize that data workers may have taken shortcuts for the study they would
+not typically make in real life. Nevertheless, the constraints we imposed by
+using a real-world dataset are to be expected in real-world analyses. Therefore,
+our observations still suggest that rather than consider the nature and
+structure of their hypotheses and data to inform using new statistical
+approaches, which statistical pedagogy and theory may suggest, data workers may
+choose familiar statistical approaches and mold their new analyses after
+previous ones. 
+
+% Furthermore, D6's description of their day-to-day analyses
+% exemplifies the dual-search nature of hypothesis formalization: Data workers (i)
+% jump from hypothesis refinemnent to model specification or implementation with
+% specific proxies in mind and then (ii) collect and manipulate their data to fit
+% their model choices. 
+
+\theme{Data workers try to minimize their biases by focusing on data.}
+%  To mitigate their biases, several data workers mentioned wanting to
+% research related literature and prior work \ej{[D6, 10, 15 -- not neccessarily
+% to mitigate bias]}.
+% data workers drew upon their lived experiences [D5, D10, D13, D15, D16, D20,
+% D21, D24], media (e.g., books, podcasts, news, etc.) [D2, D3, D5, D6, D7,
+% D13, D24], and previous coursework and research [D4, D6, D7] to develop their
+% hypotheses. data workers also relied on personal experiences [D8, D12, D20,
+% D24] to devise their conceptual models. At the same time, data workers
+% recognized that their personal experiences biased their hypotheses and
+% conceptual models [D12, D13, D14, D17]. 
+
+Throughout the study, data workers expressed concern that they were biasing the
+analysis process. Data workers drew upon their personal experiences to develop
+hypotheses [D5, D10, D13, D15, D16, D20, D21, D24] and conceptual models [D8,
+D12, D20, D24]. D12, a data analysis project manager, described how their personal experiences may subconsciously
+bias their investigation by comparing a hypothetical physicist and social worker
+answering the same research question: \longquote{Whereas a social worker by
+design...they're meant to look at the humanity behind the numbers [unlike a
+physicist]. So like, they may actually end up with different results...actually
+sitting in front of this data, trying to model it.}
+
+A few data workers even refused to specify conceptual models for fear of biasing the
+statistical analyses [D10, D11, D19]. On the surface, data workers resisted
+because they believed that some relationships, such as the effect of age on
+income, were too ``obvious'' and did not warrant documentation [D10, D11].
+However, relationships between variables that were ``obvious'' to some
+data workers were not to others. For instance, D10, a business analyst, described how income would
+plateau with age, but other data workers, such as D18, assumed income would monotonically increase with age.
+
+When we probed further into why D10, D11, and D19 rejected a priori conceptual
+models, they echoed D10's belief that conceptual models ``put blinders on you.''
+Even the data workers who created conceptual models echoed similar concerns of
+wanting to ``[l]et the model do the talking'' in their implementations [D3, D15,
+D18, D19]. Instead of conceptual modeling, D10 chose to look at all n-ary
+relationships in the dataset to determine which variables to keep in a final
+statistical model, saying, \longquote{It's so easy to run individual tests...You
+can run hypothesis tests faster than you can actually think of what the
+hypothesis might be so there's no need to really presuppose what relationships
+might exist [in a conceptual model].} Of course, one could start from the
+same premise that statistical tests are so easy to execute and conclude that
+conceptual modeling is all the more important to prioritize analyses
+and prevent false discoveries. 
+
+Similarly, data workers were split on whether they focused their implementation exclusively on their
+hypotheses or examined other relationships
+in the dataset opportunistically. Nine data workers stuck strictly to testing their hypotheses [D1,
+D4, D5, D6, D7, D11, D13, D20, D24]. However, five data workers were more focused on
+exploring relationships in the dataset and pushed their hypotheses aside [D2,
+D3, D10, D16, D18], and an additional four data workers explored relationships among
+variables not previously specified in their hypotheses in addition to their
+hypotheses [D14, D15, D17, D21]. D18 justified their choice to ignore their
+hypotheses and focus on emergent relationships in the data by saying that they
+wanted to be \shortquote{open minded based on the data...open to possibilities.}
+
+Data workers' concerns about bias and choice of which relationships to analyze
+(hypothesis only vs. opportunistic) highlight the tension between the two
+searches involved in hypothesis formalization: concept-first model
+implementations and implementation-first conceptual understanding. Conceptual
+models are intermediate artifacts that could reconcile the two search processes
+and challenge data workers' ideas of what ``data-driven'' means. However, given some
+data workers' resistance to prior conceptual modeling, workflows that help
+data workers conceptually model as a way to reflect on their model implementations
+and personal biases may be more promising than ones that require them before
+implementation.
+
+\theme{Data workers face challenges obtaining and integrating conceptual and statistical information.}
+Based on data workers' information search behaviors and self-reports, we found that
+data workers faced challenges obtaining and integrating both domain and statistical
+knowledge.
+
+Data workers consulted outside resources such as API documentation, Wikipedia, and
+the \textit{Towards Data Science} blog throughout the study: one while
+brainstorming hypotheses [D13]; three while conceptual modeling [D12, D13, D22];
+six while specifying statistical models [D3, D6, D12, D13]. Six data workers
+also mentioned consulting outside resources while implementing their analyses
+[D1, D3, D11, D14, D15, D21]. By far, statistical help was the most common. 
+
+Furthermore, when data workers reflected on their prior data analysis experiences,
+they detailed how collaborators provided domain and statistical expertise that
+are instrumental in formalizing hypotheses. Collaborators share data that help
+domain experts generate hypotheses [D9], critique and revise conceptual models
+and proxies [D4, D8], answer critical data quality questions [D10],
+and ensure statistical methods are appropriate [D5, D6, D22].
+
+In the survey participants completed after implementing their analyses, the three most
+commonly reported challenges were (i) \textbf{formatting} the data [D1, D4,
+D5, D6, D13, D16, D18, D20, D21, D24], (ii) \textbf{identifying} which
+statistical analyses to perform with the data to test their hypotheses [D1,
+D11, D14, D18, D20, D21], and (iii) \textbf{implementing and executing} analyses
+using their tools [D1, D6, D7, D13, D20, D21]. Although we expected data workers
+would have difficulty wrangling their data based on prior
+work~\cite{kandel2012enterprise}, we were surprised that identifying and
+executing statistical tests were also prevalent problems given that (a) data workers
+were relatively experienced and (b) could choose their tools. These results, together with 
+our observations that data workers rely on their prior experiences and tools, suggest
+that data workers have difficulty adapting to new scenarios where new tools and
+statistical approaches may be necessary. 
+
+\subsection{Takeaways from the Lab Study}
+After the first session, 13 out of the 24 data workers described all the tasks as
+familiar, and 10 described most of the tasks and process as familiar. Data workers
+commonly remarked that although the process was familiar, the order of the tasks
+was ``opposite'' of their usual workflows. In practice, data workers may start with
+model implementation before articulating conceptual hypotheses, which opposes
+the direction of data analysis that the ASA
+recommends~\cite{carver2016guidelines}. Nevertheless, our observations reinforce
+the dual-search, non-linear nature of hypothesis formalization.
+
+Moreover, one data worker, D24, a physics researcher who primarily conducted
+simulation-based studies expressed that the study and its structure felt
+foreign, especially because they had no control over data collection. Other data
+workers in the study also described the importance of designing and conducting
+data collection as part of their hypothesis formalization process [D4, D6, D9].
+Designing data collection methods informs the statistical models data workers
+plan to use and helps to refine their conceptual hypotheses by requiring data
+workers to identify proxies and the feasibility of collecting the proxy
+measures, reinforcing what we saw in the content analysis. The remarks also
+suggest that disciplines practice variations of the hypothesis formalization
+process we identify based on discipline-specific data collection norms and
+constraints. For example, simulating data may sometimes take less time than
+collecting human subjects data, so data workers working with simulations may
+dive into modeling and data whereas others may need to plan experiments for a
+longer period of time. 
+
+% although the data workers in our lab study came from diverse
+% domains, including medicine, psychology, and business, and had different data
+% collection practices, 
+% Furthermore, our sample is limited and may be biased. 
+Approximately half of the data workers had either just finished or were enrolled in undergraduate or
+graduate programs involving data analysis. As such, half of our sample likely has
+limited professional experience outside of their studies and/or freelance work
+on Upwork. Additionally, data work available on Upwork may be more narrowly
+focused and less representative of end-to-end data analysis or research projects
+expected of those with greater statistical expertise. Still, several data
+workers in our study mentioned other employments where they gained professional
+experience working on larger analysis and research projects. Despite the
+limitations of recruiting participants from Upwork and word of mouth, our sample
+represents data workers who have training in a diversity of disciplines (e.g.,
+medicine, psychology, business), are familiar with a range of statistical
+methods, and have experience using a broad range of statistical tools. As such,
+the data workers in our study may be representative of analysts who are likely
+to benefit most from new tools for supporting hypothesis formalization. 
+
+Finally, we found that data workers relied on prior experiences and tools to specify
+and formalize their hypotheses. Tools that scaffold the hypothesis formalization
+process by suggesting statistical models that operationalize the conceptual
+hypotheses, conceptual models, or partial specifications data workers create along
+the way may (i) nudge data workers towards more
+robust analyses that test their hypotheses, (ii) overcome limitations of data workers'
+prior experiences, and (iii) even expand data workers' statistical knowledge. Thus, we
+investigated how current tool designs serve (or under-serve) hypothesis
+formalization.
+% or similar models data workers start with
+

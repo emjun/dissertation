@@ -1,0 +1,406 @@
+\section{Analysis of Software Tools} \label{sec:toolsAnalysis}
+
+To understand how the design of statistical computing tools may support or
+hinder hypothesis formalization (\rqTools), we analyzed widely used software
+packages and suites. Throughout, we use the term ``package'' to refer to a set
+of programs that must be invoked through code, such as \texttt{lme4},
+\texttt{scipy}, and \texttt{statsmodels}. We use the term ``suite'' to refer to
+a collection of packages that end-users can access either through code or
+graphical user interfaces (GUIs), such as SPSS, SAS, and JMP. We use the term
+``tool'' to refer to both. Software packages were a unit of analysis because
+they are necessary for model implementation regardless of medium (e.g.,
+computational notebook, CoLab, RStudio). As such, our findings apply to tools
+that provide wrappers around packages included in our sample.
+
+\vspace{-2mm}
+\subsection{Method}
+
+\textbf{Sample:} Our sampling procedure involved two phases: (i)
+identifying software packages and suites for model implementation (not visual analysis
+tools like Tableau) mentioned more than once across the content analysis and lab
+study and (ii) adding recommended packages and suites from online data science communities
+our lab participants mentioned or used (e.g., \textit{Towards Data Science}). To
+identify these additional tools, we consulted online data analysis
+fora~\cite{grolemund2019:recommendedR, bobriakov2017:top15Python,
+bobriakov2018:top20Python, prabhu2019:topPython}. The final sample included 20
+statistical tools: 14 packages (R: 10, Python: 4); three suites that support
+in-tool programming; and three suites that do not support programming.
+Table~\ref{tableAnalysisOfTools} contains an overview of our sample and results.
+
+\noindent\textbf{Analysis:} Four specific questions guided our analysis:
+\begin{itemize}
+    \item \textbf{Specialization:} Data workers in the lab study eagerly named
+    specific statistical tools they would use and looked up tool documentation
+    during the tasks. This prompted us to ask, \textit{How specialized are the
+    tools, and how might specialization (or lack thereof) affect how end-users
+    discover and use them to formalize hypotheses?}
+    \item \textbf{Statistical Taxonomies:} Data workers in the lab study tried to
+    mold their analyses to prior experiences and their taxonomies of statistical
+    methods. We wondered what role tools play in this: \textit{How do tools
+    organize and group statistical models? How might tool organization and
+    end-users' taxonomies interplay during hypothesis formalization?}
+    \item \textbf{Model Expression:} Data workers in the lab study jumped to model
+    implementation throughout the tasks. Only half provided names of statistical
+    methods. We wondered if this was due to how tools enable end-users to express
+    their models: \textit{What notation must end-users use to express models in
+    the tools?}
+    \item \textbf{Computational Issues:} Data workers in the lab study described
+    their statistical models using specific function calls. Similarly, although
+    it was uncommon for researchers in the content analysis to specify the
+    software tools they used, when they did, researchers specified the
+    functions, parameters, and settings used. This prompted us to wonder about
+    the importance of computational settings: \textit{What specific kinds of
+    computational control do tools provide end-users and how might that impact
+    hypothesis formalization?}
+\end{itemize}
+
+To answer the four questions for each statistical tool, the first author read
+and took notes on published articles about tools' designs and implementations,
+API documentation and reference manuals, and available source code; followed
+online tutorials; consulted question-and-answer sites (e.g., StackExchange) when
+necessary; and analyzed sample data with the tools. The first author paid
+particular attention to tool organization, programming idioms, functions and
+their parameters, and tool failure cases. Table~\ref{tableAnalysisOfTools}
+contains citations for resources consulted in the analysis. The iterative
+analysis process involved discussions among the co-authors about how to evaluate
+the properties of tools from our perspectives as both tool designers/maintainers
+and end-users. Here, we focus on end-user (hereafter referred to as analyst)
+perspectives informed by our lab study and make callouts to details relevant for
+tool designers.
+
+\subsection{Findings and Discussion}
+\tableSoftwareAnalysis
+We discuss our findings in light of our characterization of hypothesis
+formalization in Figure~\ref{figure:overview}. We refer to specific steps and
+transitions in Figure~\ref{figure:overview} in \textbf{boldface}.
+
+% The ecosystem of available statistical tools, in theory, support a wide range of
+% statistical models and therefore conceptual hypotheses. However, the lack of
+% support for navigating specialized libraries, low-level interfaces, and
+% computational differences add barriers to the hypothesis formalization process
+% and ultimately push analysts towards relying on their own statistical knowledge,
+% which may be limited, and understanding low-level computational details, which
+% may not be necessary for non-experts.
+
+% \theme{Tool specialization pushes computational concerns higher up the hypothesis formalization process.}
+\theme{Specialization.}
+Half the tools [T2, T3, T4, T5, T6, T7, T8, T9, T11, T12] in our sample are
+specialized in the scope of statistical analysis methods they support (e.g.,
+\texttt{brms} supports Bayesian generalized linear multilevel modeling).
+\texttt{edgeR} [T3] provides multiple modeling methods but is specialized to the
+context of biological count data. Such specialized tools are vital to creating a
+widely adopted statistical computing ecosystem, such as R. 
+
+Despite its importance, tool specialization pushes computational concerns higher
+up the hypothesis formalization process. Specialized tools require
+analysts to consider computational settings while picking a statistical tool
+and, possibly, even while mathematically relating their variables. They fuse the
+last two steps of hypothesis formalization (\textbf{Statistical Specification}
+and \textbf{Model Implementation}). Ultimately, specialization requires analysts
+to have more (i) computational knowledge and (ii) foresight about their model
+implementations at the cost of focusing on conceptual or data-related concerns
+early in hypothesis formalization. 
+
+% For example, to pick between \texttt{MCMCglmm} and
+% \texttt{glmmTMB}, which both support generalized linear mixed-effects modeling, analysts would have to know that the two 
+% employ different model fitting procedures, namely MCMC routines and maximum likelihood
+% estimation using the `Template Model Builder' library, respectively. 
+
+% Analysts must
+% not only compare and contrast which optimizers tools support prematurely but
+% also consider the ramification these computational choices have on their
+% mathematical and conceptual representations of their hypothesis.
+
+One way tool designers minimize the requisite computational knowledge and
+foresight while providing the benefits of specialized packages --- which may be
+optimal for specific statistical models or data analysis tasks --- is to provide
+micro-ecosystems of packages. For example, R's
+\texttt{tidymodels}~\cite{tidymodels} and \texttt{tidyverse}~\cite{tidyverse}
+create micro-ecosystems that use consistent API syntax and semantics across
+interoperable packages. They also push analysts towards what the tool designers
+believe to be best practices, such as the use of the tidy data format~\cite{wickham2014tidy}. Tools
+that aim to support hypothesis formalization may consider fitting into or
+creating micro-ecosystems that provide tool support all along the process,
+focusing analysts on concepts, data, or model implementation at various points. 
+
+% \theme{Tool taxonomies introduce challenges that detract from hypothesis
+% formalization.} 
+\theme{Statistical taxonomies.}
+A consequence of tool specialization is the fragmented view of statistical
+approaches. For example, we observed analysts in the lab study who viewed the
+analysis as a classification task gravitate towards machine learning-focused
+libraries, such as \texttt{RandomForest} [T9], \texttt{Keras} [T11], and
+\texttt{scikit-learn} [T12]. Because classification can be implemented as
+logistic regression, any tool that supports logistic regression, such as the
+core \texttt{stats} library in R [T10], provides equally valid, alternative
+perspectives on the same analysis and hypothesis. However, tools obfuscate these
+connections and do not aid analysts in considering reasonable statistical models
+that may be unfamiliar or outside their personal taxonomy. This may explain why
+analysts adhered to their personal taxonomies during the lab study.
+
+This problem carries over to tools that support numerous statistical methods.
+Ten tools in our sample intend to provide more comprehensive statistical support
+[T1, T10, T13, T14, T15, T16, T17, T18, T19, T20]. These tools group statistical
+approaches using brittle and inconsistent taxonomies based on data types [T17];
+analysis classes that are both highly specific (e.g., ``Item
+Response Theory'') and vague (e.g., ``Multivariate analyses'') [T15, T16, T17,
+T18, T19, T20]; and disciplines or applications (e.g., ``Epidemiology and
+related,'' ``Direct Marketing'') [T16, T17, T20]. Although well-intended to
+simplify statistical method selection, tools' taxonomies are at times
+misleading. For instance, JMP combines various linear models into a ``Fit
+Model'' option that is separate from ``Predictive Modeling'' and ``Specialized
+Modeling,'' which are also distinct from the more general ``Multivariate
+Methods.'' Once analysts select the ``Fit Model'' option, they can specify the
+``Personality'' of their model as ``Generalized Regression,'' ``Generalized
+Linear Model,'' or ``Partial Least Squares,'' among many others. This JMP menu
+structure implies that (i) a Partial Least Squares model
+is distinct from a regression model when it is in fact a type of regression
+model and (ii) regression is not useful for prediction, which is not the case. 
+
+In these ways, tools add a ``Navigate taxonomies'' step before the
+\textbf{Statistical Specification} step, requiring analysts to match their
+conceptual hypotheses with the tools' taxonomies, which may misalign with their personal taxonomies. One reason for this issue may be that tools do
+not leverage analysts' intermediate artifacts or understanding during hypothesis
+formalization. By the time analysts transition to \textbf{Statistical
+Specification}, they have refined their conceptual hypotheses, developed causal
+models, and made observations about data. However, tools' taxonomies require
+analysts to set these aside and consider another set of decisions imposed by
+tool-specific groupings of statistical methods. In this way, tool taxonomies may introduce challenges that detract from hypothesis
+formalization.
+
+% \theme{Syntactic and semantic mismatches create a rift between model implementations and conceptual hypotheses.}
+\theme{Model expression: Syntax and semantics}
+% ~\footnote{Tools also provided syntactic idiosyncrancies for including and
+% exclduing intercepts and defining crossed and nested effects structures. Tanaka
+% et al.~\cite{tanaka2019symbolic} compare in detail the syntactical trade-offs
+% between \texttt{lme4} [T6] and asmerl, a tool not in our sample.}. 
+
+Fifteen tools in our sample provide analysts with interfaces that use
+mathematical notation to express statistical models [T1, T2, T3, T4, T6, T7, T8,
+T9, T10, T14, T16, T17, T18, T19, T20]. R and Python packages use symbolic
+mathematical syntax, and SPSS and Stata use natural language-like syntax.
+Expressing a linear model with Sex, Race, and their interaction as predictors of
+Annual Income involves the formula \texttt{AnnualIncome $\sim$ Sex + Race +
+Sex*Race} in \texttt{lme4} and \texttt{AnnualIncome BY Sex Race Sex*Race} in
+SPSS.  In a linear execution of steps involved in hypothesis formalization where
+analysts relate variables mathematically (\textbf{Mathematical Equation}) before
+specifying and implementing models using tools (\textbf{Statistical
+Specification}, \textbf{Model Implementation}), the mathematical interfaces
+match analysts' progression. However, in the lab study, analysts did not specify
+their models mathematically even when given the opportunity, suggesting that
+mathematical syntax may not adequately capture analysts' conceptual or
+statistical considerations. 
+
+% and opportunities for higher-level libraries that do
+% not require mathematics, which we discuss in the next section.
+
+Syntactic similarity between packages may lower the barrier to trying and
+adopting new statistical approaches that more directly test hypotheses and therefore benefit hypothesis formalization. At the same time, syntactic similarity may also introduce unmet expectations of
+semantic similarity. For example, \texttt{brms} [T2] uses the same formula
+syntax as \texttt{lme4} [T6], smoothing the transition between linear modeling
+and Bayesian linear modeling for analysts. However, based on syntactic
+similarity, analysts may incorrectly assume statistical equivalence in computed
+model values. For example, in \texttt{brms}, the model intercept is the mean of
+the posterior when all the independent variables are at \textit{their means},
+but in \texttt{lme4}, the intercept is the mean of the model when all the
+independent variables are at \textit{zero}. 
+
+% This mismatch between syntax and
+% statistical meaning may be especially significant for hypotheses
+
+Conversely, tools introduce syntactic differences between statistical approaches
+that are for the most part semantically equivalent, which may lead to additional
+challenges in hypothesis formalization. For instance, an ANOVA with repeated
+measures and a linear mixed effects model are similar in intent but require two
+different function calls, one without a formula (e.g., \texttt{AnovaRM} in
+\texttt{statsmodels} [T14]) and another with (e.g., \texttt{mixedlm} in
+\texttt{statsmodels} [T14]). Even when considering only ANOVA, tools may provide
+similar syntax but implement different sums of squares procedures for
+partitioning variance (i.e., Type I, Type II, or Type III).\footnote{Type I is
+(a) sensitive to the order in which independent variables are specified because
+it assigns variance sequentially and (b) allows interaction terms. Type II (a)
+does not assign variance sequentially and (b) does not allow interaction terms.
+Type III (a) does not assign variance sequentially and (b) allows interaction
+terms. For an easy-to-understand blog post, see~\cite{sumsofsquaresBlog}.} By
+default, R's \texttt{stats} core package [T10] uses Type I, \texttt{statsmodels}
+[T14] uses Type II, and \texttt{SPSS} [T16] uses Type III. The three different
+sum of squares procedures lead to different F-statistics and p-values, which may
+lead analysts to different conclusions. More importantly, the procedures encode
+different conceptual hypotheses. If analysts have theoretical knowledge or
+conceptual hypotheses about the order of independent variables, tools defaulting
+to Type I (e.g., R's \texttt{stats} core library) align the model implementation
+with the conceptual hypotheses. However, if analysts do not have such conceptual
+hypotheses, tools' default behavior would execute (without error) and silently
+respond to a conceptual hypothesis different from the one the analyst seeks to
+test. In this way, syntactic and semantic mismatches can create a rift between
+model implementations and conceptual hypotheses. Furthermore, the impact of tools' ``invisible'' model implementation choices
+reinforces the interplay between conceptual and model implementation concerns
+during hypothesis formalization. 
+
+
+\begin{comment}
+Tools should highlight the conceptual
+assumptions and consequences of modeling choices beyond listing ways to change
+defaults in their documentation manuals or Q\&A sites. Doing this would give
+analysts more control over and insight into their analysis. Analysts could
+revise and refine their hypotheses in response to statistical modeling
+constraints or change the statistical models and tools they use to address their
+hypotheses. 
+\end{comment}
+
+\vspace{-2mm}
+% \theme{Fine-grained computational control may require conceptual hypothesis revisions.}
+\theme{Computational issues.}
+Tools provide end-users with options for optimizers and solvers used to fit
+statistical models [T1, T2, T4, T6, T7, T8, T10, T11, T13, T16, T18],
+convergence criteria used for fitting
+models [T3, T6, T16, T18], and memory and CPU allocation [T2, T5, T12, T15], among more specific
+customizations. % (e.g., for matrix multiplication).
+For instance, \texttt{lme4} [T6] allows analysts to specify the nonlinear
+optimizer and its settings (e.g., the number of iterations, convergence
+criteria, etc.) used to fit models. In \texttt{brms} [T2], analysts can also
+specify the number of CPUs to dedicate to fitting their models. Some
+computational settings are akin to performance optimizations, affecting computer
+utilization but not the results. However, not all computational changes are so
+well-isolated.
+
+For example, the failure of a model's inference algorithm to converge (in \textbf{Model Implementation})
+may prompt mathematical re-formulation (\textbf{Mathematical Equation}), which
+may cast \textbf{Observations about Data} in a new light, prompting
+\textbf{Causal Model} and \textbf{Conceptual Hypothesis} revision. In other
+words, computational failures and decisions may bubble up to conceptual hypothesis
+revision and refinement, which may then trickle back down to model
+implementation iteration, and so on. In this way, computational
+control can be another entry into the dual-search process of hypothesis formalization. 
+% Fine-grained computational control may require conceptual hypothesis revisions.
+% In
+% fact, in the lab study, analysts described their ``data-driven'' analyses in a
+% similar light.
+
+In theory this low-level control could help analysts formalize
+nuanced conceptual hypotheses in diverse computational environments. However, we found
+that tools do not currently provide feedback on the ramifications of these
+computational changes, introducing a gulf of evaluation~\cite{norman1986cognitive}. Analysts can
+easily change parameters to fine-tune their computational settings, but how they
+should interpret their model implementations and revisions conceptually is
+unaddressed, suggesting opportunities for future tools to bridge the conceptual
+and model implementation gap. 
+
+\vspace{-2mm}
+\subsection{Takeaways from the Analysis of Tools}
+% Jeff: I think the ultimate question is not just how to more seamlessly transition between approaches 
+% (though this could be quite valuable for multiverse specification), but 
+% how to help people determine what are a "reasonable" set of appropriate approaches.
+
+% Jeff:  how does the end user express their needs in a way that helps translate from conceptual or partially-formalized concerns to implementation choices? 
+% I think our larger argument and research trajectory is that 
+% ultimately this is missing and needed, 
+% so it would be good to see that reflected more strongly in the tools section. 
+% Perhaps this is a missing fifth category among our tool analysis questions?
+
+Taken together, our analysis shows that tools can support a wide range of
+statistical models but expect analysts to have more statistical expertise than
+may be realistic. They provide limited guidance for analysts (i) to express and
+translate their conceptual and partially-formalized concerns and (ii) identify
+reasonable models. Tools also provide little-to-no feedback on the conceptual
+ramifications of model implementation iterations. These gaps reveal a misalignment
+between analysts' hypothesis formalization processes and tools' expectations and
+design. Possible reasons for this mismatch may be that tools do not scaffold or
+embody the dual-search nature of hypothesis formalization or leverage all the
+intermediate artifacts analysts may create (e.g., refined conceptual hypotheses,
+causal models, data observations, partial specifications, etc.) throughout the
+process.
+
+% JH: this can wait for the next section
+% Focusing on
+% current tools' designs as opportunities for improved alignment between analysts
+% and tools, we derive three concrete implications for future tools.
+
+
+\begin{comment}
+
+\theme{Syntactic differences that elide semantic similarities between statistical models hinder model implementation search.}
+Fifteen tools in our sample provided analysts with interfaces that used
+mathematical notation to express statistical models [T1, T2, T3, T4, T6, T7, T8,
+T9, T10, T14, T16, T17, T18, T19, T20]. R and Python packages used symbolic
+mathematical syntax, and SPSS and Stata used natural language-like syntax.
+Expressing a linear model with Sex, Race, and their interaction as predictors of
+Annual Income would involve the formula \texttt{AnnualIncome ~ Sex + Race +
+Sex*Race} in \texttt{lme4} and \texttt{AnnualIncome BY Sex Race Sex*Race} in
+SPSS. Packages use idiosyncratic syntax for including and excluding intercepts
+and defining crossed and nested effects structures. For instance, in R packages,
+the intercept for linear models is included by default even if end-users do not
+write it. Tanaka et al.~\cite{tanaka2019symbolic} compare in detail the
+syntactical trade-offs \texttt{lme4} [T6] and asmerl, a tool not in our sample,
+make.
+
+Despite using mathematical notation, tools elide when different statistical
+approaches and functions are equivalent in mathematical principles and
+implementations. For instance, an ANOVA with repeated measures and a linear
+mixed effects model are mathematically equivalent but require two different
+function calls, one without a formula (ANOVA) and another with (linear model).
+Knowing that the linear model is a mathematical representation of the ANOVA, could
+encourage analysts to compare and use both approaches in the future. 
+
+% tools' syntax elide mathematical details that affect model implementation. For
+% example, when end-users include categorical variables in their models in any
+% programmatic tool in our sample, they write one \textit{variable} name even
+% though tools include one fewer than the number of \textit{categories} in a
+% categorical variable to the computed statistical model. 
+
+In a linear execution of steps involved in hypothesis formalization where
+analysts relate the relationships between variables mathematically
+(\textbf{Mathematical Equation}) before specifying and implementing models using
+tools (\textbf{Statistical Specification}, \textbf{Model Implementation}), the
+mathematical interfaces match analysts' progression in hypothesis formalization.
+However, we observed in the lab study that analysts do not specify their models
+mathematically even when given the opportunity, which may be due to syntactic
+inconsistency across tools or the missed opportunity to use mathematical
+notation to highlight semantic differences and similarities between statistical model implementations. 
+
+
+\theme{Syntactic similarities that elide semantic differences create a rift between model implementations and conceptual hypotheses.}
+
+Even for the same common statistical method and function, ANOVA, tools implement
+different sums of squares procedures for partitioning variance (i.e., Type I,
+Type II, or Type III)~\footnote{Type I is (a) sensitive to the order in which
+independent variables are specified because it assigns variance sequentially and
+(b) allows interaction terms. Type II (a) does not assign variance sequentially
+and (b) does not allow interaction terms. Type III (a) does not assign variance
+sequentially and (b) allows interaction terms. For an easy-to-understand blog
+post, see~\cite{sumsofsquaresBlog}.}. By default, R's \texttt{stats} [T10] core
+package [T10] uses Type I, \texttt{statsmodels} [T14] uses Type II, and
+\texttt{SPSS} [T16] uses Type III. The three different sums of squares
+procedures lead to different F-statistic values and p-values, which may lead
+analysts to different conclusions, but more importantly, the procedures encode
+slightly different conceptual hypotheses about how strongly independent
+variables relate to the dependent variable relative to each other. For instance,
+Type I, which is sensitive to the order in which independent variables are
+specified, assumes that the independent variables that are listed closer to the
+beginning of the list have stronger relationships to the dependent variable.
+Thus, when analysts have no theoretical knowledge or conceptual hypotheses about
+how important independent variables are compared to each other, Type I sums of
+squares is misaligned with their conceptual hypothesis. However, the R
+\texttt{stats} ANOVA function will use Type I sums of squares and silently
+change the conceptual hypotheses analysts are testing. 
+
+It is important to note that syntactic similarity between packages may lower the
+barrier to trying and adopting new statistical approaches. For example,
+\texttt{brms} [T2] uses the same syntax as \texttt{lme4} [T6], smoothing the
+transition between linear modeling and Bayesian linear modeling for analysts.
+However, syntactic similarities may lead to erroneous conclusions about what the
+results of a model say about a conceptual hypothesis. In \texttt{brms}, the
+model intercept is the mean of the posterior when all the independent variables
+are at \textit{their means}, but in \texttt{lme4}, the intercept if the mean of
+the model when all the independent variables are \textit{at 0}.
+
+The conceptual impact ``invisible'' model implementation choices tools make
+reinforces the interplay between conceptual and model implementation concerns
+during hypothesis formalization. Tools should highlight the conceptual
+assumptions and consequences of modeling choices beyond listing ways to change
+defaults in their documentation manuals or Q\&A sites. Doing this would give
+analysts more control over their analysis. Analysts could revise and refine
+their hypotheses in response to statistical modeling constraints or change the
+statistical models and tools they use to address their hypotheses. 
+
+\end{comment}

@@ -1,0 +1,167 @@
+\section{Discussion: Design Implications for Statistical Analysis Software} \label{sec:implications}
+% \figureImplications
+Our findings suggest three opportunities for tools to facilitate the dual-search
+process and align conceptual hypotheses with statistical model implementations
+at various stages of hypothesis formalization. 
+
+% Figure~\ref{figure:implications} provides a
+% simplified view of our model with the implications labeled. Any given tools may
+% realize combinations of these implications. We recognize that, as Schunn and
+% Klahr~\cite{schunn1996BeyondTwoSpace} note, the process of realizing these
+% implications from the model may refine and revise our understanding of the
+% spaces involved in hypothesis formalization.
+
+\subsection{Meta-libraries: Connecting Model Implementations with Mathematical Equations}
+
+% Additionally, even for tools that rely on symbolic
+% formulae, how tool interfaces (formulae and graphical), model implementation,
+% and computed outputs are connected is ambiguous. 
+
+% Additionally, for tools that rely on symbolic formulae, how the formulae relate
+% to model implementation and computed outputs is ambiguous. 
+
+% find the appropriate
+% library or libraries to execute such a model in its knowledge base; 
+
+Specialized tools, although necessary for sophisticated statistical computation,
+require a steep learning curve. \textit{Meta-libraries} could allow analysts to
+specify their models in high-level code; execute the models using the appropriate
+libraries in their knowledge bases; and then output library information,
+functions invoked, any computational settings used, the mathematical model that
+is approximated, and the model results. Libraries such as
+Parsnip~\cite{parsnip} have begun to provide a unified higher-level interface
+that allows analysts to specify a statistical model using more ``generically''
+named functions, parameter names, and symbolic formulae (when necessary).
+Parsnip then compiles and invokes various library-specific functions for the
+same statistical model.
+
+Probabilistic programming languages (PPLs), such as Pyro~\cite{pyro}, Stan~\cite{stan},
+BUGS~\cite{bugs}, PyMC~\cite{pymc3}, already enable the development of
+meta-libraries. PPLs support modular specification of data, probabilistic
+models, and probabilistic hypotheses. Existing libraries, including
+\texttt{brms}, provide higher-level APIs whose syntax uses symbolic formulae,
+for instance, and compile to programs in a PPL (i.e., Stan in the case of
+\texttt{brms}). 
+
+As already seen in Parsnip and tools using PPLs, meta-libraries could
+bring three benefits. First, they would provide simpler, less fragmented
+interfaces to analysts while continuing to take advantage of tool
+specialization. Second, meta-libraries that output complete mathematical
+representations would more tightly couple mathematical representations with
+implementations, providing an on-ramp for analysts to expand their statistical
+knowledge. Third, meta-libraries that show the mathematical representations
+alongside underlying libraries' function calls could show syntactical variation
+in underlying libraries, indirectly teaching analysts how they might express
+their statistical models in other tools, familiarizing analysts with new tools
+and models, and even mend fragmented views of identical models (e.g., ANOVA and
+regression). 
+
+Future meta-libraries could consider providing a higher-level, declarative
+interface that does not require analysts to write symbolic formulae. Designing
+such declarative meta-libraries would require formative elicitation studies
+(similar to natural programming studies such as~\cite{verou2018extending}) on
+declarative primitives that are memorable, distinguishable, and reliably
+understood. An additional challenge would lie in maintaining support for various
+libraries executed under the hood, especially as libraries change their APIs,
+which would strengthen the case for meta-libraries. Although meta-libraries
+would not solve the problems involved in understanding how computational
+settings affect model execution or conceptual hypotheses, they could
+nevertheless provide scaffolding for analysts to more closely examine specific
+libraries, especially if multiple libraries execute the same model but do not
+all encounter the same computational bottlenecks. 
+
+\subsection{High-level Libraries: Expressing Conceptual Hypotheses to Bootstrap Model Implementations}
+
+The absence of tools for directly expressing conceptual hypotheses may be an
+explanation for why data workers in the lab study dove into model
+implementation details. High-level libraries could allow analysts to specify data
+collection design (e.g., independent variables, dependent variables, controlled
+effects, possible random effects); variable data types; expected or known
+covariance relationships based on domain expertise; and hypothesized findings in
+a library-specific grammar. High-level libraries could compile these conceptual
+and data declarations into weighted constraints that represent the applicability
+of various statistical approaches, in a fashion similar to
+Tea~\cite{jun2019tea}, a domain-specific language for automatically selecting
+appropriate statistical analyses for common hypothesis tests. Libraries could
+then execute the appropriate statistical approaches, possibly by using a
+meta-library as described above. 
+
+In addition to questions of how to represent a robust taxonomy of statistical
+approaches computationally, another key challenge for developing high-level
+libraries is identifying a set of minimal yet complete primitives that are
+useful and usable for analysts to express information that is usually expressed
+at different levels of abstraction: conceptual hypotheses, study designs, and
+possibly even partial statistical model specifications. For instance, even if a
+conceptual hypothesis is expressible in a library, it may be impossible to
+answer with a study design or partial statistical model that is expressed in the
+same program. An approach may be to draw upon and integrate aspects from
+existing high-level libraries and systems that aim to address separate steps of
+the hypothesis formalization process, such as
+Touchstone2~\cite{eiselmayer2019touchstone2} for study design and Tea and
+Statsplorer~\cite{wacharamanotham2015statsplorer} for statistical analysis. 
+
+% Finally, future high-level libraries could provide mathematical
+% equations as part of the output to further strengthen the pathway from
+% conceptual hypotheses to mathematical representations to model implementations
+% while providing an abstraction that more directly maps to analysts' conceptual
+% and data-based considerations. 
+
+% identifying a minimal yet complete set of declarations for
+% deducing appropriate statistical models and representing a robust taxonomy of
+% statistical approaches computationally. 
+
+\subsection{Bidirectional Conceptual Modeling: Co-authoring Conceptual Models and Model Implementations}
+Conceptual, or causal, modeling was difficult for the analysts in the lab study.
+Some even resisted conceptual modeling for fear of biasing their analyses. Yet,
+implicit conceptual models were evident in the hypotheses analysts chose to
+implement and the sub-hypotheses researchers articulated in the content
+analysis. 
+
+% Tools that automatically derive conceptual models from analysts' model implementations may assuage analysts's fears while also 
+% Based on this insight, there is opportunity to increase transparent
+% and complete reporting and increased engagement with bias in the analysis
+% process through automatic authoring of conceptual models. 
+
+Mixed-initiative systems that make explicit the connection between conceptual
+models and statistical model implementations could facilitate hypothesis
+formalization from either search process and allow analysts to reflect on their
+analyses without fear of bias. For example, a mixed-initiative programming
+environment could allow analysts to write an analysis script, detect data
+variables in the analysis scripts, identify how groups of variables co-occur in
+statistical models, and then visualize conceptual models as graphs where the
+nodes represent variables and the edges represent relationships. The
+automatically generated conceptual models would serve as templates that analysts
+could then manipulate and update to better reflect their internal conceptual
+models by specifying the kind of relationship between variables (e.g.,
+correlation, linear model, etc.) and assigning any statistical model roles
+(e.g., independent variable, dependent variable). As analysts update the visual
+conceptual models, they could evaluate script changes the system proposes.
+In this way, analysts could externally represent their causal models while
+authoring analysis scripts and vice versa. 
+
+Although bidirectional programming environments already exist for vector graphics
+creation~\cite{hempel2019sketch}, they have yet to be realized in mainstream data analysis
+tools. To realize bidirectional, automatic conceptual modeling, researchers would
+need to address important questions about (i) the visual grammar, which would
+likely borrow heavily from the causal modeling literature; (ii) program analysis
+techniques for identifying variables and defining co-occurrences (e.g., line-based
+vs. function-based) in a way that generalizes to multiple statistical libraries;
+and (iii) adoption, as analysts who may benefit most from such tools (likely
+domain non-experts) may be the most resistant to tools that limit the number of
+``insights'' they take away from an analysis. 
+
+% Implication for bidrectional causal modeling: 
+% - Walker et al. on Design and Causal learning (PsySci 2020)
+% - Burnston (CogSci 2013)
+
+\begin{comment}
+
+\subsection{Joint conceptual and statistical planning}
+--- Could this explain OR capture why some papers had multiple sub-hypotheses??
+RElate dto TOuchstone
+Similarly, given a particular analysis, could suggest a data colelcito/study design that would allow that to happen
+
+Support reasoning at the conceptual and statisitcal implementation levels -- conceptual --> implementation \&\& implementation --> conceptual
+
+Provide a unified interface (syntax, semantics) for specifying specific classes of models
+\end{comment}

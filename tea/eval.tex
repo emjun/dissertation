@@ -1,0 +1,75 @@
+\input{tea/tea_results.tex}
+\vspace{-5pt}
+\subsubsection{Initial Evaluation} \label{sec:eval}
+We assessed the validity of Tea in two ways. First, we compared Tea's
+suggestions of statistical tests to suggestions in textbook tutorials.
+We use these tutorials as a proxy for expert test selection.
+Second, for each tutorial, we compared the analysis results of the test(s)
+suggested by Tea to those of the test suggested in the textbook as well as all
+other candidate tests. We use the set of all candidate tests as as a proxy for
+non-expert test selection.
+
+We differentiate between \textit{candidate} and \textit{valid} tests. A candidate test can be
+computed on the data, when ignoring any preconditions regarding the data types or
+distributions. A valid test is a candidate test for which all preconditions are
+satisfied.
+
+\vspace{-3pt}
+\subsection{How does Tea compare to textbook tutorials?}
+Our goal was to compare Tea to expert recommendations.
+
+We sampled 12 data sets and examples from R tutorials (\cite{kabacoff2011action}
+and~\cite{field2012discoveringR}). These included eight parametric tests, four
+non-parametric tests, and one Chi-square test. We chose these tutorials because they
+appeared in two of the top 20 statistical textbooks on Amazon and had publicly available
+data sets, which did not require extensive data wrangling.
+% and examples that tested the 16 statistical tests that Tea currently supports
+%(see~\ref{tab:tea_tests}).
+
+We translated all analyses into Tea and encoded any assumptions explicitly
+stated in the tutorial. Tea selected tests based only on the data and the
+assumptions expressed in the Tea program. Where Tea disagreed with the
+tutorials, either (1) the tutorial authors chose the wrong analyses or (2) the tutorial authors
+had implicit assumptions about the data that did not hold up to statistical testing. 
+
+For nine out of the 12 tutorials, Tea suggested the same statistical test (see
+Table~\ref{tab:results}). For three out of 12 tutorials, which used a parametric
+test, Tea suggested using a non-parametric alternative instead. Tea's
+recommendation of using a non-parametric test instead of a parametric one did
+not change the statistical significance of the result at the $.05$ level. Tea
+suggested non-parametric tests based on the Shapiro-Wilk test for normality. It
+is possible that tutorial authors visualized the data to make implicit
+assumptions about the data, but this practice or conclusion was not made
+explicit in the tutorials.
+
+For the two-way ANOVA tutorial from~\cite{field2012discoveringR}, which studied how gender
+and drug usage of individuals affected their perception of attractiveness, a
+precondition of the two-way ANOVA is that the dependent measure is normally
+distributed in each category. This precondition was violated.  As a result, Tea
+defaulted to bootstrapping the means for each group and reported the means and
+confidence intervals. 
+For the pointbiserial correlation tutorial from~\cite{field2012discoveringR},
+Tea also defaulted to bootstrap for two reasons. First, the precondition of
+normality is violated. Second, the data uses a dichotomous (nominal) variable,
+which invalidates \srho and \ktau.
+
+Tea generally agrees with expert recommendations and is more conservative
+in the presence of non-normal data, minimizing the risk of false positive
+findings.
+
+\subsubsection{Does Tea avoid common mistakes made by non-expert users?}
+Our goal was to assess whether any of the tests suggested by Tea (i.e., valid
+candidate tests) or any of the invalid candidate tests would lead to a different
+conclusion than the one drawn in the tutorial. Table~\ref{tab:results} shows the
+results. Specifically, emphasized p-values indicate instances for which the
+result of a test differs from the tutorial in terms of statistical significance
+at the $.05$ level.
+
+For all of the 12 tutorials, Tea's suggested tests led to the same conclusion
+about statistical significance. For two out of the 12 tutorials, two or more
+candidate tests led to a different conclusion. These candidate tests were
+invalid due to violations of independence or normality.
+
+To summarize, the evaluation shows us that (i) Tea can replicate and even improve
+upon expert choices and (ii) Tea could help novices avoid common mistakes and
+false conclusions.

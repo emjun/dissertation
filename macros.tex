@@ -65,7 +65,7 @@
 \usepackage{rotating}
 \usepackage{balance}
 \usepackage{wrapfig}
-\usepackage{enumerate}
+% \usepackage{enumerate}
 \usepackage{caption}
 \usepackage{framed}
 \usepackage{enumitem}
@@ -73,7 +73,7 @@
 \usepackage{graphicx}
 \usepackage{color}
 \usepackage{fixltx2e}
-%\usepackage{tkz-graph}
+% \usepackage{tkz-graph}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{tikz}
@@ -82,5 +82,122 @@
 \usepackage{scrextend}
 \usepackage{sidecap}
 \usepackage{graphicx}
+\usepackage{comment}
+
+% For Tikz graphics
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,graphs,backgrounds,fit,calc,quotes,shapes.multipart}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
 
 \usepackage{todo} % for todo list
+
+%%%%%% For consistent terminology 
+% Tea 
+\def\TeaPL{Tea's programming language\xspace}
+\def\TeaRS{Tea's runtime system\xspace}
+
+\def\dataSet{data set\xspace}
+\def\dataSets{data sets\xspace}
+
+% Hypothesis formalization 
+%% Quotes
+\newcommand{\shortquote}[1]{``\emph{#1}''}
+\newcommand{\longquote}[1]{\vspace{-1pt}\begin{quote}``\emph{#1}''\end{quote}}
+\newcommand{\theme}[1]{\vspace{-1pt}\subsubsection{#1} }
+\newcommand{\groupingtheme}[1]{\subsubsection{\textbf{#1}} }
+%% Research Questions
+\def\rqSteps{\textbf{RQ1 - Steps}\xspace}
+\def\rqProcess{\textbf{RQ2 - Process}\xspace}
+\def\rqTools{\textbf{RQ3 - Tools}\xspace}
+
+% Tool Implicatinos 
+\def\higherLevel{\textit{DI1 - Raise level of abstracion}\xspace}
+\def\connectConceptualStats{\textit{DI2 - Connect conceptual and statistical models}\xspace}
+\def\relateStats{\textit{DI3 - Relate statistical methods}\xspace}
+
+% Tisane terminology
+\def\Disambiguation{Disambiguation\xspace}
+\def\disambiguation{disambiguation\xspace}
+\def\SDSLlong{study design specification language\xspace}
+\def\SDSL{SDSL\xspace}
+
+%% Evaluation Research Questions
+\def\rqWorkflow{\textbf{RQ1 - Workflow}\xspace}
+\def\rqCognitive{\textbf{RQ2 - Cognitive fixation}\xspace}
+\def\rqFuture{\textbf{RQ3 - Future possibilities}\xspace}
+
+%% Design considerations
+\def\dcConceptualKnowledge{\textit{DG1 - Conceptual knowledge}\xspace}
+\def\dcConceptualKnowledgeLong{\textit{DG1 - Prioritize conceptual knowledge.}\xspace}
+\def\dcValidity{\textit{DG2 - Validity}\xspace}
+\def\dcValidityLong{\textit{DG2 - Prioritize the validity of models.}\xspace}
+\def\dcGuidance{\textit{DG3 - Guidance and control}\xspace}
+\def\dcGuidanceLong{\textit{DG3 - Give analysts guidance and control.}\xspace}
+\def\dcStatisticalPlanning{\textit{DG4 - Statistical planning}\xspace}
+\def\dcStatisticalPlanningLong{\textit{DG4 - Facilitate statistical planning without data.}\xspace}
+
+% Tool Implications
+\def\higherLevel{\textit{DI1 - Raise level of abstracion}\xspace}
+\def\connectConceptualStats{\textit{DI2 - Connect conceptual and statistical models}\xspace}
+\def\relateStats{\textit{DI3 - Relate statistical methods}\xspace}
+
+
+%% Other
+\def\statsmodels{\texttt{statsmodels}\xspace}
+\def\pymer{\texttt{pymer4}\xspace}
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle}
+%% Referencing sections
+\def\sectionautorefname{Section}
+%% Other useful macros and abbreviations
+\def\etal{et al.\xspace}
+
+
+%$%%%% Macros for consistent typesetting of tables.
+
+% Minimizing spacing for tables
+\usepackage{setspace}
+
+
+%% Fix spacing in non-right-aligned columns
+\newcommand{\z}{\phantom{0}}
+
+%% Shortcut for plus/minus sign
+\newcommand{\p}{$\scriptsize{\pm}$}
+
+%% Always center and bold face column headers
+\newcommand\colH[1]{\multicolumn{1}{l}{\textbf{#1}}}
+\newcommand\colHR[1]{\multicolumn{1}{r}{\textbf{#1}}}
+\newcommand\colsH[2]{\multicolumn{#1}{c}{\textbf{#2}}}
+
+%% New column type to "hide" a column
+%\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
+
+%% Typeset an assumption
+\newcommand{\assume}[1]{\tikz[baseline]\node[circle,inner xsep=2pt,inner ysep=0pt,
+        draw=black,fill=white,scale=0.8,anchor=base] {#1};}
+%% Typeset a valid assumption
+\newcommand{\valid}[1]{\tikz[baseline]\node[circle,inner xsep=2pt,inner ysep=0pt,
+        draw=black,fill=gray!50!white,scale=0.8,anchor=base] {#1};}
+%% Typeset an invalid assumption
+\newcommand{\invalid}[1]{\tikz[baseline]\node[circle,inner xsep=2pt,inner ysep=0pt,
+        draw=black,fill=white!30!white,scale=0.8,anchor=base] {#1};}
+\def\yes{$\checkmark$}
+\def\no{---}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Use \<name> or \codeid{name} for source-code related identifiers
+\def\<#1>{\codeid{#1}}
+\newcommand{\codeid}[1]{\ifmmode{\mbox{\small\ttfamily{#1}}}\else{\small\ttfamily #1}\fi}
+\newcommand{\codeidsmall}[1]{\ifmmode{\mbox{\smaller\ttfamily{#1}}}\else{\smaller\ttfamily #1}\fi}
+
+
+\makeatother
+
+
+
+
+
+
+%% Tools and approaches
+\def\tea{Tea\xspace}

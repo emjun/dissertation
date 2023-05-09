@@ -1,1 +1,316 @@
-\section{Donald Campbell's Theory of Validity}
+This work builds on theories of scientific discovery and sensemaking, empirical
+findings on current analytical praxis, and existing tools in the data lifecycle.
+Subsequent sections provide additional statistical background as needed.
+
+\section{Theories of Scientific Discovery and Sensemaking}
+Klahr and Simon characterized scientific discovery as a dual-search process
+involving the development and evaluation of hypotheses and
+experiments~\cite{klahr1988dual}. They posited that scientific discovery
+involved tasks specific to hypotheses (e.g., revising hypotheses) and to
+experiments (e.g., analyzing data collected from experiments), which they
+separated into two different ``spaces,'' and tasks moving between them, which is
+where we place hypothesis formalization. Extending Klahr and Simon's two-space
+model, Schunn and Klahr proposed a more granular four-space model involving data
+representation, hypothesis, paradigm, and experiment
+spaces~\cite{schunn1995FourSpace,schunn1996BeyondTwoSpace}. In the four-space
+model, conceptual hypothesizing still lies in the hypothesis space, and
+hypothesis testing and statistical modeling lies in the paradigm space. As such,
+hypothesis formalization is a process connecting the hypothesis and paradigm
+spaces. In Schunn and Klahr's four-space model, information flows
+unidirectionally from the hypothesis space to the paradigm space.
+In~\autoref{sec:hypothesisFormalization} we extend this prior research with
+evidence that the path from hypothesis and paradigm spaces is actually
+bidirectional. (see Figure~\ref{figure:overview}).
+
+% Figure~\ref{figure:priorWork} augments Schunn and Klahr's
+% original diagram (Figure 1 in~\cite{schunn1995FourSpace}) with
+% annotations depicting how our content analysis of research papers and lab study
+% triangulate a tighter dual-space search between hypothesis and
+% paradigm spaces with a focus on hypothesis formalization. Our mixed-methods
+% approach follows the precedent and recommendations of Klahr and
+% Simon's~\cite{klahr1999studies} study of scientific discovery activities.
+% using multiple methods. 
+% \figurePriorWorkCombined
+
+% Similar to Klahr and Simon's framework of scientific discovery, 
+Grolemund and Wickham describe the analysis process as (i) updating mental
+models of the world and hypotheses based on data, (ii) collecting data based on
+hypotheses, and (iii) identifying and reconciling discrepancies between
+hypotheses and data\cite{grolemund2014cognitive}. As such, Grolemund and
+Wickham argue for statistical data analysis as a sensemaking activity. 
+
+% Rusell et al. emphasize the
+% importance of external representations during sensemaking because they can
+% influence the quality of conclusions reached and the time to arrive at them. 
+Russell et al.~\cite{russell1993cost} define sensemaking as ``the process of
+searching for a representation and encoding data in that representation to
+answer task-specific questions.'' Sensemaking is the iterative process of
+searching for and refining external representations in a ``learning loop
+complex'' that involves transitioning back and forth between (i) searching for
+and (ii) instantiating representations.
+% , which in the context of data analysis
+% are conceptual hypotheses and statistical model implementations. 
+Indeed, we find that hypothesis formalization is a learning
+loop~\cite{russell1993cost} where the conceptual hypothesis is an external
+representation of a set of assumptions analysts may have about the world (e.g.,
+an implicit causal model), that ultimately affects which statistical models are
+implemented and which results are obtained. 
+
+More recently, in \textit{Statistical
+Rethinking}~\cite{mcelreath2020statistical}, McElreath proposes that there are
+three key representational phases involved in data analysis: conceptual
+hypotheses, causal models underlying hypotheses (which McElreath calls ``process
+models''), and statistical models. McElreath emphasizes that conceptual
+hypotheses may correspond to multiple causal and statistical models, and that
+the same statistical model may provide evidence for multiple, even
+contradictory, causal models and hypotheses. McElreath's framework does not
+directly address how analysts navigate these relationships or how computation
+plays a role, both of which we take up in this work. 
+
+% We found that the smaller hypothesis and model refinement loops can themselves be smaller
+% learning loops embedded in the larger loop of hypothesis formalization. 
+
+% We found that there are smaller
+% learning loops as analysts search for and revise intermediate representations,
+% such as explicit causal models, mathematical equations, or partially specified
+% models. The hypothesis and model refinement loops can themselves be smaller
+% learning loops embedded in the larger loop of hypothesis formalization. 
+
+% In doing so, we provides empirical evidence for prior frameworks on statistical
+% thinking as
+% well~\cite{pfannkuch1997statistical,pfannkuch2000statistical,wild1999statisticalThinking}
+% a but also (i)
+% provides more granular insight into \textit{how} and \textit{why} transitions between
+% representations occur and (ii) scrutinizes the role of
+% \textit{software and computation} through close observation of analyst workflows
+% in the lab as well as through a follow-up analysis of statistical software. Based on
+% these observations, we also speculate on how tools might better support hypothesis
+% formalization. More recently, in \textit{Statistical
+% Rethinking}~\cite{mcelreath2020statistical}, McElreath proposes that
+% there are three key representational phases involved in data analysis:
+% conceptual hypotheses, causal models underlying hypotheses (which McElreath
+% calls ``process models''), and statistical models. McElreath, like the ASA and
+% Wild and Pfannkuch, separates domain and statistical ideas and discusses the use
+% of causal models as an intermediate representation to connect
+% the two. McElreath emphasizes that conceptual hypotheses may correspond to
+% multiple causal and statistical models, and that the same statistical
+% model may provide evidence for multiple, even contradictory, causal models and
+% hypotheses. McElreath's framework does not directly address how analysts navigate
+% these relationships or how computation plays a role, both of which we take up in
+% this paper. 
+
+% \todo{Maybe use some of the scientific thinking literature to movtivate higher-levels of abstraction and better programming representations and interfaces as necessary?}
+
+
+\section{Empirical accounts of data analysis practice}
+Studies with analysts have found that data analysis is an iterative process that
+involves data collection; cleaning and wrangling; and statistical testing and
+modeling~\cite{kandel2012enterprise,alspaugh2018futzing,wongsuphasawat2019EDAgoals,grolemund2014cognitive,liu2019paths,liu2019understanding}.
+The importance of exploration and its role in updating analysts' understanding
+of the data and their goals and hypotheses is of note. Battle and Heer describe
+exploratory visual analysis (EVA), a subset of exploratory data analysis (EDA)
+where visualizations are the primary interfaces and outputs for exploring data,
+as encompassing both data-focused (bottom-up) and goal- or hypothesis-focused
+(top-down) investigations~\cite{battle2019EVA}.
+In~\autoref{sec:hypothesisFormalization}, we found that (i) analysts explored
+their data before modeling and (ii) exploratory observations sometimes prompted
+conceptual shifts in hypotheses (bottom-up) but at other times were guided by
+hypotheses and only impacted statistical analyses (top-down). In this way, data
+exploration appears to be an important intermediate step in hypothesis
+formalization, blurring the lines between exploratory and confirmatory data
+analysis. 
+
+Decisions throughout analysis tasks can give rise to a ``garden of forking
+paths''~\cite{gelman2013garden}, which compounds for meta-analyses synthesizing
+previous findings~\cite{kale2019decision}. Liu, Boukhelifa, and
+Eagan~\cite{liu2019understanding} proposed a broad framework that characterizes
+analysis alternatives using three different \textit{levels of abstraction}:
+cognitive (e.g., shifts in conceptual hypotheses), artifact (e.g., choice in
+statistical tools), and execution (e.g., computational tuning). Liu, Althoff,
+and Heer~\cite{liu2019paths} found that analysts often revisit key decisions
+during data collection, wrangling, modeling, and evaluation. The focus of this
+thesis is on how any single pass or iteration occurs. I approach this work from
+the perspective that by understanding a single iteration, we may be able to
+focus analysts on their iterations that are most substantial and impactful and
+eliminate a number of unnecessary iterations that arise due to mistakes in
+aligning conceptual and statistical concerns, which we found in our case studies
+(see ~\autoref{sec:tisane_case_studies}).
+
+
+% Whereas hypothesis formalization
+% has remained implicit in prior descriptions of data analysis, we explicate this
+% specific process. Furthermore, our work differs in method. While previous
+% researchers have relied primarily on post-analysis interviews with analysts, our
+% lab study (\autoref{sec:inLabStudy}) enables us to observe decision making
+% during hypothesis formalization in-situ. In summary, our work differs in (i)
+% scope and (ii) method from prior work in HCI on data analysis practices. 
+
+
+
+\section{Tools for data analysis}
+% \ej{Key takeaway: Tools don't focus on hypothesis formalization.}
+% Most existing tools focus on one set of concerns at a time. For example,
+% conceptual modeling...
+% study design...
+% statistical analysis...(what resonated with Tyler in the Tisane paper)
+
+% Whereas hypothesis formalization
+% has remained implicit in prior descriptions of data analysis, we explicate this
+% specific process. 
+
+There are numerous software tools for data analysis. Most focus on isolating one
+set of concerns--conceptual modeling, study design, or statistical
+specification. Although a singular focus is necessary for developing effective
+and modular software, integrating across these concerns is necessary for
+accurate hypothesis formalization. This integration is underrepresented in the
+current ecosystem of tools and is the focus of the systems built in this
+dissertation.
+
+% In this dissertation, we explore the levels of abstraction we can
+% provide to meet users where they are comfortable (and their goals) while also
+% having sufficient information to reason about statistical methods. We also explore
+% two different reasoning methods (constraint-based in Tea and graph-based in
+% Tisane) and find that a hybrid approach (Teasane) may be the most promising for realizing
+% the vision of supporting hypothesis formalization end-to-end.
+
+\subsection{Tools for conceptual modeling}
+Daggity~\cite{textor2011dagitty} supports authoring, editing, and
+formally analyzing causal graphs through code and a visual editor. Daggity
+requires users to specify a formal causal graph, which may not always be
+possible~\cite{suzuki2020causal,suzuki2018mechanisms,velentgas2013developing}.
+Although a knowledgeable analyst could use Daggity to identify a set of
+variables that control for confounding to include in a linear model
+(``adjustment sets''), Daggity does not support translation of these statistical
+insights into model implementation code. 
+
+\subsection{Tools for study design}
+Several domain-specific languages~\cite{gosset,bakshy2014planout}, software
+packages~\cite{edibble,blair2019declaring}, and standalone
+applications~\cite{mackay2007touchstone,eiselmayer2019touchstone2} specialize in
+experiment design. A primary focus is to provide researchers low-level control
+over trial-level and randomization details. For example,
+JsPsych~\cite{deLeeuw2015jspsych} gives researchers fine-grained control over
+the design and presentation of stimuli for online experiments. At a mid-level of
+abstraction, Touchstone~\cite{mackay2007touchstone} is a %comprehensive
+tool for designing and launching online experiments. It also refers users to R
+and JMP for data analysis but does not help users author an appropriate
+statistical model. Touchstone2~\cite{eiselmayer2019touchstone2} helps
+researchers design experiments based on statistical power. At a high-level of
+abstraction, edibble~\cite{edibble} helps researchers plan their data collection
+schema. Edibble aims to provide a ``grammar of study design'' that focuses users
+on their experimental manipulations in relation to specific units (e.g.,
+participants, students, schools), the frequency and distribution of conditions
+(e.g., within-subjects vs. between-subjects), and measures to collect (e.g.,
+age, grade, location) in order to output a table to fill in during data
+collection. While Tisane's \SDSLlong uses an abstraction level comparable to
+edibble, Tisane is focused on using the expressed data measurement relationships
+to infer a statistical model. Additionally, Tisane's \SDSL provides conceptual
+relationships that are out of the scope of edibble but important for specifying
+conceptually valid statistical models.
+
+\subsection{Tools for statistical specification}
+AutoML tools such as
+Auto-WEKA~\cite{autoweka}, auto-sklearn~\cite{autosklearn}, and H2O
+AutoML~\cite{H2OAutoML20} aim to make statistical methods more widely usable.
+Tea and Tisane differ from AutoML efforts in their focus on analysts who
+prioritize explanation, not just prediction, such as researchers developing
+scientific theories. As a result, Tisane provides support for specifying GLMMs,
+which some prominent AutoML tools, such as auto-sklearn~\cite{autosklearn},
+omit. 
+
+The Automatic Statistician~\cite{lloyd2014automatic} generates a report listing
+all ``interesting'' relationships (e.g., correlations, statistical models,
+etc.). %among data columns.
+Although apparently complete, the Automatic Statistician may overlook analyses
+that are conceptually interesting and difficult, if not impossible, to deduce
+from data alone.
+
+Recent work in the database community helps researchers answer causal questions
+about multilevel, or hierarchical, data~\cite{salimi2020causal, kayali2020demonstration}.
+% \footnote{Generalized linear models with mixed effects are appropriate in these settings as well.},
+CaRL~\cite{salimi2020causal} provides a domain-specific language to express
+causal relationships between variables and a GUI to show researchers %the
+results. Tea and Tisane leverage a similar insight that researchers have domain
+knowledge that a system can use to infer statistical methods. Whereas CaRL is
+focused on answering specific queries about average causal effect, the systems
+in this dissertation are designed to address a range of non-causal questions.
+
+
+\begin{comment}
+\ej{What is our scope and why? We want to be more specific than general purpose tools but then we also want to be more general than one-off tools for domains. }
+Analytical tools for specific applications, such as
+ExperiScope~\cite{guimbretiere2007experiscope} for analyzing interaction data logs for interaction techniques. ExperiScope surfaces
+patterns in the data that would be difficult to detect manually and enables
+researchers to collect noisier data in the wild that have greater external
+validity. Touchstone~\cite{mackay2007touchstone} is a comprehensive tool that
+supports the design and launch of online experiments. Touchstone provides
+suggestions for data analysis based on experimental design.
+Touchstone2~\cite{eiselmayer2019touchstone2} builds upon Touchstone and provides
+more extensive guidance for evaluating the impact of experimental design on
+statistical power. Statsplorer~\cite{wacharamanotham2015statsplorer} is an
+educational web application for novices learning about statistics. While more
+focused on visualizing various alternatives for statistical tests, Statsplorer
+also automates test selection (for a limited number of statistical tests and by
+executing simple switch statements) and the checking of assumptions (though it
+is currently limited to tests of normality and equal
+variance).~\cite{wacharamanotham2015statsplorer} found that Statsplorer helps
+HCI students perform better in a subsequent statistics lecture. 
+
+Tools designed for statistical education, such as Statsplorer~\cite{wacharamanotham2015statsplorer}
+In comparison to Statsplorer, Tea is specifically designed to integrate into
+existing workflows. Tea can be executed in any Python environment, including
+notebooks, which are widely used in data analysis. Tea enables reproducing and
+extending analyses by being script-based, and the analyses are focused on
+hypotheses that analysts specify. 
+
+\vspace{-6pt}
+\subsection{Domain-specific Languages for the Data Life Cycle}
+Tea extends prior work on domain-specific languages for the data life cycle, 
+tools for statistical analysis, and constraint-based approaches in HCI. 
+
+Prior domain-specific languages (DSLs) have focused on several different stages
+of data exploration, experiment design, and data cleaning to shift the burden of
+accurate processing from users to systems. To support data exploration,
+Vega-lite~\cite{satyanarayan2017vega} is a high-level declarative language that
+supports users in developing interactive data visualizations without writing
+functional reactive components. PlanOut~\cite{bakshy2014planout} is a DSL for
+expressing and coordinating online field experiments. More niche than PlanOut,
+Touchstone2 provides the Touchstone Language for specifying condition
+randomization in experiments (e.g., Latin
+Squares)~\cite{eiselmayer2019touchstone2}.%Experimental design is also an
+essential aspect of the domain knowledge users encode in Tea programs. To
+support rapid data cleaning,  Wrangler~\cite{kandel2011wrangler} combines a
+mixed-initiative interface with a declarative transformation language. Tea can
+be integrated with tools such as Wrangler that produce cleaned CSV files ready
+for analysis.
+
+In comparison to these previous DSLs, Tea provides a language to support another crucial step in the data life cycle: statistical analysis. 
+
+%As a declarative language, Tea has a similar goal for statistical analysis. Tea users do not write any code that performs statistical procedures. They instead focuses on expressing their experimental designs, assumptions, and hypotheses with variables in their data. 
+\end{comment}
+
+\section{Validity in statistical data analysis}
+Finally, there are many working definitions of ``validity,'' from predictive
+accuracy to a quality of how well experiments are designed to a trade-off
+between model simplicity and fit (e.g., R-squared). Donald Campbell's theory of
+validity~\cite{shadish2010campbell} provides a framework for reasoning about and
+unifying many intuitive definitions of validity. The Campbellian theory of
+validity has also become widely adopted across
+disciplines~\cite{shadish2010campbell}. Campbell defines four dimensions of
+validity: internal validity, external validity, statistical conclusion validity,
+and construct validity. This thesis focuses on enhancing statistical conclusion,
+external, and internal validity through the correct application and
+specification of statistical analyses that match end-user intentions and data
+collection procedures. We do not address construct validity because construct
+validity tends to be more domain-specific and theoretical as well as a quality
+assessed about a measure over a period of time. 
+
+% all of which impact how statistical analyses are
+% conducted and interpreted. \todo{Table for each | definition | mistakes/threats
+% that our work addresses}. 
+
+% \ej{Which dimensions of statistical validity do we care about?
+% - Why is statistical test selection and model authoring important? -- not the
+% only important things, which is why I want to explore ways to more directly
+% guide data collection in Teasane}
+

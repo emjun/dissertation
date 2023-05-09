@@ -1,0 +1,122 @@
+% \todo{Limitation: testing implications with significant system development and folow-up user studies}
+\vspace{-2mm}
+\section{Discussion: Data analysis as problem solving}
+% \section{Discussion, Limitations, and Future work}
+% \todo{separate Discussion from Limitations and Future Work -- without sacrificing cohesion}
+Hypothesis formalization is a dual-search process of translating conceptual
+hypotheses into statistical model implementations. Due to constraints imposed by
+domain expertise, data, and tool familiarity, the same conceptual hypothesis may
+be formalized into different model implementations. A single model implementation may be useful for making multiple statistical inferences. The same model
+implementation may also formalize two possibly opposing hypotheses. To navigate
+these constraints, analysts use problem-solving strategies characteristic of the
+larger scientific discovery process~\cite{klahr1988dual,schunn1995FourSpace}. As
+such, hypothesis formalization exemplifies how data science is a design
+practice. 
+% Understanding
+% hypothesis formalization enables us to identify when and why these differences
+% arise, which may help diagnose reproducibility issues. 
+ 
+At a conceptual level, hypothesis formalization involves \textit{hypothesis
+refinement}, which, to use Schunn and Klahr's
+language~\cite{schunn1995FourSpace}, is a \textit{scoping} process. In the
+formative content analysis, we found that researchers \textit{decomposed} their
+research goals and conceptual hypotheses into specific, testable sub-hypotheses
+and \textit{concretized} constructs using proxies, born of theory or available
+data. Also, we found that analysts in the lab study also quickly converged on
+the need to specify established proxies or develop them based on the data schema
+presented. In hypothesis formalization, scoping incorporates domain- and
+data-specific observations to qualify the conceptual scope of researchers'
+hypotheses. In other words, hypothesis refinement is an instance of
+\textit{means-end analysis}~\cite{newell1972humanProblemSolving}, a
+problem-solving strategy that aims to recursively change the current state of a
+problem into sub-goals (i.e., increasingly specific objectives) in order to
+apply a technique (i.e., a particular statistical model) to solve the problem
+(i.e., test a hypothesis). 
+
+At the other computational endpoint of hypothesis formalization, \textit{model implementation}
+also involves iteration. Through our analysis of software tools, we
+found that analysts must not only select tools among an array of specialized and
+general choices but also navigate tool-specific taxonomies of statistical
+approaches. These tool taxonomies may both differ from and inform analysts'
+personal categorizations, potentially explaining why analysts in our lab study
+relied on their personal taxonomies and tools. Based on their prior experience, analysts engage in
+\textit{analogical reasoning}~\cite{holland1989induction}, finding parallels between the present analysis
+problem's structure and previously encountered ones or ones that fit a tool's
+design easily.
+
+Upon selecting a statistical function, analysts may tune computational settings,
+choose different statistical functions or approaches, which they may tune, and
+so on. In this way, the model implementation loop in hypothesis
+formalization captures the ``debugging cycles'' analysts encounter, such as the census
+researcher in the introduction. The tool ecosystem as a
+whole supports diverse model implementations, even for the same
+mathematical equation. However, the tool interfaces provide low-level abstractions, such as
+interfaces using mathematical formulae that, based on our observations in the
+lab study, do not support the kind of higher-level conceptual reasoning required
+of hypothesis formalization.
+
+% Our investigation of hypothesis formalization focused on domain-general steps
+% and considerations. 
+% implementations because they are familiar with computational settings and their
+% conceptual and statistical ramifications. 
+% Additionally, in domains where pre-registration has become more mainstream, such
+% as in psychology, future research could also examine how researchers arrive at
+% the studies they pre-register. 
+
+% information sources and collaboration are dimensions
+% of hypothesis formalization that we did not investigate deeply.
+\section{Future Work}
+The steps, considerations, and strategies we have identified are domain-general.
+Domain-specific expertise likely influences how quickly analysts switch between
+steps and strategies during the dual-search process. Domain experts, including
+researchers in our content analysis, may know which statistical model
+implementations and computational settings to use a priori and design their
+studies or specify their conceptual hypotheses in light of these expectations
+--- incorporating means-end analysis and analogical reasoning strategies ---
+more quickly. It may be these insights that analysts in our lab study sought
+when they looked online for conceptual and statistical help. 
+
+Future work could observe how domain experts perform hypothesis formalization
+and characterize when and how analysts draw upon their own or collaborators'
+expertise to circumvent iterations or justify early scoping decisions. These insights may also shed light on how pre-registration expectations and
+practices could be made more effective. Given the level of detail required of
+some pre-registration policies, researchers likely engage in a version of the
+hypothesis formalization process we have identified prior to registering their
+studies. Knowing how pre-registration fits into the hypothesis formalization
+process could improve the design and adoption of pre-registration practices.
+
+Future work could also explore how hypothesis formalization may differ in
+machine learning settings. In this paper, our focus was on how analysts answer
+domain questions and test hypotheses using statistical methods and their domain
+knowledge. Our findings may not generalize to settings or methods where domain
+knowledge is less important, such as deep learning and other machine
+learning-based approaches. 
+
+% Throughout this process, analysts seek additional, outside information, as we
+% observed in the lab study. Based on our
+% findings, we expect that (i) domain and data information is helpful for refining
+% hypotheses, (ii) tool documentation is helpful during model implementation, and
+% (iii) statistical information is helpful all throughout. Future work should
+% investigate precisely how and when different kinds of information and
+% collaborations help analysts problem solve during hypothesis formalization.
+
+Finally, our findings suggest opportunities for future tools to bridge steps
+involved in hypothesis formalization and guide analysts towards reasonable model
+implementations. Our analysis of tools suggest possibilities for tools to
+connect model implementations to their mathematical representations through
+meta-libraries, provide higher-level abstractions for more directly expressing
+conceptual hypotheses, and support automated conceptual modeling. Future system
+development and user testing are necessary to validate these implications and
+more readily support analysts translate their conceptual hypotheses into
+statistical model implementations.
+
+% Studying users in a lab or observational setting,
+% especially over time, would likely reveal additional implications for improving
+% existing tools and developing new ones. 
+
+% Similar to how heuristic evaluations identify
+% usability challenges, our heuristic analysis of software tools revealed
+% misalignments between tool design and the hypothesis formalization process.
+
+
+
