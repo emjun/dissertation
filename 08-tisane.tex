@@ -65,110 +65,19 @@ that could compromise generalizability (\higherLevel, \connectConceptualStats).
 % Figure~\ref{fig:figureSystemOverview} provides an overview
 % of this process.
 
-\subsection{Statistical scope}  \label{sec:GLM}
-% Tisane supports two classes of models that are widely applicable to diverse
-% domains and data collection
-% settings~\cite{lo2015transform,barr2013random,bolker2009generalized}:
-% Generalized Linear Models (GLMs) and Generalized Linear Mixed-effects Models
-% (GLMMs).
-GLMs and GLMMs are meaningful targets because they are commonly
-used (e.g., in psychology~\cite{lo2015transform,cohen2013applied}, social
-science~\cite{kreft1998introducing}, and
-medicine~\cite{bolker2009generalized,barr2013random}) yet are easy to misspecify
-for statistical experts and non-experts alike~\cite{barr2013random,
-cohen2013applied}. We designed Tisane to support researchers who are domain
-experts capable of supplying conceptual and data collection information but lack
-the statistical expertise or confidence to author GLM/GLMMs accurately.
-%capable of specifying accurate conceptual and
-%data relationships.
-Both GLMs and GLMMs consist of (i) a \textit{model effects structure},
-which can include main and interaction effects and (ii) \textit{family} and
-\textit{link} functions. The family function describes how the residuals of a
-model are distributed. The link function transforms the predicted values of the
-dependent variable. This allows modeling of linear and non-linear relationships
-between the dependent variable and the predictors. In contrast to
-transformations applied directly to the dependent variable, a link function does
-not affect the error distributions around the predicted values. The key
-difference between GLMs and GLMMs is that GLMMs contain random effects in their
-model effects structure. Random effects describe how individuals (e.g., a study
-participant) vary and are necessary in the presence of hierarchies, repeated
-measures, and non-nesting composition
-(\ref{sec:data-measurement-relationships})\footnote{Traditionally, the term
-``mixed effects'' refers to the simultaneous presence of ``fixed'' and
-``random'' effects in a single model. We try to avoid these terms as there are
-many contradictory usages and definitions~\cite{gelmanFixedRandom}. When we do
-use these terms, we use the definitions from Kreft and De
-Leeuw~\cite{kreft1998introducing}.}.
-
-Both GLMs and GLMMs assume that (i) the variables involved are linearly related,
-(ii) there are no extreme outliers, and (iii) the family and link functions are
-correctly specified. In addition, GLMs also assume that (iv) the observations
-are independent. Tisane's interactive compilation process guides users through
-specifying model effects structures, family and link functions to satisfy
-assumption (iii), and random effects only when necessary to pick between GLMs
-and GLMMs and satisfy assumption (iv).
-
-In the scope of this thesis, GLM and GLMMs are an appropriate scope because they
-encompass a large scope of statistical models such that our research
-contributions are widely applicable and substantial. In addition, given that
-NHSTs (in Tea) are mathematically related to GLMs and GLMMs, Tisane's focus
-helps us to push the boundaries of the applicability of higher-level
-abstractions for statistical analysis established/explored in Tea and lay the
-groundwork to connect Tea and Tisane's programming and interaction models
-(better design statistical computing tools accurately reflect statistical
-taxonomies).
-
-\section{Related work}
-% Tisane assumes that analysts have chosen to use Tisane due to their knowledge of the linear relationship between variables and have removed outliers from data although Tisane does not require data. \jh{Confusing, so removing for now.}
-\subsubsection{Causal Analysis}
-One of our aims in Tisane was to connect conceptual models to statistical models
-(\connectConceptualStats). Prior work in the causal reasoning literature shows
-how linear models can be derived from causal graphs to make statistical
-inferences and test the motivating causal
-graph~\cite{spirtes1996using,spirtes1994conditional}. Recently, VanderWeele
-proposed the ``modified disjunctive cause
-criterion''~\cite{vanderweele2019modifiedDisjunctiveCriterion} as a new
-heuristic for researchers without a clearly accepted formal causal model to
-identify confounders to include in a linear model, for example. The criterion
-identifies confounders in a graph based on expressed causal relationships.
-Tisane applies the modified disjunctive cause criterion when suggesting
-variables to include in a GLM or GLMM. Tisane does not automatically include
-variables to the statistical models because substantive domain knowledge is
-necessary to resolve issues of temporal dependence between variables, among
-other considerations~\cite{vanderweele2019modifiedDisjunctiveCriterion}. To
-guide analysts through the suggestions, Tisane provides analysts with
-explanations to aid their decision making during disambiguation. Finally, GLMs
-are not formal causal analyses. Tisane does not calculate average causal effect
-or other causal estimands. Rather, Tisane only utilizes insights about the
-connection between causal DAGs and linear models to guide analysts towards
-including potentially relevant confounders in their GLMs grounded in domain
-knowledge. 
-
-There are multiple frameworks for
-reasoning about causality~\cite{rubin2004teaching,pearl1995causal}. One
-widespread approach is to use directed acyclic graphs (DAGs) to encode
-conditional dependencies between
-variables~\cite{pearl1995doCalculus,greenland1999causal,spirtes1994conditional,spirtes1996using}.
-If analysts can specify a formal causal graph, Pearl's ``backdoor path
-criterion''~\cite{pearl1995causal,pearl2000models} explains the set of variables
-that control for confounding. However, in practice, specifying proper causal
-DAGs is challenging and error-prone for domain experts who are not also experts
-in causal analysis~\cite{suzuki2020causal} due to uncertainty of empirical
-findings~\cite{suzuki2018mechanisms} and lack of guidance on which variables and
-relationships to include~\cite{velentgas2013developing}. Accordingly, Tisane
-does not expect analysts to specify a formal causal graph. Instead, analysts can
-express causal relationships as well as ``looser'' association (not causal)
-relationships between variables in the \SDSLlong.
-
+\input{tisane/related_work.tex}
 % \section{Tisane's DSL: Formalizing implicit domain assumptions as conceptual models}
 % \section{Deriving statistical models from conceptual models}
 \input{tisane/system.tex}
 
+\input{tisane/case_studies.tex}
 
+\section{Limitations and Motivation for Re-design}
 
+\input{tisane/exploratory.tex}
 
-\section{Evaluation: Case studies with real-world researchers}
-\input{tisane/eval.tex}
+\input{tisane/rTisane.tex}
 
-\section{Limitations}
+\input{tisane/lab_study.tex}
+
 \section{Summary of Contributions}
