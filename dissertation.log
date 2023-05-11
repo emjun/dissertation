@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  10 MAY 2023 17:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  11 MAY 2023 08:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1402,45 +1402,25 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 [17] [18]
 
-LaTeX Warning: Reference `todolbl:1' on page 19 undefined on input line 105.
-
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 12
-8.
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-
-LaTeX Warning: Reference `fig:overview' on page 19 undefined on input line 131.
-
-
-
 Package natbib Warning: Citation `jun2019tea' on page 19 undefined on input lin
-e 132.
+e 113.
 
 
 Package natbib Warning: Citation `jun2022tisane' on page 19 undefined on input 
-line 132.
+line 114.
 
 
-LaTeX Warning: Reference `fig:tools' on page 19 undefined on input line 138.
-
-
-Package natbib Warning: Citation `jun2019tea' on page 19 undefined on input lin
-e 139.
-
-
-Package natbib Warning: Citation `jun2022tisane' on page 19 undefined on input 
-line 139.
+LaTeX Warning: Reference `fig:tools' on page 19 undefined on input line 119.
 
 [19]
 
-LaTeX Warning: Reference `todolbl:2' on page 20 undefined on input line 153.
+LaTeX Warning: Reference `todolbl:1' on page 20 undefined on input line 157.
 
 
-LaTeX Warning: Reference `todolbl:3' on page 20 undefined on input line 155.
+LaTeX Warning: Reference `todolbl:2' on page 20 undefined on input line 159.
 
 
-LaTeX Warning: Reference `todolbl:4' on page 20 undefined on input line 157.
+LaTeX Warning: Reference `todolbl:3' on page 20 undefined on input line 161.
 
 ) [20]
 Chapter 2.
@@ -1505,7 +1485,7 @@ input line 83.
 Package natbib Warning: Citation `klahr1999studies' on page 22 undefined on inp
 ut line 88.
 
-<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=587, 
+<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=592, 
 1218.5525pt x 300.12125pt>
 File: hypothesisFormalization/figures/prior_work_combined_july_16_2021.png Grap
 hic file (type png)
@@ -1697,7 +1677,7 @@ Package natbib Warning: Citation `edibble' on page 26 undefined on input line 3
 
 [26]
 
-LaTeX Warning: Reference `todolbl:5' on page 27 undefined on input line 316.
+LaTeX Warning: Reference `todolbl:4' on page 27 undefined on input line 316.
 
 
 Package natbib Warning: Citation `autoweka' on page 27 undefined on input line 
@@ -1815,7 +1795,12 @@ nput line 65.
 Underfull \vbox (badness 2894) has occurred while \output is active []
 
  [30]
-[31]
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 41
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [31]
 
 Package natbib Warning: Citation `wickham2014tidy' on page 32 undefined on inpu
 t line 59.
@@ -1825,7 +1810,7 @@ Package natbib Warning: Citation `oliphant2006numpy' on page 32 undefined on in
 put line 63.
 
 [32]
-<tea/figures/modes_wide.jpg, id=660, 6677.94875pt x 4589.145pt>
+<tea/figures/modes_wide.jpg, id=666, 6677.94875pt x 4589.145pt>
 File: tea/figures/modes_wide.jpg Graphic file (type jpg)
 <use tea/figures/modes_wide.jpg>
 Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 135.
@@ -1995,7 +1980,7 @@ line 28.
 
 ] (./hypothesisFormalization/related_work.tex
 
-LaTeX Warning: Reference `todolbl:6' on page 42 undefined on input line 2.
+LaTeX Warning: Reference `todolbl:5' on page 42 undefined on input line 2.
 
 
 Package natbib Warning: Citation `carver2016guidelines' on page 42 undefined on
@@ -2095,7 +2080,7 @@ Package natbib Warning: Citation `bertin2011graphics' on page 45 undefined on i
 nput line 39.
 
 [45]
-<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=741, 835.
+<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=747, 835.
 62187pt x 275.0275pt>
 File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic 
 file (type png)
@@ -2184,13 +2169,13 @@ Package natbib Warning: Citation `pewDataset' on page 50 undefined on input lin
 e 84.
 
 [50]
-<hypothesisFormalization/figures/A11_SS_1.png, id=775, 548.0475pt x 590.205pt>
+<hypothesisFormalization/figures/A11_SS_1.png, id=781, 548.0475pt x 590.205pt>
 File: hypothesisFormalization/figures/A11_SS_1.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_1.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_1.png  used on 
 input line 168.
 (pdftex.def)             Requested size: 190.24818pt x 204.88174pt.
-<hypothesisFormalization/figures/A11_SS_2.png, id=776, 564.1075pt x 477.785pt>
+<hypothesisFormalization/figures/A11_SS_2.png, id=782, 564.1075pt x 477.785pt>
 File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_2.png  used on 
@@ -2514,7 +2499,7 @@ on page 72 undefined on input line 52.
 
 (./tisane/related_work.tex
 
-LaTeX Warning: Reference `todolbl:7' on page 72 undefined on input line 1.
+LaTeX Warning: Reference `todolbl:6' on page 72 undefined on input line 1.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
@@ -2738,7 +2723,7 @@ ut line 403.
 Package natbib Warning: Citation `jolly2018pymer4' on page 81 undefined on inpu
 t line 404.
 
-<tisane/figures/usage_scenario_gui_05012022.png, id=955, 1343.0175pt x 1002.746
+<tisane/figures/usage_scenario_gui_05012022.png, id=961, 1343.0175pt x 1002.746
 25pt>
 File: tisane/figures/usage_scenario_gui_05012022.png Graphic file (type png)
 <use tisane/figures/usage_scenario_gui_05012022.png>
@@ -2848,10 +2833,10 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: A575A67C4681273B2F22CCD57BBBCA84;19563.
  ) 
 Here is how much of TeX's memory you used:
- 39977 strings out of 478994
- 898292 string characters out of 5858184
- 1633450 words of memory out of 5000000
- 56364 multiletter control sequences out of 15000+600000
+ 39975 strings out of 478994
+ 898265 string characters out of 5858184
+ 1632420 words of memory out of 5000000
+ 56363 multiletter control sequences out of 15000+600000
  434557 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3502b,1778s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2918,10 +2903,10 @@ cm-super/sfti0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm
 uper/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-sup
 er/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucr
 r8a.pfb>
-Output written on dissertation.pdf (95 pages, 7002802 bytes).
+Output written on dissertation.pdf (95 pages, 7003364 bytes).
 PDF statistics:
- 1179 PDF objects out of 1200 (max. 8388607)
- 1033 compressed objects within 11 object streams
- 255 named destinations out of 1000 (max. 500000)
+ 1185 PDF objects out of 1200 (max. 8388607)
+ 1039 compressed objects within 11 object streams
+ 254 named destinations out of 1000 (max. 500000)
  715 words of extra memory for PDF output out of 10000 (max. 10000000)
 

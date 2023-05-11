@@ -102,43 +102,50 @@ and impact of statistical decisions and guiding their interpretation of results
 are important.
 
 \addcontentsline{toc}{section}{Summary of Contributions}
-\section*{Summary of Contributions} \todo{Update this section}
+\section*{Summary of Contributions}
+\ej{Add overview figure from reserach statement}
 % Contributions: systems, empirical, and the beginnings of methodological innovation.
-This dissertation makes systems, empirical, and methodological contributions:
+This dissertation makes systems and empirical contributions. Additionally, the
+process of designing and developing domain-specific languages for end-users
+shows the first steps towards developing methods for user-centric language
+design. 
+% we also explored new methods for eliciting and integrating user
+% feedback throughout programming language design.
+
+Specifically, I designed and implemented two systems, Tea~\cite{jun2019tea} and
+Tisane~\cite{jun2022tisane}, that leverage \textbf{domain-specific languages}
+(DSLs) to capture analysts' implicit assumptions and conceptual knowledge. Users
+\textbf{interactively compile} these high-level specifications into low-level
+code. To infer valid statistical analyses, the systems \textbf{programmatically
+represent and reason about core statistical authoring challenges} as constraints
+and graphs (\autoref{fig:tools}).
+% As a result, my systems prevent common analysis
+% mistakes~\cite{jun2019tea,jun2022tisane}. 
+
+In summary, this dissertation's key contributions are
 % The contributions of this research are as follows: 
 \begin{itemize} 
     % Whereas hypothesis formalization has remained implicit in prior
     % descriptions of data analysis, we explicate this specific process. 
+    \item a \textbf{formal constraint-based model} to specify and select among
+    common Null Hypothesis Statistical Tests in Tea (see~\autoref{chapter:tea}); 
     \item empirical findings of how authoring analyses requires integrating
     conceptual, data, statistical, and programming expertise, which we summarize
-    in our \textbf{theory of hypothesis formalization}; 
+    in our \textbf{theory of hypothesis formalization} (see~\autoref{chapter:hypoForm}); 
     \item an analysis of how the current statistical software ecosystem does not
     explicitly support and may even hinder hypothesis formalization, suggesting
-    new \textbf{design opportunities and implications};
-    \item a \textbf{formal constraint-based model} to specify and select among
-    common Null Hypothesis Statistical Tests in Tea; 
-    \item A \textbf{mixed-initiative approach} for ``interactively compiling''
+    new \textbf{design opportunities and implications} (see~\autoref{chapter:hypoForm});
+    \item a \textbf{mixed-initiative approach} for ``interactively compiling''
     linear models from conceptual and data relationships in Tisane; 
-    \item (Proposed) empirical findings on researchers' implicit semantics of
-    variables, conceptual models, study design, and hypotheses; 
-    \item (Proposed) new language constructs and an updated interaction model
-    for expressing and mapping these implicit semantics to statistical models
-    implemented in a new version of Tisane; and
-    \item (Proposed) evaluative studies on how usable and effective Tisane is
-    compared to \texttt{lme4}.
+    \item empirical \textbf{findings on researchers' implicit semantics of
+    conceptual models} (see~\autoref{chapter:tisane});
+    \item \textbf{new language constructs and interaction methods} for
+    reflecting on and refining conceptual models in a second version of Tisane,
+    which we call rTisane (see~\autoref{chapter:tisane}); and
+    \item qualitative and quantitative \textbf{results showing the benefit of
+    recording conceptual models and compiling them into statistical models} in
+    rTisane over a scaffolded workflow (see~\autoref{chapter:tisane}).
 \end{itemize}
-
-In my thesis (\autoref{fig:overview}), I designed and implemented two systems,
-Tea~\cite{jun2019tea} and Tisane~\cite{jun2022tisane}, that leverage
-\textbf{domain-specific languages} (DSLs) to capture analysts' implicit
-assumptions and conceptual knowledge. Users \textbf{interactively compile} these
-high-level specifications into low-level code. To infer valid statistical
-analyses, the systems \textbf{programmatically represent and reason about core
-statistical authoring challenges} as constraints and graphs
-(\autoref{fig:tools}). As a result, my systems prevent common analysis
-mistakes~\cite{jun2019tea,jun2022tisane}. I also contribute a \textbf{new theory
-describing the cognitive and operational steps involved in authoring statistical
-analyses}.
 
 
 \section{Thesis outline}
