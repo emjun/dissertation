@@ -37,17 +37,14 @@ analysts to externalize their implicit conceptual knowledge, receive guidance on
 analysis approaches, and help authoring low-level statistical modeling
 code~\autoref{sec:toolsAnalysis}. Our work on Tisane hypothesizes that in order
 to address these issues, software tools should capture analysts' implicit
-conceptual models, ..., and use them to derive statistical models. 
+conceptual models and use them to derive statistical models. 
 
-START HERE: Fill in "..." above with def of conceptual model:
-, captured in informal
-representations of variable relationships (e.g., list of variable relationships,
-process diagrams, graphs), describing the underlying data generating process. We
-refer to these implicit assumptions as \textit{conceptual
-models}~\cite{jun2021hypothesisFormalization}, and Richard McElreath calls them
-\textit{process models}~\cite{mcelreath2020statistical}.
-
-Conceptual models are difficult to reason about during
+\textit{Conceptual models}~\footnote{Richard McElreath calls these implict
+assumptions \textit{process models}~\cite{mcelreath2020statistical}. We use the
+term \textit{conceptual models} in order to contrast from statistical models.}
+are often-informal representations of variable relationships (e.g., list of
+variable relationships, process diagrams, graphs), describing the underlying
+data generating process. Conceptual models are difficult to reason about during
 statistical analysis. Their implications on statistical modeling are not
 obvious, especially to statistical non-experts. For example, the impact of
 conceptual assumptions may only become apparent after fitting multiple
@@ -58,16 +55,27 @@ models, which can lead to unintentionally answering a different research
 question and asserting a conceptual model based on preferred results (i.e.,
 HARKing~\cite{}). 
 
-To facilitate more accurate
-hypothesis formalization and thereby reduce threats to validity and improve
-analytical practices, we asked \textbf{how might we derive (initial) statistical
-models from knowledge about concepts and data collection?}. Inferring a statistical model raises two
-technical challenges: (1) How do we elicit the information necessary for
-inferring a statistical model? and (2) How do we infer a statistical model,
-given this information? We address these issues in \textbf{Tisane, a system for integrating
-conceptual relationships, data collection details, and modeling choices when
-specifying generalized linear models (GLMs) and generalized linear mixed-effects
-models (GLMMs)}. 
+To facilitate more accurate hypothesis formalization and ultimately improve
+validity during data analysis, we asked, \textbf{How might we derive (initial)
+statistical models from conceptual models?}. Inferring a statistical model
+raises two technical challenges: (1) How do we elicit the information necessary
+for inferring a statistical model? and (2) How do we infer a statistical model,
+given this information? We explore and address these issues by iteratively
+designing, developing, and evaluating \textbf{Tisane, a system for implementing
+generalized linear models (GLMs) and generalized linear mixed-effects models
+(GLMMs) from explicit statements of implicit conceptual assumptions}. 
+
+
+The first implementation of Tisane (\autoref{sec:tisane}) was as an open-source
+Python package available on \texttt{pip}~\cite{tisaneOnPip}. Case studies and
+real-world use of Tisane~\cite{} demonstrated not only the viability but also
+the desirability of tool support for authoring statistical models from
+conceptual models. Therefore, we explored how to further improve Tisane's
+programming and interaction models to better suit novice analysts
+(\autoref{sec:exploratoryStudy}) and released a second version in R, which we
+call \rTisane~\cite{rTisane link}. The R implementation allowed us to more
+direclty compare \rTisane to a scaffolded workflow using widely used linear
+modeling libraries, including the \texttt{lme4}, in R. 
 
 Tisane provides a \textbf{\SDSLlong} for expressing % conceptual and data
 relationships between variables. For example, a public health researcher can
