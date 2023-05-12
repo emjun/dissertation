@@ -11,9 +11,32 @@ If you are copying and pasting material from one of your papers, then remember t
     % \item Replace the conclusion section with a summary section. Again, you should tie this chapter back to the main themes of the thesis.
 \end{itemize}
 
-{\color{orange} Write an overview of chapter, how it ties to the rest of the thesis.}
+The overall narrative I want to tell: 
 
-{\color{orange} ``This chapter includes materials originally published in $\backslash$citet\{myownppr\}''}
+Evolution of design approach: 
+
+Getting to the user more directly Once we had the
+idea, we wanted to see what would be actually not just usable but helpful. This
+led us to engage with users in the lab
+
+====
+
+As we found in our analysis of tools (\autoref{sec:toolsAnalysis}), a wide
+variety of tools (such as SPSS~\cite{wiki:spss}, SAS~\cite{wiki:sas}, and
+JMP~\cite{wiki:jmp}), programming languages (e.g., R~\cite{wiki:r-language}),
+and libraries (including numpy~\cite{oliphant2006numpy}, scipy~\cite{scipy}, and
+statsmodels~\cite{statsmodelsPaper}), enable people to perform specific
+statistical tests, but they do not address the fundamental problem that users
+may not know which statistical test to perform and how to verify that specific
+assumptions about their data hold. 
+
+To address this overlooked need, we designed Tea\footnote{named after Fisher's
+``Lady Tasting Tea'' experiment~\cite{fisher1937design}}, a high-level
+declarative language for automating statistical test selection and execution
+that abstracts the details of statistical analysis from the users. Tea captures
+users' hypotheses and domain knowledge (\higherLevel, \connectConceptualStats),
+reformulates these into a constraint satisfaction problem, identifies all valid
+statistical tests to evaluate a hypothesis, and executes the tests. 
 
 \input{tea/related_work.tex}
 
@@ -76,3 +99,7 @@ Despite...
 
 
 \ej{This work was originally published with...... at ....}
+
+This work was done in collaboration with Maureen Daum, Jared Roesch, Sarah E.
+Chasins, Emery Berger, Ren\e{'} Just, and Katharina Reinecke, and was originally
+published and presented at \uist{2019}~cite{}.

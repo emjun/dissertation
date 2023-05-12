@@ -19,18 +19,46 @@ If you are copying and pasting material from one of your papers, then remember t
     % \item Replace the conclusion section with a summary section. Again, you should tie this chapter back to the main themes of the thesis.
 \end{itemize}
 
-{\color{orange} Write an overview of chapter, how it ties to the rest of the thesis.}
+Our theory of hypothesis formalization describes how authoring analyses to
+answer research questions requires analysts to jointly reason about their
+conceptual domain knowledge, statistical methods, and analysis implementations
+in code. For instance, scientists carefully consider which covariates to include
+in statistical models based on their prior knowledge of confounding. However,
+analysts' conceptual knowledge is often kept implicit. Analysts gravitate
+towards statistical specifications they are familiar with, even if the analyses
+are sub-optimal or do not assess their hypotheses, as we saw in the previous
+chapter. Finally, ease of implementation further constrains the statistical
+models that analysts try and use. These issues are especially salient for domain
+experts who lack deep statistical or programming expertise (e.g., many
+researchers).
 
-{\color{orange} ``This chapter includes materials originally published in $\backslash$citet\{myownppr\}''}
+Existing statistical software exacerbate these issues because they do not allow
+analysts to externalize their implicit conceptual knowledge, receive guidance on
+analysis approaches, and help authoring low-level statistical modeling
+code~\autoref{sec:toolsAnalysis}. Our work on Tisane hypothesizes that in order
+to address these issues, software tools should capture analysts' implicit
+conceptual models, ..., and use them to derive statistical models. 
 
-We found in~\autoref{sec:toolsAnalysis} that there is a mismatch between the
-interfaces existing statistical tools provide and the needs of analysts,
-especially those who have domain knowledge but lack deep statistical expertise
-(e.g., many researchers). To author analyses that formalize their research
-questions and hypotheses, analysts need to jointly reason their domain, study
-design, statistical methods, and computational tools. However, current tools
-separate these concerns, and statistical computing tools focus on allowing but
-not scaffolding access to statistical methods. To facilitate more accurate
+START HERE: Fill in "..." above with def of conceptual model:
+, captured in informal
+representations of variable relationships (e.g., list of variable relationships,
+process diagrams, graphs), describing the underlying data generating process. We
+refer to these implicit assumptions as \textit{conceptual
+models}~\cite{jun2021hypothesisFormalization}, and Richard McElreath calls them
+\textit{process models}~\cite{mcelreath2020statistical}.
+
+Conceptual models are difficult to reason about during
+statistical analysis. Their implications on statistical modeling are not
+obvious, especially to statistical non-experts. For example, the impact of
+conceptual assumptions may only become apparent after fitting multiple
+statistical models, if at all. Without explicitly grappling with conceptual
+models prior to authoring statistical models, analysts run the risk of
+introducing inconsistencies between their domain knowledge and statistical
+models, which can lead to unintentionally answering a different research
+question and asserting a conceptual model based on preferred results (i.e.,
+HARKing~\cite{}). 
+
+To facilitate more accurate
 hypothesis formalization and thereby reduce threats to validity and improve
 analytical practices, we asked \textbf{how might we derive (initial) statistical
 models from knowledge about concepts and data collection?}. Inferring a statistical model raises two
@@ -65,6 +93,10 @@ that could compromise generalizability (\higherLevel, \connectConceptualStats).
 % Figure~\ref{fig:figureSystemOverview} provides an overview
 % of this process.
 
+
+\section{Why is Tisane necessary, isn't Tea enough?}
+Many research questions analysts want to answer require more complex analyses.
+
 \input{tisane/related_work.tex}
 % \section{Tisane's DSL: Formalizing implicit domain assumptions as conceptual models}
 % \section{Deriving statistical models from conceptual models}
@@ -73,6 +105,16 @@ that could compromise generalizability (\higherLevel, \connectConceptualStats).
 \input{tisane/case_studies.tex}
 
 \section{Limitations and Motivation for Re-design}
+Despite the importance of conceptual modeling to statistical analysis, it is
+unknown what challenges statistical novices face when expressing their domain
+knowledge. To identify what statistical non-experts want and are capable of
+expressing about their conceptual models, we conducted a formative study using
+\tisane~\cite{jun2022tisane}, an open-source tool designed to bridge this gap.
+We found important limitations to \tisane. Surprisingly, we found that some
+keywords and functions in \tisane were at too high a level of abstraction.
+Analysts wanted to express their conceptual relationships with greater detail
+and specificity. Analysts also wanted to express ambiguity about the a
+relationship's direction in the conceptual model. 
 
 \input{tisane/exploratory.tex}
 
@@ -81,5 +123,13 @@ that could compromise generalizability (\higherLevel, \connectConceptualStats).
 \input{tisane/lab_study.tex}
 
 \section{Summary of Contributions}
+- Hypothesis formalization support
 
-\ej{This work was originally published with...... at ....}
+
+% Prior publications
+The first iteration of Tisane was done in collaboration with Audrey Seo, Jeffrey
+Heer, and Ren\e{'} Just. The paper was originally published and presented at
+\chi{2022}~cite{}, where it received a \textit{Best Paper Honorable
+Mention Award}. The exploratory design study, second system iteration, and the
+summative evaluation are in collaboration with Edward Misback, Jeffrey Heer, and
+Ren\e{'} Just, and have not yet appeared in a publication. 
