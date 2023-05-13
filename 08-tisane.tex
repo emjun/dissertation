@@ -129,13 +129,43 @@ domain).  --> Cinelli et al.
 \input{tisane/lab_study.tex}
 
 \section{Summary of Contributions}
-- Hypothesis formalization support
+
+% Reminder: Thesis statement
+% Domain-specific languages that provide abstractions for expressing conceptual
+% knowledge, data collection procedures, and analysis intents instead of specific
+% statistical modeling decisions coupled with automated reasoning to compile
+% conceptual specifications into statistical analysis code help statistical
+% non-experts more readily author valid analyses. 
+
+Tisane embodies the hypothesis central to this dissertation: tool support for
+expressing implicit conceptual knowledge and reasoning about it to author
+statistical analyses enables statistical non-experts to specify valid
+statistical models. Through an iterative design process, we refined what the
+programming and interaction model for expressing conceptual models and
+connecting them to statistical models should be. Most notably, the second
+release of \tisane, as \rTisane, provides more explicit support for conceptual
+model specification and disambiguation. 
+
+Tisane is a stark contrast to the current ecosystem of statistical analysis
+software designed to give analysts maximal mathematical and computational
+control at the cost of support for relating their statistical analyses with
+their conceptual meaning. The pending lab study results will demonstrate the
+impact of \rTisane on (i) the conceptual models analysts specify and their
+reflection process, (ii) (output) statistical model quality, and (iii) awareness
+and learned insights analysts takeaway about their domain and data analysis
+process. 
+
+% The summative evaluation study concretizes the impact of \tisane. Analysts
+% report being more reflective and systematic in their thinking about implicit
+% conceptual assumptions due to \rTisane's DSL and conceptual model disambiguation
+% process. The statistical models analysts produce also more accurately estimate
+% the true relationships in the data, lower AIC/BIC and higher R-squared. 
 
 
 % Prior publications
-The first iteration of Tisane was done in collaboration with Audrey Seo, Jeffrey
-Heer, and \reneJust. The paper was originally published and presented at
+\textit{The first release of Tisane was a collaboration with Audrey Seo, Jeffrey
+Heer, and \reneJust. The corresponding paper was originally published and presented at
 \chiConf{2022}~cite{}, where it received a \textit{Best Paper Honorable
 Mention Award}. The exploratory design study, second system iteration, and the
 summative evaluation are in collaboration with Edward Misback, Jeffrey Heer, and
-\reneJust, and have not yet appeared in a publication. 
+\reneJust. The second paper is under submission and has not yet been published.}
