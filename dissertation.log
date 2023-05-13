@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  12 MAY 2023 17:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  13 MAY 2023 16:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2509,7 +2509,12 @@ efined on input line 30.
 Package natbib Warning: Citation `holland1989induction' on page 67 undefined on
  input line 43.
 
-[67] [68])) [69] [70
+[67] [68])
+
+LaTeX Warning: Reference `fig:hypoFormOverview' on page 69 undefined on input l
+ine 69.
+
+) [69] [70
 
 
 ]
@@ -2812,10 +2817,14 @@ on page 89 undefined on input line 121.
 (./tisane/exploratory.tex) (./tisane/rTisane.tex [89]) (./tisane/lab_study.tex)
 ) [90]
 Chapter 6.
-(./10-conclusion.tex [91
+(./10-conclusion.tex
+Underfull \vbox (badness 1655) has occurred while \output is active []
+
+ [91
 
 
-]) (./dissertation.bbl [92]
+])
+(./dissertation.bbl [92]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 40.
 
@@ -2858,10 +2867,10 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: F25DB5C7441765B852A59775ED092F7D;20087.
  ) 
 Here is how much of TeX's memory you used:
- 39980 strings out of 478994
- 898338 string characters out of 5858184
- 1631472 words of memory out of 5000000
- 56369 multiletter control sequences out of 15000+600000
+ 39982 strings out of 478994
+ 898365 string characters out of 5858184
+ 1631534 words of memory out of 5000000
+ 56371 multiletter control sequences out of 15000+600000
  434557 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3502b,1778s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2934,7 +2943,7 @@ cm-super/sfti0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm
 uper/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-sup
 er/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucr
 r8a.pfb>
-Output written on dissertation.pdf (95 pages, 7012434 bytes).
+Output written on dissertation.pdf (95 pages, 7014783 bytes).
 PDF statistics:
  1198 PDF objects out of 1200 (max. 8388607)
  1052 compressed objects within 11 object streams

@@ -118,7 +118,7 @@
 \contentsline {section}{\numberline {6.2}Note on methodology and implications}{91}{section.6.2}%
 \contentsline {section}{\numberline {6.3}EUSE++}{91}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Where all this is going / Why do we care about any of this?}{91}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Discussion: The role of programs and the act of programming as a reflective practice}{91}{section.6.5}%
+\contentsline {section}{\numberline {6.5}Discussion: The role of programs and the act of programming as a reflective practice}{92}{section.6.5}%
 \contentsline {section}{\numberline {6.6}Re-orienting the task we are designing for}{92}{section.6.6}%
 \contentsline {section}{\numberline {6.7}Future work}{92}{section.6.7}%
 \contentsline {subsection}{\numberline {6.7.1}}{92}{subsection.6.7.1}%

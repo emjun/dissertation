@@ -13,8 +13,6 @@ If you are copying and pasting material from one of your papers, then remember t
 
 {\color{orange} Write an overview of chapter, how it ties to the rest of the thesis.}
 
-{\color{orange} ``This chapter includes materials originally published in $\backslash$citet\{myownppr\}''}
-
 Although prior work has observed \textit{that} data analysis is
 iterative~\cite{liu2019paths,grolemund2014cognitive} and involves multiple
 levels of considerations~\cite{liu2019understanding}, \textit{how} analysts move
@@ -51,6 +49,44 @@ conceptual revisions and influence statistical model implementation.
 \section{Summary of Contributions}
 % Replace the conclusion section with a summary section. Again, you should tie this chapter back to the main themes of the thesis.
 
-Hypothesis formalization -- retrospecrive support for design in Tea, inspired design of Tisane
+% Reminder: Thesis statement
+% Domain-specific languages that provide abstractions for expressing conceptual
+% knowledge, data collection procedures, and analysis intents instead of specific
+% statistical modeling decisions coupled with automated reasoning to compile
+% conceptual specifications into statistical analysis code help statistical
+% non-experts more readily author valid analyses. 
 
-\ej{This work was originally published with...... at ....}
+The empirical studies that led us to articulate the theory of hypothesis
+formalization illustrates the key challenge to authoring data analyses: Analysts
+must translate their implicit domain knowledge into statistical specifications
+that they can implement and execute in code. As we saw in the lab study,
+analysts often resort to changing their hypotheses or research questions to what
+they can implement or get stuck on how to represent their conceptual knowledge
+in statistical models, highlighting the dual-search nature of hypothesis
+formalization. Furthermore, the summary of hypothesis formalization (i.e.,
+Figure~\ref{fig:hypoFormOverview}) serves as a device for (i) interpretation--to
+explain where and how analysts struggle in authoring statistical analyses--and
+(ii) inspiration--to inspire new approaches and systems to authoring data
+analyses. 
+
+Our theory of hypothesis formalization highlights the discrepancy between
+analysts' goals and the statistical software tools available to them. While
+analysts want to understand their data to better understand their domains or
+make decisions, the current ecosystem prioritizes mathematical expressivity and
+computational control, features that are likely desirable for statistical
+experts but not novices. 
+
+As a result, designing new data analysis tools to gather conceptual knowledge
+and translate them into statistical analyses is a promising approach for
+statistical non-experts. In this way, hypothesis formalization retrospectively
+validates our design in Tea, where its constraint-based runtime system provided
+automated reasoning for Null Hypothesis Significance Tests. In order to support
+more complex research questions, additional methods of explicitly grappling with
+more conceptual knowledge and reasoning about different classes of statistical
+analyses is necessary. We tackle this challenge for generalized linear models
+with and without mixed effects in Tisane. 
+% classes of statistical analyses
+
+This work was in collaboration with Nicole de Moura, Melissa Birchfield, Jeffrey
+Heer, and \reneJust. It was originally published in \tochi{2022} and presented
+at \chiConf{2022}. 
