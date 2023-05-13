@@ -5,7 +5,8 @@
 \newcommand{\advisorTitle}{Jerre D. Noe Endowed Professor} % assistant, associate prof?
 \newcommand{\advisorDepartment}{Paul G. Allen School of Computer Science \& Engineering}
 % if you have two advisors, uncomment these two
-\newcommand{\secondAdvisor}{Ren\'{e} Just}
+\def\reneJust{Ren\'{e} Just\xspace}
+\newcommand{\secondAdvisor}{\reneJust}
 \newcommand{\secondAdvisorTitle}{Associate Professor}
 \newcommand{\secondAdvisorDepartment}{Paul G. Allen School of Computer Science \& Engineering}
 
@@ -119,7 +120,8 @@
 \def\relateStats{\textit{DI3 - Relate statistical methods}\xspace}
 
 % Tisane terminology
-\def\rTisane{\texttt{rTisane}\xspace}
+\def\tisane{Tisane\xspace}
+\def\rTisane{rTisane\xspace}
 \def\Disambiguation{Disambiguation\xspace}
 \def\disambiguation{disambiguation\xspace}
 \def\SDSLlong{study design specification language\xspace}
@@ -156,7 +158,8 @@
 
 
 %%%%%% For publications
-\newcommand{\uist}[1]{\texit{ACM UIST #1}}
+\newcommand{\uistConf}[1]{\textit{ACM UIST #1}}
+\newcommand{\chiConf}[1]{\textit{ACM CHI #1}}
 
 
 %$%%%% Macros for consistent typesetting of tables.
