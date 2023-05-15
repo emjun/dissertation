@@ -55,6 +55,21 @@ Why constraints? are they really necessary?
 
 \section{Limitations, Ongoing work, Future directions}
 
+Great for a class of relatively simple hypotheses and research questions, but
+the kinds of questions that analysts want to ask about their domain using data
+are more complex that simple hypotheses. 
+
+Testing to estimation 
+
+NHST to statistical modeling
+
+How do we support this larger and more complex class of use cases? Can we
+generalize our approach in Tea--making implicit assumptions explicit and
+automatically reasoning about these assumptions to identify valid analyses--to
+statistical models? To answer this question, we set out to develop a holistic
+understanding of how analysts translate research questions into statistical
+analyses. 
+
 \subsection{Ongoing development}
 With teams of undergrads, I have continued to improve Tea in two specific ways. 
 
@@ -80,6 +95,36 @@ Both features will be incorporated into a new release of Tea, which I have
 currently scheduled for June, 2022. 
 
 \section{Summary of Contributions}
+
+% Reminder: Thesis statement
+% Domain-specific languages that provide abstractions for expressing conceptual
+% knowledge, data collection procedures, and analysis intents instead of specific
+% statistical modeling decisions coupled with automated reasoning to compile
+% conceptual specifications into statistical analysis code help statistical
+% non-experts more readily author valid analyses. 
+
+A common approach to assessing support for conceptual hypotheses in data is to
+use statistical tests (e.g., Student's t-test, Chi-Square test, ANOVA).
+Statistical testing requires analysts to grapple with their conceptual
+hypotheses, know a number of tests and when they are applicable (i.e., know the
+preconditions for when these tests hold), assess the applicability of tests
+(i.e., check preconditions), and pick and implement specific tests using
+low-level APIs. 
+
+Tea's key insight is that we can reformulate statistical test
+selection as a constraint satisfaction problem. We designed and implemented a
+higher-level DSL around this insight that takes an analyst's hypothesis and
+assumptions about their data as input and provides the results of executing
+valid statistical tests as output. In an evaluation, we found that Tea avoids
+faulty test selection and conclusions that are easy to make using existing
+tools.
+
+Tea demonstrates the feasibility and benefit of developing systems that
+emphasize \textit{higher-level abstractions} and \textit{automated reasoning}
+for statistical tests (\autoref{para:thesisStatement}). Next, we consider how
+this approach generalizes to a larger class of statistical analyses. 
+
+\begin{comment}
 % Replace the conclusion section with a summary section. Again, you should tie this chapter back to the main themes of the thesis.
 4-5 sentences: 
 1. Restate problem 
@@ -90,13 +135,46 @@ currently scheduled for June, 2022.
 
 1. Restate problem 
 
+A common approach to assessing support for conceptual hypotheses in data is to
+use statistical tests (e.g., Student's t-test, Chi-Square test, ANOVA).
+Statistical testing requires analysts to grapple with their conceptual
+hypotheses, know a number of tests and when they are applicable (i.e., know the
+preconditions for when these tests hold), assess the applicability of tests
+(i.e., check preconditions), and pick and implement specific tests using
+low-level APIs. 
+
 2. Articulate core contributions: problem/idea + technical
+
+Tea's key insight is that we can reformulate statistical test selection as a
+constraint satisfaction problem. We designed and implemented a higher-level DSL
+around this insight that takes an analyst's hypothesis and assumptions about
+their data as input and provides the results of executing valid statistical
+tests as output. 
+
 3. Key Evaluation results
-4. 1 soundbite/takeaway
+
+In an evaluation, we found that Tea avoids faulty test
+selection and conclusions that are easy to make using existing tools.
+
+4. 1 soundbite/takeaway 
+
+It is possible to design higher level language and automated reasoning to select
+valid statistical tests that are widely used and even avoid faulty conclusions
+that are easy to make using existing tools. The key is to make implicit
+assumptions about the data explicit and reason about analyst assumptions and
+computed data properties together in a logical constraint system. 
+
 5. Transition to next chapter. 
 
-Despite...
+However, an important limitation to overcome in the future chapters, most
+notably in Tisane (~\autoref{chapter:tisane}) is how to generalize automated
+support for more complex research questions and statistical analyses. 
 
+Tea demonstrates the feasibility and benefit of developing systems that
+emphasize \textit{higher-level abstractions} and \textit{automated reasoning}
+for statistical tests (\autoref{para:thesisStatement}). Next, we consider how
+this approach generalizes to a larger class of statistical analyses. could
+\end{comment}
 
 \textit{This work was done in collaboration with Maureen Daum, Jared Roesch, Sarah E.
 Chasins, Emery Berger, \reneJust, and Katharina Reinecke. It was originally

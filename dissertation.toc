@@ -5,8 +5,7 @@
 \contentsline {section}{Challenge 1}{18}{section*.7}%
 \contentsline {section}{Challenge 2}{18}{section*.8}%
 \contentsline {section}{Challenge 3}{18}{section*.9}%
-\contentsline {section}{Summary of Contributions}{19}{section*.10}%
-\contentsline {section}{\numberline {1.1}Prior Publication and Authorship}{20}{section.1.1}%
+\contentsline {section}{Summary of Contributions}{18}{section*.10}%
 \contentsline {chapter}{\numberline {2}Related work}{21}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Theories of Scientific Discovery and Sensemaking}{21}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Theories of Sensemaking}{23}{subsection.2.1.1}%
@@ -42,86 +41,86 @@
 \contentsline {section}{\numberline {3.3}Discussion: Key tensions}{39}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Limitations, Ongoing work, Future directions}{39}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Ongoing development}{39}{subsection.3.4.1}%
-\contentsline {section}{\numberline {3.5}Summary of Contributions}{39}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Hypothesis Formalization: A conceptual framework describing how analysts translate research questions into statistical analyses}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Background and Related Work}{42}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Statistical Thinking}{42}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Dual-search Model of Scientific Discovery}{43}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Theories of Sensemaking}{43}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Formative content analysis}{45}{section.4.2}%
-\contentsline {subsubsection}{Methods}{45}{section*.29}%
-\contentsline {subsubsection}{Findings}{47}{section*.31}%
-\contentsline {subsubsection}{Limitations}{47}{section*.32}%
-\contentsline {subsection}{\numberline {4.2.1}Expected Steps in Hypothesis Formalization}{47}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}Exploratory Lab Study}{48}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Methods}{49}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Findings and Discussion}{50}{subsection.4.3.2}%
-\contentsline {subsubsection}{Data workers consider proxies and data collection while articulating hypotheses.}{50}{section*.33}%
-\contentsline {subsubsection}{Data workers consider implementation and tools when specifying statistical models.}{53}{section*.34}%
-\contentsline {subsubsection}{Data workers try to fit analyses to previous projects and familiar approaches.}{54}{section*.36}%
-\contentsline {subsubsection}{Data workers try to minimize their biases by focusing on data.}{55}{section*.37}%
-\contentsline {subsubsection}{Data workers face challenges obtaining and integrating conceptual and statistical information.}{56}{section*.38}%
-\contentsline {subsection}{\numberline {4.3.3}Takeaways from the Lab Study}{57}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Analysis of Software Tools}{58}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Method}{58}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Findings and Discussion}{60}{subsection.4.4.2}%
-\contentsline {subsubsection}{Specialization.}{60}{section*.40}%
-\contentsline {subsubsection}{Statistical taxonomies.}{61}{section*.41}%
-\contentsline {subsubsection}{Model expression: Syntax and semantics}{62}{section*.42}%
-\contentsline {subsubsection}{Computational issues.}{63}{section*.43}%
-\contentsline {subsection}{\numberline {4.4.3}Takeaways from the Analysis of Tools}{64}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Discussion: Design Implications for Statistical Analysis Software}{64}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Meta-libraries: Connecting Model Implementations with Mathematical Equations}{64}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}High-level Libraries: Expressing Conceptual Hypotheses to Bootstrap Model Implementations}{65}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Bidirectional Conceptual Modeling: Co-authoring Conceptual Models and Model Implementations}{66}{subsection.4.5.3}%
-\contentsline {section}{\numberline {4.6}Discussion: Data analysis as problem solving}{67}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Future Work}{68}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Summary of Contributions}{69}{section.4.8}%
-\contentsline {chapter}{\numberline {5}Tisane: Authoring statistical models via formal reasoning from conceptual and data relationships}{71}{chapter.5}%
-\contentsline {subsection}{\numberline {5.0.1}Statistical scope}{73}{subsection.5.0.1}%
-\contentsline {section}{\numberline {5.1}Why is Tisane necessary, isn't Tea enough?}{73}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Background and Related work}{74}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Causal Analysis}{74}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}First Release}{74}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Study design specification language and graph representation}{75}{subsection.5.3.1}%
-\contentsline {subsubsection}{Variables}{75}{section*.44}%
-\contentsline {subsubsection}{Relationships between Variables}{75}{section*.45}%
-\contentsline {paragraph}{Conceptual relationships.}{76}{section*.46}%
-\contentsline {paragraph}{Data measurement relationships.}{77}{section*.47}%
-\contentsline {paragraph}{Nesting relationships: Hierarchies}{78}{section*.48}%
-\contentsline {paragraph}{Frequency of measures: Repeated measures, Non-nesting composition}{78}{section*.49}%
-\contentsline {subsection}{\numberline {5.3.2}Statistical model inference: Interactively querying the graph IR}{79}{subsection.5.3.2}%
-\contentsline {subsubsection}{Preliminary checks}{79}{section*.50}%
-\contentsline {subsubsection}{Candidate statistical model generation}{80}{section*.51}%
-\contentsline {paragraph}{Deriving Candidate Main Effects}{80}{section*.52}%
-\contentsline {paragraph}{Deriving Candidate Interaction Effects}{81}{section*.53}%
-\contentsline {paragraph}{Deriving Candidate Random Effects}{81}{section*.54}%
-\contentsline {paragraph}{Deriving Candidate Family and Link Functions}{82}{section*.55}%
-\contentsline {subsubsection}{Eliciting Analyst Input for Disambiguation\xspace }{82}{section*.56}%
-\contentsline {subsubsection}{Output}{84}{section*.58}%
-\contentsline {section}{\numberline {5.4}Initial evaluation: Case studies with researchers}{85}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Case Study 1: Planning a new study}{85}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Case Study 2: Analyzing data for a paper submission}{86}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Case Study 3: Developing models to inform future models}{87}{subsection.5.4.3}%
-\contentsline {subsubsection}{System changes and Takeaways}{88}{section*.59}%
-\contentsline {section}{\numberline {5.5}Limitations and Motivation for Re-design}{89}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Exploratory study}{89}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Second Release: rTisane}{90}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Updated DSL}{90}{subsection.5.7.1}%
-\contentsline {subsection}{\numberline {5.7.2}Conceptual Model Disambiguation}{90}{subsection.5.7.2}%
-\contentsline {subsection}{\numberline {5.7.3}Statistical model inference}{90}{subsection.5.7.3}%
-\contentsline {section}{\numberline {5.8}Summative Evaluation: Lab study}{90}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Discussion: Do we want to a sep discussion for this chapter?}{90}{section.5.9}%
-\contentsline {section}{\numberline {5.10}Summary of Contributions}{90}{section.5.10}%
-\contentsline {chapter}{\numberline {6}Conclusion}{91}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Summary of contributions}{91}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Note on methodology and implications}{91}{section.6.2}%
-\contentsline {section}{\numberline {6.3}EUSE++}{91}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Where all this is going / Why do we care about any of this?}{91}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Discussion: The role of programs and the act of programming as a reflective practice}{92}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Re-orienting the task we are designing for}{92}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Future work}{92}{section.6.7}%
-\contentsline {subsection}{\numberline {6.7.1}}{92}{subsection.6.7.1}%
-\contentsline {subsection}{\numberline {6.7.2}What about in the face of LLMs?}{92}{subsection.6.7.2}%
-\contentsline {chapter}{\numberline {A}Appendix One}{95}{chapter.1}%
-\contentsline {section}{\numberline {A.1}Appendix section 1}{95}{section.1.1}%
+\contentsline {section}{\numberline {3.5}Summary of Contributions}{40}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Hypothesis Formalization: A conceptual framework describing how analysts translate research questions into statistical analyses}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Background and Related Work}{44}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Statistical Thinking}{44}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Dual-search Model of Scientific Discovery}{45}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Theories of Sensemaking}{45}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Formative content analysis}{47}{section.4.2}%
+\contentsline {subsubsection}{Methods}{47}{section*.29}%
+\contentsline {subsubsection}{Findings}{49}{section*.31}%
+\contentsline {subsubsection}{Limitations}{49}{section*.32}%
+\contentsline {subsection}{\numberline {4.2.1}Expected Steps in Hypothesis Formalization}{49}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Exploratory Lab Study}{50}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Methods}{51}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Findings and Discussion}{52}{subsection.4.3.2}%
+\contentsline {subsubsection}{Data workers consider proxies and data collection while articulating hypotheses.}{52}{section*.33}%
+\contentsline {subsubsection}{Data workers consider implementation and tools when specifying statistical models.}{55}{section*.34}%
+\contentsline {subsubsection}{Data workers try to fit analyses to previous projects and familiar approaches.}{56}{section*.36}%
+\contentsline {subsubsection}{Data workers try to minimize their biases by focusing on data.}{57}{section*.37}%
+\contentsline {subsubsection}{Data workers face challenges obtaining and integrating conceptual and statistical information.}{58}{section*.38}%
+\contentsline {subsection}{\numberline {4.3.3}Takeaways from the Lab Study}{59}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Analysis of Software Tools}{60}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Method}{60}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Findings and Discussion}{62}{subsection.4.4.2}%
+\contentsline {subsubsection}{Specialization.}{62}{section*.40}%
+\contentsline {subsubsection}{Statistical taxonomies.}{63}{section*.41}%
+\contentsline {subsubsection}{Model expression: Syntax and semantics}{64}{section*.42}%
+\contentsline {subsubsection}{Computational issues.}{65}{section*.43}%
+\contentsline {subsection}{\numberline {4.4.3}Takeaways from the Analysis of Tools}{66}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Discussion: Design Implications for Statistical Analysis Software}{66}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Meta-libraries: Connecting Model Implementations with Mathematical Equations}{66}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}High-level Libraries: Expressing Conceptual Hypotheses to Bootstrap Model Implementations}{67}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Bidirectional Conceptual Modeling: Co-authoring Conceptual Models and Model Implementations}{68}{subsection.4.5.3}%
+\contentsline {section}{\numberline {4.6}Discussion: Data analysis as problem solving}{69}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Future Work}{70}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Summary of Contributions}{71}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Tisane: Authoring statistical models via formal reasoning from conceptual and data relationships}{73}{chapter.5}%
+\contentsline {subsection}{\numberline {5.0.1}Statistical scope}{75}{subsection.5.0.1}%
+\contentsline {section}{\numberline {5.1}Why is Tisane necessary, isn't Tea enough?}{75}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Background and Related work}{76}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Causal Analysis}{76}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}First Release}{76}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Study design specification language and graph representation}{77}{subsection.5.3.1}%
+\contentsline {subsubsection}{Variables}{77}{section*.44}%
+\contentsline {subsubsection}{Relationships between Variables}{77}{section*.45}%
+\contentsline {paragraph}{Conceptual relationships.}{78}{section*.46}%
+\contentsline {paragraph}{Data measurement relationships.}{79}{section*.47}%
+\contentsline {paragraph}{Nesting relationships: Hierarchies}{80}{section*.48}%
+\contentsline {paragraph}{Frequency of measures: Repeated measures, Non-nesting composition}{80}{section*.49}%
+\contentsline {subsection}{\numberline {5.3.2}Statistical model inference: Interactively querying the graph IR}{81}{subsection.5.3.2}%
+\contentsline {subsubsection}{Preliminary checks}{81}{section*.50}%
+\contentsline {subsubsection}{Candidate statistical model generation}{82}{section*.51}%
+\contentsline {paragraph}{Deriving Candidate Main Effects}{82}{section*.52}%
+\contentsline {paragraph}{Deriving Candidate Interaction Effects}{83}{section*.53}%
+\contentsline {paragraph}{Deriving Candidate Random Effects}{83}{section*.54}%
+\contentsline {paragraph}{Deriving Candidate Family and Link Functions}{84}{section*.55}%
+\contentsline {subsubsection}{Eliciting Analyst Input for Disambiguation\xspace }{84}{section*.56}%
+\contentsline {subsubsection}{Output}{86}{section*.58}%
+\contentsline {section}{\numberline {5.4}Initial evaluation: Case studies with researchers}{87}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Case Study 1: Planning a new study}{87}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Case Study 2: Analyzing data for a paper submission}{88}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Case Study 3: Developing models to inform future models}{89}{subsection.5.4.3}%
+\contentsline {subsubsection}{System changes and Takeaways}{90}{section*.59}%
+\contentsline {section}{\numberline {5.5}Limitations and Motivation for Re-design}{91}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Exploratory study}{91}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Second Release: rTisane}{92}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Updated DSL}{92}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}Conceptual Model Disambiguation}{92}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}Statistical model inference}{92}{subsection.5.7.3}%
+\contentsline {section}{\numberline {5.8}Summative Evaluation: Lab study}{92}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Discussion: Do we want to a sep discussion for this chapter?}{92}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Summary of Contributions}{92}{section.5.10}%
+\contentsline {chapter}{\numberline {6}Conclusion}{93}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Summary of contributions}{93}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Note on methodology and implications}{93}{section.6.2}%
+\contentsline {section}{\numberline {6.3}EUSE++}{93}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Where all this is going / Why do we care about any of this?}{93}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Discussion: The role of programs and the act of programming as a reflective practice}{94}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Re-orienting the task we are designing for}{94}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Future work}{94}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Connecting modeling with testing}{94}{subsection.6.7.1}%
+\contentsline {subsection}{\numberline {6.7.2}What about in the face of LLMs?}{94}{subsection.6.7.2}%
+\contentsline {chapter}{\numberline {A}Appendix One}{97}{chapter.1}%
+\contentsline {section}{\numberline {A.1}Appendix section 1}{97}{section.1.1}%
