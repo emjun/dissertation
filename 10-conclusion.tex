@@ -1,33 +1,111 @@
-\section{Summary of contributions}
+% 1 paragraph summarizing key contributions
+% Mention, weave back in challenges from intro
+\ej{Fill in}
+
+\begin{comment}
 \section{Note on methodology and implications}
 Overall: Integrate systems building with formative and summative evaluations and deeper dives into understanding end-users (hypothesis formalization)
 - strength of this work is moving back and forth between and integrating empirical studies with systems building
 - Even within empirical studies, explored and used many qualitative and quantitative approaches
 - Within systems building: Use diversity of technologies
 - Identify need for methodologies in the future for designing DSLs \textit{with} end-users
+\subsection{Plurality of contribution types}
+\end{comment}
+A strength of this work is in how it integrates systems building with empirical
+studies, both of which motivated initial methodological experiments/innovations.
+We engaged in formative and summative evaluations to design, implement, iterate
+on, and evaluate Tea and Tisane. The evaluations involved qualitative and
+quantitative approaches. The empirical work helped
+us make technical insights in how to computationally represent statistical
+analysis--as constraints and as graphs. Furthermore, we took a deep dive into
+triangulating the nuances involved in authoring statistical analyses through a
+qualitative analysis, lab study, and tools assessment in order to develop our
+theory of hypothesis formalization. 
 
-Reflecting back on design process: 
-- Tea started with numerous personal experiences and informal observations of how computer scientists author statistical analyses
-- Started DSL design with primitives we assumed would be approachable based on survey of introductory quant methods courses. 
+In addition to the formal empirical studies we conducted in this dissertation,
+we benefited from informal observations, reports from early users, and our
+personal experiences throughout the design processes. For instance, Tea came
+from years of personal experiences and informal observations of how computer
+scientists author statistical analyses relying, at best, on charts and tables
+describing when specific tests were applicable. 
+% and a hope that there could be a more
+% rigorous way to hypothesis testing.
 
-What is the formalism end-users have to learn, where does it come from, how well does it align with what they want to do/say, etc.
+% Reflecting back on design process: 
+% - Tea started with numerous personal experiences and informal observations of how computer scientists author statistical analyses
+% - Started DSL design with primitives we assumed would be approachable based on survey of introductory quant methods courses. 
 
+\section{Impact}
+\ej{Fill in}
 
-\section{EUSE++}
-\section{Where all this is going / Why do we care about any of this?}
-- a reinterpretation of EUSE -- programming tools as bicycles of the mind
+\section{Discussion: Themes}
+\subsection{The role of programs and the act of programming as a reflective practice}
 
-\section{Discussion: The role of programs and the act of programming as a reflective practice}
-Finding: interactive disambiguation not just necessary for refinement and automated reasoning but *useful* to analysts for reflection
+What is the formalism end-users have to learn, where does it come from, how well does it align with what they want to do/say, etc. 
+% Finding: interactive disambiguation not just necessary for refinement and
+automated reasoning but *useful* to analysts for reflection
 
-**Not just higher levels of abstraction but appropriate abstractions that allow analysts to dig deeper into the appropriate parts
+This work re-visits the literature on end-user software engineering for a new
+domain: statistical analysis. This work is a re-interpretation of EUSE, viewing
+programming tools as bicycles of the mind. Specificaly, this work asks how we
+can make not only the programs themselves useful for accomplishing a task (i.e.,
+running a statistical test or model) but also the programs themselves useful for
+documentation and sharing as well as the process of programming reflective and
+meaningful to end-users. In this way, a central theme that this work addresses
+is how to reify the connection between the conceptual and statistical in our
+software tools. 
 
+We find that Tisane's interactive disambiguation is not just necessary for
+conceptual model refinement and automated reasoning to derive statistical models
+but useful to analysts for reflection. 
 
-\section{Re-orienting the task we are designing for}
-Shifts the design problem on its head to view statistical analysis as a means to
-the larger end of helping analysts understand their domain better.
+% \section{EUSE++}
+% \section{Where all this is going / Why do we care about any of this?}
+% - a reinterpretation of EUSE -- programming tools as bicycles of the mind
 
-Design for the purpose that statistical analysis serves. -- Norman quote?
+\subsection{Designing the \textit{right} levels of abstraction} 
+
+Both Tea and Tisane provide higher levels of abstraction for analysts to express
+their implicit assumptions to author statistical analyses. However, the key to
+the systems was not that they were just higher level but rather that their
+abstractions were at the appropriate conceptual and data collection details that
+analysts could specify and was still amenable to rigorous reasoning. In fact, a
+key insight that guided our re-design of Tisane
+(see~\autoref{sec:exploratoryStudy}) was that analysts wanted low- and
+high-level conceptual abstractions. Therefore, a key takeaway from this work is
+that higher levels of abstraction are not always better. Rather, abstractions
+that allow analysts to dig deeper into the parts they want to and can is what is
+necessary and impactful. 
+
+Furthermore, the conceptual relationships between variables were still implicit
+in Tea, but we made them more prominent primitives in Tisane. Our work on
+defining hypothesis formalization helped us to identify the
+centrality/importance of grappling with conceptual relationships explicitly. 
+
+% **Not just higher levels of abstraction but appropriate abstractions that allow analysts to dig deeper into the appropriate parts
+
+This focus on the conceptual knowledge analysts can express and can guide
+computational and statistical reasoning highlights/suggests a shift in
+perspective our perspective on the design problem at hand with statistical
+analysis. While much effort has been put toward making statistical computation
+more precise and efficient and the mathematical abstractions expressive, the
+real design barrier lies in the conceptualization of the problem of statistical
+analysis. That is, statistical analysis is a means to an end for many analysts,
+especially statistical non-experts. Analysts' primary goal is to understand
+something about their domain. Therefore, statistical software should serve this
+goal, by allowing analysts to think about their domains and goals for analysis
+deeply while authoring analyses (e.g., by documenting their implicit assumptions
+about their domains) and interpret the results of the analyses in light of their
+conceptual domain knowledge. This view aligns with a familiar breakdown of
+complex tasks into the gulfs of execution and evaluation, respectively. While
+this thesis has focused on how to bridge the gulf of execution, there is much
+important work on how to report and help analysts interpret the results of their
+analyses in light of their conceptual assumptions and models. 
+
+% \section{Re-orienting the task we are designing for}
+% Shifts the design problem on its head to view statistical analysis as a means to
+% the larger end of helping analysts understand their domain better.
+% Design for the purpose that statistical analysis serves. -- Norman quote?
 
 \section{Future work}
 Has this dissertation lost its way? Further re-orienting towards what users *really* want: to understand their domain
@@ -36,6 +114,26 @@ Push further in directions this work orients us
 - knowing how robust the results are --> why not just multiverse everything?
 **how do we resolve and come out from under the tyranny of false positive rates fear
 
+\subsection{Interpretation of results}
+
 \subsection{Connecting modeling with testing} 
 
+\subsection{Connecting statistical analysis with visual analysis}
+
 \subsection{What about in the face of LLMs?}
+
+\subsection{Methods for human-centered programming language design}
+From Tea to Tisane, we changed how we designed DSL primitives. To identify
+primitives in Tea's DSL, we surveyed two introductory quantitative methods
+courses in human-computer interaction. For Tisane, we started by iterating on
+primitives that made sense to us, as designers, and would be amenable to formal
+reasoning. However, between the first and second releases, we sought START HERE
+
+Finding the right balance between designer and end-user intervention/design 
+
+need for human-centered methods to design DSLs
+
+\subsection{The long view: Ecosystem of software tools and computational reasoning throughout the data lifecycle}
+The long-view of this work...
+
+Mention LLMs as a technology to use here?

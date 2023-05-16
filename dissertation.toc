@@ -113,14 +113,16 @@
 \contentsline {section}{\numberline {5.9}Discussion: Do we want to a sep discussion for this chapter?}{92}{section.5.9}%
 \contentsline {section}{\numberline {5.10}Summary of Contributions}{92}{section.5.10}%
 \contentsline {chapter}{\numberline {6}Conclusion}{93}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Summary of contributions}{93}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Note on methodology and implications}{93}{section.6.2}%
-\contentsline {section}{\numberline {6.3}EUSE++}{93}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Where all this is going / Why do we care about any of this?}{93}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Discussion: The role of programs and the act of programming as a reflective practice}{94}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Re-orienting the task we are designing for}{94}{section.6.6}%
-\contentsline {section}{\numberline {6.7}Future work}{94}{section.6.7}%
-\contentsline {subsection}{\numberline {6.7.1}Connecting modeling with testing}{94}{subsection.6.7.1}%
-\contentsline {subsection}{\numberline {6.7.2}What about in the face of LLMs?}{94}{subsection.6.7.2}%
-\contentsline {chapter}{\numberline {A}Appendix One}{97}{chapter.1}%
-\contentsline {section}{\numberline {A.1}Appendix section 1}{97}{section.1.1}%
+\contentsline {section}{\numberline {6.1}Impact}{93}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Discussion: Themes}{93}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}The role of programs and the act of programming as a reflective practice}{93}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Designing the \textit {right} levels of abstraction}{94}{subsection.6.2.2}%
+\contentsline {section}{\numberline {6.3}Future work}{95}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Interpretation of results}{95}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Connecting modeling with testing}{95}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Connecting statistical analysis with visual analysis}{95}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}What about in the face of LLMs?}{95}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Methods for human-centered programming language design}{95}{subsection.6.3.5}%
+\contentsline {subsection}{\numberline {6.3.6}The long view: Ecosystem of software tools and computational reasoning throughout the data lifecycle}{95}{subsection.6.3.6}%
+\contentsline {chapter}{\numberline {A}Appendix One}{99}{chapter.1}%
+\contentsline {section}{\numberline {A.1}Appendix section 1}{99}{section.1.1}%
