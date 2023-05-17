@@ -1,0 +1,81 @@
+% \vspace{-10pt}
+\section{Usage Scenario}\label{sec:usagescenario}
+\figureTeaProgram
+This section describes how an analyst who has no statistical
+background can use Tea to answer their research questions. We use as
+an example analyst a historical criminologist who wants to determine
+how imprisonment differed across regions of the US in
+1960\footnote{The example is taken
+  from Ehrlich~\cite{ehrlich1973participation}
+  and Vandaele~\cite{vandaele1987participation}. The data set comes as part of
+  the MASS package in R.}. Figure~\ref{fig:tea_program} shows the Tea
+code for this example.
+
+The analyst specifies the data file's path in Tea. Tea handles loading and
+storing the data set for the duration of the analysis session. The analyst does
+not have to worry about reformatting the data during the analysis process in any way.
+
+The analyst asks if the probability of imprisonment was higher in
+southern states than in non-southern states. The analyst identifies
+two variables that could help them answer this question: the
+probability of imprisonment (`Prob') and geographic location
+(`So'). %The latter has already been coded as `1' for southern and `0' for non-southern.
+Using Tea, the analyst defines the geographic
+location as a dichotomous nominal variable where `1' indicates a
+southern state and `0' indicates a non-southern state, and indicates that the
+probability of imprisonment is a numeric data type (ratio) with a
+range between 0 and 1. %The analyst can additionally identify any
+%other variables they care about in the data set.
+
+The analyst then specifies their study design, defining the study type
+to be ``observational study'' (rather than ``experimental study'') and
+defining the contributor (independent) variable to be the geographic location and
+the outcome (dependent) variable to be the probability of
+imprisonment.
+
+Based on their prior research, the analyst knows that the probability
+of imprisonment in southern and non-southern states is normally
+distributed. The analyst provides an assumptions clause to Tea in
+which they specify this domain knowledge. They also specify an
+acceptable Type I error rate (probability of finding a false positive
+result), more colloquially known as the `significance threshold'
+($\alpha = .05$) that is acceptable in criminology. If the analyst
+does not have assumptions or forgets to provide assumptions, Tea will
+use the default of $\alpha = .05$.
+
+% Should we switch the story where hypothesis turns out to be incorrect and alt
+% metrics give evidence of that?
+The analyst hypothesizes that southern states will have a higher
+probability of imprisonment than non-southern states. The analyst
+directly expresses this hypothesis in Tea.  \emph{Note that at no
+  point does the analyst indicate which statistical tests should be
+  performed.}
+
+From this point on, Tea operates entirely automatically.  When the
+analyst runs their Tea program, Tea checks properties of the data and
+finds that the Student's t-test is appropriate. Tea executes the Student's
+t-test and non-parametric alternatives, such as the Mann-Whitney U
+test, which provide alternative, consistent results.
+
+Tea generates a table of results from executing the tests, ordered by their
+power (i.e., results from the parametric t-test will be listed first
+given that it has higher power than the non-parametric
+equivalent). Based on this output, the analyst concludes that their
+hypothesis---that the probability of imprisonment was higher in
+southern states than in non-southern states in 1960---is
+supported. The results from alternative statistical tests support this
+conclusion, so the analyst can be confident in their assessment.
+
+%The analyst wants to conduct the same analysis with a data set from a different
+%year. In Tea, they have to change only one line of code: the file path. As long as the variables exist in the new data set, Tea can conduct the same analysis without altering the rest of the code.\chasins{is this very different from prior approaches?  say python?  does it warrant this much emphasis?}
+
+The analyst can now share their Tea program with colleagues.  Other
+researchers can easily see what assumptions the analyst made and what
+the intended hypothesis was (since these are explicitly stated in the
+Tea program), and reproduce the exact results using Tea.
+
+% If the analyst wanted to do the same analysis for multiple years,
+% the analyst could use an outer Python loop to execute the same analysis for all data
+% sets they had.
+
+%Tea enables users who may not have statistical expertise to conduct valid, replicable analyses without having to write statistical functions \chasins{clarify}. Instead, users focus on expressing knowledge about their data source, variables of interest, assumptions, and hypotheses. Tea automates test selection, test precondition checking, and test execution, and it surfaces multiple valid statistical tests for testing a given hypothesis. Tea analyses can also be shared and re-run.

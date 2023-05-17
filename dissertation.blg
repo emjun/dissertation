@@ -1,15 +1,17 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
-White space in argument---line 327 of file dissertation.aux
+White space in argument---line 338 of file dissertation.aux
  : \citation{rTisane
  :                   link}
 I'm skipping whatever remains of this command
 The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 12335 items from 5000.
+Reallocated field_info (elt_size=4) to 12515 items from 5000.
 Database file #1: references.bib
+Warning--I didn't find a database entry for "venables2013modern"
+Warning--I didn't find a database entry for "kabacoff2011action"
 Warning--I didn't find a database entry for "PS9"
 Warning--I didn't find a database entry for "team2013r"
 Warning--I didn't find a database entry for "sanner1999python"
@@ -53,22 +55,24 @@ Warning--I didn't find a database entry for "kayali2020demonstration"
 Warning--I didn't find a database entry for "guimbretiere2007experiscope"
 Warning--I didn't find a database entry for "wacharamanotham2015statsplorer"
 Warning--I didn't find a database entry for "shadish2010campbell"
+Warning--I didn't find a database entry for "fisher1937design"
+Warning--I didn't find a database entry for "kaptein2012rethinking"
 Warning--I didn't find a database entry for "wiki:spss"
 Warning--I didn't find a database entry for "wiki:sas"
 Warning--I didn't find a database entry for "wiki:jmp"
 Warning--I didn't find a database entry for "wiki:r-language"
 Warning--I didn't find a database entry for "oliphant2006numpy"
 Warning--I didn't find a database entry for "scipy"
-Warning--I didn't find a database entry for "statsmodelsPaper"
-Warning--I didn't find a database entry for "fisher1937design"
+Warning--I didn't find a database entry for "seabold2010statsmodels"
 Warning--I didn't find a database entry for "satyanarayan2017vega"
 Warning--I didn't find a database entry for "kandel2011wrangler"
 Warning--I didn't find a database entry for "moritz2019formalizing"
 Warning--I didn't find a database entry for "hoffswell2018setcola"
 Warning--I didn't find a database entry for "swearngin2018scout"
 Warning--I didn't find a database entry for "kay2016researcher"
-Warning--I didn't find a database entry for "kaptein2012rethinking"
 Warning--I didn't find a database entry for "efron1992bootstrap"
+Warning--I didn't find a database entry for "ehrlich1973participation"
+Warning--I didn't find a database entry for "vandaele1987participation"
 Warning--I didn't find a database entry for "wickham2014tidy"
 Warning--I didn't find a database entry for "de2008z3"
 Warning--I didn't find a database entry for "panchekha2018verifying"
@@ -81,7 +85,6 @@ Warning--I didn't find a database entry for "holm1979simple"
 Warning--I didn't find a database entry for "cohen1988statistical"
 Warning--I didn't find a database entry for "vargha2000critique"
 Warning--I didn't find a database entry for "american1983publication"
-Warning--I didn't find a database entry for "kabacoff2011action"
 Warning--I didn't find a database entry for "franconeriVisualizationChooser"
 Warning--I didn't find a database entry for "jmp"
 Warning--I didn't find a database entry for "carver2016guidelines"
@@ -125,6 +128,7 @@ Warning--I didn't find a database entry for "scikitPaper"
 Warning--I didn't find a database entry for "scikitAPIPaper"
 Warning--I didn't find a database entry for "scipyStats"
 Warning--I didn't find a database entry for "scipyOptimize"
+Warning--I didn't find a database entry for "statsmodelsPaper"
 Warning--I didn't find a database entry for "statsmodelsRef"
 Warning--I didn't find a database entry for "matlab"
 Warning--I didn't find a database entry for "matlabStats"
@@ -180,7 +184,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 0 entries,
             5719 wiz_defined-function locations,
-            1506 strings with 17934 characters,
+            1510 strings with 18023 characters,
 and the built_in function-call counts, 105 in all, are:
 = -- 0
 > -- 0

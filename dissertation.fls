@@ -1616,6 +1616,15 @@ INPUT ./tea/related_work.tex
 INPUT tea/related_work.tex
 INPUT ./tea/related_work.tex
 INPUT tea/related_work.tex
+INPUT ./tea/usage_scenario.tex
+INPUT tea/usage_scenario.tex
+INPUT ./tea/usage_scenario.tex
+INPUT tea/usage_scenario.tex
+INPUT ./tea/figures/tea_program.jpg
+INPUT ./tea/figures/tea_program.jpg
+INPUT tea/figures/tea_program.jpg
+INPUT ./tea/figures/tea_program.jpg
+INPUT ./tea/figures/tea_program.jpg
 INPUT ./tea/system.tex
 INPUT tea/system.tex
 INPUT ./tea/system.tex

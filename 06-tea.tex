@@ -1,45 +1,104 @@
-If you are copying and pasting material from one of your papers, then remember to:
-\begin{itemize}
-    % \item Remove the abstract and instead add a little overview of the chapter and how it ties in to the rest of the thesis. You should also mention the original paper's source like: ``This chapter includes materials originally published in $\backslash$citet\{myownppr\}''
-    % \item Make sure the formatting still works -- this is single column now!
-    \item Consider rephrasing conference-paper-style language:
-    \begin{itemize}
-        \item Find every place you mention some variation of ``in this paper'' and say ``in this chapter'' instead.
-        \item Remove or rephrase the parts where you talk about ``our main contributions''.
-        \item Rephrase the language describing code and data releases.
-    \end{itemize}
-    % \item Replace the conclusion section with a summary section. Again, you should tie this chapter back to the main themes of the thesis.
-\end{itemize}
+\ej{Remove "this paper"; Rephrase the language describing code and data releases.}
+\begin{flushright}
+    \begin{quote}
+        \textit{
+        The enormous variety of modern quantitative methods leaves researchers with the
+        nontrivial task of matching analysis and design to the research question.} \\ 
+        \vspace{-10pt}
+        \begin{flushright}
+            \textit{                                 - Ronald Fisher~\cite{fisher1937design}}
+        \end{flushright}
+    \end{quote}
+\end{flushright}
+    
+Since the development of modern statistical methods (e.g., Student's t-test,
+ANOVA, etc.), statisticians have acknowledged the difficulty of identifying
+which statistical tests people should use to answer their specific research
+questions. Almost a century later, choosing appropriate statistical tests for
+evaluating a hypothesis remains a challenge. As a consequence, errors in
+statistical analyses are common~\cite{kaptein2012rethinking}, especially given
+that data analysis has become a common task for people with little to no
+statistical expertise.
 
-\ej{Fill in intro}
-The overall narrative I want to tell: 
-
-Evolution of design approach: 
-
-Getting to the user more directly Once we had the
-idea, we wanted to see what would be actually not just usable but helpful. This
-led us to engage with users in the lab
-
-====
-
-As we found in our analysis of tools (\autoref{sec:toolsAnalysis}), a wide
-variety of tools (such as SPSS~\cite{wiki:spss}, SAS~\cite{wiki:sas}, and
+A wide variety of tools (such as SPSS~\cite{wiki:spss}, SAS~\cite{wiki:sas}, and
 JMP~\cite{wiki:jmp}), programming languages (e.g., R~\cite{wiki:r-language}),
 and libraries (including numpy~\cite{oliphant2006numpy}, scipy~\cite{scipy}, and
-statsmodels~\cite{statsmodelsPaper}), enable people to perform specific
+statsmodels~\cite{seabold2010statsmodels}), enable people to perform specific
 statistical tests, but they do not address the fundamental problem that users
 may not know which statistical test to perform and how to verify that specific
-assumptions about their data hold. 
+assumptions about their data hold. In fact, all of these tools place the burden
+of valid, replicable statistical analyses on the user and demand deep knowledge
+of statistics.
 
-To address this overlooked need, we designed Tea\footnote{named after Fisher's
-``Lady Tasting Tea'' experiment~\cite{fisher1937design}}, a high-level
-declarative language for automating statistical test selection and execution
-that abstracts the details of statistical analysis from the users. Tea captures
-users' hypotheses and domain knowledge (\higherLevel, \connectConceptualStats),
-reformulates these into a constraint satisfaction problem, identifies all valid
-statistical tests to evaluate a hypothesis, and executes the tests. 
+Users not only have to identify their research questions, hypotheses, and domain
+assumptions, but also must select statistical tests for their hypotheses (e.g.,
+Student's t-test or one-way ANOVA). For each statistical test, users must be
+aware of the statistical assumptions each test makes about the data (e.g.,
+normality or equal variance between groups) and how to check for them, which
+requires additional statistical tests (e.g., Levene's test for equal variance),
+which themselves may demand further assumptions about the data. This cognitively
+demanding process requires significant knowledge about statistical tests
+and their preconditions as well as the ability to perform the tests and verify their
+preconditions. This process can easily lead to mistakes.
+
+In response, we design and developed Tea\footnote{named after Fisher's ``Lady
+Tasting Tea'' experiment~\cite{fisher1937design}}, a high-level declarative
+language for automating statistical test selection and execution that abstracts
+the details of statistical analysis from the users. Tea captures users'
+hypotheses and domain knowledge, translates this information into a constraint
+satisfaction problem, identifies all valid statistical tests to evaluate a
+hypothesis, and executes the tests. Tea's higher-level, declarative nature aims
+to lower the barrier to valid, replicable analyses.
+
+Tea is easy to integrate directly into common data analysis workflows for users
+who have minimal programming experience. Tea is implemented as an open-source
+Python library, so programmers can use Tea wherever they use Python, including
+within Python notebooks.
+
+In addition, Tea is flexible. Its abstraction of the analysis process and use of
+a constraint solver to select tests is designed to support its extension to
+emerging statistical methods, such as Bayesian analysis. Currently, Tea supports
+frequentist Null Hypothesis Significance Testing (NHST).
+
+This work makes the following contributions:
+\begin{itemize}
+    \item a novel DSL for automatically selecting and executing statistical
+    analyses based on users' hypotheses and domain knowledge
+    (\autoref{sec:TeaPL}), 
+    \item a runtime system that formulates statistical test selection as a maximum constraint satisfaction problem (\autoref{sec:TeaRS}), and
+    \item an initial evaluation showing that Tea can express and execute common NHST statistical tests (\autoref{sec:eval}). 
+\end{itemize}
+
+After describing related work, the chapter describes a usage scenario, providing
+an overview of Tea (\autoref{sec:usagescenario}). Then, we discuss the concerns
+about statistics in the HCI community that shaped Tea's
+design~(\autoref{sec:design}), the implementation of
+\TeaPL~(\autoref{sec:TeaPL}), the implementation of
+\TeaRS~(\autoref{sec:TeaRS}), and the evaluation of Tea as a
+whole~(\autoref{sec:eval}). The chapter concludes with the key limitations of
+this work and a discussion of how Tea demonstrates the feasibility of my
+approach central to the thesis statement(~\autoref{para:thesisStatement})
+
+% As we found in our analysis of tools (\autoref{sec:toolsAnalysis}), a wide
+% variety of tools (such as SPSS~\cite{wiki:spss}, SAS~\cite{wiki:sas}, and
+% JMP~\cite{wiki:jmp}), programming languages (e.g., R~\cite{wiki:r-language}),
+% and libraries (including numpy~\cite{oliphant2006numpy}, scipy~\cite{scipy}, and
+% statsmodels~\cite{statsmodelsPaper}), enable people to perform specific
+% statistical tests, but they do not address the fundamental problem that users
+% may not know which statistical test to perform and how to verify that specific
+% assumptions about their data hold. 
+
+% To address this overlooked need, we designed Tea\footnote{named after Fisher's
+% ``Lady Tasting Tea'' experiment~\cite{fisher1937design}}, a high-level
+% declarative language for automating statistical test selection and execution
+% that abstracts the details of statistical analysis from the users. Tea captures
+% users' hypotheses and domain knowledge (\higherLevel, \connectConceptualStats),
+% reformulates these into a constraint satisfaction problem, identifies all valid
+% statistical tests to evaluate a hypothesis, and executes the tests. 
 
 \input{tea/related_work.tex}
+
+\input{tea/usage_scenario.tex}
 
 % \section{Design of Tea's DSL}
 % \section{Tea's constraint-based runtime system}
