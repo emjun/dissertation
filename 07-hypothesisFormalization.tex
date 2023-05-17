@@ -1,45 +1,115 @@
-If you are copying and pasting material from one of your papers, then remember to:
+\ej{Rephrase the language describing code and data releases.}
+
+Consider a census researcher who asks, ``In the United States (U.S.),
+how does an individual's sex relate to their annual income?'' Drawing upon their
+prior experiences and exploratory data visualizations, the researcher knows that
+income in the U.S. is skewed, and they want to know how the distributions of
+income among males and females differ (step i). However, before implementing,
+they (implicitly) define their causal model: The researcher knows that other
+factors, such as education and race, may be associated with employment
+opportunities, which may then influence income. As such, they refine their
+conceptual hypothesis--that sex influences income--to consider the possible
+effects of race, education, sex, and their interactions on income. They plan to
+fit a generalized linear model with race, education, sex, and their two-way
+interactions as predictors of income (step ii). They start implementing a script
+to load and model data (step iii). The researcher receives a small table of
+results and is surprised to receive a convergence warning. After further
+investigation, they simplify their model and remove the interaction effects to
+see how that may affect convergence (revise step iii). This time, their model's
+inference algorithm converges, and they interpret the results (step iv), but
+they really want to study how sex and race interact, so they return to
+implementation (step iii) and proceed as before, iteratively removing and adding
+effects and changing computational parameters, and as a by-product shifting
+which high-level conceptual hypothesis is reflected in the model.
+
+Performing statistical data analysis goes well beyond invoking the correct
+statistical functions in a software library. As seen with the census researcher,
+statistical analyses require(i) translating high-level, domain-specific
+questions and hypotheses into specific statistical
+questions~\cite{carver2016guidelines}; (ii) identifying statistical models to
+answer the statistical questions; (iii) implementing and executing these
+statistical models, typically with the help of software tools; and (iv)
+interpreting the results, considering the domain-specific questions and applying
+analytical reasoning. Analysts must go back and forth between conceptual
+hypothesis and model implementation realities, grappling with domain knowledge,
+limitations of data, and statistical methods.
+
+We refer to the process of translating a conceptual hypothesis into a computable
+statistical model as \textit{hypothesis formalization}. This process is  messy
+and under-scrutinized in prior work. Consequently, we investigate the steps,
+considerations, challenges, and tools involved. Based on our findings, we define
+hypothesis formalization as a dual-search process~\cite{klahr1988dual} that
+involves developing and integrating cognitive representations from two different
+perspectives---conceptual hypotheses and concrete model implementations.
+Analysts move back and forth between these two perspectives during formalization
+while balancing conceptual, data-driven, statistical, and implementation
+constraints. Figure~\ref{figure:overview} summarizes our definition and
+findings. Specifically, this chapter addresses the following questions to
+develop our definition of hypothesis formalization:
 \begin{itemize}
-    % \item Remove the abstract and instead add a little overview of the chapter and how it ties in to the rest of the thesis. You should also mention the original paper's source like: ``This chapter includes materials originally published in $\backslash$citet\{myownppr\}''
-    % \item Make sure the formatting still works -- this is single column now!
-    \item Consider rephrasing conference-paper-style language:
-    \begin{itemize}
-        \item Find every place you mention some variation of ``in this paper'' and say ``in this chapter'' instead.
-        \item Remove or rephrase the parts where you talk about ``our main contributions''.
-        \item Rephrase the language describing code and data releases.
-    \end{itemize}
-    % \item Replace the conclusion section with a summary section. Again, you should tie this chapter back to the main themes of the thesis.
+    \item \rqSteps: What is the range of steps an analyst might consider when
+    formalizing a hypothesis? How do these steps compare to ones that we might
+    expect based on prior work?
+    \item \rqProcess: How do analysts think about and perform the steps to
+    translate their hypotheses into model implementations? What challenges do
+    they face during this process?
+    \item \rqTools: How might current software tools influence hypothesis
+    formalization?
 \end{itemize}
 
-{\color{orange} Write an overview of chapter, how it ties to the rest of the thesis.}
+To sensitive ourselves to the steps (\rqSteps) and considerations (\rqProcess)
+involved in hypothesis formalization, we compared and contrasted existing models
+and descriptions of data analysis in prior work. We augmented our deep dive into
+prior work with a formative content analysis of 50 randomly sampled research
+papers from five different venues, including Psychological Science and Nature.
+We find that researchers decompose their research hypotheses into specific
+sub-hypotheses, derive proxy variables from theory and available data, and adapt
+statistical analyses to account for data collection procedures. A key takeaway
+from prior work and the formative content analysis was the ``hypothesis
+refinement loop'' in Figure~\ref{figure:overview}. 
 
-Can we generalize our approach in Tea--making
-implicit assumptions explicit and automatically reasoning about these
-assumptions to identify valid analyses--to statistical models? To answer this
-question, we set out to develop a holistic understanding of how analysts
-translate research questions into statistical analyses. 
+To validate and deepen our understanding of
+%the considerations involved in
+hypothesis formalization (\rqSteps and \rqProcess), we designed and conducted a
+lab study in which we observed 24 analysts develop and formalize hypotheses
+in-situ. We find that analysts foreground implementation concerns, even when
+brainstorming hypotheses, and try to fit their hypotheses and analyses to prior
+experiences and familiar tools, suggesting a strong influence of tools
+(\rqTools). Thus, the lab study reinforced the hypothesis refinement loop,
+surfaced the ``model implementation loop,'' and raised questions about the role
+of tools. 
 
+% Specifically, analysts were concerned (i) with accurately operationalizing and
+% using proxies, (ii) about biasing their analyses so much so that they reject
+% conceptual modeling before analyzing data, and (iii) with using shallow
+% statistical taxonomies that were not resilient to small changes in data. 
 
-Although prior work has observed \textit{that} data analysis is
-iterative~\cite{liu2019paths,grolemund2014cognitive} and involves multiple
-levels of considerations~\cite{liu2019understanding}, \textit{how} analysts move
-between these cognitive, statistical, and computational realities iteratively
-has remained under-scrutinized. To fill this gap, we conducted a content analysis of 50 published
-empirical publications from diverse disciplines and a lab study with 24 data
-scientists authoring analyses to identify the steps and challenges involved in
-authoring analyses. 
+To identify how tools may shape hypothesis formalization (\rqTools), we reviewed
+20 statistical software tools. We find that although the tools support nuanced
+model implementations, their low-level abstractions can focus analysts on
+statistical and computational details at the expense of higher-level reasoning
+about initial hypotheses. Tools also do not aid analysts in identifying
+reasonable model implementations that would test their conceptual hypotheses,
+which may explain why analysts in our lab study relied on familiar approaches,
+even if sub-optimal. Furthermore, our tools review confirmed that the dual
+processes inform one another during hypothesis formalization. 
 
-Based on our content analysis and lab study findings, we coin and define
-\textit{hypothesis formalization} as a dual-search process~\cite{klahr1988dual}
-that involves developing and integrating cognitive representations from two
-different perspectives---conceptual hypotheses and concrete model
-implementations. Analysts move back and forth between these two perspectives
-during formalization while balancing conceptual, data-driven, statistical, and
-programming implementation constraints. Analysts iterate over conceptual steps
-to refine their hypothesis in a \textit{hypothesis refinement loop}. Analysts
-also iterate over computational and implementation steps in a \textit{model
-implementation loop}. Data collection and data properties may also prompt
-conceptual revisions and influence statistical model implementation.
+Taken together, our findings help us define the hypothesis formalization
+framework, as summarized in Figure~\ref{figure:overview}, and suggest
+\textbf{three design implications} for tools to more directly support hypothesis
+formalization: (i) show the relationships between related statistical models
+that seem syntactically different from each other, (ii) provide higher-level
+abstractions for expressing conceptual hypotheses and partial model
+specifications, and (iii) develop bidirectional computational assistance for
+authoring causal models and relating them to statistical models.
+
+By defining and characterizing hypothesis formalization, we situate data
+analysis in a larger model of scientific discovery, identify specific problem
+solving strategies used in hypothesis formalization that demonstrate how data
+analysis (and science) is a practice, and identify opportunities for future
+software to improve the transparency and reproducibility of analyses by
+explicitly supporting pathways and loops through hypothesis formalization.
+
 
 \input{hypothesisFormalization/related_work.tex}
 
