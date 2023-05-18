@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex dissertation"] 1684337065 "dissertation.aux" "dissertation.bbl" "dissertation" 1684337065
+["bibtex dissertation"] 1684337065 "dissertation.aux" "dissertation.bbl" "dissertation" 1684426128
   "./ACM-Reference-Format.bst" 1683578936 83571 33d2b662030b94ccf5f55f119f85c1d2 ""
   "dissertation.aux" 1684337065 37475 21d3ac1fa731caf5a4fd5d07df90f399 "pdflatex"
   "references.bib" 1683578936 174 1aa19d71ebdda28e63cf70b46c626f50 ""
   (generated)
   "dissertation.blg"
   "dissertation.bbl"
-["pdflatex"] 1684337061 "dissertation.tex" "dissertation.pdf" "dissertation" 1684337061
+["pdflatex"] 1684426128 "dissertation.tex" "dissertation.pdf" "dissertation" 1684426128
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -342,14 +342,14 @@
   "06-tea.tex" 1684337059 12888 e4d012941d717b5b1ee89ecdb7e2e597 ""
   "07-hypothesisFormalization.tex" 1684336314 10302 694fe47d0ea029e764e7b891c780c270 ""
   "08-tisane.tex" 1683937745 10518 1daf1a3fbb735f0a4ac2382e0ce049b0 ""
-  "10-conclusion.tex" 1684255926 8011 3383205b62484565970bd4b14761e223 ""
-  "dissertation.aux" 1684337020 37475 54b3278f959afca77493de8b7228b9a1 "pdflatex"
-  "dissertation.bbl" 1684337020 1785 8ed37e936ba16de73718c10d329b7108 "bibtex dissertation"
-  "dissertation.lof" 1684337020 3610 6522a6f2ddbc31b3c5dbb4c964e8bf20 "pdflatex"
-  "dissertation.lot" 1684337020 548 99d746d0fce965b0271ad2dcd742c7cc "pdflatex"
-  "dissertation.out" 1684337020 20920 f7d1610049ed692572f6b044aba04806 "pdflatex"
+  "10-conclusion.tex" 1684426107 14170 a16ba96b1ff35cb2e81eb8346f2f08fa ""
+  "dissertation.aux" 1684337065 37475 21d3ac1fa731caf5a4fd5d07df90f399 "pdflatex"
+  "dissertation.bbl" 1684337065 1785 8ed37e936ba16de73718c10d329b7108 "bibtex dissertation"
+  "dissertation.lof" 1684337065 3610 6522a6f2ddbc31b3c5dbb4c964e8bf20 "pdflatex"
+  "dissertation.lot" 1684337065 548 99d746d0fce965b0271ad2dcd742c7cc "pdflatex"
+  "dissertation.out" 1684337065 20920 f7d1610049ed692572f6b044aba04806 "pdflatex"
   "dissertation.tex" 1683764146 1752 b3d64317f3c1a3d82b0bf279b113ae87 ""
-  "dissertation.toc" 1684337020 11921 ca226ca5396d6b5183a37f24353443d6 "pdflatex"
+  "dissertation.toc" 1684337065 11921 4b9b74be6a8b3e62ebd9176af2ec11e2 "pdflatex"
   "hypothesisFormalization/content_analysis.tex" 1683762824 21434 d8ca211604f05a4c33d040e3b186a0bc ""
   "hypothesisFormalization/discussion.tex" 1683762824 7727 d867dfeba7a62414354f8709ba727d15 ""
   "hypothesisFormalization/figures/A11_SS_1.png" 1683762824 88412 962114cdcf2a04dfb36b93a4e1d49e57 ""
@@ -379,10 +379,10 @@
   "tisane/related_work.tex" 1683935351 6430 4e00130034a884dd49f55fda7841d5c1 ""
   "tisane/system.tex" 1683934386 34090 ab43b76824f7bc14142fb546b6e7839f ""
   (generated)
-  "dissertation.lof"
-  "dissertation.out"
-  "dissertation.lot"
   "dissertation.toc"
-  "dissertation.aux"
+  "dissertation.lot"
   "dissertation.pdf"
+  "dissertation.aux"
+  "dissertation.out"
+  "dissertation.lof"
   "dissertation.log"

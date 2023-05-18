@@ -1,6 +1,27 @@
+10 sprints: 10 minutes each --> 3 then stop/check in
+
 % 1 paragraph summarizing key contributions
 % Mention, weave back in challenges from intro
-\ej{Fill in}
+While statistical analysis has become more pervasive among end-users who are not
+statistical experts, the tools for conducting analyses have continued to require
+high statistical expertise. This dissertation examines how to design and develop
+tools that not only lower the barriers for statistical non-experts but also
+provide guarantees about the validity of authored analyses. We introduce two new
+tools, Tea and Tisane. ~\autoref{chapter:tea} introduced a DSL for Null
+Hypothesis Significance Testing.~\autoref{chapter:tisane} introduced a DSL and
+interactive compilation process for authoring generalized linear models with or
+without mixed effects. Both are designed around the key insight that analysts
+<TODO: copy/paste from Pat email>. Analysts express their implicit knowledge
+about their domain and data--as assumptions and hypotheses in Tea and conceptual
+models in Tisane--and the DSLs compile them into statistical analysis code. 
+
+Additionally, we develop a theory of hypothesis formalization that describes the
+cognitive and operational steps involved in translating a conceptual research
+question into statistical analysis in code. Our theory of hypothesis
+formalization retrospectively validated our design in Tea, directly inspired the
+design of Tisane, unifies the formative observations that led to these system
+designs, and provides a framework for connecting and explaining the observations
+from our formative and summative studies. 
 
 \begin{comment}
 \section{Note on methodology and implications}
@@ -39,31 +60,12 @@ describing when specific tests were applicable.
 \ej{Fill in}
 
 \section{Discussion: Themes}
-\subsection{The role of programs and the act of programming as a reflective practice}
 
-What is the formalism end-users have to learn, where does it come from, how well does it align with what they want to do/say, etc. 
-% Finding: interactive disambiguation not just necessary for refinement and
-automated reasoning but *useful* to analysts for reflection
-
-This work re-visits the literature on end-user software engineering for a new
-domain: statistical analysis. This work is a re-interpretation of EUSE, viewing
-programming tools as bicycles of the mind. Specificaly, this work asks how we
-can make not only the programs themselves useful for accomplishing a task (i.e.,
-running a statistical test or model) but also the programs themselves useful for
-documentation and sharing as well as the process of programming reflective and
-meaningful to end-users. In this way, a central theme that this work addresses
-is how to reify the connection between the conceptual and statistical in our
-software tools. 
-
-We find that Tisane's interactive disambiguation is not just necessary for
-conceptual model refinement and automated reasoning to derive statistical models
-but useful to analysts for reflection. 
-
-% \section{EUSE++}
-% \section{Where all this is going / Why do we care about any of this?}
-% - a reinterpretation of EUSE -- programming tools as bicycles of the mind
-
-\subsection{Designing the \textit{right} levels of abstraction} 
+\subsection{Designing the \textit{right} levels of abstraction (Challenge 1)} 
+% \ej{Relates to Challenge 1 in Intro}
+With any domain-specific language of software system, there is a formalism
+end-users have to learn, where does it come from, how well does it align with
+what they want to do/say, etc. 
 
 Both Tea and Tisane provide higher levels of abstraction for analysts to express
 their implicit assumptions to author statistical analyses. However, the key to
@@ -107,22 +109,128 @@ analyses in light of their conceptual assumptions and models.
 % the larger end of helping analysts understand their domain better.
 % Design for the purpose that statistical analysis serves. -- Norman quote?
 
-\section{Future work}
+\subsection{Balancing user and computational reasoning / representations for automated reasoning (Challenge 2)}
+% \ej{Relates to Challenge 2 in Intro: Representation + Reasoning}
+
+A core challenge in Tea and Tisane was in designing ``shared representations''
+between users and computational techniques that could enable formal reasoning
+about analyses. A key insight in Tea was that statistical test selection could
+be reformulated as a constraint satisfaction problem. As a result, we
+constructed a knowledge base representing statistical tests using logical
+constraints. Using Tea's DSL, analysts specify additional constraints about
+their hypothesis and data. Tea reasons over these constraints to identify valid
+statistical tests, which it then executes. In Tisane, the shared representation
+is a graph, which contains a causal subgraph useful for deriving linear models. 
+
+In designing these representations, a temptation was to fit the DSL on top of a
+reasoning approach that was straightforward. In this view, the DSL was a thin
+wrapper around the automated reasoning engine. For example, a very early
+prototype of Tisane used Answer Set Programming (ASP) to define when specific
+confounders should appear in a generalized linear model. In addition to being a
+clunky way to represent linear model formulation rules when the statistics
+community has converged on using graphs, this prototype required analysts to
+incrementally refine their specification by interacting with the UNSAT core.
+Although an interesting, informative prototype, this under-designed the
+disambiguation to reap its benefits. Interaction is not just for getting the
+system to find an answer but a way for users to be able to not only
+incrementally express their intents for analysis but also reflect and refine
+their understanding of the domain and data. In other words, finding and using
+shared representations require designing not only the programming abstractions
+but also the interactions with the abstractions. 
+% , finding and using appropriate
+% shared representations facilitates end-user reasoning (additional benefits). --
+% maybe that's how we know we've found "appropriate" ones?
+
+% The role of disambiguation -- not an aberration or failure of automation but
+% rather a helpful, necessary part for users to be able to incrementally express
+% and refine their intents for analysis.
+
+% Benefits of separation is that we can start to introduce new statistical model/analysis inferences methods. 
+
+
+\subsection{The role of programs and the act of programming as a reflective practice (Challenge 3)}
+% \ej{Relates to Challenge 3 in Intro: Education/Awareness}
+
+% Finding: interactive disambiguation not just necessary for refinement and
+% automated reasoning but *useful* to analysts for reflection
+% We find that Tisane's interactive disambiguation is not just necessary for
+% conceptual model refinement and automated reasoning to derive statistical models
+% but useful to analysts for reflection. 
+
+Initially, we were surprised when analysts using Tea reported finding it useful
+to learn about their analyses....
+
+% Requires making the implicit explicit
+Providing abstractions that prioritize the knowledge and motivations end-users
+have in authoring statistical analyses promotes reflection, making this a more
+reflective practice (Schon). This work asks how we can make not only the
+programs themselves useful for accomplishing a task (i.e., running a statistical
+test or model) but also the programs themselves useful for documentation and
+sharing as well as the process of programming reflective and meaningful to
+end-users. The implicit assumptions analysts have about their data are
+explicitly stated in a Tea program. In Tisane, the assumed conceptual
+relationships are also encoded and captured. These are useful for planning,
+sharing, and being accountable in the future, as seen in pre-registration system
+using Tea~\cite{rock}. In this way, a central theme that this work addresses is
+how to reify the connection between the conceptual and statistical in our
+software tools. In this way, this dissertation brings to the domain of data
+analysis, classic principles from end-user software engineering
+% \section{EUSE++}
+% \section{Where all this is going / Why do we care about any of this?}
+% - a reinterpretation of EUSE -- programming tools as bicycles of the mind
+% . for a new domain: statistical analysis. This work is a
+% re-interpretation of EUSE, viewing programming tools as bicycles of the mind.
+% Specifically, 
+
+% Explanations may not be enough 
+
+\section{Recent developments}
+\ej{Do this during revisions?}
+\subsection{What about in the face of LLMs?}
+
+But how do people express their domain knowledge, make the process meaningful
+
+Mention LLMs as a technology to use here?
+
+\section{Limitations and Future work}
+#8  : Summarize future directions
+
+As demonstrations of how better programming abstractions and automated reasoning
+can enable statistical non-experts to author analyses and improve the quality of
+statistical analysis, Tea and Tisane...
+
+Tea and Tisane have demonstrated the benefit of using higher levels of
+abstraction focused on conceptual knowledge expression and reasoning. They
+primarily orient the question of design...They can serve as building blocks for START HERE
+
 Has this dissertation lost its way? Further re-orienting towards what users *really* want: to understand their domain
 Push further in directions this work orients us 
 - more support for understanding results, especially when some questions may not be answerable with the data/how it was collected
 - knowing how robust the results are --> why not just multiverse everything?
 **how do we resolve and come out from under the tyranny of false positive rates fear
 
-\subsection{Interpretation of results}
-
 \subsection{Connecting modeling with testing} 
+#3 - 1 paragraph (5 sentences)
 
-\subsection{Connecting statistical analysis with visual analysis}
+A natural question to ask is, ``Which system should an analyst use? Tea or Tisane?''
 
-\subsection{What about in the face of LLMs?}
+Tea and Tisane 
+
+\subsection{Interpretation of results}
+# 4 - 
+Support more complex queries, need help understanding the ramifications...
+
+\subsection{Support throughout the data lifecycle}
+# 5 - 
+What are Interfaces across the data lifecycle
+
+The long-view of this work...
+A fertile area to try this integration is in connecting statistical analysis with visual analysis
+
+% \subsection{The long view: Ecosystem of software tools and computational reasoning throughout the data lifecycle}
 
 \subsection{Methods for human-centered programming language design}
+# 6 - 
 From Tea to Tisane, we changed how we designed DSL primitives. To identify
 primitives in Tea's DSL, we surveyed two introductory quantitative methods
 courses in human-computer interaction. For Tisane, we started by iterating on
@@ -133,7 +241,13 @@ Finding the right balance between designer and end-user intervention/design
 
 need for human-centered methods to design DSLs
 
-\subsection{The long view: Ecosystem of software tools and computational reasoning throughout the data lifecycle}
-The long-view of this work...
+\subsection{Improving science}
+#7 - How can this approach improve science? 
 
-Mention LLMs as a technology to use here?
+Reproducibility -- something we wanted to touch on Tea and Tisane
+
+Formal methods for science
+E.g., github for scientific checking 
+
+\section{Closing Remarks}
+#9 
