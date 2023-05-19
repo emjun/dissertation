@@ -193,6 +193,13 @@ But how do people express their domain knowledge, make the process meaningful
 Mention LLMs as a technology to use here?
 
 \section{Limitations and Future work}
+
+Some themes that emerge: 
+- Support for after statistical modeling -- what do these mean? (interpretation) --> What to do next? / what would help me answer my research question? (modeling-testing) --> 
+- How to capture and use these consequences into next phases of the lifecycle? 
+- How could all these improve science and make data analysis more robust? 
+
+
 #8  : Summarize future directions
 
 As demonstrations of how better programming abstractions and automated reasoning
@@ -210,22 +217,91 @@ Push further in directions this work orients us
 **how do we resolve and come out from under the tyranny of false positive rates fear
 
 \subsection{Connecting modeling with testing} 
-#3 - 1 paragraph (5 sentences)
+% #3 - 1 paragraph (5 sentences)
+A natural question to ask at the end of this thesis is, ``Which system should an
+analyst use? Tea or Tisane?'' Tea and Tisane serve different statistical
+purposes. Tea is focused on statistical testing, or finding if there is evidence
+in the data for or against a specific claim, while Tisane is focused on
+statistical modeling, trying to estimate the influence of a variable (or sets of
+variables) on another variable, given the messy nature of the world, including
+confounding, mediation, moderation, etc. Statistical testing and modeling are
+not mutually exclusive. In fact, statistical experts often perform statistical
+tests after building statistical models. Mathematically, all statistical tests
+can be reformulated into statistical models with specific parameters of interest
+serving as test statistics (see~\cite{} for an approachable summary). 
 
-A natural question to ask is, ``Which system should an analyst use? Tea or Tisane?''
+What we have observed in our studies and personal experiences is that analysts
+often reach for statistical tests even when what they really need is a
+statistical model. Analysts will even contort their research questions to fit
+the (sub-optimal) statistical tests they can implement, just as we saw in
+hypothesis formalization. 
 
-Tea and Tisane 
+Tea and Tisane do not address a key limitation of the current ecosystem of
+statistical software, which is guidance in what analysis approach to take. A
+compelling next step in this work is to allow analysts to ask follow-up queries
+after authoring a statistical model to probe into what its implications are and
+test the differences between groups given a model. To make this possible,
+additional querying and disambiguation after outputting a statistical model from
+Tisane are necessary. What would make this difficult is...
 
 \subsection{Interpretation of results}
-# 4 - 
-Support more complex queries, need help understanding the ramifications...
+% # 4 - Support more complex queries, need help understanding the ramifications...
+While Tisane addresses the gulf of execution in authoring statistical analyses
+to answer a research question, it falls short of addressing the gulf of
+evaluation. Tisane does not yet help analysts interpret the results of their
+statistical models in light of their expressed implicit conceptual knowledge.
+For scientific discovery and decision making, accurately interpreting
+statistical results is equally important. For example, if an analysts'
+statistical results suggest that there is no evidence in the data to support the
+existence of a relationship in their conceptual model, how does the analyst make
+this interpretation? What should the analyst do about it? Is there conceptual
+model ``incorrect''? Should they revise their conceptual model? Check their data
+collection procedure? To answer these questions, there are two related
+challenges to address: (i) improved statistical reporting (What do the results
+mean?) and (ii) support for navigating consequences, such as through richer or
+follow-up queries and model revisions (What should an analyst do next?). 
+
+Furthermore, in the long-term, to support more complex analyses, there is a need
+to support more types of analyses. 
+
+Tea does this a bit better. 
 
 \subsection{Support throughout the data lifecycle}
-# 5 - 
-What are Interfaces across the data lifecycle
+% # 5 -  What are Interfaces across the data lifecycle
+% The long-view of this work...
 
-The long-view of this work...
+This dissertation identifies the need for improved abstractions for authoring
+statistical analyses. I argue that the appropriate abstractions should capture
+the implicit domain knowledge analysts bring to their data and show the benefits
+to users for doing so: valid statistical analysis formulation and increased
+reflection among analysts about their domain and data. From an engineering
+perspective, these abstractions allow tool designers to separate the conceptual
+and statistical concerns involved in data analysis, using Tea and Tisane as
+platforms for experimenting with alternative statistical model derivations and
+formulations. Given that implicit assumptions about a domain pervade the entire
+data lifecycle, what if we could take a similar approach throughout? What would
+the appropriate data structures for capturing domain knowledge look like at each
+phase? How could a new ecosystem of software tools use these representations
+such that the evolution of conceptual knowledge could be tracked and traced in
+meaningful ways.  -- some research questions to ask/address
+
 A fertile area to try this integration is in connecting statistical analysis with visual analysis
+
+\subsection{Improving science}
+#7 - How can this approach improve science? 
+
+Reproducibility -- something we wanted to touch on Tea and Tisane
+
+Formal methods for science
+E.g., github for scientific checking 
+
+% In other words, what would it look like to capture and track domain knowledge
+% throughout in an ecosystem of software tools that facilitated expression and
+% reasoning about conceptual knowledge. This conceptual knowledge may not be
+% graphical prior to data analysis or collection, but perhaps knowledge graphs
+% could capture some important aspects? 
+
+% documenting, and sharing
 
 % \subsection{The long view: Ecosystem of software tools and computational reasoning throughout the data lifecycle}
 
@@ -240,14 +316,6 @@ reasoning. However, between the first and second releases, we sought START HERE
 Finding the right balance between designer and end-user intervention/design 
 
 need for human-centered methods to design DSLs
-
-\subsection{Improving science}
-#7 - How can this approach improve science? 
-
-Reproducibility -- something we wanted to touch on Tea and Tisane
-
-Formal methods for science
-E.g., github for scientific checking 
 
 \section{Closing Remarks}
 #9 
