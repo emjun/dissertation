@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  18 MAY 2023 09:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  22 MAY 2023 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1195,11 +1195,7 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count344
 \l__pdf_internal_box=\box102
 )
-(./dissertation.aux
-
-LaTeX Warning: Label `figure:priorWork' multiply defined.
-
-)
+(./dissertation.aux)
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1221,7 +1217,8 @@ LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 \c@lstlisting=\count345
- (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count346
 \scratchdimen=\dimen346
@@ -1269,12 +1266,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 5.
 LaTeX Info: Redefining \pageref on input line 5.
 LaTeX Info: Redefining \nameref on input line 5.
- (./dissertation.out) (./dissertation.out)
 \@outlinefile=\write5
 \openout5 = `dissertation.out'.
 
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2021/02/05 v3.0 ragged2e Package
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/everysel/everysel.sty
@@ -1328,58 +1323,25 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ] [8
 
 
-] (./dissertation.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
-
-
-(/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [9] [10]
-[11])
+]
 \tf@toc=\write6
 \openout6 = `dissertation.toc'.
 
- [12] (./dissertation.lof
-
-Package natbib Warning: Citation `venables2013modern' on page 13 undefined on i
-nput line 5.
-
-
-Package natbib Warning: Citation `kabacoff2011action' on page 13 undefined on i
-nput line 5.
-
-
-Package natbib Warning: Citation `PS9' on page 13 undefined on input line 9.
-
-)
-\tf@lof=\write7
-\openout7 = `dissertation.lof'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13
+ [9] [10
 
 
 ]
-[14] (./dissertation.lot)
+\tf@lof=\write7
+\openout7 = `dissertation.lof'.
+
+ [11] [12
+
+
+]
 \tf@lot=\write8
 \openout8 = `dissertation.lot'.
 
- [15
-
-
-] [16
+ [13] [14
 
 
 
@@ -1387,95 +1349,118 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Chapter 1.
 (./04-intro.tex
 
-Package natbib Warning: Citation `team2013r' on page 17 undefined on input line
+Package natbib Warning: Citation `team2013r' on page 15 undefined on input line
  24.
 
 
-Package natbib Warning: Citation `sanner1999python' on page 17 undefined on inp
+Package natbib Warning: Citation `sanner1999python' on page 15 undefined on inp
 ut line 25.
 
 
-Package natbib Warning: Citation `spss' on page 17 undefined on input line 25.
+Package natbib Warning: Citation `spss' on page 15 undefined on input line 25.
 
 
-Package natbib Warning: Citation `sas' on page 17 undefined on input line 25.
+Package natbib Warning: Citation `sas' on page 15 undefined on input line 25.
 
 
-Package natbib Warning: Citation `mcelreath2020statistical' on page 17 undefine
+Package natbib Warning: Citation `mcelreath2020statistical' on page 15 undefine
 d on input line 27.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 40.
 
-[17] [18]
+[15] [16]
 
-Package natbib Warning: Citation `jun2019tea' on page 19 undefined on input lin
+Package natbib Warning: Citation `jun2019tea' on page 17 undefined on input lin
 e 115.
 
 
-Package natbib Warning: Citation `jun2022tisane' on page 19 undefined on input 
+Package natbib Warning: Citation `jun2022tisane' on page 17 undefined on input 
 line 116.
 
 
-LaTeX Warning: Reference `fig:tools' on page 19 undefined on input line 121.
+LaTeX Warning: Reference `fig:tools' on page 17 undefined on input line 121.
 
-Excluding 'comment' comment.) [19] [20
+
+LaTeX Warning: Reference `chapter:tea' on page 17 undefined on input line 131.
+
+
+LaTeX Warning: Reference `chapter:hypoForm' on page 17 undefined on input line 
+134.
+
+
+LaTeX Warning: Reference `chapter:hypoForm' on page 17 undefined on input line 
+137.
+
+
+LaTeX Warning: Reference `chapter:tisane' on page 17 undefined on input line 14
+1.
+
+
+LaTeX Warning: Reference `chapter:tisane' on page 17 undefined on input line 14
+4.
+
+
+LaTeX Warning: Reference `chapter:tisane' on page 17 undefined on input line 14
+7.
+
+Excluding 'comment' comment.) [17] [18
 
 
 ]
 Chapter 2.
 (./05-relatedWork.tex
 
-Package natbib Warning: Citation `klahr1988dual' on page 21 undefined on input 
+Package natbib Warning: Citation `klahr1988dual' on page 19 undefined on input 
 line 8.
 
 
-Package natbib Warning: Citation `schunn1995FourSpace' on page 21 undefined on 
+Package natbib Warning: Citation `schunn1995FourSpace' on page 19 undefined on 
 input line 15.
 
 
-Package natbib Warning: Citation `schunn1996BeyondTwoSpace' on page 21 undefine
+Package natbib Warning: Citation `schunn1996BeyondTwoSpace' on page 19 undefine
 d on input line 15.
 
 
-LaTeX Warning: Reference `sec:hypothesisFormalization' on page 21 undefined on 
+LaTeX Warning: Reference `sec:hypothesisFormalization' on page 19 undefined on 
 input line 21.
 
 
-LaTeX Warning: Reference `figure:overview' on page 21 undefined on input line 2
+LaTeX Warning: Reference `figure:overview' on page 19 undefined on input line 2
 3.
 
 
-Package natbib Warning: Citation `grolemund2014cognitive' on page 21 undefined 
+Package natbib Warning: Citation `grolemund2014cognitive' on page 19 undefined 
 on input line 39.
 
 
-Package natbib Warning: Citation `russell1993cost' on page 21 undefined on inpu
+Package natbib Warning: Citation `russell1993cost' on page 19 undefined on inpu
 t line 45.
 
 
-Package natbib Warning: Citation `russell1993cost' on page 21 undefined on inpu
+Package natbib Warning: Citation `russell1993cost' on page 19 undefined on inpu
 t line 54.
 
-[21]
+[19]
 
-Package natbib Warning: Citation `klahr1988dual' on page 22 undefined on input 
+Package natbib Warning: Citation `klahr1988dual' on page 20 undefined on input 
 line 61.
 
 
-Package natbib Warning: Citation `schunn1995FourSpace' on page 22 undefined on 
+Package natbib Warning: Citation `schunn1995FourSpace' on page 20 undefined on 
 input line 71.
 
 
-Package natbib Warning: Citation `schunn1996BeyondTwoSpace' on page 22 undefine
+Package natbib Warning: Citation `schunn1996BeyondTwoSpace' on page 20 undefine
 d on input line 71.
 
 
-LaTeX Warning: Reference `figure:overview' on page 22 undefined on input line 7
+LaTeX Warning: Reference `figure:overview' on page 20 undefined on input line 7
 9.
 
-<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=614, 
+<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=112, 
 1218.5525pt x 300.12125pt>
 File: hypothesisFormalization/figures/prior_work_combined_july_16_2021.png Grap
 hic file (type png)
@@ -1484,398 +1469,469 @@ Package pdftex.def Info: hypothesisFormalization/figures/prior_work_combined_ju
 ly_16_2021.png  used on input line 91.
 (pdftex.def)             Requested size: 375.80544pt x 92.55577pt.
 
-Package natbib Warning: Citation `schunn1995FourSpace' on page 22 undefined on 
+Package natbib Warning: Citation `schunn1995FourSpace' on page 20 undefined on 
 input line 91.
 
 
-LaTeX Warning: Reference `figure:overview' on page 22 undefined on input line 9
+LaTeX Warning: Reference `figure:overview' on page 20 undefined on input line 9
 1.
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
 
-Package natbib Warning: Citation `pirolli2005sensemaking' on page 22 undefined 
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
+
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 91
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+
+Package natbib Warning: Citation `pirolli2005sensemaking' on page 20 undefined 
 on input line 96.
 
 
-Package natbib Warning: Citation `russell1993cost' on page 22 undefined on inpu
+Package natbib Warning: Citation `russell1993cost' on page 20 undefined on inpu
 t line 96.
 
 
-Package natbib Warning: Citation `klein2007dataFrame' on page 22 undefined on i
+Package natbib Warning: Citation `klein2007dataFrame' on page 20 undefined on i
 nput line 96.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
+ [20 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
 
-Package natbib Warning: Citation `russell1993cost' on page 23 undefined on inpu
+Package natbib Warning: Citation `russell1993cost' on page 21 undefined on inpu
 t line 100.
 
 
-Package natbib Warning: Citation `grolemund2014cognitive' on page 23 undefined 
+Package natbib Warning: Citation `grolemund2014cognitive' on page 21 undefined 
 on input line 112.
 
 
-Package natbib Warning: Citation `russell1993cost' on page 23 undefined on inpu
+Package natbib Warning: Citation `russell1993cost' on page 21 undefined on inpu
 t line 132.
 
-[23]
+[21]
 
-Package natbib Warning: Citation `kandel2012enterprise' on page 24 undefined on
+Package natbib Warning: Citation `kandel2012enterprise' on page 22 undefined on
  input line 151.
 
 
-Package natbib Warning: Citation `alspaugh2018futzing' on page 24 undefined on 
+Package natbib Warning: Citation `alspaugh2018futzing' on page 22 undefined on 
 input line 151.
 
 
-Package natbib Warning: Citation `wongsuphasawat2019EDAgoals' on page 24 undefi
+Package natbib Warning: Citation `wongsuphasawat2019EDAgoals' on page 22 undefi
 ned on input line 151.
 
 
-Package natbib Warning: Citation `grolemund2014cognitive' on page 24 undefined 
+Package natbib Warning: Citation `grolemund2014cognitive' on page 22 undefined 
 on input line 151.
 
 
-Package natbib Warning: Citation `liu2019paths' on page 24 undefined on input l
+Package natbib Warning: Citation `liu2019paths' on page 22 undefined on input l
 ine 151.
 
 
-Package natbib Warning: Citation `liu2019understanding' on page 24 undefined on
+Package natbib Warning: Citation `liu2019understanding' on page 22 undefined on
  input line 151.
 
 
-Package natbib Warning: Citation `battle2019EVA' on page 24 undefined on input 
+Package natbib Warning: Citation `battle2019EVA' on page 22 undefined on input 
 line 157.
 
 
-LaTeX Warning: Reference `sec:hypothesisFormalization' on page 24 undefined on 
+LaTeX Warning: Reference `sec:hypothesisFormalization' on page 22 undefined on 
 input line 158.
 
 
-Package natbib Warning: Citation `gelman2013garden' on page 24 undefined on inp
+Package natbib Warning: Citation `gelman2013garden' on page 22 undefined on inp
 ut line 167.
 
 
-Package natbib Warning: Citation `kale2019decision' on page 24 undefined on inp
+Package natbib Warning: Citation `kale2019decision' on page 22 undefined on inp
 ut line 168.
 
 
-Package natbib Warning: Citation `liu2019understanding' on page 24 undefined on
+Package natbib Warning: Citation `liu2019understanding' on page 22 undefined on
  input line 169.
 
 
-Package natbib Warning: Citation `liu2019paths' on page 24 undefined on input l
+Package natbib Warning: Citation `liu2019paths' on page 22 undefined on input l
 ine 173.
 
 
-Package natbib Warning: Citation `kandel2012enterprise' on page 24 undefined on
+LaTeX Warning: Reference `sec:tisane_case_studies' on page 22 undefined on inpu
+t line 180.
+
+
+Package natbib Warning: Citation `kandel2012enterprise' on page 22 undefined on
  input line 184.
 
 
-Package natbib Warning: Citation `kandel2012enterprise' on page 24 undefined on
+Package natbib Warning: Citation `kandel2012enterprise' on page 22 undefined on
  input line 185.
 
 
-Package natbib Warning: Citation `alspaugh2018futzing' on page 24 undefined on 
+Package natbib Warning: Citation `alspaugh2018futzing' on page 22 undefined on 
 input line 185.
 
 
-Package natbib Warning: Citation `wongsuphasawat2019EDAgoals' on page 24 undefi
+Package natbib Warning: Citation `wongsuphasawat2019EDAgoals' on page 22 undefi
 ned on input line 186.
 
 
-Package natbib Warning: Citation `battle2019EVA' on page 24 undefined on input 
+Package natbib Warning: Citation `battle2019EVA' on page 22 undefined on input 
 line 196.
 
-[24]
+[22]
 
-Package natbib Warning: Citation `gelman2013garden' on page 25 undefined on inp
+Package natbib Warning: Citation `gelman2013garden' on page 23 undefined on inp
 ut line 205.
 
 
-Package natbib Warning: Citation `kale2019decision' on page 25 undefined on inp
+Package natbib Warning: Citation `kale2019decision' on page 23 undefined on inp
 ut line 206.
 
 
-Package natbib Warning: Citation `liu2019understanding' on page 25 undefined on
+Package natbib Warning: Citation `liu2019understanding' on page 23 undefined on
  input line 207.
 
 
-Package natbib Warning: Citation `liu2019paths' on page 25 undefined on input l
+Package natbib Warning: Citation `liu2019paths' on page 23 undefined on input l
 ine 219.
+
+
+LaTeX Warning: Reference `sec:inLabStudy' on page 23 undefined on input line 24
+0.
 
 
 Underfull \vbox (badness 4713) has occurred while \output is active []
 
- [25]
+ [23]
 
-Package natbib Warning: Citation `textor2011dagitty' on page 26 undefined on in
+Package natbib Warning: Citation `textor2011dagitty' on page 24 undefined on in
 put line 281.
 
 
-Package natbib Warning: Citation `suzuki2020causal' on page 26 undefined on inp
+Package natbib Warning: Citation `suzuki2020causal' on page 24 undefined on inp
 ut line 284.
 
 
-Package natbib Warning: Citation `suzuki2018mechanisms' on page 26 undefined on
+Package natbib Warning: Citation `suzuki2018mechanisms' on page 24 undefined on
  input line 284.
 
 
-Package natbib Warning: Citation `velentgas2013developing' on page 26 undefined
+Package natbib Warning: Citation `velentgas2013developing' on page 24 undefined
  on input line 284.
 
 
-Package natbib Warning: Citation `gosset' on page 26 undefined on input line 29
+Package natbib Warning: Citation `gosset' on page 24 undefined on input line 29
 1.
 
 
-Package natbib Warning: Citation `bakshy2014planout' on page 26 undefined on in
+Package natbib Warning: Citation `bakshy2014planout' on page 24 undefined on in
 put line 291.
 
 
-Package natbib Warning: Citation `edibble' on page 26 undefined on input line 2
+Package natbib Warning: Citation `edibble' on page 24 undefined on input line 2
 92.
 
 
-Package natbib Warning: Citation `blair2019declaring' on page 26 undefined on i
+Package natbib Warning: Citation `blair2019declaring' on page 24 undefined on i
 nput line 292.
 
 
-Package natbib Warning: Citation `mackay2007touchstone' on page 26 undefined on
+Package natbib Warning: Citation `mackay2007touchstone' on page 24 undefined on
  input line 293.
 
 
-Package natbib Warning: Citation `eiselmayer2019touchstone2' on page 26 undefin
+Package natbib Warning: Citation `eiselmayer2019touchstone2' on page 24 undefin
 ed on input line 293.
 
 
-Package natbib Warning: Citation `deLeeuw2015jspsych' on page 26 undefined on i
+Package natbib Warning: Citation `deLeeuw2015jspsych' on page 24 undefined on i
 nput line 296.
 
 
-Package natbib Warning: Citation `mackay2007touchstone' on page 26 undefined on
+Package natbib Warning: Citation `mackay2007touchstone' on page 24 undefined on
  input line 298.
 
 
-Package natbib Warning: Citation `eiselmayer2019touchstone2' on page 26 undefin
+Package natbib Warning: Citation `eiselmayer2019touchstone2' on page 24 undefin
 ed on input line 301.
 
 
-Package natbib Warning: Citation `edibble' on page 26 undefined on input line 3
+Package natbib Warning: Citation `edibble' on page 24 undefined on input line 3
 03.
 
 
-LaTeX Warning: Reference `todolbl:1' on page 26 undefined on input line 316.
+LaTeX Warning: Reference `todolbl:1' on page 24 undefined on input line 316.
 
 
-Package natbib Warning: Citation `autoweka' on page 26 undefined on input line 
+Package natbib Warning: Citation `autoweka' on page 24 undefined on input line 
 318.
 
 
-Package natbib Warning: Citation `autosklearn' on page 26 undefined on input li
+Package natbib Warning: Citation `autosklearn' on page 24 undefined on input li
 ne 318.
 
 
-Package natbib Warning: Citation `H2OAutoML20' on page 26 undefined on input li
+Package natbib Warning: Citation `H2OAutoML20' on page 24 undefined on input li
 ne 319.
 
 
-Package natbib Warning: Citation `autosklearn' on page 26 undefined on input li
+Package natbib Warning: Citation `autosklearn' on page 24 undefined on input li
 ne 323.
 
 
 Underfull \vbox (badness 4254) has occurred while \output is active []
 
- [26]
+ [24]
 
-Package natbib Warning: Citation `lloyd2014automatic' on page 27 undefined on i
+Package natbib Warning: Citation `lloyd2014automatic' on page 25 undefined on i
 nput line 326.
 
 
-Package natbib Warning: Citation `salimi2020causal' on page 27 undefined on inp
+Package natbib Warning: Citation `salimi2020causal' on page 25 undefined on inp
 ut line 334.
 
 
-Package natbib Warning: Citation `kayali2020demonstration' on page 27 undefined
+Package natbib Warning: Citation `kayali2020demonstration' on page 25 undefined
  on input line 334.
 
 
-Package natbib Warning: Citation `salimi2020causal' on page 27 undefined on inp
+Package natbib Warning: Citation `salimi2020causal' on page 25 undefined on inp
 ut line 336.
 
 
-Package natbib Warning: Citation `guimbretiere2007experiscope' on page 27 undef
+Package natbib Warning: Citation `guimbretiere2007experiscope' on page 25 undef
 ined on input line 346.
 
 
-Package natbib Warning: Citation `mackay2007touchstone' on page 27 undefined on
+Package natbib Warning: Citation `mackay2007touchstone' on page 25 undefined on
  input line 350.
 
 
-Package natbib Warning: Citation `eiselmayer2019touchstone2' on page 27 undefin
+Package natbib Warning: Citation `eiselmayer2019touchstone2' on page 25 undefin
 ed on input line 353.
 
 
-Package natbib Warning: Citation `wacharamanotham2015statsplorer' on page 27 un
+Package natbib Warning: Citation `wacharamanotham2015statsplorer' on page 25 un
 defined on input line 355.
 
 
-Package natbib Warning: Citation `wacharamanotham2015statsplorer' on page 27 un
+Package natbib Warning: Citation `wacharamanotham2015statsplorer' on page 25 un
 defined on input line 361.
 
 
-Package natbib Warning: Citation `shadish2010campbell' on page 27 undefined on 
+Package natbib Warning: Citation `shadish2010campbell' on page 25 undefined on 
 input line 377.
 
 
-Package natbib Warning: Citation `shadish2010campbell' on page 27 undefined on 
+Package natbib Warning: Citation `shadish2010campbell' on page 25 undefined on 
 input line 380.
 
-[27]) [28]
+[25]) [26]
 Chapter 3.
 (./06-tea.tex
 
-Package natbib Warning: Citation `fisher1937design' on page 29 undefined on inp
+Package natbib Warning: Citation `fisher1937design' on page 27 undefined on inp
 ut line 9.
 
 
-Package natbib Warning: Citation `kaptein2012rethinking' on page 29 undefined o
+Package natbib Warning: Citation `kaptein2012rethinking' on page 27 undefined o
 n input line 19.
 
 
-Package natbib Warning: Citation `wiki:spss' on page 29 undefined on input line
+Package natbib Warning: Citation `wiki:spss' on page 27 undefined on input line
  23.
 
 
-Package natbib Warning: Citation `wiki:sas' on page 29 undefined on input line 
+Package natbib Warning: Citation `wiki:sas' on page 27 undefined on input line 
 23.
 
 
-Package natbib Warning: Citation `wiki:jmp' on page 29 undefined on input line 
+Package natbib Warning: Citation `wiki:jmp' on page 27 undefined on input line 
 24.
 
 
-Package natbib Warning: Citation `wiki:r-language' on page 29 undefined on inpu
+Package natbib Warning: Citation `wiki:r-language' on page 27 undefined on inpu
 t line 24.
 
 
-Package natbib Warning: Citation `oliphant2006numpy' on page 29 undefined on in
+Package natbib Warning: Citation `oliphant2006numpy' on page 27 undefined on in
 put line 25.
 
 
-Package natbib Warning: Citation `scipy' on page 29 undefined on input line 25.
+Package natbib Warning: Citation `scipy' on page 27 undefined on input line 25.
 
 
 
-Package natbib Warning: Citation `seabold2010statsmodels' on page 29 undefined 
+Package natbib Warning: Citation `seabold2010statsmodels' on page 27 undefined 
 on input line 26.
 
-[29
+[27
 
 
 ]
 
-Package natbib Warning: Citation `fisher1937design' on page 30 undefined on inp
+Package natbib Warning: Citation `fisher1937design' on page 28 undefined on inp
 ut line 45.
 
 
-LaTeX Warning: Reference `sec:design' on page 30 undefined on input line 75.
+LaTeX Warning: Reference `sec:TeaPL' on page 28 undefined on input line 67.
+
+
+LaTeX Warning: Reference `sec:TeaRS' on page 28 undefined on input line 68.
+
+
+LaTeX Warning: Reference `sec:eval' on page 28 undefined on input line 69.
+
+
+LaTeX Warning: Reference `sec:usagescenario' on page 28 undefined on input line
+ 73.
+
+
+LaTeX Warning: Reference `sec:design' on page 28 undefined on input line 75.
+
+
+LaTeX Warning: Reference `sec:TeaPL' on page 28 undefined on input line 76.
+
+
+LaTeX Warning: Reference `sec:TeaRS' on page 28 undefined on input line 77.
+
+
+LaTeX Warning: Reference `sec:eval' on page 28 undefined on input line 78.
+
+
+LaTeX Warning: Reference `para:thesisStatement' on page 28 undefined on input l
+ine 80.
 
 (./tea/related_work.tex
 
-Package natbib Warning: Citation `satyanarayan2017vega' on page 30 undefined on
+Package natbib Warning: Citation `satyanarayan2017vega' on page 28 undefined on
  input line 11.
 
 
-Package natbib Warning: Citation `bakshy2014planout' on page 30 undefined on in
+Package natbib Warning: Citation `bakshy2014planout' on page 28 undefined on in
 put line 13.
 
 
-Package natbib Warning: Citation `eiselmayer2019touchstone2' on page 30 undefin
+Package natbib Warning: Citation `eiselmayer2019touchstone2' on page 28 undefin
 ed on input line 17.
 
 
-Package natbib Warning: Citation `kandel2011wrangler' on page 30 undefined on i
+Package natbib Warning: Citation `kandel2011wrangler' on page 28 undefined on i
 nput line 19.
 
-[30]
+[28]
 
-Package natbib Warning: Citation `moritz2019formalizing' on page 31 undefined o
+Package natbib Warning: Citation `moritz2019formalizing' on page 29 undefined o
 n input line 35.
 
 
-Package natbib Warning: Citation `hoffswell2018setcola' on page 31 undefined on
+Package natbib Warning: Citation `hoffswell2018setcola' on page 29 undefined on
  input line 35.
 
 
-Package natbib Warning: Citation `swearngin2018scout' on page 31 undefined on i
+Package natbib Warning: Citation `swearngin2018scout' on page 29 undefined on i
 nput line 44.
 
 
-Package natbib Warning: Citation `kay2016researcher' on page 31 undefined on in
+Package natbib Warning: Citation `kay2016researcher' on page 29 undefined on in
 put line 56.
 
 
-Package natbib Warning: Citation `kaptein2012rethinking' on page 31 undefined o
+Package natbib Warning: Citation `kaptein2012rethinking' on page 29 undefined o
 n input line 56.
 
 
-Package natbib Warning: Citation `wacharamanotham2015statsplorer' on page 31 un
+Package natbib Warning: Citation `wacharamanotham2015statsplorer' on page 29 un
 defined on input line 59.
 
 
-Package natbib Warning: Citation `efron1992bootstrap' on page 31 undefined on i
+Package natbib Warning: Citation `efron1992bootstrap' on page 29 undefined on i
 nput line 65.
 
-) [31] (./tea/usage_scenario.tex
-<tea/figures/tea_program.jpg, id=685, 3863.43375pt x 3922.655pt>
+) [29] (./tea/usage_scenario.tex
+<tea/figures/tea_program.jpg, id=185, 3863.43375pt x 3922.655pt>
 File: tea/figures/tea_program.jpg Graphic file (type jpg)
 <use tea/figures/tea_program.jpg>
 Package pdftex.def Info: tea/figures/tea_program.jpg  used on input line 3.
 (pdftex.def)             Requested size: 469.75502pt x 476.9232pt.
 
 
-Package natbib Warning: Citation `venables2013modern' on page 32 undefined on i
+Package natbib Warning: Citation `venables2013modern' on page 30 undefined on i
 nput line 3.
 
 
-Package natbib Warning: Citation `kabacoff2011action' on page 32 undefined on i
+Package natbib Warning: Citation `kabacoff2011action' on page 30 undefined on i
 nput line 3.
 
 
-Package natbib Warning: Citation `venables2013modern' on page 32 undefined on i
+LaTeX Warning: Reference `sec:usagescenario' on page 30 undefined on input line
+ 3.
+
+
+Package natbib Warning: Citation `venables2013modern' on page 30 undefined on i
 nput line 3.
 
 
-Package natbib Warning: Citation `kabacoff2011action' on page 32 undefined on i
+Package natbib Warning: Citation `kabacoff2011action' on page 30 undefined on i
 nput line 3.
 
 
-Package natbib Warning: Citation `ehrlich1973participation' on page 32 undefine
+LaTeX Warning: Reference `sec:usagescenario' on page 30 undefined on input line
+ 3.
+
+
+Package natbib Warning: Citation `ehrlich1973participation' on page 30 undefine
 d on input line 11.
 
 
-Package natbib Warning: Citation `vandaele1987participation' on page 32 undefin
+Package natbib Warning: Citation `vandaele1987participation' on page 30 undefin
 ed on input line 11.
 
-[32] [33 <./tea/figures/tea_program.jpg>]) (./tea/system.tex
+
+LaTeX Warning: Reference `fig:tea_program' on page 30 undefined on input line 1
+1.
+
+[30] [31 <./tea/figures/tea_program.jpg>]) (./tea/system.tex
+
+LaTeX Warning: Reference `sec:TeaRS' on page 32 undefined on input line 31.
+
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 41
 .
-
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [34]
+) [32]
 
-Package natbib Warning: Citation `wickham2014tidy' on page 35 undefined on inpu
+LaTeX Warning: Reference `fig:modes' on page 33 undefined on input line 48.
+
+
+Package natbib Warning: Citation `wickham2014tidy' on page 33 undefined on inpu
 t line 59.
 
 
-Package natbib Warning: Citation `oliphant2006numpy' on page 35 undefined on in
+Package natbib Warning: Citation `oliphant2006numpy' on page 33 undefined on in
 put line 63.
 
-[35]
-<tea/figures/modes_wide.jpg, id=721, 6677.94875pt x 4589.145pt>
+[33]
+
+LaTeX Warning: Reference `fig:modes' on page 34 undefined on input line 133.
+
+<tea/figures/modes_wide.jpg, id=220, 6677.94875pt x 4589.145pt>
 File: tea/figures/modes_wide.jpg Graphic file (type jpg)
 <use tea/figures/modes_wide.jpg>
 Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 135.
@@ -1883,84 +1939,94 @@ Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 135.
 
 Underfull \vbox (badness 1817) has occurred while \output is active []
 
- [36]
+ [34]
 
-Package natbib Warning: Citation `de2008z3' on page 37 undefined on input line 
+Package natbib Warning: Citation `de2008z3' on page 35 undefined on input line 
 178.
 
 
-Package natbib Warning: Citation `swearngin2018scout' on page 37 undefined on i
+Package natbib Warning: Citation `swearngin2018scout' on page 35 undefined on i
 nput line 188.
 
 
-Package natbib Warning: Citation `panchekha2018verifying' on page 37 undefined 
+Package natbib Warning: Citation `panchekha2018verifying' on page 35 undefined 
 on input line 189.
 
 
-Package natbib Warning: Citation `loncaric2016cozy' on page 37 undefined on inp
+Package natbib Warning: Citation `loncaric2016cozy' on page 35 undefined on inp
 ut line 190.
 
 
-Package natbib Warning: Citation `klemmerCoursera' on page 37 undefined on inpu
+Package natbib Warning: Citation `klemmerCoursera' on page 35 undefined on inpu
 t line 201.
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 37 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 35 undefined o
 n input line 202.
 
 
-Package natbib Warning: Citation `ucla:whatstat' on page 37 undefined on input 
+Package natbib Warning: Citation `ucla:whatstat' on page 35 undefined on input 
 line 203.
 
 
-Package natbib Warning: Citation `kent:tutorials' on page 37 undefined on input
+Package natbib Warning: Citation `kent:tutorials' on page 35 undefined on input
  line 203.
 
-[37]
+[35]
 
-Package natbib Warning: Citation `efron1992bootstrap' on page 38 undefined on i
+LaTeX Warning: Reference `subsec:assumptions' on page 36 undefined on input lin
+e 220.
+
+
+Package natbib Warning: Citation `efron1992bootstrap' on page 36 undefined on i
 nput line 242.
 
 
-Package natbib Warning: Citation `holm1979simple' on page 38 undefined on input
+Package natbib Warning: Citation `holm1979simple' on page 36 undefined on input
  line 244.
 
-[38]
+[36]
 
-Package natbib Warning: Citation `cohen1988statistical' on page 39 undefined on
+LaTeX Warning: Reference `fig:modes' on page 37 undefined on input line 264.
+
+
+Package natbib Warning: Citation `cohen1988statistical' on page 37 undefined on
  input line 268.
 
 
-Package natbib Warning: Citation `vargha2000critique' on page 39 undefined on i
+Package natbib Warning: Citation `vargha2000critique' on page 37 undefined on i
 nput line 269.
 
 
-Package natbib Warning: Citation `american1983publication' on page 39 undefined
+Package natbib Warning: Citation `american1983publication' on page 37 undefined
  on input line 271.
 
 ) (./tea/eval.tex (./tea/tea_results.tex
 
-Package natbib Warning: Citation `kabacoff2011action' on page 39 undefined on i
+LaTeX Warning: Reference `fig:modes' on page 37 undefined on input line 36.
+
+
+Package natbib Warning: Citation `kabacoff2011action' on page 37 undefined on i
 nput line 112.
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 37 undefined o
 n input line 112.
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 37 undefined o
 n input line 112.
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 37 undefined o
 n input line 112.
 
 
-Package natbib Warning: Citation `kabacoff2011action' on page 39 undefined on i
+Package natbib Warning: Citation `kabacoff2011action' on page 37 undefined on i
 nput line 112.
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 37 undefined o
 n input line 112.
 
 
@@ -1969,27 +2035,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--112
  []
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 37 undefined o
 n input line 112.
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 37 undefined o
 n input line 112.
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 37 undefined o
 n input line 112.
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 37 undefined o
 n input line 112.
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 37 undefined o
 n input line 112.
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 37 undefined o
 n input line 112.
 
 
@@ -2002,117 +2068,132 @@ LaTeX Warning: Float too large for page by 112.46695pt on input line 114.
 
 )
 
-Package natbib Warning: Citation `kabacoff2011action' on page 39 undefined on i
+Package natbib Warning: Citation `kabacoff2011action' on page 37 undefined on i
 nput line 21.
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 37 undefined o
 n input line 22.
 
-[39] [40]
 
-Package natbib Warning: Citation `field2012discoveringR' on page 41 undefined o
+LaTeX Warning: Reference `tab:results' on page 37 undefined on input line 36.
+
+[37] [38]
+
+Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
 n input line 45.
 
 
-Package natbib Warning: Citation `field2012discoveringR' on page 41 undefined o
+Package natbib Warning: Citation `field2012discoveringR' on page 39 undefined o
 n input line 51.
+
+
+LaTeX Warning: Reference `tab:results' on page 39 undefined on input line 63.
 
 )
 Underfull \vbox (badness 6876) has occurred while \output is active []
 
- [41]
+ [39]
 
-Package natbib Warning: Citation `franconeriVisualizationChooser' on page 42 un
+Package natbib Warning: Citation `franconeriVisualizationChooser' on page 40 un
 defined on input line 143.
 
 
-Package natbib Warning: Citation `jmp' on page 42 undefined on input line 144.
+Package natbib Warning: Citation `jmp' on page 40 undefined on input line 144.
 
-[42] Excluding 'comment' comment.) [43] [44 <./tea/figures/modes_wide.jpg>]
+[40]
+
+LaTeX Warning: Reference `para:thesisStatement' on page 41 undefined on input l
+ine 184.
+
+Excluding 'comment' comment.) [41] [42 <./tea/figures/modes_wide.jpg>]
 Chapter 4.
 (./07-hypothesisFormalization.tex
 Underfull \vbox (badness 3354) has occurred while \output is active []
 
- [45
+ [43
 
 
 ]
 
-Package natbib Warning: Citation `carver2016guidelines' on page 46 undefined on
+Package natbib Warning: Citation `carver2016guidelines' on page 44 undefined on
  input line 29.
 
 
-Package natbib Warning: Citation `klahr1988dual' on page 46 undefined on input 
+Package natbib Warning: Citation `klahr1988dual' on page 44 undefined on input 
 line 41.
 
 
-LaTeX Warning: Reference `figure:overview' on page 46 undefined on input line 4
+LaTeX Warning: Reference `figure:overview' on page 44 undefined on input line 4
 6.
 
 
-LaTeX Warning: Reference `figure:overview' on page 46 undefined on input line 6
+LaTeX Warning: Reference `figure:overview' on page 44 undefined on input line 6
 9.
 
-[46]
+[44]
 
-LaTeX Warning: Reference `figure:overview' on page 47 undefined on input line 9
+LaTeX Warning: Reference `figure:overview' on page 45 undefined on input line 9
 8.
 
 (./hypothesisFormalization/related_work.tex
 
-LaTeX Warning: Reference `todolbl:2' on page 47 undefined on input line 2.
+LaTeX Warning: Reference `todolbl:2' on page 45 undefined on input line 2.
 
 
-Package natbib Warning: Citation `carver2016guidelines' on page 47 undefined on
+Package natbib Warning: Citation `carver2016guidelines' on page 45 undefined on
  input line 12.
 
 
-Package natbib Warning: Citation `pfannkuch1997statistical' on page 47 undefine
+Package natbib Warning: Citation `pfannkuch1997statistical' on page 45 undefine
 d on input line 17.
 
 
-Package natbib Warning: Citation `pfannkuch2000statistical' on page 47 undefine
+Package natbib Warning: Citation `pfannkuch2000statistical' on page 45 undefine
 d on input line 17.
 
 
-Package natbib Warning: Citation `wild1999statisticalThinking' on page 47 undef
+Package natbib Warning: Citation `wild1999statisticalThinking' on page 45 undef
 ined on input line 17.
 
 
-Package natbib Warning: Citation `wild1999statisticalThinking' on page 47 undef
+Package natbib Warning: Citation `wild1999statisticalThinking' on page 45 undef
 ined on input line 22.
 
-[47]
+[45]
 
-Package natbib Warning: Citation `mcelreath2020statistical' on page 48 undefine
+Package natbib Warning: Citation `mcelreath2020statistical' on page 46 undefine
 d on input line 31.
 
 
-Package natbib Warning: Citation `klahr1988dual' on page 48 undefined on input 
+Package natbib Warning: Citation `klahr1988dual' on page 46 undefined on input 
 line 56.
 
 
-Package natbib Warning: Citation `schunn1995FourSpace' on page 48 undefined on 
+Package natbib Warning: Citation `schunn1995FourSpace' on page 46 undefined on 
 input line 66.
 
 
-Package natbib Warning: Citation `schunn1996BeyondTwoSpace' on page 48 undefine
+Package natbib Warning: Citation `schunn1996BeyondTwoSpace' on page 46 undefine
 d on input line 66.
 
 
-LaTeX Warning: Reference `figure:overview' on page 48 undefined on input line 7
+LaTeX Warning: Reference `figure:overview' on page 46 undefined on input line 7
 4.
 
 
-Package natbib Warning: Citation `schunn1995FourSpace' on page 48 undefined on 
+LaTeX Warning: Reference `figure:priorWork' on page 46 undefined on input line 
+77.
+
+
+Package natbib Warning: Citation `schunn1995FourSpace' on page 46 undefined on 
 input line 78.
 
 
-Package natbib Warning: Citation `klahr1999studies' on page 48 undefined on inp
+Package natbib Warning: Citation `klahr1999studies' on page 46 undefined on inp
 ut line 83.
 
-[48]
+[46]
 File: hypothesisFormalization/figures/prior_work_combined_july_16_2021.png Grap
 hic file (type png)
 <use hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>
@@ -2121,44 +2202,48 @@ ly_16_2021.png  used on input line 86.
 (pdftex.def)             Requested size: 375.80544pt x 92.55577pt.
 
 
-Package natbib Warning: Citation `schunn1995FourSpace' on page 49 undefined on 
+Package natbib Warning: Citation `schunn1995FourSpace' on page 47 undefined on 
 input line 86.
 
 
-LaTeX Warning: Reference `figure:overview' on page 49 undefined on input line 8
+LaTeX Warning: Reference `figure:overview' on page 47 undefined on input line 8
 6.
 
 
-Package natbib Warning: Citation `pirolli2005sensemaking' on page 49 undefined 
+Package natbib Warning: Citation `pirolli2005sensemaking' on page 47 undefined 
 on input line 91.
 
 
-Package natbib Warning: Citation `russell1993cost' on page 49 undefined on inpu
+Package natbib Warning: Citation `russell1993cost' on page 47 undefined on inpu
 t line 91.
 
 
-Package natbib Warning: Citation `klein2007dataFrame' on page 49 undefined on i
+Package natbib Warning: Citation `klein2007dataFrame' on page 47 undefined on i
 nput line 91.
 
 
-Package natbib Warning: Citation `russell1993cost' on page 49 undefined on inpu
+Package natbib Warning: Citation `russell1993cost' on page 47 undefined on inpu
 t line 95.
 
 
-Package natbib Warning: Citation `grolemund2014cognitive' on page 49 undefined 
+Package natbib Warning: Citation `grolemund2014cognitive' on page 47 undefined 
 on input line 107.
 
-[49]
+[47]
 
-Package natbib Warning: Citation `russell1993cost' on page 50 undefined on inpu
+Package natbib Warning: Citation `russell1993cost' on page 48 undefined on inpu
 t line 127.
 
-) (./hypothesisFormalization/content_analysis.tex [50]
 
-Package natbib Warning: Citation `bertin2011graphics' on page 51 undefined on i
+LaTeX Warning: Reference `sec:inLabStudy' on page 48 undefined on input line 14
+6.
+
+) (./hypothesisFormalization/content_analysis.tex [48]
+
+Package natbib Warning: Citation `bertin2011graphics' on page 49 undefined on i
 nput line 39.
 
-<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=809, 835.
+<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=315, 835.
 62187pt x 275.0275pt>
 File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic 
 file (type png)
@@ -2167,128 +2252,146 @@ Package pdftex.def Info: hypothesisFormalization/figures/ps9_reorderableMatrixL
 abeled.png  used on input line 41.
 (pdftex.def)             Requested size: 422.77664pt x 139.15007pt.
 
-Package natbib Warning: Citation `PS9' on page 51 undefined on input line 41.
+Package natbib Warning: Citation `PS9' on page 49 undefined on input line 41.
 
 
-Package natbib Warning: Citation `PS9' on page 51 undefined on input line 41.
+Package natbib Warning: Citation `PS9' on page 49 undefined on input line 41.
 
 
-Package natbib Warning: Citation `bertin2011graphics' on page 51 undefined on i
+Package natbib Warning: Citation `bertin2011graphics' on page 49 undefined on i
 nput line 41.
 
 
-Package natbib Warning: Citation `bertin2011graphics' on page 51 undefined on i
+Package natbib Warning: Citation `bertin2011graphics' on page 49 undefined on i
 nput line 43.
 
-[51] [52 <./hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>]
+
+LaTeX Warning: Reference `figure:exampleReorderableMatrix' on page 49 undefined
+ on input line 50.
+
+[49] [50 <./hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>]
 Excluding 'comment' comment.
 
-Package natbib Warning: Citation `mcelreath2020statistical' on page 53 undefine
+Package natbib Warning: Citation `mcelreath2020statistical' on page 51 undefine
 d on input line 123.
 
 Excluding 'comment' comment. Excluding 'comment' comment.
 
-Package natbib Warning: Citation `kerr1998harking' on page 53 undefined on inpu
+Package natbib Warning: Citation `kerr1998harking' on page 51 undefined on inpu
 t line 290.
 
 
-Package natbib Warning: Citation `russell1993cost' on page 53 undefined on inpu
+Package natbib Warning: Citation `russell1993cost' on page 51 undefined on inpu
 t line 322.
 
 
-Package natbib Warning: Citation `grolemund2014cognitive' on page 53 undefined 
+Package natbib Warning: Citation `grolemund2014cognitive' on page 51 undefined 
 on input line 322.
 
 
-Package natbib Warning: Citation `wild1999statisticalThinking' on page 53 undef
+Package natbib Warning: Citation `wild1999statisticalThinking' on page 51 undef
 ined on input line 325.
 
 
-Package natbib Warning: Citation `carver2016guidelines' on page 53 undefined on
+Package natbib Warning: Citation `carver2016guidelines' on page 51 undefined on
  input line 325.
 
 
-Package natbib Warning: Citation `yu2020veridical' on page 53 undefined on inpu
+Package natbib Warning: Citation `yu2020veridical' on page 51 undefined on inpu
 t line 328.
 
 
-Package natbib Warning: Citation `lee2019robust' on page 53 undefined on input 
+Package natbib Warning: Citation `lee2019robust' on page 51 undefined on input 
 line 328.
 
 
-Package natbib Warning: Citation `gelman2013bayesianTextbook' on page 53 undefi
+Package natbib Warning: Citation `gelman2013bayesianTextbook' on page 51 undefi
 ned on input line 328.
 
 
-Package natbib Warning: Citation `betancourt2020bayesianWorkflow' on page 53 un
+Package natbib Warning: Citation `betancourt2020bayesianWorkflow' on page 51 un
 defined on input line 332.
 
 
-Package natbib Warning: Citation `gelman2020bayesianWorkflow' on page 53 undefi
+Package natbib Warning: Citation `gelman2020bayesianWorkflow' on page 51 undefi
 ned on input line 332.
 
 
-Package natbib Warning: Citation `gabry2019visualization' on page 53 undefined 
+Package natbib Warning: Citation `gabry2019visualization' on page 51 undefined 
 on input line 332.
 
-) [53] (./hypothesisFormalization/lab_study.tex
+) [51] (./hypothesisFormalization/lab_study.tex
 
-Package natbib Warning: Citation `feigenspan2012measuring' on page 54 undefined
+Package natbib Warning: Citation `feigenspan2012measuring' on page 52 undefined
  on input line 20.
 
-[54] [55]
+[52] [53]
 
-Package natbib Warning: Citation `pewDataset' on page 56 undefined on input lin
+Package natbib Warning: Citation `pewDataset' on page 54 undefined on input lin
 e 84.
 
-[56]
-<hypothesisFormalization/figures/A11_SS_1.png, id=849, 548.0475pt x 590.205pt>
+[54]
+<hypothesisFormalization/figures/A11_SS_1.png, id=359, 548.0475pt x 590.205pt>
 File: hypothesisFormalization/figures/A11_SS_1.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_1.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_1.png  used on 
 input line 168.
 (pdftex.def)             Requested size: 190.24818pt x 204.88174pt.
-<hypothesisFormalization/figures/A11_SS_2.png, id=850, 564.1075pt x 477.785pt>
+<hypothesisFormalization/figures/A11_SS_2.png, id=360, 564.1075pt x 477.785pt>
 File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_2.png  used on 
 input line 168.
 (pdftex.def)             Requested size: 190.24818pt x 161.13248pt.
- [57] [58 <./hypothesisFormalization/figures/A11_SS_1.png> <./hypothesisFormali
-zation/figures/A11_SS_2.png>] [59] [60]
+ [55] [56 <./hypothesisFormalization/figures/A11_SS_1.png> <./hypothesisFormali
+zation/figures/A11_SS_2.png>]
+
+LaTeX Warning: Reference `figure:labStudyStatSpec' on page 57 undefined on inpu
+t line 187.
+
+[57] [58]
 Overfull \hbox (17.86227pt too wide) in paragraph at lines 309--309
 \T1/cmr/m/it/10.95 num-bers [un-like a physi-cist]. So like, they may ac-tu-all
 y end up with dif-fer-ent re-sults...actually
  []
 
-[61]
+[59]
 
-Package natbib Warning: Citation `kandel2012enterprise' on page 62 undefined on
+Package natbib Warning: Citation `kandel2012enterprise' on page 60 undefined on
  input line 381.
 
-[62]
+[60]
 
-Package natbib Warning: Citation `carver2016guidelines' on page 63 undefined on
+Package natbib Warning: Citation `carver2016guidelines' on page 61 undefined on
  input line 395.
 
-[63]) (./hypothesisFormalization/tools_analysis.tex
+[61]) (./hypothesisFormalization/tools_analysis.tex
 
-Package natbib Warning: Citation `grolemund2019:recommendedR' on page 64 undefi
+Package natbib Warning: Citation `grolemund2019:recommendedR' on page 62 undefi
 ned on input line 25.
 
 
-Package natbib Warning: Citation `bobriakov2017:top15Python' on page 64 undefin
+Package natbib Warning: Citation `bobriakov2017:top15Python' on page 62 undefin
 ed on input line 25.
 
 
-Package natbib Warning: Citation `bobriakov2018:top20Python' on page 64 undefin
+Package natbib Warning: Citation `bobriakov2018:top20Python' on page 62 undefin
 ed on input line 25.
 
 
-Package natbib Warning: Citation `prabhu2019:topPython' on page 64 undefined on
+Package natbib Warning: Citation `prabhu2019:topPython' on page 62 undefined on
  input line 25.
 
-[64]
+
+LaTeX Warning: Reference `tableAnalysisOfTools' on page 62 undefined on input l
+ine 28.
+
+[62]
+
+LaTeX Warning: Reference `tableAnalysisOfTools' on page 63 undefined on input l
+ine 63.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 72--72
 
  []
@@ -2309,30 +2412,30 @@ Overfull \hbox (13.64568pt too wide) in paragraph at lines 72--72
  []
 
 
-Package natbib Warning: Citation `mass' on page 65 undefined on input line 72.
+Package natbib Warning: Citation `mass' on page 63 undefined on input line 72.
 
 
-Package natbib Warning: Citation `burkner2017brms' on page 65 undefined on inpu
+Package natbib Warning: Citation `burkner2017brms' on page 63 undefined on inpu
 t line 72.
 
 
-Package natbib Warning: Citation `brmsRef' on page 65 undefined on input line 7
+Package natbib Warning: Citation `brmsRef' on page 63 undefined on input line 7
 2.
 
 
-Package natbib Warning: Citation `edgeROverview' on page 65 undefined on input 
+Package natbib Warning: Citation `edgeROverview' on page 63 undefined on input 
 line 72.
 
 
-Package natbib Warning: Citation `edgeRUsersGuide' on page 65 undefined on inpu
+Package natbib Warning: Citation `edgeRUsersGuide' on page 63 undefined on inpu
 t line 72.
 
 
-Package natbib Warning: Citation `glmmtmbPaper' on page 65 undefined on input l
+Package natbib Warning: Citation `glmmtmbPaper' on page 63 undefined on input l
 ine 72.
 
 
-Package natbib Warning: Citation `glmmtmbRef' on page 65 undefined on input lin
+Package natbib Warning: Citation `glmmtmbRef' on page 63 undefined on input lin
 e 72.
 
 
@@ -2341,31 +2444,31 @@ Overfull \hbox (8.3016pt too wide) in paragraph at lines 72--72
  []
 
 
-Package natbib Warning: Citation `glmnetRef' on page 65 undefined on input line
+Package natbib Warning: Citation `glmnetRef' on page 63 undefined on input line
  72.
 
 
-Package natbib Warning: Citation `glmnetVignette' on page 65 undefined on input
+Package natbib Warning: Citation `glmnetVignette' on page 63 undefined on input
  line 72.
 
 
-Package natbib Warning: Citation `bates2014fittingLme4' on page 65 undefined on
+Package natbib Warning: Citation `bates2014fittingLme4' on page 63 undefined on
  input line 72.
 
 
-Package natbib Warning: Citation `bates2014lme4Ref' on page 65 undefined on inp
+Package natbib Warning: Citation `bates2014lme4Ref' on page 63 undefined on inp
 ut line 72.
 
 
-Package natbib Warning: Citation `MCMCglmmPaper' on page 65 undefined on input 
+Package natbib Warning: Citation `MCMCglmmPaper' on page 63 undefined on input 
 line 72.
 
 
-Package natbib Warning: Citation `MCMCglmmRef' on page 65 undefined on input li
+Package natbib Warning: Citation `MCMCglmmRef' on page 63 undefined on input li
 ne 72.
 
 
-Package natbib Warning: Citation `nlmeRef' on page 65 undefined on input line 7
+Package natbib Warning: Citation `nlmeRef' on page 63 undefined on input line 7
 2.
 
 
@@ -2374,11 +2477,11 @@ Overfull \hbox (0.59517pt too wide) in paragraph at lines 72--72
  []
 
 
-Package natbib Warning: Citation `randomForestR' on page 65 undefined on input 
+Package natbib Warning: Citation `randomForestR' on page 63 undefined on input 
 line 72.
 
 
-Package natbib Warning: Citation `statsCoreRRef' on page 65 undefined on input 
+Package natbib Warning: Citation `statsCoreRRef' on page 63 undefined on input 
 line 72.
 
 
@@ -2387,19 +2490,19 @@ Overfull \hbox (0.59517pt too wide) in paragraph at lines 72--72
  []
 
 
-Package natbib Warning: Citation `keras' on page 65 undefined on input line 72.
+Package natbib Warning: Citation `keras' on page 63 undefined on input line 72.
 
 
 
-Package natbib Warning: Citation `scikitRef' on page 65 undefined on input line
+Package natbib Warning: Citation `scikitRef' on page 63 undefined on input line
  72.
 
 
-Package natbib Warning: Citation `scikitPaper' on page 65 undefined on input li
+Package natbib Warning: Citation `scikitPaper' on page 63 undefined on input li
 ne 72.
 
 
-Package natbib Warning: Citation `scikitAPIPaper' on page 65 undefined on input
+Package natbib Warning: Citation `scikitAPIPaper' on page 63 undefined on input
  line 72.
 
 
@@ -2408,288 +2511,304 @@ Overfull \hbox (8.3016pt too wide) in paragraph at lines 72--72
  []
 
 
-Package natbib Warning: Citation `scipy' on page 65 undefined on input line 72.
+Package natbib Warning: Citation `scipy' on page 63 undefined on input line 72.
 
 
 
-Package natbib Warning: Citation `scipyStats' on page 65 undefined on input lin
+Package natbib Warning: Citation `scipyStats' on page 63 undefined on input lin
 e 72.
 
 
-Package natbib Warning: Citation `scipyOptimize' on page 65 undefined on input 
+Package natbib Warning: Citation `scipyOptimize' on page 63 undefined on input 
 line 72.
 
 
-Package natbib Warning: Citation `statsmodelsPaper' on page 65 undefined on inp
+Package natbib Warning: Citation `statsmodelsPaper' on page 63 undefined on inp
 ut line 72.
 
 
-Package natbib Warning: Citation `statsmodelsRef' on page 65 undefined on input
+Package natbib Warning: Citation `statsmodelsRef' on page 63 undefined on input
  line 72.
 
 
-Package natbib Warning: Citation `matlab' on page 65 undefined on input line 72
+Package natbib Warning: Citation `matlab' on page 63 undefined on input line 72
 .
 
 
-Package natbib Warning: Citation `matlabStats' on page 65 undefined on input li
+Package natbib Warning: Citation `matlabStats' on page 63 undefined on input li
 ne 72.
 
 
-Package natbib Warning: Citation `spss' on page 65 undefined on input line 72.
+Package natbib Warning: Citation `spss' on page 63 undefined on input line 72.
 
 
-Package natbib Warning: Citation `stata' on page 65 undefined on input line 72.
+Package natbib Warning: Citation `stata' on page 63 undefined on input line 72.
 
 
 
-Package natbib Warning: Citation `stataRef' on page 65 undefined on input line 
+Package natbib Warning: Citation `stataRef' on page 63 undefined on input line 
 72.
 
 
-Package natbib Warning: Citation `stataLang' on page 65 undefined on input line
+Package natbib Warning: Citation `stataLang' on page 63 undefined on input line
  72.
 
 
-Package natbib Warning: Citation `graphPadUserGuide' on page 65 undefined on in
+Package natbib Warning: Citation `graphPadUserGuide' on page 63 undefined on in
 put line 72.
 
 
-Package natbib Warning: Citation `jasp' on page 65 undefined on input line 72.
+Package natbib Warning: Citation `jasp' on page 63 undefined on input line 72.
 
 
-Package natbib Warning: Citation `jmp' on page 65 undefined on input line 72.
+Package natbib Warning: Citation `jmp' on page 63 undefined on input line 72.
 
 
-Package natbib Warning: Citation `jones2011jmp' on page 65 undefined on input l
+Package natbib Warning: Citation `jones2011jmp' on page 63 undefined on input l
 ine 72.
 
 
-LaTeX Warning: Reference `figure:overview' on page 65 undefined on input line 7
+LaTeX Warning: Reference `figure:overview' on page 63 undefined on input line 7
 4.
 
 
-LaTeX Warning: Reference `figure:overview' on page 65 undefined on input line 7
+LaTeX Warning: Reference `figure:overview' on page 63 undefined on input line 7
 5.
 
-[65] [66]
+[63] [64]
 
-Package natbib Warning: Citation `tidymodels' on page 67 undefined on input lin
+Package natbib Warning: Citation `tidymodels' on page 65 undefined on input lin
 e 118.
 
 
-Package natbib Warning: Citation `tidyverse' on page 67 undefined on input line
+Package natbib Warning: Citation `tidyverse' on page 65 undefined on input line
  118.
 
 
-Package natbib Warning: Citation `wickham2014tidy' on page 67 undefined on inpu
+Package natbib Warning: Citation `wickham2014tidy' on page 65 undefined on inpu
 t line 121.
 
-[67] [68]
+[65] [66]
 
-Package natbib Warning: Citation `sumsofsquaresBlog' on page 69 undefined on in
+Package natbib Warning: Citation `sumsofsquaresBlog' on page 67 undefined on in
 put line 224.
 
-Excluding 'comment' comment. [69]
+Excluding 'comment' comment. [67]
 
-Package natbib Warning: Citation `norman1986cognitive' on page 70 undefined on 
+Package natbib Warning: Citation `norman1986cognitive' on page 68 undefined on 
 input line 283.
 
 Excluding 'comment' comment.) (./hypothesisFormalization/implications.tex
 
-Package natbib Warning: Citation `parsnip' on page 70 undefined on input line 3
+Package natbib Warning: Citation `parsnip' on page 68 undefined on input line 3
 2.
 
-[70]
+[68]
 
-Package natbib Warning: Citation `pyro' on page 71 undefined on input line 38.
-
-
-Package natbib Warning: Citation `stan' on page 71 undefined on input line 38.
+Package natbib Warning: Citation `pyro' on page 69 undefined on input line 38.
 
 
-Package natbib Warning: Citation `bugs' on page 71 undefined on input line 39.
+Package natbib Warning: Citation `stan' on page 69 undefined on input line 38.
 
 
-Package natbib Warning: Citation `pymc3' on page 71 undefined on input line 39.
+Package natbib Warning: Citation `bugs' on page 69 undefined on input line 39.
+
+
+Package natbib Warning: Citation `pymc3' on page 69 undefined on input line 39.
 
 
 
-Package natbib Warning: Citation `verou2018extending' on page 71 undefined on i
+Package natbib Warning: Citation `verou2018extending' on page 69 undefined on i
 nput line 62.
 
 
-Package natbib Warning: Citation `jun2019tea' on page 71 undefined on input lin
+Package natbib Warning: Citation `jun2019tea' on page 69 undefined on input lin
 e 84.
 
 
 Underfull \vbox (badness 7595) has occurred while \output is active []
 
- [71]
+ [69]
 
-Package natbib Warning: Citation `eiselmayer2019touchstone2' on page 72 undefin
+Package natbib Warning: Citation `eiselmayer2019touchstone2' on page 70 undefin
 ed on input line 100.
 
 
-Package natbib Warning: Citation `wacharamanotham2015statsplorer' on page 72 un
+Package natbib Warning: Citation `wacharamanotham2015statsplorer' on page 70 un
 defined on input line 101.
 
-[72]
+[70]
 
-Package natbib Warning: Citation `hempel2019sketch' on page 73 undefined on inp
+Package natbib Warning: Citation `hempel2019sketch' on page 71 undefined on inp
 ut line 143.
 
 Excluding 'comment' comment.) (./hypothesisFormalization/discussion.tex
 
-Package natbib Warning: Citation `klahr1988dual' on page 73 undefined on input 
+Package natbib Warning: Citation `klahr1988dual' on page 71 undefined on input 
 line 12.
 
 
-Package natbib Warning: Citation `schunn1995FourSpace' on page 73 undefined on 
+Package natbib Warning: Citation `schunn1995FourSpace' on page 71 undefined on 
 input line 12.
 
 
-Package natbib Warning: Citation `schunn1995FourSpace' on page 73 undefined on 
+Package natbib Warning: Citation `schunn1995FourSpace' on page 71 undefined on 
 input line 21.
 
 
-Package natbib Warning: Citation `newell1972humanProblemSolving' on page 73 und
+Package natbib Warning: Citation `newell1972humanProblemSolving' on page 71 und
 efined on input line 30.
 
-[73]
+[71]
 
-Package natbib Warning: Citation `holland1989induction' on page 74 undefined on
+Package natbib Warning: Citation `holland1989induction' on page 72 undefined on
  input line 43.
 
-[74])
+[72])
 
-LaTeX Warning: Reference `fig:hypoFormOverview' on page 75 undefined on input l
+LaTeX Warning: Reference `fig:hypoFormOverview' on page 73 undefined on input l
 ine 144.
 
-) [75] [76]
+) [73] [74]
 Chapter 5.
-(./08-tisane.tex [77
+(./08-tisane.tex
+
+LaTeX Warning: Reference `sec:toolsAnalysis' on page 75 undefined on input line
+ 37.
+
+[75
 
 
 ]
 
-Package natbib Warning: Citation `mcelreath2020statistical' on page 78 undefine
+Package natbib Warning: Citation `mcelreath2020statistical' on page 76 undefine
 d on input line 43.
 
 
-Package natbib Warning: Citation `tisaneOnPip' on page 78 undefined on input li
+LaTeX Warning: Reference `sec:tisane' on page 76 undefined on input line 67.
+
+
+Package natbib Warning: Citation `tisaneOnPip' on page 76 undefined on input li
 ne 68.
 
 
-Package natbib Warning: Citation `rTisane link' on page 78 undefined on input l
+LaTeX Warning: Reference `sec:exploratoryStudy' on page 76 undefined on input l
+ine 73.
+
+
+Package natbib Warning: Citation `rTisane link' on page 76 undefined on input l
 ine 74.
 
-[78] (./tisane/related_work.tex
+[76] (./tisane/related_work.tex
 
-LaTeX Warning: Reference `todolbl:3' on page 79 undefined on input line 1.
+LaTeX Warning: Reference `todolbl:3' on page 77 undefined on input line 1.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 2.
 
 
-Package natbib Warning: Citation `lo2015transform' on page 79 undefined on inpu
+Package natbib Warning: Citation `lo2015transform' on page 77 undefined on inpu
 t line 11.
 
 
-Package natbib Warning: Citation `cohen2013applied' on page 79 undefined on inp
+Package natbib Warning: Citation `cohen2013applied' on page 77 undefined on inp
 ut line 11.
 
 
-Package natbib Warning: Citation `kreft1998introducing' on page 79 undefined on
+Package natbib Warning: Citation `kreft1998introducing' on page 77 undefined on
  input line 12.
 
 
-Package natbib Warning: Citation `bolker2009generalized' on page 79 undefined o
+Package natbib Warning: Citation `bolker2009generalized' on page 77 undefined o
 n input line 13.
 
 
-Package natbib Warning: Citation `barr2013random' on page 79 undefined on input
+Package natbib Warning: Citation `barr2013random' on page 77 undefined on input
  line 13.
 
 
-Package natbib Warning: Citation `barr2013random' on page 79 undefined on input
+Package natbib Warning: Citation `barr2013random' on page 77 undefined on input
  line 15.
 
 
-Package natbib Warning: Citation `cohen2013applied' on page 79 undefined on inp
+Package natbib Warning: Citation `cohen2013applied' on page 77 undefined on inp
 ut line 15.
 
 
-Package natbib Warning: Citation `gelmanFixedRandom' on page 79 undefined on in
+LaTeX Warning: Reference `sec:data-measurement-relationships' on page 77 undefi
+ned on input line 32.
+
+
+Package natbib Warning: Citation `gelmanFixedRandom' on page 77 undefined on in
 put line 37.
 
 
-Package natbib Warning: Citation `kreft1998introducing' on page 79 undefined on
+Package natbib Warning: Citation `kreft1998introducing' on page 77 undefined on
  input line 37.
 
-[79]
+[77]
 
-Package natbib Warning: Citation `spirtes1996using' on page 80 undefined on inp
+Package natbib Warning: Citation `spirtes1996using' on page 78 undefined on inp
 ut line 64.
 
 
-Package natbib Warning: Citation `spirtes1994conditional' on page 80 undefined 
+Package natbib Warning: Citation `spirtes1994conditional' on page 78 undefined 
 on input line 64.
 
 
 Package natbib Warning: Citation `vanderweele2019modifiedDisjunctiveCriterion' 
-on page 80 undefined on input line 66.
+on page 78 undefined on input line 66.
 
 
 Package natbib Warning: Citation `vanderweele2019modifiedDisjunctiveCriterion' 
-on page 80 undefined on input line 74.
+on page 78 undefined on input line 74.
 
 
-Package natbib Warning: Citation `rubin2004teaching' on page 80 undefined on in
+Package natbib Warning: Citation `rubin2004teaching' on page 78 undefined on in
 put line 84.
 
 
-Package natbib Warning: Citation `pearl1995causal' on page 80 undefined on inpu
+Package natbib Warning: Citation `pearl1995causal' on page 78 undefined on inpu
 t line 84.
 
 
-Package natbib Warning: Citation `pearl1995doCalculus' on page 80 undefined on 
+Package natbib Warning: Citation `pearl1995doCalculus' on page 78 undefined on 
 input line 87.
 
 
-Package natbib Warning: Citation `greenland1999causal' on page 80 undefined on 
+Package natbib Warning: Citation `greenland1999causal' on page 78 undefined on 
 input line 87.
 
 
-Package natbib Warning: Citation `spirtes1994conditional' on page 80 undefined 
+Package natbib Warning: Citation `spirtes1994conditional' on page 78 undefined 
 on input line 87.
 
 
-Package natbib Warning: Citation `spirtes1996using' on page 80 undefined on inp
+Package natbib Warning: Citation `spirtes1996using' on page 78 undefined on inp
 ut line 87.
 
 
-Package natbib Warning: Citation `pearl1995causal' on page 80 undefined on inpu
+Package natbib Warning: Citation `pearl1995causal' on page 78 undefined on inpu
 t line 89.
 
 
-Package natbib Warning: Citation `pearl2000models' on page 80 undefined on inpu
+Package natbib Warning: Citation `pearl2000models' on page 78 undefined on inpu
 t line 89.
 
 
-Package natbib Warning: Citation `suzuki2020causal' on page 80 undefined on inp
+Package natbib Warning: Citation `suzuki2020causal' on page 78 undefined on inp
 ut line 92.
 
 
-Package natbib Warning: Citation `suzuki2018mechanisms' on page 80 undefined on
+Package natbib Warning: Citation `suzuki2018mechanisms' on page 78 undefined on
  input line 93.
 
 
-Package natbib Warning: Citation `velentgas2013developing' on page 80 undefined
+Package natbib Warning: Citation `velentgas2013developing' on page 78 undefined
  on input line 94.
 
-) (./tisane/system.tex [80]
+) (./tisane/system.tex [78]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 2
 5.
 
@@ -2697,54 +2816,82 @@ LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 2
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
 
-LaTeX Warning: Reference `fig:figureGraphIRExample' on page 81 undefined on inp
+LaTeX Warning: Reference `fig:figureSDSLToGraphIR' on page 79 undefined on inpu
+t line 49.
+
+
+LaTeX Warning: Reference `fig:figureGraphIRExample' on page 79 undefined on inp
 ut line 49.
 
-[81]
+[79]
 
-Package natbib Warning: Citation `suzuki2020causal' on page 82 undefined on inp
+Package natbib Warning: Citation `suzuki2020causal' on page 80 undefined on inp
 ut line 91.
 
 
-Package natbib Warning: Citation `suzuki2018mechanisms' on page 82 undefined on
+Package natbib Warning: Citation `suzuki2018mechanisms' on page 80 undefined on
  input line 91.
 
 
-Package natbib Warning: Citation `velentgas2013developing' on page 82 undefined
+Package natbib Warning: Citation `velentgas2013developing' on page 80 undefined
  on input line 91.
 
 
-Package natbib Warning: Citation `jun2021hypothesisFormalization' on page 82 un
+Package natbib Warning: Citation `jun2021hypothesisFormalization' on page 80 un
 defined on input line 94.
 
 
-Package natbib Warning: Citation `hoyle1995SEM' on page 82 undefined on input l
+Package natbib Warning: Citation `hoyle1995SEM' on page 80 undefined on input l
 ine 107.
 
-[82]
 
-Package natbib Warning: Citation `gelmanHill2006regression' on page 83 undefine
+LaTeX Warning: Reference `fig:figureSDSLToGraphIR' on page 80 undefined on inpu
+t line 111.
+
+
+LaTeX Warning: Reference `fig:figureSDSLToGraphIR' on page 80 undefined on inpu
+t line 119.
+
+
+LaTeX Warning: Reference `fig:figureSDSLToGraphIR' on page 80 undefined on inpu
+t line 123.
+
+[80]
+
+Package natbib Warning: Citation `gelmanHill2006regression' on page 81 undefine
 d on input line 153.
 
 
-Package natbib Warning: Citation `kreft1998introducing' on page 83 undefined on
+Package natbib Warning: Citation `kreft1998introducing' on page 81 undefined on
  input line 153.
 
 
-Package natbib Warning: Citation `cohen1988statistical' on page 83 undefined on
+Package natbib Warning: Citation `cohen1988statistical' on page 81 undefined on
  input line 153.
 
 
-Package natbib Warning: Citation `gelmanHill2006regression' on page 83 undefine
+Package natbib Warning: Citation `gelmanHill2006regression' on page 81 undefine
 d on input line 165.
 
-[83]
+[81]
 
-Package natbib Warning: Citation `gelmanHill2006regression' on page 84 undefine
+LaTeX Warning: Reference `sec:interaction_model' on page 82 undefined on input 
+line 181.
+
+
+LaTeX Warning: Reference `fig:figureSDSLToGraphIR' on page 82 undefined on inpu
+t line 192.
+
+
+LaTeX Warning: Reference `fig:figureSDSLToGraphIR' on page 82 undefined on inpu
+t line 198.
+
+
+Package natbib Warning: Citation `gelmanHill2006regression' on page 82 undefine
 d on input line 203.
 
 
-Package natbib Warning: Citation `clark1973language' on page 84 undefined on in
+Package natbib Warning: Citation `clark1973language' on page 82 undefined on in
 put line 210.
 
 
@@ -2760,13 +2907,29 @@ evice\TS1/pcr/m/n/10.95 '\T1/pcr/m/n/10.95 , number_of_instances=ts.Exactly(2).
 per(condition))\T1/cmr/m/n/10.95 .
  []
 
-[84]
+[82]
 Underfull \vbox (badness 3612) has occurred while \output is active []
 
- [85]
+ [83]
+
+LaTeX Warning: Reference `sec:prelim-checks' on page 84 undefined on input line
+ 292.
+
 
 Package natbib Warning: Citation `vanderweele2019modifiedDisjunctiveCriterion' 
-on page 86 undefined on input line 300.
+on page 84 undefined on input line 300.
+
+
+LaTeX Warning: Reference `fig:figureCandidateMainEffects' on page 84 undefined 
+on input line 304.
+
+
+LaTeX Warning: Reference `fig:figureCandidateMainEffects' on page 84 undefined 
+on input line 312.
+
+
+LaTeX Warning: Reference `fig:figureCandidateMainEffects' on page 84 undefined 
+on input line 316.
 
 
 Overfull \hbox (7.22116pt too wide) in paragraph at lines 322--322
@@ -2783,131 +2946,136 @@ Overfull \hbox (7.22116pt too wide) in paragraph at lines 322--322
  []\T1/cmr/m/n/9 CME 
  []
 
-[86]
+[84]
 
-Package natbib Warning: Citation `barr2013random' on page 87 undefined on input
+LaTeX Warning: Reference `sec:data-measurement-relationships' on page 85 undefi
+ned on input line 363.
+
+
+Package natbib Warning: Citation `barr2013random' on page 85 undefined on input
  line 366.
 
 
-Package natbib Warning: Citation `barr2013randomUpdated' on page 87 undefined o
+Package natbib Warning: Citation `barr2013randomUpdated' on page 85 undefined o
 n input line 366.
 
 
-Package natbib Warning: Citation `barr2013randomUpdated' on page 87 undefined o
+Package natbib Warning: Citation `barr2013randomUpdated' on page 85 undefined o
 n input line 378.
 
-[87]
 
-Package natbib Warning: Citation `nelder1972generalized' on page 88 undefined o
+LaTeX Warning: Reference `sec:disambiguation' on page 85 undefined on input lin
+e 380.
+
+[85]
+
+Package natbib Warning: Citation `nelder1972generalized' on page 86 undefined o
 n input line 396.
 
 
-Package natbib Warning: Citation `statsmodelsPaper' on page 88 undefined on inp
+Package natbib Warning: Citation `statsmodelsPaper' on page 86 undefined on inp
 ut line 403.
 
 
-Package natbib Warning: Citation `jolly2018pymer4' on page 88 undefined on inpu
+Package natbib Warning: Citation `jolly2018pymer4' on page 86 undefined on inpu
 t line 404.
 
-<tisane/figures/usage_scenario_gui_05012022.png, id=1039, 1343.0175pt x 1002.74
-625pt>
+<tisane/figures/usage_scenario_gui_05012022.png, id=551, 1343.0175pt x 1002.746
+25pt>
 File: tisane/figures/usage_scenario_gui_05012022.png Graphic file (type png)
 <use tisane/figures/usage_scenario_gui_05012022.png>
 Package pdftex.def Info: tisane/figures/usage_scenario_gui_05012022.png  used o
 n input line 409.
 (pdftex.def)             Requested size: 352.31625pt x 263.04887pt.
 
-Package natbib Warning: Citation `plotlyDash' on page 88 undefined on input lin
+Package natbib Warning: Citation `plotlyDash' on page 86 undefined on input lin
 e 417.
 
-[88] [89 <./tisane/figures/usage_scenario_gui_05012022.png>]
+[86] [87 <./tisane/figures/usage_scenario_gui_05012022.png>]
 
-Package natbib Warning: Citation `statsmodelsRef' on page 90 undefined on input
+LaTeX Warning: Reference `sec:family_link_functions' on page 88 undefined on in
+put line 458.
+
+
+Package natbib Warning: Citation `statsmodelsRef' on page 88 undefined on input
  line 465.
 
 
-Package natbib Warning: Citation `jolly2018pymer4' on page 90 undefined on inpu
+Package natbib Warning: Citation `jolly2018pymer4' on page 88 undefined on inpu
 t line 466.
 
 ) (./tisane/case_studies.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90]
+ [88]
 
-Package natbib Warning: Citation `mplus' on page 91 undefined on input line 44.
+Package natbib Warning: Citation `mplus' on page 89 undefined on input line 44.
 
 
 
-Package natbib Warning: Citation `spss' on page 91 undefined on input line 44.
+Package natbib Warning: Citation `spss' on page 89 undefined on input line 44.
 
-[91] Excluding 'comment' comment.
+[89] Excluding 'comment' comment.
 
-Package natbib Warning: Citation `norman2013doet' on page 92 undefined on input
+Package natbib Warning: Citation `norman2013doet' on page 90 undefined on input
  line 93.
 
 
-Package natbib Warning: Citation `suzuki2020causal' on page 92 undefined on inp
+Package natbib Warning: Citation `suzuki2020causal' on page 90 undefined on inp
 ut line 151.
 
 
-Package natbib Warning: Citation `suzuki2018mechanisms' on page 92 undefined on
+Package natbib Warning: Citation `suzuki2018mechanisms' on page 90 undefined on
  input line 151.
 
 
-Package natbib Warning: Citation `velentgas2013developing' on page 92 undefined
+Package natbib Warning: Citation `velentgas2013developing' on page 90 undefined
  on input line 151.
 
-[92] Excluding 'comment' comment. [93] [94])
+[90] Excluding 'comment' comment. [91]
 
-Package natbib Warning: Citation `jun2022tisane' on page 95 undefined on input 
+LaTeX Warning: Reference `sec:disambiguation' on page 92 undefined on input lin
+e 291.
+
+[92])
+
+Package natbib Warning: Citation `jun2022tisane' on page 93 undefined on input 
 line 113.
 
 
 Package natbib Warning: Citation `vanderweele2019modifiedDisjunctiveCriterion' 
-on page 95 undefined on input line 121.
+on page 93 undefined on input line 121.
 
-(./tisane/exploratory.tex) (./tisane/rTisane.tex [95]) (./tisane/lab_study.tex)
-) [96]
+(./tisane/exploratory.tex) (./tisane/rTisane.tex [93]) (./tisane/lab_study.tex)
+) [94]
 Chapter 6.
-(./10-conclusion.tex Excluding 'comment' comment. [97
+(./10-conclusion.tex
+
+LaTeX Warning: Reference `chapter:tea' on page 95 undefined on input line 10.
 
 
-] [98]
+LaTeX Warning: Reference `chapter:tisane' on page 95 undefined on input line 11
+.
 
-Package natbib Warning: Citation `rock' on page 99 undefined on input line 174.
+Excluding 'comment' comment. [95
 
 
-[99]
-! You can't use `macro parameter character #' in vertical mode.
-l.196 #
-       8  : Summarize future directions
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.213 #
-       3 - 1 paragraph (5 sentences)
-? 
-[100]
-! You can't use `macro parameter character #' in vertical mode.
-l.220 #
-        4 -
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.224 #
-        5 -
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.233 #
-        6 -
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.245 #
-       7 - How can this approach improve science?
-? 
-! You can't use `macro parameter character #' in vertical mode.
-l.253 #
-       9
-? 
-) (./dissertation.bbl [101] [102
+]
+
+LaTeX Warning: Reference `sec:exploratoryStudy' on page 96 undefined on input l
+ine 76.
+
+[96]
+
+Package natbib Warning: Citation `rock' on page 97 undefined on input line 174.
+
+
+[97] Excluding 'comment' comment. [98] [99]
+
+Package natbib Warning: Citation `rock' on page 100 undefined on input line 320
+.
+
+[100]) (./dissertation.bbl [101] [102
 
 ]
 
@@ -2938,7 +3106,7 @@ Package natbib Warning: There were undefined citations.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `dissertation.out' has changed.
@@ -2946,14 +3114,14 @@ Package rerunfilecheck Warning: File `dissertation.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `dissertation.out':
-(rerunfilecheck)             Before: F7D1610049ED692572F6B044ABA04806;20920
-(rerunfilecheck)             After:  53FEA76C0D43CEB3367E3DC8B09F7826;21518.
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  9DFD223A52B17C2C6F77E43DAA11D59C;21518.
  ) 
 Here is how much of TeX's memory you used:
- 40021 strings out of 478994
- 899035 string characters out of 5858184
- 1630997 words of memory out of 5000000
- 56383 multiletter control sequences out of 15000+600000
+ 39918 strings out of 478994
+ 897453 string characters out of 5858184
+ 1622750 words of memory out of 5000000
+ 56295 multiletter control sequences out of 15000+600000
  435256 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3502b,1778s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2999,21 +3167,6 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{subsection.6.3.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.3.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.3.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.6.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
 usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texli
 ve/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texliv
@@ -3045,10 +3198,10 @@ uper/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-sup
 er/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super
 /sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8
 a.pfb>
-Output written on dissertation.pdf (105 pages, 9170691 bytes).
+Output written on dissertation.pdf (105 pages, 9156150 bytes).
 PDF statistics:
- 1294 PDF objects out of 1440 (max. 8388607)
- 1133 compressed objects within 12 object streams
- 277 named destinations out of 1000 (max. 500000)
- 758 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 829 PDF objects out of 1000 (max. 8388607)
+ 674 compressed objects within 7 object streams
+ 272 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 

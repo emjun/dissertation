@@ -193,15 +193,32 @@ But how do people express their domain knowledge, make the process meaningful
 Mention LLMs as a technology to use here?
 
 \section{Limitations and Future work}
-
 Some themes that emerge: 
 - Support for after statistical modeling -- what do these mean? (interpretation) --> What to do next? / what would help me answer my research question? (modeling-testing) --> 
 - How to capture and use these consequences into next phases of the lifecycle? 
 - How could all these improve science and make data analysis more robust? 
 
 
-#8  : Summarize future directions
+% #8  : Summarize future directions
 
+% This dissertation presents two systems, Tea and Tisane, that demonstrate how
+% statistical software can guarantee statistical analysis validity by design. They
+% provide programming abstractions focused on gathering implicit conceptual knowledge. 
+
+By addressing the important trend of the increased diversity of end-users
+authoring statistical analyses and the importance of correct analyses, this
+dissertation opens up statistical analysis authoring as a domain for further
+research. 
+
+This dissertation dissects statistical data analysis from an activity taken for
+granted into a process fraught with problems for end-users that have high impact
+consequences. Improving statistical analysis authoring opens up questions in
+addressing core issues in statistics, end-user software engineering, programming
+language design, which we hope will be additional directions other pursue. Here
+we elaborate one some of the limitations of this work and opportunities for
+future research in each of these disciplines. 
+
+\begin{comment}
 As demonstrations of how better programming abstractions and automated reasoning
 can enable statistical non-experts to author analyses and improve the quality of
 statistical analysis, Tea and Tisane...
@@ -215,6 +232,7 @@ Push further in directions this work orients us
 - more support for understanding results, especially when some questions may not be answerable with the data/how it was collected
 - knowing how robust the results are --> why not just multiverse everything?
 **how do we resolve and come out from under the tyranny of false positive rates fear
+\end{comment}
 
 \subsection{Connecting modeling with testing} 
 % #3 - 1 paragraph (5 sentences)
@@ -288,12 +306,53 @@ meaningful ways.  -- some research questions to ask/address
 A fertile area to try this integration is in connecting statistical analysis with visual analysis
 
 \subsection{Improving science}
-#7 - How can this approach improve science? 
+% #7 - How can this approach improve science? 
+The systems in this dissertation show a way to author valid statistical analyses
+by design. Tea incorporates formal methods to statistical test selection, and
+Tisane incorporates causal reasoning into model authoring. These efforts are in
+contrast to existing systems that place the burden of validity on end-users.
+These systems are a step from threats to validity to guarantees about validity. 
 
-Reproducibility -- something we wanted to touch on Tea and Tisane
+% Incorporate data-driven approaches 
+To truly improve the quality and reliability of science, a more end-to-end
+approach, even before statistical authoring, is important to design for.
+Recently, researchers have used Tea to support study planning and
+pre-registration~\cite{rock}. However, support for identifying interesting
+research questions and hypotheses in addition to planning experiments and data
+collection methods, would help. This is possible given that we can treat these
+reasoning engines to reason in multiple directions, from hypotheses to
+statistical models or statistical models to hypotheses, research questions, and
+assumptions about data. Could even incorporate some data insights (e.g.,
+structure learning). 
+Tea and Tisane focus on a top-down authoring approach where analysts start with
+a research question and hypothesis. However, as we saw in hypothesis
+formalization, analysts may refine their hypotheses in response to statistical
+results. Therefore, incorporating both data-driven and research question-driven
+approaches to model authoring and refinement will be an important next step. To
+do so, need to support interpretation and refinement. 
+
+One of the precautions we designed Tisane around was preventing
+cherry-picking and p-hacking by involving analysts in the statistical model
+formulation process.
+Tisane supports one conceptual model to a statistical model. However, to assess
+robustness of an effect, across multiple possible conceptual models or where
+there is ambiguity, analysts might need to consider multiple possible conceptual
+models. We did this by having analysts pick one final model, but there could be
+ways to further embrace the uncertainty in conceptual models and statistical
+model formulations by authoring a multiverse of statistical models to measure
+the robustness of statistical results. By reporting out the sensitivity of a
+result, could address cherry-picking concerns. 
+
+
+An interesting observation we made in our lab study to develop hypothesis
+formalization was an insistence on being ``data-driven,'' which meant refusing
+to state implicit assumptions explicitly.
+
 
 Formal methods for science
 E.g., github for scientific checking 
+
+% Reproducibility -- something we wanted to touch on Tea and Tisane
 
 % In other words, what would it look like to capture and track domain knowledge
 % throughout in an ecosystem of software tools that facilitated expression and
@@ -305,17 +364,26 @@ E.g., github for scientific checking
 
 % \subsection{The long view: Ecosystem of software tools and computational reasoning throughout the data lifecycle}
 
+
 \subsection{Methods for human-centered programming language design}
-# 6 - 
+% # 6 - 
 From Tea to Tisane, we changed how we designed DSL primitives. To identify
 primitives in Tea's DSL, we surveyed two introductory quantitative methods
 courses in human-computer interaction. For Tisane, we started by iterating on
 primitives that made sense to us, as designers, and would be amenable to formal
-reasoning. However, between the first and second releases, we sought START HERE
+reasoning. However, between the first and second releases, we sought to further
+incorporate what analysts want to express to increase the likelihood of them
+using the system correctly. In this process, we sought to strike the right
+balance between designer and end-user participatory design. While general
+approaches for ``end-user programming'' have been developed, such as in
+PLIERS~\cite{}, there are not yet methods for how to adapt DSLs over time.
+Recent work on Stitch~\cite{} finds ways to improve DSLs through data on API
+usage. This is a promising direction, and earlier ways to prototype APIs with
+end-users with a similar flavor could be helpful. 
 
-Finding the right balance between designer and end-user intervention/design 
+Methods for specializing DSLs are also promising/important.
 
 need for human-centered methods to design DSLs
 
 \section{Closing Remarks}
-#9 
+\ej{Fill in after intro} 
