@@ -54,6 +54,19 @@ groundwork to connect Tea and Tisane's programming and interaction models
 (better design statistical computing tools accurately reflect statistical
 taxonomies).
 
+We output models, not causal measures/estimates because people might want to revise, iterate on. They also expect a model, so Tisane is just a step towards moving people towards more sophisticaed estimates? 
+
+Recent work in the database community helps researchers answer causal questions
+about multilevel, or hierarchical, data~\cite{salimi2020causal, kayali2020demonstration}.
+% \footnote{Generalized linear models with mixed effects are appropriate in these settings as well.},
+CaRL~\cite{salimi2020causal} provides a domain-specific language to express
+causal relationships between variables and a GUI to show researchers %the
+results. \tea and \tisane leverage a similar insight that researchers have domain
+knowledge that a system can use to infer statistical methods. Whereas CaRL is
+focused on answering specific queries about average causal effect, the systems
+in this dissertation are designed to address a range of non-causal questions as well.
+
+
 \section{Background and Related work}
 % Tisane assumes that analysts have chosen to use Tisane due to their knowledge of the linear relationship between variables and have removed outliers from data although Tisane does not require data. \jh{Confusing, so removing for now.}
 \subsection{Causal Analysis}
