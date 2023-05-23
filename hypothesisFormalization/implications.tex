@@ -1,4 +1,4 @@
-\section{Discussion: Design Implications for Statistical Analysis Software} \label{sec:implications}
+\section{Design Implications for Statistical Analysis Software} \label{sec:implications}
 % \figureImplications
 Our findings suggest three opportunities for tools to facilitate the dual-search
 process and align conceptual hypotheses with statistical model implementations
@@ -10,8 +10,8 @@ at various stages of hypothesis formalization.
 % Klahr~\cite{schunn1996BeyondTwoSpace} note, the process of realizing these
 % implications from the model may refine and revise our understanding of the
 % spaces involved in hypothesis formalization.
-
-\subsection{Meta-libraries: Connecting Model Implementations with Mathematical Equations}
+\addcontentsline{toc}{subsection}{Connect Model Implementations with Mathematical Equations}
+\subsection*{Meta-libraries: Connecting Model Implementations with Mathematical Equations}
 
 % Additionally, even for tools that rely on symbolic
 % formulae, how tool interfaces (formulae and graphical), model implementation,
@@ -25,10 +25,10 @@ at various stages of hypothesis formalization.
 
 Specialized tools, although necessary for sophisticated statistical computation,
 require a steep learning curve. \textit{Meta-libraries} could allow analysts to
-specify their models in high-level code; execute the models using the appropriate
+specify their statistical models in high-level code; execute the statistical models using the appropriate
 libraries in their knowledge bases; and then output library information,
 functions invoked, any computational settings used, the mathematical model that
-is approximated, and the model results. Libraries such as
+is approximated, and the statistical results. Libraries such as
 Parsnip~\cite{parsnip} have begun to provide a unified higher-level interface
 that allows analysts to specify a statistical model using more ``generically''
 named functions, parameter names, and symbolic formulae (when necessary).
@@ -53,7 +53,7 @@ knowledge. Third, meta-libraries that show the mathematical representations
 alongside underlying libraries' function calls could show syntactical variation
 in underlying libraries, indirectly teaching analysts how they might express
 their statistical models in other tools, familiarizing analysts with new tools
-and models, and even mend fragmented views of identical models (e.g., ANOVA and
+and statistical models, and even mend fragmented views of identical statistical approaches (e.g., ANOVA and
 regression). 
 
 Future meta-libraries could consider providing a higher-level, declarative
@@ -65,15 +65,16 @@ understood. An additional challenge would lie in maintaining support for various
 libraries executed under the hood, especially as libraries change their APIs,
 which would strengthen the case for meta-libraries. Although meta-libraries
 would not solve the problems involved in understanding how computational
-settings affect model execution or conceptual hypotheses, they could
+settings affect statistical model execution or conceptual hypotheses, they could
 nevertheless provide scaffolding for analysts to more closely examine specific
-libraries, especially if multiple libraries execute the same model but do not
+libraries, especially if multiple libraries execute the same statistical model but do not
 all encounter the same computational bottlenecks. 
 
-\subsection{High-level Libraries: Expressing Conceptual Hypotheses to Bootstrap Model Implementations}
+\addcontentsline{toc}{subsection}{Express Conceptual Hypotheses to Bootstrap Statistical Model Implementation}
+\subsection*{High-level Libraries: Expressing Conceptual Hypotheses to Bootstrap Statistical Model Implementations}
 
 The absence of tools for directly expressing conceptual hypotheses may be an
-explanation for why data workers in the lab study dove into model
+explanation for why data workers in the lab study dove into statistical model
 implementation details. High-level libraries could allow analysts to specify data
 collection design (e.g., independent variables, dependent variables, controlled
 effects, possible random effects); variable data types; expected or known
@@ -110,7 +111,8 @@ Statsplorer~\cite{wacharamanotham2015statsplorer} for statistical analysis.
 % deducing appropriate statistical models and representing a robust taxonomy of
 % statistical approaches computationally. 
 
-\subsection{Bidirectional Conceptual Modeling: Co-authoring Conceptual Models and Model Implementations}
+\addcontentsline{toc}{subsection}{Co-author Conceptual and Statistical Models}
+\subsection*{Bidirectional Conceptual Modeling: Co-authoring Conceptual Models and Statistical Model Implementations}
 Conceptual, or causal, modeling was difficult for the analysts in the lab study.
 Some even resisted conceptual modeling for fear of biasing their analyses. Yet,
 implicit conceptual models were evident in the hypotheses analysts chose to

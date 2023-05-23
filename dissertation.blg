@@ -1,21 +1,21 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
-White space in argument---line 330 of file dissertation.aux
+White space in argument---line 323 of file dissertation.aux
  : \citation{rTisane
  :                   link}
 I'm skipping whatever remains of this command
 The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 12650 items from 5000.
+Reallocated field_info (elt_size=4) to 12695 items from 5000.
 Database file #1: references.bib
 Warning--string name "january" is undefined
---line 1641 of file references.bib
+--line 1653 of file references.bib
 Warning--string name "april" is undefined
---line 1649 of file references.bib
+--line 1661 of file references.bib
 Warning--string name "march" is undefined
---line 1657 of file references.bib
+--line 1669 of file references.bib
 Warning--I didn't find a database entry for "PS9"
 Warning--I didn't find a database entry for "jun2022tisane"
 Warning--I didn't find a database entry for "seabold2010statsmodels"
@@ -208,45 +208,45 @@ Warning--empty publisher in wacharamanotham2015statsplorer
 Warning--empty address in wacharamanotham2015statsplorer
 Warning--no number and no volume in wongsuphasawat2019EDAgoals
 Warning--page numbers missing in both pages and numpages fields in wongsuphasawat2019EDAgoals
-You've used 157 entries,
+You've used 158 entries,
             5719 wiz_defined-function locations,
-            2139 strings with 42830 characters,
-and the built_in function-call counts, 170827 in all, are:
-= -- 21427
-> -- 6722
+            2143 strings with 42967 characters,
+and the built_in function-call counts, 172098 in all, are:
+= -- 21615
+> -- 6784
 < -- 0
-+ -- 2200
-- -- 2363
-* -- 12165
-:= -- 18203
-add.period$ -- 806
-call.type$ -- 157
-change.case$ -- 1077
++ -- 2222
+- -- 2383
+* -- 12270
+:= -- 18338
+add.period$ -- 811
+call.type$ -- 158
+change.case$ -- 1086
 chr.to.int$ -- 147
-cite$ -- 331
-duplicate$ -- 14582
-empty$ -- 10332
-format.name$ -- 2731
-if$ -- 40771
-int.to.chr$ -- 12
+cite$ -- 332
+duplicate$ -- 14672
+empty$ -- 10398
+format.name$ -- 2754
+if$ -- 41096
+int.to.chr$ -- 13
 int.to.str$ -- 1
-missing$ -- 503
-newline$ -- 1472
-num.names$ -- 1248
-pop$ -- 5548
+missing$ -- 507
+newline$ -- 1480
+num.names$ -- 1255
+pop$ -- 5584
 preamble$ -- 1
-purify$ -- 2458
+purify$ -- 2474
 quote$ -- 0
-skip$ -- 5009
+skip$ -- 5032
 stack$ -- 0
-substring$ -- 11738
-swap$ -- 1364
+substring$ -- 11819
+swap$ -- 1373
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3261
+type$ -- 3271
 warning$ -- 174
-while$ -- 1174
+while$ -- 1181
 width$ -- 0
-write$ -- 2850
+write$ -- 2867
 (There was 1 error message)

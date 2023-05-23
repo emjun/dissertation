@@ -1,17 +1,17 @@
 \section{Background and Related Work}
-\todo{Integrate Statistical Thinking + sensemaking, scientific discovery; might not need multiple sections}
-Our work integrates and builds upon prior research on frameworks of scientific
-discovery, theories of sensemaking, statistical practices, and empirical studies
-of data analysts.
+Our work integrates and builds up existing theories of statistical thinking in
+cognitive psychology and statistics. We also situate hypothesis formalization in
+the larger context of scientific discovery. 
+% frameworks of scientific
+% discovery, theories of sensemaking, statistical practices, and empirical studies
+% of data analysts.
 
 \subsection{Statistical Thinking} 
 Statistical thinking and practice require differentiating between
 \textit{domain} and \textit{statistical} questions. The American Statistical
 Association (ASA), a professional body representing statisticians, recommends
 that universities teach this fundamental principle in introductory courses (see
-Goal 2 in~\cite{carver2016guidelines}). 
-
-Similarly, researchers Wild and Pfannkuch emphasize the importance of
+Goal 2 in~\cite{carver2016guidelines}). Similarly, researchers Wild and Pfannkuch emphasize the importance of
 differentiating between and integrating statistical knowledge and context (or
 domain) knowledge when thinking
 statistically~\cite{pfannkuch1997statistical,pfannkuch2000statistical,wild1999statisticalThinking}.
@@ -22,7 +22,8 @@ precise questions that are then finally turned into a plan for data collection
 (see Figure 2 in~\cite{wild1999statisticalThinking}). Statistical and domain
 knowledge inform all four stages. However, it is unknown what kinds of statistical and domain
 knowledge are helpful, how they are used and weighed against each other, and
-when certain kinds of knowledge are helpful to operationalize inklings. Our work provides more granular insight into Wild and Pfannkuch's
+when certain kinds of knowledge are helpful to operationalize inklings. Our
+work in defining hypothesis formalization provides more granular insight into Wild and Pfannkuch's
 proposed model of operationalization and aims to answer when, how, and what
 kinds of statistical and domain knowledge are used during statistical data
 analysis. 
@@ -39,7 +40,7 @@ multiple causal and statistical models, and that the same statistical
 model may provide evidence for multiple, even contradictory, causal models and
 hypotheses. McElreath's framework does not directly address how analysts navigate
 these relationships or how computation plays a role, both of which we take up in
-this paper. 
+this chapter. 
 
 Overall, our work provides empirical evidence for prior frameworks but also (i)
 provides more granular insight into \textit{how} and \textit{why} transitions between
@@ -49,53 +50,25 @@ in the lab as well as through a follow-up analysis of statistical software. Base
 these observations, we also speculate on how tools might better support hypothesis
 formalization.
 
-
-\subsection{Dual-search Model of Scientific Discovery}
-
-\section{Statistical data analysis as part of scientific discovery}
-Grolemund and Wickham's depiction of the analysis process parallels Klahr and
-Simon's framework of scientific discovery. Klahr and Simon characterized
-scientific discovery as a dual-search process involving the development and
-evaluation of hypotheses and experiments~\cite{klahr1988dual}. They posited that
-scientific discovery involved tasks specific to hypotheses (e.g., revising
-hypotheses) and to experiments (e.g., analyzing data collected from
-experiments), which they separated into two different ``spaces,'' and tasks
-moving between them, which is where we place hypothesis formalization. Extending
-Klahr and Simon's two-space model, Schunn and Klahr proposed a more granular
-four-space model involving data representation, hypothesis, paradigm, and
-experiment spaces~\cite{schunn1995FourSpace,schunn1996BeyondTwoSpace}. In the
-four-space model, conceptual hypothesizing still lies in the hypothesis space,
-and hypothesis testing and statistical modeling lies in the paradigm space. As
-such, hypothesis formalization is a process connecting the hypothesis and
-paradigm spaces. In Schunn and Klahr's four-space model, information flows
-unidirectionally from the hypothesis space to the paradigm space.
-In~\autoref{sec:hypothesisFormalization} we extend this prior research with
-evidence that the path from hypothesis and paradigm spaces is actually
-bidirectional. (see Figure~\ref{figure:overview}).
-
+\subsection{Statistical data analysis as part of scientific discovery}
 Klahr and Simon characterized scientific discovery as a dual-search process
 involving the development and evaluation of hypotheses and
-experiments~\cite{klahr1988dual}. They posited that scientific
-discovery involved tasks specific to hypotheses (e.g., revising hypotheses) and
-to experiments (e.g., analyzing data collected from experiments), which they
+experiments~\cite{klahr1988dual}. They posited that scientific discovery
+involved tasks specific to hypotheses (e.g., revising hypotheses) and to
+experiments (e.g., analyzing data collected from experiments), which they
 separated into two different ``spaces,'' and tasks moving between them, which is
-where we place hypothesis formalization.
+where we place hypothesis formalization. Extending Klahr and Simon's two-space
+model, Schunn and Klahr proposed a more granular four-space model involving data
+representation, hypothesis, paradigm, and experiment
+spaces~\cite{schunn1995FourSpace,schunn1996BeyondTwoSpace}. In the four-space
+model, conceptual hypothesizing still lies in the hypothesis space, and
+hypothesis testing and statistical modeling lies in the paradigm space. As such,
+hypothesis formalization is a process connecting the hypothesis and paradigm
+spaces. In Schunn and Klahr's four-space model, information flows
+unidirectionally from the hypothesis space to the paradigm space. We extend this
+prior research with evidence that the path from hypothesis and paradigm spaces
+is actually bidirectional (see~\autoref{figure:overview}).
 
-% exploratory data analysis would be an
-% activity that impacts how analysts view, or represent, their data mentally, and
-Extending Klahr and Simon's two-space model, Schunn and Klahr proposed a more
-granular four-space model involving data representation, hypothesis, paradigm,
-and experiment spaces~\cite{schunn1995FourSpace,schunn1996BeyondTwoSpace}. In the four-space model, conceptual hypothesizing still lies in the
-hypothesis space, and hypothesis testing and statistical modeling lies in the
-paradigm space. As such, hypothesis formalization is a process connecting
-the hypothesis and paradigm spaces. In Schunn and Klahr's four-space model,
-information flows unidirectionally from the hypothesis space to the paradigm space.
-Here we extend this prior research with
-evidence that hypothesis formalization involves both
-concept-to-implementation and implementation-to-concept processes. (see
-Figure~\ref{figure:overview}).
-%  Therefore, we not only draw upon but also extend prior research on scientific discovery.
-% \figureMethods 
 Figure~\ref{figure:priorWork} augments Schunn and Klahr's
 original diagram (Figure 1 in~\cite{schunn1995FourSpace}) with
 annotations depicting how our content analysis of research papers and lab study
@@ -103,10 +76,36 @@ triangulate a tighter dual-space search between hypothesis and
 paradigm spaces with a focus on hypothesis formalization. Our mixed-methods
 approach follows the precedent and recommendations of Klahr and
 Simon's~\cite{klahr1999studies} study of scientific discovery activities.
+
+% Klahr and Simon characterized scientific discovery as a dual-search process
+% involving the development and evaluation of hypotheses and
+% experiments~\cite{klahr1988dual}. They posited that scientific
+% discovery involved tasks specific to hypotheses (e.g., revising hypotheses) and
+% to experiments (e.g., analyzing data collected from experiments), which they
+% separated into two different ``spaces,'' and tasks moving between them, which is
+% where we place hypothesis formalization.
+
+% exploratory data analysis would be an
+% activity that impacts how analysts view, or represent, their data mentally, and
+% Extending Klahr and Simon's two-space model, Schunn and Klahr proposed a more
+% granular four-space model involving data representation, hypothesis, paradigm,
+% and experiment spaces~\cite{schunn1995FourSpace,schunn1996BeyondTwoSpace}. In the four-space model, conceptual hypothesizing still lies in the
+% hypothesis space, and hypothesis testing and statistical modeling lies in the
+% paradigm space. As such, hypothesis formalization is a process connecting
+% the hypothesis and paradigm spaces. In Schunn and Klahr's four-space model,
+% information flows unidirectionally from the hypothesis space to the paradigm space.
+% Here we extend this prior research with
+% evidence that hypothesis formalization involves both
+% concept-to-implementation and implementation-to-concept processes. (see
+% Figure~\ref{figure:overview}).
+%  Therefore, we not only draw upon but also extend prior research on scientific discovery.
+% \figureMethods 
+
 % using multiple methods. 
 
 \figurePriorWorkCombined
 
+\begin{comment}
 \subsection{Theories of Sensemaking}
 Human beings engage in \textit{sensemaking} to acquire new knowledge. Several
 theories of
@@ -167,3 +166,4 @@ implicit in prior descriptions of data analysis, we explicate
 this specific process. While previous researchers have relied primarily on
 post-analysis interviews with analysts, our lab study (\autoref{sec:inLabStudy}) enables us to observe
 decision making during hypothesis formalization in-situ.
+\end{comment}
