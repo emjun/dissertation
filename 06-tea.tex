@@ -1,4 +1,4 @@
-\ej{Remove "this paper"; Rephrase the language describing code and data releases.}
+% \ej{Remove "this paper"; Rephrase the language describing code and data releases.}
 \begin{flushright}
     \begin{quote}
         \textit{
@@ -75,9 +75,9 @@ about statistics in the HCI community that shaped Tea's
 design~(\autoref{sec:design}), the implementation of
 \TeaPL~(\autoref{sec:TeaPL}), the implementation of
 \TeaRS~(\autoref{sec:TeaRS}), and the evaluation of Tea as a
-whole~(\autoref{sec:eval}). The chapter concludes with the key limitations of
-this work and a discussion of how Tea demonstrates the feasibility of my
-approach central to the thesis statement(~\autoref{para:thesisStatement})
+whole~(\autoref{sec:eval}). The chapter concludes with a discussion of Tea's
+goals, limitations, and future work (\autoref{sec:discussionTea}) and a summary
+of how \tea demonstrates my thesis(\autoref{sec:summaryTea})
 
 % As we found in our analysis of tools (\autoref{sec:toolsAnalysis}), a wide
 % variety of tools (such as SPSS~\cite{wiki:spss}, SAS~\cite{wiki:sas}, and
@@ -100,24 +100,107 @@ approach central to the thesis statement(~\autoref{para:thesisStatement})
 
 \input{tea/usage_scenario.tex}
 
-% \section{Design of Tea's DSL}
-% \section{Tea's constraint-based runtime system}
+\input{tea/design_considerations.tex}
+
 \input{tea/system.tex}
+
+\input{tea/eval.tex}
+
+\section{Discussion, Limitations, and Future Work} \label{sec:discussionTea} 
+In the context of this dissertation, our goal with Tea was to determine the
+feasibility of automating statistical test selection based on high-level input
+from analysts. 
+
+Automating statistical test selection raises important concerns about the impact
+of such automation on the reliability of statistical conclusions. In this
+regard, there are two chief concerns pertaining to (i) selective inference and
+(ii) multiple testing, both of which inflate the Type I Error Rate and can lead
+to more false discoveries. 
+
+Tea relies on statistical tests (e.g., Shapiro-Wilk's test for normality) to
+assess properties of data to determine which statistical tests (e.g., Student's
+t-test) are used to assess the input hypothesis. Repeated property testing of
+the data is a form of ``double-dipping''~\cite{}, or using the data to make
+decisions about analyses on the data. Preventing this would be ideal to reduce
+the false positive discovery rate. However, the statistics community is still
+developing techniques to address this issue. A naive approach would be to only
+use a sample of the data to determine the final statistical test and then use
+another sample to make statistical inferences. While viable for large datasets,
+this may not be possible for smaller datasets. A more recently proposed
+technique, data fission~\cite{} overcomes, in theory, this dependence on dataset
+size.  Data fission introduces noise to the data to make analysis decisions
+(i.e., statistical test selection) and then stripping the noise to obtain final
+results. Tea does not currently implement either of these approaches. In the
+future, Tea should incorporate these and future recommendations from the
+statistics community. 
+
+Furthermore, there is an inherent tension between executing multiple statistical
+tests (e.g., Student's t-test and Welch's t-test) to show analysts the
+robustness, or sensitivity, of the statistical results and the concern that
+
+To more fully realize this sensitivty assessment, Tea should incorporate ideas
+from multiverse analsysis reports to summarize...
+
+This could mitigate concerns that Tea encourages p-hacking and cherry-picking
+results that are convenient for the analyst, given that Tea may output multiple
+possible statistical tests. 
+
+The output of executing a Tea program with data is one or more
+statistical test results. Tea does not currently provide support for accurately
+interpreting these results and making sense of potentially conflicting test
+conclusions. Future work should take advantage of the multiple statistical test
+outputs as a check on the robustness of conclusions and help analysts make sense
+of the results holistically. %This is well-aligned with the intention of multiverse analyses to improve robust data analysis. 
+
+Finally, Tea's test selection is well suited for answering a class of relatively simple
+research questions. At the same time, there are more complex research questions
+that analysts want to ask about their domain using data that require more
+complex statistical analyses. These are currently out of reach for \tea. For
+instance, domain experts may not want to know that there is a difference between
+treatment and control groups but also estimate the influence of the treatment on
+an outcome in the presence of other variables that also influence treatment and
+the outcome. Therefore, in order to support a larger class of research questions
+and statistical models, we need to re-consider and extent Tea's abstractions and
+constraint-based reasoning approach. 
+
+\begin{comment}
+Lessons learned
 
 Why constraints? are they really necessary?
 
-% \section{Evaluation:...}
-\input{tea/eval.tex}
-
-\section{Discussion: Key tensions}
 - inflated alpha
 - inherent tension in executing multiple statistical tests vs. sensitivity
 
-\section{Limitations, Ongoing work, Future directions}
 
-Great for a class of relatively simple hypotheses and research questions, but
-the kinds of questions that analysts want to ask about their domain using data
-are more complex that simple hypotheses. 
+Multiple testing
+
+Design 
+
+Validity 
+\end{comment}
+
+
+\begin{comment}
+To further prevent cherry picking and more holistic understanding of the robustness of conclusion
+
+Reasoning: Constraints were well-suited for statistical test selection, for
+which there is general consensus about the applicability of tests. However, that
+is not always the case....
+
+Interpretation of results -- tension between 
+
+To further prevent cherry picking and more holistic understanding of the robustness of conclusions
+
+At the time of Tea's release (circa late 2019), we believed that \tea's
+abstraction and modularity would enable the incorporation of other statistical
+analysis approaches, such as Bayesian inference, as they move into the
+mainstream. Although we have yet to incorporate Bayesian inference into \tea, or
+more generally provide tool support for authoring Bayesian analyses, our
+experience generalizing \tea's approach to statistical modeling in \tisane has
+shown us the importance of making even more explicit implicit connections
+between variables (abstraction) and providing reasoning approaches that match
+analysis needs.
+
 
 Testing to estimation 
 
@@ -153,8 +236,9 @@ suggestions inline when specifying parameters.
 
 Both features will be incorporated into a new release of Tea, which I have
 currently scheduled for June, 2022. 
+\end{comment}
 
-\section{Summary of Contributions}
+\section{Summary of Contributions} \label{sec:summaryTea}
 
 % Reminder: Thesis statement
 % Domain-specific languages that provide abstractions for expressing conceptual
@@ -177,11 +261,11 @@ higher-level DSL around this insight that takes an analyst's hypothesis and
 assumptions about their data as input and provides the results of executing
 valid statistical tests as output. In an evaluation, we found that Tea avoids
 faulty test selection and conclusions that are easy to make using existing
-tools.
+tools. In this way, \tea improves statistical conclusion and internal validity~\cite{shadish2010campbell}. 
 
 Tea demonstrates the feasibility and benefit of developing systems that
 emphasize \textit{higher-level abstractions} and \textit{automated reasoning}
-for statistical tests (\autoref{para:thesisStatement}). However, Using
+for statistical tests (\autoref{para:thesisStatement}). However, using
 statistics to answer real-world questions requires going beyond statistical
 testing to grappling with statistical modeling and effect estimation. Next, we
 consider how our approach generalizes to a larger class of statistical analyses. 

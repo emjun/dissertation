@@ -1,0 +1,52 @@
+\otherSystems
+
+\section{Design Considerations} \label{sec:design}
+
+%The American Psychological Assocation (APA) initiated a Task Force on Statistical Inference~\cite{APATFSI} in the late 1990s to address concerns about statistical practices~\cite{wilkinson1999statistical}. 
+% The guidelines and recommendations for
+% study design, analysis, and reporting
+
+%In 2007, Cairns outlined common statistical analysis problems in the HCI community that echo concerns articulated in~\cite{wilkinson1999statistical}: not checking or reporting the assumptions made by statistical tests, choosing the incorrect statistical tests to test hypotheses, conducting statistical tests multiple times (multiple comparison), and inconsistent reporting of results, including the omission of non-statistically significant results. 
+
+In designing Tea's language and runtime system, we considered best practices for conducting statistical analyses and derived our own insights on improving the
+interaction between users and statistical tools.
+
+We identified five key recommendations for statistical analysis from Cairns' report on common
+statistical errors in HCI~\cite{cairns2007hci}, which echoes many concerns articulated by Wilkinson~\cite{wilkinson1999statistical}, and from the American Psychological Association's
+Task Force on Statistical Inference~\cite{APATFSI}: 
+\begin{itemize}
+    \item Users should make explicit their assumptions about the data~\cite{APATFSI}. 
+    \item Users should verify and report the results from checking assumptions statistical tests make about the data
+    and variables~\cite{cairns2007hci,APATFSI}.
+    \item Users should account for multiple comparisons~\cite{cairns2007hci,APATFSI}.
+    \item When possible, users should consider alternative analyses that test their hypothesis and select the simplest one~\cite{APATFSI}.
+    \item Users should contextualize results from statistical tests using effect sizes and confidence intervals~\cite{APATFSI}.
+\end{itemize}
+
+An additional practice we wanted to simplify in Tea was \textit{reproducing analyses}. Table~\ref{tab:otherSystems} shows how Tea compares to current tools in supporting these best practices.
+
+% The last four recommendations pertain to details that require statistical
+% expertise many users may not have. Tea aims to lower the barrier to valid statistical analysis. 
+
+Based on these guidelines, we identified two key interaction principles for Tea: 
+\begin{enumerate}
+    \item \textit{Users should be able to express their expertise, assumptions,
+    and intentions for analysis.} Users have domain knowledge and goals
+    that cannot be expressed with the low-level API calls to the specific
+    statistical tests required by the majority of current tools. A higher level
+    of abstraction that focuses on the goals and context of analysis is
+    likely to appeal to users who may not have statistical expertise (\autoref{sec:TeaPL}).
+    \item \textit{Users should not be burdened with statistical details to
+    conduct valid analyses.} Currently, users must not only remember their hypotheses but
+    also identify possibly appropriate tests and manually check the
+    preconditions for all the tests. %best practices and steps to data analysis.
+    Simplifying the user's procedure by automating the test selection process
+    can help reduce cognitive demand (\autoref{sec:TeaRS}).
+\end{enumerate}
+
+While there are calls to incorporate other methods of statistical
+analysis~\cite{kay2016researcher,kaptein2012rethinking}, Null
+Hypothesis Significance Testing (NHST) remains the norm in HCI and
+other disciplines. Therefore, Tea currently implements a module for
+NHST with the tests found to be most common
+by~\cite{wacharamanotham2015statsplorer} (see~\autoref{subsec:NHST} for a list of tests).

@@ -1,14 +1,14 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
-White space in argument---line 316 of file dissertation.aux
+White space in argument---line 330 of file dissertation.aux
  : \citation{rTisane
  :                   link}
 I'm skipping whatever remains of this command
 The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 12560 items from 5000.
+Reallocated field_info (elt_size=4) to 12650 items from 5000.
 Database file #1: references.bib
 Warning--string name "january" is undefined
 --line 1641 of file references.bib
@@ -19,7 +19,7 @@ Warning--string name "march" is undefined
 Warning--I didn't find a database entry for "PS9"
 Warning--I didn't find a database entry for "jun2022tisane"
 Warning--I didn't find a database entry for "seabold2010statsmodels"
-Warning--I didn't find a database entry for "franconeriVisualizationChooser"
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "yu2020veridical"
 Warning--I didn't find a database entry for "lee2019robust"
 Warning--I didn't find a database entry for "gelman2013bayesianTextbook"
@@ -27,7 +27,6 @@ Warning--I didn't find a database entry for "betancourt2020bayesianWorkflow"
 Warning--I didn't find a database entry for "gelman2020bayesianWorkflow"
 Warning--I didn't find a database entry for "pyro"
 Warning--I didn't find a database entry for "pymc3"
-Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "tisaneOnPip"
 Warning--I didn't find a database entry for "rock"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -57,6 +56,8 @@ Warning--page numbers missing in both pages and numpages fields in scikitAPIPape
 Warning--no journal in brmsRef
 Warning--no number and no volume in brmsRef
 Warning--page numbers missing in both pages and numpages fields in brmsRef
+Warning--empty publisher in cairns2007hci
+Warning--empty address in cairns2007hci
 Warning--no journal in carver2016guidelines
 Warning--no number and no volume in carver2016guidelines
 Warning--page numbers missing in both pages and numpages fields in carver2016guidelines
@@ -207,45 +208,45 @@ Warning--empty publisher in wacharamanotham2015statsplorer
 Warning--empty address in wacharamanotham2015statsplorer
 Warning--no number and no volume in wongsuphasawat2019EDAgoals
 Warning--page numbers missing in both pages and numpages fields in wongsuphasawat2019EDAgoals
-You've used 154 entries,
+You've used 157 entries,
             5719 wiz_defined-function locations,
-            2125 strings with 42402 characters,
-and the built_in function-call counts, 167885 in all, are:
-= -- 21043
-> -- 6662
+            2139 strings with 42830 characters,
+and the built_in function-call counts, 170827 in all, are:
+= -- 21427
+> -- 6722
 < -- 0
-+ -- 2185
-- -- 2339
-* -- 12008
-:= -- 17918
-add.period$ -- 791
-call.type$ -- 154
-change.case$ -- 1062
-chr.to.int$ -- 144
-cite$ -- 326
-duplicate$ -- 14289
-empty$ -- 10128
-format.name$ -- 2707
-if$ -- 40049
++ -- 2200
+- -- 2363
+* -- 12165
+:= -- 18203
+add.period$ -- 806
+call.type$ -- 157
+change.case$ -- 1077
+chr.to.int$ -- 147
+cite$ -- 331
+duplicate$ -- 14582
+empty$ -- 10332
+format.name$ -- 2731
+if$ -- 40771
 int.to.chr$ -- 12
 int.to.str$ -- 1
-missing$ -- 494
-newline$ -- 1445
-num.names$ -- 1224
-pop$ -- 5444
+missing$ -- 503
+newline$ -- 1472
+num.names$ -- 1248
+pop$ -- 5548
 preamble$ -- 1
-purify$ -- 2416
+purify$ -- 2458
 quote$ -- 0
-skip$ -- 4902
+skip$ -- 5009
 stack$ -- 0
-substring$ -- 11508
-swap$ -- 1334
+substring$ -- 11738
+swap$ -- 1364
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3185
-warning$ -- 172
-while$ -- 1146
+type$ -- 3261
+warning$ -- 174
+while$ -- 1174
 width$ -- 0
-write$ -- 2796
+write$ -- 2850
 (There was 1 error message)

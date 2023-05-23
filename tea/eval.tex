@@ -1,6 +1,5 @@
 \input{tea/tea_results.tex}
-\vspace{-5pt}
-\subsubsection{Initial Evaluation} \label{sec:eval}
+\section{Evaluation} \label{sec:eval}
 We assessed the validity of Tea in two ways. First, we compared Tea's
 suggestions of statistical tests to suggestions in textbook tutorials.
 We use these tutorials as a proxy for expert test selection.
@@ -14,7 +13,6 @@ computed on the data, when ignoring any preconditions regarding the data types o
 distributions. A valid test is a candidate test for which all preconditions are
 satisfied.
 
-\vspace{-3pt}
 \subsection{How does Tea compare to textbook tutorials?}
 Our goal was to compare Tea to expert recommendations.
 
@@ -57,7 +55,7 @@ Tea generally agrees with expert recommendations and is more conservative
 in the presence of non-normal data, minimizing the risk of false positive
 findings.
 
-\subsubsection{Does Tea avoid common mistakes made by non-expert users?}
+\subsection{Does Tea avoid common mistakes made by non-expert users?}
 Our goal was to assess whether any of the tests suggested by Tea (i.e., valid
 candidate tests) or any of the invalid candidate tests would lead to a different
 conclusion than the one drawn in the tutorial. Table~\ref{tab:results} shows the

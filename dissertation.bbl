@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{154}
+\begin{thebibliography}{157}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -49,6 +49,19 @@
   computer graphics}} \bibinfo{volume}{25}, \bibinfo{number}{1}
   (\bibinfo{year}{2018}), \bibinfo{pages}{22--31}.
 \newblock
+
+
+\bibitem[\protect\citeauthoryear{Association}{Association}{1996}]%
+        {APATFSI}
+\bibfield{author}{\bibinfo{person}{American~Psychological Association}.}
+  \bibinfo{year}{1996}\natexlab{}.
+\newblock \bibinfo{title}{Task Force on Statistical Inference}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.apa.org/science/leadership/bsa/statistical/}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Association et~al\mbox{.}}{Association
@@ -293,6 +306,18 @@
   \bibinfo{year}{2016}\natexlab{}.
 \newblock \showarticletitle{Package ‘brms’}.
 \newblock  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cairns}{Cairns}{2007}]%
+        {cairns2007hci}
+\bibfield{author}{\bibinfo{person}{Paul Cairns}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{HCI... not as it should be: inferential statistics
+  in HCI research}. In \bibinfo{booktitle}{\emph{Proceedings of the 21st
+  British HCI Group Annual Conference on People and Computers: HCI... but not
+  as we know it-Volume 1}}. British Computer Society,
+  \bibinfo{pages}{195--201}.
 \newblock
 
 
@@ -2012,6 +2037,17 @@ Issue 1.
 \newblock \bibinfo{journal}{\emph{International statistical review}}
   \bibinfo{volume}{67}, \bibinfo{number}{3} (\bibinfo{year}{1999}),
   \bibinfo{pages}{223--248}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wilkinson}{Wilkinson}{1999}]%
+        {wilkinson1999statistical}
+\bibfield{author}{\bibinfo{person}{Leland Wilkinson}.}
+  \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Statistical methods in psychology journals:
+  Guidelines and explanations.}
+\newblock \bibinfo{journal}{\emph{American psychologist}} \bibinfo{volume}{54},
+  \bibinfo{number}{8} (\bibinfo{year}{1999}), \bibinfo{pages}{594}.
 \newblock
 
 

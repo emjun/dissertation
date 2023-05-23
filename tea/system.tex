@@ -1,18 +1,15 @@
-% \input{tea/figures_tables.tex}
-\subsection{System overview}
-\vspace{-5pt}
-
-Tea consists of a high-level programming language and a runtime system. There
-are three key steps to compiling a Tea program from user specifications to
-executing statistical analyses:
+\section{System overview}
+Tea consists of a high-level DSL and a runtime system. There are three key steps
+to compiling a Tea program from user specifications to executing statistical
+tests:
 
 \begin{enumerate}
     \item \textbf{Check for completeness and syntax.} Tea first checks that a
     user's program specifies a data set, variable declarations, study design
     description, a set of assumptions, and hypotheses using the correct syntax.
-    For pre-registration, the
-    data set can be empty (with only column names). If there are any syntax
-    errors or missing parts, Tea will issue an error and stop execution.
+    The data set can be empty (with only column names), which may be useful for
+    pre-registration for instance. If there are any syntax errors or missing
+    parts, Tea will issue an error and stop execution.
     \item \textbf{Check for consistent, well-formed hypotheses.} Using the
     variable declarations, Tea then checks that the hypotheses the user states
     are consistent with variable data types. For instance, Tea would issue an
@@ -31,23 +28,19 @@ executing statistical analyses:
     further discussed in~\autoref{sec:TeaRS}.
 \end{enumerate}
 
-\vspace{-5pt}
-\subsection{Tea's Domain-Specific Programming Language} \label{sec:TeaPL}
-% \figureOutputTTest
-Tea is a domain-specific language
-embedded in Python. It takes advantage of existing Python data structures (e.g.,
-classes, dictionaries, and enums). We chose Python because of its widespread
-adoption in data science. Tea is itself implemented as a Python library\footnote{Tea is open-source and available for download on
-\texttt{pip}, a common Python package manager.}.
+\subsection{Tea's Domain-Specific Language} \label{sec:TeaPL}
+Tea is a DSL embedded in Python, implemented as a Python library\footnote{Tea is open-source and
+available for download on \texttt{pip}, a common Python package manager.}. It takes
+advantage of existing Python data structures (e.g., classes, dictionaries, and
+enums). We chose Python because of its widespread adoption in data science.
 
-A key challenge in describing studies is determining the level of granularity
+A key challenge in designing \tea's DSL is determining the level of granularity
 necessary to produce an accurate analysis.  In Tea programs, users describe
 their studies in five ways: (1) providing a data set, (2) describing the
 variables of interest in that \dataSet, (3) specifying their study design, (4)
 stating their assumptions about the variables, and (5) formulating hypotheses
-about the relationships between variables. Figure~\ref{fig:modes} shows an
-an exaample Tea program and its output. 
-
+about the relationships between variables. Figure~\ref{fig:modes} shows an an
+example Tea program and its output. 
 
 \subsubsection{Data}
 Data is required for executing statistical analyses. One challenge in managing
@@ -75,9 +68,9 @@ verifying a study design, described below. Without a key, Tea's default
 is that all rows in the data set comprise independent observations (that is, all
 variables are between subjects).
 
-For pre-registration where there is no data, a CSV with only column names is necessary.
+To use \tea for pre-registration prior to collecting data, a CSV with only
+column names is necessary.
 
-\vspace{-7pt}
 \subsubsection{Variables}
 Variables represent columns of interest in the data set. Variables
 have a name, a data type (\emph{nominal}, \emph{ordinal},
@@ -93,7 +86,6 @@ operations applied to the variable. For instance, it is common to
 filter by category for nominal variables.
 % in statistical tests.
 
-\vspace{-7pt}
 \subsubsection{Study Design}
 Three aspects of study design are important for conducting statistical
 analyses: (1) the type of study (observational study vs. randomized
@@ -108,7 +100,6 @@ experiments, variables are described as either ``independent'' or
 ``contributor'' (independent) or ``outcome'' (dependent) variables. 
 % If variables are neither independent nor dependent, they are treated as co-variates.
 
-\vspace{-7pt}
 \subsubsection{Assumptions} \label{subsec:assumptions}
 Users' assumptions based on domain knowledge are critical for
 conducting and contextualizing studies and analyses. Often, users'
@@ -141,8 +132,6 @@ during assumption verification, statistical test selection, and test execution,
 which is why they are included in the assumptions clause. The next section discusses the
 verification process for assumptions in greater detail.
 
-
-\vspace{-7pt}
 \subsubsection{Hypotheses}
 % \teaHypotheses
 Hypotheses drive the statistical analysis process. Users often have
@@ -158,7 +147,7 @@ relationship between variables.
 
 % Figure~\ref{fig:teaHypotheses} exemplifies the range of hypotheses Tea supports.
 
-\subsection{Tea's Runtime System} \label{sec:TeaRS}
+\subsection{Tea's Constraint-based Runtime System} \label{sec:TeaRS}
 Tea compiles programs into logical constraints about the data and
 variables, which it resolves using a constraint solver. A significant
 benefit of using a constraint solver is extensibility. Adding new
@@ -173,7 +162,6 @@ incorporating statistical knowledge as constraints, (2) expressing
 user assumptions as constraints, and (3) recursively selecting
 statistical tests to verify preconditions of other statistical tests.
 
-\vspace{-3pt}
 \subsubsection{SMT Solver}
 As its constraint solver, Tea uses Z3~\cite{de2008z3}, a Satisfiability Modulo Theory (SMT) solver.
 
@@ -189,7 +177,6 @@ designs~\cite{swearngin2018scout}, the verification of website
 accessibility~\cite{panchekha2018verifying}, and the synthesis of data
 structures~\cite{loncaric2016cozy} employ SMT solvers. 
 
-\vspace{-7pt}
 \subsubsection{Logical Encodings}
 The first challenge of framing statistical test selection as a constraint satisfaction
 problem is defining a logical formulation of statistical
@@ -211,7 +198,6 @@ Tea also encodes statistical knowledge about variable types and properties that
 are essential to statistical analysis as axioms, such as the constraint that only a
 continuous variable can be normally distributed.
 
-\vspace{-10pt}
 \subsubsection{Algorithm}
 Tea frames the problem of finding a set of valid statistical tests as a maximum
 satisfiability (MaxSAT) problem that is seeded with user assumptions.
@@ -232,7 +218,6 @@ property violates the axioms derived from users' assumptions, the property is
 removed and the test is invalidated. Users' assumptions
 always take precedence.
 
-
 The constraint solver then prunes the search space. Tea does not compute all
 properties for all variables, a significant optimization when
 analyzing very large data sets.
@@ -244,7 +229,6 @@ and executes all valid statistical tests. Tea returns a table of
 results to users, applying multiple comparison corrections~\cite{holm1979simple} and
 calculating effect sizes when appropriate.
 
-\vspace{-10pt}
 \subsubsection{Optimization: Recursive Queries}
 When Tea verifies a property holds for a variable, it often must invoke another
 statistical test. For example, to check that two groups have equal variance,
@@ -256,9 +240,7 @@ about. To eliminate recursion, Tea lifts some statistical tests to properties.
 For instance, Tea does not encode the Levene's test as a statistical test.
 Instead, Tea encodes the property of having equal variance between groups and
 executes the Levene's test for two groups when verifying that property for particular variables.
-\vspace{-3pt}
 
-\vspace{-2pt}
 \subsubsection{User Output}
 The result of running a Tea program with data is a listing of the results of
 executing valid statistical tests, as shown in Figure~\ref{fig:modes}. For each valid
