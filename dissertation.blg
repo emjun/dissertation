@@ -10,218 +10,242 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated field_info (elt_size=4) to 12560 items from 5000.
 Database file #1: references.bib
-Warning--I didn't find a database entry for "venables2013modern"
-Warning--I didn't find a database entry for "kabacoff2011action"
+Warning--string name "january" is undefined
+--line 1641 of file references.bib
+Warning--string name "april" is undefined
+--line 1649 of file references.bib
+Warning--string name "march" is undefined
+--line 1657 of file references.bib
 Warning--I didn't find a database entry for "PS9"
-Warning--I didn't find a database entry for "team2013r"
-Warning--I didn't find a database entry for "sanner1999python"
-Warning--I didn't find a database entry for "spss"
-Warning--I didn't find a database entry for "sas"
-Warning--I didn't find a database entry for "mcelreath2020statistical"
-Warning--I didn't find a database entry for "jun2019tea"
 Warning--I didn't find a database entry for "jun2022tisane"
-Warning--I didn't find a database entry for "pirolli2005sensemaking"
-Warning--I didn't find a database entry for "russell1993cost"
-Warning--I didn't find a database entry for "klein2007dataFrame"
-Warning--I didn't find a database entry for "grolemund2014cognitive"
-Warning--I didn't find a database entry for "kandel2012enterprise"
-Warning--I didn't find a database entry for "alspaugh2018futzing"
-Warning--I didn't find a database entry for "wongsuphasawat2019EDAgoals"
-Warning--I didn't find a database entry for "battle2019EVA"
-Warning--I didn't find a database entry for "gelman2013garden"
-Warning--I didn't find a database entry for "kale2019decision"
-Warning--I didn't find a database entry for "liu2019understanding"
-Warning--I didn't find a database entry for "liu2019paths"
-Warning--I didn't find a database entry for "textor2011dagitty"
-Warning--I didn't find a database entry for "suzuki2020causal"
-Warning--I didn't find a database entry for "suzuki2018mechanisms"
-Warning--I didn't find a database entry for "velentgas2013developing"
-Warning--I didn't find a database entry for "gosset"
-Warning--I didn't find a database entry for "bakshy2014planout"
-Warning--I didn't find a database entry for "edibble"
-Warning--I didn't find a database entry for "blair2019declaring"
-Warning--I didn't find a database entry for "mackay2007touchstone"
-Warning--I didn't find a database entry for "eiselmayer2019touchstone2"
-Warning--I didn't find a database entry for "deLeeuw2015jspsych"
-Warning--I didn't find a database entry for "guimbretiere2007experiscope"
-Warning--I didn't find a database entry for "wacharamanotham2015statsplorer"
-Warning--I didn't find a database entry for "lloyd2014automatic"
-Warning--I didn't find a database entry for "autoweka"
-Warning--I didn't find a database entry for "autosklearn"
-Warning--I didn't find a database entry for "H2OAutoML20"
-Warning--I didn't find a database entry for "shadish2010campbell"
-Warning--I didn't find a database entry for "fisher1937design"
-Warning--I didn't find a database entry for "kaptein2012rethinking"
-Warning--I didn't find a database entry for "wiki:spss"
-Warning--I didn't find a database entry for "wiki:sas"
-Warning--I didn't find a database entry for "wiki:jmp"
-Warning--I didn't find a database entry for "wiki:r-language"
-Warning--I didn't find a database entry for "oliphant2006numpy"
-Warning--I didn't find a database entry for "scipy"
 Warning--I didn't find a database entry for "seabold2010statsmodels"
-Warning--I didn't find a database entry for "satyanarayan2017vega"
-Warning--I didn't find a database entry for "kandel2011wrangler"
-Warning--I didn't find a database entry for "moritz2019formalizing"
-Warning--I didn't find a database entry for "hoffswell2018setcola"
-Warning--I didn't find a database entry for "swearngin2018scout"
-Warning--I didn't find a database entry for "kay2016researcher"
-Warning--I didn't find a database entry for "efron1992bootstrap"
-Warning--I didn't find a database entry for "ehrlich1973participation"
-Warning--I didn't find a database entry for "vandaele1987participation"
-Warning--I didn't find a database entry for "wickham2014tidy"
-Warning--I didn't find a database entry for "de2008z3"
-Warning--I didn't find a database entry for "panchekha2018verifying"
-Warning--I didn't find a database entry for "loncaric2016cozy"
-Warning--I didn't find a database entry for "klemmerCoursera"
-Warning--I didn't find a database entry for "field2012discoveringR"
-Warning--I didn't find a database entry for "ucla:whatstat"
-Warning--I didn't find a database entry for "kent:tutorials"
-Warning--I didn't find a database entry for "holm1979simple"
-Warning--I didn't find a database entry for "cohen1988statistical"
-Warning--I didn't find a database entry for "vargha2000critique"
-Warning--I didn't find a database entry for "american1983publication"
 Warning--I didn't find a database entry for "franconeriVisualizationChooser"
-Warning--I didn't find a database entry for "jmp"
-Warning--I didn't find a database entry for "carver2016guidelines"
-Warning--I didn't find a database entry for "klahr1988dual"
-Warning--I didn't find a database entry for "pfannkuch1997statistical"
-Warning--I didn't find a database entry for "pfannkuch2000statistical"
-Warning--I didn't find a database entry for "wild1999statisticalThinking"
-Warning--I didn't find a database entry for "schunn1995FourSpace"
-Warning--I didn't find a database entry for "schunn1996BeyondTwoSpace"
-Warning--I didn't find a database entry for "klahr1999studies"
-Warning--I didn't find a database entry for "bertin2011graphics"
-Warning--I didn't find a database entry for "kerr1998harking"
 Warning--I didn't find a database entry for "yu2020veridical"
 Warning--I didn't find a database entry for "lee2019robust"
 Warning--I didn't find a database entry for "gelman2013bayesianTextbook"
 Warning--I didn't find a database entry for "betancourt2020bayesianWorkflow"
 Warning--I didn't find a database entry for "gelman2020bayesianWorkflow"
-Warning--I didn't find a database entry for "gabry2019visualization"
-Warning--I didn't find a database entry for "feigenspan2012measuring"
-Warning--I didn't find a database entry for "pewDataset"
-Warning--I didn't find a database entry for "grolemund2019:recommendedR"
-Warning--I didn't find a database entry for "bobriakov2017:top15Python"
-Warning--I didn't find a database entry for "bobriakov2018:top20Python"
-Warning--I didn't find a database entry for "prabhu2019:topPython"
-Warning--I didn't find a database entry for "mass"
-Warning--I didn't find a database entry for "burkner2017brms"
-Warning--I didn't find a database entry for "brmsRef"
-Warning--I didn't find a database entry for "edgeROverview"
-Warning--I didn't find a database entry for "edgeRUsersGuide"
-Warning--I didn't find a database entry for "glmmtmbPaper"
-Warning--I didn't find a database entry for "glmmtmbRef"
-Warning--I didn't find a database entry for "glmnetRef"
-Warning--I didn't find a database entry for "glmnetVignette"
-Warning--I didn't find a database entry for "bates2014fittingLme4"
-Warning--I didn't find a database entry for "bates2014lme4Ref"
-Warning--I didn't find a database entry for "MCMCglmmPaper"
-Warning--I didn't find a database entry for "MCMCglmmRef"
-Warning--I didn't find a database entry for "nlmeRef"
-Warning--I didn't find a database entry for "randomForestR"
-Warning--I didn't find a database entry for "statsCoreRRef"
-Warning--I didn't find a database entry for "keras"
-Warning--I didn't find a database entry for "scikitRef"
-Warning--I didn't find a database entry for "scikitPaper"
-Warning--I didn't find a database entry for "scikitAPIPaper"
-Warning--I didn't find a database entry for "scipyStats"
-Warning--I didn't find a database entry for "scipyOptimize"
-Warning--I didn't find a database entry for "statsmodelsPaper"
-Warning--I didn't find a database entry for "statsmodelsRef"
-Warning--I didn't find a database entry for "matlab"
-Warning--I didn't find a database entry for "matlabStats"
-Warning--I didn't find a database entry for "stata"
-Warning--I didn't find a database entry for "stataRef"
-Warning--I didn't find a database entry for "stataLang"
-Warning--I didn't find a database entry for "graphPadUserGuide"
-Warning--I didn't find a database entry for "jasp"
-Warning--I didn't find a database entry for "jones2011jmp"
-Warning--I didn't find a database entry for "tidymodels"
-Warning--I didn't find a database entry for "tidyverse"
-Warning--I didn't find a database entry for "sumsofsquaresBlog"
-Warning--I didn't find a database entry for "norman1986cognitive"
-Warning--I didn't find a database entry for "parsnip"
 Warning--I didn't find a database entry for "pyro"
-Warning--I didn't find a database entry for "stan"
-Warning--I didn't find a database entry for "bugs"
 Warning--I didn't find a database entry for "pymc3"
-Warning--I didn't find a database entry for "verou2018extending"
-Warning--I didn't find a database entry for "hempel2019sketch"
-Warning--I didn't find a database entry for "newell1972humanProblemSolving"
-Warning--I didn't find a database entry for "holland1989induction"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "tisaneOnPip"
-Warning--I didn't find a database entry for "lo2015transform"
-Warning--I didn't find a database entry for "cohen2013applied"
-Warning--I didn't find a database entry for "kreft1998introducing"
-Warning--I didn't find a database entry for "bolker2009generalized"
-Warning--I didn't find a database entry for "barr2013random"
-Warning--I didn't find a database entry for "gelmanFixedRandom"
-Warning--I didn't find a database entry for "salimi2020causal"
-Warning--I didn't find a database entry for "kayali2020demonstration"
-Warning--I didn't find a database entry for "spirtes1996using"
-Warning--I didn't find a database entry for "spirtes1994conditional"
-Warning--I didn't find a database entry for "vanderweele2019modifiedDisjunctiveCriterion"
-Warning--I didn't find a database entry for "rubin2004teaching"
-Warning--I didn't find a database entry for "pearl1995causal"
-Warning--I didn't find a database entry for "pearl1995doCalculus"
-Warning--I didn't find a database entry for "greenland1999causal"
-Warning--I didn't find a database entry for "pearl2000models"
-Warning--I didn't find a database entry for "jun2021hypothesisFormalization"
-Warning--I didn't find a database entry for "hoyle1995SEM"
-Warning--I didn't find a database entry for "gelmanHill2006regression"
-Warning--I didn't find a database entry for "clark1973language"
-Warning--I didn't find a database entry for "barr2013randomUpdated"
-Warning--I didn't find a database entry for "nelder1972generalized"
-Warning--I didn't find a database entry for "jolly2018pymer4"
-Warning--I didn't find a database entry for "plotlyDash"
-Warning--I didn't find a database entry for "mplus"
-Warning--I didn't find a database entry for "norman2013doet"
 Warning--I didn't find a database entry for "rock"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 0 entries,
+Warning--empty address in american1983publication
+Warning--empty publisher in bakshy2014planout
+Warning--empty address in bakshy2014planout
+Warning--no number and no volume in bates2014fittingLme4
+Warning--page numbers missing in both pages and numpages fields in bates2014fittingLme4
+Warning--no number and no volume in bates2014lme4Ref
+Warning--page numbers missing in both pages and numpages fields in bates2014lme4Ref
+Warning--no number and no volume in battle2019EVA
+Warning--page numbers missing in both pages and numpages fields in battle2019EVA
+Warning--empty address in bertin2011graphics
+Warning--no number and no volume in bobriakov2017:top15Python
+Warning--page numbers missing in both pages and numpages fields in bobriakov2017:top15Python
+Warning--no number and no volume in bobriakov2018:top20Python
+Warning--page numbers missing in both pages and numpages fields in bobriakov2018:top20Python
+Warning--no journal in randomForestR
+Warning--no number and no volume in randomForestR
+Warning--page numbers missing in both pages and numpages fields in randomForestR
+Warning--no number and no volume in scikitAPIPaper
+Warning--page numbers missing in both pages and numpages fields in scikitAPIPaper
+Warning--no journal in brmsRef
+Warning--no number and no volume in brmsRef
+Warning--page numbers missing in both pages and numpages fields in brmsRef
+Warning--no journal in carver2016guidelines
+Warning--no number and no volume in carver2016guidelines
+Warning--page numbers missing in both pages and numpages fields in carver2016guidelines
+Warning--no journal in edgeROverview
+Warning--no number and no volume in edgeROverview
+Warning--page numbers missing in both pages and numpages fields in edgeROverview
+Warning--no journal in edgeRUsersGuide
+Warning--no number and no volume in edgeRUsersGuide
+Warning--page numbers missing in both pages and numpages fields in edgeRUsersGuide
+Warning--no journal in cohen1988statistical
+Warning--no number and no volume in cohen1988statistical
+Warning--page numbers missing in both pages and numpages fields in cohen1988statistical
+Warning--empty address in cohen2013applied
+Warning--empty year in plotlyDash
+Warning--empty publisher in de2008z3
+Warning--empty address in de2008z3
+Warning--empty address in efron1992bootstrap
+Warning--no journal in eiselmayer2019touchstone2
+Warning--no number and no volume in eiselmayer2019touchstone2
+Warning--page numbers missing in both pages and numpages fields in eiselmayer2019touchstone2
+Warning--empty publisher in feigenspan2012measuring
+Warning--empty address in feigenspan2012measuring
+Warning--empty address in autosklearn
+Warning--empty address in field2012discoveringR
+Warning--empty address in fisher1937design
+Warning--no journal in glmnetRef
+Warning--no number and no volume in glmnetRef
+Warning--page numbers missing in both pages and numpages fields in glmnetRef
+Warning--empty address in gelmanHill2006regression
+Warning--no number and no volume in gelman2013garden
+Warning--page numbers missing in both pages and numpages fields in gelman2013garden
+Warning--no journal in graphPadUserGuide
+Warning--no number and no volume in graphPadUserGuide
+Warning--page numbers missing in both pages and numpages fields in graphPadUserGuide
+Warning--no number and no volume in greenland1999causal
+Warning--no number and no volume in grolemund2019:recommendedR
+Warning--page numbers missing in both pages and numpages fields in grolemund2019:recommendedR
+Warning--empty publisher in guimbretiere2007experiscope
+Warning--empty address in guimbretiere2007experiscope
+Warning--no journal in MCMCglmmRef
+Warning--no number and no volume in MCMCglmmRef
+Warning--page numbers missing in both pages and numpages fields in MCMCglmmRef
+Warning--no journal in glmnetVignette
+Warning--no number and no volume in glmnetVignette
+Warning--page numbers missing in both pages and numpages fields in glmnetVignette
+Warning--empty publisher in hempel2019sketch
+Warning--empty address in hempel2019sketch
+Warning--can't use both volume and number fields in hoffswell2018setcola
+Warning--empty publisher in hoffswell2018setcola
+Warning--empty address in hoffswell2018setcola
+Warning--empty address in holland1989induction
+Warning--no number and no volume in holm1979simple
+Warning--empty address in hoyle1995SEM
+Warning--empty publisher in jun2021hypothesisFormalization
+Warning--empty address in jun2021hypothesisFormalization
+Warning--page numbers missing in both pages and numpages fields in jun2021hypothesisFormalization
+Warning--empty publisher in jun2019tea
+Warning--empty address in jun2019tea
+Warning--page numbers missing in both pages and numpages fields in jun2019tea
+Warning--no journal in kabacoff2011action
+Warning--no number and no volume in kabacoff2011action
+Warning--page numbers missing in both pages and numpages fields in kabacoff2011action
+Warning--empty publisher in kale2019decision
+Warning--empty address in kale2019decision
+Warning--empty publisher in kandel2011wrangler
+Warning--empty address in kandel2011wrangler
+Warning--empty publisher in kaptein2012rethinking
+Warning--empty address in kaptein2012rethinking
+Warning--empty publisher in kay2016researcher
+Warning--empty address in kay2016researcher
+Warning--empty address in klein2007dataFrame
+Warning--no number and no volume in sumsofsquaresBlog
+Warning--page numbers missing in both pages and numpages fields in sumsofsquaresBlog
+Warning--empty address in kreft1998introducing
+Warning--empty organization in tidymodels
+Warning--no number and no volume in H2OAutoML20
+Warning--page numbers missing in both pages and numpages fields in H2OAutoML20
+Warning--no number and no volume in liu2019paths
+Warning--page numbers missing in both pages and numpages fields in liu2019paths
+Warning--can't use both volume and number fields in lloyd2014automatic
+Warning--empty publisher in lloyd2014automatic
+Warning--empty address in lloyd2014automatic
+Warning--page numbers missing in both pages and numpages fields in lloyd2014automatic
+Warning--empty publisher in mackay2007touchstone
+Warning--empty address in mackay2007touchstone
+Warning--no journal in glmmtmbRef
+Warning--no number and no volume in glmmtmbRef
+Warning--page numbers missing in both pages and numpages fields in glmmtmbRef
+Warning--empty address in mcelreath2020statistical
+Warning--empty year in mplus
+Warning--can't use both volume and number fields in newell1972humanProblemSolving
+Warning--empty address in newell1972humanProblemSolving
+Warning--empty address in norman2013doet
+Warning--empty address in oliphant2006numpy
+Warning--empty publisher in panchekha2018verifying
+Warning--empty address in panchekha2018verifying
+Warning--page numbers missing in both pages and numpages fields in pearl2000models
+Warning--no journal in statsmodelsRef
+Warning--no number and no volume in statsmodelsRef
+Warning--page numbers missing in both pages and numpages fields in statsmodelsRef
+Warning--no number and no volume in pfannkuch1997statistical
+Warning--no journal in nlmeRef
+Warning--no number and no volume in nlmeRef
+Warning--page numbers missing in both pages and numpages fields in nlmeRef
+Warning--empty publisher in pirolli2005sensemaking
+Warning--empty address in pirolli2005sensemaking
+Warning--no number and no volume in prabhu2019:topPython
+Warning--page numbers missing in both pages and numpages fields in prabhu2019:topPython
+Warning--no journal in mass
+Warning--no number and no volume in mass
+Warning--page numbers missing in both pages and numpages fields in mass
+Warning--empty publisher in russell1993cost
+Warning--empty address in russell1993cost
+Warning--empty publisher in salimi2020causal
+Warning--empty address in salimi2020causal
+Warning--empty publisher in schunn1995FourSpace
+Warning--empty address in schunn1995FourSpace
+Warning--empty publisher in schunn1996BeyondTwoSpace
+Warning--empty address in schunn1996BeyondTwoSpace
+Warning--empty publisher in statsmodelsPaper
+Warning--empty address in statsmodelsPaper
+Warning--no journal in spirtes1994conditional
+Warning--no number and no volume in spirtes1994conditional
+Warning--page numbers missing in both pages and numpages fields in spirtes1994conditional
+Warning--no number and no volume in spirtes1996using
+Warning--page numbers missing in both pages and numpages fields in spirtes1996using
+Warning--no number and no volume in suzuki2020causal
+Warning--empty publisher in swearngin2018scout
+Warning--empty address in swearngin2018scout
+Warning--no journal in team2013r
+Warning--no number and no volume in team2013r
+Warning--page numbers missing in both pages and numpages fields in team2013r
+Warning--no number and no volume in statsCoreRRef
+Warning--page numbers missing in both pages and numpages fields in statsCoreRRef
+Warning--no journal in matlabStats
+Warning--no number and no volume in matlabStats
+Warning--page numbers missing in both pages and numpages fields in matlabStats
+Warning--empty publisher in autoweka
+Warning--empty address in autoweka
+Warning--empty address in vandaele1987participation
+Warning--no journal in velentgas2013developing
+Warning--no number and no volume in velentgas2013developing
+Warning--page numbers missing in both pages and numpages fields in velentgas2013developing
+Warning--empty address in venables2013modern
+Warning--empty publisher in verou2018extending
+Warning--empty address in verou2018extending
+Warning--empty publisher in wacharamanotham2015statsplorer
+Warning--empty address in wacharamanotham2015statsplorer
+Warning--no number and no volume in wongsuphasawat2019EDAgoals
+Warning--page numbers missing in both pages and numpages fields in wongsuphasawat2019EDAgoals
+You've used 154 entries,
             5719 wiz_defined-function locations,
-            1511 strings with 18027 characters,
-and the built_in function-call counts, 105 in all, are:
-= -- 0
-> -- 0
+            2125 strings with 42402 characters,
+and the built_in function-call counts, 167885 in all, are:
+= -- 21043
+> -- 6662
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 14
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 1
-empty$ -- 1
-format.name$ -- 0
-if$ -- 2
-int.to.chr$ -- 2
++ -- 2185
+- -- 2339
+* -- 12008
+:= -- 17918
+add.period$ -- 791
+call.type$ -- 154
+change.case$ -- 1062
+chr.to.int$ -- 144
+cite$ -- 326
+duplicate$ -- 14289
+empty$ -- 10128
+format.name$ -- 2707
+if$ -- 40049
+int.to.chr$ -- 12
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 40
-num.names$ -- 0
-pop$ -- 1
+missing$ -- 494
+newline$ -- 1445
+num.names$ -- 1224
+pop$ -- 5444
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 2416
 quote$ -- 0
-skip$ -- 1
+skip$ -- 4902
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 11508
+swap$ -- 1334
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 3185
+warning$ -- 172
+while$ -- 1146
 width$ -- 0
-write$ -- 39
+write$ -- 2796
 (There was 1 error message)

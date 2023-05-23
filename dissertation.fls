@@ -1602,7 +1602,6 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm
 INPUT ./tea/related_work.tex
 INPUT tea/related_work.tex
 INPUT ./tea/related_work.tex
@@ -1637,6 +1636,7 @@ INPUT tea/tea_results.tex
 INPUT ./tea/tea_results.tex
 INPUT tea/tea_results.tex
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecti0900.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
 INPUT ./07-hypothesisFormalization.tex
 INPUT ./07-hypothesisFormalization.tex

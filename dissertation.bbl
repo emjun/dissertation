@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{0}
+\begin{thebibliography}{154}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -36,5 +36,1995 @@
 \providecommand\bibinfo[2]{#2}
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Alspaugh, Zokaei, Liu, Jin, and
+  Hearst}{Alspaugh et~al\mbox{.}}{2018}]%
+        {alspaugh2018futzing}
+\bibfield{author}{\bibinfo{person}{Sara Alspaugh}, \bibinfo{person}{Nava
+  Zokaei}, \bibinfo{person}{Andrea Liu}, \bibinfo{person}{Cindy Jin}, {and}
+  \bibinfo{person}{Marti~A Hearst}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Futzing and moseying: Interviews with professional
+  data analysts on exploration practices}.
+\newblock \bibinfo{journal}{\emph{IEEE transactions on visualization and
+  computer graphics}} \bibinfo{volume}{25}, \bibinfo{number}{1}
+  (\bibinfo{year}{2018}), \bibinfo{pages}{22--31}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Association et~al\mbox{.}}{Association
+  et~al\mbox{.}}{1983}]%
+        {american1983publication}
+\bibfield{author}{\bibinfo{person}{American~Psychological Association}
+  {et~al\mbox{.}}} \bibinfo{year}{1983}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Publication manual}}.
+\newblock \bibinfo{publisher}{American Psychological Association Washington,
+  DC}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bakshy, Eckles, and Bernstein}{Bakshy
+  et~al\mbox{.}}{2014}]%
+        {bakshy2014planout}
+\bibfield{author}{\bibinfo{person}{Eytan Bakshy}, \bibinfo{person}{Dean
+  Eckles}, {and} \bibinfo{person}{Michael~S Bernstein}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Designing and deploying online field experiments}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the 23rd international conference
+  on World wide web}}. ACM, \bibinfo{pages}{283--292}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Barr}{Barr}{2013}]%
+        {barr2013randomUpdated}
+\bibfield{author}{\bibinfo{person}{Dale~J Barr}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Random effects structure for testing interactions
+  in linear mixed-effects models}.
+\newblock \bibinfo{journal}{\emph{Frontiers in psychology}}
+  \bibinfo{volume}{4} (\bibinfo{year}{2013}), \bibinfo{pages}{328}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Barr, Levy, Scheepers, and Tily}{Barr
+  et~al\mbox{.}}{2013}]%
+        {barr2013random}
+\bibfield{author}{\bibinfo{person}{Dale~J Barr}, \bibinfo{person}{Roger Levy},
+  \bibinfo{person}{Christoph Scheepers}, {and} \bibinfo{person}{Harry~J Tily}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Random effects structure for confirmatory
+  hypothesis testing: Keep it maximal}.
+\newblock \bibinfo{journal}{\emph{Journal of memory and language}}
+  \bibinfo{volume}{68}, \bibinfo{number}{3} (\bibinfo{year}{2013}),
+  \bibinfo{pages}{255--278}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bates, M{\"a}chler, Bolker, and Walker}{Bates
+  et~al\mbox{.}}{2014}]%
+        {bates2014fittingLme4}
+\bibfield{author}{\bibinfo{person}{Douglas Bates}, \bibinfo{person}{Martin
+  M{\"a}chler}, \bibinfo{person}{Ben Bolker}, {and} \bibinfo{person}{Steve
+  Walker}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Fitting linear mixed-effects models using lme4}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1406.5823}}
+  (\bibinfo{year}{2014}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bates, M{\"a}chler, Bolker, Walker,
+  Christensen, Singmann, Dai, Scheipl, Grothendieck, Green, and Fox}{Bates
+  et~al\mbox{.}}{2019}]%
+        {bates2014lme4Ref}
+\bibfield{author}{\bibinfo{person}{Douglas Bates}, \bibinfo{person}{Martin
+  M{\"a}chler}, \bibinfo{person}{Ben Bolker}, \bibinfo{person}{Steve Walker},
+  \bibinfo{person}{Rune~H.B. Christensen}, \bibinfo{person}{Henrik Singmann},
+  \bibinfo{person}{Bin Dai}, \bibinfo{person}{Fabian Scheipl},
+  \bibinfo{person}{Gabor Grothendieck}, \bibinfo{person}{Peter Green}, {and}
+  \bibinfo{person}{John Fox}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Package `lme4`}.
+\newblock \bibinfo{journal}{\emph{CRAN}} (\bibinfo{year}{2019}).
+\newblock
+\urldef\tempurl%
+\url{"https://cran.r-project.org/web/packages/lme4/lme4.pdf"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Battle and Heer}{Battle and Heer}{2019}]%
+        {battle2019EVA}
+\bibfield{author}{\bibinfo{person}{Leilani Battle} {and}
+  \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Characterizing Exploratory Visual Analysis: A
+  Literature Review and Evaluation of Analytic Provenance in Tableau}.
+\newblock \bibinfo{journal}{\emph{Computer Graphics Forum (Proc. EuroVis)}}
+  (\bibinfo{year}{2019}).
+\newblock
+\urldef\tempurl%
+\url{"http://idl.cs.washington.edu/papers/exploratory-visual-analysis"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bertin}{Bertin}{2011}]%
+        {bertin2011graphics}
+\bibfield{author}{\bibinfo{person}{Jacques Bertin}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Graphics and graphic information
+  processing}}.
+\newblock \bibinfo{publisher}{Walter de Gruyter}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Blair, Cooper, Coppock, and Humphreys}{Blair
+  et~al\mbox{.}}{2019}]%
+        {blair2019declaring}
+\bibfield{author}{\bibinfo{person}{Graeme Blair}, \bibinfo{person}{Jasper
+  Cooper}, \bibinfo{person}{Alexander Coppock}, {and} \bibinfo{person}{Macartan
+  Humphreys}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Declaring and diagnosing research designs}.
+\newblock \bibinfo{journal}{\emph{American Political Science Review}}
+  \bibinfo{volume}{113}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{838--859}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bobriakov}{Bobriakov}{2017}]%
+        {bobriakov2017:top15Python}
+\bibfield{author}{\bibinfo{person}{Igor Bobriakov}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Top 15 Python Libraries for Data Science in 2017}.
+\newblock \bibinfo{journal}{\emph{ActiveWizards in Medium}}
+  (\bibinfo{year}{2017}).
+\newblock
+\urldef\tempurl%
+\url{"https://medium.com/activewizards-machine-learning-company/top-15-python-libraries-for-data-science-in-in-2017-ab61b4f9b4a7"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bobriakov}{Bobriakov}{2018}]%
+        {bobriakov2018:top20Python}
+\bibfield{author}{\bibinfo{person}{Igor Bobriakov}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Top 20 Python libraries for data science in 2018}.
+\newblock \bibinfo{journal}{\emph{ActiveWizards in Medium}}
+  (\bibinfo{year}{2018}).
+\newblock
+\urldef\tempurl%
+\url{"https://medium.com/activewizards-machine-learning-company/top-20-python-libraries-for-data-science-in-2018-2ae7d1db8049"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bolker, Brooks, Clark, Geange, Poulsen,
+  Stevens, and White}{Bolker et~al\mbox{.}}{2009}]%
+        {bolker2009generalized}
+\bibfield{author}{\bibinfo{person}{Benjamin~M Bolker},
+  \bibinfo{person}{Mollie~E Brooks}, \bibinfo{person}{Connie~J Clark},
+  \bibinfo{person}{Shane~W Geange}, \bibinfo{person}{John~R Poulsen},
+  \bibinfo{person}{M~Henry~H Stevens}, {and} \bibinfo{person}{Jada-Simone~S
+  White}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Generalized linear mixed models: a practical guide
+  for ecology and evolution}.
+\newblock \bibinfo{journal}{\emph{Trends in ecology \& evolution}}
+  \bibinfo{volume}{24}, \bibinfo{number}{3} (\bibinfo{year}{2009}),
+  \bibinfo{pages}{127--135}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Breiman, Cutler, Liaw, and Wiener}{Breiman
+  et~al\mbox{.}}{2018}]%
+        {randomForestR}
+\bibfield{author}{\bibinfo{person}{Leo Breiman}, \bibinfo{person}{Adele
+  Cutler}, \bibinfo{person}{Andy Liaw}, {and} \bibinfo{person}{Matthew
+  Wiener}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Package ‘randomForest`}.
+\newblock  (\bibinfo{year}{2018}).
+\newblock
+\urldef\tempurl%
+\url{"https://cran.r-project.org/web/packages/randomForest/randomForest.pdf"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Brooks, Kristensen, van Benthem, Magnusson,
+  Berg, Nielsen, Skaug, Machler, and Bolker}{Brooks et~al\mbox{.}}{2017}]%
+        {glmmtmbPaper}
+\bibfield{author}{\bibinfo{person}{Mollie~E Brooks}, \bibinfo{person}{Kasper
+  Kristensen}, \bibinfo{person}{Koen~J van Benthem}, \bibinfo{person}{Arni
+  Magnusson}, \bibinfo{person}{Casper~W Berg}, \bibinfo{person}{Anders
+  Nielsen}, \bibinfo{person}{Hans~J Skaug}, \bibinfo{person}{Martin Machler},
+  {and} \bibinfo{person}{Benjamin~M Bolker}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{glmmTMB balances speed and flexibility among
+  packages for zero-inflated generalized linear mixed modeling}.
+\newblock \bibinfo{journal}{\emph{The R journal}} \bibinfo{volume}{9},
+  \bibinfo{number}{2} (\bibinfo{year}{2017}), \bibinfo{pages}{378--400}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bruin}{Bruin}{2019}]%
+        {ucla:whatstat}
+\bibfield{author}{\bibinfo{person}{J. Bruin}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Choosing the Correct Statistical Test in SAS, Stata,
+  SPSS and R}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://stats.idre.ucla.edu/other/mult-pkg/whatstat/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Buitinck, Louppe, Blondel, Pedregosa, Mueller,
+  Grisel, Niculae, Prettenhofer, Gramfort, Grobler, et~al\mbox{.}}{Buitinck
+  et~al\mbox{.}}{2013}]%
+        {scikitAPIPaper}
+\bibfield{author}{\bibinfo{person}{Lars Buitinck}, \bibinfo{person}{Gilles
+  Louppe}, \bibinfo{person}{Mathieu Blondel}, \bibinfo{person}{Fabian
+  Pedregosa}, \bibinfo{person}{Andreas Mueller}, \bibinfo{person}{Olivier
+  Grisel}, \bibinfo{person}{Vlad Niculae}, \bibinfo{person}{Peter
+  Prettenhofer}, \bibinfo{person}{Alexandre Gramfort}, \bibinfo{person}{Jaques
+  Grobler}, {et~al\mbox{.}}} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{API design for machine learning software:
+  experiences from the scikit-learn project}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1309.0238}}
+  (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{B{\"u}rkner et~al\mbox{.}}{B{\"u}rkner
+  et~al\mbox{.}}{2017}]%
+        {burkner2017brms}
+\bibfield{author}{\bibinfo{person}{Paul-Christian B{\"u}rkner} {et~al\mbox{.}}}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{brms: An R package for Bayesian multilevel models
+  using Stan}.
+\newblock \bibinfo{journal}{\emph{Journal of statistical software}}
+  \bibinfo{volume}{80}, \bibinfo{number}{1} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{1--28}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{B{\"u}rkner and Buerkner}{B{\"u}rkner and
+  Buerkner}{2016}]%
+        {brmsRef}
+\bibfield{author}{\bibinfo{person}{Paul-Christian B{\"u}rkner} {and}
+  \bibinfo{person}{Maintainer Paul-Christian Buerkner}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Package ‘brms’}.
+\newblock  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Carpenter, Gelman, D.~Hoffman, Lee, Goodrich,
+  Betancourt, Brubaker, Guo, Li, and Riddell}{Carpenter et~al\mbox{.}}{2017}]%
+        {stan}
+\bibfield{author}{\bibinfo{person}{Bob Carpenter}, \bibinfo{person}{Andrew
+  Gelman}, \bibinfo{person}{Matthew D.~Hoffman}, \bibinfo{person}{Daniel Lee},
+  \bibinfo{person}{Ben Goodrich}, \bibinfo{person}{Michael Betancourt},
+  \bibinfo{person}{Marcus Brubaker}, \bibinfo{person}{Jiqiang Guo},
+  \bibinfo{person}{Peter Li}, {and} \bibinfo{person}{Allen Riddell}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Stan : A Probabilistic Programming Language}.
+\newblock \bibinfo{journal}{\emph{Journal of Statistical Software}}
+  \bibinfo{volume}{76} (\bibinfo{date}{01} \bibinfo{year}{2017}).
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18637/jss.v076.i01}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Carver, Everson, Gabrosek, Horton, Lock,
+  Mocko, Rossman, Roswell, Velleman, Witmer, et~al\mbox{.}}{Carver
+  et~al\mbox{.}}{2016}]%
+        {carver2016guidelines}
+\bibfield{author}{\bibinfo{person}{Robert Carver}, \bibinfo{person}{Michelle
+  Everson}, \bibinfo{person}{John Gabrosek}, \bibinfo{person}{Nicholas Horton},
+  \bibinfo{person}{Robin Lock}, \bibinfo{person}{Megan Mocko},
+  \bibinfo{person}{Allan Rossman}, \bibinfo{person}{Ginger~Holmes Roswell},
+  \bibinfo{person}{Paul Velleman}, \bibinfo{person}{Jeffrey Witmer},
+  {et~al\mbox{.}}} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Guidelines for assessment and instruction in
+  statistics education (GAISE) college report 2016}.
+\newblock  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chen, Lun, McCarthy, Ritchie, Phipson, Hu,
+  Zhou, Robinson, and Smyth}{Chen et~al\mbox{.}}{2020a}]%
+        {edgeROverview}
+\bibfield{author}{\bibinfo{person}{Yunshun Chen}, \bibinfo{person}{Aaron~TL
+  Lun}, \bibinfo{person}{Davis~J McCarthy}, \bibinfo{person}{Matthew~E
+  Ritchie}, \bibinfo{person}{Belinda Phipson}, \bibinfo{person}{Yifang Hu},
+  \bibinfo{person}{Xiaobei Zhou}, \bibinfo{person}{Mark~D Robinson}, {and}
+  \bibinfo{person}{Gordon~K Smyth}.} \bibinfo{year}{2020}\natexlab{a}.
+\newblock \showarticletitle{Empirical Analysis of Digital Gene Expression Data
+  in R (v3.30.3)}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{"https://bioconductor.org/packages/release/bioc/html/edgeR.html"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Chen, McCarthy, Ritchie, Robinson, and
+  Smyth}{Chen et~al\mbox{.}}{2020b}]%
+        {edgeRUsersGuide}
+\bibfield{author}{\bibinfo{person}{Yunshun Chen}, \bibinfo{person}{David
+  McCarthy}, \bibinfo{person}{Matthew Ritchie}, \bibinfo{person}{Mark
+  Robinson}, {and} \bibinfo{person}{Gordon Smyth}.}
+  \bibinfo{year}{2020}\natexlab{b}.
+\newblock \showarticletitle{edgeR: differential analysisof sequence read count
+  data}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{"https://bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Chollet et~al\mbox{.}}{Chollet
+  et~al\mbox{.}}{2015}]%
+        {keras}
+\bibfield{author}{\bibinfo{person}{Fran\c{c}ois Chollet} {et~al\mbox{.}}}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{title}{Keras}.
+\newblock \bibinfo{howpublished}{\url{https://keras.io}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Clark}{Clark}{1973}]%
+        {clark1973language}
+\bibfield{author}{\bibinfo{person}{Herbert~H Clark}.}
+  \bibinfo{year}{1973}\natexlab{}.
+\newblock \showarticletitle{The language-as-fixed-effect fallacy: A critique of
+  language statistics in psychological research}.
+\newblock \bibinfo{journal}{\emph{Journal of verbal learning and verbal
+  behavior}} \bibinfo{volume}{12}, \bibinfo{number}{4} (\bibinfo{year}{1973}),
+  \bibinfo{pages}{335--359}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cohen}{Cohen}{1988}]%
+        {cohen1988statistical}
+\bibfield{author}{\bibinfo{person}{Jacob Cohen}.}
+  \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Statistical power analysis for the social
+  sciences}.
+\newblock  (\bibinfo{year}{1988}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cohen, Cohen, West, and Aiken}{Cohen
+  et~al\mbox{.}}{2013}]%
+        {cohen2013applied}
+\bibfield{author}{\bibinfo{person}{Jacob Cohen}, \bibinfo{person}{Patricia
+  Cohen}, \bibinfo{person}{Stephen~G West}, {and} \bibinfo{person}{Leona~S
+  Aiken}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Applied multiple regression/correlation
+  analysis for the behavioral sciences}}.
+\newblock \bibinfo{publisher}{Routledge}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Community}{Community}{[n. d.]}]%
+        {plotlyDash}
+\bibfield{author}{\bibinfo{person}{Plotly~Dash Community}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{Plotly Dash}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://plotly.com/dash/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{De~Leeuw}{De~Leeuw}{2015}]%
+        {deLeeuw2015jspsych}
+\bibfield{author}{\bibinfo{person}{Joshua~R De~Leeuw}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{jsPsych: A JavaScript library for creating
+  behavioral experiments in a Web browser}.
+\newblock \bibinfo{journal}{\emph{Behavior research methods}}
+  \bibinfo{volume}{47}, \bibinfo{number}{1} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{1--12}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{De~Moura and Bj{\o}rner}{De~Moura and
+  Bj{\o}rner}{2008}]%
+        {de2008z3}
+\bibfield{author}{\bibinfo{person}{Leonardo De~Moura} {and}
+  \bibinfo{person}{Nikolaj Bj{\o}rner}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Z3: An efficient SMT solver}. In
+  \bibinfo{booktitle}{\emph{International conference on Tools and Algorithms
+  for the Construction and Analysis of Systems}}. Springer,
+  \bibinfo{pages}{337--340}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Efron}{Efron}{1992}]%
+        {efron1992bootstrap}
+\bibfield{author}{\bibinfo{person}{Bradley Efron}.}
+  \bibinfo{year}{1992}\natexlab{}.
+\newblock \showarticletitle{Bootstrap methods: another look at the jackknife}.
+\newblock In \bibinfo{booktitle}{\emph{Breakthroughs in statistics}}.
+  \bibinfo{publisher}{Springer}, \bibinfo{pages}{569--593}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ehrlich}{Ehrlich}{1973}]%
+        {ehrlich1973participation}
+\bibfield{author}{\bibinfo{person}{Isaac Ehrlich}.}
+  \bibinfo{year}{1973}\natexlab{}.
+\newblock \showarticletitle{Participation in illegitimate activities: A
+  theoretical and empirical investigation}.
+\newblock \bibinfo{journal}{\emph{Journal of political Economy}}
+  \bibinfo{volume}{81}, \bibinfo{number}{3} (\bibinfo{year}{1973}),
+  \bibinfo{pages}{521--565}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Eiselmayer, Wacharamanotham, Beaudouin-Lafon,
+  and Mackay}{Eiselmayer et~al\mbox{.}}{2019}]%
+        {eiselmayer2019touchstone2}
+\bibfield{author}{\bibinfo{person}{Alexander Eiselmayer},
+  \bibinfo{person}{Chatchavan Wacharamanotham}, \bibinfo{person}{Michel
+  Beaudouin-Lafon}, {and} \bibinfo{person}{Wendy Mackay}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Touchstone2: An Interactive Environment for
+  Exploring Trade-offs in HCI Experiment Design}.
+\newblock  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Feigenspan, K{\"a}stner, Liebig, Apel, and
+  Hanenberg}{Feigenspan et~al\mbox{.}}{2012}]%
+        {feigenspan2012measuring}
+\bibfield{author}{\bibinfo{person}{Janet Feigenspan},
+  \bibinfo{person}{Christian K{\"a}stner}, \bibinfo{person}{J{\"o}rg Liebig},
+  \bibinfo{person}{Sven Apel}, {and} \bibinfo{person}{Stefan Hanenberg}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Measuring programming experience}. In
+  \bibinfo{booktitle}{\emph{2012 20th IEEE International Conference on Program
+  Comprehension (ICPC)}}. IEEE, \bibinfo{pages}{73--82}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Feurer, Klein, Eggensperger, Springenberg,
+  Blum, and Hutter}{Feurer et~al\mbox{.}}{2015}]%
+        {autosklearn}
+\bibfield{author}{\bibinfo{person}{Matthias Feurer}, \bibinfo{person}{Aaron
+  Klein}, \bibinfo{person}{Katharina Eggensperger}, \bibinfo{person}{Jost
+  Springenberg}, \bibinfo{person}{Manuel Blum}, {and} \bibinfo{person}{Frank
+  Hutter}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Efficient and Robust Automated Machine Learning}.
+  In \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
+  Systems}}, \bibfield{editor}{\bibinfo{person}{C.~Cortes},
+  \bibinfo{person}{N.~Lawrence}, \bibinfo{person}{D.~Lee},
+  \bibinfo{person}{M.~Sugiyama}, {and} \bibinfo{person}{R.~Garnett}} (Eds.),
+  Vol.~\bibinfo{volume}{28}. \bibinfo{publisher}{Curran Associates, Inc.}
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.neurips.cc/paper/2015/file/11d0e6287202fced83f79975ec59a3a6-Paper.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Field, Miles, and Field}{Field
+  et~al\mbox{.}}{2012}]%
+        {field2012discoveringR}
+\bibfield{author}{\bibinfo{person}{Andy Field}, \bibinfo{person}{Jeremy Miles},
+  {and} \bibinfo{person}{Zo{\"e} Field}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Discovering statistics using R}}.
+\newblock \bibinfo{publisher}{Sage publications}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fisher}{Fisher}{1937}]%
+        {fisher1937design}
+\bibfield{author}{\bibinfo{person}{Ronald~Aylmer Fisher}.}
+  \bibinfo{year}{1937}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The design of experiments}}.
+\newblock \bibinfo{publisher}{Oliver And Boyd; Edinburgh; London}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Friedman, Hastie, Tibshirani, Narasimhan, Tay,
+  Simon, and Qian}{Friedman et~al\mbox{.}}{2020}]%
+        {glmnetRef}
+\bibfield{author}{\bibinfo{person}{Jerome Friedman}, \bibinfo{person}{Trevor
+  Hastie}, \bibinfo{person}{Rob Tibshirani}, \bibinfo{person}{Balasubramanian
+  Narasimhan}, \bibinfo{person}{Kenneth Tay}, \bibinfo{person}{Noah Simon},
+  {and} \bibinfo{person}{Junyang Qian}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Package ‘glmnet`}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{"https://cran.r-project.org/web/packages/glmnet/index.html"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gabry, Simpson, Vehtari, Betancourt, and
+  Gelman}{Gabry et~al\mbox{.}}{2019}]%
+        {gabry2019visualization}
+\bibfield{author}{\bibinfo{person}{Jonah Gabry}, \bibinfo{person}{Daniel
+  Simpson}, \bibinfo{person}{Aki Vehtari}, \bibinfo{person}{Michael
+  Betancourt}, {and} \bibinfo{person}{Andrew Gelman}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Visualization in Bayesian workflow}.
+\newblock \bibinfo{journal}{\emph{Journal of the Royal Statistical Society:
+  Series A (Statistics in Society)}} \bibinfo{volume}{182}, \bibinfo{number}{2}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{389--402}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gelman}{Gelman}{2005}]%
+        {gelmanFixedRandom}
+\bibfield{author}{\bibinfo{person}{Andrew Gelman}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \bibinfo{title}{Why I don’t use the term “fixed and random
+  effects”}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://statmodeling.stat.columbia.edu/2005/01/25/why_i_dont_use/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Gelman and Hill}{Gelman and Hill}{2006}]%
+        {gelmanHill2006regression}
+\bibfield{author}{\bibinfo{person}{Andrew Gelman} {and}
+  \bibinfo{person}{Jennifer Hill}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Data analysis using regression and
+  multilevel/hierarchical models}}.
+\newblock \bibinfo{publisher}{Cambridge university press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gelman and Loken}{Gelman and Loken}{2013}]%
+        {gelman2013garden}
+\bibfield{author}{\bibinfo{person}{Andrew Gelman} {and} \bibinfo{person}{Eric
+  Loken}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{The garden of forking paths: Why multiple
+  comparisons can be a problem, even when there is no “fishing expedition”
+  or “p-hacking” and the research hypothesis was posited ahead of time}.
+\newblock \bibinfo{journal}{\emph{Department of Statistics, Columbia
+  University}} (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{GraphPad~Software}{GraphPad~Software}{2020}]%
+        {graphPadUserGuide}
+\bibfield{author}{\bibinfo{person}{LLC. GraphPad~Software}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{GraphPad Prism 8 User Guide}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{"https://www.graphpad.com/guides/prism/8/user-guide/index.htm"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Greenland, Pearl, and Robins}{Greenland
+  et~al\mbox{.}}{1999}]%
+        {greenland1999causal}
+\bibfield{author}{\bibinfo{person}{Sander Greenland}, \bibinfo{person}{Judea
+  Pearl}, {and} \bibinfo{person}{James~M Robins}.}
+  \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Causal diagrams for epidemiologic research}.
+\newblock \bibinfo{journal}{\emph{Epidemiology}} (\bibinfo{year}{1999}),
+  \bibinfo{pages}{37--48}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Grolemund}{Grolemund}{2019}]%
+        {grolemund2019:recommendedR}
+\bibfield{author}{\bibinfo{person}{Garrett Grolemund}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Quick list of useful R packages}.
+\newblock \bibinfo{journal}{\emph{R Studio Support}} (\bibinfo{year}{2019}).
+\newblock
+\urldef\tempurl%
+\url{"https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Grolemund and Wickham}{Grolemund and
+  Wickham}{2014}]%
+        {grolemund2014cognitive}
+\bibfield{author}{\bibinfo{person}{Garrett Grolemund} {and}
+  \bibinfo{person}{Hadley Wickham}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{A cognitive interpretation of data analysis}.
+\newblock \bibinfo{journal}{\emph{International Statistical Review}}
+  \bibinfo{volume}{82}, \bibinfo{number}{2} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{184--204}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Guimbreti{\`e}re, Dixon, and
+  Hinckley}{Guimbreti{\`e}re et~al\mbox{.}}{2007}]%
+        {guimbretiere2007experiscope}
+\bibfield{author}{\bibinfo{person}{Fran{\c{c}}ois Guimbreti{\`e}re},
+  \bibinfo{person}{Morgan Dixon}, {and} \bibinfo{person}{Ken Hinckley}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{ExperiScope: an analysis tool for interaction
+  data}. In \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI conference on
+  Human factors in computing systems}}. ACM, \bibinfo{pages}{1333--1342}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hadfield}{Hadfield}{2020}]%
+        {MCMCglmmRef}
+\bibfield{author}{\bibinfo{person}{Jarrod Hadfield}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Package ‘MCMCglmm`}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{"https://cran.r-project.org/web/packages/MCMCglmm/MCMCglmm.pdf"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Hadfield et~al\mbox{.}}{Hadfield
+  et~al\mbox{.}}{2010}]%
+        {MCMCglmmPaper}
+\bibfield{author}{\bibinfo{person}{Jarrod~D Hadfield} {et~al\mbox{.}}}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{MCMC methods for multi-response generalized linear
+  mixed models: the MCMCglmm R package}.
+\newblock \bibinfo{journal}{\emph{Journal of Statistical Software}}
+  \bibinfo{volume}{33}, \bibinfo{number}{2} (\bibinfo{year}{2010}),
+  \bibinfo{pages}{1--22}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hastie and Qian}{Hastie and Qian}{2014}]%
+        {glmnetVignette}
+\bibfield{author}{\bibinfo{person}{Trevor Hastie} {and}
+  \bibinfo{person}{Junyang Qian}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Glmnet vignette}.
+\newblock  (\bibinfo{year}{2014}).
+\newblock
+\urldef\tempurl%
+\url{https://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Hempel, Lubin, and Chugh}{Hempel
+  et~al\mbox{.}}{2019}]%
+        {hempel2019sketch}
+\bibfield{author}{\bibinfo{person}{Brian Hempel}, \bibinfo{person}{Justin
+  Lubin}, {and} \bibinfo{person}{Ravi Chugh}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Sketch-n-Sketch: Output-Directed Programming for
+  SVG}. In \bibinfo{booktitle}{\emph{Proceedings of the 32nd Annual ACM
+  Symposium on User Interface Software and Technology}}.
+  \bibinfo{pages}{281--292}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hoffswell, Borning, and Heer}{Hoffswell
+  et~al\mbox{.}}{2018}]%
+        {hoffswell2018setcola}
+\bibfield{author}{\bibinfo{person}{Jane Hoffswell}, \bibinfo{person}{Alan
+  Borning}, {and} \bibinfo{person}{Jeffrey Heer}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{SetCoLa: High-Level Constraints for Graph Layout}.
+  In \bibinfo{booktitle}{\emph{Computer Graphics Forum}},
+  Vol.~\bibinfo{volume}{37}. Wiley Online Library, \bibinfo{pages}{537--548}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Holland, Holyoak, Nisbett, and
+  Thagard}{Holland et~al\mbox{.}}{1989}]%
+        {holland1989induction}
+\bibfield{author}{\bibinfo{person}{John~H Holland}, \bibinfo{person}{Keith~J
+  Holyoak}, \bibinfo{person}{Richard~E Nisbett}, {and} \bibinfo{person}{Paul~R
+  Thagard}.} \bibinfo{year}{1989}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Induction: Processes of inference,
+  learning, and discovery}}.
+\newblock \bibinfo{publisher}{MIT press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Holm}{Holm}{1979}]%
+        {holm1979simple}
+\bibfield{author}{\bibinfo{person}{Sture Holm}.}
+  \bibinfo{year}{1979}\natexlab{}.
+\newblock \showarticletitle{A simple sequentially rejective multiple test
+  procedure}.
+\newblock \bibinfo{journal}{\emph{Scandinavian journal of statistics}}
+  (\bibinfo{year}{1979}), \bibinfo{pages}{65--70}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hoyle}{Hoyle}{1995}]%
+        {hoyle1995SEM}
+\bibfield{author}{\bibinfo{person}{Rick~H Hoyle}.}
+  \bibinfo{year}{1995}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Structural equation modeling: Concepts,
+  issues, and applications}}.
+\newblock \bibinfo{publisher}{Sage}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Inc.}{Inc.}{2021}]%
+        {sas}
+\bibfield{author}{\bibinfo{person}{SAS~Institute Inc.}}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{SAS}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.sas.com/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Jolly}{Jolly}{2018}]%
+        {jolly2018pymer4}
+\bibfield{author}{\bibinfo{person}{Eshin Jolly}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Pymer4: connecting R and Python for linear mixed
+  modeling}.
+\newblock \bibinfo{journal}{\emph{Journal of Open Source Software}}
+  \bibinfo{volume}{3}, \bibinfo{number}{31} (\bibinfo{year}{2018}),
+  \bibinfo{pages}{862}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jones and Sall}{Jones and Sall}{2011}]%
+        {jones2011jmp}
+\bibfield{author}{\bibinfo{person}{Bradley Jones} {and} \bibinfo{person}{John
+  Sall}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{JMP statistical discovery software}.
+\newblock \bibinfo{journal}{\emph{Wiley Interdisciplinary Reviews:
+  Computational Statistics}} \bibinfo{volume}{3}, \bibinfo{number}{3}
+  (\bibinfo{year}{2011}), \bibinfo{pages}{188--194}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jones, Oliphant, Peterson,
+  et~al\mbox{.}}{Jones et~al\mbox{.}}{2021a}]%
+        {scipy}
+\bibfield{author}{\bibinfo{person}{Eric Jones}, \bibinfo{person}{Travis
+  Oliphant}, \bibinfo{person}{Pearu Peterson}, {et~al\mbox{.}}}
+  \bibinfo{year}{2001--2021}\natexlab{a}.
+\newblock \bibinfo{title}{{SciPy}: Open source scientific tools for {Python}}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{http://www.scipy.org/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Jones, Oliphant, Peterson,
+  et~al\mbox{.}}{Jones et~al\mbox{.}}{2021b}]%
+        {scipyStats}
+\bibfield{author}{\bibinfo{person}{Eric Jones}, \bibinfo{person}{Travis
+  Oliphant}, \bibinfo{person}{Pearu Peterson}, {et~al\mbox{.}}}
+  \bibinfo{year}{2001--2021}\natexlab{b}.
+\newblock \bibinfo{title}{{SciPy}: Open source scientific tools for {Python}}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://docs.scipy.org/doc/scipy/reference/stats.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Jones, Oliphant, Peterson,
+  et~al\mbox{.}}{Jones et~al\mbox{.}}{2021c}]%
+        {scipyOptimize}
+\bibfield{author}{\bibinfo{person}{Eric Jones}, \bibinfo{person}{Travis
+  Oliphant}, \bibinfo{person}{Pearu Peterson}, {et~al\mbox{.}}}
+  \bibinfo{year}{2001--2021}\natexlab{c}.
+\newblock \bibinfo{title}{{SciPy}: Open source scientific tools for {Python}}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://docs.scipy.org/doc/scipy/reference/optimize.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Jun, Birchfield, De~Moura, Heer, and Just}{Jun
+  et~al\mbox{.}}{2022}]%
+        {jun2021hypothesisFormalization}
+\bibfield{author}{\bibinfo{person}{Eunice Jun}, \bibinfo{person}{Melissa
+  Birchfield}, \bibinfo{person}{Nicole De~Moura}, \bibinfo{person}{Jeffrey
+  Heer}, {and} \bibinfo{person}{Rene Just}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Hypothesis Formalization: Empirical Findings,
+  Software Limitations, and Design Implications}. In
+  \bibinfo{booktitle}{\emph{ACM Transactions on Computer-Human Interaction
+  (TOCHI)}}, Vol.~\bibinfo{volume}{29}.
+\newblock
+Issue 1.
+\urldef\tempurl%
+\url{"https://arxiv.org/abs/2104.02712"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Jun, Daum, Roesch, Chasins, Berger, Just, and
+  Reinecke}{Jun et~al\mbox{.}}{2019}]%
+        {jun2019tea}
+\bibfield{author}{\bibinfo{person}{Eunice Jun}, \bibinfo{person}{Maureen Daum},
+  \bibinfo{person}{Jared Roesch}, \bibinfo{person}{Sarah~E Chasins},
+  \bibinfo{person}{Emery~D Berger}, \bibinfo{person}{Rene Just}, {and}
+  \bibinfo{person}{Katharina Reinecke}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Tea: A High-level Language and Runtime System for
+  Automating Statistical Analysis}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 32nd Annual Symposium on User Interface Software and Technology}}. ACM.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kabacoff}{Kabacoff}{2011}]%
+        {kabacoff2011action}
+\bibfield{author}{\bibinfo{person}{Robert~I Kabacoff}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{R: In Action}.
+\newblock  (\bibinfo{year}{2011}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kale, Kay, and Hullman}{Kale
+  et~al\mbox{.}}{2019}]%
+        {kale2019decision}
+\bibfield{author}{\bibinfo{person}{Alex Kale}, \bibinfo{person}{Matthew Kay},
+  {and} \bibinfo{person}{Jessica Hullman}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Decision-making under uncertainty in research
+  synthesis: Designing for the garden of forking paths}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--14}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kandel, Paepcke, Hellerstein, and Heer}{Kandel
+  et~al\mbox{.}}{2011}]%
+        {kandel2011wrangler}
+\bibfield{author}{\bibinfo{person}{Sean Kandel}, \bibinfo{person}{Andreas
+  Paepcke}, \bibinfo{person}{Joseph Hellerstein}, {and}
+  \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Wrangler: Interactive visual specification of data
+  transformation scripts}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  SIGCHI Conference on Human Factors in Computing Systems}}. ACM,
+  \bibinfo{pages}{3363--3372}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kandel, Paepcke, Hellerstein, and Heer}{Kandel
+  et~al\mbox{.}}{2012}]%
+        {kandel2012enterprise}
+\bibfield{author}{\bibinfo{person}{Sean Kandel}, \bibinfo{person}{Andreas
+  Paepcke}, \bibinfo{person}{Joseph~M Hellerstein}, {and}
+  \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Enterprise data analysis and visualization: An
+  interview study}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Visualization and
+  Computer Graphics}} \bibinfo{volume}{18}, \bibinfo{number}{12}
+  (\bibinfo{year}{2012}), \bibinfo{pages}{2917--2926}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kaptein and Robertson}{Kaptein and
+  Robertson}{2012}]%
+        {kaptein2012rethinking}
+\bibfield{author}{\bibinfo{person}{Maurits Kaptein} {and} \bibinfo{person}{Judy
+  Robertson}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Rethinking statistical analysis methods for CHI}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI Conference on Human
+  Factors in Computing Systems}}. ACM, \bibinfo{pages}{1105--1114}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kay, Nelson, and Hekler}{Kay
+  et~al\mbox{.}}{2016}]%
+        {kay2016researcher}
+\bibfield{author}{\bibinfo{person}{Matthew Kay}, \bibinfo{person}{Gregory~L
+  Nelson}, {and} \bibinfo{person}{Eric~B Hekler}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Researcher-centered design of statistics: Why
+  Bayesian statistics better fit the culture and incentives of HCI}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2016 CHI Conference on Human
+  Factors in Computing Systems}}. ACM, \bibinfo{pages}{4521--4532}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kayali, Salimi, and Suciu}{Kayali
+  et~al\mbox{.}}{2020}]%
+        {kayali2020demonstration}
+\bibfield{author}{\bibinfo{person}{Moe Kayali}, \bibinfo{person}{Babak Salimi},
+  {and} \bibinfo{person}{Dan Suciu}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Demonstration of inferring causality from
+  relational databases with CaRL}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the VLDB Endowment}}
+  \bibinfo{volume}{13}, \bibinfo{number}{12} (\bibinfo{year}{2020}),
+  \bibinfo{pages}{2985--2988}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kerr}{Kerr}{1998}]%
+        {kerr1998harking}
+\bibfield{author}{\bibinfo{person}{Norbert~L Kerr}.}
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{HARKing: Hypothesizing after the results are
+  known}.
+\newblock \bibinfo{journal}{\emph{Personality and social psychology review}}
+  \bibinfo{volume}{2}, \bibinfo{number}{3} (\bibinfo{year}{1998}),
+  \bibinfo{pages}{196--217}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Klahr and Dunbar}{Klahr and Dunbar}{1988}]%
+        {klahr1988dual}
+\bibfield{author}{\bibinfo{person}{David Klahr} {and} \bibinfo{person}{Kevin
+  Dunbar}.} \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Dual space search during scientific reasoning}.
+\newblock \bibinfo{journal}{\emph{Cognitive science}} \bibinfo{volume}{12},
+  \bibinfo{number}{1} (\bibinfo{year}{1988}), \bibinfo{pages}{1--48}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Klahr and Simon}{Klahr and Simon}{1999}]%
+        {klahr1999studies}
+\bibfield{author}{\bibinfo{person}{David Klahr} {and}
+  \bibinfo{person}{Herbert~A Simon}.} \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Studies of scientific discovery: Complementary
+  approaches and convergent findings.}
+\newblock \bibinfo{journal}{\emph{Psychological Bulletin}}
+  \bibinfo{volume}{125}, \bibinfo{number}{5} (\bibinfo{year}{1999}),
+  \bibinfo{pages}{524}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Klein, Phillips, Rall, and Peluso}{Klein
+  et~al\mbox{.}}{2007}]%
+        {klein2007dataFrame}
+\bibfield{author}{\bibinfo{person}{Gary Klein}, \bibinfo{person}{Jennifer~K
+  Phillips}, \bibinfo{person}{Erica~L Rall}, {and} \bibinfo{person}{Deborah~A
+  Peluso}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{A data--frame theory of sensemaking}.
+\newblock In \bibinfo{booktitle}{\emph{Expertise out of context}}.
+  \bibinfo{publisher}{Psychology Press}, \bibinfo{pages}{118--160}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Klemmer and Wobbrock}{Klemmer and
+  Wobbrock}{2019}]%
+        {klemmerCoursera}
+\bibfield{author}{\bibinfo{person}{Scott Klemmer} {and} \bibinfo{person}{Jacob
+  Wobbrock}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{Designing, Running, and Analyzing Experiments}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.coursera.org/learn/designexperiments}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Korstanje}{Korstanje}{2019}]%
+        {sumsofsquaresBlog}
+\bibfield{author}{\bibinfo{person}{Joos Korstanje}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{"ANOVA’s three types of estimating Sums of
+  Squares: don’t make the wrong choice!"}.
+\newblock \bibinfo{journal}{\emph{Towards Data Science, Medium}}
+  (\bibinfo{year}{2019}).
+\newblock
+\urldef\tempurl%
+\url{"https://towardsdatascience.com/anovas-three-types-of-estimating-sums-of-squares-don-t-make-the-wrong-choice-91107c77a27a"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kreft, Kreft, and de~Leeuw}{Kreft
+  et~al\mbox{.}}{1998}]%
+        {kreft1998introducing}
+\bibfield{author}{\bibinfo{person}{Ita~GG Kreft}, \bibinfo{person}{Ita Kreft},
+  {and} \bibinfo{person}{Jan de Leeuw}.} \bibinfo{year}{1998}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Introducing multilevel modeling}}.
+\newblock \bibinfo{publisher}{Sage}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kuhn, Vaughan, and RStudio}{Kuhn
+  et~al\mbox{.}}{2020}]%
+        {parsnip}
+\bibfield{author}{\bibinfo{person}{Max Kuhn}, \bibinfo{person}{Davis Vaughan},
+  {and} \bibinfo{person}{RStudio}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{parsnip: A Common API to Modeling and Analysis
+  Functions}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{"https://parsnip.tidymodels.org/"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kuhn and Wickham}{Kuhn and Wickham}{2020}]%
+        {tidymodels}
+\bibfield{author}{\bibinfo{person}{Max Kuhn} {and} \bibinfo{person}{Hadley
+  Wickham}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Tidymodels: a collection of packages for
+  modeling and machine learning using tidyverse principles.}}
+\newblock
+\urldef\tempurl%
+\url{"https://www.tidymodels.org"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{LeDell and Poirier}{LeDell and
+  Poirier}{2020}]%
+        {H2OAutoML20}
+\bibfield{author}{\bibinfo{person}{Erin LeDell} {and}
+  \bibinfo{person}{Sebastien Poirier}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{{H2O} {A}uto{ML}: Scalable Automatic Machine
+  Learning}.
+\newblock \bibinfo{journal}{\emph{7th ICML Workshop on Automated Machine
+  Learning (AutoML)}} (\bibinfo{date}{July} \bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_61.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Libraries}{Libraries}{2019}]%
+        {kent:tutorials}
+\bibfield{author}{\bibinfo{person}{Kent State~University Libraries}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{title}{SPSS Tutorials: Analyzing Data}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://libguides.library.kent.edu/SPSS/AnalyzeData}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Liu, Boukhelifa, and Eagan}{Liu
+  et~al\mbox{.}}{2019b}]%
+        {liu2019understanding}
+\bibfield{author}{\bibinfo{person}{Jiali Liu}, \bibinfo{person}{Nadia
+  Boukhelifa}, {and} \bibinfo{person}{James~R Eagan}.}
+  \bibinfo{year}{2019}\natexlab{b}.
+\newblock \showarticletitle{Understanding the Role of Alternatives in Data
+  Analysis Practices}.
+\newblock \bibinfo{journal}{\emph{IEEE transactions on visualization and
+  computer graphics}} \bibinfo{volume}{26}, \bibinfo{number}{1}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{66--76}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Liu, Althoff, and Heer}{Liu
+  et~al\mbox{.}}{2019a}]%
+        {liu2019paths}
+\bibfield{author}{\bibinfo{person}{Yang Liu}, \bibinfo{person}{Tim Althoff},
+  {and} \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2019}\natexlab{a}.
+\newblock \showarticletitle{Paths Explored, Paths Omitted, Paths Obscured:
+  Decision Points \& Selective Reporting in End-to-End Data Analysis}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1910.13602}}
+  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{LLC}{LLC}{2020a}]%
+        {stataLang}
+\bibfield{author}{\bibinfo{person}{StataCorp LLC}.}
+  \bibinfo{year}{2020}\natexlab{a}.
+\newblock \bibinfo{title}{Language syntax}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.stata.com/manuals13/u11.pdf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{LLC}{LLC}{2020b}]%
+        {stataRef}
+\bibfield{author}{\bibinfo{person}{StataCorp LLC}.}
+  \bibinfo{year}{2020}\natexlab{b}.
+\newblock \bibinfo{title}{Stata 16 Documentation}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.stata.com/features/documentation/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Lloyd, Duvenaud, Grosse, Tenenbaum, and
+  Ghahramani}{Lloyd et~al\mbox{.}}{2014}]%
+        {lloyd2014automatic}
+\bibfield{author}{\bibinfo{person}{James Lloyd}, \bibinfo{person}{David
+  Duvenaud}, \bibinfo{person}{Roger Grosse}, \bibinfo{person}{Joshua
+  Tenenbaum}, {and} \bibinfo{person}{Zoubin Ghahramani}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Automatic construction and natural-language
+  description of nonparametric regression models}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}}, Vol.~\bibinfo{volume}{28}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lo and Andrews}{Lo and Andrews}{2015}]%
+        {lo2015transform}
+\bibfield{author}{\bibinfo{person}{Steson Lo} {and} \bibinfo{person}{Sally
+  Andrews}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{To transform or not to transform: Using generalized
+  linear mixed models to analyse reaction time data}.
+\newblock \bibinfo{journal}{\emph{Frontiers in psychology}}
+  \bibinfo{volume}{6} (\bibinfo{year}{2015}), \bibinfo{pages}{1171}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Loncaric, Torlak, and Ernst}{Loncaric
+  et~al\mbox{.}}{2016}]%
+        {loncaric2016cozy}
+\bibfield{author}{\bibinfo{person}{Calvin Loncaric}, \bibinfo{person}{Emina
+  Torlak}, {and} \bibinfo{person}{Michael~D Ernst}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Fast synthesis of fast collections}.
+\newblock \bibinfo{journal}{\emph{ACM SIGPLAN Notices}} \bibinfo{volume}{51},
+  \bibinfo{number}{6} (\bibinfo{year}{2016}), \bibinfo{pages}{355--368}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lunn, Thomas, Best, and Spiegelhalter}{Lunn
+  et~al\mbox{.}}{2000}]%
+        {bugs}
+\bibfield{author}{\bibinfo{person}{David~J. Lunn}, \bibinfo{person}{Andrew
+  Thomas}, \bibinfo{person}{Nicky Best}, {and} \bibinfo{person}{David
+  Spiegelhalter}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{WinBUGS - A Bayesian modelling framework: Concepts,
+  structure, and extensibility}.
+\newblock \bibinfo{journal}{\emph{Statistics and Computing}}
+  \bibinfo{volume}{10}, \bibinfo{number}{4} (\bibinfo{date}{01 Oct}
+  \bibinfo{year}{2000}), \bibinfo{pages}{325--337}.
+\newblock
+\showISSN{1573-1375}
+\urldef\tempurl%
+\url{https://doi.org/10.1023/A:1008929526011}
+\showDOI{\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Mackay, Appert, Beaudouin-Lafon, Chapuis, Du,
+  Fekete, and Guiard}{Mackay et~al\mbox{.}}{2007}]%
+        {mackay2007touchstone}
+\bibfield{author}{\bibinfo{person}{Wendy~E Mackay}, \bibinfo{person}{Caroline
+  Appert}, \bibinfo{person}{Michel Beaudouin-Lafon}, \bibinfo{person}{Olivier
+  Chapuis}, \bibinfo{person}{Yangzhou Du}, \bibinfo{person}{Jean-Daniel
+  Fekete}, {and} \bibinfo{person}{Yves Guiard}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Touchstone: exploratory design of experiments}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI conference on Human
+  factors in computing systems}}. ACM, \bibinfo{pages}{1425--1434}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Magnusson, Skaug, Nielsen, Berg, Kristensen,
+  Maechler, van Bentham, Bolker, Sadat, L{\"u}decke, Lenth, O'Brien, and
+  Brooks}{Magnusson et~al\mbox{.}}{2020}]%
+        {glmmtmbRef}
+\bibfield{author}{\bibinfo{person}{Arni Magnusson}, \bibinfo{person}{Hans
+  Skaug}, \bibinfo{person}{Anders Nielsen}, \bibinfo{person}{Casper Berg},
+  \bibinfo{person}{Kasper Kristensen}, \bibinfo{person}{Martin Maechler},
+  \bibinfo{person}{Koen van Bentham}, \bibinfo{person}{Ben Bolker},
+  \bibinfo{person}{Nafis Sadat}, \bibinfo{person}{Daniel L{\"u}decke},
+  \bibinfo{person}{Russ Lenth}, \bibinfo{person}{Joseph O'Brien}, {and}
+  \bibinfo{person}{Mollie Brooks}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Package ‘glmmTMB’}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{"https://cran.r-project.org/web/packages/glmmTMB/index.html"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{McElreath}{McElreath}{2020}]%
+        {mcelreath2020statistical}
+\bibfield{author}{\bibinfo{person}{Richard McElreath}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Statistical rethinking: A Bayesian course
+  with examples in R and Stan}}.
+\newblock \bibinfo{publisher}{CRC press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Moritz, Wang, Nelson, Lin, Smith, Howe, and
+  Heer}{Moritz et~al\mbox{.}}{2019}]%
+        {moritz2019formalizing}
+\bibfield{author}{\bibinfo{person}{Dominik Moritz}, \bibinfo{person}{Chenglong
+  Wang}, \bibinfo{person}{Greg~L Nelson}, \bibinfo{person}{Halden Lin},
+  \bibinfo{person}{Adam~M Smith}, \bibinfo{person}{Bill Howe}, {and}
+  \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Formalizing visualization design knowledge as
+  constraints: Actionable and extensible models in Draco}.
+\newblock \bibinfo{journal}{\emph{IEEE transactions on visualization and
+  computer graphics}} \bibinfo{volume}{25}, \bibinfo{number}{1}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{438--448}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Muthén}{Muthén}{[n. d.]}]%
+        {mplus}
+\bibfield{author}{\bibinfo{person}{Muthén~\& Muthén}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{MPlus}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.statmodel.com/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Nelder and Wedderburn}{Nelder and
+  Wedderburn}{1972}]%
+        {nelder1972generalized}
+\bibfield{author}{\bibinfo{person}{John~Ashworth Nelder} {and}
+  \bibinfo{person}{Robert~WM Wedderburn}.} \bibinfo{year}{1972}\natexlab{}.
+\newblock \showarticletitle{Generalized linear models}.
+\newblock \bibinfo{journal}{\emph{Journal of the Royal Statistical Society:
+  Series A (General)}} \bibinfo{volume}{135}, \bibinfo{number}{3}
+  (\bibinfo{year}{1972}), \bibinfo{pages}{370--384}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Newell, Simon, et~al\mbox{.}}{Newell
+  et~al\mbox{.}}{1972}]%
+        {newell1972humanProblemSolving}
+\bibfield{author}{\bibinfo{person}{Allen Newell},
+  \bibinfo{person}{Herbert~Alexander Simon}, {et~al\mbox{.}}}
+  \bibinfo{year}{1972}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Human problem solving}}.
+  Vol.~\bibinfo{volume}{104}.
+\newblock \bibinfo{publisher}{Prentice-Hall Englewood Cliffs, NJ}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Norman}{Norman}{2013}]%
+        {norman2013doet}
+\bibfield{author}{\bibinfo{person}{Don Norman}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The design of everyday things: Revised and
+  expanded edition}}.
+\newblock \bibinfo{publisher}{Basic books}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Norman}{Norman}{1986}]%
+        {norman1986cognitive}
+\bibfield{author}{\bibinfo{person}{Donald~A Norman}.}
+  \bibinfo{year}{1986}\natexlab{}.
+\newblock \showarticletitle{Cognitive engineering}.
+\newblock \bibinfo{journal}{\emph{User centered system design}}
+  \bibinfo{volume}{31} (\bibinfo{year}{1986}), \bibinfo{pages}{61}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{of~Amsterdam}{of~Amsterdam}{2020}]%
+        {jasp}
+\bibfield{author}{\bibinfo{person}{University of Amsterdam}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{JASP: A Fresh Way to do Statistics}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{"https://jasp-stats.org/"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Oliphant}{Oliphant}{2006}]%
+        {oliphant2006numpy}
+\bibfield{author}{\bibinfo{person}{Travis~E Oliphant}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{A guide to NumPy}}.
+  Vol.~\bibinfo{volume}{1}.
+\newblock \bibinfo{publisher}{Trelgol Publishing USA}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Panchekha, Geller, Ernst, Tatlock, and
+  Kamil}{Panchekha et~al\mbox{.}}{2018}]%
+        {panchekha2018verifying}
+\bibfield{author}{\bibinfo{person}{Pavel Panchekha}, \bibinfo{person}{Adam~T
+  Geller}, \bibinfo{person}{Michael~D Ernst}, \bibinfo{person}{Zachary
+  Tatlock}, {and} \bibinfo{person}{Shoaib Kamil}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Verifying that web pages have accessible layout}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the 39th ACM SIGPLAN Conference
+  on Programming Language Design and Implementation}}. ACM,
+  \bibinfo{pages}{1--14}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pearl}{Pearl}{1995a}]%
+        {pearl1995causal}
+\bibfield{author}{\bibinfo{person}{Judea Pearl}.}
+  \bibinfo{year}{1995}\natexlab{a}.
+\newblock \showarticletitle{Causal diagrams for empirical research}.
+\newblock \bibinfo{journal}{\emph{Biometrika}} \bibinfo{volume}{82},
+  \bibinfo{number}{4} (\bibinfo{year}{1995}), \bibinfo{pages}{669--688}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pearl}{Pearl}{1995b}]%
+        {pearl1995doCalculus}
+\bibfield{author}{\bibinfo{person}{Judea Pearl}.}
+  \bibinfo{year}{1995}\natexlab{b}.
+\newblock \showarticletitle{Causal diagrams for empirical research}.
+\newblock \bibinfo{journal}{\emph{Biometrika}} \bibinfo{volume}{82},
+  \bibinfo{number}{4} (\bibinfo{year}{1995}), \bibinfo{pages}{669--688}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pearl et~al\mbox{.}}{Pearl
+  et~al\mbox{.}}{2000}]%
+        {pearl2000models}
+\bibfield{author}{\bibinfo{person}{Judea Pearl} {et~al\mbox{.}}}
+  \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Models, reasoning and inference}.
+\newblock \bibinfo{journal}{\emph{Cambridge, UK: CambridgeUniversityPress}}
+  \bibinfo{volume}{19} (\bibinfo{year}{2000}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pedregosa, Varoquaux, Gramfort, Michel,
+  Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg,
+  et~al\mbox{.}}{Pedregosa et~al\mbox{.}}{2011}]%
+        {scikitPaper}
+\bibfield{author}{\bibinfo{person}{Fabian Pedregosa}, \bibinfo{person}{Ga{\"e}l
+  Varoquaux}, \bibinfo{person}{Alexandre Gramfort}, \bibinfo{person}{Vincent
+  Michel}, \bibinfo{person}{Bertrand Thirion}, \bibinfo{person}{Olivier
+  Grisel}, \bibinfo{person}{Mathieu Blondel}, \bibinfo{person}{Peter
+  Prettenhofer}, \bibinfo{person}{Ron Weiss}, \bibinfo{person}{Vincent
+  Dubourg}, {et~al\mbox{.}}} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Scikit-learn: Machine learning in Python}.
+\newblock \bibinfo{journal}{\emph{the Journal of machine Learning research}}
+  \bibinfo{volume}{12} (\bibinfo{year}{2011}), \bibinfo{pages}{2825--2830}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Perktold, Seabold, Taylor, and statsmodels
+  developers}{Perktold et~al\mbox{.}}{2020}]%
+        {statsmodelsRef}
+\bibfield{author}{\bibinfo{person}{Josef Perktold}, \bibinfo{person}{Skipper
+  Seabold}, \bibinfo{person}{Jonathan Taylor}, {and}
+  \bibinfo{person}{statsmodels developers}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Statsmodels v0.10.2 Reference Guide}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{"https://www.statsmodels.org/stable"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Pfannkuch}{Pfannkuch}{1997}]%
+        {pfannkuch1997statistical}
+\bibfield{author}{\bibinfo{person}{M Pfannkuch}.}
+  \bibinfo{year}{1997}\natexlab{}.
+\newblock \showarticletitle{Statistical thinking: One statistician’s
+  perspective}.
+\newblock \bibinfo{journal}{\emph{Research papers on stochastics education}}
+  (\bibinfo{year}{1997}), \bibinfo{pages}{171--178}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pfannkuch, Wild, et~al\mbox{.}}{Pfannkuch
+  et~al\mbox{.}}{2000}]%
+        {pfannkuch2000statistical}
+\bibfield{author}{\bibinfo{person}{Maxine Pfannkuch}, \bibinfo{person}{Chris~J
+  Wild}, {et~al\mbox{.}}} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{Statistical Thinking an Statistical Practice:
+  Themes Gleaned from Professional Statisticians}.
+\newblock \bibinfo{journal}{\emph{Statistical science}} \bibinfo{volume}{15},
+  \bibinfo{number}{2} (\bibinfo{year}{2000}), \bibinfo{pages}{132--152}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Pinheiro, Bates, DebRoy, Sarkar, authors,
+  Heisterkamp, Willigen, and R-core}{Pinheiro et~al\mbox{.}}{2020}]%
+        {nlmeRef}
+\bibfield{author}{\bibinfo{person}{Jos{\'e} Pinheiro}, \bibinfo{person}{Douglas
+  Bates}, \bibinfo{person}{Saikat DebRoy}, \bibinfo{person}{Deepayan Sarkar},
+  \bibinfo{person}{EISPACK authors}, \bibinfo{person}{Siem Heisterkamp},
+  \bibinfo{person}{Bert~Van Willigen}, {and} \bibinfo{person}{R-core}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Package ‘nlme`}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{"https://cran.r-project.org/web/packages/nlme/nlme.pdf"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Pirolli and Card}{Pirolli and Card}{2005}]%
+        {pirolli2005sensemaking}
+\bibfield{author}{\bibinfo{person}{Peter Pirolli} {and} \bibinfo{person}{Stuart
+  Card}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{The sensemaking process and leverage points for
+  analyst technology as identified through cognitive task analysis}. In
+  \bibinfo{booktitle}{\emph{Proceedings of international conference on
+  intelligence analysis}}, Vol.~\bibinfo{volume}{5}. McLean, VA, USA,
+  \bibinfo{pages}{2--4}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Prabhu}{Prabhu}{2019}]%
+        {prabhu2019:topPython}
+\bibfield{author}{\bibinfo{person}{Tanu~N Prabhu}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Top Python Libraries Used In Data Science}.
+\newblock \bibinfo{journal}{\emph{Towards Data Science, Medium}}
+  (\bibinfo{year}{2019}).
+\newblock
+\urldef\tempurl%
+\url{"https://towardsdatascience.com/top-python-libraries-used-in-data-science-a58e90f1b4ba"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Ripley, Venables, Bates, Hornik, Gebhardt, ,
+  and Firth}{Ripley et~al\mbox{.}}{2020}]%
+        {mass}
+\bibfield{author}{\bibinfo{person}{Brian Ripley}, \bibinfo{person}{Bill
+  Venables}, \bibinfo{person}{Douglas~M. Bates}, \bibinfo{person}{Kurt Hornik},
+  \bibinfo{person}{Albrecht Gebhardt}, \bibinfo{person}{}, {and}
+  \bibinfo{person}{David Firth}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Package ‘MASS`}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{"https://cran.r-project.org/web/packages/MASS/MASS.pdf"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Rubin}{Rubin}{2004}]%
+        {rubin2004teaching}
+\bibfield{author}{\bibinfo{person}{Donald~B Rubin}.}
+  \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Teaching statistical inference for causal effects
+  in experiments and observational studies}.
+\newblock \bibinfo{journal}{\emph{Journal of Educational and Behavioral
+  Statistics}} \bibinfo{volume}{29}, \bibinfo{number}{3}
+  (\bibinfo{year}{2004}), \bibinfo{pages}{343--367}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Russell, Stefik, Pirolli, and Card}{Russell
+  et~al\mbox{.}}{1993}]%
+        {russell1993cost}
+\bibfield{author}{\bibinfo{person}{Daniel~M Russell}, \bibinfo{person}{Mark~J
+  Stefik}, \bibinfo{person}{Peter Pirolli}, {and} \bibinfo{person}{Stuart~K
+  Card}.} \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{The cost structure of sensemaking}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the INTERACT'93 and CHI'93
+  conference on Human factors in computing systems}}. ACM,
+  \bibinfo{pages}{269--276}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Salimi, Parikh, Kayali, Getoor, Roy, and
+  Suciu}{Salimi et~al\mbox{.}}{2020}]%
+        {salimi2020causal}
+\bibfield{author}{\bibinfo{person}{Babak Salimi}, \bibinfo{person}{Harsh
+  Parikh}, \bibinfo{person}{Moe Kayali}, \bibinfo{person}{Lise Getoor},
+  \bibinfo{person}{Sudeepa Roy}, {and} \bibinfo{person}{Dan Suciu}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Causal relational learning}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2020 ACM SIGMOD International
+  Conference on Management of Data}}. \bibinfo{pages}{241--256}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sanner et~al\mbox{.}}{Sanner
+  et~al\mbox{.}}{1999}]%
+        {sanner1999python}
+\bibfield{author}{\bibinfo{person}{Michel~F Sanner} {et~al\mbox{.}}}
+  \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Python: a programming language for software
+  integration and development}.
+\newblock \bibinfo{journal}{\emph{J Mol Graph Model}} \bibinfo{volume}{17},
+  \bibinfo{number}{1} (\bibinfo{year}{1999}), \bibinfo{pages}{57--61}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{SAS}{SAS}{2020}]%
+        {jmp}
+\bibfield{author}{\bibinfo{person}{SAS}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{JMP}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{"https://www.jmp.com/en_us/home.html"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Satyanarayan, Moritz, Wongsuphasawat, and
+  Heer}{Satyanarayan et~al\mbox{.}}{2017}]%
+        {satyanarayan2017vega}
+\bibfield{author}{\bibinfo{person}{Arvind Satyanarayan},
+  \bibinfo{person}{Dominik Moritz}, \bibinfo{person}{Kanit Wongsuphasawat},
+  {and} \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Vega-lite: A grammar of interactive graphics}.
+\newblock \bibinfo{journal}{\emph{IEEE transactions on visualization and
+  computer graphics}} \bibinfo{volume}{23}, \bibinfo{number}{1}
+  (\bibinfo{year}{2017}), \bibinfo{pages}{341--350}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Schunn and Klahr}{Schunn and Klahr}{1995}]%
+        {schunn1995FourSpace}
+\bibfield{author}{\bibinfo{person}{Christian~D Schunn} {and}
+  \bibinfo{person}{David Klahr}.} \bibinfo{year}{1995}\natexlab{}.
+\newblock \showarticletitle{A 4-space model of scientific discovery}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 17th annual conference of the
+  cognitive science society}}. \bibinfo{pages}{106--111}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Schunn and Klahr}{Schunn and Klahr}{1996}]%
+        {schunn1996BeyondTwoSpace}
+\bibfield{author}{\bibinfo{person}{Christian~D Schunn} {and}
+  \bibinfo{person}{David Klahr}.} \bibinfo{year}{1996}\natexlab{}.
+\newblock \showarticletitle{When and how to go beyond a 2-space model of
+  scientific discovery}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  Eighteenth Annual Conference of the Cognitive Science Society: July 12-15,
+  1996, University of California, San Diego}}, Vol.~\bibinfo{volume}{18}.
+  Psychology Press, \bibinfo{pages}{25}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{scikit-learn developers}{scikit-learn
+  developers}{2020}]%
+        {scikitRef}
+\bibfield{author}{\bibinfo{person}{scikit-learn developers}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Scikit-Learn v0.23.2 Documentation}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://scikit-learn.org/stable/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Seabold and Perktold}{Seabold and
+  Perktold}{2010}]%
+        {statsmodelsPaper}
+\bibfield{author}{\bibinfo{person}{Skipper Seabold} {and}
+  \bibinfo{person}{Josef Perktold}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Statsmodels: Econometric and statistical modeling
+  with python}. In \bibinfo{booktitle}{\emph{Proceedings of the 9th Python in
+  Science Conference}}, Vol.~\bibinfo{volume}{57}. Scipy, \bibinfo{pages}{61}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shadish}{Shadish}{2010}]%
+        {shadish2010campbell}
+\bibfield{author}{\bibinfo{person}{William~R Shadish}.}
+  \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Campbell and Rubin: A primer and comparison of
+  their approaches to causal inference in field settings.}
+\newblock \bibinfo{journal}{\emph{Psychological methods}} \bibinfo{volume}{15},
+  \bibinfo{number}{1} (\bibinfo{year}{2010}), \bibinfo{pages}{3}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sloane and Hardin}{Sloane and Hardin}{2017}]%
+        {gosset}
+\bibfield{author}{\bibinfo{person}{N.J.A. Sloane} {and} \bibinfo{person}{R.H.
+  Hardin}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{title}{Gosset: A General-purpose program for designing
+  experiments}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{http://neilsloane.com/gosset/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Spirtes}{Spirtes}{1994}]%
+        {spirtes1994conditional}
+\bibfield{author}{\bibinfo{person}{Peter Spirtes}.}
+  \bibinfo{year}{1994}\natexlab{}.
+\newblock \showarticletitle{Conditional independence in directed cyclic
+  graphical models for feedback}.
+\newblock  (\bibinfo{year}{1994}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Spirtes, Richardson, Meek, Scheines, and
+  Glymour}{Spirtes et~al\mbox{.}}{1996}]%
+        {spirtes1996using}
+\bibfield{author}{\bibinfo{person}{Peter Spirtes}, \bibinfo{person}{Thomas
+  Richardson}, \bibinfo{person}{Christopher Meek}, \bibinfo{person}{Richard
+  Scheines}, {and} \bibinfo{person}{Clark Glymour}.}
+  \bibinfo{year}{1996}\natexlab{}.
+\newblock \showarticletitle{Using d-separation to calculate zero partial
+  correlations in linear models with correlated errors}.
+\newblock \bibinfo{journal}{\emph{Publisher: Carnegie Mellon University}}
+  (\bibinfo{year}{1996}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{SPSS}{SPSS}{2021}]%
+        {spss}
+\bibfield{author}{\bibinfo{person}{IBM SPSS}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{SPSS Software}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.ibm.com/analytics/spss-statistics-software}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Stata}{Stata}{2021}]%
+        {stata}
+\bibfield{author}{\bibinfo{person}{Stata}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Stata Software}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.stata.com/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Suh}{Suh}{2014}]%
+        {pewDataset}
+\bibfield{author}{\bibinfo{person}{Michael Suh}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{title}{Higher Education, Gender \& Work Dataset}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{"https://www.pewsocialtrends.org/category/datasets/?download=20041"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Suzuki, Shinozaki, and Yamamoto}{Suzuki
+  et~al\mbox{.}}{2020}]%
+        {suzuki2020causal}
+\bibfield{author}{\bibinfo{person}{Etsuji Suzuki}, \bibinfo{person}{Tomohiro
+  Shinozaki}, {and} \bibinfo{person}{Eiji Yamamoto}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Causal diagrams: pitfalls and tips}.
+\newblock \bibinfo{journal}{\emph{Journal of epidemiology}}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{JE20190192}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Suzuki and VanderWeele}{Suzuki and
+  VanderWeele}{2018}]%
+        {suzuki2018mechanisms}
+\bibfield{author}{\bibinfo{person}{Etsuji Suzuki} {and}
+  \bibinfo{person}{Tyler~J VanderWeele}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Mechanisms and uncertainty in randomized controlled
+  trials: A commentary on Deaton and Cartwright}.
+\newblock \bibinfo{journal}{\emph{Social science \& medicine (1982)}}
+  \bibinfo{volume}{210} (\bibinfo{year}{2018}), \bibinfo{pages}{83--85}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Swearngin, Ko, and Fogarty}{Swearngin
+  et~al\mbox{.}}{2018}]%
+        {swearngin2018scout}
+\bibfield{author}{\bibinfo{person}{Amanda Swearngin}, \bibinfo{person}{Andrew~J
+  Ko}, {and} \bibinfo{person}{James Fogarty}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Scout: Mixed-Initiative Exploration of Design
+  Variations through High-Level Design Constraints}. In
+  \bibinfo{booktitle}{\emph{The 31st Annual ACM Symposium on User Interface
+  Software and Technology Adjunct Proceedings}}. ACM,
+  \bibinfo{pages}{134--136}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tanaka}{Tanaka}{2021}]%
+        {edibble}
+\bibfield{author}{\bibinfo{person}{Emi Tanaka}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Edibble: An R-package to construct designs using the
+  grammar of experimental design}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://github.com/emitanaka/edibble}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Team et~al\mbox{.}}{Team
+  et~al\mbox{.}}{2013}]%
+        {team2013r}
+\bibfield{author}{\bibinfo{person}{R~Core Team} {et~al\mbox{.}}}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{R: A language and environment for statistical
+  computing}.
+\newblock  (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Team and contributors worldwide}{Team and
+  contributors worldwide}{2020}]%
+        {statsCoreRRef}
+\bibfield{author}{\bibinfo{person}{R~Core Team} {and}
+  \bibinfo{person}{contributors worldwide}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Package `stats` v4.1.0}.
+\newblock \bibinfo{journal}{\emph{CRAN}} (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{"https://stat.ethz.ch/R-manual/R-devel/library/stats/html/00Index.html"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Textor, Hardt, and Kn{\"u}ppel}{Textor
+  et~al\mbox{.}}{2011}]%
+        {textor2011dagitty}
+\bibfield{author}{\bibinfo{person}{Johannes Textor}, \bibinfo{person}{Juliane
+  Hardt}, {and} \bibinfo{person}{Sven Kn{\"u}ppel}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{DAGitty: a graphical tool for analyzing causal
+  diagrams}.
+\newblock \bibinfo{journal}{\emph{Epidemiology}} \bibinfo{volume}{22},
+  \bibinfo{number}{5} (\bibinfo{year}{2011}), \bibinfo{pages}{745}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{The~MathWorks}{The~MathWorks}{2020a}]%
+        {matlab}
+\bibfield{author}{\bibinfo{person}{Inc. The~MathWorks}.}
+  \bibinfo{year}{2020}\natexlab{a}.
+\newblock \bibinfo{title}{Matlab}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{"https://www.mathworks.com/"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{The~MathWorks}{The~MathWorks}{2020b}]%
+        {matlabStats}
+\bibfield{author}{\bibinfo{person}{Inc. The~MathWorks}.}
+  \bibinfo{year}{2020}\natexlab{b}.
+\newblock \showarticletitle{Statistics and Machine Learning Toolbox}.
+\newblock  (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{"https://www.mathworks.com/help/stats/index.html"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Thornton, Hutter, Hoos, and
+  Leyton-Brown}{Thornton et~al\mbox{.}}{2013}]%
+        {autoweka}
+\bibfield{author}{\bibinfo{person}{C. Thornton}, \bibinfo{person}{F. Hutter},
+  \bibinfo{person}{H.~H. Hoos}, {and} \bibinfo{person}{K. Leyton-Brown}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Auto-{WEKA}: Combined Selection and Hyperparameter
+  Optimization of Classification Algorithms}. In
+  \bibinfo{booktitle}{\emph{Proc.~of KDD-2013}}. \bibinfo{pages}{847--855}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vandaele}{Vandaele}{1987}]%
+        {vandaele1987participation}
+\bibfield{author}{\bibinfo{person}{Walter Vandaele}.}
+  \bibinfo{year}{1987}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Participation in illegitimate activities:
+  Ehrlich revisited, 1960}}. Vol.~\bibinfo{volume}{8677}.
+\newblock \bibinfo{publisher}{Inter-university Consortium for Political and
+  Social Research}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{VanderWeele}{VanderWeele}{2019}]%
+        {vanderweele2019modifiedDisjunctiveCriterion}
+\bibfield{author}{\bibinfo{person}{Tyler~J VanderWeele}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Principles of confounder selection}.
+\newblock \bibinfo{journal}{\emph{European journal of epidemiology}}
+  \bibinfo{volume}{34}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{211--219}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vargha and Delaney}{Vargha and
+  Delaney}{2000}]%
+        {vargha2000critique}
+\bibfield{author}{\bibinfo{person}{Andr{\'a}s Vargha} {and}
+  \bibinfo{person}{Harold~D Delaney}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \showarticletitle{A critique and improvement of the CL common
+  language effect size statistics of McGraw and Wong}.
+\newblock \bibinfo{journal}{\emph{Journal of Educational and Behavioral
+  Statistics}} \bibinfo{volume}{25}, \bibinfo{number}{2}
+  (\bibinfo{year}{2000}), \bibinfo{pages}{101--132}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Velentgas, Dreyer, Nourjah, Smith, Torchia,
+  et~al\mbox{.}}{Velentgas et~al\mbox{.}}{2013}]%
+        {velentgas2013developing}
+\bibfield{author}{\bibinfo{person}{Priscilla Velentgas},
+  \bibinfo{person}{Nancy~A Dreyer}, \bibinfo{person}{Parivash Nourjah},
+  \bibinfo{person}{Scott~R Smith}, \bibinfo{person}{Marion~M Torchia},
+  {et~al\mbox{.}}} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Developing a protocol for observational comparative
+  effectiveness research: a user's guide}.
+\newblock  (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Venables and Ripley}{Venables and
+  Ripley}{2013}]%
+        {venables2013modern}
+\bibfield{author}{\bibinfo{person}{William~N Venables} {and}
+  \bibinfo{person}{Brian~D Ripley}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Modern applied statistics with S-PLUS}}.
+\newblock \bibinfo{publisher}{Springer Science \& Business Media}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Verou, Alrashed, and Karger}{Verou
+  et~al\mbox{.}}{2018}]%
+        {verou2018extending}
+\bibfield{author}{\bibinfo{person}{Lea Verou}, \bibinfo{person}{Tarfah
+  Alrashed}, {and} \bibinfo{person}{David Karger}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Extending a Reactive Expression Language with Data
+  Update Actions for End-User Application Authoring}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 31st Annual ACM Symposium on
+  User Interface Software and Technology}}. \bibinfo{pages}{379--387}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wacharamanotham, Subramanian, Volkel, and
+  Borchers}{Wacharamanotham et~al\mbox{.}}{2015}]%
+        {wacharamanotham2015statsplorer}
+\bibfield{author}{\bibinfo{person}{Chat Wacharamanotham},
+  \bibinfo{person}{Krishna Subramanian}, \bibinfo{person}{Sarah~Theres Volkel},
+  {and} \bibinfo{person}{Jan Borchers}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Statsplorer: Guiding novices in statistical
+  analysis}. In \bibinfo{booktitle}{\emph{Proceedings of the 33rd Annual ACM
+  Conference on Human Factors in Computing Systems}}. ACM,
+  \bibinfo{pages}{2693--2702}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wickham et~al\mbox{.}}{Wickham
+  et~al\mbox{.}}{2014}]%
+        {wickham2014tidy}
+\bibfield{author}{\bibinfo{person}{Hadley Wickham} {et~al\mbox{.}}}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Tidy data}.
+\newblock \bibinfo{journal}{\emph{Journal of Statistical Software}}
+  \bibinfo{volume}{59}, \bibinfo{number}{10} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{1--23}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wickham, Averick, Bryan, Chang, McGowan,
+  Fran{\c{c}}ois, Grolemund, Hayes, Henry, Hester, et~al\mbox{.}}{Wickham
+  et~al\mbox{.}}{2019}]%
+        {tidyverse}
+\bibfield{author}{\bibinfo{person}{Hadley Wickham}, \bibinfo{person}{Mara
+  Averick}, \bibinfo{person}{Jennifer Bryan}, \bibinfo{person}{Winston Chang},
+  \bibinfo{person}{Lucy~D'Agostino McGowan}, \bibinfo{person}{Romain
+  Fran{\c{c}}ois}, \bibinfo{person}{Garrett Grolemund}, \bibinfo{person}{Alex
+  Hayes}, \bibinfo{person}{Lionel Henry}, \bibinfo{person}{Jim Hester},
+  {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Welcome to the Tidyverse}.
+\newblock \bibinfo{journal}{\emph{Journal of Open Source Software}}
+  \bibinfo{volume}{4}, \bibinfo{number}{43} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{1686}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{Wikipedia contributors}}{{Wikipedia
+  contributors}}{2019a}]%
+        {wiki:jmp}
+\bibfield{author}{\bibinfo{person}{{Wikipedia contributors}}.}
+  \bibinfo{year}{2019}\natexlab{a}.
+\newblock \bibinfo{title}{JMP (statistical software) --- {Wikipedia}{,} The
+  Free Encyclopedia}.
+\newblock
+  \bibinfo{howpublished}{\url{https://en.wikipedia.org/w/index.php?title=JMP_(statistical_software)&oldid=887217350}}.
+\newblock
+\newblock
+\shownote{[Online; accessed 5-April-2019].}
+
+
+\bibitem[\protect\citeauthoryear{{Wikipedia contributors}}{{Wikipedia
+  contributors}}{2019b}]%
+        {wiki:r-language}
+\bibfield{author}{\bibinfo{person}{{Wikipedia contributors}}.}
+  \bibinfo{year}{2019}\natexlab{b}.
+\newblock \bibinfo{title}{R (programming language) --- {Wikipedia}{,} The Free
+  Encyclopedia}.
+\newblock
+  \bibinfo{howpublished}{\url{https://en.wikipedia.org/w/index.php?title=R_(programming_language)&oldid=890657071}}.
+\newblock
+\newblock
+\shownote{[Online; accessed 5-April-2019].}
+
+
+\bibitem[\protect\citeauthoryear{{Wikipedia contributors}}{{Wikipedia
+  contributors}}{2019c}]%
+        {wiki:sas}
+\bibfield{author}{\bibinfo{person}{{Wikipedia contributors}}.}
+  \bibinfo{year}{2019}\natexlab{c}.
+\newblock \bibinfo{title}{SAS (software) --- {Wikipedia}{,} The Free
+  Encyclopedia}.
+\newblock
+  \bibinfo{howpublished}{\url{https://en.wikipedia.org/w/index.php?title=SAS_(software)&oldid=890451452}}.
+\newblock
+\newblock
+\shownote{[Online; accessed 5-April-2019].}
+
+
+\bibitem[\protect\citeauthoryear{{Wikipedia contributors}}{{Wikipedia
+  contributors}}{2019d}]%
+        {wiki:spss}
+\bibfield{author}{\bibinfo{person}{{Wikipedia contributors}}.}
+  \bibinfo{year}{2019}\natexlab{d}.
+\newblock \bibinfo{title}{SPSS --- {Wikipedia}{,} The Free Encyclopedia}.
+\newblock
+  \bibinfo{howpublished}{\url{https://en.wikipedia.org/w/index.php?title=SPSS&oldid=888470477}}.
+\newblock
+\newblock
+\shownote{[Online; accessed 5-April-2019].}
+
+
+\bibitem[\protect\citeauthoryear{Wild and Pfannkuch}{Wild and
+  Pfannkuch}{1999}]%
+        {wild1999statisticalThinking}
+\bibfield{author}{\bibinfo{person}{Chris~J Wild} {and} \bibinfo{person}{Maxine
+  Pfannkuch}.} \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{Statistical thinking in empirical enquiry}.
+\newblock \bibinfo{journal}{\emph{International statistical review}}
+  \bibinfo{volume}{67}, \bibinfo{number}{3} (\bibinfo{year}{1999}),
+  \bibinfo{pages}{223--248}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wongsuphasawat, Liu, and Heer}{Wongsuphasawat
+  et~al\mbox{.}}{2019}]%
+        {wongsuphasawat2019EDAgoals}
+\bibfield{author}{\bibinfo{person}{Kanit Wongsuphasawat}, \bibinfo{person}{Yang
+  Liu}, {and} \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Goals, Process, and Challenges of Exploratory Data
+  Analysis: An Interview Study}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1911.00568}}
+  (\bibinfo{year}{2019}).
+\newblock
+
 
 \end{thebibliography}
