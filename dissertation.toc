@@ -36,7 +36,7 @@
 \contentsline {subsection}{\numberline {3.5.1}How does Tea compare to textbook tutorials?}{38}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Does Tea avoid common mistakes made by non-expert users?}{40}{subsection.3.5.2}%
 \contentsline {section}{\numberline {3.6}Discussion, Limitations, and Future Work}{40}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Summary of Contributions}{42}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Summary of Contributions}{41}{section.3.7}%
 \contentsline {chapter}{\numberline {4}Hypothesis Formalization: A conceptual framework describing how analysts translate research questions into statistical analyses}{45}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Background and Related Work}{47}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Statistical Thinking}{47}{subsection.4.1.1}%
