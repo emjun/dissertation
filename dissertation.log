@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  24 MAY 2023 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  24 MAY 2023 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1374,29 +1374,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 1.
-(./04-intro.tex
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 40.
-
-[17] [18]
-
-LaTeX Warning: Reference `fig:tools' on page 19 undefined on input line 121.
-
-
-Overfull \hbox (248.86429pt too wide) in paragraph at lines 125--131
-[][][][][][][]
+(./04-intro.tex [17]
+Overfull \hbox (329.00912pt too wide) in paragraph at lines 47--48
+[][][][][][][] 
  []
 
-Excluding 'comment' comment.) [19] [20
+[18]
+Underfull \vbox (badness 1990) has occurred while \output is active []
+
+ [19]
+Excluding 'comment' comment. [20] Excluding 'comment' comment.) [21] [22
 
 
 ]
 Chapter 2.
-(./05-relatedWork.tex [21] [22]
+(./05-relatedWork.tex [23] [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [25]
 Overfull \hbox (15.44145pt too wide) in paragraph at lines 183--184
 [][][][][][][] 
  []
@@ -1405,55 +1400,55 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 19
 9.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [24]
+) [26]
 Overfull \hbox (13.32782pt too wide) in paragraph at lines 225--247
 []\T1/cmr/m/n/10.95 Research has in-tro-duced tools to sup-port sta-tis-ti-cal 
 anal-y-sis in di-verse do-mains. Ex-periScope []Guim-
  []
 
-[25]
+[27]
 Overfull \hbox (327.38025pt too wide) in paragraph at lines 265--283
 [][][][][][] 
  []
 
-) [26]
+) [28]
 Chapter 3.
 (./06-tea.tex
 
-Package natbib Warning: Citation `seabold2010statsmodels' on page 27 undefined 
+Package natbib Warning: Citation `seabold2010statsmodels' on page 29 undefined 
 on input line 26.
 
-[27
+[29
 
 
-] (./tea/related_work.tex [28]
+] (./tea/related_work.tex [30]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 47.
 
-) [29] (./tea/usage_scenario.tex
-<tea/figures/tea_program.jpg, id=914, 3863.43375pt x 3922.655pt>
+) [31] (./tea/usage_scenario.tex
+<tea/figures/tea_program.jpg, id=926, 3863.43375pt x 3922.655pt>
 File: tea/figures/tea_program.jpg Graphic file (type jpg)
 <use tea/figures/tea_program.jpg>
 Package pdftex.def Info: tea/figures/tea_program.jpg  used on input line 2.
 (pdftex.def)             Requested size: 234.8775pt x 238.4616pt.
- [30 <./tea/figures/tea_program.jpg>])
+ [32 <./tea/figures/tea_program.jpg>])
 (./tea/design_considerations.tex
 Overfull \hbox (213.38109pt too wide) in alignment at lines 1--1
 [][][][][][][] 
  []
 
-[31]
+[33]
 
-LaTeX Warning: Reference `subsec:NHST' on page 32 undefined on input line 52.
+LaTeX Warning: Reference `subsec:NHST' on page 34 undefined on input line 52.
 
-) [32] (./tea/system.tex [33] [34]
-<tea/figures/modes_wide.jpg, id=1017, 6677.94875pt x 4589.145pt>
+) [34] (./tea/system.tex [35] [36]
+<tea/figures/modes_wide.jpg, id=1029, 6677.94875pt x 4589.145pt>
 File: tea/figures/modes_wide.jpg Graphic file (type jpg)
 <use tea/figures/modes_wide.jpg>
 Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 126.
 (pdftex.def)             Requested size: 469.75502pt x 322.81352pt.
- [35] [36] [37]) (./tea/eval.tex
+ [37] [38] [39]) (./tea/eval.tex
 (./tea/tea_results.tex
 Underfull \hbox (badness 10000) in paragraph at lines 112--112
 []|\T1/cmr/m/n/10.95 Wilcoxon signed
@@ -1467,9 +1462,9 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 112--112
 
 LaTeX Warning: Float too large for page by 100.46695pt on input line 114.
 
-) [38] [39]) [40] Excluding 'comment' comment. Excluding 'comment' comment.
-[41] Excluding 'comment' comment.) [42] [43 <./tea/figures/modes_wide.jpg>]
-[44
+) [40] [41]) [42] Excluding 'comment' comment. Excluding 'comment' comment.
+[43] Excluding 'comment' comment.) [44] [45 <./tea/figures/modes_wide.jpg>]
+[46
 
 
 ]
@@ -1477,8 +1472,8 @@ Chapter 4.
 (./07-hypothesisFormalization.tex
 Underfull \vbox (badness 7944) has occurred while \output is active []
 
- [45]
-<hypothesisFormalization/figures/overview_sept_17.png, id=1208, 1027.84pt x 585
+ [47]
+<hypothesisFormalization/figures/overview_sept_17.png, id=1219, 1027.84pt x 585
 .18625pt>
 File: hypothesisFormalization/figures/overview_sept_17.png Graphic file (type p
 ng)
@@ -1490,12 +1485,12 @@ used on input line 69.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[46]
+[48]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./hypothesisFormalization/figures/overview_sept_17.png>]
-(./hypothesisFormalization/related_work.tex [48]
-<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1253,
+ [49 <./hypothesisFormalization/figures/overview_sept_17.png>]
+(./hypothesisFormalization/related_work.tex [50]
+<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1265,
  1218.5525pt x 300.12125pt>
 File: hypothesisFormalization/figures/prior_work_combined_july_16_2021.png Grap
 hic file (type png)
@@ -1507,9 +1502,9 @@ ly_16_2021.png  used on input line 106.
 (./hypothesisFormalization/content_analysis.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
-[50 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
-<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1278, 835
+ [51]
+[52 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
+<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1289, 835
 .62187pt x 275.0275pt>
 File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic 
 file (type png)
@@ -1519,47 +1514,47 @@ abeled.png  used on input line 40.
 (pdftex.def)             Requested size: 422.77664pt x 139.15007pt.
 
 
-Package natbib Warning: Citation `PS9' on page 51 undefined on input line 40.
+Package natbib Warning: Citation `PS9' on page 53 undefined on input line 40.
 
 
-Package natbib Warning: Citation `PS9' on page 51 undefined on input line 40.
+Package natbib Warning: Citation `PS9' on page 53 undefined on input line 40.
 
-[51 <./hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>]
+[53 <./hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>]
 Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment. [52]
+Excluding 'comment' comment. [54]
 
-Package natbib Warning: Citation `yu2020veridical' on page 53 undefined on inpu
+Package natbib Warning: Citation `yu2020veridical' on page 55 undefined on inpu
 t line 326.
 
 
-Package natbib Warning: Citation `lee2019robust' on page 53 undefined on input 
+Package natbib Warning: Citation `lee2019robust' on page 55 undefined on input 
 line 326.
 
 
-Package natbib Warning: Citation `gelman2013bayesianTextbook' on page 53 undefi
+Package natbib Warning: Citation `gelman2013bayesianTextbook' on page 55 undefi
 ned on input line 326.
 
 
-Package natbib Warning: Citation `betancourt2020bayesianWorkflow' on page 53 un
+Package natbib Warning: Citation `betancourt2020bayesianWorkflow' on page 55 un
 defined on input line 330.
 
 
-Package natbib Warning: Citation `gelman2020bayesianWorkflow' on page 53 undefi
+Package natbib Warning: Citation `gelman2020bayesianWorkflow' on page 55 undefi
 ned on input line 330.
 
 ) (./hypothesisFormalization/lab_study.tex
 Underfull \vbox (badness 4505) has occurred while \output is active []
 
- [53]
-[54] [55]
-<hypothesisFormalization/figures/A11_SS_1.png, id=1340, 548.0475pt x 590.205pt>
+ [55]
+[56] [57]
+<hypothesisFormalization/figures/A11_SS_1.png, id=1351, 548.0475pt x 590.205pt>
 
 File: hypothesisFormalization/figures/A11_SS_1.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_1.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_1.png  used on 
 input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 204.88174pt.
-<hypothesisFormalization/figures/A11_SS_2.png, id=1341, 564.1075pt x 477.785pt>
+<hypothesisFormalization/figures/A11_SS_2.png, id=1352, 564.1075pt x 477.785pt>
 
 File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
@@ -1569,15 +1564,15 @@ input line 167.
 
 Underfull \vbox (badness 4353) has occurred while \output is active []
 
- [56]
-[57 <./hypothesisFormalization/figures/A11_SS_1.png> <./hypothesisFormalization
-/figures/A11_SS_2.png>] [58] [59]
+ [58]
+[59 <./hypothesisFormalization/figures/A11_SS_1.png> <./hypothesisFormalization
+/figures/A11_SS_2.png>] [60] [61]
 Overfull \hbox (17.86227pt too wide) in paragraph at lines 308--308
 \T1/cmr/m/it/10.95 num-bers [un-like a physi-cist]. So like, they may ac-tu-all
 y end up with dif-fer-ent re-sults...actually
  []
 
-[60] [61] [62]) (./hypothesisFormalization/tools_analysis.tex [63] [64]
+[62] [63] [64]) (./hypothesisFormalization/tools_analysis.tex [65] [66]
 Underfull \hbox (badness 10000) in paragraph at lines 72--72
 
  []
@@ -1617,44 +1612,44 @@ Overfull \hbox (41.69698pt too wide) in paragraph at lines 72--72
 [][]
  []
 
-[65] [66] [67] [68] Excluding 'comment' comment. [69]
+[67] [68] [69] [70] Excluding 'comment' comment. [71]
 Excluding 'comment' comment.) (./hypothesisFormalization/implications.tex
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 13.
 
 
-Package natbib Warning: Citation `pyro' on page 70 undefined on input line 38.
+Package natbib Warning: Citation `pyro' on page 72 undefined on input line 38.
 
 
-Package natbib Warning: Citation `pymc3' on page 70 undefined on input line 39.
+Package natbib Warning: Citation `pymc3' on page 72 undefined on input line 39.
 
 
-[70]
+[72]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+ [73]
 Overfull \hbox (14.73363pt too wide) in paragraph at lines 144--154
 []\T1/cmr/m/n/10.95 Although bidi-rec-tional pro-gram-ming en-vi-ron-ments al-r
 eady ex-ist for vec-tor graph-ics cre-ation []Hempel
  []
 
 Excluding 'comment' comment.) (./hypothesisFormalization/discussion.tex
-[72] [73])
+[74] [75])
 
-LaTeX Warning: Reference `fig:hypoFormOverview' on page 74 undefined on input l
+LaTeX Warning: Reference `fig:hypoFormOverview' on page 76 undefined on input l
 ine 144.
 
-[74]) [75] [76
+[76]) [77] [78
 
 
 ]
 Chapter 5.
-(./08-tisane.tex [77] (./tisane/related_work.tex [78] [79]
+(./08-tisane.tex [79] (./tisane/related_work.tex [80] [81]
 Excluding 'comment' comment.) (./tisane/system.tex
 Underfull \vbox (badness 2913) has occurred while \output is active []
 
- [80]
+ [82]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 2
 7.
 
@@ -1662,10 +1657,10 @@ LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 2
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 )
 
-LaTeX Warning: Reference `fig:figureGraphIRExample' on page 81 undefined on inp
+LaTeX Warning: Reference `fig:figureGraphIRExample' on page 83 undefined on inp
 ut line 51.
 
-[81] [82] [83]
+[83] [84] [85]
 Overfull \hbox (7.43387pt too wide) in paragraph at lines 215--233
 \T1/pcr/m/n/10.95 number_of_instances \T1/cmr/m/n/10.95 pa-ram-e-ter. This pa-r
 am-e-ter ac-cepts an in-te-ger, vari-able, a Ti-sane \T1/pcr/m/n/10.95 Exactly
@@ -1678,10 +1673,10 @@ evice\TS1/pcr/m/n/10.95 '\T1/pcr/m/n/10.95 , number_of_instances=ts.Exactly(2).
 per(condition))\T1/cmr/m/n/10.95 .
  []
 
-[84]
+[86]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85]
+ [87]
 Overfull \hbox (7.22116pt too wide) in paragraph at lines 324--324
  []\T1/cmr/m/n/9 CME 
  []
@@ -1699,39 +1694,39 @@ Overfull \hbox (7.22116pt too wide) in paragraph at lines 324--324
 
 Underfull \vbox (badness 7151) has occurred while \output is active []
 
- [86]
-[87]
-<tisane/figures/usage_scenario_gui_05012022.png, id=1826, 1343.0175pt x 1002.74
+ [88]
+[89]
+<tisane/figures/usage_scenario_gui_05012022.png, id=1839, 1343.0175pt x 1002.74
 625pt>
 File: tisane/figures/usage_scenario_gui_05012022.png Graphic file (type png)
 <use tisane/figures/usage_scenario_gui_05012022.png>
 Package pdftex.def Info: tisane/figures/usage_scenario_gui_05012022.png  used o
 n input line 411.
 (pdftex.def)             Requested size: 352.31625pt x 263.04887pt.
- [88] [89 <./tisane/figures/usage_scenario_gui_05012022.png>]) [90]
-(./tisane/case_studies.tex [91] Excluding 'comment' comment. [92]
+ [90] [91 <./tisane/figures/usage_scenario_gui_05012022.png>]) [92]
+(./tisane/case_studies.tex [93] Excluding 'comment' comment. [94]
 Excluding 'comment' comment.
 Underfull \vbox (badness 4713) has occurred while \output is active []
 
- [93]
+ [95]
 Underfull \vbox (badness 1043) has occurred while \output is active []
 
- [94])
+ [96])
 (./tisane/exploratory.tex
 Underfull \vbox (badness 5970) has occurred while \output is active []
 
- [95]
+ [97]
 
-Package natbib Warning: Citation `winters2021heartbeat' on page 96 undefined on
+Package natbib Warning: Citation `winters2021heartbeat' on page 98 undefined on
  input line 27.
 
-[96] [97] [98] Excluding 'comment' comment. Excluding 'comment' comment.)
-(./tisane/rTisane.tex [99] Excluding 'comment' comment.
+[98] [99] [100] Excluding 'comment' comment. Excluding 'comment' comment.)
+(./tisane/rTisane.tex [101] Excluding 'comment' comment.
 
-LaTeX Warning: Reference `sec:conceptualModelDisambig' on page 100 undefined on
+LaTeX Warning: Reference `sec:conceptualModelDisambig' on page 102 undefined on
  input line 68.
 
-[100] Excluding 'comment' comment. [101]) (./tisane/lab_study.tex [102]
+[102] Excluding 'comment' comment. [103]) (./tisane/lab_study.tex [104]
 Overfull \hbox (695.85748pt too wide) in paragraph at lines 55--63
 \T1/cmr/m/n/10.95 ported hav-ing ex-pe-ri-ence with au-thor-ing gen-er-al-ized 
 lin-ear mod-els and us-ing R. [][][][][][]
@@ -1742,33 +1737,33 @@ Overfull \hbox (7.85362pt too wide) in paragraph at lines 71--81
 [][][][][][] \T1/cmr/m/n/10.95 We col-lected
  []
 
-[103]) (./tisane/discussion.tex [104] Excluding 'comment' comment.)) [105]
-[106]
+[105]) (./tisane/discussion.tex [106] Excluding 'comment' comment.)) [107]
+[108]
 Chapter 6.
-(./10-conclusion.tex Excluding 'comment' comment. [107
+(./10-conclusion.tex Excluding 'comment' comment. [109
 
 
-] [108]
+] [110]
 
-Package natbib Warning: Citation `rock' on page 109 undefined on input line 181
+Package natbib Warning: Citation `rock' on page 111 undefined on input line 181
 .
 
-[109] [110] Excluding 'comment' comment. [111]
+[111] [112] Excluding 'comment' comment. [113]
 
-Package natbib Warning: Citation `rock' on page 112 undefined on input line 337
+Package natbib Warning: Citation `rock' on page 114 undefined on input line 337
 .
 
-[112]) (./dissertation.bbl [113] [114
+[114]) (./dissertation.bbl [115] [116
 
 ]
 LaTeX Info: Redefining \tempurl on input line 141.
 LaTeX Info: Redefining \tempurl on input line 156.
- [115]
+ [117]
 LaTeX Info: Redefining \tempurl on input line 193.
 LaTeX Info: Redefining \tempurl on input line 207.
 LaTeX Info: Redefining \tempurl on input line 238.
 LaTeX Info: Redefining \tempurl on input line 266.
- [116]
+ [118]
 LaTeX Info: Redefining \tempurl on input line 338.
 LaTeX Info: Redefining \tempurl on input line 371.
 LaTeX Info: Redefining \tempurl on input line 388.
@@ -1791,11 +1786,11 @@ s / edgeR / inst / doc /
  []
 
 LaTeX Info: Redefining \tempurl on input line 457.
-[117]
+[119]
 LaTeX Info: Redefining \tempurl on input line 549.
 LaTeX Info: Redefining \tempurl on input line 584.
 LaTeX Info: Redefining \tempurl on input line 612.
- [118]
+ [120]
 LaTeX Info: Redefining \tempurl on input line 647.
 LaTeX Info: Redefining \tempurl on input line 672.
 
@@ -1806,14 +1801,14 @@ s.  \T1/cmr/m/it/10.95 R Stu-dio Sup-port
 
 LaTeX Info: Redefining \tempurl on input line 709.
 LaTeX Info: Redefining \tempurl on input line 735.
-[119]
+[121]
 LaTeX Info: Redefining \tempurl on input line 805.
 LaTeX Info: Redefining \tempurl on input line 843.
 LaTeX Info: Redefining \tempurl on input line 858.
 LaTeX Info: Redefining \tempurl on input line 873.
 LaTeX Info: Redefining \tempurl on input line 905.
 LaTeX Info: Redefining \tempurl on input line 943.
- [120]
+ [122]
 LaTeX Info: Redefining \tempurl on input line 1088.
 LaTeX Info: Redefining \tempurl on input line 1103.
 
@@ -1834,7 +1829,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1095--1106
  of -[] estimating -[] sums -[] of -[]
  []
 
-[121]
+[123]
 LaTeX Info: Redefining \tempurl on input line 1128.
 LaTeX Info: Redefining \tempurl on input line 1141.
 LaTeX Info: Redefining \tempurl on input line 1157.
@@ -1842,17 +1837,17 @@ LaTeX Info: Redefining \tempurl on input line 1170.
 LaTeX Info: Redefining \tempurl on input line 1209.
 LaTeX Info: Redefining \tempurl on input line 1222.
 LaTeX Info: Redefining \tempurl on input line 1278.
- [122]
+ [124]
 LaTeX Info: Redefining \tempurl on input line 1311.
 LaTeX Info: Redefining \tempurl on input line 1349.
 LaTeX Info: Redefining \tempurl on input line 1406.
- [123]
+ [125]
 LaTeX Info: Redefining \tempurl on input line 1492.
 LaTeX Info: Redefining \tempurl on input line 1532.
 LaTeX Info: Redefining \tempurl on input line 1558.
 LaTeX Info: Redefining \tempurl on input line 1574.
 LaTeX Info: Redefining \tempurl on input line 1623.
- [124]
+ [126]
 LaTeX Info: Redefining \tempurl on input line 1672.
 LaTeX Info: Redefining \tempurl on input line 1708.
 LaTeX Info: Redefining \tempurl on input line 1744.
@@ -1864,12 +1859,12 @@ Underfull \hbox (badness 1331) in paragraph at lines 1763--1772
 aset.    []$\T1/pcr/m/n/10.95 "https : / / www .
  []
 
-[125]
+[127]
 LaTeX Info: Redefining \tempurl on input line 1820.
 LaTeX Info: Redefining \tempurl on input line 1845.
 LaTeX Info: Redefining \tempurl on input line 1871.
 LaTeX Info: Redefining \tempurl on input line 1884.
- [126]
+ [128]
 Underfull \hbox (badness 1721) in paragraph at lines 2017--2026
 []\T1/cmr/m/n/10.95 Wikipedia con-trib-u-tors. 2019a.  JMP (sta-tis-ti-cal soft
 -ware) --- Wikipedia, The Free En-
@@ -1881,7 +1876,7 @@ Underfull \hbox (badness 4467) in paragraph at lines 2031--2040
 ge) --- Wikipedia, The Free
  []
 
-) [127] [128
+) [129] [130
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) 
 has been already used, duplicate ignored
@@ -1890,6 +1885,12 @@ has been already used, duplicate ignored
 l.66 \chapter{Appendix One}
                            
 Chapter A.
+pdfTeX warning (ext4): destination with the same identifier (name{section.1.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.67 \section{Appendix section 1}
+                                 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 68.
@@ -1901,18 +1902,18 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: There were undefined citations.
 
-[129] (./dissertation.aux)
+[131] (./dissertation.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 14F28EA99E96B5FE481239001932C7DF;21318.
+(rerunfilecheck)             Checksum: E7C50C50907B48F571BD59F9D5D7D8F0;21561.
  ) 
 Here is how much of TeX's memory you used:
- 40745 strings out of 478994
- 915045 string characters out of 5858184
- 1642314 words of memory out of 5000000
- 56912 multiletter control sequences out of 15000+600000
+ 40758 strings out of 478994
+ 915122 string characters out of 5858184
+ 1643347 words of memory out of 5000000
+ 56911 multiletter control sequences out of 15000+600000
  434480 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3502b,1778s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1962,8 +1963,8 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
-usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texli
-ve/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texliv
+usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/u
+sr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texliv
 e/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
 021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/202
@@ -1991,10 +1992,10 @@ cm-super/sfti0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm
 uper/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-sup
 er/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucr
 r8a.pfb>
-Output written on dissertation.pdf (129 pages, 9529559 bytes).
+Output written on dissertation.pdf (131 pages, 9533732 bytes).
 PDF statistics:
- 2351 PDF objects out of 2487 (max. 8388607)
- 2100 compressed objects within 21 object streams
- 467 named destinations out of 1000 (max. 500000)
- 811 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2369 PDF objects out of 2487 (max. 8388607)
+ 2115 compressed objects within 22 object streams
+ 481 named destinations out of 1000 (max. 500000)
+ 819 words of extra memory for PDF output out of 10000 (max. 10000000)
 

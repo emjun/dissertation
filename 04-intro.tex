@@ -1,12 +1,52 @@
-% This chapter typically includes: 
-% \begin{itemize}
-%     \item a brief overview
-%     \item a challenges section
-%     \item a section about your approach
-%     \item a section (or subsection in the approach section) giving a dissertation outline (a roadmap of the rest of the thesis)
-% \end{itemize}
 
-% Data analysis is ipmortant for a number of domains. <Examples> 
+Line-by-line commentary:
+
+Faulty statistical models can lead to spurious estimations of disease spread, findings that do not generalize or reproduce, and a misinformed public.
+> Odd to have a specific domain followed by more general issues. Maybe keep the whole sentence high-level, perhaps by limiting to just "spurious estimations".
+
+> broken references "?"
+
+R, Python, SPSS, and SAS are computational tools. It feels more of a stretch to call them mathematical tools.
+
+"I not only move between systems building and empirical studies but use each" ->
+"I not only move between systems building and empirical studies. but use each"
+[missing comma]
+
+"The work described in the dissertation" ->
+"The work described in this dissertation"
+
+Domain-specific languages that provide abstractions for expressing conceptual knowledge, data collection procedures, and analysis intents instead of specific statistical modeling decisions coupled with automated reasoning to compile conceptual specifications into statistical analysis code help statistical non-experts more readily author valid analyses.
+> Whoa! Grammatical overload. Need to better structure this sentence. Here is an attempted edit:
+
+Statistical non-experts can more readily author valid analyses using a
+combination of domain-specific languages (DSL) and automated reasoning. Rather
+than specify statistical modeling decisions directly, analysis DSLs can express
+conceptual knowledge, data collection procedures, and analysis intents.
+Automated reasoning methods can then compile conceptual DSL specifications into
+statistical analysis code.
+
+"want and can express and balancing" ->
+"want and can express, and then balancing"
+
+"The challenge therefore, is to design" ->
+"The challenge, therefore, is to design"
+
+"usable for analysts and useful for automated reasoning and support interactive program specification as necessary" ->
+"usable for analysts, useful for automated reasoning, and support interactive program specification as necessary"
+
+"Additionally, the process of designing and developing domain-specific languages for end-users shows the first steps towards developing methods for user-centric language design."
+> This feels speculative and possibly tangential. I would not include this if you do not back this up substantively later in the dissertation. I'm also worried about saying "first steps" given there has been a great deal of DSL design already and I don't believe we've surveyed that in a comprehensive way.
+
+"a mixed-initiative approach for “interactively compiling” linear models from conceptual and data relationships in Tisane"
+> Missing chapter forward pointer.
+
+
+\ej{Expand to describe importance, severity, and prevalence of the issues you are addressing.}
+
+
+\ej{Way to expand: Add a statement/section about who the intended users of the systems are? -- statistically conversant, domain experts, limited statistical expertise}
+
+
 Statistical analysis plays a critical role in how people evaluate data and make
 decisions. Policy makers rely on models to track disease, inform health
 recommendations, and allocate resources. Scientists develop, evaluate, and
@@ -37,8 +77,7 @@ researchers.
 % non-experts who depend on accurate analyses, including many researchers. 
 
 
-\addcontentsline{toc}{section}{Approach}
-\section*{Approach}
+\section{Thesis Approach and Statement}
 This dissertation asks if separating the above concerns and incorporating
 automated reasoning in statistical software could benefit statistical
 non-experts. Towards this goal, I combine techniques from human-computer
@@ -60,6 +99,13 @@ knowledge, data collection procedures, and analysis intents instead of specific
 statistical modeling decisions coupled with automated reasoning to compile
 conceptual specifications into statistical analysis code help statistical
 non-experts more readily author valid analyses. 
+
+Statistical non-experts can more readily author valid analyses using a
+combination of domain-specific languages (DSL) and automated reasoning. Rather
+than specify statistical modeling decisions directly, analysis DSLs can express
+conceptual knowledge, data collection procedures, and analysis intents.
+Automated reasoning methods can then compile conceptual DSL specifications into
+statistical analysis code.
 
 Three challenges fall out of this thesis statement: 
 
@@ -101,16 +147,24 @@ approach future analyses. Therefore, educating analysts about the applicability
 and impact of statistical decisions and guiding their interpretation of results
 are important.
 
-\addcontentsline{toc}{section}{Summary of Contributions}
-\section*{Summary of Contributions}
-\ej{Add overview figure from reserach statement}
-% Contributions: systems, empirical, and the beginnings of methodological innovation.
-This dissertation makes systems and empirical contributions. Additionally, the
-process of designing and developing domain-specific languages for end-users
-shows the first steps towards developing methods for user-centric language
-design. 
-% we also explored new methods for eliciting and integrating user
-% feedback throughout programming language design.
+\section{Summary of Contributions}
+This dissertation contributes principles and systems for designing data analysis
+tools for statistical non-experts. The contributions can be summarized as follows: 
+
+\begin{comment}
+new domain-specific languages (DSLs),
+representations, and reasoning approaches for authoring statistical analyses. Additionally, 
+a new theory describing the cognitive and operational steps involved in
+authoring statistical analyses. In the process of designing the second DSL, we
+also explored new methods for eliciting and integrating user feedback throughout
+programming language design. The content of thesis is as follows. 
+
+This dissertation contributes new domain-specific languages (DSLs) for authoring
+statistical analyses and a new theory describing the cognitive and operational
+steps involved in authoring statistical analyses. In the process of designing
+the second DSL, we also explored new methods for eliciting and integrating user
+feedback throughout programming language design. The content of thesis is as
+follows. 
 
 Specifically, I designed and implemented two systems, Tea~\cite{jun2019tea} and
 Tisane~\cite{jun2022tisane}, that leverage \textbf{domain-specific languages}
@@ -121,43 +175,98 @@ represent and reason about core statistical authoring challenges} as constraints
 and graphs (\autoref{fig:tools}).
 % As a result, my systems prevent common analysis
 % mistakes~\cite{jun2019tea,jun2022tisane}. 
+\end{comment}
 
-\ej{Add a statement/section about who the intended users of the systems are? -- statistically conversant, domain experts, limited statistical expertise}
-In summary, this dissertation's key contributions are
-% The contributions of this research are as follows: 
-\begin{itemize} 
-    % Whereas hypothesis formalization has remained implicit in prior
-    % descriptions of data analysis, we explicate this specific process. 
-    \item a \textbf{formal constraint-based model} to specify and select among
-    common Null Hypothesis Statistical Tests in Tea (see~\autoref{chapter:tea}); 
-    \item empirical findings of how authoring analyses requires integrating
-    conceptual, data, statistical, and programming expertise, which we summarize
-    in our \textbf{theory of hypothesis formalization} (see~\autoref{chapter:hypoForm}); 
-    \item an analysis of how the current statistical software ecosystem does not
-    explicitly support and may even hinder hypothesis formalization, suggesting
-    new \textbf{design opportunities and implications} (see~\autoref{chapter:hypoForm});
-    \item a \textbf{mixed-initiative approach} for ``interactively compiling''
-    linear models from conceptual and data relationships in Tisane; 
-    \item empirical \textbf{findings on researchers' implicit semantics of
-    conceptual models} (see~\autoref{chapter:tisane});
-    \item \textbf{new language constructs and interaction methods} for
-    reflecting on and refining conceptual models in a second version of Tisane,
-    which we call rTisane (see~\autoref{chapter:tisane}); and
-    \item qualitative and quantitative \textbf{results showing the benefit of
-    recording conceptual models and compiling them into statistical models} in
-    rTisane over a scaffolded workflow (see~\autoref{chapter:tisane}).
-\end{itemize}
+\begin{enumerate} 
+    \item An assessment of the existing state of data analysis practice and tool support.
+    \begin{enumerate}
+        \item Our theory of \hypoForm describes the cognitive and operational
+        steps involved in translating a high-level conceptual research question
+        and hypothesis into a statistical analysis implemented in code. This
+        conceptual framework is useful for explaining what support existing
+        statistical tools fail to provide statistical non-experts and justifying
+        the design of systems developed in this dissertation.
+        \item We provide the first account scrutinizing the \hypoForm process in
+        situ. Whereas previous studies of data analysis have relied on
+        self-reports about analyses, we conduct an in-depth lab study where we
+        observe analysts prepare and even start to implement statistical
+        analyses. 
+        \item We qualitatively assess 20 statistical analysis libraries and
+        standalone systems in order ot understand how they structure data
+        analysis authoring. Combining our theory of \hypoForm and this tools
+        assessment, we develop three design implications for how data analysis
+        software could better serve statistical non-experts. 
+    \end{enumerate}
+
+    \item The design, implementation, and evaluation of new DSLs. These DSLs
+    explore ways to design abstractions that prioritize making implicit domain
+    knowledge explicit. 
+    \begin{enumerate}
+        \item The \tea DSL provides a high-level API so that analysts can make
+        explicit their asumptions about the data and their hypotheses to test
+        using Null Hypothesis Significance Tests. 
+        \item The \tisane DSL captures analysts' ``fuzzy'' assumptions about how
+        variables relate in their discipline in the form of a \textit{conceptual
+        model}.
+        \item A formative study showed how statistical non-experts implicitly
+        think about causality, how they would like to express their implicit
+        assumptions, and what they expect language constructs describing
+        conceptual models to mean. These findings informed the re-design of
+        \tisane's DSL, release as \rTisane.
+        \item Case studies and a controlled lab study demonstrate the benefit of
+        these DSLs in helping analysts become more aware of their implicit
+        assumptions. 
+    \end{enumerate}
+
+    \item Formal representations and automated reasoning approaches for
+    statistical analysis authoring. To support statistical testing and modeling,
+    we develop representations that allow automated reasoning to compile
+    conceptual models into statistical models. 
+    \begin{enumerate}
+        \item In \tea, we implement a constraint-based model and knowledge base
+        for Null Hypothesis Significance Tests. 
+        \item In \tisane, we develop an intermediate graph representation to
+        summarize key conceptual assumptions and data collection details.
+        Importantly, a subgraph of the representation is a causal diagram useful
+        for deriving statistical models formally. 
+        \item Finally, we develop an interaction model for \textit{interactively
+        compiling} high-level conceptual specifications into statistical models.
+        % \polish{In a controlled lab study, we find that interactive compilation
+        % contributes to analysts' increased awareness of their domain, data, and
+        % statistics during data analysis.}
+    \end{enumerate}
+    % \item a \textbf{formal constraint-based model} to specify and select among
+    % common Null Hypothesis Statistical Tests in Tea (see~\autoref{chapter:tea}); 
+    % \item empirical findings of how authoring analyses requires integrating
+    % conceptual, data, statistical, and programming expertise, which we summarize
+    % in our \textbf{theory of hypothesis formalization} (see~\autoref{chapter:hypoForm}); 
+    % \item an analysis of how the current statistical software ecosystem does not
+    % explicitly support and may even hinder hypothesis formalization, suggesting
+    % new \textbf{design opportunities and implications} (see~\autoref{chapter:hypoForm});
+    % \item a \textbf{mixed-initiative approach} for ``interactively compiling''
+    % linear models from conceptual and data relationships in Tisane; 
+    % \item empirical \textbf{findings on researchers' implicit semantics of
+    % conceptual models} (see~\autoref{chapter:tisane});
+    % \item \textbf{new language constructs and interaction methods} for
+    % reflecting on and refining conceptual models in a second version of Tisane,
+    % which we call rTisane (see~\autoref{chapter:tisane}); and
+    % \item qualitative and quantitative \textbf{results showing the benefit of
+    % recording conceptual models and compiling them into statistical models} in
+    % rTisane over a scaffolded workflow (see~\autoref{chapter:tisane}).
+\end{enumerate}
+
+% System --> Empirical --> System --> Empirical --> Empirical --> System --> Empirical 
+
+\section{Thesis outline}
+\ej{- Next you could add a (currently omitted) subsection that outlines the thesis
+chapters.}
+
+new domain-specific languages (DSLs),
+representations, and reasoning approaches for authoring statistical analyses. Additionally, 
+
+
 
 \begin{comment}
-\section{Thesis outline}
-% System --> Empirical --> System --> Empirical --> Empirical --> System --> Empirical 
-This dissertation contributes new domain-specific languages (DSLs) for authoring
-statistical analyses and a new theory describing the cognitive and operational
-steps involved in authoring statistical analyses. In the process of designing
-the second DSL, we also explored new methods for eliciting and integrating user
-feedback throughout programming language design. The content of thesis is as
-follows. 
-
 \todo{Fill in this outline}
 
 \section*{How to approach this dissertation} \todo{Decide if want to keep}
