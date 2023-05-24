@@ -1,4 +1,301 @@
-\section{Exploratory study} \label{sec:exploratoryStudy}
+\def\unit{\texttt{Unit}\xspace}
+\def\measure{\texttt{Measure}\xspace}
+\def\setup{\texttt{SetUp}\xspace}
 
-Reflection: As progress through PhD research, got and grappled with how to get
-closer to users and to statistical theory in tandem.
+\section{Elicitation lab study} \label{sec:exploratoryStudy}
+% Motivation
+% Our motivating question was, ``What implicit semantics do analysts use to construct conceptual models of how variables relate?''. 
+Our primary aim was to uncover how analysts internally represent domain
+knowledge about a research topic necessary for statistical modeling. We probed
+analysts' internal processes by prompting them to use \tisane. Based on the
+answers to our research questions, we derived design implications
+(\autoref{sec:rtisane_design_implications}) that informed the design of \rTisane.
+
+\subsection{Method}
+%Participants
+We conducted a lab study with five computer science PhD students who were
+enrolled in a quantitative research methods course. We recruited participants
+through the course as a convenience sample so that we could control their recent
+exposure to statistical concepts. 
+% All participants self-reported that they
+% conducted research in programming languages or software engineering and planned
+% to perform statistical analyses in future research projects. 
+% \ej{Add: Approaches, mindsets of participants as they were completing the study}
+
+The study consisted of two parts: (i) a take-home assignment and (ii) an in-lab
+session. The take-home assignment asked participants to read a recently
+published CHI paper~\cite{winters2021heartbeat}\footnote{We chose the specific
+paper because we believed its topic (i.e., empathetic biosignals) would be
+broadly approachable and the statistical methods used (i.e., generalized linear
+models) would be familiar with students enrolled in the research methods course.}, identify the paper's research
+questions and hypotheses, describe the authors' conceptual models, summarize the
+study design, and consider alternative ways of analyzing the data to answer the
+research questions. The assignment was designed to ensure that participants
+engaged with the paper's key ideas prior to the lab study.
+% On a scale from
+% one (not at all relatable) to five
+% (extremely relatable), four participants indicated that the paper was relatable
+% with a score of 3 or higher.
+
+The lab session followed a semi-structured, think-a-loud protocol. The
+researcher reviewed each submission to prepare participant-specific questions.
+The lab study used Tisane~\cite{jun2022tisane}, an open-source package for
+authoring generalized linear models with or without mixed effects, as a probe to
+understand how participants thought about and wanted to express their conceptual
+models and study designs. We adapted Tisane's Python API into R syntax for the
+study since the research methods course taught and used R. We used Tisane
+because of its focus on eliciting conceptual models from statistical
+non-experts. 
+
+Upon entering the lab, participants reviewed their homework submission to remind
+themselves of the paper. The paper and participants' homework responses remained
+available for reference throughout the study. Then, participants completed three
+tasks: (i) declaring variables, (ii) expressing conceptual models, and (iii)
+specifying study designs. For each task, participants started with Tisane's
+language constructs to express their intent and discussed their confusions, how
+they understood each presented construct, and what they wanted to say but could
+not (if applicable). The researcher repeatedly reminded participants that the
+constructs presented were prototype possibilities and that expressing their
+intentions was more important than using the constructs or getting the syntax
+correct. Throughout, the researcher paid particular attention to where Tisane
+broke down for participants and asked follow-up questions to probe deeper into
+why. The researcher considered such breakdowns as openings into semantic
+mismatches between the end-user and the system. 
+
+% Analysis 
+We iteratively coded homework submissions, audio transcripts from the lab study
+sessions, and lab study artifacts. We also consulted the
+researcher's detailed notes from the lab sessions. 
+
+% Based on an iteraWe conducted a content analysis of the produced code suggestions (output
+% artifacts) along with a thematic analysis of the audio transcripts from each lab
+% session. 
+
+\subsection{Key Observations}
+All participants demonstrated a working knowledge of the assigned paper's
+motivating research questions, study design, and general study procedure. 
+% Among
+% the submitted conceptual models, four were a list of conceptual relationships,
+% and one was a diagram. 
+We made two key observations about what and how statistical non-experts wanted
+to express their conceptual models. Below, we elaborate on these observations
+and derive design implications for systems that connect conceptual and
+statistical modeling, which we implement in \rTisane (see~\autoref{sec:rTisane}).
+
+\subsubsection{Participants want to express conceptual knowledge at varying degrees of specificity.}
+Contrary to the popular belief that higher levels of abstraction are better for
+domain or programming novices, we found that statistical non-experts want to
+move up and down the ladder of abstraction when expressing conceptual models. 
+
+When defining ``causes,'' P2 described ``[Causes] is...like when we teach
+logic...it's like implication, right?....So I'm saying if we are observing an
+emotion and...emotion observed can lead to a change in emotional perspective.''
+P0, P1, and P3 contrasted a bidirectional relationship between variables,
+formerly encapsulated in the \texttt{associates\_with} construct in \tisane, to
+their implicit understanding of ``causes.'' For instance, P1 stated ``the most
+like, utilitarian definition by if A causes B, then by changing A, I can change
+B whereas \texttt{associates\_with} means that...if I can turn dial A, B might
+not change.'' In addition to differentiating between causal and associative
+relationships, three participants [P0, P1, P3] provided statements of
+\textit{specifically how} a variable influenced another in the conceptual models
+submitted as homework. For example, P0 wrote, ``Hearing a heartbeat that seems to
+be aligned with visual cues makes someone feel \textit{more} strongly what
+another person is feeling'' (emphasis added), specifying a (positive)
+directionality to the influence from ``hearting a heartbeat'' to empathy. 
+
+These observations suggest that analysts have an intuitive understanding of
+causality but stating that a variable causes another is insufficient to capture
+the richness of their conceptual models. Additional annotations are necessary
+for capturing analysts' knowledge about how a variable influences
+another.
+
+%   in addition to vaguer statements without a clear
+% positive/negative direction, such as ``Visual cues directly influence a person’s
+% perception of another’s emotions'' [P0]. 
+% The homework assignment and lab study materials may have primed participants to
+% think about ``direct'' and ``indirect'' relationships and commutativity, so
+% analysts' descriptions of causal relationships as ``unidirectional'' and
+% associative relationships as ``bidirectional'' were not surprising [P0, P2, P3].
+
+% how a bidirectional relationship between two variables 
+% indicative of proxies measuring the same latent construct (``...for two things
+% to be bi-directional and for it to be a really, really direct relationship. Like
+% that just never happens in the real world without them turning out to be like
+% proxies for the same exact thing.'') [P3]; and that 
+
+Furthermore, participants consistently found Tisane's \texttt{moderates}
+construct difficult to understand [P0, P1, P2, P3]. Participants expressed
+confusion about what moderation implied about causal relationships between
+variables. For example, P3 grappled with if ``moderates'' was shorthand for
+expressing associative relationships between each independent variable and the
+dependent variable, how moderation implies causal relationships, and if
+statistical and conceptual definitions of moderation differed from each other:
+``[L]et's say there's two independent variables and one dependent variable. And
+each of the [independent] variables individually is not correlated with the
+outcome. But if you put them together, then the correlation appears....I mean,
+it's sort of a philosophical question of whether, like each of the ones
+individually causes [the dependent variable] in that case. But thinking from
+a...statistical perspective, I think that's a situation where you might be able
+to express...language and experience level together cause lines of code but
+individually they don't because no individual correlation would appear there.''
+% that (i) the semantics of moderation is unclear in
+% Tisane and (ii) moderation may be easier to reason about when decomposed into
+% what happens to the dependent variable when two or more independent variables
+% have specific values. 
+% \paragraph{Design implication: Too high level --> Remove moderates}
+
+\subsubsection{Participants consider alternative conceptual structures in the face of ambiguous relationships.}
+% In addition to detailing how variables influence one another, participants also
+Participants grappled with what specific structures in a conceptual model meant. P1 and P3
+described how a bidirectional relationship between two variables were really due
+to hidden, confounding variables causing both variables. P3 described how ``in
+the real world, when, when these bidirectional things happen, it means there's
+sort of this middleman complex system. Or some like underlying process of which
+[two variables are] both components...'' Another participant, P2, wondered aloud
+about how even what appears like a direct relationship, may actually be a chain
+of indirect or mediated relationships at a lower granularity: ``It's like Google
+Maps. If you zoom out enough, that arrow becomes a direct arrow.'' These
+observations suggest that while participants can deeply reflect on what could be
+happening between variables conceptually, \textbf{they need help exploring and
+figuring out which of these structures to use in their data analyses.}
+% P3's definition of associative relationships
+% is consistent with an associative structure called a ``fork'' in causal DAGs.
+% \paragraph{Need help exploring and picking among possible structures.}
+
+\subsubsection{Participants distinguish between known and suspected relationships.}
+% [P0, P1, P2, P3, P4]
+Participants described known relationships established in prior work as
+``assumptions'' or ``assertions'' to check separately from the key research
+questions that ``tested'' suspected relationships. P0 described how ``maybe we
+have to differentiate as to like the known [relationships] are kind of the
+things you're \textit{assuming} there's relationships between these things
+whereas the suspected...[are] the things kind of like your research questions
+are saying like, `We think there's this relationship but...it's what we're
+testing for.'' (emphasis added). Similarly, P4 suggested that Tisane should warn
+end-users when assumptions about known relationships are violated in a given
+data set: ``I would also say that it would be very handy to be able to say, kind
+of \textit{assert} that language has no effect on the line of code. And be
+warned if it's not the case, like if your \textit{assertion} is not...verified
+automatically with the DSL, but warned...that while your \textit{assumption} is
+not holding there is actually an effect, which could be very handy on your
+study.'' (emphasis added). One of the reasons that analysts repeatedly
+expressed preferring less technical verbs, such as ``influences'' [P0] or
+``leads to'' [P3], may be due to the inability to indicate relationships that
+are known vs. suspected in \tisane. For instance, P0 explained how she preferred
+``influences'' over ``causes'' because ``I guess it's like \textit{a level of
+sureness} in it in which, like, `cause' feels more confident in your answers
+than `influences''' (emphasis added).
+% \paragraph{Design implication: Provide constructs for distinguishing betwen known and suspected relationships -->  assume/hypothesize}
+
+% However, Tisane does not differentiate between known
+% and suspected relationships, and as P4 noted, ``I don't know if everything that
+% is not either specified to moderate, associate, or causes is by default,
+% asserting that there is no effect,'' suggesting that the Tisane's DSL semantics
+% could be more self-evident. In fact, 
+
+\begin{comment}
+\subsubsection{More expressivity for specifying study designs/experimental design}
+**keep short**
+Additional observations about expressing study design
+More future work for how to express study designs
+
+TODO: Participant as a separate construct
+\end{comment}
+
+\subsubsection{Participants expected more syntactic sugar for specifying data collection details.}
+While our focus was on the expressivity of conceptual models, we made a few
+observations about challenges analysts faced when specifying data collection
+details. First, analysts expected \textit{experimental conditions to be
+standalone concepts}. In Tisane, experimental conditions can be specified as a
+\measure of a \unit. Instead, P0 and P4 had separate conceptual categories for
+conditions and measures in their mental models of study designs. P4 preferred a
+separate condition data type currently unavailable in Tisane because the term
+``Measure'' did not create a ``bucket'' appropriate for conditions. Second,
+participants were interested in representing trials (and stimuli) and responses
+elicited during each trial explicitly. All participants discussed wanting to
+explicitly represent trials alongside participants: ``I want to have a trial
+unit that is nested within trials, which is nested within or maybe I could just
+have trial nested within Participant, but I'm not seeing a way to clearly
+delineate or like to denote that'' [P1]. Future work should more closely examine and iterate
+on language constructs and idioms for expressing data collection procedures. 
+
+% In Tisane, nesting a trial within a
+% participant would mean that multiple trials exist in each participant (e.g.,
+% akin to how multiple children exist in a family), which even in natural
+% language, does not capture what P1 wanted to convey, which was that each
+% participant sees and provides responses for each trial. 
+% \paragraph{Participant construct - syntactic sugar for Unit}
+
+% P4 resorted to declaring
+% condition as a \setup variable, violating the intended semantics of \setup
+% variables in Tisane: ``Like it doesn't feel like the condition are measured.
+% Right? I'm measuring the proxy. I'm not measuring the condition. So to me,
+% that's why I'm putting the visual on the four condition as a...\setup
+% variable.'' Similar to P4, when P0 saw the ``SetUp'' class, she thought it
+% described conditions: ``[I]f I heard the word `setup,' I would think of more
+% like conditions like, like, this person uses this IDE or this person is given
+% this IDE.'' 
+
+\subsection{DSL Re-design goals} \label{sec:rtisane_design_implications} 
+
+Based on our lab study observations, we derived three design goals for
+re-designing Tisane's DSL to more accurately capture analysts' implicit
+conceptual models: 
+%  about how
+% participants internally represent conceptual models and study designs have three
+% implications for improving the design of Tisane.
+\begin{itemize}
+    \item Analysts should be able to specify optional annotations that provide
+    additional details about conceptual relationships.
+    \item When expressing ambiguous relationships, analysts should have support
+    in considering and picking among multiple possible conceptual structures.
+    \item Analysts should be able to distinguish between assumed and hypothesized relationships in their conceptual models. 
+\end{itemize}
+
+In the second release of \tisane, we addressed these goals through new language
+constructs. We also supported new syntactic sugar to more accurately capture
+study design details. 
+
+\begin{comment}
+\textbf{Deconstruct statistical constructs for clarity.}
+Unsurprisingly, we found that class and function names such as ``Measure,''
+``SetUp,'' and ``moderates'' confused participants. These names either suggested
+informal conceptual categories or were too close to statistical jargon. As a
+result, connecting a Tisane program's semantics to a mental model of study
+design was challenging. Particularly insightful was participants' consternation
+with the function ``moderates.'' Participants could reason about the details of
+moderation relationships but did not know what the term meant or how to use it
+to clearly communicate their conceptual models in detail. Using
+specific,granular language constructs (e.g., pairwise relationships) and
+allowing for system-gudiance to consider more complex statistical structures
+(e.g., interaction effects for moderation) may help analysts more accurately
+understand and use Tisane.
+
+\textbf{Allow for conceptual ambiguity, make specificity optional.}
+Despite being statistical non-experts, participants were noticeably focused on
+low-level details about conceptual relationships. All participants
+differentiated between known and suspected relationships and generally agreed
+that known relationships should be checked for prior to assessing the suspected,
+or ambiguous, ones. At the same time, when participants were confident about
+some relationships, they were specific about if the relationships were
+positive/negative. Welcoming ambiguity and specificity could help analysts write
+and use conceptual models throughout data analysis and interpretation.
+
+Both design implications suggest the need to re-structure Tisane's programming
+and interaction models. First, Tisane's specification language needs to be more
+specific and low-level. This finding is \textit{counterintuitive} because a
+well-documented strategy for making programming tasks easier for non-experts has
+been to raise the level of abstraction for a programming
+domain~\cite{chasins2018rousillon,satyanarayan2017vega}. Yet, we have evidence
+that suggests the opposite for specifying a conceptual model and study design.
+Second, Tisane's specification process could be more tiered, and disambiguation
+could leverage ambiguity in analysts' specification as opportunities for more
+numerous intelligent suggestions and guidance. 
+
+\todo{Mention that the focus needs to be on conceptual level, but within conceptual level, there should be opportunity to move up and down the ladder of conceptual abstraction}
+
+%hand-offs to a reasoning engine to suggest possible analysis paths, for example. 
+
+% the conceptual modeling and study design specification process to be more tiered
+
+\end{comment}

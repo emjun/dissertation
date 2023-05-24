@@ -6,19 +6,6 @@
 \def\group{\texttt{group}\xspace}
 \def\age{\texttt{age}\xspace}
 
-If you are copying and pasting material from one of your papers, then remember to:
-\begin{itemize}
-    % \item Remove the abstract and instead add a little overview of the chapter and how it ties in to the rest of the thesis. You should also mention the original paper's source like: ``This chapter includes materials originally published in $\backslash$citet\{myownppr\}''
-    % \item Make sure the formatting still works -- this is single column now!
-    \item Consider rephrasing conference-paper-style language:
-    \begin{itemize}
-        \item Find every place you mention some variation of ``in this paper'' and say ``in this chapter'' instead.
-        \item Remove or rephrase the parts where you talk about ``our main contributions''.
-        \item Rephrase the language describing code and data releases.
-    \end{itemize}
-    % \item Replace the conclusion section with a summary section. Again, you should tie this chapter back to the main themes of the thesis.
-\end{itemize}
-
 Authoring statistical models requires analysts to jointly reason about their
 conceptual domain knowledge, statistical methods, and analysis implementations
 in code, as our theory of hypothesis formalization describes. For instance,
@@ -65,14 +52,14 @@ generalized linear mixed-effects models (GLMMs) from explicit statements of
 implicit conceptual assumptions}. 
 
 The first implementation of Tisane (\autoref{sec:tisane}) was as an open-source
-Python package available on \texttt{pip}~\cite{tisaneOnPip}. Case studies and
-real-world use of Tisane~\cite{} demonstrated not only the viability but also
+Python package available on \texttt{pip} (see~\cite{tisaneWebsite}). Case studies and
+real-world use of Tisane demonstrated not only the viability but also
 the desirability of tool support for authoring statistical models from
-conceptual models. Therefore, we explored how to further improve Tisane's
+conceptual models (\autoref{sec:tisane_case_studies}). Therefore, we explored how to further improve Tisane's
 programming and interaction models to better suit novice analysts
 (\autoref{sec:exploratoryStudy}) and released a second version in R as the
-\rTisane library~\cite{rTisane link}. The R implementation allowed us to more
-direclty compare \rTisane to a scaffolded workflow using widely used linear
+\rTisane library~\cite{jun2023rTisane} (see~\cite{tisaneWebsite}). The R implementation allowed us to more
+directly compare \rTisane to a scaffolded workflow using widely used linear
 modeling libraries, including the \texttt{lme4}, in R. 
 
 Tisane provides a \textbf{\SDSLlong} for expressing % conceptual and data
@@ -86,8 +73,7 @@ models and an output statistical model script for fitting a valid GLM/GLMM. In
 this way, Tisane focuses analysts on reflecting on and externalizing their
 implicit conceptual assumptions and checks that analysts do not overlook
 relevant variables, such as potential confounders or data clustering, that could
-compromise generalizability of statistical results (\higherLevel,
-\connectConceptualStats). 
+compromise generalizability of statistical results. %(\higherLevel, \connectConceptualStats). 
 % For example, a public health researcher can
 % express that average county income is associated with hospital spending based on
 % health economics theory or specify that hospitals exist within counties.
@@ -105,28 +91,13 @@ compromise generalizability of statistical results (\higherLevel,
 
 \input{tisane/case_studies.tex}
 
-\section{Limitations and Motivation for Re-design}
-Despite the importance of conceptual modeling to statistical analysis, it is
-unknown what challenges statistical novices face when expressing their domain
-knowledge. To identify what statistical non-experts want and are capable of
-expressing about their conceptual models, we conducted a formative study using
-\tisane~\cite{jun2022tisane}, an open-source tool designed to bridge this gap.
-We found important limitations to \tisane. Surprisingly, we found that some
-keywords and functions in \tisane were at too high a level of abstraction.
-Analysts wanted to express their conceptual relationships with greater detail
-and specificity. Analysts also wanted to express ambiguity about the a
-relationship's direction in the conceptual model. 
-
-
-~\cite{vanderweele2019modifiedDisjunctiveCriterion} (designed for
-scenarios where analysts are uncertain about the causal relationships in their
-domain).  --> Cinelli et al. 
-
 \input{tisane/exploratory.tex}
 
 \input{tisane/rTisane.tex}
 
 \input{tisane/lab_study.tex}
+
+\input{tisane/discussion.tex}
 
 \section{Summary of Contributions}
 

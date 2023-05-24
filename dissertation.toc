@@ -71,56 +71,62 @@
 \contentsline {section}{\numberline {4.7}Future Work}{73}{section.4.7}%
 \contentsline {section}{\numberline {4.8}Summary of Contributions}{74}{section.4.8}%
 \contentsline {chapter}{\numberline {5}Tisane: Authoring statistical models via formal reasoning from conceptual and data relationships}{77}{chapter.5}%
-\contentsline {subsection}{\numberline {5.0.1}Statistical scope}{79}{subsection.5.0.1}%
-\contentsline {section}{\numberline {5.1}Why is Tisane necessary, isn't Tea enough?}{79}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Background and Related work}{80}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Causal Analysis}{80}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}First Release}{81}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Study design specification language and graph representation}{81}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.1}Background and Related work}{78}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Statistical scope}{79}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}First Release}{80}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Study design specification language and graph representation}{81}{subsection.5.2.1}%
 \contentsline {subsubsection}{Variables}{81}{section*.49}%
-\contentsline {subsubsection}{Relationships between Variables}{82}{section*.50}%
+\contentsline {subsubsection}{Relationships between Variables}{81}{section*.50}%
 \contentsline {paragraph}{Conceptual relationships.}{82}{section*.51}%
 \contentsline {paragraph}{Data measurement relationships.}{83}{section*.52}%
 \contentsline {paragraph}{Nesting relationships: Hierarchies}{84}{section*.53}%
 \contentsline {paragraph}{Frequency of measures: Repeated measures, Non-nesting composition}{84}{section*.54}%
-\contentsline {subsection}{\numberline {5.3.2}Statistical model inference: Interactively querying the graph IR}{85}{subsection.5.3.2}%
-\contentsline {subsubsection}{Preliminary checks}{86}{section*.55}%
+\contentsline {subsection}{\numberline {5.2.2}Statistical model inference: Interactively querying the graph IR}{85}{subsection.5.2.2}%
+\contentsline {subsubsection}{Preliminary checks}{85}{section*.55}%
 \contentsline {subsubsection}{Candidate statistical model generation}{86}{section*.56}%
 \contentsline {paragraph}{Deriving Candidate Main Effects}{86}{section*.57}%
 \contentsline {paragraph}{Deriving Candidate Interaction Effects}{87}{section*.58}%
-\contentsline {paragraph}{Deriving Candidate Random Effects}{88}{section*.59}%
+\contentsline {paragraph}{Deriving Candidate Random Effects}{87}{section*.59}%
 \contentsline {paragraph}{Deriving Candidate Family and Link Functions}{88}{section*.60}%
-\contentsline {subsubsection}{Eliciting Analyst Input for Disambiguation\xspace }{89}{section*.61}%
-\contentsline {subsubsection}{Output}{91}{section*.63}%
-\contentsline {section}{\numberline {5.4}Initial evaluation: Case studies with researchers}{91}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Case Study 1: Planning a new study}{92}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Case Study 2: Analyzing data for a paper submission}{93}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Case Study 3: Developing models to inform future models}{94}{subsection.5.4.3}%
+\contentsline {subsubsection}{Eliciting Analyst Input for Disambiguation\xspace }{88}{section*.61}%
+\contentsline {subsubsection}{Output}{90}{section*.63}%
+\contentsline {section}{\numberline {5.3}Initial evaluation: Case studies with researchers}{91}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Case Study 1: Planning a new study}{91}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Case Study 2: Analyzing data for a paper submission}{92}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Case Study 3: Developing models to inform future models}{94}{subsection.5.3.3}%
 \contentsline {subsubsection}{System changes and Takeaways}{95}{section*.64}%
-\contentsline {section}{\numberline {5.5}Limitations and Motivation for Re-design}{96}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Exploratory study}{96}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Second Release: rTisane}{96}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Updated DSL}{96}{subsection.5.7.1}%
-\contentsline {subsection}{\numberline {5.7.2}Conceptual Model Disambiguation}{96}{subsection.5.7.2}%
-\contentsline {subsection}{\numberline {5.7.3}Statistical model inference}{96}{subsection.5.7.3}%
-\contentsline {section}{\numberline {5.8}Summative Evaluation: Lab study}{96}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Discussion: Do we want to a sep discussion for this chapter?}{96}{section.5.9}%
-\contentsline {section}{\numberline {5.10}Summary of Contributions}{96}{section.5.10}%
-\contentsline {chapter}{\numberline {6}Conclusion}{99}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Impact}{100}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Discussion: Themes}{100}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Designing the \textit {right} levels of abstraction (Challenge 1)}{100}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Balancing user and computational reasoning / representations for automated reasoning (Challenge 2)}{101}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}The role of programs and the act of programming as a reflective practice (Challenge 3)}{101}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}Recent developments}{102}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Construct validity: Within reach with the usage of LLMs}{102}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}What about in the face of LLMs?}{102}{subsection.6.3.2}%
-\contentsline {section}{\numberline {6.4}Limitations and Future work}{102}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Connecting modeling with testing}{103}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Interpretation of results}{103}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Support throughout the data lifecycle}{104}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}Improving science}{104}{subsection.6.4.4}%
-\contentsline {subsection}{\numberline {6.4.5}Methods for human-centered programming language design}{105}{subsection.6.4.5}%
-\contentsline {section}{\numberline {6.5}Closing Remarks}{105}{section.6.5}%
-\contentsline {chapter}{\numberline {A}Appendix One}{121}{chapter.1}%
-\contentsline {section}{\numberline {A.1}Appendix section 1}{121}{section.1.1}%
+\contentsline {section}{\numberline {5.4}Limitations and Motivation for Re-design}{95}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Elicitation lab study}{96}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Method}{96}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Key Observations}{97}{subsection.5.5.2}%
+\contentsline {subsubsection}{Participants want to express conceptual knowledge at varying degrees of specificity.}{97}{section*.65}%
+\contentsline {subsubsection}{Participants consider alternative conceptual structures in the face of ambiguous relationships.}{98}{section*.66}%
+\contentsline {subsubsection}{Participants distinguish between known and suspected relationships.}{98}{section*.67}%
+\contentsline {subsubsection}{Participants expected more syntactic sugar for specifying data collection details.}{99}{section*.68}%
+\contentsline {subsection}{\numberline {5.5.3}DSL Re-design goals}{99}{subsection.5.5.3}%
+\contentsline {section}{\numberline {5.6}Second Release: rTisane}{100}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Updated DSL}{100}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Conceptual Model Disambiguation}{100}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Statistical model inference}{100}{subsection.5.6.3}%
+\contentsline {section}{\numberline {5.7}Summative Evaluation: Lab study}{100}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Discussion: Do we want to a sep discussion for this chapter?}{100}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Discussion}{100}{section.5.9}%
+\contentsline {section}{\numberline {5.10}Summary of Contributions}{100}{section.5.10}%
+\contentsline {chapter}{\numberline {6}Conclusion}{103}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Impact}{104}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Discussion: Themes}{104}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Designing the \textit {right} levels of abstraction (Challenge 1)}{104}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Balancing user and computational reasoning / representations for automated reasoning (Challenge 2)}{105}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}The role of programs and the act of programming as a reflective practice (Challenge 3)}{105}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Recent developments}{106}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Construct validity: Within reach with the usage of LLMs}{106}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}What about in the face of LLMs?}{106}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Limitations and Future work}{106}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Connecting modeling with testing}{107}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Interpretation of results}{107}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Support throughout the data lifecycle}{108}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}Improving science}{108}{subsection.6.4.4}%
+\contentsline {subsection}{\numberline {6.4.5}Methods for human-centered programming language design}{109}{subsection.6.4.5}%
+\contentsline {section}{\numberline {6.5}Closing Remarks}{109}{section.6.5}%
+\contentsline {chapter}{\numberline {A}Appendix One}{125}{chapter.1}%
+\contentsline {section}{\numberline {A.1}Appendix section 1}{125}{section.1.1}%

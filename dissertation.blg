@@ -1,23 +1,18 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
-White space in argument---line 323 of file dissertation.aux
- : \citation{rTisane
- :                   link}
-I'm skipping whatever remains of this command
 The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 12695 items from 5000.
+Reallocated field_info (elt_size=4) to 12785 items from 5000.
 Database file #1: references.bib
 Warning--string name "january" is undefined
---line 1653 of file references.bib
+--line 1683 of file references.bib
 Warning--string name "april" is undefined
---line 1661 of file references.bib
+--line 1691 of file references.bib
 Warning--string name "march" is undefined
---line 1669 of file references.bib
+--line 1699 of file references.bib
 Warning--I didn't find a database entry for "PS9"
-Warning--I didn't find a database entry for "jun2022tisane"
 Warning--I didn't find a database entry for "seabold2010statsmodels"
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "yu2020veridical"
@@ -27,7 +22,7 @@ Warning--I didn't find a database entry for "betancourt2020bayesianWorkflow"
 Warning--I didn't find a database entry for "gelman2020bayesianWorkflow"
 Warning--I didn't find a database entry for "pyro"
 Warning--I didn't find a database entry for "pymc3"
-Warning--I didn't find a database entry for "tisaneOnPip"
+Warning--I didn't find a database entry for "winters2021heartbeat"
 Warning--I didn't find a database entry for "rock"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
@@ -61,12 +56,15 @@ Warning--empty address in cairns2007hci
 Warning--no journal in carver2016guidelines
 Warning--no number and no volume in carver2016guidelines
 Warning--page numbers missing in both pages and numpages fields in carver2016guidelines
+Warning--empty publisher in chasins2018rousillon
+Warning--empty address in chasins2018rousillon
 Warning--no journal in edgeROverview
 Warning--no number and no volume in edgeROverview
 Warning--page numbers missing in both pages and numpages fields in edgeROverview
 Warning--no journal in edgeRUsersGuide
 Warning--no number and no volume in edgeRUsersGuide
 Warning--page numbers missing in both pages and numpages fields in edgeRUsersGuide
+Warning--no number and no volume in cinelli2020controls
 Warning--no journal in cohen1988statistical
 Warning--no number and no volume in cohen1988statistical
 Warning--page numbers missing in both pages and numpages fields in cohen1988statistical
@@ -117,6 +115,13 @@ Warning--page numbers missing in both pages and numpages fields in jun2021hypoth
 Warning--empty publisher in jun2019tea
 Warning--empty address in jun2019tea
 Warning--page numbers missing in both pages and numpages fields in jun2019tea
+Warning--empty year in jun2023rTisane
+Warning--empty publisher in jun2023rTisane
+Warning--empty address in jun2023rTisane
+Warning--page numbers missing in both pages and numpages fields in jun2023rTisane
+Warning--empty year in tisaneWebsite
+Warning--empty publisher in jun2022tisane
+Warning--empty address in jun2022tisane
 Warning--no journal in kabacoff2011action
 Warning--no number and no volume in kabacoff2011action
 Warning--page numbers missing in both pages and numpages fields in kabacoff2011action
@@ -171,8 +176,6 @@ Warning--no number and no volume in mass
 Warning--page numbers missing in both pages and numpages fields in mass
 Warning--empty publisher in russell1993cost
 Warning--empty address in russell1993cost
-Warning--empty publisher in salimi2020causal
-Warning--empty address in salimi2020causal
 Warning--empty publisher in schunn1995FourSpace
 Warning--empty address in schunn1995FourSpace
 Warning--empty publisher in schunn1996BeyondTwoSpace
@@ -208,45 +211,45 @@ Warning--empty publisher in wacharamanotham2015statsplorer
 Warning--empty address in wacharamanotham2015statsplorer
 Warning--no number and no volume in wongsuphasawat2019EDAgoals
 Warning--page numbers missing in both pages and numpages fields in wongsuphasawat2019EDAgoals
-You've used 158 entries,
+You've used 161 entries,
             5719 wiz_defined-function locations,
-            2143 strings with 42967 characters,
-and the built_in function-call counts, 172098 in all, are:
-= -- 21615
-> -- 6784
+            2153 strings with 43395 characters,
+and the built_in function-call counts, 175067 in all, are:
+= -- 21902
+> -- 6892
 < -- 0
-+ -- 2222
-- -- 2383
-* -- 12270
-:= -- 18338
-add.period$ -- 811
-call.type$ -- 158
-change.case$ -- 1086
-chr.to.int$ -- 147
-cite$ -- 332
-duplicate$ -- 14672
-empty$ -- 10398
-format.name$ -- 2754
-if$ -- 41096
-int.to.chr$ -- 13
++ -- 2260
+- -- 2419
+* -- 12461
+:= -- 18649
+add.period$ -- 825
+call.type$ -- 161
+change.case$ -- 1105
+chr.to.int$ -- 149
+cite$ -- 343
+duplicate$ -- 14961
+empty$ -- 10590
+format.name$ -- 2801
+if$ -- 41801
+int.to.chr$ -- 14
 int.to.str$ -- 1
-missing$ -- 507
-newline$ -- 1480
-num.names$ -- 1255
-pop$ -- 5584
+missing$ -- 517
+newline$ -- 1506
+num.names$ -- 1278
+pop$ -- 5745
 preamble$ -- 1
-purify$ -- 2474
+purify$ -- 2506
 quote$ -- 0
-skip$ -- 5032
+skip$ -- 5150
 stack$ -- 0
-substring$ -- 11819
-swap$ -- 1373
+substring$ -- 11959
+swap$ -- 1418
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3271
-warning$ -- 174
-while$ -- 1181
+type$ -- 3355
+warning$ -- 182
+while$ -- 1198
 width$ -- 0
-write$ -- 2867
-(There was 1 error message)
+write$ -- 2918
+(There were 197 warnings)

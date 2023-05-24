@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{158}
+\begin{thebibliography}{161}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -355,6 +355,19 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Chasins, Mueller, and Bodik}{Chasins
+  et~al\mbox{.}}{2018}]%
+        {chasins2018rousillon}
+\bibfield{author}{\bibinfo{person}{Sarah~E Chasins}, \bibinfo{person}{Maria
+  Mueller}, {and} \bibinfo{person}{Rastislav Bodik}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Rousillon: Scraping Distributed Hierarchical Web
+  Data}. In \bibinfo{booktitle}{\emph{Proceedings of the 31st Annual ACM
+  Symposium on User Interface Software and Technology}}.
+  \bibinfo{pages}{963--975}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Chen, Lun, McCarthy, Ritchie, Phipson, Hu,
   Zhou, Robinson, and Smyth}{Chen et~al\mbox{.}}{2020a}]%
         {edgeROverview}
@@ -397,6 +410,18 @@
   \bibinfo{year}{2015}\natexlab{}.
 \newblock \bibinfo{title}{Keras}.
 \newblock \bibinfo{howpublished}{\url{https://keras.io}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Cinelli, Forney, and Pearl}{Cinelli
+  et~al\mbox{.}}{2020}]%
+        {cinelli2020controls}
+\bibfield{author}{\bibinfo{person}{Carlos Cinelli}, \bibinfo{person}{Andrew
+  Forney}, {and} \bibinfo{person}{Judea Pearl}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{A crash course in good and bad controls}.
+\newblock \bibinfo{journal}{\emph{Sociological Methods \& Research}}
+  (\bibinfo{year}{2020}), \bibinfo{pages}{00491241221099552}.
 \newblock
 
 
@@ -908,6 +933,44 @@ Issue 1.
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Jun, Misback, Heer, and Just}{Jun
+  et~al\mbox{.}}{[n. d.]}]%
+        {jun2023rTisane}
+\bibfield{author}{\bibinfo{person}{Eunice Jun}, \bibinfo{person}{Edward
+  Misback}, \bibinfo{person}{Jeffrey Heer}, {and} \bibinfo{person}{Ren{\'e}
+  Just}.} \bibinfo{year}{[n. d.]}\natexlab{}.
+\newblock \showarticletitle{rTisane: Formalizing conceptual models to author
+  statistical models reduces error, increases awareness, and teaches novices}.
+  In \bibinfo{booktitle}{\emph{Under submission}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Jun and Seo}{Jun and Seo}{[n. d.]}]%
+        {tisaneWebsite}
+\bibfield{author}{\bibinfo{person}{Eunice Jun} {and} \bibinfo{person}{Audrey
+  Seo}.} \bibinfo{year}{[n. d.]}\natexlab{}.
+\newblock \bibinfo{title}{Tisane}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://tisane-stats.org/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Jun, Seo, Heer, and Just}{Jun
+  et~al\mbox{.}}{2022c}]%
+        {jun2022tisane}
+\bibfield{author}{\bibinfo{person}{Eunice Jun}, \bibinfo{person}{Audrey Seo},
+  \bibinfo{person}{Jeffrey Heer}, {and} \bibinfo{person}{Ren{\'e} Just}.}
+  \bibinfo{year}{2022}\natexlab{c}.
+\newblock \showarticletitle{Tisane: Authoring Statistical Models via Formal
+  Reasoning from Conceptual and Data Relationships}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2022 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--16}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Kabacoff}{Kabacoff}{2011}]%
         {kabacoff2011action}
 \bibfield{author}{\bibinfo{person}{Robert~I Kabacoff}.}
@@ -977,19 +1040,6 @@ Issue 1.
   Bayesian statistics better fit the culture and incentives of HCI}. In
   \bibinfo{booktitle}{\emph{Proceedings of the 2016 CHI Conference on Human
   Factors in Computing Systems}}. ACM, \bibinfo{pages}{4521--4532}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Kayali, Salimi, and Suciu}{Kayali
-  et~al\mbox{.}}{2020}]%
-        {kayali2020demonstration}
-\bibfield{author}{\bibinfo{person}{Moe Kayali}, \bibinfo{person}{Babak Salimi},
-  {and} \bibinfo{person}{Dan Suciu}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Demonstration of inferring causality from
-  relational databases with CaRL}.
-\newblock \bibinfo{journal}{\emph{Proceedings of the VLDB Endowment}}
-  \bibinfo{volume}{13}, \bibinfo{number}{12} (\bibinfo{year}{2020}),
-  \bibinfo{pages}{2985--2988}.
 \newblock
 
 
@@ -1561,19 +1611,6 @@ Issue 1.
   \bibinfo{booktitle}{\emph{Proceedings of the INTERACT'93 and CHI'93
   conference on Human factors in computing systems}}. ACM,
   \bibinfo{pages}{269--276}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Salimi, Parikh, Kayali, Getoor, Roy, and
-  Suciu}{Salimi et~al\mbox{.}}{2020}]%
-        {salimi2020causal}
-\bibfield{author}{\bibinfo{person}{Babak Salimi}, \bibinfo{person}{Harsh
-  Parikh}, \bibinfo{person}{Moe Kayali}, \bibinfo{person}{Lise Getoor},
-  \bibinfo{person}{Sudeepa Roy}, {and} \bibinfo{person}{Dan Suciu}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Causal relational learning}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2020 ACM SIGMOD International
-  Conference on Management of Data}}. \bibinfo{pages}{241--256}.
 \newblock
 
 

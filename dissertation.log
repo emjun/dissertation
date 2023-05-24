@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.3)  23 MAY 2023 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.3)  23 MAY 2023 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1346,10 +1346,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \openout6 = `dissertation.toc'.
 
 
-[11] [12
-
-
-] (./dissertation.lof
+[11] [12] (./dissertation.lof
 
 Package natbib Warning: Citation `PS9' on page 13 undefined on input line 9.
 
@@ -1360,7 +1357,10 @@ Package natbib Warning: Citation `PS9' on page 13 undefined on input line 9.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [13
+
+
+]
 [14] (./dissertation.lot)
 \tf@lot=\write8
 \openout8 = `dissertation.lot'.
@@ -1380,10 +1380,6 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 40.
 
 [17] [18]
-
-Package natbib Warning: Citation `jun2022tisane' on page 19 undefined on input 
-line 116.
-
 
 LaTeX Warning: Reference `fig:tools' on page 19 undefined on input line 121.
 
@@ -1436,7 +1432,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 47.
 
 ) [29] (./tea/usage_scenario.tex
-<tea/figures/tea_program.jpg, id=880, 3863.43375pt x 3922.655pt>
+<tea/figures/tea_program.jpg, id=894, 3863.43375pt x 3922.655pt>
 File: tea/figures/tea_program.jpg Graphic file (type jpg)
 <use tea/figures/tea_program.jpg>
 Package pdftex.def Info: tea/figures/tea_program.jpg  used on input line 2.
@@ -1452,7 +1448,7 @@ Overfull \hbox (213.38109pt too wide) in alignment at lines 1--1
 LaTeX Warning: Reference `subsec:NHST' on page 32 undefined on input line 52.
 
 ) [32] (./tea/system.tex [33] [34]
-<tea/figures/modes_wide.jpg, id=984, 6677.94875pt x 4589.145pt>
+<tea/figures/modes_wide.jpg, id=997, 6677.94875pt x 4589.145pt>
 File: tea/figures/modes_wide.jpg Graphic file (type jpg)
 <use tea/figures/modes_wide.jpg>
 Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 126.
@@ -1482,7 +1478,7 @@ Chapter 4.
 Underfull \vbox (badness 7944) has occurred while \output is active []
 
  [45]
-<hypothesisFormalization/figures/overview_sept_17.png, id=1174, 1027.84pt x 585
+<hypothesisFormalization/figures/overview_sept_17.png, id=1188, 1027.84pt x 585
 .18625pt>
 File: hypothesisFormalization/figures/overview_sept_17.png Graphic file (type p
 ng)
@@ -1499,7 +1495,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [47 <./hypothesisFormalization/figures/overview_sept_17.png>]
 (./hypothesisFormalization/related_work.tex [48]
-<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1220,
+<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1233,
  1218.5525pt x 300.12125pt>
 File: hypothesisFormalization/figures/prior_work_combined_july_16_2021.png Grap
 hic file (type png)
@@ -1513,62 +1509,62 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49]
 [50 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
-<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1245, 835
+<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1258, 835
 .62187pt x 275.0275pt>
 File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic 
 file (type png)
 <use hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>
 Package pdftex.def Info: hypothesisFormalization/figures/ps9_reorderableMatrixL
-abeled.png  used on input line 41.
+abeled.png  used on input line 40.
 (pdftex.def)             Requested size: 422.77664pt x 139.15007pt.
 
 
-Package natbib Warning: Citation `PS9' on page 51 undefined on input line 41.
+Package natbib Warning: Citation `PS9' on page 51 undefined on input line 40.
 
 
-Package natbib Warning: Citation `PS9' on page 51 undefined on input line 41.
+Package natbib Warning: Citation `PS9' on page 51 undefined on input line 40.
 
 [51 <./hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>]
 Excluding 'comment' comment. Excluding 'comment' comment.
 Excluding 'comment' comment. [52]
 
 Package natbib Warning: Citation `yu2020veridical' on page 53 undefined on inpu
-t line 328.
+t line 326.
 
 
 Package natbib Warning: Citation `lee2019robust' on page 53 undefined on input 
-line 328.
+line 326.
 
 
 Package natbib Warning: Citation `gelman2013bayesianTextbook' on page 53 undefi
-ned on input line 328.
+ned on input line 326.
 
 
 Package natbib Warning: Citation `betancourt2020bayesianWorkflow' on page 53 un
-defined on input line 332.
+defined on input line 330.
 
 
 Package natbib Warning: Citation `gelman2020bayesianWorkflow' on page 53 undefi
-ned on input line 332.
+ned on input line 330.
 
 ) (./hypothesisFormalization/lab_study.tex
 Underfull \vbox (badness 4505) has occurred while \output is active []
 
  [53]
 [54] [55]
-<hypothesisFormalization/figures/A11_SS_1.png, id=1307, 548.0475pt x 590.205pt>
+<hypothesisFormalization/figures/A11_SS_1.png, id=1320, 548.0475pt x 590.205pt>
 
 File: hypothesisFormalization/figures/A11_SS_1.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_1.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_1.png  used on 
-input line 168.
+input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 204.88174pt.
-<hypothesisFormalization/figures/A11_SS_2.png, id=1308, 564.1075pt x 477.785pt>
+<hypothesisFormalization/figures/A11_SS_2.png, id=1321, 564.1075pt x 477.785pt>
 
 File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_2.png  used on 
-input line 168.
+input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 161.13248pt.
 
 Underfull \vbox (badness 4353) has occurred while \output is active []
@@ -1576,7 +1572,7 @@ Underfull \vbox (badness 4353) has occurred while \output is active []
  [56]
 [57 <./hypothesisFormalization/figures/A11_SS_1.png> <./hypothesisFormalization
 /figures/A11_SS_2.png>] [58] [59]
-Overfull \hbox (17.86227pt too wide) in paragraph at lines 309--309
+Overfull \hbox (17.86227pt too wide) in paragraph at lines 308--308
 \T1/cmr/m/it/10.95 num-bers [un-like a physi-cist]. So like, they may ac-tu-all
 y end up with dif-fer-ent re-sults...actually
  []
@@ -1649,237 +1645,231 @@ Excluding 'comment' comment.) (./hypothesisFormalization/discussion.tex
 LaTeX Warning: Reference `fig:hypoFormOverview' on page 74 undefined on input l
 ine 144.
 
-[74]
-
-Package natbib Warning: Citation `jun2022hypoForm' on page 75 undefined on inpu
-t line 169.
-
-) [75] [76
+[74]) [75] [76
 
 
 ]
 Chapter 5.
-(./08-tisane.tex [77]
+(./08-tisane.tex [77] (./tisane/related_work.tex [78] [79]
+Excluding 'comment' comment.) (./tisane/system.tex
+Underfull \vbox (badness 2913) has occurred while \output is active []
 
-Package natbib Warning: Citation `tisaneOnPip' on page 78 undefined on input li
-ne 68.
-
-
-Package natbib Warning: Citation `rTisane link' on page 78 undefined on input l
-ine 74.
-
-[78] (./tisane/related_work.tex
-
-LaTeX Warning: Reference `todolbl:1' on page 79 undefined on input line 1.
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 2.
-
-[79]) (./tisane/system.tex [80]
+ [80]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 2
-5.
+7.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-) [81]
+)
 
-LaTeX Warning: Reference `fig:figureGraphIRExample' on page 82 undefined on inp
-ut line 49.
+LaTeX Warning: Reference `fig:figureGraphIRExample' on page 81 undefined on inp
+ut line 51.
 
-[82] [83] [84]
-Overfull \hbox (7.43387pt too wide) in paragraph at lines 213--231
+[81] [82] [83]
+Overfull \hbox (7.43387pt too wide) in paragraph at lines 215--233
 \T1/pcr/m/n/10.95 number_of_instances \T1/cmr/m/n/10.95 pa-ram-e-ter. This pa-r
 am-e-ter ac-cepts an in-te-ger, vari-able, a Ti-sane \T1/pcr/m/n/10.95 Exactly
  []
 
 
-Overfull \hbox (65.44043pt too wide) in paragraph at lines 213--231
+Overfull \hbox (65.44043pt too wide) in paragraph at lines 215--233
 \T1/pcr/m/n/10.95 subject.nominal(\TS1/pcr/m/n/10.95 '\T1/pcr/m/n/10.95 Input d
 evice\TS1/pcr/m/n/10.95 '\T1/pcr/m/n/10.95 , number_of_instances=ts.Exactly(2).
 per(condition))\T1/cmr/m/n/10.95 .
  []
 
-[85] [86]
-Overfull \hbox (7.22116pt too wide) in paragraph at lines 322--322
+[84]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85]
+Overfull \hbox (7.22116pt too wide) in paragraph at lines 324--324
  []\T1/cmr/m/n/9 CME 
  []
 
 
-Overfull \hbox (7.22116pt too wide) in paragraph at lines 322--322
+Overfull \hbox (7.22116pt too wide) in paragraph at lines 324--324
  []\T1/cmr/m/n/9 CME 
  []
 
 
-Overfull \hbox (7.22116pt too wide) in paragraph at lines 322--322
+Overfull \hbox (7.22116pt too wide) in paragraph at lines 324--324
  []\T1/cmr/m/n/9 CME 
  []
 
+
+Underfull \vbox (badness 7151) has occurred while \output is active []
+
+ [86]
 [87]
-<tisane/figures/usage_scenario_gui_05012022.png, id=1783, 1343.0175pt x 1002.74
+<tisane/figures/usage_scenario_gui_05012022.png, id=1806, 1343.0175pt x 1002.74
 625pt>
 File: tisane/figures/usage_scenario_gui_05012022.png Graphic file (type png)
 <use tisane/figures/usage_scenario_gui_05012022.png>
 Package pdftex.def Info: tisane/figures/usage_scenario_gui_05012022.png  used o
-n input line 409.
+n input line 411.
 (pdftex.def)             Requested size: 352.31625pt x 263.04887pt.
-
-Underfull \vbox (badness 1515) has occurred while \output is active []
-
- [88]
-[89] [90 <./tisane/figures/usage_scenario_gui_05012022.png>])
+ [88] [89 <./tisane/figures/usage_scenario_gui_05012022.png>]) [90]
 (./tisane/case_studies.tex [91] Excluding 'comment' comment. [92]
-Excluding 'comment' comment. [93] [94])
+Excluding 'comment' comment.
+Underfull \vbox (badness 4713) has occurred while \output is active []
 
-Package natbib Warning: Citation `jun2022tisane' on page 95 undefined on input 
-line 113.
+ [93]
+Underfull \vbox (badness 1043) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [94])
+(./tisane/exploratory.tex
+Underfull \vbox (badness 5970) has occurred while \output is active []
 
  [95]
-(./tisane/exploratory.tex) (./tisane/rTisane.tex) (./tisane/lab_study.tex)
-[96]) [97] [98
+
+Package natbib Warning: Citation `winters2021heartbeat' on page 96 undefined on
+ input line 27.
+
+[96] [97] [98] Excluding 'comment' comment. Excluding 'comment' comment.)
+(./tisane/rTisane.tex [99]) (./tisane/lab_study.tex) (./tisane/discussion.tex
+
+LaTeX Warning: Reference `todolbl:1' on page 100 undefined on input line 15.
+
+) [100]) [101] [102
 
 
 ]
 Chapter 6.
-(./10-conclusion.tex Excluding 'comment' comment. [99] [100]
+(./10-conclusion.tex Excluding 'comment' comment. [103] [104]
 
-Package natbib Warning: Citation `rock' on page 101 undefined on input line 174
+Package natbib Warning: Citation `rock' on page 105 undefined on input line 181
 .
 
-[101] [102] Excluding 'comment' comment. [103]
+[105] [106] Excluding 'comment' comment. [107]
 
-Package natbib Warning: Citation `rock' on page 104 undefined on input line 324
+Package natbib Warning: Citation `rock' on page 108 undefined on input line 331
 .
 
-[104]) (./dissertation.bbl [105] [106
+[108]) (./dissertation.bbl [109] [110
 
 ]
 LaTeX Info: Redefining \tempurl on input line 141.
 LaTeX Info: Redefining \tempurl on input line 156.
- [107]
+ [111]
 LaTeX Info: Redefining \tempurl on input line 193.
 LaTeX Info: Redefining \tempurl on input line 207.
 LaTeX Info: Redefining \tempurl on input line 238.
 LaTeX Info: Redefining \tempurl on input line 266.
- [108]
+ [112]
 LaTeX Info: Redefining \tempurl on input line 338.
-LaTeX Info: Redefining \tempurl on input line 371.
-LaTeX Info: Redefining \tempurl on input line 388.
+LaTeX Info: Redefining \tempurl on input line 384.
+LaTeX Info: Redefining \tempurl on input line 401.
 
-Underfull \hbox (badness 1248) in paragraph at lines 381--391
+Underfull \hbox (badness 1248) in paragraph at lines 394--404
 []\T1/cmr/m/n/10.95 Yunshun Chen, David Mc-Carthy, Matthew Ritchie, Mark Robin-
 son, and Gor-don Smyth.
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 381--391
+Underfull \hbox (badness 1248) in paragraph at lines 394--404
 \T1/cmr/m/n/10.95 2020b.  edgeR: dif-fer-en-tial anal-y-sisof se-quence read co
 unt data.  (2020).   []$\T1/pcr/m/n/10.95 "https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--391
+Underfull \hbox (badness 10000) in paragraph at lines 394--404
 \T1/pcr/m/n/10.95 / / bioconductor . org / packages / release / bioc / vignette
 s / edgeR / inst / doc /
  []
 
-LaTeX Info: Redefining \tempurl on input line 445.
-[109]
-LaTeX Info: Redefining \tempurl on input line 537.
-LaTeX Info: Redefining \tempurl on input line 572.
-LaTeX Info: Redefining \tempurl on input line 600.
-LaTeX Info: Redefining \tempurl on input line 635.
- [110]
+LaTeX Info: Redefining \tempurl on input line 470.
+[113]
+LaTeX Info: Redefining \tempurl on input line 562.
+LaTeX Info: Redefining \tempurl on input line 597.
+LaTeX Info: Redefining \tempurl on input line 625.
+ [114]
 LaTeX Info: Redefining \tempurl on input line 660.
+LaTeX Info: Redefining \tempurl on input line 685.
 
-Underfull \hbox (badness 6016) in paragraph at lines 654--663
+Underfull \hbox (badness 6016) in paragraph at lines 679--688
 []\T1/cmr/m/n/10.95 Garrett Grole-mund. 2019.  Quick list of use-ful R pack-age
 s.  \T1/cmr/m/it/10.95 R Stu-dio Sup-port
  []
 
-LaTeX Info: Redefining \tempurl on input line 697.
-LaTeX Info: Redefining \tempurl on input line 723.
-LaTeX Info: Redefining \tempurl on input line 793.
-[111]
-LaTeX Info: Redefining \tempurl on input line 831.
-LaTeX Info: Redefining \tempurl on input line 846.
-LaTeX Info: Redefining \tempurl on input line 861.
-LaTeX Info: Redefining \tempurl on input line 893.
- [112]
-LaTeX Info: Redefining \tempurl on input line 1051.
-LaTeX Info: Redefining \tempurl on input line 1066.
+LaTeX Info: Redefining \tempurl on input line 722.
+LaTeX Info: Redefining \tempurl on input line 748.
+[115]
+LaTeX Info: Redefining \tempurl on input line 818.
+LaTeX Info: Redefining \tempurl on input line 856.
+LaTeX Info: Redefining \tempurl on input line 871.
+LaTeX Info: Redefining \tempurl on input line 886.
+LaTeX Info: Redefining \tempurl on input line 918.
+LaTeX Info: Redefining \tempurl on input line 956.
+ [116]
+LaTeX Info: Redefining \tempurl on input line 1101.
+LaTeX Info: Redefining \tempurl on input line 1116.
 
-Underfull \hbox (badness 2443) in paragraph at lines 1058--1069
+Underfull \hbox (badness 2443) in paragraph at lines 1108--1119
 []\T1/cmr/m/n/10.95 Joos Ko-rstanje. 2019.  "ANOVA's three types of es-ti-mat-i
 ng Sums of Squares: don't
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 1058--1069
+Underfull \hbox (badness 4779) in paragraph at lines 1108--1119
 \T1/cmr/m/n/10.95 make the wrong choice!".  \T1/cmr/m/it/10.95 To-wards Data Sc
 i-ence, Medium \T1/cmr/m/n/10.95 (2019).   []$\T1/pcr/m/n/10.95 "https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1058--1069
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1119
 \T1/pcr/m/n/10.95 / / towardsdatascience . com / anovas -[] three -[] types -[]
  of -[] estimating -[] sums -[] of -[]
  []
 
-LaTeX Info: Redefining \tempurl on input line 1091.
-LaTeX Info: Redefining \tempurl on input line 1104.
-LaTeX Info: Redefining \tempurl on input line 1120.
-LaTeX Info: Redefining \tempurl on input line 1133.
-[113]
-LaTeX Info: Redefining \tempurl on input line 1172.
-LaTeX Info: Redefining \tempurl on input line 1185.
-LaTeX Info: Redefining \tempurl on input line 1241.
-LaTeX Info: Redefining \tempurl on input line 1274.
- [114]
-LaTeX Info: Redefining \tempurl on input line 1312.
-LaTeX Info: Redefining \tempurl on input line 1369.
-LaTeX Info: Redefining \tempurl on input line 1455.
- [115]
-LaTeX Info: Redefining \tempurl on input line 1495.
-LaTeX Info: Redefining \tempurl on input line 1521.
-LaTeX Info: Redefining \tempurl on input line 1537.
-LaTeX Info: Redefining \tempurl on input line 1599.
- [116]
-LaTeX Info: Redefining \tempurl on input line 1648.
-LaTeX Info: Redefining \tempurl on input line 1684.
-LaTeX Info: Redefining \tempurl on input line 1720.
-LaTeX Info: Redefining \tempurl on input line 1732.
-LaTeX Info: Redefining \tempurl on input line 1745.
+[117]
+LaTeX Info: Redefining \tempurl on input line 1141.
+LaTeX Info: Redefining \tempurl on input line 1154.
+LaTeX Info: Redefining \tempurl on input line 1170.
+LaTeX Info: Redefining \tempurl on input line 1183.
+LaTeX Info: Redefining \tempurl on input line 1222.
+LaTeX Info: Redefining \tempurl on input line 1235.
+LaTeX Info: Redefining \tempurl on input line 1291.
+ [118]
+LaTeX Info: Redefining \tempurl on input line 1324.
+LaTeX Info: Redefining \tempurl on input line 1362.
+LaTeX Info: Redefining \tempurl on input line 1419.
+ [119]
+LaTeX Info: Redefining \tempurl on input line 1505.
+LaTeX Info: Redefining \tempurl on input line 1545.
+LaTeX Info: Redefining \tempurl on input line 1571.
+LaTeX Info: Redefining \tempurl on input line 1587.
+ [120]
+LaTeX Info: Redefining \tempurl on input line 1636.
+LaTeX Info: Redefining \tempurl on input line 1685.
+LaTeX Info: Redefining \tempurl on input line 1721.
+LaTeX Info: Redefining \tempurl on input line 1757.
+LaTeX Info: Redefining \tempurl on input line 1769.
+LaTeX Info: Redefining \tempurl on input line 1782.
 
-Underfull \hbox (badness 1331) in paragraph at lines 1739--1748
+Underfull \hbox (badness 1331) in paragraph at lines 1776--1785
 []\T1/cmr/m/n/10.95 Michael Suh. 2014.  Higher Ed-u-ca-tion, Gen-der & Work Dat
 aset.    []$\T1/pcr/m/n/10.95 "https : / / www .
  []
 
-LaTeX Info: Redefining \tempurl on input line 1796.
-[117]
-LaTeX Info: Redefining \tempurl on input line 1821.
-LaTeX Info: Redefining \tempurl on input line 1847.
-LaTeX Info: Redefining \tempurl on input line 1860.
- [118]
-Underfull \hbox (badness 1721) in paragraph at lines 1993--2002
+[121]
+LaTeX Info: Redefining \tempurl on input line 1833.
+LaTeX Info: Redefining \tempurl on input line 1858.
+LaTeX Info: Redefining \tempurl on input line 1884.
+LaTeX Info: Redefining \tempurl on input line 1897.
+ [122]
+Underfull \hbox (badness 1721) in paragraph at lines 2030--2039
 []\T1/cmr/m/n/10.95 Wikipedia con-trib-u-tors. 2019a.  JMP (sta-tis-ti-cal soft
 -ware) --- Wikipedia, The Free En-
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 2007--2016
+Underfull \hbox (badness 4467) in paragraph at lines 2044--2053
 []\T1/cmr/m/n/10.95 Wikipedia con-trib-u-tors. 2019b.  R (pro-gram-ming lan-gua
 ge) --- Wikipedia, The Free
  []
 
-) [119] [120
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) 
-has been already used, duplicate ignored
+[123]) [124]pdfTeX warning (ext4): destination with the same identifier (name{c
+hapter.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.66 \chapter{Appendix One}
@@ -1896,31 +1886,28 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: There were undefined citations.
 
-[121] (./dissertation.aux
+[125
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+] (./dissertation.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: CBA3A2EE23FAB417677780686119492A;20371.
+(rerunfilecheck)             Checksum: 1886530B4A056D10D236CB5B86674FFC;20478.
  ) 
 Here is how much of TeX's memory you used:
- 40686 strings out of 478994
- 914232 string characters out of 5858185
- 1643039 words of memory out of 5000000
- 56878 multiletter control sequences out of 15000+600000
+ 40719 strings out of 478994
+ 914762 string characters out of 5858185
+ 1643299 words of memory out of 5000000
+ 56895 multiletter control sequences out of 15000+600000
  435256 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3502b,1778s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1992,10 +1979,10 @@ uper/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-sup
 er/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super
 /sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8
 a.pfb>
-Output written on dissertation.pdf (121 pages, 9523012 bytes).
+Output written on dissertation.pdf (125 pages, 9534711 bytes).
 PDF statistics:
- 2256 PDF objects out of 2487 (max. 8388607)
- 2012 compressed objects within 21 object streams
- 443 named destinations out of 1000 (max. 500000)
- 763 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2313 PDF objects out of 2487 (max. 8388607)
+ 2065 compressed objects within 21 object streams
+ 457 named destinations out of 1000 (max. 500000)
+ 779 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1729,7 +1729,6 @@ INPUT ./tisane/related_work.tex
 INPUT tisane/related_work.tex
 INPUT ./tisane/related_work.tex
 INPUT tisane/related_work.tex
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx0800.tfm
 INPUT ./tisane/system.tex
 INPUT tisane/system.tex
 INPUT ./tisane/system.tex
@@ -1761,6 +1760,11 @@ INPUT ./tisane/lab_study.tex
 INPUT tisane/lab_study.tex
 INPUT ./tisane/lab_study.tex
 INPUT tisane/lab_study.tex
+INPUT ./tisane/discussion.tex
+INPUT tisane/discussion.tex
+INPUT ./tisane/discussion.tex
+INPUT tisane/discussion.tex
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx0800.tfm
 INPUT ./10-conclusion.tex
 INPUT ./10-conclusion.tex
 INPUT ./10-conclusion.tex
