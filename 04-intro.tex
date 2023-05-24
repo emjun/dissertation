@@ -258,13 +258,68 @@ and graphs (\autoref{fig:tools}).
 % System --> Empirical --> System --> Empirical --> Empirical --> System --> Empirical 
 
 \section{Thesis outline}
-\ej{- Next you could add a (currently omitted) subsection that outlines the thesis
-chapters.}
+\autoref{chapter:relatedWork} covers related work that contextualizes the above
+contributions. The remainder of the dissertation describes how through iterative
+system development and empirical studies, we came to develop new domain-specific
+languages (DSLs), representations, and reasoning approaches for authoring
+statistical analyses.
 
-new domain-specific languages (DSLs),
-representations, and reasoning approaches for authoring statistical analyses. Additionally, 
+\autoref{chapter:tea} presents \tea, a DSL and runtime system for Null
+Hypothesis Significance Testing. After discussing more specific related work and
+the statistical scope (\autoref{sec:relatedWorkTea}), the chapter describes a
+usage scenario that illustrates how an analyst would use \tea and how it differs
+from existing tools (\autoref{usageScenarioTeaTea}), discusses key design
+considerations to improve statistical testing practice
+(\autoref{sec:designConsiderationsTea}), describes the DSL (\autoref{sec:TeaPL})
+and constraint-based runtime system (\autoref{sec:TeaRS}), evaluates \tea
+against a corpus of expert test choices and a naive test selection regime
+(\autoref{sec:evalTea}), and briefly discusses the limitations and opportunities
+for future work (\autoref{sec:discussionTea}). The chapter concludes with a
+summary of how our work on \tea furthers the thesis of this dissertation. 
 
+\autoref{chapter:hypoForm} introduces our theory of \hypoForm. While \tea was an
+exciting foray into how designing a DSL focused on capturing implicit data
+assumptions and hypotheses and developing a formal model of statistical test
+selection is not only feasible but also beneficial, this chapter steps back to
+describe data analysis more holistically. In fact, this chapter retrospectively
+justifies our design in \tea and directly informs our work on \tisane, the
+following chapter. \autoref{chapter:hypoForm} starts by connecting hypothesis
+formalization to characterizations of ``statistical thinking'' and situating
+data analysis in the larger context of scientific discovery
+(\autoref{sec:relatedWorkHypoForm}). The chapter proceeds to describing a
+content analysis that sensitized us to key hypothesis formalization steps
+(\autoref{sec:contentAnalysisHypoForm}), a lab study observing data analysts in
+situ (\autoref{sec:labStudyHypoForm}), and a qualitative assessment of existing
+statistical analysis tools (\autoref{sec:toolsAnalysis}). Based on these
+empirical studies, we derive three design implications for how tools can
+facilitate hypothesis formalization (\autoref{sec:implications}) and discuss
+what problem solving strategies (and shortcuts) analysts employ without explicit
+support for hypothesis formalization (\autoref{sec:discussionHypoForm}). This
+chapter also concludes with a summary of the theory of \hypoForm informs the
+thesis. 
 
+\autoref{chapter:tisane} is the best representation of how this dissertation
+grapples with an understanding of data analysis practices (i.e., \hypoForm),
+statistical methods, and empirical evidence for what analysts want to express in
+order to iteratively design and evaluate a DSL and interactive disambiguation
+process. After covering related work and background on statistical scope
+(\autoref{sec:relatedWorkTisane}), this chapter describes the first version of
+the \tisane DSL (\autoref{sec:tisane}), case studies evaluating \tisane
+(\autoref{sec:tisane_case_studies}), a study to refine the DSL
+(\autoref{sec:exploratoryStudy}), the second major iteration released as
+\rTisane (\autoref{sec:rTisane}), and a controlled lab study
+(\autoref{sec:summativeEval}). The controlled lab study serves as a summative
+evaluation of the key tenets of this dissertation. This chapter concludes with a
+brief discussion of the key lessons learned and limitations of \tisane (and
+\rTisane) and a summary of this work relates to the thesis. 
+
+Finally, \autoref{chapter:conclusion} revisits the key challenges of the thesis
+and how the projects in this dissertation address each
+(\autoref{sec:discussionChallenges}), discusses recent developments
+(\autoref{sec:recentDevelopments}), touches on the impact the systems in this
+dissertation has had in the real-world (\autoref{sec:label}), and outlines
+(exciting!) challenges that remain to make data analysis approachable for
+statistical non-experts and valid by design (\autoref{sec:futureWork}). 
 
 \begin{comment}
 \todo{Fill in this outline}
