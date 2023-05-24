@@ -105,28 +105,36 @@
 \contentsline {subsubsection}{Participants expected more syntactic sugar for specifying data collection details.}{99}{section*.68}%
 \contentsline {subsection}{\numberline {5.5.3}DSL Re-design goals}{99}{subsection.5.5.3}%
 \contentsline {section}{\numberline {5.6}Second Release: rTisane}{100}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}Updated DSL}{100}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}Conceptual Model Disambiguation}{100}{subsection.5.6.2}%
-\contentsline {subsection}{\numberline {5.6.3}Statistical model inference}{100}{subsection.5.6.3}%
-\contentsline {section}{\numberline {5.7}Summative Evaluation: Lab study}{100}{section.5.7}%
-\contentsline {section}{\numberline {5.8}Discussion: Do we want to a sep discussion for this chapter?}{100}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Discussion}{100}{section.5.9}%
-\contentsline {section}{\numberline {5.10}Summary of Contributions}{100}{section.5.10}%
-\contentsline {chapter}{\numberline {6}Conclusion}{103}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Impact}{104}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Discussion: Themes}{104}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Designing the \textit {right} levels of abstraction (Challenge 1)}{104}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Balancing user and computational reasoning / representations for automated reasoning (Challenge 2)}{105}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}The role of programs and the act of programming as a reflective practice (Challenge 3)}{105}{subsection.6.2.3}%
-\contentsline {section}{\numberline {6.3}Recent developments}{106}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Construct validity: Within reach with the usage of LLMs}{106}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}What about in the face of LLMs?}{106}{subsection.6.3.2}%
-\contentsline {section}{\numberline {6.4}Limitations and Future work}{106}{section.6.4}%
-\contentsline {subsection}{\numberline {6.4.1}Connecting modeling with testing}{107}{subsection.6.4.1}%
-\contentsline {subsection}{\numberline {6.4.2}Interpretation of results}{107}{subsection.6.4.2}%
-\contentsline {subsection}{\numberline {6.4.3}Support throughout the data lifecycle}{108}{subsection.6.4.3}%
-\contentsline {subsection}{\numberline {6.4.4}Improving science}{108}{subsection.6.4.4}%
-\contentsline {subsection}{\numberline {6.4.5}Methods for human-centered programming language design}{109}{subsection.6.4.5}%
-\contentsline {section}{\numberline {6.5}Closing Remarks}{109}{section.6.5}%
-\contentsline {chapter}{\numberline {A}Appendix One}{125}{chapter.1}%
-\contentsline {section}{\numberline {A.1}Appendix section 1}{125}{section.1.1}%
+\contentsline {subsection}{\numberline {5.6.1}Declaring variables}{100}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Expressing a conceptual model}{100}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Querying for a statistical model}{101}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.4}Conceptual Model Disambiguation}{101}{subsection.5.6.4}%
+\contentsline {subsection}{\numberline {5.6.5}Statistical model derivation and disambiguation}{101}{subsection.5.6.5}%
+\contentsline {section}{\numberline {5.7}Summative Evaluation: Controlled lab study}{102}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Study design}{102}{subsection.5.7.1}%
+\contentsline {paragraph}{Participants}{103}{section*.69}%
+\contentsline {subsection}{\numberline {5.7.2}Analysis and Results}{103}{subsection.5.7.2}%
+\contentsline {subsubsection}{\textbf {RQ1 - Conceptual models}\xspace }{104}{section*.70}%
+\contentsline {subsubsection}{\textbf {RQ2 - Statistical models}\xspace }{104}{section*.71}%
+\contentsline {subsubsection}{\textbf {RQ3 - Learning}\xspace }{104}{section*.72}%
+\contentsline {subsection}{\numberline {5.7.3}Limitations}{104}{subsection.5.7.3}%
+\contentsline {section}{\numberline {5.8}Discussion, Limitations, and Future Work}{104}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Summary of Contributions}{105}{section.5.9}%
+\contentsline {chapter}{\numberline {6}Conclusion}{107}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Impact}{108}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Discussion: Themes}{108}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Designing the \textit {right} levels of abstraction (Challenge 1)}{108}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Balancing user and computational reasoning / representations for automated reasoning (Challenge 2)}{109}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}The role of programs and the act of programming as a reflective practice (Challenge 3)}{109}{subsection.6.2.3}%
+\contentsline {section}{\numberline {6.3}Recent developments}{110}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Construct validity: Within reach with the usage of LLMs}{110}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}What about in the face of LLMs?}{110}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Limitations and Future work}{110}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Connecting modeling with testing}{111}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Interpretation of results}{111}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Support throughout the data lifecycle}{112}{subsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.4.4}Improving science}{112}{subsection.6.4.4}%
+\contentsline {subsection}{\numberline {6.4.5}Methods for human-centered programming language design}{113}{subsection.6.4.5}%
+\contentsline {section}{\numberline {6.5}Closing Remarks}{113}{section.6.5}%
+\contentsline {chapter}{\numberline {A}Appendix One}{129}{chapter.1}%
+\contentsline {section}{\numberline {A.1}Appendix section 1}{129}{section.1.1}%

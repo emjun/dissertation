@@ -1,15 +1,70 @@
-\section{Discussion}
-What was surprising was that START HERE....
+\section{Discussion, Limitations, and Future Work}
+The exploratory lab study suggested the need to allow analysts to express their
+conceptual models using more granular, low-level functions. Although obvious in
+hindsight, this finding was \textit{counterintuitive} at the time. A widely held
+belief, especially within the HCI community, is that the higher the level of
+abstraction for a task, the better for end-users. However, we saw the opposite.
+Statistical non-experts engaged deeply with conceptual models about their domain
+and wanted to be more detailed and specific. In other words, while the focus on
+the abstraction should be at the conceptual level, within that, analysts want to
+move up and down the ladder of abstraction. More generally, our iterative
+language design work with \tisane and \rTisane suggests that as long as
+abstractions match the content-focus of end-users, there should be opportunities
+to get low-level within those abstractions. This gives end-users the agency to
+express themselves more fully, transforming the programming task from strictly a
+means to an end to specification as a meaningful activity in itself. 
 
-Both design implications suggest the need to re-structure Tisane's programming
-and interaction models. First, Tisane's specification language needs to be more
-specific and low-level. This finding is \textit{counterintuitive} because a
-well-documented strategy for making programming tasks easier for non-experts has
-been to raise the level of abstraction for a programming
-domain~\cite{chasins2018rousillon,satyanarayan2017vega}. Yet, we have evidence
-that suggests the opposite for specifying a conceptual model and study design.
-Second, Tisane's specification process could be more tiered, and disambiguation
-could leverage ambiguity in analysts' specification as opportunities for more
-numerous intelligent suggestions and guidance. 
+% Second, Tisane's specification process could be more tiered, and disambiguation
+% could leverage ambiguity in analysts' specification as opportunities for more
+% numerous intelligent suggestions and guidance. 
+% \todo{Mention that the focus needs to be on conceptual level, but within conceptual level, there should be opportunity to move up and down the ladder of conceptual abstraction}
 
-\todo{Mention that the focus needs to be on conceptual level, but within conceptual level, there should be opportunity to move up and down the ladder of conceptual abstraction}
+In designing \rTisane, a key challenge was in finding the right point to bring
+in lower-level statistical modeling details. Concretely, in \rTisane analysts at some point must grapple with graphical and
+mathematical representations in the disambiguation phases. This is because it
+was not possible to remove all complexity from statistical modeling without the
+risk of losing the analyst's sense of control or understanding. Thus, our focus
+has been to strip away unnecessary complexity and help analysts navigate through
+necessary complexity by designing informative abstraction lowering
+disambiguating steps. It may be possible to avoid any interactive disambiguation
+by executing all possible statistical models given an input, likely ambiguous,
+conceptual model. Although this approach would accomplish a different objective
+than our goal of compiling a specific conceptual model into a specific
+statistical model, this approach may give greater insight into if analysts
+really want, need, or benefit from disambiguation. 
+
+\begin{comment}
+
+Despite the goal to lower the
+barriers to statistical specification, at some point, 
+
+Another approach to explore in the
+future may be to eliminate the need to engage analysts in disambiguation and
+instead execute all possible statistical models given an input, likely
+ambiguous, conceptual model. Although this approach would accomplish a different
+objective than the goal here of compiling a specific conceptual model into a
+specific statistical model, this approach may give greater insight into the need 
+
+% Our answer was to have informative conceptual and
+% statistical model disambiguation phases. 
+robustnes of a particular effect in light of many possible conceptual models and
+explanations.
+
+% push on the idea that analysts care about conceptual ramifications and avoid asking them to 
+
+In the future, there could be additional exploration into authoring a multiverse
+of all possible statistical models given a specific ambiguous conceptual model.
+This would accomplish a different objective than the goal of \tisane (and
+\rTisane), which is to compile a specific conceptual model into a specific
+statistical model for/with the end-user. The multiverse would help assess the
+robustnes of a particular effect in light of many possible conceptual models and
+explanations.
+
+Concretely, it
+took us several iterations to answer the question: What is the right point to
+introduce cycle breaking and modeling to the end-user? 
+
+**not remove all complexity but rather focus end-users on necessary complexity
+and guide their thinking/help them navigate that complexity. 
+
+\end{comment}

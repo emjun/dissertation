@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{161}
+\begin{thebibliography}{160}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -352,19 +352,6 @@
 \newblock \showarticletitle{Guidelines for assessment and instruction in
   statistics education (GAISE) college report 2016}.
 \newblock  (\bibinfo{year}{2016}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Chasins, Mueller, and Bodik}{Chasins
-  et~al\mbox{.}}{2018}]%
-        {chasins2018rousillon}
-\bibfield{author}{\bibinfo{person}{Sarah~E Chasins}, \bibinfo{person}{Maria
-  Mueller}, {and} \bibinfo{person}{Rastislav Bodik}.}
-  \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Rousillon: Scraping Distributed Hierarchical Web
-  Data}. In \bibinfo{booktitle}{\emph{Proceedings of the 31st Annual ACM
-  Symposium on User Interface Software and Technology}}.
-  \bibinfo{pages}{963--975}.
 \newblock
 
 

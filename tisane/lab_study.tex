@@ -1,4 +1,124 @@
-\section{Summative Evaluation: Lab study}
-{\color{orange} Update this section to match rTisane paper.}
+\section{Summative Evaluation: Controlled lab study}
+% \highlight{We are in the process of running this lab study and collecting data.}
 
-\section{Discussion: Do we want to a sep discussion for this chapter?}
+We had three research questions:
+
+\begin{itemize}
+    \item \evalConceptualModels What is the influence of rTisane on conceptual
+    modeling?
+    \item \evalStatisticalModels How does rTisane impact the statistical models
+    analysts implement? Specifically, do the covariates, family functions, and
+    link functions analysts include/exclude differ when implementing statistical
+    models on their own vs. using rTisane? How well do statistical models
+    analysts author on their own vs. using rTisane fit the data?  
+    \item \evalLearning Do analysts learn about their discipline or data
+    analysis as a result of using rTisane?
+\end{itemize}
+
+\subsection{Study design}
+% \todo{Include a diagram summarizing study design?}
+We conducted a within-subjects think-a-loud lab study that consisted of four phases: 
+
+\begin{itemize}
+    \item \textbf{Phase 1: Warm up.} We presented participants with the
+    following open-ended research question: ``What aspects of an adult’s
+    background and demographics are associated with income?'' We asked
+    participants to specify a conceptual model including variables they thought
+    influenced income. This warm-up exercise helped to externalize and keep
+    track of participants' pre-conceived notions and assumptions prior to seeing
+    a more restricted data schema.
+    \item \textbf{Phase 2: Express conceptual models} We presented participants
+    with a data schema describing a dataset from the U.S. Census Bureau. We then
+    asked participants to specify a conceptual model using only the available
+    variables. At the end, we asked participants about their
+    experiences specifying their conceptual models in a brief survey and semi-structured interview.
+    \item \textbf{Phase 3: Implement statistical models} We asked participants
+    to implement ``a statistical model that assesses the influence of variables
+    [they] believe to be important (in the context of additional potentially
+    influential factors) on income,'' relying on only their conceptual model. We
+    then asked participants about their experiences implementing statistical
+    models through a brief survey and semi-structured interview. 
+    \item \textbf{Phase 4: Exit interview.} The study concluded with a survey
+    and semi-structured interview where we asked participants to reflect on the
+    process of explicitly connecting conceptual models to statistical models.
+\end{itemize} 
+
+We designed the study based on the assumption that conceptual modeling is a
+helpful strategy when specifying statistical models. As a result, all
+participants completed the phases in the above order. In order to assess the
+effect of tooling on conceptual models and the quality of statistical models, we
+counterbalanced the order in which participants specified conceptual and
+statistical models. Half the participants specified their conceptual and
+statistical models on their own (without rTisane) first. The other started with
+rTisane.
+
+\noindent \paragraph{Participants} We recruited \ej{24?} data analysts on
+Upwork. We screened for participants who reported having experience with
+authoring generalized linear models and using R. \ej{On average, participants
+reported having conducted N projects using generalized linear models.
+Participants were familiar with a range of software tools, including...} All
+studies were conducted over Zoom. Each participant was compensated \ej{\$50} for
+120 minutes of their time. We recorded participants' screens, video, and audio
+throughout the study. We then transcribed the audio for qualitative analyses.
+
+% One dataset was on demographic factors and income in the U.S. in 2018 from the
+% U.S. Census Bureau (\datasetIncome). The other dataset was about demographic
+% factors and health conditions in the U.S. (\datasetHealth) from \ej{FILL IN}.
+% More information on how the datasets were created are found in the
+% supplemental material.
+
+\subsection{Analysis and Results}
+\highlight{Results will be added once we have collected and analyzed the data over Summer 2023.}
+We collected and analyzed quantitative and qualitative measures to answer our
+research questions. For each research question, we describe our analysis
+approach and results below. 
+% We qualitatively analyzed conceptual models, statistical models, audio
+% recordings, and open-ended survey responses. Whenever possible, we also
+% quantified the frequency of characteristics in conceptual models and
+% statistical models across participants. For the statistical models
+% participants authored, we compared the AIC and BIC scores for matched pairs of
+% the independent variable of interest. 
+
+
+\subsubsection{\evalConceptualModels}
+% Consistency within vs. across participants 
+We qualitatively analyzed how consistent participants' conceptual models were
+between conditions. We noted common challenges translating free-form conceptual
+models into rTisane programs. We also thematically analyzed participant
+transcripts and survey responses describing the influence of rTisane on their
+conceptual modeling processes. 
+
+% \subsubsection{\evalConceptualModelAuthoring}
+% % To understand rTisane's influence on the conceptual modeling process, we
+% % compared the ratings and thematically analyzed survey responses to questions
+% % asking how participants decided what conceptual relationships to specify.
+% At the end of Phases 2 and 3, we asked participants to rate and describe their
+% experience specifying conceptual models without and with rTisane, respectively.
+% In addition, we kept track of the conceptual modeling challenges participants
+% vocalized and noted how participants overcame these challenges in-situ. We
+% compared the survey responses, observed challenges, and observed approaches
+% between Phases 2 and 3 to assess how rTisane influenced the conceptual modeling
+% process. 
+
+\subsubsection{\evalStatisticalModels}
+We used AIC, BIC, and R-squared values to assess how well statistical models
+authored with vs. without rTisane fit the data. We used rTisane to statistically
+model and assess the influence of rTisane on AIC, BIC, and R-squared values.
+
+We also thematically analyzed participants' reactions to the similarities,
+differences, and surprises between statistical models. 
+
+% \todo{Add statistical models executed}
+% \todo{Add rTisane analysis script to supplemental material}
+
+\subsubsection{\evalLearning}
+Finally, we gauged participants' learning based on a thematic analysis of
+open-ended survey interview answers at the end of the study. 
+
+\subsection{Limitations}
+To limit the number of language constructs in \rTisane introduced, we only
+assessed language constructs for specifying a GLM. Given that the summative
+evaluation was really focused on the core of \rTisane--the impact of conceptual
+modeling on statistical modeling--we expect the results to apply. In fact, for
+more complex data collection procedures that require mixed-effects, \rTisane may
+have an even larger effect on statistical models and learning. 

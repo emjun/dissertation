@@ -4,7 +4,7 @@ The top-level auxiliary file: dissertation.aux
 The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 12785 items from 5000.
+Reallocated field_info (elt_size=4) to 12740 items from 5000.
 Database file #1: references.bib
 Warning--string name "january" is undefined
 --line 1683 of file references.bib
@@ -56,8 +56,6 @@ Warning--empty address in cairns2007hci
 Warning--no journal in carver2016guidelines
 Warning--no number and no volume in carver2016guidelines
 Warning--page numbers missing in both pages and numpages fields in carver2016guidelines
-Warning--empty publisher in chasins2018rousillon
-Warning--empty address in chasins2018rousillon
 Warning--no journal in edgeROverview
 Warning--no number and no volume in edgeROverview
 Warning--page numbers missing in both pages and numpages fields in edgeROverview
@@ -211,45 +209,45 @@ Warning--empty publisher in wacharamanotham2015statsplorer
 Warning--empty address in wacharamanotham2015statsplorer
 Warning--no number and no volume in wongsuphasawat2019EDAgoals
 Warning--page numbers missing in both pages and numpages fields in wongsuphasawat2019EDAgoals
-You've used 161 entries,
+You've used 160 entries,
             5719 wiz_defined-function locations,
-            2153 strings with 43395 characters,
-and the built_in function-call counts, 175067 in all, are:
-= -- 21902
-> -- 6892
+            2149 strings with 43258 characters,
+and the built_in function-call counts, 173803 in all, are:
+= -- 21768
+> -- 6851
 < -- 0
-+ -- 2260
-- -- 2419
-* -- 12461
-:= -- 18649
-add.period$ -- 825
-call.type$ -- 161
-change.case$ -- 1105
-chr.to.int$ -- 149
-cite$ -- 343
-duplicate$ -- 14961
-empty$ -- 10590
-format.name$ -- 2801
-if$ -- 41801
++ -- 2247
+- -- 2407
+* -- 12374
+:= -- 18528
+add.period$ -- 820
+call.type$ -- 160
+change.case$ -- 1098
+chr.to.int$ -- 148
+cite$ -- 340
+duplicate$ -- 14834
+empty$ -- 10503
+format.name$ -- 2785
+if$ -- 41500
 int.to.chr$ -- 14
 int.to.str$ -- 1
-missing$ -- 517
-newline$ -- 1506
-num.names$ -- 1278
-pop$ -- 5745
+missing$ -- 512
+newline$ -- 1499
+num.names$ -- 1270
+pop$ -- 5692
 preamble$ -- 1
-purify$ -- 2506
+purify$ -- 2490
 quote$ -- 0
-skip$ -- 5150
+skip$ -- 5103
 stack$ -- 0
-substring$ -- 11959
-swap$ -- 1418
+substring$ -- 11856
+swap$ -- 1404
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3355
-warning$ -- 182
-while$ -- 1198
+type$ -- 3325
+warning$ -- 180
+while$ -- 1191
 width$ -- 0
-write$ -- 2918
-(There were 197 warnings)
+write$ -- 2902
+(There were 195 warnings)
