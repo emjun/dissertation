@@ -4,7 +4,7 @@ The top-level auxiliary file: dissertation.aux
 The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 12740 items from 5000.
+Reallocated field_info (elt_size=4) to 12695 items from 5000.
 Database file #1: references.bib
 Warning--string name "january" is undefined
 --line 1683 of file references.bib
@@ -23,7 +23,6 @@ Warning--I didn't find a database entry for "gelman2020bayesianWorkflow"
 Warning--I didn't find a database entry for "pyro"
 Warning--I didn't find a database entry for "pymc3"
 Warning--I didn't find a database entry for "winters2021heartbeat"
-Warning--I didn't find a database entry for "rock"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
@@ -211,7 +210,7 @@ Warning--no number and no volume in wongsuphasawat2019EDAgoals
 Warning--page numbers missing in both pages and numpages fields in wongsuphasawat2019EDAgoals
 You've used 160 entries,
             5719 wiz_defined-function locations,
-            2149 strings with 43258 characters,
+            2148 strings with 43254 characters,
 and the built_in function-call counts, 173803 in all, are:
 = -- 21768
 > -- 6851
@@ -250,4 +249,4 @@ warning$ -- 180
 while$ -- 1191
 width$ -- 0
 write$ -- 2902
-(There were 195 warnings)
+(There were 194 warnings)

@@ -198,30 +198,21 @@ Mention LLMs as a technology to use here?
 \end{comment}
 
 \section{Limitations and Future work} \label{sec:futureWork}
+
+This dissertation scrutinizes how statistical non-experts author statistical
+analyses. We elaborate one some of the limitations of this work and
+opportunities for future research. 
+
+\begin{comment}
+    Improving statistical analysis authoring opens up questions in
+addressing core issues in statistics, end-user software engineering, programming
+language design, which we hope will be additional directions other pursue. 
+
 Some themes that emerge: 
 - Support for after statistical modeling -- what do these mean? (interpretation) --> What to do next? / what would help me answer my research question? (modeling-testing) --> 
 - How to capture and use these consequences into next phases of the lifecycle? 
 - How could all these improve science and make data analysis more robust? 
-
-
-% #8  : Summarize future directions
-
-% This dissertation presents two systems, Tea and Tisane, that demonstrate how
-% statistical software can guarantee statistical analysis validity by design. They
-% provide programming abstractions focused on gathering implicit conceptual knowledge. 
-
-By addressing the important trend of the increased diversity of end-users
-authoring statistical analyses and the importance of correct analyses, this
-dissertation opens up statistical analysis authoring as a domain for further
-research. 
-
-This dissertation dissects statistical data analysis from an activity taken for
-granted into a process fraught with problems for end-users that have high impact
-consequences. Improving statistical analysis authoring opens up questions in
-addressing core issues in statistics, end-user software engineering, programming
-language design, which we hope will be additional directions other pursue. Here
-we elaborate one some of the limitations of this work and opportunities for
-future research in each of these disciplines. 
+\end{comment}
 
 \begin{comment}
 As demonstrations of how better programming abstractions and automated reasoning
@@ -239,8 +230,34 @@ Push further in directions this work orients us
 **how do we resolve and come out from under the tyranny of false positive rates fear
 \end{comment}
 
-\subsection{Connecting modeling with testing} 
-% #3 - 1 paragraph (5 sentences)
+\subsection{Support interpretation of statistical results}
+% # 4 - Support more complex queries, need help understanding the ramifications...
+% While Tisane addresses the gulf of execution in authoring statistical analyses
+% to answer a research question, it falls short of addressing the gulf of
+% evaluation. Tisane does not yet help analysts interpret the results of their
+% statistical models in light of their expressed implicit conceptual knowledge.
+% For scientific discovery and decision making, accurately interpreting
+% statistical results is equally important. For example, if an analysts'
+% statistical results suggest that there is no evidence in the data to support the
+% existence of a relationship in their conceptual model, how does the analyst make
+% this interpretation? What should the analyst do about it? Is there conceptual
+% model ``incorrect''? Should they revise their conceptual model? Check their data
+% collection procedure? To answer these questions, there are two related
+% challenges to address: (i) improved statistical reporting (What do the results
+% mean?) and (ii) support for navigating consequences, such as through richer or
+% follow-up queries and model revisions (What should an analyst do next?). 
+
+While Tisane effectively addresses the gulf of execution by compiling conceptual
+models into statistical models, it falls short of bridging the gulf of
+evaluation. Tisane does not yet provide support for analysts to interpret the
+results of their statistical models. Future research should focus on two related
+challenges: (i) improving statistical reporting to enhance the understanding of
+results and (ii) providing support for navigating the consequences of the
+results, such as updates to analysts' conceptual models or the need to revise
+statistical models.
+
+\subsection{Connect statistical modeling and testing} 
+\begin{comment}
 A natural question to ask at the end of this thesis is, ``Which system should an
 analyst use? Tea or Tisane?'' Tea and Tisane serve different statistical
 purposes. Tea is focused on statistical testing, or finding if there is evidence
@@ -266,39 +283,22 @@ after authoring a statistical model to probe into what its implications are and
 test the differences between groups given a model. To make this possible,
 additional querying and disambiguation after outputting a statistical model from
 Tisane are necessary. What would make this difficult is...
+\end{comment}
 
-\subsection{Interpretation of results}
-% # 4 - Support more complex queries, need help understanding the ramifications...
-While Tisane addresses the gulf of execution in authoring statistical analyses
-to answer a research question, it falls short of addressing the gulf of
-evaluation. Tisane does not yet help analysts interpret the results of their
-statistical models in light of their expressed implicit conceptual knowledge.
-For scientific discovery and decision making, accurately interpreting
-statistical results is equally important. For example, if an analysts'
-statistical results suggest that there is no evidence in the data to support the
-existence of a relationship in their conceptual model, how does the analyst make
-this interpretation? What should the analyst do about it? Is there conceptual
-model ``incorrect''? Should they revise their conceptual model? Check their data
-collection procedure? To answer these questions, there are two related
-challenges to address: (i) improved statistical reporting (What do the results
-mean?) and (ii) support for navigating consequences, such as through richer or
-follow-up queries and model revisions (What should an analyst do next?). 
+A natural question arising from this dissertation is the choice between Tea and
+Tisane for analysts. Tea focuses on statistical testing, determining evidence
+for or against a specific claim, while Tisane emphasizes statistical modeling,
+estimating variable influences in the presence of other variables (e.g.,
+confounders, mediators, etc.) However, statistical testing and modeling are not
+mutually exclusive. Analysts often want to conduct tests after building models
+to answer substantive questions as well as assess model fit. A compelling future
+direction is to enable analysts to ask follow-up questions about specific
+estimates and effects from a statistical model. 
 
-
-rTisane: Linear model that would help assess the average causal effect of the IV of
-interest. However, do not output the actual effect. Assume that if the IV is  of
-interest, analysts are likely to be interested in its average influence on the
-outcome.
-
-Furthermore, in the long-term, to support more complex analyses, there is a need
-to support more types of analyses. 
-
-Tea does this a bit better. 
-
-\subsection{Support throughout the data lifecycle}
+\subsection{Support more phases of the data lifecycle}
 % # 5 -  What are Interfaces across the data lifecycle
 % The long-view of this work...
-
+\begin{comment}
 This dissertation identifies the need for improved abstractions for authoring
 statistical analyses. I argue that the appropriate abstractions should capture
 the implicit domain knowledge analysts bring to their data and show the benefits
@@ -314,17 +314,58 @@ phase? How could a new ecosystem of software tools use these representations
 such that the evolution of conceptual knowledge could be tracked and traced in
 meaningful ways.  -- some research questions to ask/address
 
-A fertile area to try this integration is in connecting statistical analysis with visual analysis
+A fertile area to try this integration is in connecting statistical analysis
+with visual analysis
+\end{comment}
 
-\subsection{Improving science}
+This dissertation emphasizes the need for abstractions that capture analysts'
+implicit domain knowledge. These abstractions enable valid analysis formulation
+and promote reflective thinking. Building upon this, we can begin to ask how the
+same ideas---abstractions and automated reasoning for conceptual knowledge often
+implicit in statistical analyses---could apply to other phases of the data
+lifecycle. Future work should explore how to elicit and track the evolution of
+conceptual knowledge even before statistical analysis by developing new
+elicitation techniques and representations of domain knowledge and ecosystem of
+inter-operating tools to track and ensure validity throughout the data lifecycle. 
+
+% How can software tools track and trace the
+% meaningful evolution of conceptual knowledge? By tackling these questions, we
+% can revolutionize data analysis and develop comprehensive tools that seamlessly
+% integrate domain expertise.
+
+\subsection{Promote analytical best practices in science}
+Tea and Tisane primarily follow a top-down authoring approach, where analysts
+start with a research question and hypothesis. However, as observed in our lab
+study to develop hypothesis formalization (\autoref{sec:labStudyHypoForm}),
+analysts often develop and refine hypotheses based on statistical results.
+Therefore, a future research direction would be to develop ways to incorporate
+both data-driven and research question-driven approaches to model authoring and
+refinement that do not promote cherry-picking. One possibility is to leverage
+\tea's and \tisane's reasoning capabilities to reason in multiple other
+directions, from statistical models and data to all possible conceptual models
+or statistical models to data invariants that could inform study designs.
+
+Morevoer, one of the precautions integrated into the design of Tisane was to prevent
+cherry-picking and p-hacking by using analysts' conceptual models to drive
+statistical model formulation. While Tisane supports mapping one conceptual
+model to a statistical model, an under-explored direction is to assess the
+robustness of effects across multiple possible conceptual models, especially in
+cases of ambiguity or debate in a discipline. On the other hand, multiverse
+analyses~\cite{} embrace conceptual model uncertainty by considering all
+possible statistical model formulations. Future research should look into how to
+both be consistent with aspects of conceptual models researchers know and assess
+evidence for other competing aspects of conceptual models.
+
+
+% \subsection{Improve science}
 % #7 - How can this approach improve science? 
+\begin{comment}
 The systems in this dissertation show a way to author valid statistical analyses
 by design. Tea incorporates formal methods to statistical test selection, and
 Tisane incorporates causal reasoning into model authoring. These efforts are in
 contrast to existing systems that place the burden of validity on end-users.
 These systems are a step from threats to validity to guarantees about validity. 
 
-% Incorporate data-driven approaches 
 To truly improve the quality and reliability of science, a more end-to-end
 approach, even before statistical authoring, is important to design for.
 Recently, researchers have used Tea to support study planning and
@@ -358,10 +399,11 @@ result, could address cherry-picking concerns.
 An interesting observation we made in our lab study to develop hypothesis
 formalization was an insistence on being ``data-driven,'' which meant refusing
 to state implicit assumptions explicitly.
+\end{comment}
 
+% Formal methods for science
+% E.g., github for scientific checking 
 
-Formal methods for science
-E.g., github for scientific checking 
 
 % Reproducibility -- something we wanted to touch on Tea and Tisane
 
@@ -374,8 +416,20 @@ E.g., github for scientific checking
 % documenting, and sharing
 
 % \subsection{The long view: Ecosystem of software tools and computational reasoning throughout the data lifecycle}
+\begin{comment}
+The systems developed in this dissertation demonstrate a deliberate approach to
+authoring valid statistical analyses. Tea incorporates formal methods for
+statistical test selection, while Tisane incorporates causal reasoning into
+model authoring. These systems differ from existing approaches that place the
+burden of ensuring validity on end-users, representing a shift from threats to
+validity to guarantees of validity.
 
+Paragraph 2: To truly enhance the quality and reliability of scientific
+research, it is crucial to adopt a more comprehensive, end-to-end approach that
+extends beyond statistical authoring. 
+\end{comment}
 
+\begin{comment}
 \subsection{Methods for human-centered programming language design}
 % # 6 - 
 From Tea to Tisane, we changed how we designed DSL primitives. To identify
@@ -395,6 +449,18 @@ end-users with a similar flavor could be helpful.
 Methods for specializing DSLs are also promising/important.
 
 need for human-centered methods to design DSLs
+\end{comment}
 
+
+\begin{comment}
 \section{Closing Remarks}
-\ej{Fill in after intro} 
+ designed and implemented two systems, Tea~\cite{jun2019tea} and
+Tisane~\cite{jun2022tisane}, that leverage \textbf{domain-specific languages}
+(DSLs) to capture analysts' implicit assumptions and conceptual knowledge. Users
+\textbf{interactively compile} these high-level specifications into low-level
+code. To infer valid statistical analyses, the systems \textbf{programmatically
+represent and reason about core statistical authoring challenges} as constraints
+and graphs (\autoref{fig:tools}).
+As a result, my systems prevent common analysis
+mistakes~\cite{jun2019tea,jun2022tisane}. 
+\end{comment}
