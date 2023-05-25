@@ -1,50 +1,7 @@
 
-Line-by-line commentary:
 
-Faulty statistical models can lead to spurious estimations of disease spread, findings that do not generalize or reproduce, and a misinformed public.
-> Odd to have a specific domain followed by more general issues. Maybe keep the whole sentence high-level, perhaps by limiting to just "spurious estimations".
-
-> broken references "?"
-
-R, Python, SPSS, and SAS are computational tools. It feels more of a stretch to call them mathematical tools.
-
-"I not only move between systems building and empirical studies but use each" ->
-"I not only move between systems building and empirical studies. but use each"
-[missing comma]
-
-"The work described in the dissertation" ->
-"The work described in this dissertation"
-
-Domain-specific languages that provide abstractions for expressing conceptual knowledge, data collection procedures, and analysis intents instead of specific statistical modeling decisions coupled with automated reasoning to compile conceptual specifications into statistical analysis code help statistical non-experts more readily author valid analyses.
-> Whoa! Grammatical overload. Need to better structure this sentence. Here is an attempted edit:
-
-Statistical non-experts can more readily author valid analyses using a
-combination of domain-specific languages (DSL) and automated reasoning. Rather
-than specify statistical modeling decisions directly, analysis DSLs can express
-conceptual knowledge, data collection procedures, and analysis intents.
-Automated reasoning methods can then compile conceptual DSL specifications into
-statistical analysis code.
-
-"want and can express and balancing" ->
-"want and can express, and then balancing"
-
-"The challenge therefore, is to design" ->
-"The challenge, therefore, is to design"
-
-"usable for analysts and useful for automated reasoning and support interactive program specification as necessary" ->
-"usable for analysts, useful for automated reasoning, and support interactive program specification as necessary"
-
-"Additionally, the process of designing and developing domain-specific languages for end-users shows the first steps towards developing methods for user-centric language design."
-> This feels speculative and possibly tangential. I would not include this if you do not back this up substantively later in the dissertation. I'm also worried about saying "first steps" given there has been a great deal of DSL design already and I don't believe we've surveyed that in a comprehensive way.
-
-"a mixed-initiative approach for “interactively compiling” linear models from conceptual and data relationships in Tisane"
-> Missing chapter forward pointer.
-
-
-\ej{Expand to describe importance, severity, and prevalence of the issues you are addressing.}
-
-
-\ej{Way to expand: Add a statement/section about who the intended users of the systems are? -- statistically conversant, domain experts, limited statistical expertise}
+\polish{Expand to describe importance, severity, and prevalence of the issues you are addressing.}
+\polish{Way to expand: Add a statement/section about who the intended users of the systems are? -- statistically conversant, domain experts, limited statistical expertise}
 
 
 Statistical analysis plays a critical role in how people evaluate data and make
@@ -52,16 +9,14 @@ decisions. Policy makers rely on models to track disease, inform health
 recommendations, and allocate resources. Scientists develop, evaluate, and
 compare theories based on statistical results. Journalists report on new
 findings in science, which individuals use to make decisions that impact their
-nutrition, finances, and other aspects of their lives. Faulty statistical models can lead to spurious estimations of disease spread,
-findings that do not generalize or reproduce, and a misinformed public. 
-% As data science and statistical analysis has and continues to become more
-% prevalent, the number of analysis authors who are not statistical experts will
-% increase. 
+nutrition, finances, and other aspects of their lives. Faulty statistical models
+can lead to spurious estimations, findings that do not generalize or reproduce,
+and a misinformed public. 
 
 Despite the prevalence of statistical analyses and their central importance to a
 number of disciplines, they remain challenging to author accurately. The key
 challenge in developing accurate statistical models lies not in a lack of access
-to mathematical tools, of which there are many (e.g., R~\cite{team2013r},
+to computational tools, of which there are many (e.g., R~\cite{team2013r},
 Python~\cite{sanner1999python}, SPSS~\cite{spss}, and SAS~\cite{sas}), but in
 accurately applying them in conjunction with domain theory, data collection,
 statistical knowledge, and programming ability~\cite{mcelreath2020statistical}.
@@ -87,38 +42,47 @@ and (ii) develop novel interactive systems that enable statistical non-experts
 to author valid analyses. As detailed below, I not only move between systems
 building and empirical studies but use each to deepen and enhance the other.
 
-The work described in the dissertation demonstrates the following:% thesis statement: 
+The work described in this dissertation demonstrates the following:% thesis statement: 
 \addcontentsline{toc}{section}{Thesis statement}
 \paragraph{Thesis statement} \label{para:thesisStatement}
 % Centered on the insight that domain experts using statistical methods are
 % focused on their domain 
 
 %%% COULD MAKE THIS STRONGER?
-Domain-specific languages that provide abstractions for expressing conceptual
-knowledge, data collection procedures, and analysis intents instead of specific
-statistical modeling decisions coupled with automated reasoning to compile
-conceptual specifications into statistical analysis code help statistical
-non-experts more readily author valid analyses. 
+% Domain-specific languages that provide abstractions for expressing conceptual
+% knowledge, data collection procedures, and analysis intents instead of specific
+% statistical modeling decisions coupled with automated reasoning to compile
+% conceptual specifications into statistical analysis code help statistical
+% non-experts more readily author valid analyses. 
 
-Statistical non-experts can more readily author valid analyses using a
-combination of domain-specific languages (DSL) and automated reasoning. Rather
-than specify statistical modeling decisions directly, analysis DSLs can express
-conceptual knowledge, data collection procedures, and analysis intents.
-Automated reasoning methods can then compile conceptual DSL specifications into
-statistical analysis code.
+% Statistical non-experts can more readily author valid analyses using a
+% combination of domain-specific languages (DSL) and automated reasoning. Rather
+% than specify statistical modeling decisions directly, analysis DSLs can express
+% conceptual knowledge, data collection procedures, and analysis intents.
+% Automated reasoning methods can then compile conceptual DSL specifications into
+% statistical analysis code.
+
+A combination of domain-specific languages (DSLs) and automated reasoning can
+help statistical non-experts more readily author valid analyses. Analysis DSLs
+express conceptual knowledge, data collection procedures, and
+analysis intents. Automated reasoning methods then compile the conceptual
+DSL specifications into statistical analysis code.
+
+% Rather than
+% directly specifying statistical modeling decisions, analysis 
 
 Three challenges fall out of this thesis statement: 
 
-\addcontentsline{toc}{section}{Challenge 1}
+\addcontentsline{toc}{subsection}{Challenge 1}
 \section*{Challenge 1: How to make implicit domain knowledge explicit.} %- domain knowledge
 Designing abstractions focused on conceptual knowledge requires identifying what
-domain knowledge analysts want and can express and balancing these constraints
-with what automated reasoning approaches may require. What is easy to express
-and what is easy to assume for the sake of automation may be at odds, especially
-when analysts provide ambiguous specifications that could be compiled into
-multiple statistical analyses. The challenge therefore, is to design language
-constructs that are usable for analysts and useful for automated reasoning and
-support interactive program specification as necessary.
+domain knowledge analysts want and can express and then balancing these
+constraints with what automated reasoning approaches may require. What is easy
+to express and what is easy to assume for the sake of automation may be at odds,
+especially when analysts provide ambiguous specifications that could be compiled
+into multiple statistical analyses. The challenge, therefore, is to design
+language constructs that are usable for analysts, useful for automated
+reasoning, and support interactive program specification as necessary.
 
 % Finding: interactive disambiguation not just necessary for refinement and automated reasoning but *useful* to analysts for reflection
 
@@ -126,7 +90,7 @@ support interactive program specification as necessary.
 
 % **Not just higher levels of abstraction but appropriate abstractions that allow analysts to dig deeper into the appropriate parts
 
-\addcontentsline{toc}{section}{Challenge 2}
+\addcontentsline{toc}{subsection}{Challenge 2}
 \section*{Challenge 2: Represent and reason about key statistical analysis decisions} %- programming
 A central idea in this thesis is that software systems should take on the
 responsibility of translating conceptual knowledge into statistical analyses.
@@ -136,7 +100,7 @@ analyses that respect statistical best practices and rules. A
 major challenge is in picking representations so that the reasoning is straightforward. 
 % not only straightforward but also beneficial in someway (expressivity, extensibility for both Tea and Tisane)
 
-\addcontentsline{toc}{section}{Challenge 3}
+\addcontentsline{toc}{subsection}{Challenge 3}
 \section*{Challenge 3: Increase analysts' statistical knowledge/understanding} %- statistics
 % connect to Bellotti on user control?
 While automating statistical analysis can be helpful, analysts relying on data

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  24 MAY 2023 21:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  24 MAY 2023 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1374,26 +1374,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 1.
-(./04-intro.tex [17]
-Overfull \hbox (329.00912pt too wide) in paragraph at lines 47--48
-[][][][][][][] 
+(./04-intro.tex
+Overfull \hbox (745.6719pt too wide) in paragraph at lines 3--5
+[][][][][][] [][][][][][] 
  []
 
-[18]
-Underfull \vbox (badness 1990) has occurred while \output is active []
+[17] Excluding 'comment' comment. [18] [19]
 
- [19]
-Excluding 'comment' comment. [20]
+LaTeX Warning: Reference `usageScenarioTeaTea' on page 20 undefined on input li
+ne 235.
 
-LaTeX Warning: Reference `usageScenarioTeaTea' on page 21 undefined on input li
-ne 271.
+[20] Excluding 'comment' comment.) [21] [22
 
-[21] Excluding 'comment' comment.) [22]
+
+]
 Chapter 2.
-(./05-relatedWork.tex [23
-
-
-] [24]
+(./05-relatedWork.tex [23] [24]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
@@ -1908,12 +1904,12 @@ Package natbib Warning: There were undefined citations.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: C450C48AF3000F31EF165B1FDA4021CD;20046.
+(rerunfilecheck)             Checksum: 3609C992FF5C363041D87209FA9DD108;20052.
  ) 
 Here is how much of TeX's memory you used:
  40752 strings out of 478994
  915162 string characters out of 5858184
- 1643796 words of memory out of 5000000
+ 1643799 words of memory out of 5000000
  56915 multiletter control sequences out of 15000+600000
  434480 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1993,7 +1989,7 @@ cm-super/sfti0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm
 uper/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-sup
 er/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucr
 r8a.pfb>
-Output written on dissertation.pdf (127 pages, 9526191 bytes).
+Output written on dissertation.pdf (127 pages, 9523513 bytes).
 PDF statistics:
  2347 PDF objects out of 2487 (max. 8388607)
  2098 compressed objects within 21 object streams
