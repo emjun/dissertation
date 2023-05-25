@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  24 MAY 2023 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  24 MAY 2023 22:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1383,12 +1383,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 1.
-(./04-intro.tex
-Overfull \hbox (745.6719pt too wide) in paragraph at lines 3--5
-[][][][][][] [][][][][][] 
- []
-
-[17] Excluding 'comment' comment. [18] [19]
+(./04-intro.tex [17] Excluding 'comment' comment. [18] [19]
 
 LaTeX Warning: Reference `usageScenarioTeaTea' on page 20 undefined on input li
 ne 235.
@@ -1429,7 +1424,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 47.
 
 ) [31] (./tea/usage_scenario.tex
-<tea/figures/tea_program.jpg, id=919, 3863.43375pt x 3922.655pt>
+<tea/figures/tea_program.jpg, id=909, 3863.43375pt x 3922.655pt>
 File: tea/figures/tea_program.jpg Graphic file (type jpg)
 <use tea/figures/tea_program.jpg>
 Package pdftex.def Info: tea/figures/tea_program.jpg  used on input line 2.
@@ -1445,7 +1440,7 @@ Overfull \hbox (213.38109pt too wide) in alignment at lines 1--1
 LaTeX Warning: Reference `subsec:NHST' on page 34 undefined on input line 52.
 
 ) [34] (./tea/system.tex [35] [36]
-<tea/figures/modes_wide.jpg, id=1022, 6677.94875pt x 4589.145pt>
+<tea/figures/modes_wide.jpg, id=1012, 6677.94875pt x 4589.145pt>
 File: tea/figures/modes_wide.jpg Graphic file (type jpg)
 <use tea/figures/modes_wide.jpg>
 Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 126.
@@ -1475,7 +1470,7 @@ Chapter 4.
 Underfull \vbox (badness 7944) has occurred while \output is active []
 
  [47]
-<hypothesisFormalization/figures/overview_sept_17.png, id=1212, 1027.84pt x 585
+<hypothesisFormalization/figures/overview_sept_17.png, id=1202, 1027.84pt x 585
 .18625pt>
 File: hypothesisFormalization/figures/overview_sept_17.png Graphic file (type p
 ng)
@@ -1492,7 +1487,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49 <./hypothesisFormalization/figures/overview_sept_17.png>]
 (./hypothesisFormalization/related_work.tex [50]
-<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1258,
+<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1248,
  1218.5525pt x 300.12125pt>
 File: hypothesisFormalization/figures/prior_work_combined_july_16_2021.png Grap
 hic file (type png)
@@ -1506,7 +1501,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51]
 [52 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
-<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1282, 835
+<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1272, 835
 .62187pt x 275.0275pt>
 File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic 
 file (type png)
@@ -1549,14 +1544,14 @@ Underfull \vbox (badness 4505) has occurred while \output is active []
 
  [55]
 [56] [57]
-<hypothesisFormalization/figures/A11_SS_1.png, id=1344, 548.0475pt x 590.205pt>
+<hypothesisFormalization/figures/A11_SS_1.png, id=1334, 548.0475pt x 590.205pt>
 
 File: hypothesisFormalization/figures/A11_SS_1.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_1.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_1.png  used on 
 input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 204.88174pt.
-<hypothesisFormalization/figures/A11_SS_2.png, id=1345, 564.1075pt x 477.785pt>
+<hypothesisFormalization/figures/A11_SS_2.png, id=1335, 564.1075pt x 477.785pt>
 
 File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
@@ -1698,7 +1693,7 @@ Underfull \vbox (badness 7151) has occurred while \output is active []
 
  [88]
 [89]
-<tisane/figures/usage_scenario_gui_05012022.png, id=1832, 1343.0175pt x 1002.74
+<tisane/figures/usage_scenario_gui_05012022.png, id=1822, 1343.0175pt x 1002.74
 625pt>
 File: tisane/figures/usage_scenario_gui_05012022.png Graphic file (type png)
 <use tisane/figures/usage_scenario_gui_05012022.png>
@@ -1870,25 +1865,7 @@ Underfull \hbox (badness 4467) in paragraph at lines 2031--2040
 ge) --- Wikipedia, The Free
  []
 
-) [125] [126
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.67 \chapter{Appendix One}
-                           
-Chapter A.
-pdfTeX warning (ext4): destination with the same identifier (name{section.1.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.68 \section{Appendix section 1}
-                                 
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 69.
-
+) [125] Excluding 'comment' comment.
 
 Package caption Warning: Unused \captionsetup[sub] on input line 80.
 See the caption package documentation for explanation.
@@ -1896,18 +1873,18 @@ See the caption package documentation for explanation.
 
 Package natbib Warning: There were undefined citations.
 
-[127] (./dissertation.aux)
+(./dissertation.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 3609C992FF5C363041D87209FA9DD108;20052.
+(rerunfilecheck)             Checksum: 622F3657AAE49CB3ECFD9F04C237661F;19794.
  ) 
 Here is how much of TeX's memory you used:
- 41144 strings out of 478994
- 919015 string characters out of 5858184
- 1678505 words of memory out of 5000000
- 57279 multiletter control sequences out of 15000+600000
+ 41140 strings out of 478994
+ 918969 string characters out of 5858184
+ 1678449 words of memory out of 5000000
+ 57278 multiletter control sequences out of 15000+600000
  434817 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3502b,1778s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1986,10 +1963,10 @@ cm-super/sfti0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm
 uper/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-sup
 er/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucr
 r8a.pfb>
-Output written on dissertation.pdf (127 pages, 9527816 bytes).
+Output written on dissertation.pdf (125 pages, 9525729 bytes).
 PDF statistics:
- 2367 PDF objects out of 2487 (max. 8388607)
- 2117 compressed objects within 22 object streams
- 486 named destinations out of 1000 (max. 500000)
- 771 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2347 PDF objects out of 2487 (max. 8388607)
+ 2100 compressed objects within 21 object streams
+ 483 named destinations out of 1000 (max. 500000)
+ 755 words of extra memory for PDF output out of 10000 (max. 10000000)
 

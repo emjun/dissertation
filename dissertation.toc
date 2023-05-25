@@ -131,5 +131,3 @@
 \contentsline {subsection}{\numberline {6.2.2}Connect statistical modeling and testing}{111}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.2.3}Support more phases of the data lifecycle}{111}{subsection.6.2.3}%
 \contentsline {subsection}{\numberline {6.2.4}Promote analytical best practices in science}{112}{subsection.6.2.4}%
-\contentsline {chapter}{\numberline {A}Appendix One}{127}{chapter.1}%
-\contentsline {section}{\numberline {A.1}Appendix section 1}{127}{section.1.1}%
