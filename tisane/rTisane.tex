@@ -12,7 +12,7 @@ prioritize expressivity in the DSL and precision during interactive compilation.
 % \rTisane supports a two-step process for analysts to specify conceptual models
 % that are both expressive and precise. 
 
-\ej{Add program and point to lines of program?}
+\rTisaneProgram
 
 \def\Participant{\texttt{Participant}\xspace}
 \def\Unit{\texttt{Unit}\xspace}
@@ -21,13 +21,14 @@ prioritize expressivity in the DSL and precision during interactive compilation.
 
 \subsection{Declaring variables}
 Analysts can express two types of variables: Units and Measures. Units represent
-observational or experimental units from which analysts collect data. \ej{reference prog} A common
+observational or experimental units from which analysts collect data. %\polish{reference prog} 
+A common
 unit is a participant in a study, so \rTisane provides syntactic sugar for
 constructing a \Participant variable directly. \Participant is a wrapper for
 declaring a \Unit.
 
-Measures are attributes of Units collected in a \dataSet. \ej{For example,
-reference prog} Measures can be one of four types: continuous, unordered
+Measures are attributes of Units collected in a \dataSet. %\polish{For example, reference prog} 
+Measures can be one of four types: continuous, unordered
 categories (i.e., nominal), ordered categories (i.e., ordinal), and counts.
 \rTisane provides syntactic sugar for declaring \Conditions as either unordered
 or ordered categories. 
@@ -54,25 +55,26 @@ model. These relationships are stored in an intermediate graph representation
 where the variables are nodes and the relationships are edges. 
 
 There are two types of relationships: \causes and \relates. \causes indicates a
-unidirectional influence from a cause to an effect. \ej{Ref prog}. Internally,
+unidirectional influence from a cause to an effect. %\polish{Ref prog}. 
+Internally,
 \causes introduces a directed edge from the cause node to the effect node. As we
 found in the exploratory lab study, analysts want opportunities to provide more
 detail describing conceptual relationship. Towards this design goal
 (\optionalSpecificity), \rTisane allows analysts to optionally specify \when and
-\then parameters in the \causes and \relates functions. \ej{Ref prog}. There are
-four comparisons analysts can specify in \when and \then: \texttt{increases}
-(for continuous, ordered categories, counts), \texttt{decreases} (for
-continuous, ordered categories, counts), \texttt{equals} (for any measure type),
-and \texttt{notEquals} (for any measure type). The optional specificity is used
-when suggesting ways to resolve ambiguity in the input program during
-disambiguation (\autoref{sec:conceptualModelDisambig}).
+\then parameters in the \causes and \relates functions. %\polish{Ref prog}. 
+There are four comparisons analysts can specify in \when and \then:
+\texttt{increases} (for continuous, ordered categories, counts),
+\texttt{decreases} (for continuous, ordered categories, counts), \texttt{equals}
+(for any measure type), and \texttt{notEquals} (for any measure type). The
+optional specificity is used when suggesting ways to resolve ambiguity in the
+input program during disambiguation (\autoref{subsec:conceptualModelDisambig}).
 
 Analysts in the exploratory lab study also distinguished between assumed, or
 strongly held, and hypothesized, or more uncertain, relationships. \rTisane
 requires analysts to make these explicit distinctions (\assumeHypothesize) when
 adding conceptual relationships to a conceptual model. In addition to specifying
-a relationship type, analysts must either \assume or \hypothesize a relationship
-\ej{ref program}.
+a relationship type, analysts must either \assume or \hypothesize a relationship.
+%\polish{ref program}.
 
 % While analysts are thinking through and specifying \causes and \relates
 % relationships, 
@@ -97,7 +99,7 @@ results in an \texttt{R} script specifying and fitting a generalized linear
 model. During interactive compilation, analysts engage in two loops to
 disambiguate their (i) conceptual model and (ii) output statistical model. 
 
-\subsection{Conceptual Model Disambiguation}
+\subsection{Conceptual Model Disambiguation} \label{subsec:conceptualModelDisambig}
 The goal of conceptual model disambiguation is to make analysts' expressed
 conceptual models more precise. This precision is necessary to derive
 statistical models rigorously. Conceptual model disambiguation involves breaking
