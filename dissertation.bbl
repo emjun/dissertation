@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{160}
+\begin{thebibliography}{169}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -165,6 +165,36 @@
 \newblock \bibinfo{booktitle}{\emph{Graphics and graphic information
   processing}}.
 \newblock \bibinfo{publisher}{Walter de Gruyter}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Betancourt}{Betancourt}{2020}]%
+        {betancourt2020bayesianWorkflow}
+\bibfield{author}{\bibinfo{person}{Michael Betancourt}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \bibinfo{title}{Towards a Principled Bayesian Workflow}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Bingham, Chen, Jankowiak, Obermeyer, Pradhan,
+  Karaletsos, Singh, Szerlip, Horsfall, and Goodman}{Bingham
+  et~al\mbox{.}}{2019}]%
+        {pyro}
+\bibfield{author}{\bibinfo{person}{Eli Bingham}, \bibinfo{person}{Jonathan~P
+  Chen}, \bibinfo{person}{Martin Jankowiak}, \bibinfo{person}{Fritz Obermeyer},
+  \bibinfo{person}{Neeraj Pradhan}, \bibinfo{person}{Theofanis Karaletsos},
+  \bibinfo{person}{Rohit Singh}, \bibinfo{person}{Paul Szerlip},
+  \bibinfo{person}{Paul Horsfall}, {and} \bibinfo{person}{Noah~D Goodman}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Pyro: Deep universal probabilistic programming}.
+\newblock \bibinfo{journal}{\emph{The Journal of Machine Learning Research}}
+  \bibinfo{volume}{20}, \bibinfo{number}{1} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{973--978}.
 \newblock
 
 
@@ -614,6 +644,18 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Gelman, Carlin, Stern, Dunson, Vehtari, and
+  Rubin}{Gelman et~al\mbox{.}}{2013}]%
+        {gelman2013bayesianTextbook}
+\bibfield{author}{\bibinfo{person}{Andrew Gelman}, \bibinfo{person}{John~B
+  Carlin}, \bibinfo{person}{Hal~S Stern}, \bibinfo{person}{David~B Dunson},
+  \bibinfo{person}{Aki Vehtari}, {and} \bibinfo{person}{Donald~B Rubin}.}
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Bayesian data analysis}}.
+\newblock \bibinfo{publisher}{CRC press}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Gelman and Hill}{Gelman and Hill}{2006}]%
         {gelmanHill2006regression}
 \bibfield{author}{\bibinfo{person}{Andrew Gelman} {and}
@@ -633,6 +675,22 @@
   or “p-hacking” and the research hypothesis was posited ahead of time}.
 \newblock \bibinfo{journal}{\emph{Department of Statistics, Columbia
   University}} (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gelman, Vehtari, Simpson, Margossian,
+  Carpenter, Yao, Kennedy, Gabry, B{\"u}rkner, and Modr{\'a}k}{Gelman
+  et~al\mbox{.}}{2020}]%
+        {gelman2020bayesianWorkflow}
+\bibfield{author}{\bibinfo{person}{Andrew Gelman}, \bibinfo{person}{Aki
+  Vehtari}, \bibinfo{person}{Daniel Simpson}, \bibinfo{person}{Charles~C
+  Margossian}, \bibinfo{person}{Bob Carpenter}, \bibinfo{person}{Yuling Yao},
+  \bibinfo{person}{Lauren Kennedy}, \bibinfo{person}{Jonah Gabry},
+  \bibinfo{person}{Paul-Christian B{\"u}rkner}, {and} \bibinfo{person}{Martin
+  Modr{\'a}k}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Bayesian workflow}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2011.01808}}
+  (\bibinfo{year}{2020}).
 \newblock
 
 
@@ -1159,6 +1217,22 @@ Issue 1.
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Lee, Criss, Devezer, Donkin, Etz, Leite,
+  Matzke, Rouder, Trueblood, White, et~al\mbox{.}}{Lee et~al\mbox{.}}{2019}]%
+        {lee2019robust}
+\bibfield{author}{\bibinfo{person}{Michael~D Lee}, \bibinfo{person}{Amy~H
+  Criss}, \bibinfo{person}{Berna Devezer}, \bibinfo{person}{Christopher
+  Donkin}, \bibinfo{person}{Alexander Etz}, \bibinfo{person}{F{\'a}bio~P
+  Leite}, \bibinfo{person}{Dora Matzke}, \bibinfo{person}{Jeffrey~N Rouder},
+  \bibinfo{person}{Jennifer~S Trueblood}, \bibinfo{person}{Corey~N White},
+  {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Robust modeling in cognitive science}.
+\newblock \bibinfo{journal}{\emph{Computational Brain \& Behavior}}
+  \bibinfo{volume}{2}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{141--153}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Libraries}{Libraries}{2019}]%
         {kent:tutorials}
 \bibfield{author}{\bibinfo{person}{Kent State~University Libraries}.}
@@ -1372,6 +1446,18 @@ Issue 1.
 \newblock \bibinfo{booktitle}{\emph{Human problem solving}}.
   Vol.~\bibinfo{volume}{104}.
 \newblock \bibinfo{publisher}{Prentice-Hall Englewood Cliffs, NJ}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ngo, Horner, Newcombe, and Olson}{Ngo
+  et~al\mbox{.}}{2019}]%
+        {PS9}
+\bibfield{author}{\bibinfo{person}{Chi~T. Ngo}, \bibinfo{person}{Aidan~J.
+  Horner}, \bibinfo{person}{Nora~S. Newcombe}, {and} \bibinfo{person}{Ingrid~R.
+  Olson}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Development of Holistic Episodic Recollection}.
+\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
+  \bibinfo{number}{12} (\bibinfo{year}{2019}), \bibinfo{pages}{1696--1706}.
 \newblock
 
 
@@ -1598,6 +1684,18 @@ Issue 1.
   \bibinfo{booktitle}{\emph{Proceedings of the INTERACT'93 and CHI'93
   conference on Human factors in computing systems}}. ACM,
   \bibinfo{pages}{269--276}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Salvatier, Wiecki, and Fonnesbeck}{Salvatier
+  et~al\mbox{.}}{2016}]%
+        {pymc3}
+\bibfield{author}{\bibinfo{person}{John Salvatier}, \bibinfo{person}{Thomas~V
+  Wiecki}, {and} \bibinfo{person}{Christopher Fonnesbeck}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Probabilistic programming in Python using PyMC3}.
+\newblock \bibinfo{journal}{\emph{PeerJ Computer Science}}  \bibinfo{volume}{2}
+  (\bibinfo{year}{2016}), \bibinfo{pages}{e55}.
 \newblock
 
 
@@ -2089,6 +2187,19 @@ Issue 1.
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Winters, Walker, and Leslie}{Winters
+  et~al\mbox{.}}{2021}]%
+        {winters2021heartbeat}
+\bibfield{author}{\bibinfo{person}{R~Michael Winters}, \bibinfo{person}{Bruce~N
+  Walker}, {and} \bibinfo{person}{Grace Leslie}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Can You Hear My Heartbeat?: Hearing an Expressive
+  Biosignal Elicits Empathy}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  2021 CHI Conference on Human Factors in Computing Systems}}.
+  \bibinfo{pages}{1--11}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Wongsuphasawat, Liu, and Heer}{Wongsuphasawat
   et~al\mbox{.}}{2019}]%
         {wongsuphasawat2019EDAgoals}
@@ -2098,6 +2209,17 @@ Issue 1.
   Analysis: An Interview Study}.
 \newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1911.00568}}
   (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yu and Kumbier}{Yu and Kumbier}{2020}]%
+        {yu2020veridical}
+\bibfield{author}{\bibinfo{person}{Bin Yu} {and} \bibinfo{person}{Karl
+  Kumbier}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Veridical data science}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of
+  Sciences}} \bibinfo{volume}{117}, \bibinfo{number}{8} (\bibinfo{year}{2020}),
+  \bibinfo{pages}{3920--3929}.
 \newblock
 
 

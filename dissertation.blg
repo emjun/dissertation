@@ -4,7 +4,7 @@ The top-level auxiliary file: dissertation.aux
 The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 12695 items from 5000.
+Reallocated field_info (elt_size=4) to 12650 items from 5000.
 Database file #1: references.bib
 Warning--string name "january" is undefined
 --line 1683 of file references.bib
@@ -12,17 +12,7 @@ Warning--string name "april" is undefined
 --line 1691 of file references.bib
 Warning--string name "march" is undefined
 --line 1699 of file references.bib
-Warning--I didn't find a database entry for "PS9"
-Warning--I didn't find a database entry for "seabold2010statsmodels"
 Warning--I didn't find a database entry for ""
-Warning--I didn't find a database entry for "yu2020veridical"
-Warning--I didn't find a database entry for "lee2019robust"
-Warning--I didn't find a database entry for "gelman2013bayesianTextbook"
-Warning--I didn't find a database entry for "betancourt2020bayesianWorkflow"
-Warning--I didn't find a database entry for "gelman2020bayesianWorkflow"
-Warning--I didn't find a database entry for "pyro"
-Warning--I didn't find a database entry for "pymc3"
-Warning--I didn't find a database entry for "winters2021heartbeat"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
@@ -81,9 +71,12 @@ Warning--empty address in fisher1937design
 Warning--no journal in glmnetRef
 Warning--no number and no volume in glmnetRef
 Warning--page numbers missing in both pages and numpages fields in glmnetRef
+Warning--empty address in gelman2013bayesianTextbook
 Warning--empty address in gelmanHill2006regression
 Warning--no number and no volume in gelman2013garden
 Warning--page numbers missing in both pages and numpages fields in gelman2013garden
+Warning--no number and no volume in gelman2020bayesianWorkflow
+Warning--page numbers missing in both pages and numpages fields in gelman2020bayesianWorkflow
 Warning--no journal in graphPadUserGuide
 Warning--no number and no volume in graphPadUserGuide
 Warning--page numbers missing in both pages and numpages fields in graphPadUserGuide
@@ -206,47 +199,49 @@ Warning--empty publisher in verou2018extending
 Warning--empty address in verou2018extending
 Warning--empty publisher in wacharamanotham2015statsplorer
 Warning--empty address in wacharamanotham2015statsplorer
+Warning--empty publisher in winters2021heartbeat
+Warning--empty address in winters2021heartbeat
 Warning--no number and no volume in wongsuphasawat2019EDAgoals
 Warning--page numbers missing in both pages and numpages fields in wongsuphasawat2019EDAgoals
-You've used 160 entries,
+You've used 169 entries,
             5719 wiz_defined-function locations,
-            2148 strings with 43254 characters,
-and the built_in function-call counts, 173803 in all, are:
-= -- 21768
-> -- 6851
+            2184 strings with 44965 characters,
+and the built_in function-call counts, 185705 in all, are:
+= -- 23319
+> -- 7482
 < -- 0
-+ -- 2247
-- -- 2407
-* -- 12374
-:= -- 18528
-add.period$ -- 820
-call.type$ -- 160
-change.case$ -- 1098
-chr.to.int$ -- 148
-cite$ -- 340
-duplicate$ -- 14834
-empty$ -- 10503
-format.name$ -- 2785
-if$ -- 41500
++ -- 2460
+- -- 2619
+* -- 13346
+:= -- 19844
+add.period$ -- 866
+call.type$ -- 169
+change.case$ -- 1183
+chr.to.int$ -- 157
+cite$ -- 354
+duplicate$ -- 15713
+empty$ -- 11123
+format.name$ -- 3029
+if$ -- 44373
 int.to.chr$ -- 14
 int.to.str$ -- 1
-missing$ -- 512
-newline$ -- 1499
-num.names$ -- 1270
-pop$ -- 5692
+missing$ -- 543
+newline$ -- 1574
+num.names$ -- 1342
+pop$ -- 6030
 preamble$ -- 1
-purify$ -- 2490
+purify$ -- 2656
 quote$ -- 0
-skip$ -- 5103
+skip$ -- 5403
 stack$ -- 0
-substring$ -- 11856
-swap$ -- 1404
+substring$ -- 12619
+swap$ -- 1498
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3325
-warning$ -- 180
-while$ -- 1191
+type$ -- 3496
+warning$ -- 185
+while$ -- 1250
 width$ -- 0
-write$ -- 2902
-(There were 194 warnings)
+write$ -- 3056
+(There were 189 warnings)
