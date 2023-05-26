@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{169}
+\begin{thebibliography}{170}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -1394,6 +1394,17 @@ Issue 1.
 \newblock \bibinfo{booktitle}{\emph{Statistical rethinking: A Bayesian course
   with examples in R and Stan}}.
 \newblock \bibinfo{publisher}{CRC press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{McNamara}{McNamara}{2018}]%
+        {mcnamara2018keyAttributes}
+\bibfield{author}{\bibinfo{person}{Amelia McNamara}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Key attributes of a modern statistical computing
+  tool}.
+\newblock \bibinfo{journal}{\emph{The American Statistician}}
+  (\bibinfo{year}{2018}).
 \newblock
 
 

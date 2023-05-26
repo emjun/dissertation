@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  26 MAY 2023 09:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  26 MAY 2023 09:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1696,14 +1696,14 @@ Excluding 'comment' comment. Excluding 'comment' comment.
 Excluding 'comment' comment. [111] Excluding 'comment' comment.
 Excluding 'comment' comment. Excluding 'comment' comment. [112]
 
-LaTeX Warning: Reference `fig:tools' on page 113 undefined on input line 489.
+LaTeX Warning: Reference `fig:tools' on page 113 undefined on input line 529.
 
-) (./dissertation.bbl [113] [114
-
-]
+) (./dissertation.bbl [113] [114]
 LaTeX Info: Redefining \tempurl on input line 141.
 LaTeX Info: Redefining \tempurl on input line 156.
- [115]
+ [115
+
+]
 LaTeX Info: Redefining \tempurl on input line 179.
 LaTeX Info: Redefining \tempurl on input line 223.
 LaTeX Info: Redefining \tempurl on input line 237.
@@ -1785,40 +1785,40 @@ LaTeX Info: Redefining \tempurl on input line 1283.
 LaTeX Info: Redefining \tempurl on input line 1296.
 LaTeX Info: Redefining \tempurl on input line 1352.
 LaTeX Info: Redefining \tempurl on input line 1385.
-LaTeX Info: Redefining \tempurl on input line 1423.
+LaTeX Info: Redefining \tempurl on input line 1434.
  [123]
-LaTeX Info: Redefining \tempurl on input line 1492.
-LaTeX Info: Redefining \tempurl on input line 1578.
-LaTeX Info: Redefining \tempurl on input line 1618.
+LaTeX Info: Redefining \tempurl on input line 1503.
+LaTeX Info: Redefining \tempurl on input line 1589.
+LaTeX Info: Redefining \tempurl on input line 1629.
  [124]
-LaTeX Info: Redefining \tempurl on input line 1644.
-LaTeX Info: Redefining \tempurl on input line 1660.
-LaTeX Info: Redefining \tempurl on input line 1721.
-LaTeX Info: Redefining \tempurl on input line 1770.
+LaTeX Info: Redefining \tempurl on input line 1655.
+LaTeX Info: Redefining \tempurl on input line 1671.
+LaTeX Info: Redefining \tempurl on input line 1732.
  [125]
-LaTeX Info: Redefining \tempurl on input line 1806.
-LaTeX Info: Redefining \tempurl on input line 1842.
-LaTeX Info: Redefining \tempurl on input line 1854.
-LaTeX Info: Redefining \tempurl on input line 1867.
+LaTeX Info: Redefining \tempurl on input line 1781.
+LaTeX Info: Redefining \tempurl on input line 1817.
+LaTeX Info: Redefining \tempurl on input line 1853.
+LaTeX Info: Redefining \tempurl on input line 1865.
+LaTeX Info: Redefining \tempurl on input line 1878.
 
-Underfull \hbox (badness 1331) in paragraph at lines 1861--1870
+Underfull \hbox (badness 1331) in paragraph at lines 1872--1881
 []\T1/cmr/m/n/10.95 Michael Suh. 2014.  Higher Ed-u-ca-tion, Gen-der & Work Dat
 aset.    []$\T1/pcr/m/n/10.95 "https : / / www .
  []
 
-LaTeX Info: Redefining \tempurl on input line 1918.
-LaTeX Info: Redefining \tempurl on input line 1943.
+LaTeX Info: Redefining \tempurl on input line 1929.
 [126]
-LaTeX Info: Redefining \tempurl on input line 1969.
-LaTeX Info: Redefining \tempurl on input line 1982.
+LaTeX Info: Redefining \tempurl on input line 1954.
+LaTeX Info: Redefining \tempurl on input line 1980.
+LaTeX Info: Redefining \tempurl on input line 1993.
  [127]
-Underfull \hbox (badness 1721) in paragraph at lines 2115--2124
+Underfull \hbox (badness 1721) in paragraph at lines 2126--2135
 []\T1/cmr/m/n/10.95 Wikipedia con-trib-u-tors. 2019a.  JMP (sta-tis-ti-cal soft
 -ware) --- Wikipedia, The Free En-
  []
 
 
-Underfull \hbox (badness 4467) in paragraph at lines 2129--2138
+Underfull \hbox (badness 4467) in paragraph at lines 2140--2149
 []\T1/cmr/m/n/10.95 Wikipedia con-trib-u-tors. 2019b.  R (pro-gram-ming lan-gua
 ge) --- Wikipedia, The Free
  []
@@ -1836,10 +1836,10 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: CBF6367EB40CA71FDDDB14FF079718E0;20236.
  ) 
 Here is how much of TeX's memory you used:
- 41191 strings out of 478994
- 920072 string characters out of 5858184
- 1678393 words of memory out of 5000000
- 57312 multiletter control sequences out of 15000+600000
+ 41195 strings out of 478994
+ 920201 string characters out of 5858184
+ 1678430 words of memory out of 5000000
+ 57315 multiletter control sequences out of 15000+600000
  434817 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3502b,1778s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1925,10 +1925,10 @@ e/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/
 2021/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/20
 21/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021
 /texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on dissertation.pdf (128 pages, 9946587 bytes).
+Output written on dissertation.pdf (128 pages, 9948533 bytes).
 PDF statistics:
- 2483 PDF objects out of 2487 (max. 8388607)
- 2215 compressed objects within 23 object streams
- 499 named destinations out of 1000 (max. 500000)
+ 2486 PDF objects out of 2487 (max. 8388607)
+ 2218 compressed objects within 23 object streams
+ 500 named destinations out of 1000 (max. 500000)
  784 words of extra memory for PDF output out of 10000 (max. 10000000)
 

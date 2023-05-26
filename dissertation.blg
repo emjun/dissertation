@@ -4,7 +4,7 @@ The top-level auxiliary file: dissertation.aux
 The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 12650 items from 5000.
+Reallocated field_info (elt_size=4) to 12695 items from 5000.
 Database file #1: references.bib
 Warning--string name "january" is undefined
 --line 1683 of file references.bib
@@ -142,6 +142,8 @@ Warning--no journal in glmmtmbRef
 Warning--no number and no volume in glmmtmbRef
 Warning--page numbers missing in both pages and numpages fields in glmmtmbRef
 Warning--empty address in mcelreath2020statistical
+Warning--no number and no volume in mcnamara2018keyAttributes
+Warning--page numbers missing in both pages and numpages fields in mcnamara2018keyAttributes
 Warning--empty year in mplus
 Warning--can't use both volume and number fields in newell1972humanProblemSolving
 Warning--empty address in newell1972humanProblemSolving
@@ -203,45 +205,45 @@ Warning--empty publisher in winters2021heartbeat
 Warning--empty address in winters2021heartbeat
 Warning--no number and no volume in wongsuphasawat2019EDAgoals
 Warning--page numbers missing in both pages and numpages fields in wongsuphasawat2019EDAgoals
-You've used 169 entries,
+You've used 170 entries,
             5719 wiz_defined-function locations,
-            2184 strings with 44965 characters,
-and the built_in function-call counts, 185705 in all, are:
-= -- 23319
-> -- 7482
+            2190 strings with 45126 characters,
+and the built_in function-call counts, 186653 in all, are:
+= -- 23476
+> -- 7502
 < -- 0
-+ -- 2460
-- -- 2619
-* -- 13346
-:= -- 19844
-add.period$ -- 866
-call.type$ -- 169
-change.case$ -- 1183
-chr.to.int$ -- 157
-cite$ -- 354
-duplicate$ -- 15713
-empty$ -- 11123
-format.name$ -- 3029
-if$ -- 44373
++ -- 2465
+- -- 2627
+* -- 13397
+:= -- 19931
+add.period$ -- 871
+call.type$ -- 170
+change.case$ -- 1188
+chr.to.int$ -- 158
+cite$ -- 357
+duplicate$ -- 15797
+empty$ -- 11184
+format.name$ -- 3037
+if$ -- 44629
 int.to.chr$ -- 14
 int.to.str$ -- 1
-missing$ -- 543
-newline$ -- 1574
-num.names$ -- 1342
-pop$ -- 6030
+missing$ -- 547
+newline$ -- 1582
+num.names$ -- 1350
+pop$ -- 6064
 preamble$ -- 1
-purify$ -- 2656
+purify$ -- 2670
 quote$ -- 0
-skip$ -- 5403
+skip$ -- 5426
 stack$ -- 0
-substring$ -- 12619
-swap$ -- 1498
+substring$ -- 12677
+swap$ -- 1503
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3496
-warning$ -- 185
-while$ -- 1250
+type$ -- 3512
+warning$ -- 187
+while$ -- 1258
 width$ -- 0
-write$ -- 3056
-(There were 189 warnings)
+write$ -- 3072
+(There were 191 warnings)
