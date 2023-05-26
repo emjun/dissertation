@@ -131,3 +131,6 @@
 \contentsline {subsection}{\numberline {6.2.2}Connect statistical modeling and testing}{111}{subsection.6.2.2}%
 \contentsline {subsection}{\numberline {6.2.3}Support more phases of the data lifecycle}{111}{subsection.6.2.3}%
 \contentsline {subsection}{\numberline {6.2.4}Promote analytical best practices in science}{112}{subsection.6.2.4}%
+\contentsline {section}{\numberline {6.3}Improving data science education}{112}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Impact}{112}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Closing Remarks}{113}{section.6.5}%
