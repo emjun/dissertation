@@ -1,0 +1,133 @@
+% \section{Supplementary Information about Content Analysis}
+We scraped the five venues' proceedings using Helena~\cite{chasins2018rousillon}
+and wrote additional scripts to randomly sample from each venue. The first
+author read papers and included them in the sample if they used statistical
+analyses. We did not discriminate between papers that used statistical analyses
+as a primary or secondary methodology. We anticipated that authors would
+describe hypothesis formalization in both cases.
+
+\section{Dataset overview}
+We coded a total of 2,989 paragraphs across 50 papers. Results were the most
+commonly discussed topic. Approximately 31\% of the paragraphs (in 50 papers)
+discussed interpretations of statistical results, and ~11\% (in 37 papers)
+provided details about statistical results (e.g., parameter estimates).
+Interpreted results often co-occurred with statistical results. ~21\% of
+paragraphs (in 40 papers) described data collection design (e.g., how the
+experiment was designed, how the data were collected, etc.). Specifications of
+statistical models appeared in ~19\% of paragraphs (in 50 papers). ~11\% of
+paragraphs (in 45 papers) discussed proxy variables, or measures to quantify
+abstract constructs (e.g., music enjoyment). 
+
+Researchers mentioned software used for statistical analysis in 3\% of
+paragraphs (in 25 papers), sometimes even specifying function names and
+parameters, a level of detail we did not expect to find in publications. To our
+surprise, more papers mentioned software than included equations. Only fifteen
+papers (JFE: 9, PS: 5, PNAS: 1) included equations in a total of 71 paragraphs.
+This suggests that mathematical equations, though part of the hypothesis
+formalization process, are less important to researchers than their
+tool-specific implementations.
+
+\section{Procedure} \label{appendix:contentAnalysisProcedure}
+Table~\ref{table:litSurveyCodeBook} contains our codebook.
+
+Based on exploratory rounds of open coding on an independent sample and
+noticeable differences in writing structure and style across the venues, we read
+all sections of papers unlike McDonald et al.~\cite{mcdonald2019reliability} who
+performed a similar content analysis of qualitative analysis methodologies and
+focused on methods sections only. We also read the materials and methods section(s)
+included after references in papers from the PNAS and Nature venues, but
+otherwise we did not code any figures, tables, and auxiliary materials. 
+
+The first and second author developed the code book, analyzed five papers (one
+from each venue), discussed agreements and disagreements, and iterated on the
+analysis protocol and codebook. The first two authors then used the revised code
+book to analyze another two papers that were substantially different in data
+analysis approach and writing style, discussed any disagreements, and refined
+the codebook. The coders reached substantial agreement (IRR = .69 - .72) even
+before resolving disagreements. 
+% Afterwards, the first three authors used the finalized code
+% book to analyze the entire corpus. 
+
+We coded the papers at the paragraph-level. We initially started by coding at
+the sentence-level but found that paragraphs provided necessary context for
+accurately interpreting and coding sentences, showed co-occurrence patterns, and
+were more expedient and anecdotally more reliable to code. Nonetheless,
+throughout the coding process, we deliberated and discussed key sentences in
+paragraphs that shaped the paper's argumentation structure. The codebook
+contains such key sentences. 
+
+After the first three authors coded, reviewed (for coding consistency), and
+discussed each paper, we created ``reorderable
+matrices''~\cite{bertin2011graphics} for each paper. The first three authors
+scrutinized the matrices and cross-referenced the matrices and papers to
+identify a set of visual patterns. The visual patterns indicated how researchers
+structured their scientific arguments (e.g., Pattern 1); specified and
+summarized research questions and hypotheses, indicative of hypothesis
+refinement (e.g., Pattern 2); decomposed their research questions and hypotheses
+from more general to more specific ones, indicative of hypothesis refinement
+(e.g., Pattern 3); described their data collection and cleaning procedures,
+sometimes also discussing specific proxies (e.g., Patterns 4, 5); mentioned
+software and computational settings relevant to model implementation details
+(e.g., Pattern 6); and discussed statistical specifications and results (e.g.,
+Patterns 7). The definitions and notes on the patterns we used are included
+as supplementary material. Please refer to the README for file names and
+descriptions. 
+
+% We read and coded all papers at the paragraph-level.~\footnote{We read all
+% sections of papers unlike\cite{mcdonald2019reliability} who performed a similar
+% content analysis of qualitative analysis methodologies and focused on methods
+% sections.} We read but excluded any figures, tables, and auxiliary materials
+% from our analysis for all venues except PNAS and Nature. Papers in these venues
+% included a materials and methods section after references that were distinct
+% from extended tables, figures, and other auxiliary material. 
+
+\section{Codebook}
+\tableLitSurveyCodes
+
+\subsection{Additional findings: Contribution types}
+We identified papers that presented empirical findings (41 papers), validated a
+prototype system (8 papers), or developed a new methodology (6 papers). 
+
+After reading and coding the papers, we re-read assigned each paper at least one
+of the following contribution types: Methodology, System or Technique, and
+Empirical Findings, and Other. Methodological contributions introduce a new way
+of measuring a concept and may be in the form of novel experimental designs,
+procedures, proxies, or other measures. System or technique contributions
+develop a prototype tool, which may be physical, biological, or chemical in
+nature. Empirical findings contributions primarily show or explain a new
+phenomenon, which may involve developing new causal models of a domain. Other
+contributions included replication studies and other results that were unique to
+one or two papers in our sample, such as finding a new species in~\cite{N1}. We
+identified these four contribution types through discussions and open coding. 
+
+We found that 41 papers that made empirical contributions describing or
+explaining a phenomenon; eight papers that developed and evaluated physical or
+biological prototype tools; and six papers that presented novel methodologies
+such as experimental protocols or measures. Ten papers made various other
+contributions (e.g., replicating a previous study, finding a new species,
+developing a design space, etc.). Tables~\ref{table:CHIContribs}
+through~\ref{table:PSContribs} give an overview of contribution types in each
+venue. We separated the tables by venue due to spacing constraints. 
+
+Papers contributing empirical findings consisted of ten papers from PNAS, ten from
+PS, eight from JFE, eight from Nature, and five from CHI. Six of the eight
+system/technique contributions came from CHI papers, with one each from Nature and PNAS.
+Out of the six methodology contributions, three came from JFE papers, two from
+CHI, and one from PNAS. Thirteen papers fell under multiple contribution types.
+Co-occurrences of two out of the three contribution types were seen in a few of
+the CHI and PNAS papers, with system/technique contributions co-occurring
+with either methodology or empirical findings. Co-occurrences in the PS and PNAS
+papers involved an "Other" contribution type occurring most often with empirical
+findings. We identified only one JFE paper with multiple contributions; in this
+case, methodology and empirical findings co-occurred. We did not notice any
+obvious differences in paper content or structure due to research contribution
+types, either within or across venues.
+
+% Keep all tables together at the end
+% \clearpage
+\section{Summary of papers analyzed}
+\tableContributions
+
+% Start references after everything
+% \bibliographystyle{SIGCHI-Reference-Format}
+% \bibliography{lit-survey-papers}

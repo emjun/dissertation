@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{170}
+\begin{thebibliography}{221}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,6 +37,20 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
+\bibitem[\protect\citeauthoryear{Aggarwal, Dahiya, and Prabhala}{Aggarwal
+  et~al\mbox{.}}{2019}]%
+        {JFE8}
+\bibfield{author}{\bibinfo{person}{Reena Aggarwal}, \bibinfo{person}{Sandeep
+  Dahiya}, {and} \bibinfo{person}{Nagpurnanand~R Prabhala}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The power of shareholder votes: Evidence from
+  uncontested director elections}.
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{133}, \bibinfo{number}{1} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{134--153}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Alspaugh, Zokaei, Liu, Jin, and
   Hearst}{Alspaugh et~al\mbox{.}}{2018}]%
         {alspaugh2018futzing}
@@ -48,6 +62,24 @@
 \newblock \bibinfo{journal}{\emph{IEEE transactions on visualization and
   computer graphics}} \bibinfo{volume}{25}, \bibinfo{number}{1}
   (\bibinfo{year}{2018}), \bibinfo{pages}{22--31}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Argelaguet, Clark, Mohammed, Stapel, Krueger,
+  Kapourani, Imaz-Rosshandler, Lohoff, Xiang, Hanna, et~al\mbox{.}}{Argelaguet
+  et~al\mbox{.}}{2019}]%
+        {N5}
+\bibfield{author}{\bibinfo{person}{Ricard Argelaguet},
+  \bibinfo{person}{Stephen~J Clark}, \bibinfo{person}{Hisham Mohammed},
+  \bibinfo{person}{L~Carine Stapel}, \bibinfo{person}{Christel Krueger},
+  \bibinfo{person}{Chantriolnt-Andreas Kapourani}, \bibinfo{person}{Ivan
+  Imaz-Rosshandler}, \bibinfo{person}{Tim Lohoff}, \bibinfo{person}{Yunlong
+  Xiang}, \bibinfo{person}{Courtney~W Hanna}, {et~al\mbox{.}}}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Multi-omics profiling of mouse gastrulation at
+  single-cell resolution}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{576},
+  \bibinfo{number}{7787} (\bibinfo{year}{2019}), \bibinfo{pages}{487--491}.
 \newblock
 
 
@@ -84,6 +116,19 @@
 \newblock \showarticletitle{Designing and deploying online field experiments}.
   In \bibinfo{booktitle}{\emph{Proceedings of the 23rd international conference
   on World wide web}}. ACM, \bibinfo{pages}{283--292}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ballard, Sewell, Cosgrove, and Neal}{Ballard
+  et~al\mbox{.}}{2019}]%
+        {PS2}
+\bibfield{author}{\bibinfo{person}{Timothy Ballard}, \bibinfo{person}{David~K.
+  Sewell}, \bibinfo{person}{Daniel Cosgrove}, {and} \bibinfo{person}{Andrew
+  Neal}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Information Processing Under Reward Versus Under
+  Punishment}.
+\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
+  \bibinfo{number}{5} (\bibinfo{year}{2019}), \bibinfo{pages}{757--764}.
 \newblock
 
 
@@ -158,6 +203,42 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{B{\'e}n{\'e}chet, De~Simone, Di~Lucia,
+  Cilenti, Barbiera, Le~Bert, Fumagalli, Lusito, Moalli, Bianchessi,
+  et~al\mbox{.}}{B{\'e}n{\'e}chet et~al\mbox{.}}{2019}]%
+        {N6}
+\bibfield{author}{\bibinfo{person}{Alexandre~P B{\'e}n{\'e}chet},
+  \bibinfo{person}{Giorgia De~Simone}, \bibinfo{person}{Pietro Di~Lucia},
+  \bibinfo{person}{Francesco Cilenti}, \bibinfo{person}{Giulia Barbiera},
+  \bibinfo{person}{Nina Le~Bert}, \bibinfo{person}{Valeria Fumagalli},
+  \bibinfo{person}{Eleonora Lusito}, \bibinfo{person}{Federica Moalli},
+  \bibinfo{person}{Valentina Bianchessi}, {et~al\mbox{.}}}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Dynamics and genomic landscape of CD8+ T cells
+  undergoing hepatic priming}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{574},
+  \bibinfo{number}{7777} (\bibinfo{year}{2019}), \bibinfo{pages}{200--205}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bertholet, Chouchani, Kazak, Angelin,
+  Fedorenko, Long, Vidoni, Garrity, Cho, Terada, et~al\mbox{.}}{Bertholet
+  et~al\mbox{.}}{2019}]%
+        {N2}
+\bibfield{author}{\bibinfo{person}{Ambre~M Bertholet},
+  \bibinfo{person}{Edward~T Chouchani}, \bibinfo{person}{Lawrence Kazak},
+  \bibinfo{person}{Alessia Angelin}, \bibinfo{person}{Andriy Fedorenko},
+  \bibinfo{person}{Jonathan~Z Long}, \bibinfo{person}{Sara Vidoni},
+  \bibinfo{person}{Ryan Garrity}, \bibinfo{person}{Joonseok Cho},
+  \bibinfo{person}{Naohiro Terada}, {et~al\mbox{.}}}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{H+ transport is an integral function of the
+  mitochondrial ADP/ATP carrier}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{571},
+  \bibinfo{number}{7766} (\bibinfo{year}{2019}), \bibinfo{pages}{515--520}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Bertin}{Bertin}{2011}]%
         {bertin2011graphics}
 \bibfield{author}{\bibinfo{person}{Jacques Bertin}.}
@@ -179,6 +260,21 @@
 \url{https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Biderman, Luria, Teodorescu, Hajaj, and
+  Goshen-Gottstein}{Biderman et~al\mbox{.}}{2019}]%
+        {PS0}
+\bibfield{author}{\bibinfo{person}{Natalie Biderman}, \bibinfo{person}{Roy
+  Luria}, \bibinfo{person}{Andrei~R. Teodorescu}, \bibinfo{person}{Ron Hajaj},
+  {and} \bibinfo{person}{Yonatan Goshen-Gottstein}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Working Memory Has Better Fidelity Than Long-Term
+  Memory: The Fidelity Constraint Is Not a General Property of Memory After
+  All}.
+\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
+  \bibinfo{number}{2} (\bibinfo{year}{2019}), \bibinfo{pages}{223--237}.
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Bingham, Chen, Jankowiak, Obermeyer, Pradhan,
@@ -298,6 +394,19 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Bughio, Huckell, and Maggert}{Bughio
+  et~al\mbox{.}}{2019}]%
+        {PNAS5}
+\bibfield{author}{\bibinfo{person}{Farah Bughio}, \bibinfo{person}{Gary~R.
+  Huckell}, {and} \bibinfo{person}{Keith~A. Maggert}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Monitoring of switches in heterochromatin-induced
+  silencing shows incomplete establishment and developmental instabilities}.
+\newblock  \bibinfo{volume}{116}, \bibinfo{number}{40} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{20043--20053}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Buitinck, Louppe, Blondel, Pedregosa, Mueller,
   Grisel, Niculae, Prettenhofer, Gramfort, Grobler, et~al\mbox{.}}{Buitinck
   et~al\mbox{.}}{2013}]%
@@ -339,6 +448,34 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Caggese, Cu{\~n}at, and Metzger}{Caggese
+  et~al\mbox{.}}{2019a}]%
+        {JFE6}
+\bibfield{author}{\bibinfo{person}{Andrea Caggese}, \bibinfo{person}{Vicente
+  Cu{\~n}at}, {and} \bibinfo{person}{Daniel Metzger}.}
+  \bibinfo{year}{2019}\natexlab{a}.
+\newblock \showarticletitle{Firing the wrong workers: Financing constraints and
+  labor misallocation}.
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{133}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{589--607}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Caggese, Cu{\~n}at, and Metzger}{Caggese
+  et~al\mbox{.}}{2019b}]%
+        {JFE7}
+\bibfield{author}{\bibinfo{person}{Andrea Caggese}, \bibinfo{person}{Vicente
+  Cu{\~n}at}, {and} \bibinfo{person}{Daniel Metzger}.}
+  \bibinfo{year}{2019}\natexlab{b}.
+\newblock \showarticletitle{Firing the wrong workers: Financing constraints and
+  labor misallocation}.
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{133}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{589--607}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Cairns}{Cairns}{2007}]%
         {cairns2007hci}
 \bibfield{author}{\bibinfo{person}{Paul Cairns}.}
@@ -348,6 +485,20 @@
   British HCI Group Annual Conference on People and Computers: HCI... but not
   as we know it-Volume 1}}. British Computer Society,
   \bibinfo{pages}{195--201}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Campbell, Wilson, Moore, Riser, Brayton,
+  Mazloff, and Talley}{Campbell et~al\mbox{.}}{2019}]%
+        {N3}
+\bibfield{author}{\bibinfo{person}{Ethan~C Campbell}, \bibinfo{person}{Earle~A
+  Wilson}, \bibinfo{person}{GW~Kent Moore}, \bibinfo{person}{Stephen~C Riser},
+  \bibinfo{person}{Casey~E Brayton}, \bibinfo{person}{Matthew~R Mazloff}, {and}
+  \bibinfo{person}{Lynne~D Talley}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Antarctic offshore polynyas linked to Southern
+  Hemisphere climate anomalies}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{570},
+  \bibinfo{number}{7761} (\bibinfo{year}{2019}), \bibinfo{pages}{319--325}.
 \newblock
 
 
@@ -382,6 +533,19 @@
 \newblock \showarticletitle{Guidelines for assessment and instruction in
   statistics education (GAISE) college report 2016}.
 \newblock  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chasins, Mueller, and Bodik}{Chasins
+  et~al\mbox{.}}{2018}]%
+        {chasins2018rousillon}
+\bibfield{author}{\bibinfo{person}{Sarah~E Chasins}, \bibinfo{person}{Maria
+  Mueller}, {and} \bibinfo{person}{Rastislav Bodik}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Rousillon: Scraping Distributed Hierarchical Web
+  Data}. In \bibinfo{booktitle}{\emph{Proceedings of the 31st Annual ACM
+  Symposium on User Interface Software and Technology}}.
+  \bibinfo{pages}{963--975}.
 \newblock
 
 
@@ -420,6 +584,21 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Chernyak, Leimgruber, Dunham, Hu, and
+  Blake}{Chernyak et~al\mbox{.}}{2019}]%
+        {PS3}
+\bibfield{author}{\bibinfo{person}{Nadia Chernyak}, \bibinfo{person}{Kristin~L.
+  Leimgruber}, \bibinfo{person}{Yarrow~C. Dunham}, \bibinfo{person}{Jingshi
+  Hu}, {and} \bibinfo{person}{Peter~R. Blake}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Paying Back People Who Harmed Us but Not People Who
+  Helped Us: Direct Negative Reciprocity Precedes Direct Positive Reciprocity
+  in Early Development}.
+\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
+  \bibinfo{number}{9} (\bibinfo{year}{2019}), \bibinfo{pages}{1273--1286}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Chollet et~al\mbox{.}}{Chollet
   et~al\mbox{.}}{2015}]%
         {keras}
@@ -427,6 +606,35 @@
   \bibinfo{year}{2015}\natexlab{}.
 \newblock \bibinfo{title}{Keras}.
 \newblock \bibinfo{howpublished}{\url{https://keras.io}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Choy, Moon, Ravindran, Bray, Robinson,
+  Archuleta, Shi, Peti, Tatchell, and Page}{Choy et~al\mbox{.}}{2019}]%
+        {PNAS4}
+\bibfield{author}{\bibinfo{person}{Meng~S. Choy}, \bibinfo{person}{Thomas~M.
+  Moon}, \bibinfo{person}{Rini Ravindran}, \bibinfo{person}{Johnny~A. Bray},
+  \bibinfo{person}{Lucy~C. Robinson}, \bibinfo{person}{Tara~L. Archuleta},
+  \bibinfo{person}{Wuxian Shi}, \bibinfo{person}{Wolfgang Peti},
+  \bibinfo{person}{Kelly Tatchell}, {and} \bibinfo{person}{Rebecca Page}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{SDS22 selectively recognizes and traps
+  metal-deficient inactive PP1}.
+\newblock  \bibinfo{volume}{116}, \bibinfo{number}{41} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{20472--20481}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Church, Donoughe, de~Medeiros, and
+  Extavour}{Church et~al\mbox{.}}{2019}]%
+        {N8}
+\bibfield{author}{\bibinfo{person}{Samuel~H Church}, \bibinfo{person}{Seth
+  Donoughe}, \bibinfo{person}{Bruno~AS de Medeiros}, {and}
+  \bibinfo{person}{Cassandra~G Extavour}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Insect egg size and shape evolve with ecology but
+  not developmental rate}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{571},
+  \bibinfo{number}{7763} (\bibinfo{year}{2019}), \bibinfo{pages}{58--62}.
 \newblock
 
 
@@ -489,6 +697,19 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Crane, Koch, and Michenaud}{Crane
+  et~al\mbox{.}}{2019}]%
+        {JFE3}
+\bibfield{author}{\bibinfo{person}{Alan~D Crane}, \bibinfo{person}{Andrew
+  Koch}, {and} \bibinfo{person}{S{\'e}bastien Michenaud}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Institutional investor cliques and governance}.
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{133}, \bibinfo{number}{1} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{175--197}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{De~Leeuw}{De~Leeuw}{2015}]%
         {deLeeuw2015jspsych}
 \bibfield{author}{\bibinfo{person}{Joshua~R De~Leeuw}.}
@@ -510,6 +731,36 @@
   \bibinfo{booktitle}{\emph{International conference on Tools and Algorithms
   for the Construction and Analysis of Systems}}. Springer,
   \bibinfo{pages}{337--340}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{D{\'e}troit, Mijares, Corny, Daver, Zanolli,
+  Dizon, Robles, Gr{\"u}n, and Piper}{D{\'e}troit et~al\mbox{.}}{2019}]%
+        {N1}
+\bibfield{author}{\bibinfo{person}{Florent D{\'e}troit},
+  \bibinfo{person}{Armand~Salvador Mijares}, \bibinfo{person}{Julien Corny},
+  \bibinfo{person}{Guillaume Daver}, \bibinfo{person}{Cl{\'e}ment Zanolli},
+  \bibinfo{person}{Eusebio Dizon}, \bibinfo{person}{Emil Robles},
+  \bibinfo{person}{Rainer Gr{\"u}n}, {and} \bibinfo{person}{Philip~J Piper}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{A new species of Homo from the Late Pleistocene of
+  the Philippines}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{568},
+  \bibinfo{number}{7751} (\bibinfo{year}{2019}), \bibinfo{pages}{181--186}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Di~Maggio, Franzoni, Kermani, and
+  Sommavilla}{Di~Maggio et~al\mbox{.}}{2019}]%
+        {JFE0}
+\bibfield{author}{\bibinfo{person}{Marco Di~Maggio}, \bibinfo{person}{Francesco
+  Franzoni}, \bibinfo{person}{Amir Kermani}, {and} \bibinfo{person}{Carlo
+  Sommavilla}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The relevance of broker networks for information
+  diffusion in the stock market}.
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{134}, \bibinfo{number}{2} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{419--446}.
 \newblock
 
 
@@ -545,6 +796,34 @@
 \newblock \showarticletitle{Touchstone2: An Interactive Environment for
   Exploring Trade-offs in HCI Experiment Design}.
 \newblock  (\bibinfo{year}{2019}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Eslami, Vaccaro, Lee, Elazari Bar~On, Gilbert,
+  and Karahalios}{Eslami et~al\mbox{.}}{2019}]%
+        {CHI4}
+\bibfield{author}{\bibinfo{person}{Motahhare Eslami}, \bibinfo{person}{Kristen
+  Vaccaro}, \bibinfo{person}{Min~Kyung Lee}, \bibinfo{person}{Amit Elazari
+  Bar~On}, \bibinfo{person}{Eric Gilbert}, {and} \bibinfo{person}{Karrie
+  Karahalios}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{User attitudes towards algorithmic opacity and
+  transparency in online reviewing platforms}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--14}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fafard, Stavness, Dechant, Mandryk, Zhou, and
+  Fels}{Fafard et~al\mbox{.}}{2019}]%
+        {CHI9}
+\bibfield{author}{\bibinfo{person}{Dylan Fafard}, \bibinfo{person}{Ian
+  Stavness}, \bibinfo{person}{Martin Dechant}, \bibinfo{person}{Regan Mandryk},
+  \bibinfo{person}{Qian Zhou}, {and} \bibinfo{person}{Sidney Fels}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Ftvr in vr: Evaluation of 3d perception with a
+  simulated volumetric fish-tank virtual reality display}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--12}.
 \newblock
 
 
@@ -616,6 +895,25 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Fuzik, Rehman, Girach, Miklosi, Korchynska,
+  Arque, Romanov, Hanics, Wagner, Meletis, et~al\mbox{.}}{Fuzik
+  et~al\mbox{.}}{2019}]%
+        {PNAS1}
+\bibfield{author}{\bibinfo{person}{Janos Fuzik}, \bibinfo{person}{Sabah
+  Rehman}, \bibinfo{person}{Fatima Girach}, \bibinfo{person}{Andras~G Miklosi},
+  \bibinfo{person}{Solomiia Korchynska}, \bibinfo{person}{Gloria Arque},
+  \bibinfo{person}{Roman~A Romanov}, \bibinfo{person}{J{\'a}nos Hanics},
+  \bibinfo{person}{Ludwig Wagner}, \bibinfo{person}{Konstantinos Meletis},
+  {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Brain-wide genetic mapping identifies the indusium
+  griseum as a prenatal target of pharmacologically unrelated
+  psychostimulants}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of
+  Sciences}} \bibinfo{volume}{116}, \bibinfo{number}{51}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{25958--25967}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Gabry, Simpson, Vehtari, Betancourt, and
   Gelman}{Gabry et~al\mbox{.}}{2019}]%
         {gabry2019visualization}
@@ -627,6 +925,21 @@
 \newblock \bibinfo{journal}{\emph{Journal of the Royal Statistical Society:
   Series A (Statistics in Society)}} \bibinfo{volume}{182}, \bibinfo{number}{2}
   (\bibinfo{year}{2019}), \bibinfo{pages}{389--402}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Gehrke, Akman, Lopes, Chen, Singh, Chen, Lin,
+  and Gramann}{Gehrke et~al\mbox{.}}{2019}]%
+        {CHI0}
+\bibfield{author}{\bibinfo{person}{Lukas Gehrke}, \bibinfo{person}{Sezen
+  Akman}, \bibinfo{person}{Pedro Lopes}, \bibinfo{person}{Albert Chen},
+  \bibinfo{person}{Avinash~Kumar Singh}, \bibinfo{person}{Hsiang-Ting Chen},
+  \bibinfo{person}{Chin-Teng Lin}, {and} \bibinfo{person}{Klaus Gramann}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Detecting visuo-haptic mismatches in virtual
+  reality using the prediction error negativity of event-related brain
+  potentials}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI
+  Conference on Human Factors in Computing Systems}}. \bibinfo{pages}{1--11}.
 \newblock
 
 
@@ -719,6 +1032,33 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Greenwood, Shleifer, and You}{Greenwood
+  et~al\mbox{.}}{2019}]%
+        {JFE9}
+\bibfield{author}{\bibinfo{person}{Robin Greenwood}, \bibinfo{person}{Andrei
+  Shleifer}, {and} \bibinfo{person}{Yang You}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Bubbles for fama}.
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{131}, \bibinfo{number}{1} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{20--43}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Griffin, Kruger, and Maturana}{Griffin
+  et~al\mbox{.}}{2019}]%
+        {JFE5}
+\bibfield{author}{\bibinfo{person}{John~M Griffin}, \bibinfo{person}{Samuel
+  Kruger}, {and} \bibinfo{person}{Gonzalo Maturana}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Do labor markets discipline? Evidence from RMBS
+  bankers}.
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{133}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{726--750}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Grolemund}{Grolemund}{2019}]%
         {grolemund2019:recommendedR}
 \bibfield{author}{\bibinfo{person}{Garrett Grolemund}.}
@@ -782,6 +1122,30 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Halder and Milner}{Halder and Milner}{2019}]%
+        {PNAS3}
+\bibfield{author}{\bibinfo{person}{Sebok~K. Halder} {and}
+  \bibinfo{person}{Richard Milner}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{A critical role for microglia in maintaining
+  vascular integrity in the hypoxic spinal cord}.
+\newblock  \bibinfo{volume}{116}, \bibinfo{number}{51} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{26029--26037}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hamdan, Wagner, Voelker, Steimle, and
+  Borchers}{Hamdan et~al\mbox{.}}{2019}]%
+        {CHI2}
+\bibfield{author}{\bibinfo{person}{Nur Al-huda Hamdan}, \bibinfo{person}{Adrian
+  Wagner}, \bibinfo{person}{Simon Voelker}, \bibinfo{person}{J{\"u}rgen
+  Steimle}, {and} \bibinfo{person}{Jan Borchers}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Springlets: Expressive, flexible and silent on-skin
+  tactile interfaces}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI
+  Conference on Human Factors in Computing Systems}}. \bibinfo{pages}{1--14}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Hastie and Qian}{Hastie and Qian}{2014}]%
         {glmnetVignette}
 \bibfield{author}{\bibinfo{person}{Trevor Hastie} {and}
@@ -804,6 +1168,23 @@
   SVG}. In \bibinfo{booktitle}{\emph{Proceedings of the 32nd Annual ACM
   Symposium on User Interface Software and Technology}}.
   \bibinfo{pages}{281--292}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hernández, Ángeles Palomar-García,
+  Nohales-Nieto, Olcina-Sempere, Villar-Rodríguez, Pastor, Ávila, and
+  Parcet}{Hernández et~al\mbox{.}}{2019}]%
+        {PS1}
+\bibfield{author}{\bibinfo{person}{Mireia Hernández}, \bibinfo{person}{María
+  Ángeles Palomar-García}, \bibinfo{person}{Benito Nohales-Nieto},
+  \bibinfo{person}{Gustau Olcina-Sempere}, \bibinfo{person}{Esteban
+  Villar-Rodríguez}, \bibinfo{person}{Raúl Pastor}, \bibinfo{person}{César
+  Ávila}, {and} \bibinfo{person}{Maria-Antònia Parcet}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Separate Contribution of Striatum Volume and Pitch
+  Discrimination to Individual Differences in Music Reward}.
+\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
+  \bibinfo{number}{9} (\bibinfo{year}{2019}), \bibinfo{pages}{1352--1361}.
 \newblock
 
 
@@ -852,6 +1233,19 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Huang, Huang, and Zhang}{Huang
+  et~al\mbox{.}}{2019}]%
+        {JFE1}
+\bibfield{author}{\bibinfo{person}{Pinghsun Huang}, \bibinfo{person}{Hsin-Yi
+  Huang}, {and} \bibinfo{person}{Yan Zhang}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Do firms hedge with foreign currency derivatives
+  for employees?}
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{133}, \bibinfo{number}{2} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{418--440}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Inc.}{Inc.}{2021}]%
         {sas}
 \bibfield{author}{\bibinfo{person}{SAS~Institute Inc.}}
@@ -863,6 +1257,23 @@
 \url{https://www.sas.com/}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Johnston, Su, Pinckney, Critton, Boyer,
+  Krishnakumar, Corbett, Rankin, Dibella, Campbell, et~al\mbox{.}}{Johnston
+  et~al\mbox{.}}{2019}]%
+        {N0}
+\bibfield{author}{\bibinfo{person}{Robert~J Johnston},
+  \bibinfo{person}{Linhui~Julie Su}, \bibinfo{person}{Jason Pinckney},
+  \bibinfo{person}{David Critton}, \bibinfo{person}{Eric Boyer},
+  \bibinfo{person}{Arathi Krishnakumar}, \bibinfo{person}{Martin Corbett},
+  \bibinfo{person}{Andrew~L Rankin}, \bibinfo{person}{Rose Dibella},
+  \bibinfo{person}{Lynne Campbell}, {et~al\mbox{.}}}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{VISTA is an acidic pH-selective ligand for PSGL-1}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{574},
+  \bibinfo{number}{7779} (\bibinfo{year}{2019}), \bibinfo{pages}{565--570}.
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Jolly}{Jolly}{2018}]%
@@ -1148,6 +1559,18 @@ Issue 1.
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Koch, Lucero, Hegemann, and Oulasvirta}{Koch
+  et~al\mbox{.}}{2019}]%
+        {CHI6}
+\bibfield{author}{\bibinfo{person}{Janin Koch}, \bibinfo{person}{Andr{\'e}s
+  Lucero}, \bibinfo{person}{Lena Hegemann}, {and} \bibinfo{person}{Antti
+  Oulasvirta}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{May AI? Design ideation with cooperative contextual
+  bandits}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference
+  on Human Factors in Computing Systems}}. \bibinfo{pages}{1--12}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Korstanje}{Korstanje}{2019}]%
         {sumsofsquaresBlog}
 \bibfield{author}{\bibinfo{person}{Joos Korstanje}.}
@@ -1161,6 +1584,19 @@ Issue 1.
 \url{"https://towardsdatascience.com/anovas-three-types-of-estimating-sums-of-squares-don-t-make-the-wrong-choice-91107c77a27a"}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Kouchaki, Gino, and Feldman}{Kouchaki
+  et~al\mbox{.}}{2019}]%
+        {PS6}
+\bibfield{author}{\bibinfo{person}{Maryam Kouchaki}, \bibinfo{person}{Francesca
+  Gino}, {and} \bibinfo{person}{Yuval Feldman}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The Ethical Perils of Personal, Communal Relations:
+  A Language Perspective}.
+\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
+  \bibinfo{number}{12} (\bibinfo{year}{2019}), \bibinfo{pages}{1745--1766}.
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Kreft, Kreft, and de~Leeuw}{Kreft
@@ -1217,19 +1653,48 @@ Issue 1.
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Lee, Ackermans, van As, Chang, Lucas, and
+  IJsselsteijn}{Lee et~al\mbox{.}}{2019a}]%
+        {CHI8}
+\bibfield{author}{\bibinfo{person}{Minha Lee}, \bibinfo{person}{Sander
+  Ackermans}, \bibinfo{person}{Nena van As}, \bibinfo{person}{Hanwen Chang},
+  \bibinfo{person}{Enzo Lucas}, {and} \bibinfo{person}{Wijnand IJsselsteijn}.}
+  \bibinfo{year}{2019}\natexlab{a}.
+\newblock \showarticletitle{Caring for Vincent: A Chatbot for Self-Compassion}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--13}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Lee, Criss, Devezer, Donkin, Etz, Leite,
-  Matzke, Rouder, Trueblood, White, et~al\mbox{.}}{Lee et~al\mbox{.}}{2019}]%
+  Matzke, Rouder, Trueblood, White, et~al\mbox{.}}{Lee et~al\mbox{.}}{2019b}]%
         {lee2019robust}
 \bibfield{author}{\bibinfo{person}{Michael~D Lee}, \bibinfo{person}{Amy~H
   Criss}, \bibinfo{person}{Berna Devezer}, \bibinfo{person}{Christopher
   Donkin}, \bibinfo{person}{Alexander Etz}, \bibinfo{person}{F{\'a}bio~P
   Leite}, \bibinfo{person}{Dora Matzke}, \bibinfo{person}{Jeffrey~N Rouder},
   \bibinfo{person}{Jennifer~S Trueblood}, \bibinfo{person}{Corey~N White},
-  {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{}.
+  {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{b}.
 \newblock \showarticletitle{Robust modeling in cognitive science}.
 \newblock \bibinfo{journal}{\emph{Computational Brain \& Behavior}}
   \bibinfo{volume}{2}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
   \bibinfo{pages}{141--153}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Leong, Cheung, Dai, Tsao, Tsang, Dawson, Mun
+  Yee~Ko, and Lung}{Leong et~al\mbox{.}}{2019}]%
+        {PNAS7}
+\bibfield{author}{\bibinfo{person}{Merrin Man~Long Leong},
+  \bibinfo{person}{Arthur Kwok~Leung Cheung}, \bibinfo{person}{Wei Dai},
+  \bibinfo{person}{Sai~Wah Tsao}, \bibinfo{person}{Chi~Man Tsang},
+  \bibinfo{person}{Christopher~W. Dawson}, \bibinfo{person}{Josephine Mun
+  Yee~Ko}, {and} \bibinfo{person}{Maria~Li Lung}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{EBV infection is associated with histone bivalent
+  switch modifications in squamous epithelial cells}.
+\newblock  \bibinfo{volume}{116}, \bibinfo{number}{28} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{14144--14153}.
 \newblock
 
 
@@ -1244,6 +1709,25 @@ Issue 1.
 \url{https://libguides.library.kent.edu/SPSS/AnalyzeData}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Liu, Ge, Liu, Dong, Shan, Chen, Yao, Li, Yao,
+  Zhou, Zhang, Jiang, Zhao, and Yan}{Liu et~al\mbox{.}}{2019c}]%
+        {PNAS8}
+\bibfield{author}{\bibinfo{person}{Chang Liu}, \bibinfo{person}{Hui-Min Ge},
+  \bibinfo{person}{Bai-Hui Liu}, \bibinfo{person}{Rui Dong},
+  \bibinfo{person}{Kun Shan}, \bibinfo{person}{Xue Chen},
+  \bibinfo{person}{Mu-Di Yao}, \bibinfo{person}{Xiu-Miao Li},
+  \bibinfo{person}{Jin Yao}, \bibinfo{person}{Rong-Mei Zhou},
+  \bibinfo{person}{Shu-Jie Zhang}, \bibinfo{person}{Qin Jiang},
+  \bibinfo{person}{Chen Zhao}, {and} \bibinfo{person}{Biao Yan}.}
+  \bibinfo{year}{2019}\natexlab{c}.
+\newblock \showarticletitle{Targeting pericyte{\textendash}endothelial cell
+  crosstalk by circular RNA-cPWWP2A inhibition aggravates diabetes-induced
+  microvascular dysfunction}.
+\newblock  \bibinfo{volume}{116}, \bibinfo{number}{15} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{7455--7464}.
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Liu, Boukhelifa, and Eagan}{Liu
@@ -1387,6 +1871,49 @@ Issue 1.
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Mauffrey, Tchitchek, Barroca, Bemelmans,
+  Firlej, Allory, Romeo, and Magnon}{Mauffrey et~al\mbox{.}}{2019}]%
+        {N9}
+\bibfield{author}{\bibinfo{person}{Philippe Mauffrey}, \bibinfo{person}{Nicolas
+  Tchitchek}, \bibinfo{person}{Vilma Barroca}, \bibinfo{person}{Alexis
+  Bemelmans}, \bibinfo{person}{Virginie Firlej}, \bibinfo{person}{Yves Allory},
+  \bibinfo{person}{Paul-Henri Romeo}, {and} \bibinfo{person}{Claire Magnon}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Progenitors from the central nervous system drive
+  neurogenesis in cancer}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{569},
+  \bibinfo{number}{7758} (\bibinfo{year}{2019}), \bibinfo{pages}{672--678}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{McCloskey, Taly, Monti, Brenner, and
+  Colwell}{McCloskey et~al\mbox{.}}{2019}]%
+        {PNAS9}
+\bibfield{author}{\bibinfo{person}{Kevin McCloskey}, \bibinfo{person}{Ankur
+  Taly}, \bibinfo{person}{Federico Monti}, \bibinfo{person}{Michael~P.
+  Brenner}, {and} \bibinfo{person}{Lucy~J. Colwell}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Using attribution to decode binding mechanism in
+  neural network models for chemistry}.
+\newblock  \bibinfo{volume}{116}, \bibinfo{number}{24} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{11624--11629}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{McDonald, Schoenebeck, and Forte}{McDonald
+  et~al\mbox{.}}{2019}]%
+        {mcdonald2019reliability}
+\bibfield{author}{\bibinfo{person}{Nora McDonald}, \bibinfo{person}{Sarita
+  Schoenebeck}, {and} \bibinfo{person}{Andrea Forte}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Reliability and inter-rater reliability in
+  qualitative research: Norms and guidelines for CSCW and HCI practice}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
+  Interaction}} \bibinfo{volume}{3}, \bibinfo{number}{CSCW}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{1--23}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{McElreath}{McElreath}{2020}]%
         {mcelreath2020statistical}
 \bibfield{author}{\bibinfo{person}{Richard McElreath}.}
@@ -1434,6 +1961,20 @@ Issue 1.
 \url{https://www.statmodel.com/}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Nadauld, Sensoy, Vorkink, and
+  Weisbach}{Nadauld et~al\mbox{.}}{2019}]%
+        {JFE2}
+\bibfield{author}{\bibinfo{person}{Taylor~D Nadauld}, \bibinfo{person}{Berk~A
+  Sensoy}, \bibinfo{person}{Keith Vorkink}, {and} \bibinfo{person}{Michael~S
+  Weisbach}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The liquidity cost of private equity investments:
+  Evidence from secondary market transactions}.
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{132}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{158--181}.
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Nelder and Wedderburn}{Nelder and
@@ -1515,6 +2056,41 @@ Issue 1.
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Ombrato, Nolan, Kurelac, Mavousian, Bridgeman,
+  Heinze, Chakravarty, Horswell, Gonzalez-Gualda, Matacchione,
+  et~al\mbox{.}}{Ombrato et~al\mbox{.}}{2019}]%
+        {N4}
+\bibfield{author}{\bibinfo{person}{Luigi Ombrato}, \bibinfo{person}{Emma
+  Nolan}, \bibinfo{person}{Ivana Kurelac}, \bibinfo{person}{Antranik
+  Mavousian}, \bibinfo{person}{Victoria~Louise Bridgeman},
+  \bibinfo{person}{Ivonne Heinze}, \bibinfo{person}{Probir Chakravarty},
+  \bibinfo{person}{Stuart Horswell}, \bibinfo{person}{Estela Gonzalez-Gualda},
+  \bibinfo{person}{Giulia Matacchione}, {et~al\mbox{.}}}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Metastatic-niche labelling reveals parenchymal
+  cells with stem features}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{572},
+  \bibinfo{number}{7771} (\bibinfo{year}{2019}), \bibinfo{pages}{603--608}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Otrokov, Klimovskikh, Bentmann, Estyunin,
+  Zeugner, Aliev, Ga{\ss}, Wolter, Koroleva, Shikin, et~al\mbox{.}}{Otrokov
+  et~al\mbox{.}}{2019}]%
+        {N7}
+\bibfield{author}{\bibinfo{person}{Mikhail~M Otrokov}, \bibinfo{person}{Ilya~I
+  Klimovskikh}, \bibinfo{person}{Hendrik Bentmann}, \bibinfo{person}{D
+  Estyunin}, \bibinfo{person}{Alexander Zeugner}, \bibinfo{person}{Ziya~S
+  Aliev}, \bibinfo{person}{S Ga{\ss}}, \bibinfo{person}{AUB Wolter},
+  \bibinfo{person}{AV Koroleva}, \bibinfo{person}{Alexander~M Shikin},
+  {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Prediction and observation of an antiferromagnetic
+  topological insulator}.
+\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{576},
+  \bibinfo{number}{7787} (\bibinfo{year}{2019}), \bibinfo{pages}{416--422}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Panchekha, Geller, Ernst, Tatlock, and
   Kamil}{Panchekha et~al\mbox{.}}{2018}]%
         {panchekha2018verifying}
@@ -1526,6 +2102,18 @@ Issue 1.
   In \bibinfo{booktitle}{\emph{Proceedings of the 39th ACM SIGPLAN Conference
   on Programming Language Design and Implementation}}. ACM,
   \bibinfo{pages}{1--14}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Papeo, Goupil, and Soto-Faraco}{Papeo
+  et~al\mbox{.}}{2019}]%
+        {PS7}
+\bibfield{author}{\bibinfo{person}{Liuba Papeo}, \bibinfo{person}{Nicolas
+  Goupil}, {and} \bibinfo{person}{Salvador Soto-Faraco}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Visual Search for People Among People}.
+\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
+  \bibinfo{number}{10} (\bibinfo{year}{2019}), \bibinfo{pages}{1483--1496}.
 \newblock
 
 
@@ -1591,6 +2179,20 @@ Issue 1.
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Persson, Asutay, Heilig, Löfberg, Pedersen,
+  Västfjäll, and Tinghög}{Persson et~al\mbox{.}}{2019}]%
+        {PS5}
+\bibfield{author}{\bibinfo{person}{Emil Persson}, \bibinfo{person}{Erkin
+  Asutay}, \bibinfo{person}{Markus Heilig}, \bibinfo{person}{Andreas Löfberg},
+  \bibinfo{person}{Nancy Pedersen}, \bibinfo{person}{Daniel Västfjäll}, {and}
+  \bibinfo{person}{Gustav Tinghög}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Variation in the $\mu$-Opioid Receptor Gene (OPRM1)
+  Does Not Moderate Social-Rejection Sensitivity in Humans}.
+\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
+  \bibinfo{number}{7} (\bibinfo{year}{2019}), \bibinfo{pages}{1050--1062}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Pfannkuch}{Pfannkuch}{1997}]%
         {pfannkuch1997statistical}
 \bibfield{author}{\bibinfo{person}{M Pfannkuch}.}
@@ -1640,6 +2242,20 @@ Issue 1.
   \bibinfo{booktitle}{\emph{Proceedings of international conference on
   intelligence analysis}}, Vol.~\bibinfo{volume}{5}. McLean, VA, USA,
   \bibinfo{pages}{2--4}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Poon, Giroux, Eloundou-Enyegue,
+  Guimbreti{\`e}re, and Dell}{Poon et~al\mbox{.}}{2019}]%
+        {CHI1}
+\bibfield{author}{\bibinfo{person}{Anthony Poon}, \bibinfo{person}{Sarah
+  Giroux}, \bibinfo{person}{Parfait Eloundou-Enyegue},
+  \bibinfo{person}{Fran{\c{c}}ois Guimbreti{\`e}re}, {and}
+  \bibinfo{person}{Nicola Dell}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Engaging high school students in cameroon with exam
+  practice quizzes via sms and whatsapp}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--13}.
 \newblock
 
 
@@ -1805,6 +2421,32 @@ Issue 1.
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Shin, Onchi, Reyes, Song, Lee, Lee, and
+  Saakes}{Shin et~al\mbox{.}}{2019a}]%
+        {CHI5}
+\bibfield{author}{\bibinfo{person}{Joon-Gi Shin}, \bibinfo{person}{Eiji Onchi},
+  \bibinfo{person}{Maria~Jose Reyes}, \bibinfo{person}{Junbong Song},
+  \bibinfo{person}{Uichin Lee}, \bibinfo{person}{Seung-Hee Lee}, {and}
+  \bibinfo{person}{Daniel Saakes}.} \bibinfo{year}{2019}\natexlab{a}.
+\newblock \showarticletitle{Slow Robots for Unobtrusive Posture Correction}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--10}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shin, Onchi, Reyes, Song, Lee, Lee, and
+  Saakes}{Shin et~al\mbox{.}}{2019b}]%
+        {CHI7}
+\bibfield{author}{\bibinfo{person}{Joon-Gi Shin}, \bibinfo{person}{Eiji Onchi},
+  \bibinfo{person}{Maria~Jose Reyes}, \bibinfo{person}{Junbong Song},
+  \bibinfo{person}{Uichin Lee}, \bibinfo{person}{Seung-Hee Lee}, {and}
+  \bibinfo{person}{Daniel Saakes}.} \bibinfo{year}{2019}\natexlab{b}.
+\newblock \showarticletitle{Slow Robots for Unobtrusive Posture Correction}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--10}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Sloane and Hardin}{Sloane and Hardin}{2017}]%
         {gosset}
 \bibfield{author}{\bibinfo{person}{N.J.A. Sloane} {and} \bibinfo{person}{R.H.
@@ -1817,6 +2459,17 @@ Issue 1.
 \url{http://neilsloane.com/gosset/}
 \showURL{%
 \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Smolyansky}{Smolyansky}{2019}]%
+        {JFE4}
+\bibfield{author}{\bibinfo{person}{Michael Smolyansky}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Policy externalities and banking integration}.
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{132}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{118--139}.
+\newblock
 
 
 \bibitem[\protect\citeauthoryear{Spirtes}{Spirtes}{1994}]%
@@ -1995,6 +2648,19 @@ Issue 1.
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Thigpen, Petro, Oschwald, Oberauer, and
+  Keil}{Thigpen et~al\mbox{.}}{2019}]%
+        {PS4}
+\bibfield{author}{\bibinfo{person}{Nina Thigpen}, \bibinfo{person}{Nathan~M.
+  Petro}, \bibinfo{person}{Jessica Oschwald}, \bibinfo{person}{Klaus Oberauer},
+  {and} \bibinfo{person}{Andreas Keil}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Selection of Visual Objects in Perception and
+  Working Memory One at a Time}.
+\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
+  \bibinfo{number}{9} (\bibinfo{year}{2019}), \bibinfo{pages}{1259--1272}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Thornton, Hutter, Hoos, and
   Leyton-Brown}{Thornton et~al\mbox{.}}{2013}]%
         {autoweka}
@@ -2062,6 +2728,21 @@ Issue 1.
   \bibinfo{person}{Brian~D Ripley}.} \bibinfo{year}{2013}\natexlab{}.
 \newblock \bibinfo{booktitle}{\emph{Modern applied statistics with S-PLUS}}.
 \newblock \bibinfo{publisher}{Springer Science \& Business Media}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Veneziano, Tomasello, Balatti, Palamarchuk,
+  Rassenti, Kipps, Pekarsky, and Croce}{Veneziano et~al\mbox{.}}{2019}]%
+        {PNAS2}
+\bibfield{author}{\bibinfo{person}{Dario Veneziano}, \bibinfo{person}{Luisa
+  Tomasello}, \bibinfo{person}{Veronica Balatti}, \bibinfo{person}{Alexey
+  Palamarchuk}, \bibinfo{person}{Laura~Z. Rassenti}, \bibinfo{person}{Thomas~J.
+  Kipps}, \bibinfo{person}{Yuri Pekarsky}, {and} \bibinfo{person}{Carlo~M.
+  Croce}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Dysregulation of different classes of tRNA
+  fragments in chronic lymphocytic leukemia}.
+\newblock  \bibinfo{volume}{116}, \bibinfo{number}{48} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{24252--24258}.
 \newblock
 
 
@@ -2231,6 +2912,66 @@ Issue 1.
 \newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of
   Sciences}} \bibinfo{volume}{117}, \bibinfo{number}{8} (\bibinfo{year}{2020}),
   \bibinfo{pages}{3920--3929}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yu, Wei, Vachher, Qin, Liang, Weng, Gu, and
+  Shi}{Yu et~al\mbox{.}}{2019}]%
+        {CHI3}
+\bibfield{author}{\bibinfo{person}{Chun Yu}, \bibinfo{person}{Xiaoying Wei},
+  \bibinfo{person}{Shubh Vachher}, \bibinfo{person}{Yue Qin},
+  \bibinfo{person}{Chen Liang}, \bibinfo{person}{Yueting Weng},
+  \bibinfo{person}{Yizheng Gu}, {and} \bibinfo{person}{Yuanchun Shi}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{HandSee: Enabling Full Hand Interaction on
+  Smartphone with Front Camera-based Stereo Vision}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--13}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zhao, Huang, and Chory}{Zhao
+  et~al\mbox{.}}{2019}]%
+        {PNAS0}
+\bibfield{author}{\bibinfo{person}{Xiaobo Zhao}, \bibinfo{person}{Jianyan
+  Huang}, {and} \bibinfo{person}{Joanne Chory}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{GUN1 interacts with MORF2 to regulate plastid RNA
+  editing during retrograde signaling}.
+\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of
+  Sciences}} \bibinfo{volume}{116}, \bibinfo{number}{20}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{10162--10167}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zheng, Tucker-Drob, and Briley}{Zheng
+  et~al\mbox{.}}{2019}]%
+        {PS8}
+\bibfield{author}{\bibinfo{person}{Anqing Zheng}, \bibinfo{person}{Elliot~M.
+  Tucker-Drob}, {and} \bibinfo{person}{Daniel~A. Briley}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{National Gross Domestic Product, Science Interest,
+  and Science Achievement: A Direct Replication and Extension of the
+  Tucker-Drob, Cheung, and Briley (2014) Study}.
+\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
+  \bibinfo{number}{5} (\bibinfo{year}{2019}), \bibinfo{pages}{776--788}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zhou, Wu, Yan, Zheng, Chen, Liu, Qi,
+  Calandrelli, Chen, Chien, Su, and Zhong}{Zhou et~al\mbox{.}}{2019}]%
+        {PNAS6}
+\bibfield{author}{\bibinfo{person}{Zixu Zhou}, \bibinfo{person}{Qiuyang Wu},
+  \bibinfo{person}{Zhangming Yan}, \bibinfo{person}{Haizi Zheng},
+  \bibinfo{person}{Chien-Ju Chen}, \bibinfo{person}{Yuan Liu},
+  \bibinfo{person}{Zhijie Qi}, \bibinfo{person}{Riccardo Calandrelli},
+  \bibinfo{person}{Zhen Chen}, \bibinfo{person}{Shu Chien},
+  \bibinfo{person}{H.~Irene Su}, {and} \bibinfo{person}{Sheng Zhong}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Extracellular RNA in a single droplet of human
+  serum reflects physiologic and disease states}.
+\newblock  \bibinfo{volume}{116}, \bibinfo{number}{38} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{19200--19208}.
 \newblock
 
 

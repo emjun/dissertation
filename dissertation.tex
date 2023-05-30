@@ -1,6 +1,7 @@
 \documentclass[11pt]{book}
 
 \input{macros.tex}
+\input{hypothesisFormalization/tables.tex}
 
 \begin{document}
 
@@ -9,6 +10,7 @@
 \input{tea/figures_tables.tex}
 \input{hypothesisFormalization/figures_tables.tex}
 \input{tisane/figures_tables.tex}
+
 
 \input{00-titlepages.tex}
 % \doublespacing
@@ -54,7 +56,7 @@
 
 \balance
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{references.bib}
+\bibliography{references.bib, lit-survey-papers.bib}
 
 % Optionally: add appendices
 \newpage
@@ -63,21 +65,26 @@
     \renewcommand{\thechapter}{\Alph{chapter}}%
  }
 
-\begin{comment}
 \beginsupplement
-\chapter{Appendix One}
-\section{Appendix section 1}
-\begin{table}[]
-    \centering
-    \begin{tabular}{c|c}
-         &  \\
-         & 
-    \end{tabular}
-    \caption{Table in the Appendix}
-    \label{tab:my_label}
-\end{table}
-\end{comment}
+\chapter{Appendix A}
+\label{chapter:appHypoForm}
+\input{app-hypoForm.tex}
 
+\chapter{Appendix B}
+\section{Tisane supplement - PDF}
+\section{Tisane study materials}
+
+\chapter{Appendix C}
+\section{rTisane study materials}
+% \begin{table}[]
+%     \centering
+%     \begin{tabular}{c|c}
+%          &  \\
+%          & 
+%     \end{tabular}
+%     \caption{Table in the Appendix}
+%     \label{tab:my_label}
+% \end{table}
 \end{document}
 
 % you're all done, congrats!
