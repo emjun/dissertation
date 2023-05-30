@@ -50,7 +50,7 @@
 \contentsline {subsubsection}{Data collection and sampling influence statistical analysis.}{56}{section*.32}%
 \contentsline {subsection}{\numberline {4.2.1}Discussion}{56}{subsection.4.2.1}%
 \contentsline {subsubsection}{Limitations}{57}{section*.33}%
-\contentsline {subsection}{\numberline {4.2.2}Discussion: Expected Steps in Hypothesis Formalization}{57}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Takeaways: Expected Steps in Hypothesis Formalization}{57}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}Exploratory Lab Study}{58}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Methods}{58}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Findings and Discussion}{60}{subsection.4.3.2}%
