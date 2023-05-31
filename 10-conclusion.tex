@@ -295,6 +295,18 @@ to answer substantive questions as well as assess model fit. A compelling future
 direction is to enable analysts to ask follow-up questions about specific
 estimates and effects from a statistical model. 
 
+\subsection{Develop a grammar of study design}
+There are relationships between Tisane's language constructs for specifying data
+collection details, data schema specification, and experimental design. How
+could we draw these connections out and formalize them? 
+
+Tisane's graph IR is an entity-relationship (ER) model~\cite{chen1976ERDiagram}.
+ER models, or diagrams, are used to describe data schema. ER models describe how
+entities relate to other entities and attributes. In Tisane, a variable of Unit
+type can be viewed as an entity. The \texttt{nests\_within} edge describes how
+two units, or entities, relate to one another. Tisane's graph IR also relates
+units (entities) to measures (attributes).
+
 \subsection{Support more phases of the data lifecycle}
 % # 5 -  What are Interfaces across the data lifecycle
 % The long-view of this work...
@@ -495,6 +507,7 @@ awareness of how to organize their computational approach.
 
 
 \section{Impact}
+\ej{Include details of where this code is available, open source, etc.}
 The most rewarding part of conducting the work in this dissertation has been to
 see real-world use cases and adoption of tools. As of May 2023, \tea has been
 downloaded 15K times, and the first release of \tisane has been downloaded 12K

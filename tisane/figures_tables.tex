@@ -516,134 +516,134 @@
     % \end{figure*}
 }
 
-%\newcommand{\figureComplexModeratesGraphIR}{
-%    \def\minsize{0.8cm}
-%    \def\mynodefont{\normalsize}
-%    \def\myedgequotesfont{\scriptsize}
-%    \def\mynodedistance{0.9cm}
-%    \def\myx{.5cm}
-%    \def\myy{.9cm}
-%    \def\mone{\texttt{m1}\xspace}
-%    \def\mtwo{\texttt{m2}\xspace}
-%    \def\mthree{\texttt{m3}\xspace}
-%    \def\uone{\texttt{u1}\xspace}
-%    \def\utwo{\texttt{u2}\xspace}
-%    \def\u{\texttt{u}\xspace}
-%    \def\umone{\texttt{u1*m1}\xspace}
-%    \def\monetwo{\texttt{m1*m2}\xspace}
-%    \begin{figure}[H]
-%        \begin{tikzpicture}[minigraph/.style={fill=gray!10,rounded corners=4pt, minimum height=3.7cm},
-%                            caption/.style={node distance=.2cm,rounded corners=4pt,node font=\footnotesize}]
-%            \node[minigraph]		(moderates1)			{%
-%                \begin{tikzpicture}[>=Stealth,
-%                                every node/.style={node distance=\mynodedistance,minimum height=0cm},
-%                                causes/.style={draw=black, "causes",text=black},
-%                                associates/.style={draw=black, "assoc.",bend right},
-%                                min/.style={minimum size=\minsize,node font=\mynodefont},
-%                                unit/.style={min,fill=white,draw=black,rounded corners=0pt},
-%                                measure/.style={fill=white,min,circle,draw=black},
-%                                has/.style={densely dotted,"has"},
-%                                nests/.style={dashed,thick,"nests"},
-%                                depvar/.style={fill=gray!30},
-%                                every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
-%                    \node[measure]       (m2)        {\texttt{m2}};
-%                    \node[measure,left=of m2,inner sep=0pt]  (um1) {\footnotesize \texttt{u1*m1}};
-%                    \node[unit,above right=of m2]    (u1)          {\texttt{u1}};
-%                    \node[measure,below right=of m2]    (m1)          {\texttt{m1}};
-%                    \coordinate (ref) at ($(m1) + (3pt,0)$);
-%                    \node[unit] (u2) at ($(m1)!(um1)!(ref)$)         {\texttt{u2}};
-%                    \graph{
-%                        (um1) ->[associates,below] (m2);
-%                        (m2) ->[associates,above] (um1);
-%                        (u1) ->[associates,above left] (m2);
-%                        (m2) ->[associates,below right] (u1);
-%                        (m1) ->[associates,above right] (m2);
-%                        (m2) ->[associates,below left] (m1);
-%                        (u2)  ->[has,below,draw=gray,text=gray] (m1);
-%                        (u2)  ->[has,right,near start] (um1);
-%                    };
-%                \end{tikzpicture}
-%            };
-%            \node[minigraph, right=of moderates1]		(moderates2)			{%
-%                \begin{tikzpicture}[>=Stealth,
-%                                every node/.style={node distance=\mynodedistance,minimum height=0cm},
-%                                causes/.style={draw=black, "causes",text=black},
-%                                associates/.style={draw=black, "assoc.",bend right},
-%                                min/.style={minimum size=\minsize,node font=\mynodefont},
-%                                unit/.style={min,fill=white,draw=black,rounded corners=0pt},
-%                                measure/.style={fill=white,min,circle,draw=black},
-%                                has/.style={densely dotted,"has"},
-%                                old/.style={draw=gray,text=gray},
-%                                nests/.style={dashed,thick,"nests"},
-%                                depvar/.style={fill=gray!30},
-%                                every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
-%                    \node[measure]       (v3)        {\texttt{m3}};
-%                    \node[measure,left=of v3,inner sep=0pt]  (v1v2) {\footnotesize \texttt{m1*m2}};
-%                    \node[measure,above right=of v3]    (v1)          {\texttt{m1}};
-%                    \node[measure,below right=of v3]    (v2)          {\texttt{m2}};
-%                    \coordinate (ref) at ($(v2) + (3pt,0)$);
-%                    \coordinate (ref1) at ($(v1) + (3pt,0)$);
-%                    \node[unit] (u) at ($(v2)!(v1v2.west)!(ref)$)         {\texttt{u2}};
-%                    \node[unit] (u2) at ($(v1)!(v1v2.west)!(ref1)$)       {\texttt{u1}};
-%                    \graph{
-%                        (v1v2) ->[associates,below] (v3);
-%                        (v3) ->[associates,above] (v1v2);
-%                        (v1) ->[associates,above left] (v3);
-%                        (v3) ->[associates,below right] (v1);
-%                        (v2) ->[associates,above right] (v3);
-%                        (v3) ->[associates,below left] (v2);
-%                        (u)  ->[has,below,old] (v2);
-%                        (u)  ->[has,right,near start] (v1v2);
-%                        (u2) ->[has,above,old] (v1);
-%                        (u2) ->[has,right,near start] (v1v2);
-%                    };
-%                \end{tikzpicture}
-%            };
-%
-%            \node[minigraph, right=of moderates2]		(moderates3)			{%
-%                \begin{tikzpicture}[>=Stealth,
-%                                every node/.style={node distance=\mynodedistance,minimum height=0cm},
-%                                causes/.style={draw=black, "causes",text=black},
-%                                associates/.style={draw=black, "assoc.",bend right},
-%                                min/.style={minimum size=\minsize,node font=\mynodefont},
-%                                unit/.style={min,fill=white,draw=black,rounded corners=0pt},
-%                                measure/.style={fill=white,min,circle,draw=black},
-%                                has/.style={densely dotted,"has"},
-%                                old/.style={draw=gray,text=gray},
-%                                nests/.style={dashed,thick,"nests"},
-%                                depvar/.style={fill=gray!30},
-%                                every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
-%                    \node[measure]       (v3)        {\texttt{m3}};
-%                    \node[measure,left=2cm of v3,inner sep=0pt]  (v1v2) {\footnotesize \texttt{m1*m2}};
-%                    \node[measure,above right=1.5cm and 0.6cm of v3]    (v1)          {\texttt{m1}};
-%                    \node[measure,above left=0.9cm and 0.5cm of v3]    (v2)          {\texttt{m2}};
-%                    \coordinate (ref) at ($(v2) + (3pt,0)$);
-%                    \coordinate (ref1) at ($(v1) + (3pt,0)$);
-%                    % \node[unit] (u) at ($(v2)!(v1v2.west)!(ref)$)         {\texttt{u1}};
-%                    \node[unit] (u2) at ($(v1)!(v1v2.west)!(ref1)$)       {\texttt{u}};
-%                    \graph{
-%                        (v1v2) ->[associates,above] (v3);
-%                        (v3) ->[associates,below] (v1v2);
-%                        (v1) ->[associates,sloped,below] (v3);
-%                        (v3) ->[associates,sloped,above] (v1);
-%                        (v2) ->[associates,sloped,above] (v3);
-%                        (v3) ->[associates,sloped,below] (v2);
-%                        % (u)  ->[has,below,old] (v2);
-%                        % (u)  ->[has,right] (v1v2);
-%                        (u2) ->[has,above,old] (v1);
-%                        (u2) ->[has,below left,old] (v2);
-%                        (u2) ->[has,right] (v1v2);
-%                    };
-%                \end{tikzpicture}
-%            };
-%            \node[caption,below=of moderates1]      {(a) \texttt{m1.moderates(u1, on=m2)}};
-%            \node[caption,below=of moderates2]      {(b) \texttt{m1.moderates(m2, on=m3)}};
-%            \node[caption,below=of moderates3]      {(c) \texttt{m1.moderates(m2, on=m3)}};
-%        \end{tikzpicture}
-%        \caption{More complex examples of \texttt{moderates} written in Tisane's \SDSLlong, and their representation in Tisane's graph IR. Variables are named with \texttt{u} for units, \texttt{m} for measures, and \texttt{v} for data variables that can be either units or measures. Black edges have been added due to the \texttt{moderates} relationship. Gray edges already existed in the graph. In (a), only \mone is a measure, whose unit is \utwo, so \umone inherits an attribution edge only from \utwo. In (b), \mone and \mtwo are measures, with units \uone and \utwo respectively, so \monetwo inherits attribution edges from both \uone and \utwo. In (c), measures \mone and \mtwo share a unit, \u, and \monetwo inherits only one attribution edge from \u.}
-%        \label{fig:figureComplexModeratesGraphIR}
-%    \end{figure}
-%}
+\newcommand{\figureComplexModeratesGraphIR}{
+   \def\minsize{0.8cm}
+   \def\mynodefont{\normalsize}
+   \def\myedgequotesfont{\scriptsize}
+   \def\mynodedistance{0.9cm}
+   \def\myx{.5cm}
+   \def\myy{.9cm}
+   \def\mone{\texttt{m1}\xspace}
+   \def\mtwo{\texttt{m2}\xspace}
+   \def\mthree{\texttt{m3}\xspace}
+   \def\uone{\texttt{u1}\xspace}
+   \def\utwo{\texttt{u2}\xspace}
+   \def\u{\texttt{u}\xspace}
+   \def\umone{\texttt{u1*m1}\xspace}
+   \def\monetwo{\texttt{m1*m2}\xspace}
+   \begin{figure}[H]
+       \begin{tikzpicture}[minigraph/.style={fill=gray!10,rounded corners=4pt, minimum height=3.7cm},
+                           caption/.style={node distance=.2cm,rounded corners=4pt,node font=\footnotesize}]
+           \node[minigraph]		(moderates1)			{%
+               \begin{tikzpicture}[>=Stealth,
+                               every node/.style={node distance=\mynodedistance,minimum height=0cm},
+                               causes/.style={draw=black, "causes",text=black},
+                               associates/.style={draw=black, "assoc.",bend right},
+                               min/.style={minimum size=\minsize,node font=\mynodefont},
+                               unit/.style={min,fill=white,draw=black,rounded corners=0pt},
+                               measure/.style={fill=white,min,circle,draw=black},
+                               has/.style={densely dotted,"has"},
+                               nests/.style={dashed,thick,"nests"},
+                               depvar/.style={fill=gray!30},
+                               every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
+                   \node[measure]       (m2)        {\texttt{m2}};
+                   \node[measure,left=of m2,inner sep=0pt]  (um1) {\footnotesize \texttt{u1*m1}};
+                   \node[unit,above right=of m2]    (u1)          {\texttt{u1}};
+                   \node[measure,below right=of m2]    (m1)          {\texttt{m1}};
+                   \coordinate (ref) at ($(m1) + (3pt,0)$);
+                   \node[unit] (u2) at ($(m1)!(um1)!(ref)$)         {\texttt{u2}};
+                   \graph{
+                       (um1) ->[associates,below] (m2);
+                       (m2) ->[associates,above] (um1);
+                       (u1) ->[associates,above left] (m2);
+                       (m2) ->[associates,below right] (u1);
+                       (m1) ->[associates,above right] (m2);
+                       (m2) ->[associates,below left] (m1);
+                       (u2)  ->[has,below,draw=gray,text=gray] (m1);
+                       (u2)  ->[has,right,near start] (um1);
+                   };
+               \end{tikzpicture}
+           };
+           \node[minigraph, right=of moderates1]		(moderates2)			{%
+               \begin{tikzpicture}[>=Stealth,
+                               every node/.style={node distance=\mynodedistance,minimum height=0cm},
+                               causes/.style={draw=black, "causes",text=black},
+                               associates/.style={draw=black, "assoc.",bend right},
+                               min/.style={minimum size=\minsize,node font=\mynodefont},
+                               unit/.style={min,fill=white,draw=black,rounded corners=0pt},
+                               measure/.style={fill=white,min,circle,draw=black},
+                               has/.style={densely dotted,"has"},
+                               old/.style={draw=gray,text=gray},
+                               nests/.style={dashed,thick,"nests"},
+                               depvar/.style={fill=gray!30},
+                               every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
+                   \node[measure]       (v3)        {\texttt{m3}};
+                   \node[measure,left=of v3,inner sep=0pt]  (v1v2) {\footnotesize \texttt{m1*m2}};
+                   \node[measure,above right=of v3]    (v1)          {\texttt{m1}};
+                   \node[measure,below right=of v3]    (v2)          {\texttt{m2}};
+                   \coordinate (ref) at ($(v2) + (3pt,0)$);
+                   \coordinate (ref1) at ($(v1) + (3pt,0)$);
+                   \node[unit] (u) at ($(v2)!(v1v2.west)!(ref)$)         {\texttt{u2}};
+                   \node[unit] (u2) at ($(v1)!(v1v2.west)!(ref1)$)       {\texttt{u1}};
+                   \graph{
+                       (v1v2) ->[associates,below] (v3);
+                       (v3) ->[associates,above] (v1v2);
+                       (v1) ->[associates,above left] (v3);
+                       (v3) ->[associates,below right] (v1);
+                       (v2) ->[associates,above right] (v3);
+                       (v3) ->[associates,below left] (v2);
+                       (u)  ->[has,below,old] (v2);
+                       (u)  ->[has,right,near start] (v1v2);
+                       (u2) ->[has,above,old] (v1);
+                       (u2) ->[has,right,near start] (v1v2);
+                   };
+               \end{tikzpicture}
+           };
+
+           \node[minigraph, right=of moderates2]		(moderates3)			{%
+               \begin{tikzpicture}[>=Stealth,
+                               every node/.style={node distance=\mynodedistance,minimum height=0cm},
+                               causes/.style={draw=black, "causes",text=black},
+                               associates/.style={draw=black, "assoc.",bend right},
+                               min/.style={minimum size=\minsize,node font=\mynodefont},
+                               unit/.style={min,fill=white,draw=black,rounded corners=0pt},
+                               measure/.style={fill=white,min,circle,draw=black},
+                               has/.style={densely dotted,"has"},
+                               old/.style={draw=gray,text=gray},
+                               nests/.style={dashed,thick,"nests"},
+                               depvar/.style={fill=gray!30},
+                               every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
+                   \node[measure]       (v3)        {\texttt{m3}};
+                   \node[measure,left=2cm of v3,inner sep=0pt]  (v1v2) {\footnotesize \texttt{m1*m2}};
+                   \node[measure,above right=1.5cm and 0.6cm of v3]    (v1)          {\texttt{m1}};
+                   \node[measure,above left=0.9cm and 0.5cm of v3]    (v2)          {\texttt{m2}};
+                   \coordinate (ref) at ($(v2) + (3pt,0)$);
+                   \coordinate (ref1) at ($(v1) + (3pt,0)$);
+                   % \node[unit] (u) at ($(v2)!(v1v2.west)!(ref)$)         {\texttt{u1}};
+                   \node[unit] (u2) at ($(v1)!(v1v2.west)!(ref1)$)       {\texttt{u}};
+                   \graph{
+                       (v1v2) ->[associates,above] (v3);
+                       (v3) ->[associates,below] (v1v2);
+                       (v1) ->[associates,sloped,below] (v3);
+                       (v3) ->[associates,sloped,above] (v1);
+                       (v2) ->[associates,sloped,above] (v3);
+                       (v3) ->[associates,sloped,below] (v2);
+                       % (u)  ->[has,below,old] (v2);
+                       % (u)  ->[has,right] (v1v2);
+                       (u2) ->[has,above,old] (v1);
+                       (u2) ->[has,below left,old] (v2);
+                       (u2) ->[has,right] (v1v2);
+                   };
+               \end{tikzpicture}
+           };
+           \node[caption,below=of moderates1]      {(a) \texttt{m1.moderates(u1, on=m2)}};
+           \node[caption,below=of moderates2]      {(b) \texttt{m1.moderates(m2, on=m3)}};
+           \node[caption,below=of moderates3]      {(c) \texttt{m1.moderates(m2, on=m3)}};
+       \end{tikzpicture}
+       \caption{More complex examples of \texttt{moderates} written in Tisane's \SDSLlong, and their representation in Tisane's graph IR. Variables are named with \texttt{u} for units, \texttt{m} for measures, and \texttt{v} for data variables that can be either units or measures. Black edges have been added due to the \texttt{moderates} relationship. Gray edges already existed in the graph. In (a), only \mone is a measure, whose unit is \utwo, so \umone inherits an attribution edge only from \utwo. In (b), \mone and \mtwo are measures, with units \uone and \utwo respectively, so \monetwo inherits attribution edges from both \uone and \utwo. In (c), measures \mone and \mtwo share a unit, \u, and \monetwo inherits only one attribution edge from \u.}
+       \label{fig:figureComplexModeratesGraphIR}
+   \end{figure}
+}
 
 
 %\newcommand{\tableClusteringExamples}{
@@ -669,24 +669,24 @@
 %    \end{table}
 %}
 %
-%\newcommand{\tableFamilyLinkFunctions}{
-%  \begin{table}[h]
-%    \caption{The available family and link functions in Tisane. Tisane generates code to fit models using \texttt{statsmodels} and \texttt{pymer4}. The package \texttt{statsmodels} supports GLMs without mixed-effects and a wider variety of family and link function combinations. The package \texttt{pymer4} supports GLMs with mixed effects and has much more limited support for family and link functions. As \texttt{statsmodels} and \texttt{pymer} add more support, Tisane can be extended.}
-%    \begin{tabular}{lll} \hline
-%    %   \multirow{3}{*}{\multicolumn{1}{c}{Family functions}}	&	\multicolumn{2}{c}{Link functions (*default)} \\ \cline{2-3}
-%      &	\multicolumn{2}{c}{Link functions (*default)} \\ \cline{2-3}
-%      \multicolumn{1}{c}{Family functions} & \multicolumn{1}{>{\raggedright}p{0.35\linewidth}}{Generalized linear models without mixed effects (\texttt{statsmodels})} & \multicolumn{1}{>{\raggedright}p{0.35\linewidth}}{Generalized linear models with mixed effects (\texttt{pymer4})}	\\ \hline
-%      \multirow{1}{*}{Gaussian} 	&	\multicolumn{1}{>{\raggedright}p{0.35\linewidth}}{Identity*, Inverse, Log}	&	\multirow{1}{*}{Identity*}	\\
-%      Inverse Gaussian	&	Identity, Inverse, Inverse Squared*, Log	&	Inverse Squared*	\\
-%      Gamma	&	Identity, Inverse*, Log 	&	Inverse*	\\
-%      Poisson 	&	Identity, Log*, Square Root	&	Log*	\\
-%      Binomial	&	Cauchy, CLogLog, Log, Logit*, Probit,	&	Logit*	\\
-%      Negative Binomial	&	Identity, Log*, Logit, Probit	&	N/A	\\
-%      Tweedie Family	&	Log*, Power	& N/A		\\
-%    \end{tabular}
-%    \label{tab:tableFamilyLinkFunctions}
-%  \end{table}
-%}
+\newcommand{\tableFamilyLinkFunctions}{
+ \begin{table}[h]
+   \caption{The available family and link functions in Tisane. Tisane generates code to fit models using \texttt{statsmodels} and \texttt{pymer4}. The package \texttt{statsmodels} supports GLMs without mixed-effects and a wider variety of family and link function combinations. The package \texttt{pymer4} supports GLMs with mixed effects and has much more limited support for family and link functions. As \texttt{statsmodels} and \texttt{pymer} add more support, Tisane can be extended.}
+   \begin{tabular}{lll} \hline
+   %   \multirow{3}{*}{\multicolumn{1}{c}{Family functions}}	&	\multicolumn{2}{c}{Link functions (*default)} \\ \cline{2-3}
+     &	\multicolumn{2}{c}{Link functions (*default)} \\ \cline{2-3}
+     \multicolumn{1}{c}{Family functions} & \multicolumn{1}{>{\raggedright}p{0.35\linewidth}}{Generalized linear models without mixed effects (\texttt{statsmodels})} & \multicolumn{1}{>{\raggedright}p{0.35\linewidth}}{Generalized linear models with mixed effects (\texttt{pymer4})}	\\ \hline
+     \multirow{1}{*}{Gaussian} 	&	\multicolumn{1}{>{\raggedright}p{0.35\linewidth}}{Identity*, Inverse, Log}	&	\multirow{1}{*}{Identity*}	\\
+     Inverse Gaussian	&	Identity, Inverse, Inverse Squared*, Log	&	Inverse Squared*	\\
+     Gamma	&	Identity, Inverse*, Log 	&	Inverse*	\\
+     Poisson 	&	Identity, Log*, Square Root	&	Log*	\\
+     Binomial	&	Cauchy, CLogLog, Log, Logit*, Probit,	&	Logit*	\\
+     Negative Binomial	&	Identity, Log*, Logit, Probit	&	N/A	\\
+     Tweedie Family	&	Log*, Power	& N/A		\\
+   \end{tabular}
+   \label{tab:tableFamilyLinkFunctions}
+ \end{table}
+}
 
 \newcommand{\michaelsFirstModel}{\par\vspace*{6pt}%
 {\centering
@@ -772,7 +772,7 @@
 \newcommand{\figurePossibleConfoundingAssociation}{
     \begin{figure}[H]
         \centering
-        \includegraphics[width=.75\linewidth]{../tisane/figures/tisane_screenshots/potential_confounding_association}
+        \includegraphics[width=.75\linewidth]{tisane/figures/tisane_screenshots/potential_confounding_association.png}
         \caption{An example of the warning text given for potential confounding associations. When analysts hover over the ``Warning'' badge, a tooltip pops up that explains that they should be careful about adding this variable. Associative relationships may in actuality be causal relationships, and if in fact \texttt{pounds\_lost} \textbf{caused} \texttt{age}, then adding \texttt{age} would invalidate the model.}
         \label{fig:figurePossibleConfoundingAssociation}
     \end{figure}

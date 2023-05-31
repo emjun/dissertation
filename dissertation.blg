@@ -4,7 +4,7 @@ The top-level auxiliary file: dissertation.aux
 The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 14990 items from 5000.
+Reallocated field_info (elt_size=4) to 15485 items from 5000.
 Database file #1: references.bib
 Warning--string name "january" is undefined
 --line 1682 of file references.bib
@@ -33,6 +33,7 @@ Warning--no number and no volume in bobriakov2017:top15Python
 Warning--page numbers missing in both pages and numpages fields in bobriakov2017:top15Python
 Warning--no number and no volume in bobriakov2018:top20Python
 Warning--page numbers missing in both pages and numpages fields in bobriakov2018:top20Python
+Warning--empty address in borgo2012psychtoolbox
 Warning--no journal in randomForestR
 Warning--no number and no volume in randomForestR
 Warning--page numbers missing in both pages and numpages fields in randomForestR
@@ -62,6 +63,7 @@ Warning--no number and no volume in cohen1988statistical
 Warning--page numbers missing in both pages and numpages fields in cohen1988statistical
 Warning--empty address in cohen2013applied
 Warning--empty year in plotlyDash
+Warning--empty year in jspsychR
 Warning--empty publisher in de2008z3
 Warning--empty address in de2008z3
 Warning--empty address in efron1992bootstrap
@@ -102,6 +104,7 @@ Warning--page numbers missing in both pages and numpages fields in MCMCglmmRef
 Warning--no journal in PNAS3
 Warning--empty publisher in CHI2
 Warning--empty address in CHI2
+Warning--page numbers missing in both pages and numpages fields in harrison2020psychtestr
 Warning--no journal in glmnetVignette
 Warning--no number and no volume in glmnetVignette
 Warning--page numbers missing in both pages and numpages fields in glmnetVignette
@@ -166,6 +169,7 @@ Warning--empty address in mcelreath2020statistical
 Warning--no number and no volume in mcnamara2018keyAttributes
 Warning--page numbers missing in both pages and numpages fields in mcnamara2018keyAttributes
 Warning--empty year in mplus
+Warning--empty year in xprmntr
 Warning--can't use both volume and number fields in newell1972humanProblemSolving
 Warning--empty address in newell1972humanProblemSolving
 Warning--empty address in norman2013doet
@@ -236,45 +240,45 @@ Warning--page numbers missing in both pages and numpages fields in wongsuphasawa
 Warning--empty publisher in CHI3
 Warning--empty address in CHI3
 Warning--no journal in PNAS6
-You've used 221 entries,
+You've used 232 entries,
             5719 wiz_defined-function locations,
-            2462 strings with 55943 characters,
-and the built_in function-call counts, 260726 in all, are:
-= -- 32945
-> -- 11336
+            2510 strings with 57123 characters,
+and the built_in function-call counts, 271487 in all, are:
+= -- 34481
+> -- 11625
 < -- 0
-+ -- 3780
-- -- 3883
-* -- 19515
-:= -- 27934
-add.period$ -- 1126
-call.type$ -- 221
-change.case$ -- 1696
-chr.to.int$ -- 205
-cite$ -- 438
-duplicate$ -- 21406
-empty$ -- 15131
-format.name$ -- 4489
-if$ -- 62541
-int.to.chr$ -- 18
++ -- 3868
+- -- 3985
+* -- 20183
+:= -- 29021
+add.period$ -- 1182
+call.type$ -- 232
+change.case$ -- 1758
+chr.to.int$ -- 213
+cite$ -- 453
+duplicate$ -- 22341
+empty$ -- 15806
+format.name$ -- 4602
+if$ -- 65230
+int.to.chr$ -- 21
 int.to.str$ -- 1
-missing$ -- 762
-newline$ -- 1979
-num.names$ -- 1754
-pop$ -- 8163
+missing$ -- 787
+newline$ -- 2083
+num.names$ -- 1839
+pop$ -- 8509
 preamble$ -- 1
-purify$ -- 3629
+purify$ -- 3772
 quote$ -- 0
-skip$ -- 7339
+skip$ -- 7644
 stack$ -- 0
-substring$ -- 18037
-swap$ -- 2171
+substring$ -- 18831
+swap$ -- 2264
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4467
-warning$ -- 217
-while$ -- 1614
+type$ -- 4701
+warning$ -- 221
+while$ -- 1706
 width$ -- 0
-write$ -- 3928
-(There were 221 warnings)
+write$ -- 4127
+(There were 225 warnings)

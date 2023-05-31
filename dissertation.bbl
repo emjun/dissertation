@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{221}
+\begin{thebibliography}{232}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -80,6 +80,21 @@
   single-cell resolution}.
 \newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{576},
   \bibinfo{number}{7787} (\bibinfo{year}{2019}), \bibinfo{pages}{487--491}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Arslan, Walther, and Tata}{Arslan
+  et~al\mbox{.}}{2020}]%
+        {arslan2020formr}
+\bibfield{author}{\bibinfo{person}{Ruben~C Arslan}, \bibinfo{person}{Matthias~P
+  Walther}, {and} \bibinfo{person}{Cyril~S Tata}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{formr: A study framework allowing for automated
+  feedback generation and complex longitudinal experience-sampling studies
+  using R}.
+\newblock \bibinfo{journal}{\emph{Behavior Research Methods}}
+  \bibinfo{volume}{52}, \bibinfo{number}{1} (\bibinfo{year}{2020}),
+  \bibinfo{pages}{376--387}.
 \newblock
 
 
@@ -295,11 +310,24 @@
 
 
 \bibitem[\protect\citeauthoryear{Blair, Cooper, Coppock, and Humphreys}{Blair
-  et~al\mbox{.}}{2019}]%
+  et~al\mbox{.}}{2019a}]%
         {blair2019declaring}
 \bibfield{author}{\bibinfo{person}{Graeme Blair}, \bibinfo{person}{Jasper
   Cooper}, \bibinfo{person}{Alexander Coppock}, {and} \bibinfo{person}{Macartan
-  Humphreys}.} \bibinfo{year}{2019}\natexlab{}.
+  Humphreys}.} \bibinfo{year}{2019}\natexlab{a}.
+\newblock \showarticletitle{Declaring and diagnosing research designs}.
+\newblock \bibinfo{journal}{\emph{American Political Science Review}}
+  \bibinfo{volume}{113}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{838--859}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Blair, Cooper, Coppock, and Humphreys}{Blair
+  et~al\mbox{.}}{2019b}]%
+        {blair2019declareDesign}
+\bibfield{author}{\bibinfo{person}{Graeme Blair}, \bibinfo{person}{Jasper
+  Cooper}, \bibinfo{person}{Alexander Coppock}, {and} \bibinfo{person}{Macartan
+  Humphreys}.} \bibinfo{year}{2019}\natexlab{b}.
 \newblock \showarticletitle{Declaring and diagnosing research designs}.
 \newblock \bibinfo{journal}{\emph{American Political Science Review}}
   \bibinfo{volume}{113}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
@@ -348,6 +376,18 @@
 \newblock \bibinfo{journal}{\emph{Trends in ecology \& evolution}}
   \bibinfo{volume}{24}, \bibinfo{number}{3} (\bibinfo{year}{2009}),
   \bibinfo{pages}{127--135}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Borgo, Soranzo, and Grassi}{Borgo
+  et~al\mbox{.}}{2012}]%
+        {borgo2012psychtoolbox}
+\bibfield{author}{\bibinfo{person}{Mauro Borgo}, \bibinfo{person}{Alessandro
+  Soranzo}, {and} \bibinfo{person}{Massimo Grassi}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Psychtoolbox: sound, keyboard and mouse}.
+\newblock In \bibinfo{booktitle}{\emph{MATLAB for Psychologists}}.
+  \bibinfo{publisher}{Springer}, \bibinfo{pages}{249--273}.
 \newblock
 
 
@@ -549,6 +589,18 @@
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Chen}{Chen}{1976}]%
+        {chen1976ERDiagram}
+\bibfield{author}{\bibinfo{person}{Peter Pin-Shan Chen}.}
+  \bibinfo{year}{1976}\natexlab{}.
+\newblock \showarticletitle{The entity-relationship model—toward a unified
+  view of data}.
+\newblock \bibinfo{journal}{\emph{ACM transactions on database systems (TODS)}}
+  \bibinfo{volume}{1}, \bibinfo{number}{1} (\bibinfo{year}{1976}),
+  \bibinfo{pages}{9--36}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Chen, Lun, McCarthy, Ritchie, Phipson, Hu,
   Zhou, Robinson, and Smyth}{Chen et~al\mbox{.}}{2020a}]%
         {edgeROverview}
@@ -710,10 +762,35 @@
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{De~Leeuw}{De~Leeuw}{2015}]%
+\bibitem[\protect\citeauthoryear{Crump}{Crump}{[n. d.]}]%
+        {jspsychR}
+\bibfield{author}{\bibinfo{person}{Matthew~J.C. Crump}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{JsPsychR}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://www.crumplab.com/jspsychr/articles/jspsychr.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{De~Leeuw}{De~Leeuw}{2015a}]%
         {deLeeuw2015jspsych}
 \bibfield{author}{\bibinfo{person}{Joshua~R De~Leeuw}.}
-  \bibinfo{year}{2015}\natexlab{}.
+  \bibinfo{year}{2015}\natexlab{a}.
+\newblock \showarticletitle{jsPsych: A JavaScript library for creating
+  behavioral experiments in a Web browser}.
+\newblock \bibinfo{journal}{\emph{Behavior research methods}}
+  \bibinfo{volume}{47}, \bibinfo{number}{1} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{1--12}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{De~Leeuw}{De~Leeuw}{2015b}]%
+        {de2015jspsych}
+\bibfield{author}{\bibinfo{person}{Joshua~R De~Leeuw}.}
+  \bibinfo{year}{2015}\natexlab{b}.
 \newblock \showarticletitle{jsPsych: A JavaScript library for creating
   behavioral experiments in a Web browser}.
 \newblock \bibinfo{journal}{\emph{Behavior research methods}}
@@ -1143,6 +1220,17 @@
 \newblock \showarticletitle{Springlets: Expressive, flexible and silent on-skin
   tactile interfaces}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI
   Conference on Human Factors in Computing Systems}}. \bibinfo{pages}{1--14}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Harrison}{Harrison}{2020}]%
+        {harrison2020psychtestr}
+\bibfield{author}{\bibinfo{person}{Peter Harrison}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{psychTestR: An R package for designing and
+  conducting behavioural psychological experiments}.
+\newblock \bibinfo{journal}{\emph{The Journal of Open Source Software}}
+  \bibinfo{volume}{5}, \bibinfo{number}{49} (\bibinfo{year}{2020}).
 \newblock
 
 
@@ -1977,6 +2065,32 @@ Issue 1.
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Navarro}{Navarro}{[n. d.]}]%
+        {xprmntr}
+\bibfield{author}{\bibinfo{person}{Danielle Navarro}.} \bibinfo{year}{[n.
+  d.]}\natexlab{}.
+\newblock \bibinfo{title}{xprmntr}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://djnavarro.net/xprmntr/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Navarro}{Navarro}{2021}]%
+        {jaysire}
+\bibfield{author}{\bibinfo{person}{Danielle Navarro}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Jaysire: Building jsPysch Experiments in R}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://github.com/djnavarro/jaysire}
+\showURL{%
+\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Nelder and Wedderburn}{Nelder and
   Wedderburn}{1972}]%
         {nelder1972generalized}
@@ -2164,6 +2278,17 @@ Issue 1.
 \newblock
 
 
+\bibitem[\protect\citeauthoryear{Peirce}{Peirce}{2007}]%
+        {peirce2007psychopy}
+\bibfield{author}{\bibinfo{person}{Jonathan~W Peirce}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{PsychoPy—psychophysics software in Python}.
+\newblock \bibinfo{journal}{\emph{Journal of neuroscience methods}}
+  \bibinfo{volume}{162}, \bibinfo{number}{1-2} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{8--13}.
+\newblock
+
+
 \bibitem[\protect\citeauthoryear{Perktold, Seabold, Taylor, and statsmodels
   developers}{Perktold et~al\mbox{.}}{2020}]%
         {statsmodelsRef}
@@ -2338,9 +2463,21 @@ Issue 1.
 \newblock
 
 
-\bibitem[\protect\citeauthoryear{SAS}{SAS}{2020}]%
+\bibitem[\protect\citeauthoryear{SAS}{SAS}{2020a}]%
         {jmp}
-\bibfield{author}{\bibinfo{person}{SAS}.} \bibinfo{year}{2020}\natexlab{}.
+\bibfield{author}{\bibinfo{person}{SAS}.} \bibinfo{year}{2020}\natexlab{a}.
+\newblock \bibinfo{title}{JMP}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{"https://www.jmp.com/en_us/home.html"}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{SAS}{SAS}{2020b}]%
+        {jmpDOE}
+\bibfield{author}{\bibinfo{person}{SAS}.} \bibinfo{year}{2020}\natexlab{b}.
 \newblock \bibinfo{title}{JMP}.
 \newblock
 \newblock
