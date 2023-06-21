@@ -1502,7 +1502,6 @@ INPUT ./02-ack.tex
 INPUT 02-ack.tex
 INPUT ./02-ack.tex
 INPUT 02-ack.tex
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT ./03-dedication.tex
 INPUT ./03-dedication.tex
 INPUT ./03-dedication.tex
@@ -1618,6 +1617,7 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT ./tea/related_work.tex
 INPUT tea/related_work.tex
 INPUT ./tea/related_work.tex
