@@ -41,13 +41,13 @@
 \citation{pirolli2005sensemaking,russell1993cost,klein2007dataFrame}
 \citation{russell1993cost}
 \citation{russell1993cost}
+\citation{grolemund2014cognitive}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Related work}{27}{chapter.2}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
 \newlabel{chapter:relatedWork}{{2}{27}{Related work}{chapter.2}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}Statistical data analysis as sensemaking}{27}{section.2.1}\protected@file@percent }
-\citation{grolemund2014cognitive}
 \citation{kandel2012enterprise}
 \citation{kandel2012enterprise}
 \citation{alspaugh2018futzing}
@@ -58,6 +58,7 @@
 \citation{kale2019decision}
 \citation{liu2019understanding}
 \citation{liu2019paths}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Tools for data analysis}{29}{section.2.3}\protected@file@percent }
 \citation{textor2011dagitty}
 \citation{suzuki2020causal,suzuki2018mechanisms,velentgas2013developing}
 \citation{gosset,bakshy2014planout}
@@ -67,7 +68,6 @@
 \citation{mackay2007touchstone}
 \citation{eiselmayer2019touchstone2}
 \citation{edibble}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}Tools for data analysis}{30}{section.2.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Tools for conceptual modeling}{30}{subsection.2.3.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Tools for study design}{30}{subsection.2.3.2}\protected@file@percent }
 \citation{guimbretiere2007experiscope}
@@ -78,8 +78,8 @@
 \citation{autosklearn}
 \citation{H2OAutoML20}
 \citation{autosklearn}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Tools for statistical specification}{31}{subsection.2.3.3}\protected@file@percent }
 \citation{shadish2010campbell}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Tools for statistical specification}{31}{subsection.2.3.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2.4}Validity in statistical data analysis}{32}{section.2.4}\protected@file@percent }
 \citation{fisher1937design}
 \citation{kaptein2012rethinking}
@@ -119,12 +119,12 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Usage Scenario}{36}{section.3.2}\protected@file@percent }
 \newlabel{usageScenarioTea}{{3.2}{36}{Usage Scenario}{section.3.2}{}}
 \citation{wacharamanotham2015statsplorer}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Design Considerations}{37}{section.3.3}\protected@file@percent }
-\newlabel{sec:design}{{3.3}{37}{Design Considerations}{section.3.3}{}}
-\newlabel{sec:designConsiderationsTea}{{3.3}{37}{Design Considerations}{section.3.3}{}}
 \citation{cairns2007hci}
 \citation{wilkinson1999statistical}
 \citation{APATFSI}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Design Considerations}{37}{section.3.3}\protected@file@percent }
+\newlabel{sec:design}{{3.3}{37}{Design Considerations}{section.3.3}{}}
+\newlabel{sec:designConsiderationsTea}{{3.3}{37}{Design Considerations}{section.3.3}{}}
 \citation{APATFSI}
 \citation{cairns2007hci,APATFSI}
 \citation{cairns2007hci,APATFSI}
@@ -158,11 +158,11 @@
 \@writefile{toc}{\contentsline {subsubsection}{Logical Encodings}{42}{section*.20}\protected@file@percent }
 \citation{efron1992bootstrap}
 \citation{holm1979simple}
-\@writefile{toc}{\contentsline {subsubsection}{Algorithm}{43}{section*.21}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Optimization: Recursive Queries}{43}{section*.22}\protected@file@percent }
 \citation{cohen1988statistical}
 \citation{vargha2000critique}
 \citation{american1983publication}
+\@writefile{toc}{\contentsline {subsubsection}{Algorithm}{43}{section*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Optimization: Recursive Queries}{43}{section*.22}\protected@file@percent }
 \citation{kabacoff2011action}
 \citation{field2012discoveringR}
 \citation{field2012discoveringR}
@@ -190,9 +190,9 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}Does Tea avoid common mistakes made by non-expert users?}{46}{subsection.3.5.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.6}Discussion, Limitations, and Future Work}{46}{section.3.6}\protected@file@percent }
 \newlabel{sec:discussionTea}{{3.6}{46}{Discussion, Limitations, and Future Work}{section.3.6}{}}
+\citation{shadish2010campbell}
 \@writefile{toc}{\contentsline {section}{\numberline {3.7}Summary of Contributions}{47}{section.3.7}\protected@file@percent }
 \newlabel{sec:summaryTea}{{3.7}{47}{Summary of Contributions}{section.3.7}{}}
-\citation{shadish2010campbell}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces \textbf  {Tea program and its mode-dependent executions.} a) Tea program that aims to determine if two contributor variables, `Illiteracy` and `HS Grad' that may predict a third outcome variable `Life Exp', are correlated. The user asserts that `Illiteracy' is normally distributed. b) By default, Tea executes programs in the \textit  {strict} mode. c) Warning that Tea disagrees with the user and will override the user's assertion that `Illiteracy' is normally distributed in the \textit  {strict} mode. d) Results without the parametric test since Tea overrides user's assertion. e) A single line change can modify Tea to execute a program in \textit  {relaxed} mode. f) Warning that Tea cannot verify normality for `Illiteracy' but will defer to user's assertion. g) Results with the parametric test since Tea proceeds as if `Illiteracy' was normally distributed.\relax }}{49}{figure.caption.17}\protected@file@percent }
 \newlabel{fig:modes}{{3.2}{49}{\textbf {Tea program and its mode-dependent executions.} a) Tea program that aims to determine if two contributor variables, `Illiteracy` and `HS Grad' that may predict a third outcome variable `Life Exp', are correlated. The user asserts that `Illiteracy' is normally distributed. b) By default, Tea executes programs in the \textit {strict} mode. c) Warning that Tea disagrees with the user and will override the user's assertion that `Illiteracy' is normally distributed in the \textit {strict} mode. d) Results without the parametric test since Tea overrides user's assertion. e) A single line change can modify Tea to execute a program in \textit {relaxed} mode. f) Warning that Tea cannot verify normality for `Illiteracy' but will defer to user's assertion. g) Results with the parametric test since Tea proceeds as if `Illiteracy' was normally distributed.\relax }{figure.caption.17}{}}
 \citation{carver2016guidelines}
@@ -242,12 +242,12 @@
 \citation{PS5}
 \citation{JFE1}
 \@writefile{toc}{\contentsline {subsubsection}{Researchers concretize hypotheses using proxies that are based on theory or available data.}{59}{section*.31}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Data collection and sampling influence statistical analysis.}{59}{section*.32}\protected@file@percent }
 \citation{PS8,PS5,PS0}
 \citation{JFE6,JFE7}
 \citation{PS2}
 \citation{mcelreath2020statistical}
 \citation{kerr1998harking}
-\@writefile{toc}{\contentsline {subsubsection}{Data collection and sampling influence statistical analysis.}{60}{section*.32}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Discussion}{60}{subsection.4.2.1}\protected@file@percent }
 \citation{kerr1998harking}
 \citation{russell1993cost,grolemund2014cognitive}
@@ -267,11 +267,11 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces \textbf  {Sample statistical specification (D8).}\relax }}{66}{figure.caption.36}\protected@file@percent }
 \newlabel{figure:labStudyStatSpec}{{4.4}{66}{\textbf {Sample statistical specification (D8).}\relax }{figure.caption.36}{}}
 \@writefile{toc}{\contentsline {subsubsection}{Data workers try to fit analyses to previous projects and familiar approaches.}{67}{section*.37}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Data workers try to minimize their biases by focusing on data.}{69}{section*.38}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Data workers try to minimize their biases by focusing on data.}{68}{section*.38}\protected@file@percent }
 \citation{kandel2012enterprise}
-\@writefile{toc}{\contentsline {subsubsection}{Data workers face challenges obtaining and integrating conceptual and statistical information.}{70}{section*.39}\protected@file@percent }
 \citation{carver2016guidelines}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Takeaways from the Lab Study}{71}{subsection.4.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Data workers face challenges obtaining and integrating conceptual and statistical information.}{70}{section*.39}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Takeaways from the Lab Study}{70}{subsection.4.3.3}\protected@file@percent }
 \citation{grolemund2019:recommendedR,bobriakov2017:top15Python,bobriakov2018:top20Python,prabhu2019:topPython}
 \@writefile{toc}{\contentsline {section}{\numberline {4.4}Analysis of Software Tools}{72}{section.4.4}\protected@file@percent }
 \newlabel{sec:toolsAnalysis}{{4.4}{72}{Analysis of Software Tools}{section.4.4}{}}
@@ -296,43 +296,43 @@
 \citation{graphPadUserGuide}
 \citation{jasp}
 \citation{jmp,jones2011jmp}
+\citation{tidymodels}
+\citation{tidyverse}
+\citation{wickham2014tidy}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Findings and Discussion}{73}{subsection.4.4.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Specialization.}{73}{section*.41}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces \textbf  {Overview of the software tools included in our analysis.}\relax }}{74}{table.caption.40}\protected@file@percent }
 \newlabel{tableAnalysisOfTools}{{4.1}{74}{\textbf {Overview of the software tools included in our analysis.}\relax }{table.caption.40}{}}
-\citation{tidymodels}
-\citation{tidyverse}
-\citation{wickham2014tidy}
 \@writefile{toc}{\contentsline {subsubsection}{Statistical taxonomies.}{75}{section*.42}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Model expression: Syntax and semantics}{76}{section*.43}\protected@file@percent }
 \citation{sumsofsquaresBlog}
-\@writefile{toc}{\contentsline {subsubsection}{Computational issues.}{77}{section*.44}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Model expression: Syntax and semantics}{76}{section*.43}\protected@file@percent }
 \citation{norman1986cognitive}
+\@writefile{toc}{\contentsline {subsubsection}{Computational issues.}{77}{section*.44}\protected@file@percent }
 \citation{parsnip}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Takeaways from the Analysis of Tools}{78}{subsection.4.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Design Implications for Statistical Analysis Software}{78}{section.4.5}\protected@file@percent }
-\newlabel{sec:implications}{{4.5}{78}{Design Implications for Statistical Analysis Software}{section.4.5}{}}
-\@writefile{toc}{\contentsline {subsection}{Connect Model Implementations with Mathematical Equations}{78}{section*.45}\protected@file@percent }
 \citation{pyro}
 \citation{stan}
 \citation{bugs}
 \citation{pymc3}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Takeaways from the Analysis of Tools}{78}{subsection.4.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Design Implications for Statistical Analysis Software}{78}{section.4.5}\protected@file@percent }
+\newlabel{sec:implications}{{4.5}{78}{Design Implications for Statistical Analysis Software}{section.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{Connect Model Implementations with Mathematical Equations}{78}{section*.45}\protected@file@percent }
 \citation{verou2018extending}
 \citation{jun2019tea}
 \@writefile{toc}{\contentsline {subsection}{Express Conceptual Hypotheses to Bootstrap Statistical Model Implementation}{79}{section*.46}\protected@file@percent }
 \citation{eiselmayer2019touchstone2}
 \citation{wacharamanotham2015statsplorer}
-\@writefile{toc}{\contentsline {subsection}{Co-author Conceptual and Statistical Models}{80}{section*.47}\protected@file@percent }
 \citation{hempel2019sketch}
+\@writefile{toc}{\contentsline {subsection}{Co-author Conceptual and Statistical Models}{80}{section*.47}\protected@file@percent }
 \citation{klahr1988dual,schunn1995FourSpace}
 \citation{schunn1995FourSpace}
 \citation{newell1972humanProblemSolving}
+\citation{holland1989induction}
 \@writefile{toc}{\contentsline {section}{\numberline {4.6}Discussion}{81}{section.4.6}\protected@file@percent }
 \newlabel{sec:discussionHypoForm}{{4.6}{81}{Discussion}{section.4.6}{}}
-\citation{holland1989induction}
 \@writefile{toc}{\contentsline {section}{\numberline {4.7}Future Work}{82}{section.4.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.8}Summary of Contributions}{83}{section.4.8}\protected@file@percent }
 \citation{jun2022hypoForm}
+\@writefile{toc}{\contentsline {section}{\numberline {4.8}Summary of Contributions}{83}{section.4.8}\protected@file@percent }
 \citation{mcelreath2020statistical}
 \citation{}
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}Tisane: Authoring statistical models via formal reasoning from conceptual and data relationships}{85}{chapter.5}\protected@file@percent }
@@ -388,25 +388,25 @@
 \@writefile{toc}{\contentsline {subsubsection}{Relationships between Variables}{91}{section*.51}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces The graph representation of the variables and relationships from the usage scenario. \texttt  {causes} edges are labeled with ``causes''. \texttt  {associates\_with} edges are labeled with ``assoc.'' Dashed edges indicate \texttt  {nests\_within} relationships, and dotted edges indicate \texttt  {has} relationships.\relax }}{91}{figure.caption.52}\protected@file@percent }
 \newlabel{fig:figureGraphIRExample}{{5.1}{91}{The graph representation of the variables and relationships from the usage scenario. \texttt {causes} edges are labeled with ``causes''. \texttt {associates\_with} edges are labeled with ``assoc.'' Dashed edges indicate \texttt {nests\_within} relationships, and dotted edges indicate \texttt {has} relationships.\relax }{figure.caption.52}{}}
+\@writefile{toc}{\contentsline {paragraph}{Conceptual relationships.}{91}{section*.53}\protected@file@percent }
 \citation{suzuki2020causal,suzuki2018mechanisms,velentgas2013developing}
 \citation{jun2021hypothesisFormalization}
 \citation{hoyle1995SEM}
-\@writefile{toc}{\contentsline {paragraph}{Conceptual relationships.}{92}{section*.53}\protected@file@percent }
 \citation{gelmanHill2006regression,kreft1998introducing,cohen1988statistical}
 \citation{gelmanHill2006regression}
 \newlabel{fig:figureSDSLToGraphIR}{{5.3.1}{93}{Conceptual relationships}{section*.53}{}}
 \newlabel{sec:data-measurement-relationships}{{5.3.1}{93}{Data measurement relationships}{section*.54}{}}
 \@writefile{toc}{\contentsline {paragraph}{Data measurement relationships.}{93}{section*.54}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Nesting relationships: Hierarchies}{93}{section*.55}\protected@file@percent }
 \citation{gelmanHill2006regression}
 \citation{clark1973language}
-\@writefile{toc}{\contentsline {paragraph}{Nesting relationships: Hierarchies}{94}{section*.55}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Frequency of measures: Repeated measures, Non-nesting composition}{94}{section*.56}\protected@file@percent }
+\citation{vanderweele2019modifiedDisjunctiveCriterion}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Statistical model inference: Interactively querying the graph IR}{95}{subsection.5.3.2}\protected@file@percent }
 \newlabel{sec:interaction_model}{{5.3.2}{95}{Statistical model inference: Interactively querying the graph IR}{subsection.5.3.2}{}}
 \@writefile{toc}{\contentsline {subsubsection}{Preliminary checks}{95}{section*.57}\protected@file@percent }
 \newlabel{sec:prelim-checks}{{5.3.2}{95}{Preliminary checks}{section*.57}{}}
 \@writefile{toc}{\contentsline {subsubsection}{Candidate statistical model generation}{95}{section*.58}\protected@file@percent }
-\citation{vanderweele2019modifiedDisjunctiveCriterion}
 \@writefile{toc}{\contentsline {paragraph}{Deriving Candidate Main Effects}{96}{section*.59}\protected@file@percent }
 \newlabel{fig:figureCandidateMainEffects}{{5.3.2}{96}{Deriving Candidate Main Effects}{section*.59}{}}
 \citation{barr2013random,barr2013randomUpdated}
@@ -415,11 +415,11 @@
 \@writefile{toc}{\contentsline {paragraph}{Deriving Candidate Interaction Effects}{97}{section*.60}\protected@file@percent }
 \newlabel{sec:deriveRandomEffects}{{5.3.2}{97}{Deriving Candidate Random Effects}{section*.61}{}}
 \@writefile{toc}{\contentsline {paragraph}{Deriving Candidate Random Effects}{97}{section*.61}\protected@file@percent }
+\newlabel{sec:family_link_functions}{{5.3.2}{97}{Deriving Candidate Family and Link Functions}{section*.62}{}}
+\@writefile{toc}{\contentsline {paragraph}{Deriving Candidate Family and Link Functions}{97}{section*.62}\protected@file@percent }
 \citation{statsmodelsPaper}
 \citation{jolly2018pymer4}
 \citation{plotlyDash}
-\newlabel{sec:family_link_functions}{{5.3.2}{98}{Deriving Candidate Family and Link Functions}{section*.62}{}}
-\@writefile{toc}{\contentsline {paragraph}{Deriving Candidate Family and Link Functions}{98}{section*.62}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces The available family and link functions in Tisane. Tisane generates code to fit models using \texttt  {statsmodels} and \texttt  {pymer4}. The package \texttt  {statsmodels} supports GLMs without mixed-effects and a wider variety of family and link function combinations. The package \texttt  {pymer4} supports GLMs with mixed effects and has much more limited support for family and link functions. As \texttt  {statsmodels} and \texttt  {pymer} add more support, Tisane can be extended.\relax }}{98}{table.caption.63}\protected@file@percent }
 \newlabel{tab:tableFamilyLinkFunctions}{{5.2}{98}{The available family and link functions in Tisane. Tisane generates code to fit models using \texttt {statsmodels} and \texttt {pymer4}. The package \texttt {statsmodels} supports GLMs without mixed-effects and a wider variety of family and link function combinations. The package \texttt {pymer4} supports GLMs with mixed effects and has much more limited support for family and link functions. As \texttt {statsmodels} and \texttt {pymer} add more support, Tisane can be extended.\relax }{table.caption.63}{}}
 \@writefile{toc}{\contentsline {subsubsection}{Eliciting Analyst Input for Disambiguation\xspace  }{98}{section*.64}\protected@file@percent }
@@ -435,16 +435,16 @@
 \newlabel{sec:tisane_case_studies}{{5.4}{101}{Initial evaluation: Case studies with researchers}{section.5.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Case Study 1: Planning a new study}{101}{subsection.5.4.1}\protected@file@percent }
 \citation{norman2013doet}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Case Study 2: Analyzing data for a paper submission}{102}{subsection.5.4.2}\protected@file@percent }
 \citation{suzuki2020causal,suzuki2018mechanisms,velentgas2013developing}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}Case Study 3: Developing models to inform future models}{104}{subsection.5.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Case Study 2: Analyzing data for a paper submission}{102}{subsection.5.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}Case Study 3: Developing models to inform future models}{103}{subsection.5.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{System changes and Takeaways}{104}{section*.67}\protected@file@percent }
 \citation{jun2022tisane}
-\@writefile{toc}{\contentsline {subsubsection}{System changes and Takeaways}{105}{section*.67}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {5.5}Limitations and Motivation for Re-design}{105}{section.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.6}Elicitation lab study}{105}{section.5.6}\protected@file@percent }
+\newlabel{sec:exploratoryStudy}{{5.6}{105}{Elicitation lab study}{section.5.6}{}}
 \citation{winters2021heartbeat}
 \citation{jun2022tisane}
-\@writefile{toc}{\contentsline {section}{\numberline {5.6}Elicitation lab study}{106}{section.5.6}\protected@file@percent }
-\newlabel{sec:exploratoryStudy}{{5.6}{106}{Elicitation lab study}{section.5.6}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.6.1}Method}{106}{subsection.5.6.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.6.2}Key Observations}{107}{subsection.5.6.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Participants want to express conceptual knowledge at varying degrees of specificity.}{107}{section*.68}\protected@file@percent }
@@ -453,30 +453,30 @@
 \@writefile{toc}{\contentsline {subsubsection}{Participants expected more syntactic sugar for specifying data collection details.}{109}{section*.71}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.6.3}DSL Re-design goals}{109}{subsection.5.6.3}\protected@file@percent }
 \newlabel{sec:rtisane_design_implications}{{5.6.3}{109}{DSL Re-design goals}{subsection.5.6.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.7}Second Release: rTisane}{110}{section.5.7}\protected@file@percent }
-\newlabel{sec:rTisane}{{5.7}{110}{Second Release: rTisane}{section.5.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.7}Second Release: rTisane}{109}{section.5.7}\protected@file@percent }
+\newlabel{sec:rTisane}{{5.7}{109}{Second Release: rTisane}{section.5.7}{}}
 \newlabel{lst:rTisaneProgram}{{5.1}{110}{Sample \rTisane program}{lstlisting.5.1}{}}
 \@writefile{lol}{\contentsline {lstlisting}{\numberline {5.1}Sample rTisane\xspace  program.}{110}{lstlisting.5.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.7.1}Declaring variables}{110}{subsection.5.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.7.2}Expressing a conceptual model}{111}{subsection.5.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7.2}Expressing a conceptual model}{110}{subsection.5.7.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.7.3}Querying for a statistical model}{111}{subsection.5.7.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.7.4}Conceptual Model Disambiguation}{111}{subsection.5.7.4}\protected@file@percent }
 \newlabel{subsec:conceptualModelDisambig}{{5.7.4}{111}{Conceptual Model Disambiguation}{subsection.5.7.4}{}}
 \citation{vanderweele2019modifiedDisjunctiveCriterion}
 \citation{cinelli2020controls}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.7.5}Statistical model derivation and disambiguation}{112}{subsection.5.7.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.8}Summative Evaluation: Controlled lab study}{113}{section.5.8}\protected@file@percent }
-\newlabel{sec:summativeEval}{{5.8}{113}{Summative Evaluation: Controlled lab study}{section.5.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.8}Summative Evaluation: Controlled lab study}{112}{section.5.8}\protected@file@percent }
+\newlabel{sec:summativeEval}{{5.8}{112}{Summative Evaluation: Controlled lab study}{section.5.8}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.8.1}Study design}{113}{subsection.5.8.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Participants}{114}{section*.72}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Participants}{113}{section*.72}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.8.2}Analysis and Results}{114}{subsection.5.8.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\textbf  {RQ1 - Conceptual models}\xspace  }{114}{section*.73}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\textbf  {RQ2 - Statistical models}\xspace  }{114}{section*.74}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{\textbf  {RQ3 - Learning}\xspace  }{114}{section*.75}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.8.3}Limitations}{115}{subsection.5.8.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.9}Discussion, Limitations, and Future Work}{115}{section.5.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.8.3}Limitations}{114}{subsection.5.8.3}\protected@file@percent }
 \citation{shadish2010campbell}
-\@writefile{toc}{\contentsline {section}{\numberline {5.10}Summary of Contributions}{116}{section.5.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.9}Discussion, Limitations, and Future Work}{115}{section.5.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.10}Summary of Contributions}{115}{section.5.10}\protected@file@percent }
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion}{117}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -487,264 +487,272 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}Challenge 1: Designing the \textit  {right} level of abstraction}{117}{subsection.6.1.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}Challenge 2: Representing and reasoning about analysis decisions}{118}{subsection.6.1.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.1.3}Challenge 3: Interaction as reflection}{118}{subsection.6.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Recent developments}{119}{section.6.2}\protected@file@percent }
+\newlabel{sec:recentDevelopments}{{6.2}{119}{Recent developments}{section.6.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Construct validity: Within reach with the usage of LLMs}{119}{subsection.6.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}What about in the face of LLMs?}{119}{subsection.6.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Limitations and Future work}{119}{section.6.3}\protected@file@percent }
+\newlabel{sec:futureWork}{{6.3}{119}{Limitations and Future work}{section.6.3}{}}
+\newlabel{todopage:1}{{1}{119}{Limitations and Future work}{todo.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}Support interpretation of statistical results}{119}{subsection.6.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Connect statistical modeling and testing}{119}{subsection.6.3.2}\protected@file@percent }
 \citation{chen1976ERDiagram}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Limitations and Future work}{119}{section.6.2}\protected@file@percent }
-\newlabel{sec:futureWork}{{6.2}{119}{Limitations and Future work}{section.6.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Support interpretation of statistical results}{119}{subsection.6.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Connect statistical modeling and testing}{119}{subsection.6.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.3}Develop a grammar of study design}{119}{subsection.6.2.3}\protected@file@percent }
 \citation{}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.4}Support more phases of the data lifecycle}{120}{subsection.6.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.5}Promote analytical best practices in science}{120}{subsection.6.2.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Improving data science education}{120}{section.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}Develop a grammar of study design}{120}{subsection.6.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.4}Support more phases of the data lifecycle}{120}{subsection.6.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.5}Promote analytical best practices in science}{120}{subsection.6.3.5}\protected@file@percent }
 \citation{mcnamara2018keyAttributes}
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}Impact}{121}{section.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.6}Improving data science education}{121}{subsection.6.3.6}\protected@file@percent }
 \citation{jun2019tea}
 \citation{jun2022tisane}
 \citation{jun2019tea,jun2022tisane}
-\bibstyle{ACM-Reference-Format}
-\bibdata{references.bib,lit-survey-papers.bib}
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Impact}{122}{section.6.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {6.5}Closing Remarks}{122}{section.6.5}\protected@file@percent }
-\bibcite{JFE8}{{1}{2019}{{Aggarwal et~al\mbox  {.}}}{{Aggarwal, Dahiya, and Prabhala}}}
-\bibcite{alspaugh2018futzing}{{2}{2018}{{Alspaugh et~al\mbox  {.}}}{{Alspaugh, Zokaei, Liu, Jin, and Hearst}}}
-\bibcite{N5}{{3}{2019}{{Argelaguet et~al\mbox  {.}}}{{Argelaguet, Clark, Mohammed, Stapel, Krueger, Kapourani, Imaz-Rosshandler, Lohoff, Xiang, Hanna, et~al\mbox  {.}}}}
-\bibcite{arslan2020formr}{{4}{2020}{{Arslan et~al\mbox  {.}}}{{Arslan, Walther, and Tata}}}
-\bibcite{APATFSI}{{5}{1996}{{Association}}{{Association}}}
-\bibcite{american1983publication}{{6}{1983}{{Association et~al\mbox  {.}}}{{Association et~al\mbox  {.}}}}
-\bibcite{bakshy2014planout}{{7}{2014}{{Bakshy et~al\mbox  {.}}}{{Bakshy, Eckles, and Bernstein}}}
-\bibcite{PS2}{{8}{2019}{{Ballard et~al\mbox  {.}}}{{Ballard, Sewell, Cosgrove, and Neal}}}
-\bibcite{barr2013randomUpdated}{{9}{2013}{{Barr}}{{Barr}}}
-\bibcite{barr2013random}{{10}{2013}{{Barr et~al\mbox  {.}}}{{Barr, Levy, Scheepers, and Tily}}}
-\bibcite{bates2014fittingLme4}{{11}{2014}{{Bates et~al\mbox  {.}}}{{Bates, M{\"a}chler, Bolker, and Walker}}}
-\bibcite{bates2014lme4Ref}{{12}{2019}{{Bates et~al\mbox  {.}}}{{Bates, M{\"a}chler, Bolker, Walker, Christensen, Singmann, Dai, Scheipl, Grothendieck, Green, and Fox}}}
-\bibcite{battle2019EVA}{{13}{2019}{{Battle and Heer}}{{Battle and Heer}}}
-\bibcite{N6}{{14}{2019}{{B{\'e}n{\'e}chet et~al\mbox  {.}}}{{B{\'e}n{\'e}chet, De~Simone, Di~Lucia, Cilenti, Barbiera, Le~Bert, Fumagalli, Lusito, Moalli, Bianchessi, et~al\mbox  {.}}}}
-\bibcite{N2}{{15}{2019}{{Bertholet et~al\mbox  {.}}}{{Bertholet, Chouchani, Kazak, Angelin, Fedorenko, Long, Vidoni, Garrity, Cho, Terada, et~al\mbox  {.}}}}
-\bibcite{bertin2011graphics}{{16}{2011}{{Bertin}}{{Bertin}}}
-\bibcite{betancourt2020bayesianWorkflow}{{17}{2020}{{Betancourt}}{{Betancourt}}}
-\bibcite{PS0}{{18}{2019}{{Biderman et~al\mbox  {.}}}{{Biderman, Luria, Teodorescu, Hajaj, and Goshen-Gottstein}}}
-\bibcite{pyro}{{19}{2019}{{Bingham et~al\mbox  {.}}}{{Bingham, Chen, Jankowiak, Obermeyer, Pradhan, Karaletsos, Singh, Szerlip, Horsfall, and Goodman}}}
-\bibcite{blair2019declaring}{{20}{2019a}{{Blair et~al\mbox  {.}}}{{Blair, Cooper, Coppock, and Humphreys}}}
-\bibcite{blair2019declareDesign}{{21}{2019b}{{Blair et~al\mbox  {.}}}{{Blair, Cooper, Coppock, and Humphreys}}}
-\bibcite{bobriakov2017:top15Python}{{22}{2017}{{Bobriakov}}{{Bobriakov}}}
-\bibcite{bobriakov2018:top20Python}{{23}{2018}{{Bobriakov}}{{Bobriakov}}}
-\bibcite{bolker2009generalized}{{24}{2009}{{Bolker et~al\mbox  {.}}}{{Bolker, Brooks, Clark, Geange, Poulsen, Stevens, and White}}}
-\bibcite{borgo2012psychtoolbox}{{25}{2012}{{Borgo et~al\mbox  {.}}}{{Borgo, Soranzo, and Grassi}}}
-\bibcite{randomForestR}{{26}{2018}{{Breiman et~al\mbox  {.}}}{{Breiman, Cutler, Liaw, and Wiener}}}
-\bibcite{glmmtmbPaper}{{27}{2017}{{Brooks et~al\mbox  {.}}}{{Brooks, Kristensen, van Benthem, Magnusson, Berg, Nielsen, Skaug, Machler, and Bolker}}}
-\bibcite{ucla:whatstat}{{28}{2019}{{Bruin}}{{Bruin}}}
-\bibcite{PNAS5}{{29}{2019}{{Bughio et~al\mbox  {.}}}{{Bughio, Huckell, and Maggert}}}
-\bibcite{scikitAPIPaper}{{30}{2013}{{Buitinck et~al\mbox  {.}}}{{Buitinck, Louppe, Blondel, Pedregosa, Mueller, Grisel, Niculae, Prettenhofer, Gramfort, Grobler, et~al\mbox  {.}}}}
-\bibcite{burkner2017brms}{{31}{2017}{{B{\"u}rkner et~al\mbox  {.}}}{{B{\"u}rkner et~al\mbox  {.}}}}
-\bibcite{brmsRef}{{32}{2016}{{B{\"u}rkner and Buerkner}}{{B{\"u}rkner and Buerkner}}}
-\bibcite{JFE6}{{33}{2019a}{{Caggese et~al\mbox  {.}}}{{Caggese, Cu{\~n}at, and Metzger}}}
-\bibcite{JFE7}{{34}{2019b}{{Caggese et~al\mbox  {.}}}{{Caggese, Cu{\~n}at, and Metzger}}}
-\bibcite{cairns2007hci}{{35}{2007}{{Cairns}}{{Cairns}}}
-\bibcite{N3}{{36}{2019}{{Campbell et~al\mbox  {.}}}{{Campbell, Wilson, Moore, Riser, Brayton, Mazloff, and Talley}}}
-\bibcite{stan}{{37}{2017}{{Carpenter et~al\mbox  {.}}}{{Carpenter, Gelman, D.~Hoffman, Lee, Goodrich, Betancourt, Brubaker, Guo, Li, and Riddell}}}
-\bibcite{carver2016guidelines}{{38}{2016}{{Carver et~al\mbox  {.}}}{{Carver, Everson, Gabrosek, Horton, Lock, Mocko, Rossman, Roswell, Velleman, Witmer, et~al\mbox  {.}}}}
-\bibcite{chasins2018rousillon}{{39}{2018}{{Chasins et~al\mbox  {.}}}{{Chasins, Mueller, and Bodik}}}
-\bibcite{chen1976ERDiagram}{{40}{1976}{{Chen}}{{Chen}}}
-\bibcite{edgeROverview}{{41}{2020a}{{Chen et~al\mbox  {.}}}{{Chen, Lun, McCarthy, Ritchie, Phipson, Hu, Zhou, Robinson, and Smyth}}}
-\bibcite{edgeRUsersGuide}{{42}{2020b}{{Chen et~al\mbox  {.}}}{{Chen, McCarthy, Ritchie, Robinson, and Smyth}}}
-\bibcite{PS3}{{43}{2019}{{Chernyak et~al\mbox  {.}}}{{Chernyak, Leimgruber, Dunham, Hu, and Blake}}}
-\bibcite{keras}{{44}{2015}{{Chollet et~al\mbox  {.}}}{{Chollet et~al\mbox  {.}}}}
-\bibcite{PNAS4}{{45}{2019}{{Choy et~al\mbox  {.}}}{{Choy, Moon, Ravindran, Bray, Robinson, Archuleta, Shi, Peti, Tatchell, and Page}}}
-\bibcite{N8}{{46}{2019}{{Church et~al\mbox  {.}}}{{Church, Donoughe, de~Medeiros, and Extavour}}}
-\bibcite{cinelli2020controls}{{47}{2020}{{Cinelli et~al\mbox  {.}}}{{Cinelli, Forney, and Pearl}}}
-\bibcite{clark1973language}{{48}{1973}{{Clark}}{{Clark}}}
-\bibcite{cohen1988statistical}{{49}{1988}{{Cohen}}{{Cohen}}}
-\bibcite{cohen2013applied}{{50}{2013}{{Cohen et~al\mbox  {.}}}{{Cohen, Cohen, West, and Aiken}}}
-\bibcite{plotlyDash}{{51}{[n. d.]}{{Community}}{{Community}}}
-\bibcite{JFE3}{{52}{2019}{{Crane et~al\mbox  {.}}}{{Crane, Koch, and Michenaud}}}
-\bibcite{jspsychR}{{53}{[n. d.]}{{Crump}}{{Crump}}}
-\bibcite{deLeeuw2015jspsych}{{54}{2015a}{{De~Leeuw}}{{De~Leeuw}}}
-\bibcite{de2015jspsych}{{55}{2015b}{{De~Leeuw}}{{De~Leeuw}}}
-\bibcite{de2008z3}{{56}{2008}{{De~Moura and Bj{\o }rner}}{{De~Moura and Bj{\o }rner}}}
-\bibcite{N1}{{57}{2019}{{D{\'e}troit et~al\mbox  {.}}}{{D{\'e}troit, Mijares, Corny, Daver, Zanolli, Dizon, Robles, Gr{\"u}n, and Piper}}}
-\bibcite{JFE0}{{58}{2019}{{Di~Maggio et~al\mbox  {.}}}{{Di~Maggio, Franzoni, Kermani, and Sommavilla}}}
-\bibcite{efron1992bootstrap}{{59}{1992}{{Efron}}{{Efron}}}
-\bibcite{ehrlich1973participation}{{60}{1973}{{Ehrlich}}{{Ehrlich}}}
-\bibcite{eiselmayer2019touchstone2}{{61}{2019}{{Eiselmayer et~al\mbox  {.}}}{{Eiselmayer, Wacharamanotham, Beaudouin-Lafon, and Mackay}}}
-\bibcite{CHI4}{{62}{2019}{{Eslami et~al\mbox  {.}}}{{Eslami, Vaccaro, Lee, Elazari Bar~On, Gilbert, and Karahalios}}}
-\bibcite{CHI9}{{63}{2019}{{Fafard et~al\mbox  {.}}}{{Fafard, Stavness, Dechant, Mandryk, Zhou, and Fels}}}
-\bibcite{feigenspan2012measuring}{{64}{2012}{{Feigenspan et~al\mbox  {.}}}{{Feigenspan, K{\"a}stner, Liebig, Apel, and Hanenberg}}}
-\bibcite{autosklearn}{{65}{2015}{{Feurer et~al\mbox  {.}}}{{Feurer, Klein, Eggensperger, Springenberg, Blum, and Hutter}}}
-\bibcite{field2012discoveringR}{{66}{2012}{{Field et~al\mbox  {.}}}{{Field, Miles, and Field}}}
-\bibcite{fisher1937design}{{67}{1937}{{Fisher}}{{Fisher}}}
-\bibcite{glmnetRef}{{68}{2020}{{Friedman et~al\mbox  {.}}}{{Friedman, Hastie, Tibshirani, Narasimhan, Tay, Simon, and Qian}}}
-\bibcite{PNAS1}{{69}{2019}{{Fuzik et~al\mbox  {.}}}{{Fuzik, Rehman, Girach, Miklosi, Korchynska, Arque, Romanov, Hanics, Wagner, Meletis, et~al\mbox  {.}}}}
-\bibcite{gabry2019visualization}{{70}{2019}{{Gabry et~al\mbox  {.}}}{{Gabry, Simpson, Vehtari, Betancourt, and Gelman}}}
-\bibcite{CHI0}{{71}{2019}{{Gehrke et~al\mbox  {.}}}{{Gehrke, Akman, Lopes, Chen, Singh, Chen, Lin, and Gramann}}}
-\bibcite{gelmanFixedRandom}{{72}{2005}{{Gelman}}{{Gelman}}}
-\bibcite{gelman2013bayesianTextbook}{{73}{2013}{{Gelman et~al\mbox  {.}}}{{Gelman, Carlin, Stern, Dunson, Vehtari, and Rubin}}}
-\bibcite{gelmanHill2006regression}{{74}{2006}{{Gelman and Hill}}{{Gelman and Hill}}}
-\bibcite{gelman2013garden}{{75}{2013}{{Gelman and Loken}}{{Gelman and Loken}}}
-\bibcite{gelman2020bayesianWorkflow}{{76}{2020}{{Gelman et~al\mbox  {.}}}{{Gelman, Vehtari, Simpson, Margossian, Carpenter, Yao, Kennedy, Gabry, B{\"u}rkner, and Modr{\'a}k}}}
-\bibcite{graphPadUserGuide}{{77}{2020}{{GraphPad~Software}}{{GraphPad~Software}}}
-\bibcite{greenland1999causal}{{78}{1999}{{Greenland et~al\mbox  {.}}}{{Greenland, Pearl, and Robins}}}
-\bibcite{JFE9}{{79}{2019}{{Greenwood et~al\mbox  {.}}}{{Greenwood, Shleifer, and You}}}
-\bibcite{JFE5}{{80}{2019}{{Griffin et~al\mbox  {.}}}{{Griffin, Kruger, and Maturana}}}
-\bibcite{grolemund2019:recommendedR}{{81}{2019}{{Grolemund}}{{Grolemund}}}
-\bibcite{grolemund2014cognitive}{{82}{2014}{{Grolemund and Wickham}}{{Grolemund and Wickham}}}
-\bibcite{guimbretiere2007experiscope}{{83}{2007}{{Guimbreti{\`e}re et~al\mbox  {.}}}{{Guimbreti{\`e}re, Dixon, and Hinckley}}}
-\bibcite{MCMCglmmRef}{{84}{2020}{{Hadfield}}{{Hadfield}}}
-\bibcite{MCMCglmmPaper}{{85}{2010}{{Hadfield et~al\mbox  {.}}}{{Hadfield et~al\mbox  {.}}}}
-\bibcite{PNAS3}{{86}{2019}{{Halder and Milner}}{{Halder and Milner}}}
-\bibcite{CHI2}{{87}{2019}{{Hamdan et~al\mbox  {.}}}{{Hamdan, Wagner, Voelker, Steimle, and Borchers}}}
-\bibcite{harrison2020psychtestr}{{88}{2020}{{Harrison}}{{Harrison}}}
-\bibcite{glmnetVignette}{{89}{2014}{{Hastie and Qian}}{{Hastie and Qian}}}
-\bibcite{hempel2019sketch}{{90}{2019}{{Hempel et~al\mbox  {.}}}{{Hempel, Lubin, and Chugh}}}
-\bibcite{PS1}{{91}{2019}{{Hernández et~al\mbox  {.}}}{{Hernández, Ángeles Palomar-García, Nohales-Nieto, Olcina-Sempere, Villar-Rodríguez, Pastor, Ávila, and Parcet}}}
-\bibcite{hoffswell2018setcola}{{92}{2018}{{Hoffswell et~al\mbox  {.}}}{{Hoffswell, Borning, and Heer}}}
-\bibcite{holland1989induction}{{93}{1989}{{Holland et~al\mbox  {.}}}{{Holland, Holyoak, Nisbett, and Thagard}}}
-\bibcite{holm1979simple}{{94}{1979}{{Holm}}{{Holm}}}
-\bibcite{hoyle1995SEM}{{95}{1995}{{Hoyle}}{{Hoyle}}}
-\bibcite{JFE1}{{96}{2019}{{Huang et~al\mbox  {.}}}{{Huang, Huang, and Zhang}}}
-\bibcite{sas}{{97}{2021}{{Inc.}}{{Inc.}}}
-\bibcite{N0}{{98}{2019}{{Johnston et~al\mbox  {.}}}{{Johnston, Su, Pinckney, Critton, Boyer, Krishnakumar, Corbett, Rankin, Dibella, Campbell, et~al\mbox  {.}}}}
-\bibcite{jolly2018pymer4}{{99}{2018}{{Jolly}}{{Jolly}}}
-\bibcite{jones2011jmp}{{100}{2011}{{Jones and Sall}}{{Jones and Sall}}}
-\bibcite{scipy}{{101}{2021a}{{Jones et~al\mbox  {.}}}{{Jones, Oliphant, Peterson, et~al\mbox  {.}}}}
-\bibcite{scipyStats}{{102}{2021b}{{Jones et~al\mbox  {.}}}{{Jones, Oliphant, Peterson, et~al\mbox  {.}}}}
-\bibcite{scipyOptimize}{{103}{2021c}{{Jones et~al\mbox  {.}}}{{Jones, Oliphant, Peterson, et~al\mbox  {.}}}}
-\bibcite{jun2022hypoForm}{{104}{2022a}{{Jun et~al\mbox  {.}}}{{Jun, Birchfield, De~Moura, Heer, and Just}}}
-\bibcite{jun2021hypothesisFormalization}{{105}{2022b}{{Jun et~al\mbox  {.}}}{{Jun, Birchfield, De~Moura, Heer, and Just}}}
-\bibcite{jun2019tea}{{106}{2019}{{Jun et~al\mbox  {.}}}{{Jun, Daum, Roesch, Chasins, Berger, Just, and Reinecke}}}
-\bibcite{jun2023rTisane}{{107}{[n. d.]}{{Jun et~al\mbox  {.}}}{{Jun, Misback, Heer, and Just}}}
-\bibcite{tisaneWebsite}{{108}{[n. d.]}{{Jun and Seo}}{{Jun and Seo}}}
-\bibcite{jun2022tisane}{{109}{2022c}{{Jun et~al\mbox  {.}}}{{Jun, Seo, Heer, and Just}}}
-\bibcite{kabacoff2011action}{{110}{2011}{{Kabacoff}}{{Kabacoff}}}
-\bibcite{kale2019decision}{{111}{2019}{{Kale et~al\mbox  {.}}}{{Kale, Kay, and Hullman}}}
-\bibcite{kandel2011wrangler}{{112}{2011}{{Kandel et~al\mbox  {.}}}{{Kandel, Paepcke, Hellerstein, and Heer}}}
-\bibcite{kandel2012enterprise}{{113}{2012}{{Kandel et~al\mbox  {.}}}{{Kandel, Paepcke, Hellerstein, and Heer}}}
-\bibcite{kaptein2012rethinking}{{114}{2012}{{Kaptein and Robertson}}{{Kaptein and Robertson}}}
-\bibcite{kay2016researcher}{{115}{2016}{{Kay et~al\mbox  {.}}}{{Kay, Nelson, and Hekler}}}
-\bibcite{kerr1998harking}{{116}{1998}{{Kerr}}{{Kerr}}}
-\bibcite{klahr1988dual}{{117}{1988}{{Klahr and Dunbar}}{{Klahr and Dunbar}}}
-\bibcite{klahr1999studies}{{118}{1999}{{Klahr and Simon}}{{Klahr and Simon}}}
-\bibcite{klein2007dataFrame}{{119}{2007}{{Klein et~al\mbox  {.}}}{{Klein, Phillips, Rall, and Peluso}}}
-\bibcite{klemmerCoursera}{{120}{2019}{{Klemmer and Wobbrock}}{{Klemmer and Wobbrock}}}
-\bibcite{CHI6}{{121}{2019}{{Koch et~al\mbox  {.}}}{{Koch, Lucero, Hegemann, and Oulasvirta}}}
-\bibcite{sumsofsquaresBlog}{{122}{2019}{{Korstanje}}{{Korstanje}}}
-\bibcite{PS6}{{123}{2019}{{Kouchaki et~al\mbox  {.}}}{{Kouchaki, Gino, and Feldman}}}
-\bibcite{kreft1998introducing}{{124}{1998}{{Kreft et~al\mbox  {.}}}{{Kreft, Kreft, and de~Leeuw}}}
-\bibcite{parsnip}{{125}{2020}{{Kuhn et~al\mbox  {.}}}{{Kuhn, Vaughan, and RStudio}}}
-\bibcite{tidymodels}{{126}{2020}{{Kuhn and Wickham}}{{Kuhn and Wickham}}}
-\bibcite{H2OAutoML20}{{127}{2020}{{LeDell and Poirier}}{{LeDell and Poirier}}}
-\bibcite{CHI8}{{128}{2019a}{{Lee et~al\mbox  {.}}}{{Lee, Ackermans, van As, Chang, Lucas, and IJsselsteijn}}}
-\bibcite{lee2019robust}{{129}{2019b}{{Lee et~al\mbox  {.}}}{{Lee, Criss, Devezer, Donkin, Etz, Leite, Matzke, Rouder, Trueblood, White, et~al\mbox  {.}}}}
-\bibcite{PNAS7}{{130}{2019}{{Leong et~al\mbox  {.}}}{{Leong, Cheung, Dai, Tsao, Tsang, Dawson, Mun Yee~Ko, and Lung}}}
-\bibcite{kent:tutorials}{{131}{2019}{{Libraries}}{{Libraries}}}
-\bibcite{PNAS8}{{132}{2019c}{{Liu et~al\mbox  {.}}}{{Liu, Ge, Liu, Dong, Shan, Chen, Yao, Li, Yao, Zhou, Zhang, Jiang, Zhao, and Yan}}}
-\bibcite{liu2019understanding}{{133}{2019b}{{Liu et~al\mbox  {.}}}{{Liu, Boukhelifa, and Eagan}}}
-\bibcite{liu2019paths}{{134}{2019a}{{Liu et~al\mbox  {.}}}{{Liu, Althoff, and Heer}}}
-\bibcite{stataLang}{{135}{2020a}{{LLC}}{{LLC}}}
-\bibcite{stataRef}{{136}{2020b}{{LLC}}{{LLC}}}
-\bibcite{lloyd2014automatic}{{137}{2014}{{Lloyd et~al\mbox  {.}}}{{Lloyd, Duvenaud, Grosse, Tenenbaum, and Ghahramani}}}
-\bibcite{lo2015transform}{{138}{2015}{{Lo and Andrews}}{{Lo and Andrews}}}
-\bibcite{loncaric2016cozy}{{139}{2016}{{Loncaric et~al\mbox  {.}}}{{Loncaric, Torlak, and Ernst}}}
-\bibcite{bugs}{{140}{2000}{{Lunn et~al\mbox  {.}}}{{Lunn, Thomas, Best, and Spiegelhalter}}}
-\bibcite{mackay2007touchstone}{{141}{2007}{{Mackay et~al\mbox  {.}}}{{Mackay, Appert, Beaudouin-Lafon, Chapuis, Du, Fekete, and Guiard}}}
-\bibcite{glmmtmbRef}{{142}{2020}{{Magnusson et~al\mbox  {.}}}{{Magnusson, Skaug, Nielsen, Berg, Kristensen, Maechler, van Bentham, Bolker, Sadat, L{\"u}decke, Lenth, O'Brien, and Brooks}}}
-\bibcite{N9}{{143}{2019}{{Mauffrey et~al\mbox  {.}}}{{Mauffrey, Tchitchek, Barroca, Bemelmans, Firlej, Allory, Romeo, and Magnon}}}
-\bibcite{PNAS9}{{144}{2019}{{McCloskey et~al\mbox  {.}}}{{McCloskey, Taly, Monti, Brenner, and Colwell}}}
-\bibcite{mcdonald2019reliability}{{145}{2019}{{McDonald et~al\mbox  {.}}}{{McDonald, Schoenebeck, and Forte}}}
-\bibcite{mcelreath2020statistical}{{146}{2020}{{McElreath}}{{McElreath}}}
-\bibcite{mcnamara2018keyAttributes}{{147}{2018}{{McNamara}}{{McNamara}}}
-\bibcite{moritz2019formalizing}{{148}{2019}{{Moritz et~al\mbox  {.}}}{{Moritz, Wang, Nelson, Lin, Smith, Howe, and Heer}}}
-\bibcite{mplus}{{149}{[n. d.]}{{Muthén}}{{Muthén}}}
-\bibcite{JFE2}{{150}{2019}{{Nadauld et~al\mbox  {.}}}{{Nadauld, Sensoy, Vorkink, and Weisbach}}}
-\bibcite{xprmntr}{{151}{[n. d.]}{{Navarro}}{{Navarro}}}
-\bibcite{jaysire}{{152}{2021}{{Navarro}}{{Navarro}}}
-\bibcite{nelder1972generalized}{{153}{1972}{{Nelder and Wedderburn}}{{Nelder and Wedderburn}}}
-\bibcite{newell1972humanProblemSolving}{{154}{1972}{{Newell et~al\mbox  {.}}}{{Newell, Simon, et~al\mbox  {.}}}}
-\bibcite{PS9}{{155}{2019}{{Ngo et~al\mbox  {.}}}{{Ngo, Horner, Newcombe, and Olson}}}
-\bibcite{norman2013doet}{{156}{2013}{{Norman}}{{Norman}}}
-\bibcite{norman1986cognitive}{{157}{1986}{{Norman}}{{Norman}}}
-\bibcite{jasp}{{158}{2020}{{of~Amsterdam}}{{of~Amsterdam}}}
-\bibcite{oliphant2006numpy}{{159}{2006}{{Oliphant}}{{Oliphant}}}
-\bibcite{N4}{{160}{2019}{{Ombrato et~al\mbox  {.}}}{{Ombrato, Nolan, Kurelac, Mavousian, Bridgeman, Heinze, Chakravarty, Horswell, Gonzalez-Gualda, Matacchione, et~al\mbox  {.}}}}
-\bibcite{N7}{{161}{2019}{{Otrokov et~al\mbox  {.}}}{{Otrokov, Klimovskikh, Bentmann, Estyunin, Zeugner, Aliev, Ga{\ss }, Wolter, Koroleva, Shikin, et~al\mbox  {.}}}}
-\bibcite{panchekha2018verifying}{{162}{2018}{{Panchekha et~al\mbox  {.}}}{{Panchekha, Geller, Ernst, Tatlock, and Kamil}}}
-\bibcite{PS7}{{163}{2019}{{Papeo et~al\mbox  {.}}}{{Papeo, Goupil, and Soto-Faraco}}}
-\bibcite{pearl1995causal}{{164}{1995a}{{Pearl}}{{Pearl}}}
-\bibcite{pearl1995doCalculus}{{165}{1995b}{{Pearl}}{{Pearl}}}
-\bibcite{pearl2000models}{{166}{2000}{{Pearl et~al\mbox  {.}}}{{Pearl et~al\mbox  {.}}}}
-\bibcite{scikitPaper}{{167}{2011}{{Pedregosa et~al\mbox  {.}}}{{Pedregosa, Varoquaux, Gramfort, Michel, Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg, et~al\mbox  {.}}}}
-\bibcite{peirce2007psychopy}{{168}{2007}{{Peirce}}{{Peirce}}}
-\bibcite{statsmodelsRef}{{169}{2020}{{Perktold et~al\mbox  {.}}}{{Perktold, Seabold, Taylor, and statsmodels developers}}}
-\bibcite{PS5}{{170}{2019}{{Persson et~al\mbox  {.}}}{{Persson, Asutay, Heilig, Löfberg, Pedersen, Västfjäll, and Tinghög}}}
-\bibcite{pfannkuch1997statistical}{{171}{1997}{{Pfannkuch}}{{Pfannkuch}}}
-\bibcite{pfannkuch2000statistical}{{172}{2000}{{Pfannkuch et~al\mbox  {.}}}{{Pfannkuch, Wild, et~al\mbox  {.}}}}
-\bibcite{nlmeRef}{{173}{2020}{{Pinheiro et~al\mbox  {.}}}{{Pinheiro, Bates, DebRoy, Sarkar, authors, Heisterkamp, Willigen, and R-core}}}
-\bibcite{pirolli2005sensemaking}{{174}{2005}{{Pirolli and Card}}{{Pirolli and Card}}}
-\bibcite{CHI1}{{175}{2019}{{Poon et~al\mbox  {.}}}{{Poon, Giroux, Eloundou-Enyegue, Guimbreti{\`e}re, and Dell}}}
-\bibcite{prabhu2019:topPython}{{176}{2019}{{Prabhu}}{{Prabhu}}}
-\bibcite{mass}{{177}{2020}{{Ripley et~al\mbox  {.}}}{{Ripley, Venables, Bates, Hornik, Gebhardt, , and Firth}}}
-\bibcite{rubin2004teaching}{{178}{2004}{{Rubin}}{{Rubin}}}
-\bibcite{russell1993cost}{{179}{1993}{{Russell et~al\mbox  {.}}}{{Russell, Stefik, Pirolli, and Card}}}
-\bibcite{pymc3}{{180}{2016}{{Salvatier et~al\mbox  {.}}}{{Salvatier, Wiecki, and Fonnesbeck}}}
-\bibcite{sanner1999python}{{181}{1999}{{Sanner et~al\mbox  {.}}}{{Sanner et~al\mbox  {.}}}}
-\bibcite{jmp}{{182}{2020a}{{SAS}}{{SAS}}}
-\bibcite{jmpDOE}{{183}{2020b}{{SAS}}{{SAS}}}
-\bibcite{satyanarayan2017vega}{{184}{2017}{{Satyanarayan et~al\mbox  {.}}}{{Satyanarayan, Moritz, Wongsuphasawat, and Heer}}}
-\bibcite{schunn1995FourSpace}{{185}{1995}{{Schunn and Klahr}}{{Schunn and Klahr}}}
-\bibcite{schunn1996BeyondTwoSpace}{{186}{1996}{{Schunn and Klahr}}{{Schunn and Klahr}}}
-\bibcite{scikitRef}{{187}{2020}{{scikit-learn developers}}{{scikit-learn developers}}}
-\bibcite{statsmodelsPaper}{{188}{2010}{{Seabold and Perktold}}{{Seabold and Perktold}}}
-\bibcite{shadish2010campbell}{{189}{2010}{{Shadish}}{{Shadish}}}
-\bibcite{CHI5}{{190}{2019a}{{Shin et~al\mbox  {.}}}{{Shin, Onchi, Reyes, Song, Lee, Lee, and Saakes}}}
-\bibcite{CHI7}{{191}{2019b}{{Shin et~al\mbox  {.}}}{{Shin, Onchi, Reyes, Song, Lee, Lee, and Saakes}}}
-\bibcite{gosset}{{192}{2017}{{Sloane and Hardin}}{{Sloane and Hardin}}}
-\bibcite{JFE4}{{193}{2019}{{Smolyansky}}{{Smolyansky}}}
-\bibcite{spirtes1994conditional}{{194}{1994}{{Spirtes}}{{Spirtes}}}
-\bibcite{spirtes1996using}{{195}{1996}{{Spirtes et~al\mbox  {.}}}{{Spirtes, Richardson, Meek, Scheines, and Glymour}}}
-\bibcite{spss}{{196}{2021}{{SPSS}}{{SPSS}}}
-\bibcite{stata}{{197}{2021}{{Stata}}{{Stata}}}
-\bibcite{pewDataset}{{198}{2014}{{Suh}}{{Suh}}}
-\bibcite{suzuki2020causal}{{199}{2020}{{Suzuki et~al\mbox  {.}}}{{Suzuki, Shinozaki, and Yamamoto}}}
-\bibcite{suzuki2018mechanisms}{{200}{2018}{{Suzuki and VanderWeele}}{{Suzuki and VanderWeele}}}
-\bibcite{swearngin2018scout}{{201}{2018}{{Swearngin et~al\mbox  {.}}}{{Swearngin, Ko, and Fogarty}}}
-\bibcite{edibble}{{202}{2021}{{Tanaka}}{{Tanaka}}}
-\bibcite{team2013r}{{203}{2013}{{Team et~al\mbox  {.}}}{{Team et~al\mbox  {.}}}}
-\bibcite{statsCoreRRef}{{204}{2020}{{Team and contributors worldwide}}{{Team and contributors worldwide}}}
-\bibcite{textor2011dagitty}{{205}{2011}{{Textor et~al\mbox  {.}}}{{Textor, Hardt, and Kn{\"u}ppel}}}
-\bibcite{matlab}{{206}{2020a}{{The~MathWorks}}{{The~MathWorks}}}
-\bibcite{matlabStats}{{207}{2020b}{{The~MathWorks}}{{The~MathWorks}}}
-\bibcite{PS4}{{208}{2019}{{Thigpen et~al\mbox  {.}}}{{Thigpen, Petro, Oschwald, Oberauer, and Keil}}}
-\bibcite{autoweka}{{209}{2013}{{Thornton et~al\mbox  {.}}}{{Thornton, Hutter, Hoos, and Leyton-Brown}}}
-\bibcite{vandaele1987participation}{{210}{1987}{{Vandaele}}{{Vandaele}}}
-\bibcite{vanderweele2019modifiedDisjunctiveCriterion}{{211}{2019}{{VanderWeele}}{{VanderWeele}}}
-\bibcite{vargha2000critique}{{212}{2000}{{Vargha and Delaney}}{{Vargha and Delaney}}}
-\bibcite{velentgas2013developing}{{213}{2013}{{Velentgas et~al\mbox  {.}}}{{Velentgas, Dreyer, Nourjah, Smith, Torchia, et~al\mbox  {.}}}}
-\bibcite{venables2013modern}{{214}{2013}{{Venables and Ripley}}{{Venables and Ripley}}}
-\bibcite{PNAS2}{{215}{2019}{{Veneziano et~al\mbox  {.}}}{{Veneziano, Tomasello, Balatti, Palamarchuk, Rassenti, Kipps, Pekarsky, and Croce}}}
-\bibcite{verou2018extending}{{216}{2018}{{Verou et~al\mbox  {.}}}{{Verou, Alrashed, and Karger}}}
-\bibcite{wacharamanotham2015statsplorer}{{217}{2015}{{Wacharamanotham et~al\mbox  {.}}}{{Wacharamanotham, Subramanian, Volkel, and Borchers}}}
-\bibcite{wickham2014tidy}{{218}{2014}{{Wickham et~al\mbox  {.}}}{{Wickham et~al\mbox  {.}}}}
-\bibcite{tidyverse}{{219}{2019}{{Wickham et~al\mbox  {.}}}{{Wickham, Averick, Bryan, Chang, McGowan, Fran{\c {c}}ois, Grolemund, Hayes, Henry, Hester, et~al\mbox  {.}}}}
-\bibcite{wiki:jmp}{{220}{2019a}{{{Wikipedia contributors}}}{{{Wikipedia contributors}}}}
-\bibcite{wiki:r-language}{{221}{2019b}{{{Wikipedia contributors}}}{{{Wikipedia contributors}}}}
-\bibcite{wiki:sas}{{222}{2019c}{{{Wikipedia contributors}}}{{{Wikipedia contributors}}}}
-\bibcite{wiki:spss}{{223}{2019d}{{{Wikipedia contributors}}}{{{Wikipedia contributors}}}}
-\bibcite{wild1999statisticalThinking}{{224}{1999}{{Wild and Pfannkuch}}{{Wild and Pfannkuch}}}
-\bibcite{wilkinson1999statistical}{{225}{1999}{{Wilkinson}}{{Wilkinson}}}
-\bibcite{winters2021heartbeat}{{226}{2021}{{Winters et~al\mbox  {.}}}{{Winters, Walker, and Leslie}}}
-\bibcite{wongsuphasawat2019EDAgoals}{{227}{2019}{{Wongsuphasawat et~al\mbox  {.}}}{{Wongsuphasawat, Liu, and Heer}}}
-\bibcite{yu2020veridical}{{228}{2020}{{Yu and Kumbier}}{{Yu and Kumbier}}}
-\bibcite{CHI3}{{229}{2019}{{Yu et~al\mbox  {.}}}{{Yu, Wei, Vachher, Qin, Liang, Weng, Gu, and Shi}}}
-\bibcite{PNAS0}{{230}{2019}{{Zhao et~al\mbox  {.}}}{{Zhao, Huang, and Chory}}}
-\bibcite{PS8}{{231}{2019}{{Zheng et~al\mbox  {.}}}{{Zheng, Tucker-Drob, and Briley}}}
-\bibcite{PNAS6}{{232}{2019}{{Zhou et~al\mbox  {.}}}{{Zhou, Wu, Yan, Zheng, Chen, Liu, Qi, Calandrelli, Chen, Chien, Su, and Zhong}}}
+\bibstyle{alpha}
+\bibdata{references.bib,lit-survey-papers.bib}
+\bibcite{american1983publication}{{A{$^{+}$}83}{}{{}}{{}}}
+\bibcite{N5}{{ACM{$^{+}$}19}{}{{}}{{}}}
+\bibcite{JFE8}{{ADP19}{}{{}}{{}}}
+\bibcite{APATFSI}{{Ass96}{}{{}}{{}}}
+\bibcite{arslan2020formr}{{AWT20}{}{{}}{{}}}
+\bibcite{alspaugh2018futzing}{{AZL{$^{+}$}18}{}{{}}{{}}}
+\bibcite{burkner2017brms}{{B{$^{+}$}17}{}{{}}{{}}}
+\bibcite{barr2013randomUpdated}{{Bar13}{}{{}}{{}}}
+\bibcite{brmsRef}{{BB16}{}{{}}{{}}}
+\bibcite{bolker2009generalized}{{BBC{$^{+}$}09}{}{{}}{{}}}
+\bibcite{blair2019declaring}{{BCCH19a}{}{{}}{{}}}
+\bibcite{blair2019declareDesign}{{BCCH19b}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{123}{section.6.5}\protected@file@percent }
+\bibcite{pyro}{{BCJ{$^{+}$}19}{}{{}}{{}}}
+\bibcite{N2}{{BCK{$^{+}$}19}{}{{}}{{}}}
+\bibcite{randomForestR}{{BCLW18}{}{{}}{{}}}
+\bibcite{N6}{{BDSDL{$^{+}$}19}{}{{}}{{}}}
+\bibcite{bakshy2014planout}{{BEB14}{}{{}}{{}}}
+\bibcite{bertin2011graphics}{{Ber11}{}{{}}{{}}}
+\bibcite{betancourt2020bayesianWorkflow}{{Bet20}{}{{}}{{}}}
+\bibcite{battle2019EVA}{{BH19}{}{{}}{{}}}
+\bibcite{PNAS5}{{BHM19}{}{{}}{{}}}
+\bibcite{glmmtmbPaper}{{BKvB{$^{+}$}17}{}{{}}{{}}}
+\bibcite{scikitAPIPaper}{{BLB{$^{+}$}13}{}{{}}{{}}}
+\bibcite{barr2013random}{{BLST13}{}{{}}{{}}}
+\bibcite{PS0}{{BLT{$^{+}$}19}{}{{}}{{}}}
+\bibcite{bates2014lme4Ref}{{BMB{$^{+}$}19}{}{{}}{{}}}
+\bibcite{bates2014fittingLme4}{{BMBW14}{}{{}}{{}}}
+\bibcite{bobriakov2017:top15Python}{{Bob17}{}{{}}{{}}}
+\bibcite{bobriakov2018:top20Python}{{Bob18}{}{{}}{{}}}
+\bibcite{ucla:whatstat}{{Bru19}{}{{}}{{}}}
+\bibcite{PS2}{{BSCN19}{}{{}}{{}}}
+\bibcite{borgo2012psychtoolbox}{{BSG12}{}{{}}{{}}}
+\bibcite{keras}{{C{$^{+}$}15}{}{{}}{{}}}
+\bibcite{cairns2007hci}{{Cai07}{}{{}}{{}}}
+\bibcite{JFE6}{{CCM19a}{}{{}}{{}}}
+\bibcite{JFE7}{{CCM19b}{}{{}}{{}}}
+\bibcite{cohen2013applied}{{CCWA13}{}{{}}{{}}}
+\bibcite{N8}{{CDdME19}{}{{}}{{}}}
+\bibcite{carver2016guidelines}{{CEG{$^{+}$}16}{}{{}}{{}}}
+\bibcite{cinelli2020controls}{{CFP20}{}{{}}{{}}}
+\bibcite{stan}{{CGDH{$^{+}$}17}{}{{}}{{}}}
+\bibcite{chen1976ERDiagram}{{Che76}{}{{}}{{}}}
+\bibcite{JFE3}{{CKM19}{}{{}}{{}}}
+\bibcite{clark1973language}{{Cla73}{}{{}}{{}}}
+\bibcite{PS3}{{CLD{$^{+}$}19}{}{{}}{{}}}
+\bibcite{edgeROverview}{{CLM{$^{+}$}20}{}{{}}{{}}}
+\bibcite{chasins2018rousillon}{{CMB18}{}{{}}{{}}}
+\bibcite{PNAS4}{{CMR{$^{+}$}19}{}{{}}{{}}}
+\bibcite{edgeRUsersGuide}{{CMR{$^{+}$}20}{}{{}}{{}}}
+\bibcite{cohen1988statistical}{{Coh88}{}{{}}{{}}}
+\bibcite{plotlyDash}{{Com23}{}{{}}{{}}}
+\bibcite{jspsychR}{{Cru19}{}{{}}{{}}}
+\bibcite{N3}{{CWM{$^{+}$}19}{}{{}}{{}}}
+\bibcite{deLeeuw2015jspsych}{{DL15a}{}{{}}{{}}}
+\bibcite{de2015jspsych}{{DL15b}{}{{}}{{}}}
+\bibcite{de2008z3}{{DMB08}{}{{}}{{}}}
+\bibcite{N1}{{DMC{$^{+}$}19}{}{{}}{{}}}
+\bibcite{JFE0}{{DMFKS19}{}{{}}{{}}}
+\bibcite{efron1992bootstrap}{{Efr92}{}{{}}{{}}}
+\bibcite{ehrlich1973participation}{{Ehr73}{}{{}}{{}}}
+\bibcite{CHI4}{{EVL{$^{+}$}19}{}{{}}{{}}}
+\bibcite{eiselmayer2019touchstone2}{{EWBLM19}{}{{}}{{}}}
+\bibcite{glmnetRef}{{FHT{$^{+}$}20}{}{{}}{{}}}
+\bibcite{fisher1937design}{{Fis37}{}{{}}{{}}}
+\bibcite{autosklearn}{{FKE{$^{+}$}15}{}{{}}{{}}}
+\bibcite{feigenspan2012measuring}{{FKL{$^{+}$}12}{}{{}}{{}}}
+\bibcite{field2012discoveringR}{{FMF12}{}{{}}{{}}}
+\bibcite{PNAS1}{{FRG{$^{+}$}19}{}{{}}{{}}}
+\bibcite{CHI9}{{FSD{$^{+}$}19}{}{{}}{{}}}
+\bibcite{CHI0}{{GAL{$^{+}$}19}{}{{}}{{}}}
+\bibcite{gelman2013bayesianTextbook}{{GCS{$^{+}$}13}{}{{}}{{}}}
+\bibcite{guimbretiere2007experiscope}{{GDH07}{}{{}}{{}}}
+\bibcite{gelmanFixedRandom}{{Gel05}{}{{}}{{}}}
+\bibcite{gelmanHill2006regression}{{GH06}{}{{}}{{}}}
+\bibcite{JFE5}{{GKM19}{}{{}}{{}}}
+\bibcite{gelman2013garden}{{GL13}{}{{}}{{}}}
+\bibcite{greenland1999causal}{{GPR99}{}{{}}{{}}}
+\bibcite{grolemund2019:recommendedR}{{Gro19}{}{{}}{{}}}
+\bibcite{graphPadUserGuide}{{GS20}{}{{}}{{}}}
+\bibcite{gabry2019visualization}{{GSV{$^{+}$}19}{}{{}}{{}}}
+\bibcite{JFE9}{{GSY19}{}{{}}{{}}}
+\bibcite{gelman2020bayesianWorkflow}{{GVS{$^{+}$}20}{}{{}}{{}}}
+\bibcite{grolemund2014cognitive}{{GW14}{}{{}}{{}}}
+\bibcite{MCMCglmmPaper}{{H{$^{+}$}10}{}{{}}{{}}}
+\bibcite{MCMCglmmRef}{{Had20}{}{{}}{{}}}
+\bibcite{PS1}{{HAPGNN{$^{+}$}19}{}{{}}{{}}}
+\bibcite{harrison2020psychtestr}{{Har20}{}{{}}{{}}}
+\bibcite{hoffswell2018setcola}{{HBH18}{}{{}}{{}}}
+\bibcite{holland1989induction}{{HHNT89}{}{{}}{{}}}
+\bibcite{JFE1}{{HHZ19}{}{{}}{{}}}
+\bibcite{hempel2019sketch}{{HLC19}{}{{}}{{}}}
+\bibcite{PNAS3}{{HM19}{}{{}}{{}}}
+\bibcite{holm1979simple}{{Hol79}{}{{}}{{}}}
+\bibcite{hoyle1995SEM}{{Hoy95}{}{{}}{{}}}
+\bibcite{glmnetVignette}{{HQ14}{}{{}}{{}}}
+\bibcite{CHI2}{{HWV{$^{+}$}19}{}{{}}{{}}}
+\bibcite{sas}{{Inc21}{}{{}}{{}}}
+\bibcite{jun2022hypoForm}{{JBDM{$^{+}$}22a}{}{{}}{{}}}
+\bibcite{jun2021hypothesisFormalization}{{JBDM{$^{+}$}22b}{}{{}}{{}}}
+\bibcite{jun2019tea}{{JDR{$^{+}$}19}{}{{}}{{}}}
+\bibcite{jun2023rTisane}{{JMHJ23}{}{{}}{{}}}
+\bibcite{jolly2018pymer4}{{Jol18}{}{{}}{{}}}
+\bibcite{scipy}{{JOP{$^{+}$}21a}{}{{}}{{}}}
+\bibcite{scipyStats}{{JOP{$^{+}$}21b}{}{{}}{{}}}
+\bibcite{scipyOptimize}{{JOP{$^{+}$}21c}{}{{}}{{}}}
+\bibcite{jones2011jmp}{{JS11}{}{{}}{{}}}
+\bibcite{tisaneWebsite}{{JS23}{}{{}}{{}}}
+\bibcite{jun2022tisane}{{JSHJ22}{}{{}}{{}}}
+\bibcite{N0}{{JSP{$^{+}$}19}{}{{}}{{}}}
+\bibcite{kabacoff2011action}{{Kab11}{}{{}}{{}}}
+\bibcite{klahr1988dual}{{KD88}{}{{}}{{}}}
+\bibcite{kerr1998harking}{{Ker98}{}{{}}{{}}}
+\bibcite{PS6}{{KGF19}{}{{}}{{}}}
+\bibcite{kreft1998introducing}{{KKdL98}{}{{}}{{}}}
+\bibcite{kale2019decision}{{KKH19}{}{{}}{{}}}
+\bibcite{CHI6}{{KLHO19}{}{{}}{{}}}
+\bibcite{kay2016researcher}{{KNH16}{}{{}}{{}}}
+\bibcite{sumsofsquaresBlog}{{Kor19}{}{{}}{{}}}
+\bibcite{kandel2011wrangler}{{KPHH11}{}{{}}{{}}}
+\bibcite{kandel2012enterprise}{{KPHH12}{}{{}}{{}}}
+\bibcite{klein2007dataFrame}{{KPRP07}{}{{}}{{}}}
+\bibcite{kaptein2012rethinking}{{KR12}{}{{}}{{}}}
+\bibcite{klahr1999studies}{{KS99}{}{{}}{{}}}
+\bibcite{parsnip}{{KVR20}{}{{}}{{}}}
+\bibcite{klemmerCoursera}{{KW19}{}{{}}{{}}}
+\bibcite{tidymodels}{{KW20}{}{{}}{{}}}
+\bibcite{lo2015transform}{{LA15}{}{{}}{{}}}
+\bibcite{liu2019paths}{{LAH19}{}{{}}{{}}}
+\bibcite{CHI8}{{LAvA{$^{+}$}19}{}{{}}{{}}}
+\bibcite{liu2019understanding}{{LBE19}{}{{}}{{}}}
+\bibcite{lee2019robust}{{LCD{$^{+}$}19a}{}{{}}{{}}}
+\bibcite{PNAS7}{{LCD{$^{+}$}19b}{}{{}}{{}}}
+\bibcite{lloyd2014automatic}{{LDG{$^{+}$}14}{}{{}}{{}}}
+\bibcite{PNAS8}{{LGL{$^{+}$}19}{}{{}}{{}}}
+\bibcite{kent:tutorials}{{Lib19}{}{{}}{{}}}
+\bibcite{stataLang}{{LLC20a}{}{{}}{{}}}
+\bibcite{stataRef}{{LLC20b}{}{{}}{{}}}
+\bibcite{H2OAutoML20}{{LP20}{}{{}}{{}}}
+\bibcite{bugs}{{LTBS00}{}{{}}{{}}}
+\bibcite{loncaric2016cozy}{{LTE16}{}{{}}{{}}}
+\bibcite{mackay2007touchstone}{{MABL{$^{+}$}07}{}{{}}{{}}}
+\bibcite{mcelreath2020statistical}{{McE20}{}{{}}{{}}}
+\bibcite{mcnamara2018keyAttributes}{{McN18}{}{{}}{{}}}
+\bibcite{mcdonald2019reliability}{{MSF19}{}{{}}{{}}}
+\bibcite{glmmtmbRef}{{MSN{$^{+}$}20}{}{{}}{{}}}
+\bibcite{N9}{{MTB{$^{+}$}19}{}{{}}{{}}}
+\bibcite{PNAS9}{{MTM{$^{+}$}19}{}{{}}{{}}}
+\bibcite{mplus}{{Mut23}{}{{}}{{}}}
+\bibcite{moritz2019formalizing}{{MWN{$^{+}$}19}{}{{}}{{}}}
+\bibcite{xprmntr}{{Nav19}{}{{}}{{}}}
+\bibcite{jaysire}{{Nav21}{}{{}}{{}}}
+\bibcite{PS9}{{NHNO19}{}{{}}{{}}}
+\bibcite{norman1986cognitive}{{Nor86}{}{{}}{{}}}
+\bibcite{norman2013doet}{{Nor13}{}{{}}{{}}}
+\bibcite{newell1972humanProblemSolving}{{NS{$^{+}$}72}{}{{}}{{}}}
+\bibcite{JFE2}{{NSVW19}{}{{}}{{}}}
+\bibcite{nelder1972generalized}{{NW72}{}{{}}{{}}}
+\bibcite{jasp}{{oA20}{}{{}}{{}}}
+\bibcite{N7}{{OKB{$^{+}$}19}{}{{}}{{}}}
+\bibcite{oliphant2006numpy}{{Oli06}{}{{}}{{}}}
+\bibcite{N4}{{ONK{$^{+}$}19}{}{{}}{{}}}
+\bibcite{pearl2000models}{{P{$^{+}$}00}{}{{}}{{}}}
+\bibcite{PS5}{{PAH{$^{+}$}19}{}{{}}{{}}}
+\bibcite{nlmeRef}{{PBD{$^{+}$}20}{}{{}}{{}}}
+\bibcite{pirolli2005sensemaking}{{PC05}{}{{}}{{}}}
+\bibcite{pearl1995causal}{{Pea95a}{}{{}}{{}}}
+\bibcite{pearl1995doCalculus}{{Pea95b}{}{{}}{{}}}
+\bibcite{peirce2007psychopy}{{Pei07}{}{{}}{{}}}
+\bibcite{pfannkuch1997statistical}{{Pfa97}{}{{}}{{}}}
+\bibcite{panchekha2018verifying}{{PGE{$^{+}$}18}{}{{}}{{}}}
+\bibcite{CHI1}{{PGEE{$^{+}$}19}{}{{}}{{}}}
+\bibcite{PS7}{{PGSF19}{}{{}}{{}}}
+\bibcite{prabhu2019:topPython}{{Pra19}{}{{}}{{}}}
+\bibcite{statsmodelsRef}{{PSTsd20}{}{{}}{{}}}
+\bibcite{scikitPaper}{{PVG{$^{+}$}11}{}{{}}{{}}}
+\bibcite{pfannkuch2000statistical}{{PW{$^{+}$}00}{}{{}}{{}}}
+\bibcite{russell1993cost}{{RSPC93}{}{{}}{{}}}
+\bibcite{rubin2004teaching}{{Rub04}{}{{}}{{}}}
+\bibcite{mass}{{RVB{$^{+}$}20}{}{{}}{{}}}
+\bibcite{sanner1999python}{{S{$^{+}$}99}{}{{}}{{}}}
+\bibcite{jmp}{{SAS20a}{}{{}}{{}}}
+\bibcite{jmpDOE}{{SAS20b}{}{{}}{{}}}
+\bibcite{gosset}{{SH17}{}{{}}{{}}}
+\bibcite{shadish2010campbell}{{Sha10}{}{{}}{{}}}
+\bibcite{schunn1995FourSpace}{{SK95}{}{{}}{{}}}
+\bibcite{schunn1996BeyondTwoSpace}{{SK96}{}{{}}{{}}}
+\bibcite{swearngin2018scout}{{SKF18}{}{{}}{{}}}
+\bibcite{scikitRef}{{sld20}{}{{}}{{}}}
+\bibcite{JFE4}{{Smo19}{}{{}}{{}}}
+\bibcite{satyanarayan2017vega}{{SMWH17}{}{{}}{{}}}
+\bibcite{CHI5}{{SOR{$^{+}$}19a}{}{{}}{{}}}
+\bibcite{CHI7}{{SOR{$^{+}$}19b}{}{{}}{{}}}
+\bibcite{statsmodelsPaper}{{SP10}{}{{}}{{}}}
+\bibcite{spirtes1994conditional}{{Spi94}{}{{}}{{}}}
+\bibcite{spss}{{SPS21}{}{{}}{{}}}
+\bibcite{spirtes1996using}{{SRM{$^{+}$}96}{}{{}}{{}}}
+\bibcite{suzuki2020causal}{{SSY20}{}{{}}{{}}}
+\bibcite{stata}{{Sta21}{}{{}}{{}}}
+\bibcite{pewDataset}{{Suh14}{}{{}}{{}}}
+\bibcite{suzuki2018mechanisms}{{SV18}{}{{}}{{}}}
+\bibcite{pymc3}{{SWF16}{}{{}}{{}}}
+\bibcite{team2013r}{{T{$^{+}$}13}{}{{}}{{}}}
+\bibcite{edibble}{{Tan21}{}{{}}{{}}}
+\bibcite{statsCoreRRef}{{Tcw20}{}{{}}{{}}}
+\bibcite{autoweka}{{THHLB13}{}{{}}{{}}}
+\bibcite{textor2011dagitty}{{THK11}{}{{}}{{}}}
+\bibcite{matlab}{{TM20a}{}{{}}{{}}}
+\bibcite{matlabStats}{{TM20b}{}{{}}{{}}}
+\bibcite{PS4}{{TPO{$^{+}$}19}{}{{}}{{}}}
+\bibcite{verou2018extending}{{VAK18}{}{{}}{{}}}
+\bibcite{vandaele1987participation}{{Van87}{}{{}}{{}}}
+\bibcite{vanderweele2019modifiedDisjunctiveCriterion}{{Van19}{}{{}}{{}}}
+\bibcite{vargha2000critique}{{VD00}{}{{}}{{}}}
+\bibcite{velentgas2013developing}{{VDN{$^{+}$}13}{}{{}}{{}}}
+\bibcite{venables2013modern}{{VR13}{}{{}}{{}}}
+\bibcite{PNAS2}{{VTB{$^{+}$}19}{}{{}}{{}}}
+\bibcite{wickham2014tidy}{{W{$^{+}$}14}{}{{}}{{}}}
+\bibcite{tidyverse}{{WAB{$^{+}$}19}{}{{}}{{}}}
+\bibcite{wiki:jmp}{{{Wik}19a}{}{{}}{{}}}
+\bibcite{wiki:r-language}{{{Wik}19b}{}{{}}{{}}}
+\bibcite{wiki:sas}{{{Wik}19c}{}{{}}{{}}}
+\bibcite{wiki:spss}{{{Wik}19d}{}{{}}{{}}}
+\bibcite{wilkinson1999statistical}{{Wil99}{}{{}}{{}}}
+\bibcite{wongsuphasawat2019EDAgoals}{{WLH19}{}{{}}{{}}}
+\bibcite{wild1999statisticalThinking}{{WP99}{}{{}}{{}}}
+\bibcite{wacharamanotham2015statsplorer}{{WSVB15}{}{{}}{{}}}
+\bibcite{winters2021heartbeat}{{WWL21}{}{{}}{{}}}
+\bibcite{yu2020veridical}{{YK20}{}{{}}{{}}}
+\bibcite{CHI3}{{YWV{$^{+}$}19}{}{{}}{{}}}
+\bibcite{PNAS0}{{ZHC19}{}{{}}{{}}}
+\bibcite{PS8}{{ZTDB19}{}{{}}{{}}}
+\bibcite{PNAS6}{{ZWY{$^{+}$}19}{}{{}}{{}}}
 \citation{chasins2018rousillon}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix A: Content analysis resources}{143}{chapter.1}\protected@file@percent }
+\citation{mcdonald2019reliability}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Appendix A: Content analysis resources}{141}{chapter.1}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{chapter:appHypoForm}{{A}{143}{Appendix A: Content analysis resources}{chapter.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}Dataset overview}{143}{section.1.1}\protected@file@percent }
-\citation{mcdonald2019reliability}
+\newlabel{chapter:appHypoForm}{{A}{141}{Appendix A: Content analysis resources}{chapter.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}Dataset overview}{141}{section.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {A.2}Procedure}{141}{section.1.2}\protected@file@percent }
+\newlabel{appendix:contentAnalysisProcedure}{{A.2}{141}{Procedure}{section.1.2}{}}
 \citation{bertin2011graphics}
 \citation{PS9}
 \citation{N2}
@@ -766,9 +774,11 @@
 \citation{PS1}
 \citation{PS0}
 \citation{PS0}
-\@writefile{toc}{\contentsline {section}{\numberline {A.2}Procedure}{144}{section.1.2}\protected@file@percent }
-\newlabel{appendix:contentAnalysisProcedure}{{A.2}{144}{Procedure}{section.1.2}{}}
 \citation{N1}
+\@writefile{toc}{\contentsline {section}{\numberline {A.3}Codebook}{142}{section.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {A.4}Additional findings: Contribution types}{142}{section.1.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {A.1}{\ignorespaces The codebook\xspace  for analyzing the content of research publications.\relax }}{143}{table.caption.77}\protected@file@percent }
+\newlabel{table:litSurveyCodeBook}{{A.1}{143}{The \codebook for analyzing the content of research publications.\relax }{table.caption.77}{}}
 \citation{CHI0}
 \citation{CHI1}
 \citation{CHI2}
@@ -819,38 +829,35 @@
 \citation{PS7}
 \citation{PS8}
 \citation{PS9}
-\@writefile{toc}{\contentsline {section}{\numberline {A.3}Codebook}{145}{section.1.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {A.4}Additional findings: Contribution types}{145}{section.1.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {A.5}Summary of papers analyzed}{145}{section.1.5}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {A.1}{\ignorespaces The codebook\xspace  for analyzing the content of research publications.\relax }}{146}{table.caption.77}\protected@file@percent }
-\newlabel{table:litSurveyCodeBook}{{A.1}{146}{The \codebook for analyzing the content of research publications.\relax }{table.caption.77}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {A.2}{\ignorespaces Summary of CHI papers in our dataset.\relax }}{147}{table.caption.78}\protected@file@percent }
-\newlabel{table:CHIContribs}{{A.2}{147}{Summary of CHI papers in our dataset.\relax }{table.caption.78}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {A.3}{\ignorespaces Summary of JFE papers in our dataset.\relax }}{148}{table.caption.79}\protected@file@percent }
-\newlabel{table:JFEContribs}{{A.3}{148}{Summary of JFE papers in our dataset.\relax }{table.caption.79}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {A.4}{\ignorespaces Summary of Nature papers in our dataset.\relax }}{149}{table.caption.80}\protected@file@percent }
-\newlabel{table:NatureContribs}{{A.4}{149}{Summary of Nature papers in our dataset.\relax }{table.caption.80}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {A.5}{\ignorespaces Summary of PNAS papers in our dataset.\relax }}{150}{table.caption.81}\protected@file@percent }
-\newlabel{table:tablePNASContribs}{{A.5}{150}{Summary of PNAS papers in our dataset.\relax }{table.caption.81}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {A.6}{\ignorespaces Summary of PS papers in our dataset.\relax }}{151}{table.caption.82}\protected@file@percent }
-\newlabel{table:PSContribs}{{A.6}{151}{Summary of PS papers in our dataset.\relax }{table.caption.82}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {B}Appendix B: Tisane's First Release: Additional Examples}{153}{chapter.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {A.5}Summary of papers analyzed}{144}{section.1.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {A.2}{\ignorespaces Summary of CHI papers in our dataset.\relax }}{145}{table.caption.78}\protected@file@percent }
+\newlabel{table:CHIContribs}{{A.2}{145}{Summary of CHI papers in our dataset.\relax }{table.caption.78}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.3}{\ignorespaces Summary of JFE papers in our dataset.\relax }}{146}{table.caption.79}\protected@file@percent }
+\newlabel{table:JFEContribs}{{A.3}{146}{Summary of JFE papers in our dataset.\relax }{table.caption.79}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.4}{\ignorespaces Summary of Nature papers in our dataset.\relax }}{147}{table.caption.80}\protected@file@percent }
+\newlabel{table:NatureContribs}{{A.4}{147}{Summary of Nature papers in our dataset.\relax }{table.caption.80}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.5}{\ignorespaces Summary of PNAS papers in our dataset.\relax }}{148}{table.caption.81}\protected@file@percent }
+\newlabel{table:tablePNASContribs}{{A.5}{148}{Summary of PNAS papers in our dataset.\relax }{table.caption.81}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {A.6}{\ignorespaces Summary of PS papers in our dataset.\relax }}{149}{table.caption.82}\protected@file@percent }
+\newlabel{table:PSContribs}{{A.6}{149}{Summary of PS papers in our dataset.\relax }{table.caption.82}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}Appendix B: Tisane's First Release: Additional Examples}{151}{chapter.2}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{chapter:appTisane}{{B}{153}{Appendix B: Tisane's First Release: Additional Examples}{chapter.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {B.1}Additional examples of graphs that may be constructed}{153}{section.2.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {B.1}{\ignorespaces More complex examples of \texttt  {moderates} written in Tisane's study design specification language\xspace  , and their representation in Tisane's graph IR. Variables are named with \texttt  {u} for units, \texttt  {m} for measures, and \texttt  {v} for data variables that can be either units or measures. Black edges have been added due to the \texttt  {moderates} relationship. Gray edges already existed in the graph. In (a), only \texttt  {m1}\xspace  is a measure, whose unit is \texttt  {u2}\xspace  , so \texttt  {u1*m1}\xspace  inherits an attribution edge only from \texttt  {u2}\xspace  . In (b), \texttt  {m1}\xspace  and \texttt  {m2}\xspace  are measures, with units \texttt  {u1}\xspace  and \texttt  {u2}\xspace  respectively, so \texttt  {m1*m2}\xspace  inherits attribution edges from both \texttt  {u1}\xspace  and \texttt  {u2}\xspace  . In (c), measures \texttt  {m1}\xspace  and \texttt  {m2}\xspace  share a unit, \texttt  {u}\xspace  , and \texttt  {m1*m2}\xspace  inherits only one attribution edge from \texttt  {u}\xspace  .\relax }}{153}{figure.caption.83}\protected@file@percent }
-\newlabel{fig:figureComplexModeratesGraphIR}{{B.1}{153}{More complex examples of \texttt {moderates} written in Tisane's \SDSLlong , and their representation in Tisane's graph IR. Variables are named with \texttt {u} for units, \texttt {m} for measures, and \texttt {v} for data variables that can be either units or measures. Black edges have been added due to the \texttt {moderates} relationship. Gray edges already existed in the graph. In (a), only \mone is a measure, whose unit is \utwo , so \umone inherits an attribution edge only from \utwo . In (b), \mone and \mtwo are measures, with units \uone and \utwo respectively, so \monetwo inherits attribution edges from both \uone and \utwo . In (c), measures \mone and \mtwo share a unit, \u , and \monetwo inherits only one attribution edge from \u .\relax }{figure.caption.83}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {B.2}{\ignorespaces A graph demonstrating an edge case for candidate main effect identification, where the graph contains only associative edges. Candidate main effects are labeled ``CME'', independent variables ``IV'', and dependent variables ``DV''. Variables that are none of the above are left unlabeled. When a graph contains only associative edges, candidate main effects are identified as those that are either associated with the DV or are associated with both the IV and the DV. (Note that the graph could contain additional edges/nodes other than the ones pictured, but the additional edges would not violate any of the initial checks that Tisane makes on the graph IR.)\relax }}{154}{figure.caption.84}\protected@file@percent }
-\newlabel{fig:figureOnlyAssociatesOrCausesEdgesCandidateMainEffects}{{B.2}{154}{A graph demonstrating an edge case for candidate main effect identification, where the graph contains only associative edges. Candidate main effects are labeled ``CME'', independent variables ``IV'', and dependent variables ``DV''. Variables that are none of the above are left unlabeled. When a graph contains only associative edges, candidate main effects are identified as those that are either associated with the DV or are associated with both the IV and the DV. (Note that the graph could contain additional edges/nodes other than the ones pictured, but the additional edges would not violate any of the initial checks that Tisane makes on the graph IR.)\relax }{figure.caption.84}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {B.2}Cautioning analysts about adding certain kinds of variables}{154}{section.2.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {B.3}{\ignorespaces An example of the warning text given for potential confounding associations. When analysts hover over the ``Warning'' badge, a tooltip pops up that explains that they should be careful about adding this variable. Associative relationships may in actuality be causal relationships, and if in fact \texttt  {pounds\_lost} \textbf  {caused} \texttt  {age}, then adding \texttt  {age} would invalidate the model.\relax }}{154}{figure.caption.85}\protected@file@percent }
-\newlabel{fig:figurePossibleConfoundingAssociation}{{B.3}{154}{An example of the warning text given for potential confounding associations. When analysts hover over the ``Warning'' badge, a tooltip pops up that explains that they should be careful about adding this variable. Associative relationships may in actuality be causal relationships, and if in fact \texttt {pounds\_lost} \textbf {caused} \texttt {age}, then adding \texttt {age} would invalidate the model.\relax }{figure.caption.85}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {C}Appendix C: Exploratory study materials}{155}{chapter.3}\protected@file@percent }
+\newlabel{chapter:appTisane}{{B}{151}{Appendix B: Tisane's First Release: Additional Examples}{chapter.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B.1}Additional examples of graphs that may be constructed}{151}{section.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {B.1}{\ignorespaces More complex examples of \texttt  {moderates} written in Tisane's study design specification language\xspace  , and their representation in Tisane's graph IR. Variables are named with \texttt  {u} for units, \texttt  {m} for measures, and \texttt  {v} for data variables that can be either units or measures. Black edges have been added due to the \texttt  {moderates} relationship. Gray edges already existed in the graph. In (a), only \texttt  {m1}\xspace  is a measure, whose unit is \texttt  {u2}\xspace  , so \texttt  {u1*m1}\xspace  inherits an attribution edge only from \texttt  {u2}\xspace  . In (b), \texttt  {m1}\xspace  and \texttt  {m2}\xspace  are measures, with units \texttt  {u1}\xspace  and \texttt  {u2}\xspace  respectively, so \texttt  {m1*m2}\xspace  inherits attribution edges from both \texttt  {u1}\xspace  and \texttt  {u2}\xspace  . In (c), measures \texttt  {m1}\xspace  and \texttt  {m2}\xspace  share a unit, \texttt  {u}\xspace  , and \texttt  {m1*m2}\xspace  inherits only one attribution edge from \texttt  {u}\xspace  .\relax }}{151}{figure.caption.83}\protected@file@percent }
+\newlabel{fig:figureComplexModeratesGraphIR}{{B.1}{151}{More complex examples of \texttt {moderates} written in Tisane's \SDSLlong , and their representation in Tisane's graph IR. Variables are named with \texttt {u} for units, \texttt {m} for measures, and \texttt {v} for data variables that can be either units or measures. Black edges have been added due to the \texttt {moderates} relationship. Gray edges already existed in the graph. In (a), only \mone is a measure, whose unit is \utwo , so \umone inherits an attribution edge only from \utwo . In (b), \mone and \mtwo are measures, with units \uone and \utwo respectively, so \monetwo inherits attribution edges from both \uone and \utwo . In (c), measures \mone and \mtwo share a unit, \u , and \monetwo inherits only one attribution edge from \u .\relax }{figure.caption.83}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {B.2}{\ignorespaces A graph demonstrating an edge case for candidate main effect identification, where the graph contains only associative edges. Candidate main effects are labeled ``CME'', independent variables ``IV'', and dependent variables ``DV''. Variables that are none of the above are left unlabeled. When a graph contains only associative edges, candidate main effects are identified as those that are either associated with the DV or are associated with both the IV and the DV. (Note that the graph could contain additional edges/nodes other than the ones pictured, but the additional edges would not violate any of the initial checks that Tisane makes on the graph IR.)\relax }}{152}{figure.caption.84}\protected@file@percent }
+\newlabel{fig:figureOnlyAssociatesOrCausesEdgesCandidateMainEffects}{{B.2}{152}{A graph demonstrating an edge case for candidate main effect identification, where the graph contains only associative edges. Candidate main effects are labeled ``CME'', independent variables ``IV'', and dependent variables ``DV''. Variables that are none of the above are left unlabeled. When a graph contains only associative edges, candidate main effects are identified as those that are either associated with the DV or are associated with both the IV and the DV. (Note that the graph could contain additional edges/nodes other than the ones pictured, but the additional edges would not violate any of the initial checks that Tisane makes on the graph IR.)\relax }{figure.caption.84}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B.2}Cautioning analysts about adding certain kinds of variables}{152}{section.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {B.3}{\ignorespaces An example of the warning text given for potential confounding associations. When analysts hover over the ``Warning'' badge, a tooltip pops up that explains that they should be careful about adding this variable. Associative relationships may in actuality be causal relationships, and if in fact \texttt  {pounds\_lost} \textbf  {caused} \texttt  {age}, then adding \texttt  {age} would invalidate the model.\relax }}{152}{figure.caption.85}\protected@file@percent }
+\newlabel{fig:figurePossibleConfoundingAssociation}{{B.3}{152}{An example of the warning text given for potential confounding associations. When analysts hover over the ``Warning'' badge, a tooltip pops up that explains that they should be careful about adding this variable. Associative relationships may in actuality be causal relationships, and if in fact \texttt {pounds\_lost} \textbf {caused} \texttt {age}, then adding \texttt {age} would invalidate the model.\relax }{figure.caption.85}{}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\@writefile{toc}{\contentsline {chapter}{\numberline {C}Appendix C: Exploratory study materials}{153}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\newlabel{chapter:rTisane}{{C}{155}{Appendix C: Exploratory study materials}{chapter.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {C.1}rTisane study materials}{155}{section.3.1}\protected@file@percent }
-\gdef \@abspage@last{155}
+\newlabel{chapter:rTisane}{{C}{153}{Appendix C: Exploratory study materials}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {C.1}rTisane study materials}{153}{section.3.1}\protected@file@percent }
+\gdef \@abspage@last{153}

@@ -1,284 +1,93 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
-The style file: ACM-Reference-Format.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated field_info (elt_size=4) to 15485 items from 5000.
+The style file: alpha.bst
+Reallocated field_info (elt_size=4) to 10359 items from 5000.
 Database file #1: references.bib
+Warning--entry type for "klemmerCoursera" isn't style-file defined
+--line 1686 of file references.bib
 Warning--string name "january" is undefined
---line 1682 of file references.bib
+--line 1689 of file references.bib
+Warning--entry type for "ucla:whatstat" isn't style-file defined
+--line 1694 of file references.bib
 Warning--string name "april" is undefined
---line 1690 of file references.bib
+--line 1697 of file references.bib
+Warning--entry type for "kent:tutorials" isn't style-file defined
+--line 1702 of file references.bib
 Warning--string name "march" is undefined
---line 1698 of file references.bib
+--line 1705 of file references.bib
 Database file #2: lit-survey-papers.bib
 Warning--I didn't find a database entry for ""
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=200001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty address in american1983publication
-Warning--empty publisher in bakshy2014planout
-Warning--empty address in bakshy2014planout
-Warning--no number and no volume in bates2014fittingLme4
-Warning--page numbers missing in both pages and numpages fields in bates2014fittingLme4
-Warning--no number and no volume in bates2014lme4Ref
-Warning--page numbers missing in both pages and numpages fields in bates2014lme4Ref
-Warning--no number and no volume in battle2019EVA
-Warning--page numbers missing in both pages and numpages fields in battle2019EVA
-Warning--empty address in bertin2011graphics
-Warning--no number and no volume in bobriakov2017:top15Python
-Warning--page numbers missing in both pages and numpages fields in bobriakov2017:top15Python
-Warning--no number and no volume in bobriakov2018:top20Python
-Warning--page numbers missing in both pages and numpages fields in bobriakov2018:top20Python
-Warning--empty address in borgo2012psychtoolbox
-Warning--no journal in randomForestR
-Warning--no number and no volume in randomForestR
-Warning--page numbers missing in both pages and numpages fields in randomForestR
-Warning--no journal in PNAS5
-Warning--no number and no volume in scikitAPIPaper
-Warning--page numbers missing in both pages and numpages fields in scikitAPIPaper
-Warning--no journal in brmsRef
-Warning--no number and no volume in brmsRef
-Warning--page numbers missing in both pages and numpages fields in brmsRef
-Warning--empty publisher in cairns2007hci
-Warning--empty address in cairns2007hci
-Warning--no journal in carver2016guidelines
-Warning--no number and no volume in carver2016guidelines
-Warning--page numbers missing in both pages and numpages fields in carver2016guidelines
-Warning--empty publisher in chasins2018rousillon
-Warning--empty address in chasins2018rousillon
-Warning--no journal in edgeROverview
-Warning--no number and no volume in edgeROverview
-Warning--page numbers missing in both pages and numpages fields in edgeROverview
-Warning--no journal in edgeRUsersGuide
-Warning--no number and no volume in edgeRUsersGuide
-Warning--page numbers missing in both pages and numpages fields in edgeRUsersGuide
-Warning--no journal in PNAS4
-Warning--no number and no volume in cinelli2020controls
-Warning--no journal in cohen1988statistical
-Warning--no number and no volume in cohen1988statistical
-Warning--page numbers missing in both pages and numpages fields in cohen1988statistical
-Warning--empty address in cohen2013applied
-Warning--empty year in plotlyDash
-Warning--empty year in jspsychR
-Warning--empty publisher in de2008z3
-Warning--empty address in de2008z3
-Warning--empty address in efron1992bootstrap
-Warning--no journal in eiselmayer2019touchstone2
-Warning--no number and no volume in eiselmayer2019touchstone2
-Warning--page numbers missing in both pages and numpages fields in eiselmayer2019touchstone2
-Warning--empty publisher in CHI4
-Warning--empty address in CHI4
-Warning--empty publisher in CHI9
-Warning--empty address in CHI9
-Warning--empty publisher in feigenspan2012measuring
-Warning--empty address in feigenspan2012measuring
-Warning--empty address in autosklearn
-Warning--empty address in field2012discoveringR
-Warning--empty address in fisher1937design
-Warning--no journal in glmnetRef
-Warning--no number and no volume in glmnetRef
-Warning--page numbers missing in both pages and numpages fields in glmnetRef
-Warning--empty publisher in CHI0
-Warning--empty address in CHI0
-Warning--empty address in gelman2013bayesianTextbook
-Warning--empty address in gelmanHill2006regression
-Warning--no number and no volume in gelman2013garden
-Warning--page numbers missing in both pages and numpages fields in gelman2013garden
-Warning--no number and no volume in gelman2020bayesianWorkflow
-Warning--page numbers missing in both pages and numpages fields in gelman2020bayesianWorkflow
-Warning--no journal in graphPadUserGuide
-Warning--no number and no volume in graphPadUserGuide
-Warning--page numbers missing in both pages and numpages fields in graphPadUserGuide
-Warning--no number and no volume in greenland1999causal
-Warning--no number and no volume in grolemund2019:recommendedR
-Warning--page numbers missing in both pages and numpages fields in grolemund2019:recommendedR
-Warning--empty publisher in guimbretiere2007experiscope
-Warning--empty address in guimbretiere2007experiscope
-Warning--no journal in MCMCglmmRef
-Warning--no number and no volume in MCMCglmmRef
-Warning--page numbers missing in both pages and numpages fields in MCMCglmmRef
-Warning--no journal in PNAS3
-Warning--empty publisher in CHI2
-Warning--empty address in CHI2
-Warning--page numbers missing in both pages and numpages fields in harrison2020psychtestr
-Warning--no journal in glmnetVignette
-Warning--no number and no volume in glmnetVignette
-Warning--page numbers missing in both pages and numpages fields in glmnetVignette
-Warning--empty publisher in hempel2019sketch
-Warning--empty address in hempel2019sketch
+Warning--empty journal in brmsRef
+Warning--empty journal in randomForestR
+Warning--empty journal in PNAS5
+Warning--empty journal in carver2016guidelines
+Warning--empty journal in edgeROverview
+Warning--empty journal in PNAS4
+Warning--empty journal in edgeRUsersGuide
+Warning--empty journal in cohen1988statistical
+Warning--empty journal in eiselmayer2019touchstone2
+Warning--empty journal in glmnetRef
+Warning--empty journal in graphPadUserGuide
+Warning--empty journal in MCMCglmmRef
 Warning--can't use both volume and number fields in hoffswell2018setcola
-Warning--empty publisher in hoffswell2018setcola
-Warning--empty address in hoffswell2018setcola
-Warning--empty address in holland1989induction
-Warning--no number and no volume in holm1979simple
-Warning--empty address in hoyle1995SEM
-Warning--empty publisher in jun2021hypothesisFormalization
-Warning--empty address in jun2021hypothesisFormalization
-Warning--page numbers missing in both pages and numpages fields in jun2021hypothesisFormalization
-Warning--empty publisher in jun2019tea
-Warning--empty address in jun2019tea
-Warning--page numbers missing in both pages and numpages fields in jun2019tea
-Warning--empty year in jun2023rTisane
-Warning--empty publisher in jun2023rTisane
-Warning--empty address in jun2023rTisane
-Warning--page numbers missing in both pages and numpages fields in jun2023rTisane
-Warning--empty year in tisaneWebsite
-Warning--empty publisher in jun2022tisane
-Warning--empty address in jun2022tisane
-Warning--no journal in kabacoff2011action
-Warning--no number and no volume in kabacoff2011action
-Warning--page numbers missing in both pages and numpages fields in kabacoff2011action
-Warning--empty publisher in kale2019decision
-Warning--empty address in kale2019decision
-Warning--empty publisher in kandel2011wrangler
-Warning--empty address in kandel2011wrangler
-Warning--empty publisher in kaptein2012rethinking
-Warning--empty address in kaptein2012rethinking
-Warning--empty publisher in kay2016researcher
-Warning--empty address in kay2016researcher
-Warning--empty address in klein2007dataFrame
-Warning--empty publisher in CHI6
-Warning--empty address in CHI6
-Warning--no number and no volume in sumsofsquaresBlog
-Warning--page numbers missing in both pages and numpages fields in sumsofsquaresBlog
-Warning--empty address in kreft1998introducing
-Warning--empty organization in tidymodels
-Warning--no number and no volume in H2OAutoML20
-Warning--page numbers missing in both pages and numpages fields in H2OAutoML20
-Warning--empty publisher in CHI8
-Warning--empty address in CHI8
-Warning--no journal in PNAS7
-Warning--no journal in PNAS8
-Warning--no number and no volume in liu2019paths
-Warning--page numbers missing in both pages and numpages fields in liu2019paths
+Warning--empty journal in PNAS3
+Warning--empty journal in glmnetVignette
+Warning--empty journal in kabacoff2011action
+Warning--empty journal in PNAS7
 Warning--can't use both volume and number fields in lloyd2014automatic
-Warning--empty publisher in lloyd2014automatic
-Warning--empty address in lloyd2014automatic
-Warning--page numbers missing in both pages and numpages fields in lloyd2014automatic
-Warning--empty publisher in mackay2007touchstone
-Warning--empty address in mackay2007touchstone
-Warning--no journal in glmmtmbRef
-Warning--no number and no volume in glmmtmbRef
-Warning--page numbers missing in both pages and numpages fields in glmmtmbRef
-Warning--no journal in PNAS9
-Warning--empty address in mcelreath2020statistical
-Warning--no number and no volume in mcnamara2018keyAttributes
-Warning--page numbers missing in both pages and numpages fields in mcnamara2018keyAttributes
-Warning--empty year in mplus
-Warning--empty year in xprmntr
+Warning--empty journal in PNAS8
+Warning--empty journal in glmmtmbRef
+Warning--empty journal in PNAS9
 Warning--can't use both volume and number fields in newell1972humanProblemSolving
-Warning--empty address in newell1972humanProblemSolving
-Warning--empty address in norman2013doet
-Warning--empty address in oliphant2006numpy
-Warning--empty publisher in panchekha2018verifying
-Warning--empty address in panchekha2018verifying
-Warning--page numbers missing in both pages and numpages fields in pearl2000models
-Warning--no journal in statsmodelsRef
-Warning--no number and no volume in statsmodelsRef
-Warning--page numbers missing in both pages and numpages fields in statsmodelsRef
-Warning--no number and no volume in pfannkuch1997statistical
-Warning--no journal in nlmeRef
-Warning--no number and no volume in nlmeRef
-Warning--page numbers missing in both pages and numpages fields in nlmeRef
-Warning--empty publisher in pirolli2005sensemaking
-Warning--empty address in pirolli2005sensemaking
-Warning--empty publisher in CHI1
-Warning--empty address in CHI1
-Warning--no number and no volume in prabhu2019:topPython
-Warning--page numbers missing in both pages and numpages fields in prabhu2019:topPython
-Warning--no journal in mass
-Warning--no number and no volume in mass
-Warning--page numbers missing in both pages and numpages fields in mass
-Warning--empty publisher in russell1993cost
-Warning--empty address in russell1993cost
-Warning--empty publisher in schunn1995FourSpace
-Warning--empty address in schunn1995FourSpace
-Warning--empty publisher in schunn1996BeyondTwoSpace
-Warning--empty address in schunn1996BeyondTwoSpace
-Warning--empty publisher in statsmodelsPaper
-Warning--empty address in statsmodelsPaper
-Warning--empty publisher in CHI5
-Warning--empty address in CHI5
-Warning--empty publisher in CHI7
-Warning--empty address in CHI7
-Warning--no journal in spirtes1994conditional
-Warning--no number and no volume in spirtes1994conditional
-Warning--page numbers missing in both pages and numpages fields in spirtes1994conditional
-Warning--no number and no volume in spirtes1996using
-Warning--page numbers missing in both pages and numpages fields in spirtes1996using
-Warning--no number and no volume in suzuki2020causal
-Warning--empty publisher in swearngin2018scout
-Warning--empty address in swearngin2018scout
-Warning--no journal in team2013r
-Warning--no number and no volume in team2013r
-Warning--page numbers missing in both pages and numpages fields in team2013r
-Warning--no number and no volume in statsCoreRRef
-Warning--page numbers missing in both pages and numpages fields in statsCoreRRef
-Warning--no journal in matlabStats
-Warning--no number and no volume in matlabStats
-Warning--page numbers missing in both pages and numpages fields in matlabStats
-Warning--empty publisher in autoweka
-Warning--empty address in autoweka
-Warning--empty address in vandaele1987participation
-Warning--no journal in velentgas2013developing
-Warning--no number and no volume in velentgas2013developing
-Warning--page numbers missing in both pages and numpages fields in velentgas2013developing
-Warning--empty address in venables2013modern
-Warning--no journal in PNAS2
-Warning--empty publisher in verou2018extending
-Warning--empty address in verou2018extending
-Warning--empty publisher in wacharamanotham2015statsplorer
-Warning--empty address in wacharamanotham2015statsplorer
-Warning--empty publisher in winters2021heartbeat
-Warning--empty address in winters2021heartbeat
-Warning--no number and no volume in wongsuphasawat2019EDAgoals
-Warning--page numbers missing in both pages and numpages fields in wongsuphasawat2019EDAgoals
-Warning--empty publisher in CHI3
-Warning--empty address in CHI3
-Warning--no journal in PNAS6
+Warning--empty journal in nlmeRef
+Warning--empty journal in statsmodelsRef
+Warning--empty journal in mass
+Warning--empty journal in spirtes1994conditional
+Warning--empty journal in team2013r
+Warning--empty journal in matlabStats
+Warning--empty journal in velentgas2013developing
+Warning--empty journal in PNAS2
+Warning--empty journal in PNAS6
 You've used 232 entries,
-            5719 wiz_defined-function locations,
-            2510 strings with 57123 characters,
-and the built_in function-call counts, 271487 in all, are:
-= -- 34481
-> -- 11625
-< -- 0
-+ -- 3868
-- -- 3985
-* -- 20183
-:= -- 29021
-add.period$ -- 1182
+            2543 wiz_defined-function locations,
+            1729 strings with 44266 characters,
+and the built_in function-call counts, 102851 in all, are:
+= -- 9931
+> -- 6139
+< -- 120
++ -- 2238
+- -- 2203
+* -- 7862
+:= -- 17135
+add.period$ -- 692
 call.type$ -- 232
-change.case$ -- 1758
-chr.to.int$ -- 213
-cite$ -- 453
-duplicate$ -- 22341
-empty$ -- 15806
-format.name$ -- 4602
-if$ -- 65230
-int.to.chr$ -- 21
-int.to.str$ -- 1
-missing$ -- 787
-newline$ -- 2083
-num.names$ -- 1839
-pop$ -- 8509
+change.case$ -- 1741
+chr.to.int$ -- 217
+cite$ -- 263
+duplicate$ -- 3648
+empty$ -- 6751
+format.name$ -- 2421
+if$ -- 20594
+int.to.chr$ -- 16
+int.to.str$ -- 0
+missing$ -- 213
+newline$ -- 1138
+num.names$ -- 698
+pop$ -- 1804
 preamble$ -- 1
-purify$ -- 3772
+purify$ -- 1990
 quote$ -- 0
-skip$ -- 7644
+skip$ -- 3200
 stack$ -- 0
-substring$ -- 18831
-swap$ -- 2264
-text.length$ -- 0
-text.prefix$ -- 0
+substring$ -- 4946
+swap$ -- 621
+text.length$ -- 120
+text.prefix$ -- 60
 top$ -- 0
-type$ -- 4701
-warning$ -- 221
-while$ -- 1706
-width$ -- 0
-write$ -- 4127
-(There were 225 warnings)
+type$ -- 1792
+warning$ -- 31
+while$ -- 916
+width$ -- 240
+write$ -- 2878
+(There were 38 warnings)

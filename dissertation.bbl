@@ -1,3115 +1,1381 @@
-%%% -*-BibTeX-*-
-%%% Do NOT edit. File created by BibTeX with style
-%%% ACM-Reference-Format-Journals [18-Jan-2012].
-
-\begin{thebibliography}{232}
-
-%%% ====================================================================
-%%% NOTE TO THE USER: you can override these defaults by providing
-%%% customized versions of any of these macros before the \bibliography
-%%% command.  Each of them MUST provide its own final punctuation,
-%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
-%%% do not use final punctuation, in order to avoid confusing it with
-%%% the Web address.
-%%%
-%%% To suppress output of a particular field, define its macro to expand
-%%% to an empty string, or better, \unskip, like this:
-%%%
-%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
-%%%
-%%% \def \showDOI #1{\unskip}           % plain TeX syntax
-%%%
-%%% ====================================================================
-
-\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
-\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
-\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
-\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
-\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
-\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
-\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
-\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
-\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
-% The following commands are used for tagged output and should be
-% invisible to TeX
-\providecommand\bibfield[2]{#2}
-\providecommand\bibinfo[2]{#2}
-\providecommand\natexlab[1]{#1}
-\providecommand\showeprint[2][]{arXiv:#2}
-
-\bibitem[\protect\citeauthoryear{Aggarwal, Dahiya, and Prabhala}{Aggarwal
-  et~al\mbox{.}}{2019}]%
-        {JFE8}
-\bibfield{author}{\bibinfo{person}{Reena Aggarwal}, \bibinfo{person}{Sandeep
-  Dahiya}, {and} \bibinfo{person}{Nagpurnanand~R Prabhala}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{The power of shareholder votes: Evidence from
-  uncontested director elections}.
-\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
-  \bibinfo{volume}{133}, \bibinfo{number}{1} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{134--153}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Alspaugh, Zokaei, Liu, Jin, and
-  Hearst}{Alspaugh et~al\mbox{.}}{2018}]%
-        {alspaugh2018futzing}
-\bibfield{author}{\bibinfo{person}{Sara Alspaugh}, \bibinfo{person}{Nava
-  Zokaei}, \bibinfo{person}{Andrea Liu}, \bibinfo{person}{Cindy Jin}, {and}
-  \bibinfo{person}{Marti~A Hearst}.} \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Futzing and moseying: Interviews with professional
-  data analysts on exploration practices}.
-\newblock \bibinfo{journal}{\emph{IEEE transactions on visualization and
-  computer graphics}} \bibinfo{volume}{25}, \bibinfo{number}{1}
-  (\bibinfo{year}{2018}), \bibinfo{pages}{22--31}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Argelaguet, Clark, Mohammed, Stapel, Krueger,
-  Kapourani, Imaz-Rosshandler, Lohoff, Xiang, Hanna, et~al\mbox{.}}{Argelaguet
-  et~al\mbox{.}}{2019}]%
-        {N5}
-\bibfield{author}{\bibinfo{person}{Ricard Argelaguet},
-  \bibinfo{person}{Stephen~J Clark}, \bibinfo{person}{Hisham Mohammed},
-  \bibinfo{person}{L~Carine Stapel}, \bibinfo{person}{Christel Krueger},
-  \bibinfo{person}{Chantriolnt-Andreas Kapourani}, \bibinfo{person}{Ivan
-  Imaz-Rosshandler}, \bibinfo{person}{Tim Lohoff}, \bibinfo{person}{Yunlong
-  Xiang}, \bibinfo{person}{Courtney~W Hanna}, {et~al\mbox{.}}}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Multi-omics profiling of mouse gastrulation at
-  single-cell resolution}.
-\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{576},
-  \bibinfo{number}{7787} (\bibinfo{year}{2019}), \bibinfo{pages}{487--491}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Arslan, Walther, and Tata}{Arslan
-  et~al\mbox{.}}{2020}]%
-        {arslan2020formr}
-\bibfield{author}{\bibinfo{person}{Ruben~C Arslan}, \bibinfo{person}{Matthias~P
-  Walther}, {and} \bibinfo{person}{Cyril~S Tata}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{formr: A study framework allowing for automated
-  feedback generation and complex longitudinal experience-sampling studies
-  using R}.
-\newblock \bibinfo{journal}{\emph{Behavior Research Methods}}
-  \bibinfo{volume}{52}, \bibinfo{number}{1} (\bibinfo{year}{2020}),
-  \bibinfo{pages}{376--387}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Association}{Association}{1996}]%
-        {APATFSI}
-\bibfield{author}{\bibinfo{person}{American~Psychological Association}.}
-  \bibinfo{year}{1996}\natexlab{}.
-\newblock \bibinfo{title}{Task Force on Statistical Inference}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://www.apa.org/science/leadership/bsa/statistical/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Association et~al\mbox{.}}{Association
-  et~al\mbox{.}}{1983}]%
-        {american1983publication}
-\bibfield{author}{\bibinfo{person}{American~Psychological Association}
-  {et~al\mbox{.}}} \bibinfo{year}{1983}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Publication manual}}.
-\newblock \bibinfo{publisher}{American Psychological Association Washington,
-  DC}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Bakshy, Eckles, and Bernstein}{Bakshy
-  et~al\mbox{.}}{2014}]%
-        {bakshy2014planout}
-\bibfield{author}{\bibinfo{person}{Eytan Bakshy}, \bibinfo{person}{Dean
-  Eckles}, {and} \bibinfo{person}{Michael~S Bernstein}.}
-  \bibinfo{year}{2014}\natexlab{}.
-\newblock \showarticletitle{Designing and deploying online field experiments}.
-  In \bibinfo{booktitle}{\emph{Proceedings of the 23rd international conference
-  on World wide web}}. ACM, \bibinfo{pages}{283--292}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Ballard, Sewell, Cosgrove, and Neal}{Ballard
-  et~al\mbox{.}}{2019}]%
-        {PS2}
-\bibfield{author}{\bibinfo{person}{Timothy Ballard}, \bibinfo{person}{David~K.
-  Sewell}, \bibinfo{person}{Daniel Cosgrove}, {and} \bibinfo{person}{Andrew
-  Neal}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Information Processing Under Reward Versus Under
-  Punishment}.
-\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
-  \bibinfo{number}{5} (\bibinfo{year}{2019}), \bibinfo{pages}{757--764}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Barr}{Barr}{2013}]%
-        {barr2013randomUpdated}
-\bibfield{author}{\bibinfo{person}{Dale~J Barr}.}
-  \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{Random effects structure for testing interactions
-  in linear mixed-effects models}.
-\newblock \bibinfo{journal}{\emph{Frontiers in psychology}}
-  \bibinfo{volume}{4} (\bibinfo{year}{2013}), \bibinfo{pages}{328}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Barr, Levy, Scheepers, and Tily}{Barr
-  et~al\mbox{.}}{2013}]%
-        {barr2013random}
-\bibfield{author}{\bibinfo{person}{Dale~J Barr}, \bibinfo{person}{Roger Levy},
-  \bibinfo{person}{Christoph Scheepers}, {and} \bibinfo{person}{Harry~J Tily}.}
-  \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{Random effects structure for confirmatory
-  hypothesis testing: Keep it maximal}.
-\newblock \bibinfo{journal}{\emph{Journal of memory and language}}
-  \bibinfo{volume}{68}, \bibinfo{number}{3} (\bibinfo{year}{2013}),
-  \bibinfo{pages}{255--278}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Bates, M{\"a}chler, Bolker, and Walker}{Bates
-  et~al\mbox{.}}{2014}]%
-        {bates2014fittingLme4}
-\bibfield{author}{\bibinfo{person}{Douglas Bates}, \bibinfo{person}{Martin
-  M{\"a}chler}, \bibinfo{person}{Ben Bolker}, {and} \bibinfo{person}{Steve
-  Walker}.} \bibinfo{year}{2014}\natexlab{}.
-\newblock \showarticletitle{Fitting linear mixed-effects models using lme4}.
-\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1406.5823}}
-  (\bibinfo{year}{2014}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Bates, M{\"a}chler, Bolker, Walker,
-  Christensen, Singmann, Dai, Scheipl, Grothendieck, Green, and Fox}{Bates
-  et~al\mbox{.}}{2019}]%
-        {bates2014lme4Ref}
-\bibfield{author}{\bibinfo{person}{Douglas Bates}, \bibinfo{person}{Martin
-  M{\"a}chler}, \bibinfo{person}{Ben Bolker}, \bibinfo{person}{Steve Walker},
-  \bibinfo{person}{Rune~H.B. Christensen}, \bibinfo{person}{Henrik Singmann},
-  \bibinfo{person}{Bin Dai}, \bibinfo{person}{Fabian Scheipl},
-  \bibinfo{person}{Gabor Grothendieck}, \bibinfo{person}{Peter Green}, {and}
-  \bibinfo{person}{John Fox}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Package `lme4`}.
-\newblock \bibinfo{journal}{\emph{CRAN}} (\bibinfo{year}{2019}).
-\newblock
-\urldef\tempurl%
-\url{"https://cran.r-project.org/web/packages/lme4/lme4.pdf"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Battle and Heer}{Battle and Heer}{2019}]%
-        {battle2019EVA}
-\bibfield{author}{\bibinfo{person}{Leilani Battle} {and}
-  \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Characterizing Exploratory Visual Analysis: A
-  Literature Review and Evaluation of Analytic Provenance in Tableau}.
-\newblock \bibinfo{journal}{\emph{Computer Graphics Forum (Proc. EuroVis)}}
-  (\bibinfo{year}{2019}).
-\newblock
-\urldef\tempurl%
-\url{"http://idl.cs.washington.edu/papers/exploratory-visual-analysis"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{B{\'e}n{\'e}chet, De~Simone, Di~Lucia,
-  Cilenti, Barbiera, Le~Bert, Fumagalli, Lusito, Moalli, Bianchessi,
-  et~al\mbox{.}}{B{\'e}n{\'e}chet et~al\mbox{.}}{2019}]%
-        {N6}
-\bibfield{author}{\bibinfo{person}{Alexandre~P B{\'e}n{\'e}chet},
-  \bibinfo{person}{Giorgia De~Simone}, \bibinfo{person}{Pietro Di~Lucia},
-  \bibinfo{person}{Francesco Cilenti}, \bibinfo{person}{Giulia Barbiera},
-  \bibinfo{person}{Nina Le~Bert}, \bibinfo{person}{Valeria Fumagalli},
-  \bibinfo{person}{Eleonora Lusito}, \bibinfo{person}{Federica Moalli},
-  \bibinfo{person}{Valentina Bianchessi}, {et~al\mbox{.}}}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Dynamics and genomic landscape of CD8+ T cells
-  undergoing hepatic priming}.
-\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{574},
-  \bibinfo{number}{7777} (\bibinfo{year}{2019}), \bibinfo{pages}{200--205}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Bertholet, Chouchani, Kazak, Angelin,
-  Fedorenko, Long, Vidoni, Garrity, Cho, Terada, et~al\mbox{.}}{Bertholet
-  et~al\mbox{.}}{2019}]%
-        {N2}
-\bibfield{author}{\bibinfo{person}{Ambre~M Bertholet},
-  \bibinfo{person}{Edward~T Chouchani}, \bibinfo{person}{Lawrence Kazak},
-  \bibinfo{person}{Alessia Angelin}, \bibinfo{person}{Andriy Fedorenko},
-  \bibinfo{person}{Jonathan~Z Long}, \bibinfo{person}{Sara Vidoni},
-  \bibinfo{person}{Ryan Garrity}, \bibinfo{person}{Joonseok Cho},
-  \bibinfo{person}{Naohiro Terada}, {et~al\mbox{.}}}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{H+ transport is an integral function of the
-  mitochondrial ADP/ATP carrier}.
-\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{571},
-  \bibinfo{number}{7766} (\bibinfo{year}{2019}), \bibinfo{pages}{515--520}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Bertin}{Bertin}{2011}]%
-        {bertin2011graphics}
-\bibfield{author}{\bibinfo{person}{Jacques Bertin}.}
-  \bibinfo{year}{2011}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Graphics and graphic information
-  processing}}.
-\newblock \bibinfo{publisher}{Walter de Gruyter}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Betancourt}{Betancourt}{2020}]%
-        {betancourt2020bayesianWorkflow}
-\bibfield{author}{\bibinfo{person}{Michael Betancourt}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{title}{Towards a Principled Bayesian Workflow}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Biderman, Luria, Teodorescu, Hajaj, and
-  Goshen-Gottstein}{Biderman et~al\mbox{.}}{2019}]%
-        {PS0}
-\bibfield{author}{\bibinfo{person}{Natalie Biderman}, \bibinfo{person}{Roy
-  Luria}, \bibinfo{person}{Andrei~R. Teodorescu}, \bibinfo{person}{Ron Hajaj},
-  {and} \bibinfo{person}{Yonatan Goshen-Gottstein}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Working Memory Has Better Fidelity Than Long-Term
-  Memory: The Fidelity Constraint Is Not a General Property of Memory After
-  All}.
-\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
-  \bibinfo{number}{2} (\bibinfo{year}{2019}), \bibinfo{pages}{223--237}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Bingham, Chen, Jankowiak, Obermeyer, Pradhan,
-  Karaletsos, Singh, Szerlip, Horsfall, and Goodman}{Bingham
-  et~al\mbox{.}}{2019}]%
-        {pyro}
-\bibfield{author}{\bibinfo{person}{Eli Bingham}, \bibinfo{person}{Jonathan~P
-  Chen}, \bibinfo{person}{Martin Jankowiak}, \bibinfo{person}{Fritz Obermeyer},
-  \bibinfo{person}{Neeraj Pradhan}, \bibinfo{person}{Theofanis Karaletsos},
-  \bibinfo{person}{Rohit Singh}, \bibinfo{person}{Paul Szerlip},
-  \bibinfo{person}{Paul Horsfall}, {and} \bibinfo{person}{Noah~D Goodman}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Pyro: Deep universal probabilistic programming}.
-\newblock \bibinfo{journal}{\emph{The Journal of Machine Learning Research}}
-  \bibinfo{volume}{20}, \bibinfo{number}{1} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{973--978}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Blair, Cooper, Coppock, and Humphreys}{Blair
-  et~al\mbox{.}}{2019a}]%
-        {blair2019declaring}
-\bibfield{author}{\bibinfo{person}{Graeme Blair}, \bibinfo{person}{Jasper
-  Cooper}, \bibinfo{person}{Alexander Coppock}, {and} \bibinfo{person}{Macartan
-  Humphreys}.} \bibinfo{year}{2019}\natexlab{a}.
-\newblock \showarticletitle{Declaring and diagnosing research designs}.
-\newblock \bibinfo{journal}{\emph{American Political Science Review}}
-  \bibinfo{volume}{113}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{838--859}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Blair, Cooper, Coppock, and Humphreys}{Blair
-  et~al\mbox{.}}{2019b}]%
-        {blair2019declareDesign}
-\bibfield{author}{\bibinfo{person}{Graeme Blair}, \bibinfo{person}{Jasper
-  Cooper}, \bibinfo{person}{Alexander Coppock}, {and} \bibinfo{person}{Macartan
-  Humphreys}.} \bibinfo{year}{2019}\natexlab{b}.
-\newblock \showarticletitle{Declaring and diagnosing research designs}.
-\newblock \bibinfo{journal}{\emph{American Political Science Review}}
-  \bibinfo{volume}{113}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{838--859}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Bobriakov}{Bobriakov}{2017}]%
-        {bobriakov2017:top15Python}
-\bibfield{author}{\bibinfo{person}{Igor Bobriakov}.}
-  \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{Top 15 Python Libraries for Data Science in 2017}.
-\newblock \bibinfo{journal}{\emph{ActiveWizards in Medium}}
-  (\bibinfo{year}{2017}).
-\newblock
-\urldef\tempurl%
-\url{"https://medium.com/activewizards-machine-learning-company/top-15-python-libraries-for-data-science-in-in-2017-ab61b4f9b4a7"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Bobriakov}{Bobriakov}{2018}]%
-        {bobriakov2018:top20Python}
-\bibfield{author}{\bibinfo{person}{Igor Bobriakov}.}
-  \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Top 20 Python libraries for data science in 2018}.
-\newblock \bibinfo{journal}{\emph{ActiveWizards in Medium}}
-  (\bibinfo{year}{2018}).
-\newblock
-\urldef\tempurl%
-\url{"https://medium.com/activewizards-machine-learning-company/top-20-python-libraries-for-data-science-in-2018-2ae7d1db8049"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Bolker, Brooks, Clark, Geange, Poulsen,
-  Stevens, and White}{Bolker et~al\mbox{.}}{2009}]%
-        {bolker2009generalized}
-\bibfield{author}{\bibinfo{person}{Benjamin~M Bolker},
-  \bibinfo{person}{Mollie~E Brooks}, \bibinfo{person}{Connie~J Clark},
-  \bibinfo{person}{Shane~W Geange}, \bibinfo{person}{John~R Poulsen},
-  \bibinfo{person}{M~Henry~H Stevens}, {and} \bibinfo{person}{Jada-Simone~S
-  White}.} \bibinfo{year}{2009}\natexlab{}.
-\newblock \showarticletitle{Generalized linear mixed models: a practical guide
-  for ecology and evolution}.
-\newblock \bibinfo{journal}{\emph{Trends in ecology \& evolution}}
-  \bibinfo{volume}{24}, \bibinfo{number}{3} (\bibinfo{year}{2009}),
-  \bibinfo{pages}{127--135}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Borgo, Soranzo, and Grassi}{Borgo
-  et~al\mbox{.}}{2012}]%
-        {borgo2012psychtoolbox}
-\bibfield{author}{\bibinfo{person}{Mauro Borgo}, \bibinfo{person}{Alessandro
-  Soranzo}, {and} \bibinfo{person}{Massimo Grassi}.}
-  \bibinfo{year}{2012}\natexlab{}.
-\newblock \showarticletitle{Psychtoolbox: sound, keyboard and mouse}.
-\newblock In \bibinfo{booktitle}{\emph{MATLAB for Psychologists}}.
-  \bibinfo{publisher}{Springer}, \bibinfo{pages}{249--273}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Breiman, Cutler, Liaw, and Wiener}{Breiman
-  et~al\mbox{.}}{2018}]%
-        {randomForestR}
-\bibfield{author}{\bibinfo{person}{Leo Breiman}, \bibinfo{person}{Adele
-  Cutler}, \bibinfo{person}{Andy Liaw}, {and} \bibinfo{person}{Matthew
-  Wiener}.} \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Package ‘randomForest`}.
-\newblock  (\bibinfo{year}{2018}).
-\newblock
-\urldef\tempurl%
-\url{"https://cran.r-project.org/web/packages/randomForest/randomForest.pdf"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Brooks, Kristensen, van Benthem, Magnusson,
-  Berg, Nielsen, Skaug, Machler, and Bolker}{Brooks et~al\mbox{.}}{2017}]%
-        {glmmtmbPaper}
-\bibfield{author}{\bibinfo{person}{Mollie~E Brooks}, \bibinfo{person}{Kasper
-  Kristensen}, \bibinfo{person}{Koen~J van Benthem}, \bibinfo{person}{Arni
-  Magnusson}, \bibinfo{person}{Casper~W Berg}, \bibinfo{person}{Anders
-  Nielsen}, \bibinfo{person}{Hans~J Skaug}, \bibinfo{person}{Martin Machler},
-  {and} \bibinfo{person}{Benjamin~M Bolker}.} \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{glmmTMB balances speed and flexibility among
-  packages for zero-inflated generalized linear mixed modeling}.
-\newblock \bibinfo{journal}{\emph{The R journal}} \bibinfo{volume}{9},
-  \bibinfo{number}{2} (\bibinfo{year}{2017}), \bibinfo{pages}{378--400}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Bruin}{Bruin}{2019}]%
-        {ucla:whatstat}
-\bibfield{author}{\bibinfo{person}{J. Bruin}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \bibinfo{title}{Choosing the Correct Statistical Test in SAS, Stata,
-  SPSS and R}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://stats.idre.ucla.edu/other/mult-pkg/whatstat/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Bughio, Huckell, and Maggert}{Bughio
-  et~al\mbox{.}}{2019}]%
-        {PNAS5}
-\bibfield{author}{\bibinfo{person}{Farah Bughio}, \bibinfo{person}{Gary~R.
-  Huckell}, {and} \bibinfo{person}{Keith~A. Maggert}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Monitoring of switches in heterochromatin-induced
-  silencing shows incomplete establishment and developmental instabilities}.
-\newblock  \bibinfo{volume}{116}, \bibinfo{number}{40} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{20043--20053}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Buitinck, Louppe, Blondel, Pedregosa, Mueller,
-  Grisel, Niculae, Prettenhofer, Gramfort, Grobler, et~al\mbox{.}}{Buitinck
-  et~al\mbox{.}}{2013}]%
-        {scikitAPIPaper}
-\bibfield{author}{\bibinfo{person}{Lars Buitinck}, \bibinfo{person}{Gilles
-  Louppe}, \bibinfo{person}{Mathieu Blondel}, \bibinfo{person}{Fabian
-  Pedregosa}, \bibinfo{person}{Andreas Mueller}, \bibinfo{person}{Olivier
-  Grisel}, \bibinfo{person}{Vlad Niculae}, \bibinfo{person}{Peter
-  Prettenhofer}, \bibinfo{person}{Alexandre Gramfort}, \bibinfo{person}{Jaques
-  Grobler}, {et~al\mbox{.}}} \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{API design for machine learning software:
-  experiences from the scikit-learn project}.
-\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1309.0238}}
-  (\bibinfo{year}{2013}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{B{\"u}rkner et~al\mbox{.}}{B{\"u}rkner
-  et~al\mbox{.}}{2017}]%
-        {burkner2017brms}
-\bibfield{author}{\bibinfo{person}{Paul-Christian B{\"u}rkner} {et~al\mbox{.}}}
-  \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{brms: An R package for Bayesian multilevel models
-  using Stan}.
-\newblock \bibinfo{journal}{\emph{Journal of statistical software}}
-  \bibinfo{volume}{80}, \bibinfo{number}{1} (\bibinfo{year}{2017}),
-  \bibinfo{pages}{1--28}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{B{\"u}rkner and Buerkner}{B{\"u}rkner and
-  Buerkner}{2016}]%
-        {brmsRef}
-\bibfield{author}{\bibinfo{person}{Paul-Christian B{\"u}rkner} {and}
-  \bibinfo{person}{Maintainer Paul-Christian Buerkner}.}
-  \bibinfo{year}{2016}\natexlab{}.
-\newblock \showarticletitle{Package ‘brms’}.
-\newblock  (\bibinfo{year}{2016}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Caggese, Cu{\~n}at, and Metzger}{Caggese
-  et~al\mbox{.}}{2019a}]%
-        {JFE6}
-\bibfield{author}{\bibinfo{person}{Andrea Caggese}, \bibinfo{person}{Vicente
-  Cu{\~n}at}, {and} \bibinfo{person}{Daniel Metzger}.}
-  \bibinfo{year}{2019}\natexlab{a}.
-\newblock \showarticletitle{Firing the wrong workers: Financing constraints and
-  labor misallocation}.
-\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
-  \bibinfo{volume}{133}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{589--607}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Caggese, Cu{\~n}at, and Metzger}{Caggese
-  et~al\mbox{.}}{2019b}]%
-        {JFE7}
-\bibfield{author}{\bibinfo{person}{Andrea Caggese}, \bibinfo{person}{Vicente
-  Cu{\~n}at}, {and} \bibinfo{person}{Daniel Metzger}.}
-  \bibinfo{year}{2019}\natexlab{b}.
-\newblock \showarticletitle{Firing the wrong workers: Financing constraints and
-  labor misallocation}.
-\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
-  \bibinfo{volume}{133}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{589--607}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Cairns}{Cairns}{2007}]%
-        {cairns2007hci}
-\bibfield{author}{\bibinfo{person}{Paul Cairns}.}
-  \bibinfo{year}{2007}\natexlab{}.
-\newblock \showarticletitle{HCI... not as it should be: inferential statistics
-  in HCI research}. In \bibinfo{booktitle}{\emph{Proceedings of the 21st
-  British HCI Group Annual Conference on People and Computers: HCI... but not
-  as we know it-Volume 1}}. British Computer Society,
-  \bibinfo{pages}{195--201}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Campbell, Wilson, Moore, Riser, Brayton,
-  Mazloff, and Talley}{Campbell et~al\mbox{.}}{2019}]%
-        {N3}
-\bibfield{author}{\bibinfo{person}{Ethan~C Campbell}, \bibinfo{person}{Earle~A
-  Wilson}, \bibinfo{person}{GW~Kent Moore}, \bibinfo{person}{Stephen~C Riser},
-  \bibinfo{person}{Casey~E Brayton}, \bibinfo{person}{Matthew~R Mazloff}, {and}
-  \bibinfo{person}{Lynne~D Talley}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Antarctic offshore polynyas linked to Southern
-  Hemisphere climate anomalies}.
-\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{570},
-  \bibinfo{number}{7761} (\bibinfo{year}{2019}), \bibinfo{pages}{319--325}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Carpenter, Gelman, D.~Hoffman, Lee, Goodrich,
-  Betancourt, Brubaker, Guo, Li, and Riddell}{Carpenter et~al\mbox{.}}{2017}]%
-        {stan}
-\bibfield{author}{\bibinfo{person}{Bob Carpenter}, \bibinfo{person}{Andrew
-  Gelman}, \bibinfo{person}{Matthew D.~Hoffman}, \bibinfo{person}{Daniel Lee},
-  \bibinfo{person}{Ben Goodrich}, \bibinfo{person}{Michael Betancourt},
-  \bibinfo{person}{Marcus Brubaker}, \bibinfo{person}{Jiqiang Guo},
-  \bibinfo{person}{Peter Li}, {and} \bibinfo{person}{Allen Riddell}.}
-  \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{Stan : A Probabilistic Programming Language}.
-\newblock \bibinfo{journal}{\emph{Journal of Statistical Software}}
-  \bibinfo{volume}{76} (\bibinfo{date}{01} \bibinfo{year}{2017}).
-\newblock
-\urldef\tempurl%
-\url{https://doi.org/10.18637/jss.v076.i01}
-\showDOI{\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Carver, Everson, Gabrosek, Horton, Lock,
-  Mocko, Rossman, Roswell, Velleman, Witmer, et~al\mbox{.}}{Carver
-  et~al\mbox{.}}{2016}]%
-        {carver2016guidelines}
-\bibfield{author}{\bibinfo{person}{Robert Carver}, \bibinfo{person}{Michelle
-  Everson}, \bibinfo{person}{John Gabrosek}, \bibinfo{person}{Nicholas Horton},
-  \bibinfo{person}{Robin Lock}, \bibinfo{person}{Megan Mocko},
-  \bibinfo{person}{Allan Rossman}, \bibinfo{person}{Ginger~Holmes Roswell},
-  \bibinfo{person}{Paul Velleman}, \bibinfo{person}{Jeffrey Witmer},
-  {et~al\mbox{.}}} \bibinfo{year}{2016}\natexlab{}.
-\newblock \showarticletitle{Guidelines for assessment and instruction in
-  statistics education (GAISE) college report 2016}.
-\newblock  (\bibinfo{year}{2016}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Chasins, Mueller, and Bodik}{Chasins
-  et~al\mbox{.}}{2018}]%
-        {chasins2018rousillon}
-\bibfield{author}{\bibinfo{person}{Sarah~E Chasins}, \bibinfo{person}{Maria
-  Mueller}, {and} \bibinfo{person}{Rastislav Bodik}.}
-  \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Rousillon: Scraping Distributed Hierarchical Web
-  Data}. In \bibinfo{booktitle}{\emph{Proceedings of the 31st Annual ACM
-  Symposium on User Interface Software and Technology}}.
-  \bibinfo{pages}{963--975}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Chen}{Chen}{1976}]%
-        {chen1976ERDiagram}
-\bibfield{author}{\bibinfo{person}{Peter Pin-Shan Chen}.}
-  \bibinfo{year}{1976}\natexlab{}.
-\newblock \showarticletitle{The entity-relationship model—toward a unified
-  view of data}.
-\newblock \bibinfo{journal}{\emph{ACM transactions on database systems (TODS)}}
-  \bibinfo{volume}{1}, \bibinfo{number}{1} (\bibinfo{year}{1976}),
-  \bibinfo{pages}{9--36}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Chen, Lun, McCarthy, Ritchie, Phipson, Hu,
-  Zhou, Robinson, and Smyth}{Chen et~al\mbox{.}}{2020a}]%
-        {edgeROverview}
-\bibfield{author}{\bibinfo{person}{Yunshun Chen}, \bibinfo{person}{Aaron~TL
-  Lun}, \bibinfo{person}{Davis~J McCarthy}, \bibinfo{person}{Matthew~E
-  Ritchie}, \bibinfo{person}{Belinda Phipson}, \bibinfo{person}{Yifang Hu},
-  \bibinfo{person}{Xiaobei Zhou}, \bibinfo{person}{Mark~D Robinson}, {and}
-  \bibinfo{person}{Gordon~K Smyth}.} \bibinfo{year}{2020}\natexlab{a}.
-\newblock \showarticletitle{Empirical Analysis of Digital Gene Expression Data
-  in R (v3.30.3)}.
-\newblock  (\bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{"https://bioconductor.org/packages/release/bioc/html/edgeR.html"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Chen, McCarthy, Ritchie, Robinson, and
-  Smyth}{Chen et~al\mbox{.}}{2020b}]%
-        {edgeRUsersGuide}
-\bibfield{author}{\bibinfo{person}{Yunshun Chen}, \bibinfo{person}{David
-  McCarthy}, \bibinfo{person}{Matthew Ritchie}, \bibinfo{person}{Mark
-  Robinson}, {and} \bibinfo{person}{Gordon Smyth}.}
-  \bibinfo{year}{2020}\natexlab{b}.
-\newblock \showarticletitle{edgeR: differential analysisof sequence read count
-  data}.
-\newblock  (\bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{"https://bioconductor.org/packages/release/bioc/vignettes/edgeR/inst/doc/edgeRUsersGuide.pdf"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Chernyak, Leimgruber, Dunham, Hu, and
-  Blake}{Chernyak et~al\mbox{.}}{2019}]%
-        {PS3}
-\bibfield{author}{\bibinfo{person}{Nadia Chernyak}, \bibinfo{person}{Kristin~L.
-  Leimgruber}, \bibinfo{person}{Yarrow~C. Dunham}, \bibinfo{person}{Jingshi
-  Hu}, {and} \bibinfo{person}{Peter~R. Blake}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Paying Back People Who Harmed Us but Not People Who
-  Helped Us: Direct Negative Reciprocity Precedes Direct Positive Reciprocity
-  in Early Development}.
-\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
-  \bibinfo{number}{9} (\bibinfo{year}{2019}), \bibinfo{pages}{1273--1286}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Chollet et~al\mbox{.}}{Chollet
-  et~al\mbox{.}}{2015}]%
-        {keras}
-\bibfield{author}{\bibinfo{person}{Fran\c{c}ois Chollet} {et~al\mbox{.}}}
-  \bibinfo{year}{2015}\natexlab{}.
-\newblock \bibinfo{title}{Keras}.
-\newblock \bibinfo{howpublished}{\url{https://keras.io}}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Choy, Moon, Ravindran, Bray, Robinson,
-  Archuleta, Shi, Peti, Tatchell, and Page}{Choy et~al\mbox{.}}{2019}]%
-        {PNAS4}
-\bibfield{author}{\bibinfo{person}{Meng~S. Choy}, \bibinfo{person}{Thomas~M.
-  Moon}, \bibinfo{person}{Rini Ravindran}, \bibinfo{person}{Johnny~A. Bray},
-  \bibinfo{person}{Lucy~C. Robinson}, \bibinfo{person}{Tara~L. Archuleta},
-  \bibinfo{person}{Wuxian Shi}, \bibinfo{person}{Wolfgang Peti},
-  \bibinfo{person}{Kelly Tatchell}, {and} \bibinfo{person}{Rebecca Page}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{SDS22 selectively recognizes and traps
-  metal-deficient inactive PP1}.
-\newblock  \bibinfo{volume}{116}, \bibinfo{number}{41} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{20472--20481}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Church, Donoughe, de~Medeiros, and
-  Extavour}{Church et~al\mbox{.}}{2019}]%
-        {N8}
-\bibfield{author}{\bibinfo{person}{Samuel~H Church}, \bibinfo{person}{Seth
-  Donoughe}, \bibinfo{person}{Bruno~AS de Medeiros}, {and}
-  \bibinfo{person}{Cassandra~G Extavour}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Insect egg size and shape evolve with ecology but
-  not developmental rate}.
-\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{571},
-  \bibinfo{number}{7763} (\bibinfo{year}{2019}), \bibinfo{pages}{58--62}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Cinelli, Forney, and Pearl}{Cinelli
-  et~al\mbox{.}}{2020}]%
-        {cinelli2020controls}
-\bibfield{author}{\bibinfo{person}{Carlos Cinelli}, \bibinfo{person}{Andrew
-  Forney}, {and} \bibinfo{person}{Judea Pearl}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{A crash course in good and bad controls}.
-\newblock \bibinfo{journal}{\emph{Sociological Methods \& Research}}
-  (\bibinfo{year}{2020}), \bibinfo{pages}{00491241221099552}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Clark}{Clark}{1973}]%
-        {clark1973language}
-\bibfield{author}{\bibinfo{person}{Herbert~H Clark}.}
-  \bibinfo{year}{1973}\natexlab{}.
-\newblock \showarticletitle{The language-as-fixed-effect fallacy: A critique of
-  language statistics in psychological research}.
-\newblock \bibinfo{journal}{\emph{Journal of verbal learning and verbal
-  behavior}} \bibinfo{volume}{12}, \bibinfo{number}{4} (\bibinfo{year}{1973}),
-  \bibinfo{pages}{335--359}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Cohen}{Cohen}{1988}]%
-        {cohen1988statistical}
-\bibfield{author}{\bibinfo{person}{Jacob Cohen}.}
-  \bibinfo{year}{1988}\natexlab{}.
-\newblock \showarticletitle{Statistical power analysis for the social
-  sciences}.
-\newblock  (\bibinfo{year}{1988}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Cohen, Cohen, West, and Aiken}{Cohen
-  et~al\mbox{.}}{2013}]%
-        {cohen2013applied}
-\bibfield{author}{\bibinfo{person}{Jacob Cohen}, \bibinfo{person}{Patricia
-  Cohen}, \bibinfo{person}{Stephen~G West}, {and} \bibinfo{person}{Leona~S
-  Aiken}.} \bibinfo{year}{2013}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Applied multiple regression/correlation
-  analysis for the behavioral sciences}}.
-\newblock \bibinfo{publisher}{Routledge}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Community}{Community}{[n. d.]}]%
-        {plotlyDash}
-\bibfield{author}{\bibinfo{person}{Plotly~Dash Community}.} \bibinfo{year}{[n.
-  d.]}\natexlab{}.
-\newblock \bibinfo{title}{Plotly Dash}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://plotly.com/dash/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Crane, Koch, and Michenaud}{Crane
-  et~al\mbox{.}}{2019}]%
-        {JFE3}
-\bibfield{author}{\bibinfo{person}{Alan~D Crane}, \bibinfo{person}{Andrew
-  Koch}, {and} \bibinfo{person}{S{\'e}bastien Michenaud}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Institutional investor cliques and governance}.
-\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
-  \bibinfo{volume}{133}, \bibinfo{number}{1} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{175--197}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Crump}{Crump}{[n. d.]}]%
-        {jspsychR}
-\bibfield{author}{\bibinfo{person}{Matthew~J.C. Crump}.} \bibinfo{year}{[n.
-  d.]}\natexlab{}.
-\newblock \bibinfo{title}{JsPsychR}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://www.crumplab.com/jspsychr/articles/jspsychr.html}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{De~Leeuw}{De~Leeuw}{2015a}]%
-        {deLeeuw2015jspsych}
-\bibfield{author}{\bibinfo{person}{Joshua~R De~Leeuw}.}
-  \bibinfo{year}{2015}\natexlab{a}.
-\newblock \showarticletitle{jsPsych: A JavaScript library for creating
-  behavioral experiments in a Web browser}.
-\newblock \bibinfo{journal}{\emph{Behavior research methods}}
-  \bibinfo{volume}{47}, \bibinfo{number}{1} (\bibinfo{year}{2015}),
-  \bibinfo{pages}{1--12}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{De~Leeuw}{De~Leeuw}{2015b}]%
-        {de2015jspsych}
-\bibfield{author}{\bibinfo{person}{Joshua~R De~Leeuw}.}
-  \bibinfo{year}{2015}\natexlab{b}.
-\newblock \showarticletitle{jsPsych: A JavaScript library for creating
-  behavioral experiments in a Web browser}.
-\newblock \bibinfo{journal}{\emph{Behavior research methods}}
-  \bibinfo{volume}{47}, \bibinfo{number}{1} (\bibinfo{year}{2015}),
-  \bibinfo{pages}{1--12}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{De~Moura and Bj{\o}rner}{De~Moura and
-  Bj{\o}rner}{2008}]%
-        {de2008z3}
-\bibfield{author}{\bibinfo{person}{Leonardo De~Moura} {and}
-  \bibinfo{person}{Nikolaj Bj{\o}rner}.} \bibinfo{year}{2008}\natexlab{}.
-\newblock \showarticletitle{Z3: An efficient SMT solver}. In
-  \bibinfo{booktitle}{\emph{International conference on Tools and Algorithms
-  for the Construction and Analysis of Systems}}. Springer,
-  \bibinfo{pages}{337--340}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{D{\'e}troit, Mijares, Corny, Daver, Zanolli,
-  Dizon, Robles, Gr{\"u}n, and Piper}{D{\'e}troit et~al\mbox{.}}{2019}]%
-        {N1}
-\bibfield{author}{\bibinfo{person}{Florent D{\'e}troit},
-  \bibinfo{person}{Armand~Salvador Mijares}, \bibinfo{person}{Julien Corny},
-  \bibinfo{person}{Guillaume Daver}, \bibinfo{person}{Cl{\'e}ment Zanolli},
-  \bibinfo{person}{Eusebio Dizon}, \bibinfo{person}{Emil Robles},
-  \bibinfo{person}{Rainer Gr{\"u}n}, {and} \bibinfo{person}{Philip~J Piper}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{A new species of Homo from the Late Pleistocene of
-  the Philippines}.
-\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{568},
-  \bibinfo{number}{7751} (\bibinfo{year}{2019}), \bibinfo{pages}{181--186}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Di~Maggio, Franzoni, Kermani, and
-  Sommavilla}{Di~Maggio et~al\mbox{.}}{2019}]%
-        {JFE0}
-\bibfield{author}{\bibinfo{person}{Marco Di~Maggio}, \bibinfo{person}{Francesco
-  Franzoni}, \bibinfo{person}{Amir Kermani}, {and} \bibinfo{person}{Carlo
-  Sommavilla}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{The relevance of broker networks for information
-  diffusion in the stock market}.
-\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
-  \bibinfo{volume}{134}, \bibinfo{number}{2} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{419--446}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Efron}{Efron}{1992}]%
-        {efron1992bootstrap}
-\bibfield{author}{\bibinfo{person}{Bradley Efron}.}
-  \bibinfo{year}{1992}\natexlab{}.
-\newblock \showarticletitle{Bootstrap methods: another look at the jackknife}.
-\newblock In \bibinfo{booktitle}{\emph{Breakthroughs in statistics}}.
-  \bibinfo{publisher}{Springer}, \bibinfo{pages}{569--593}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Ehrlich}{Ehrlich}{1973}]%
-        {ehrlich1973participation}
-\bibfield{author}{\bibinfo{person}{Isaac Ehrlich}.}
-  \bibinfo{year}{1973}\natexlab{}.
-\newblock \showarticletitle{Participation in illegitimate activities: A
-  theoretical and empirical investigation}.
-\newblock \bibinfo{journal}{\emph{Journal of political Economy}}
-  \bibinfo{volume}{81}, \bibinfo{number}{3} (\bibinfo{year}{1973}),
-  \bibinfo{pages}{521--565}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Eiselmayer, Wacharamanotham, Beaudouin-Lafon,
-  and Mackay}{Eiselmayer et~al\mbox{.}}{2019}]%
-        {eiselmayer2019touchstone2}
-\bibfield{author}{\bibinfo{person}{Alexander Eiselmayer},
-  \bibinfo{person}{Chatchavan Wacharamanotham}, \bibinfo{person}{Michel
-  Beaudouin-Lafon}, {and} \bibinfo{person}{Wendy Mackay}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Touchstone2: An Interactive Environment for
-  Exploring Trade-offs in HCI Experiment Design}.
-\newblock  (\bibinfo{year}{2019}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Eslami, Vaccaro, Lee, Elazari Bar~On, Gilbert,
-  and Karahalios}{Eslami et~al\mbox{.}}{2019}]%
-        {CHI4}
-\bibfield{author}{\bibinfo{person}{Motahhare Eslami}, \bibinfo{person}{Kristen
-  Vaccaro}, \bibinfo{person}{Min~Kyung Lee}, \bibinfo{person}{Amit Elazari
-  Bar~On}, \bibinfo{person}{Eric Gilbert}, {and} \bibinfo{person}{Karrie
-  Karahalios}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{User attitudes towards algorithmic opacity and
-  transparency in online reviewing platforms}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{pages}{1--14}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Fafard, Stavness, Dechant, Mandryk, Zhou, and
-  Fels}{Fafard et~al\mbox{.}}{2019}]%
-        {CHI9}
-\bibfield{author}{\bibinfo{person}{Dylan Fafard}, \bibinfo{person}{Ian
-  Stavness}, \bibinfo{person}{Martin Dechant}, \bibinfo{person}{Regan Mandryk},
-  \bibinfo{person}{Qian Zhou}, {and} \bibinfo{person}{Sidney Fels}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Ftvr in vr: Evaluation of 3d perception with a
-  simulated volumetric fish-tank virtual reality display}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{pages}{1--12}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Feigenspan, K{\"a}stner, Liebig, Apel, and
-  Hanenberg}{Feigenspan et~al\mbox{.}}{2012}]%
-        {feigenspan2012measuring}
-\bibfield{author}{\bibinfo{person}{Janet Feigenspan},
-  \bibinfo{person}{Christian K{\"a}stner}, \bibinfo{person}{J{\"o}rg Liebig},
-  \bibinfo{person}{Sven Apel}, {and} \bibinfo{person}{Stefan Hanenberg}.}
-  \bibinfo{year}{2012}\natexlab{}.
-\newblock \showarticletitle{Measuring programming experience}. In
-  \bibinfo{booktitle}{\emph{2012 20th IEEE International Conference on Program
-  Comprehension (ICPC)}}. IEEE, \bibinfo{pages}{73--82}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Feurer, Klein, Eggensperger, Springenberg,
-  Blum, and Hutter}{Feurer et~al\mbox{.}}{2015}]%
-        {autosklearn}
-\bibfield{author}{\bibinfo{person}{Matthias Feurer}, \bibinfo{person}{Aaron
-  Klein}, \bibinfo{person}{Katharina Eggensperger}, \bibinfo{person}{Jost
-  Springenberg}, \bibinfo{person}{Manuel Blum}, {and} \bibinfo{person}{Frank
-  Hutter}.} \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Efficient and Robust Automated Machine Learning}.
-  In \bibinfo{booktitle}{\emph{Advances in Neural Information Processing
-  Systems}}, \bibfield{editor}{\bibinfo{person}{C.~Cortes},
-  \bibinfo{person}{N.~Lawrence}, \bibinfo{person}{D.~Lee},
-  \bibinfo{person}{M.~Sugiyama}, {and} \bibinfo{person}{R.~Garnett}} (Eds.),
-  Vol.~\bibinfo{volume}{28}. \bibinfo{publisher}{Curran Associates, Inc.}
-\newblock
-\urldef\tempurl%
-\url{https://proceedings.neurips.cc/paper/2015/file/11d0e6287202fced83f79975ec59a3a6-Paper.pdf}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Field, Miles, and Field}{Field
-  et~al\mbox{.}}{2012}]%
-        {field2012discoveringR}
-\bibfield{author}{\bibinfo{person}{Andy Field}, \bibinfo{person}{Jeremy Miles},
-  {and} \bibinfo{person}{Zo{\"e} Field}.} \bibinfo{year}{2012}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Discovering statistics using R}}.
-\newblock \bibinfo{publisher}{Sage publications}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Fisher}{Fisher}{1937}]%
-        {fisher1937design}
-\bibfield{author}{\bibinfo{person}{Ronald~Aylmer Fisher}.}
-  \bibinfo{year}{1937}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{The design of experiments}}.
-\newblock \bibinfo{publisher}{Oliver And Boyd; Edinburgh; London}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Friedman, Hastie, Tibshirani, Narasimhan, Tay,
-  Simon, and Qian}{Friedman et~al\mbox{.}}{2020}]%
-        {glmnetRef}
-\bibfield{author}{\bibinfo{person}{Jerome Friedman}, \bibinfo{person}{Trevor
-  Hastie}, \bibinfo{person}{Rob Tibshirani}, \bibinfo{person}{Balasubramanian
-  Narasimhan}, \bibinfo{person}{Kenneth Tay}, \bibinfo{person}{Noah Simon},
-  {and} \bibinfo{person}{Junyang Qian}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Package ‘glmnet`}.
-\newblock  (\bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{"https://cran.r-project.org/web/packages/glmnet/index.html"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Fuzik, Rehman, Girach, Miklosi, Korchynska,
-  Arque, Romanov, Hanics, Wagner, Meletis, et~al\mbox{.}}{Fuzik
-  et~al\mbox{.}}{2019}]%
-        {PNAS1}
-\bibfield{author}{\bibinfo{person}{Janos Fuzik}, \bibinfo{person}{Sabah
-  Rehman}, \bibinfo{person}{Fatima Girach}, \bibinfo{person}{Andras~G Miklosi},
-  \bibinfo{person}{Solomiia Korchynska}, \bibinfo{person}{Gloria Arque},
-  \bibinfo{person}{Roman~A Romanov}, \bibinfo{person}{J{\'a}nos Hanics},
-  \bibinfo{person}{Ludwig Wagner}, \bibinfo{person}{Konstantinos Meletis},
-  {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Brain-wide genetic mapping identifies the indusium
-  griseum as a prenatal target of pharmacologically unrelated
-  psychostimulants}.
-\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of
-  Sciences}} \bibinfo{volume}{116}, \bibinfo{number}{51}
-  (\bibinfo{year}{2019}), \bibinfo{pages}{25958--25967}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Gabry, Simpson, Vehtari, Betancourt, and
-  Gelman}{Gabry et~al\mbox{.}}{2019}]%
-        {gabry2019visualization}
-\bibfield{author}{\bibinfo{person}{Jonah Gabry}, \bibinfo{person}{Daniel
-  Simpson}, \bibinfo{person}{Aki Vehtari}, \bibinfo{person}{Michael
-  Betancourt}, {and} \bibinfo{person}{Andrew Gelman}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Visualization in Bayesian workflow}.
-\newblock \bibinfo{journal}{\emph{Journal of the Royal Statistical Society:
-  Series A (Statistics in Society)}} \bibinfo{volume}{182}, \bibinfo{number}{2}
-  (\bibinfo{year}{2019}), \bibinfo{pages}{389--402}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Gehrke, Akman, Lopes, Chen, Singh, Chen, Lin,
-  and Gramann}{Gehrke et~al\mbox{.}}{2019}]%
-        {CHI0}
-\bibfield{author}{\bibinfo{person}{Lukas Gehrke}, \bibinfo{person}{Sezen
-  Akman}, \bibinfo{person}{Pedro Lopes}, \bibinfo{person}{Albert Chen},
-  \bibinfo{person}{Avinash~Kumar Singh}, \bibinfo{person}{Hsiang-Ting Chen},
-  \bibinfo{person}{Chin-Teng Lin}, {and} \bibinfo{person}{Klaus Gramann}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Detecting visuo-haptic mismatches in virtual
-  reality using the prediction error negativity of event-related brain
-  potentials}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI
-  Conference on Human Factors in Computing Systems}}. \bibinfo{pages}{1--11}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Gelman}{Gelman}{2005}]%
-        {gelmanFixedRandom}
-\bibfield{author}{\bibinfo{person}{Andrew Gelman}.}
-  \bibinfo{year}{2005}\natexlab{}.
-\newblock \bibinfo{title}{Why I don’t use the term “fixed and random
-  effects”}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://statmodeling.stat.columbia.edu/2005/01/25/why_i_dont_use/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Gelman, Carlin, Stern, Dunson, Vehtari, and
-  Rubin}{Gelman et~al\mbox{.}}{2013}]%
-        {gelman2013bayesianTextbook}
-\bibfield{author}{\bibinfo{person}{Andrew Gelman}, \bibinfo{person}{John~B
-  Carlin}, \bibinfo{person}{Hal~S Stern}, \bibinfo{person}{David~B Dunson},
-  \bibinfo{person}{Aki Vehtari}, {and} \bibinfo{person}{Donald~B Rubin}.}
-  \bibinfo{year}{2013}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Bayesian data analysis}}.
-\newblock \bibinfo{publisher}{CRC press}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Gelman and Hill}{Gelman and Hill}{2006}]%
-        {gelmanHill2006regression}
-\bibfield{author}{\bibinfo{person}{Andrew Gelman} {and}
-  \bibinfo{person}{Jennifer Hill}.} \bibinfo{year}{2006}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Data analysis using regression and
-  multilevel/hierarchical models}}.
-\newblock \bibinfo{publisher}{Cambridge university press}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Gelman and Loken}{Gelman and Loken}{2013}]%
-        {gelman2013garden}
-\bibfield{author}{\bibinfo{person}{Andrew Gelman} {and} \bibinfo{person}{Eric
-  Loken}.} \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{The garden of forking paths: Why multiple
-  comparisons can be a problem, even when there is no “fishing expedition”
-  or “p-hacking” and the research hypothesis was posited ahead of time}.
-\newblock \bibinfo{journal}{\emph{Department of Statistics, Columbia
-  University}} (\bibinfo{year}{2013}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Gelman, Vehtari, Simpson, Margossian,
-  Carpenter, Yao, Kennedy, Gabry, B{\"u}rkner, and Modr{\'a}k}{Gelman
-  et~al\mbox{.}}{2020}]%
-        {gelman2020bayesianWorkflow}
-\bibfield{author}{\bibinfo{person}{Andrew Gelman}, \bibinfo{person}{Aki
-  Vehtari}, \bibinfo{person}{Daniel Simpson}, \bibinfo{person}{Charles~C
-  Margossian}, \bibinfo{person}{Bob Carpenter}, \bibinfo{person}{Yuling Yao},
-  \bibinfo{person}{Lauren Kennedy}, \bibinfo{person}{Jonah Gabry},
-  \bibinfo{person}{Paul-Christian B{\"u}rkner}, {and} \bibinfo{person}{Martin
-  Modr{\'a}k}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Bayesian workflow}.
-\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2011.01808}}
-  (\bibinfo{year}{2020}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{GraphPad~Software}{GraphPad~Software}{2020}]%
-        {graphPadUserGuide}
-\bibfield{author}{\bibinfo{person}{LLC. GraphPad~Software}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{GraphPad Prism 8 User Guide}.
-\newblock  (\bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{"https://www.graphpad.com/guides/prism/8/user-guide/index.htm"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Greenland, Pearl, and Robins}{Greenland
-  et~al\mbox{.}}{1999}]%
-        {greenland1999causal}
-\bibfield{author}{\bibinfo{person}{Sander Greenland}, \bibinfo{person}{Judea
-  Pearl}, {and} \bibinfo{person}{James~M Robins}.}
-  \bibinfo{year}{1999}\natexlab{}.
-\newblock \showarticletitle{Causal diagrams for epidemiologic research}.
-\newblock \bibinfo{journal}{\emph{Epidemiology}} (\bibinfo{year}{1999}),
-  \bibinfo{pages}{37--48}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Greenwood, Shleifer, and You}{Greenwood
-  et~al\mbox{.}}{2019}]%
-        {JFE9}
-\bibfield{author}{\bibinfo{person}{Robin Greenwood}, \bibinfo{person}{Andrei
-  Shleifer}, {and} \bibinfo{person}{Yang You}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Bubbles for fama}.
-\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
-  \bibinfo{volume}{131}, \bibinfo{number}{1} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{20--43}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Griffin, Kruger, and Maturana}{Griffin
-  et~al\mbox{.}}{2019}]%
-        {JFE5}
-\bibfield{author}{\bibinfo{person}{John~M Griffin}, \bibinfo{person}{Samuel
-  Kruger}, {and} \bibinfo{person}{Gonzalo Maturana}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Do labor markets discipline? Evidence from RMBS
-  bankers}.
-\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
-  \bibinfo{volume}{133}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{726--750}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Grolemund}{Grolemund}{2019}]%
-        {grolemund2019:recommendedR}
-\bibfield{author}{\bibinfo{person}{Garrett Grolemund}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Quick list of useful R packages}.
-\newblock \bibinfo{journal}{\emph{R Studio Support}} (\bibinfo{year}{2019}).
-\newblock
-\urldef\tempurl%
-\url{"https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Grolemund and Wickham}{Grolemund and
-  Wickham}{2014}]%
-        {grolemund2014cognitive}
-\bibfield{author}{\bibinfo{person}{Garrett Grolemund} {and}
-  \bibinfo{person}{Hadley Wickham}.} \bibinfo{year}{2014}\natexlab{}.
-\newblock \showarticletitle{A cognitive interpretation of data analysis}.
-\newblock \bibinfo{journal}{\emph{International Statistical Review}}
-  \bibinfo{volume}{82}, \bibinfo{number}{2} (\bibinfo{year}{2014}),
-  \bibinfo{pages}{184--204}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Guimbreti{\`e}re, Dixon, and
-  Hinckley}{Guimbreti{\`e}re et~al\mbox{.}}{2007}]%
-        {guimbretiere2007experiscope}
-\bibfield{author}{\bibinfo{person}{Fran{\c{c}}ois Guimbreti{\`e}re},
-  \bibinfo{person}{Morgan Dixon}, {and} \bibinfo{person}{Ken Hinckley}.}
-  \bibinfo{year}{2007}\natexlab{}.
-\newblock \showarticletitle{ExperiScope: an analysis tool for interaction
-  data}. In \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI conference on
-  Human factors in computing systems}}. ACM, \bibinfo{pages}{1333--1342}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Hadfield}{Hadfield}{2020}]%
-        {MCMCglmmRef}
-\bibfield{author}{\bibinfo{person}{Jarrod Hadfield}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Package ‘MCMCglmm`}.
-\newblock  (\bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{"https://cran.r-project.org/web/packages/MCMCglmm/MCMCglmm.pdf"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Hadfield et~al\mbox{.}}{Hadfield
-  et~al\mbox{.}}{2010}]%
-        {MCMCglmmPaper}
-\bibfield{author}{\bibinfo{person}{Jarrod~D Hadfield} {et~al\mbox{.}}}
-  \bibinfo{year}{2010}\natexlab{}.
-\newblock \showarticletitle{MCMC methods for multi-response generalized linear
-  mixed models: the MCMCglmm R package}.
-\newblock \bibinfo{journal}{\emph{Journal of Statistical Software}}
-  \bibinfo{volume}{33}, \bibinfo{number}{2} (\bibinfo{year}{2010}),
-  \bibinfo{pages}{1--22}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Halder and Milner}{Halder and Milner}{2019}]%
-        {PNAS3}
-\bibfield{author}{\bibinfo{person}{Sebok~K. Halder} {and}
-  \bibinfo{person}{Richard Milner}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{A critical role for microglia in maintaining
-  vascular integrity in the hypoxic spinal cord}.
-\newblock  \bibinfo{volume}{116}, \bibinfo{number}{51} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{26029--26037}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Hamdan, Wagner, Voelker, Steimle, and
-  Borchers}{Hamdan et~al\mbox{.}}{2019}]%
-        {CHI2}
-\bibfield{author}{\bibinfo{person}{Nur Al-huda Hamdan}, \bibinfo{person}{Adrian
-  Wagner}, \bibinfo{person}{Simon Voelker}, \bibinfo{person}{J{\"u}rgen
-  Steimle}, {and} \bibinfo{person}{Jan Borchers}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Springlets: Expressive, flexible and silent on-skin
-  tactile interfaces}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI
-  Conference on Human Factors in Computing Systems}}. \bibinfo{pages}{1--14}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Harrison}{Harrison}{2020}]%
-        {harrison2020psychtestr}
-\bibfield{author}{\bibinfo{person}{Peter Harrison}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{psychTestR: An R package for designing and
-  conducting behavioural psychological experiments}.
-\newblock \bibinfo{journal}{\emph{The Journal of Open Source Software}}
-  \bibinfo{volume}{5}, \bibinfo{number}{49} (\bibinfo{year}{2020}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Hastie and Qian}{Hastie and Qian}{2014}]%
-        {glmnetVignette}
-\bibfield{author}{\bibinfo{person}{Trevor Hastie} {and}
-  \bibinfo{person}{Junyang Qian}.} \bibinfo{year}{2014}\natexlab{}.
-\newblock \showarticletitle{Glmnet vignette}.
-\newblock  (\bibinfo{year}{2014}).
-\newblock
-\urldef\tempurl%
-\url{https://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Hempel, Lubin, and Chugh}{Hempel
-  et~al\mbox{.}}{2019}]%
-        {hempel2019sketch}
-\bibfield{author}{\bibinfo{person}{Brian Hempel}, \bibinfo{person}{Justin
-  Lubin}, {and} \bibinfo{person}{Ravi Chugh}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Sketch-n-Sketch: Output-Directed Programming for
-  SVG}. In \bibinfo{booktitle}{\emph{Proceedings of the 32nd Annual ACM
-  Symposium on User Interface Software and Technology}}.
-  \bibinfo{pages}{281--292}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Hernández, Ángeles Palomar-García,
-  Nohales-Nieto, Olcina-Sempere, Villar-Rodríguez, Pastor, Ávila, and
-  Parcet}{Hernández et~al\mbox{.}}{2019}]%
-        {PS1}
-\bibfield{author}{\bibinfo{person}{Mireia Hernández}, \bibinfo{person}{María
-  Ángeles Palomar-García}, \bibinfo{person}{Benito Nohales-Nieto},
-  \bibinfo{person}{Gustau Olcina-Sempere}, \bibinfo{person}{Esteban
-  Villar-Rodríguez}, \bibinfo{person}{Raúl Pastor}, \bibinfo{person}{César
-  Ávila}, {and} \bibinfo{person}{Maria-Antònia Parcet}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Separate Contribution of Striatum Volume and Pitch
-  Discrimination to Individual Differences in Music Reward}.
-\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
-  \bibinfo{number}{9} (\bibinfo{year}{2019}), \bibinfo{pages}{1352--1361}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Hoffswell, Borning, and Heer}{Hoffswell
-  et~al\mbox{.}}{2018}]%
-        {hoffswell2018setcola}
-\bibfield{author}{\bibinfo{person}{Jane Hoffswell}, \bibinfo{person}{Alan
-  Borning}, {and} \bibinfo{person}{Jeffrey Heer}.}
-  \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{SetCoLa: High-Level Constraints for Graph Layout}.
-  In \bibinfo{booktitle}{\emph{Computer Graphics Forum}},
-  Vol.~\bibinfo{volume}{37}. Wiley Online Library, \bibinfo{pages}{537--548}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Holland, Holyoak, Nisbett, and
-  Thagard}{Holland et~al\mbox{.}}{1989}]%
-        {holland1989induction}
-\bibfield{author}{\bibinfo{person}{John~H Holland}, \bibinfo{person}{Keith~J
-  Holyoak}, \bibinfo{person}{Richard~E Nisbett}, {and} \bibinfo{person}{Paul~R
-  Thagard}.} \bibinfo{year}{1989}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Induction: Processes of inference,
-  learning, and discovery}}.
-\newblock \bibinfo{publisher}{MIT press}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Holm}{Holm}{1979}]%
-        {holm1979simple}
-\bibfield{author}{\bibinfo{person}{Sture Holm}.}
-  \bibinfo{year}{1979}\natexlab{}.
-\newblock \showarticletitle{A simple sequentially rejective multiple test
-  procedure}.
-\newblock \bibinfo{journal}{\emph{Scandinavian journal of statistics}}
-  (\bibinfo{year}{1979}), \bibinfo{pages}{65--70}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Hoyle}{Hoyle}{1995}]%
-        {hoyle1995SEM}
-\bibfield{author}{\bibinfo{person}{Rick~H Hoyle}.}
-  \bibinfo{year}{1995}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Structural equation modeling: Concepts,
-  issues, and applications}}.
-\newblock \bibinfo{publisher}{Sage}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Huang, Huang, and Zhang}{Huang
-  et~al\mbox{.}}{2019}]%
-        {JFE1}
-\bibfield{author}{\bibinfo{person}{Pinghsun Huang}, \bibinfo{person}{Hsin-Yi
-  Huang}, {and} \bibinfo{person}{Yan Zhang}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Do firms hedge with foreign currency derivatives
-  for employees?}
-\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
-  \bibinfo{volume}{133}, \bibinfo{number}{2} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{418--440}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Inc.}{Inc.}{2021}]%
-        {sas}
-\bibfield{author}{\bibinfo{person}{SAS~Institute Inc.}}
-  \bibinfo{year}{2021}\natexlab{}.
-\newblock \bibinfo{title}{SAS}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://www.sas.com/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Johnston, Su, Pinckney, Critton, Boyer,
-  Krishnakumar, Corbett, Rankin, Dibella, Campbell, et~al\mbox{.}}{Johnston
-  et~al\mbox{.}}{2019}]%
-        {N0}
-\bibfield{author}{\bibinfo{person}{Robert~J Johnston},
-  \bibinfo{person}{Linhui~Julie Su}, \bibinfo{person}{Jason Pinckney},
-  \bibinfo{person}{David Critton}, \bibinfo{person}{Eric Boyer},
-  \bibinfo{person}{Arathi Krishnakumar}, \bibinfo{person}{Martin Corbett},
-  \bibinfo{person}{Andrew~L Rankin}, \bibinfo{person}{Rose Dibella},
-  \bibinfo{person}{Lynne Campbell}, {et~al\mbox{.}}}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{VISTA is an acidic pH-selective ligand for PSGL-1}.
-\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{574},
-  \bibinfo{number}{7779} (\bibinfo{year}{2019}), \bibinfo{pages}{565--570}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Jolly}{Jolly}{2018}]%
-        {jolly2018pymer4}
-\bibfield{author}{\bibinfo{person}{Eshin Jolly}.}
-  \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Pymer4: connecting R and Python for linear mixed
-  modeling}.
-\newblock \bibinfo{journal}{\emph{Journal of Open Source Software}}
-  \bibinfo{volume}{3}, \bibinfo{number}{31} (\bibinfo{year}{2018}),
-  \bibinfo{pages}{862}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Jones and Sall}{Jones and Sall}{2011}]%
-        {jones2011jmp}
-\bibfield{author}{\bibinfo{person}{Bradley Jones} {and} \bibinfo{person}{John
-  Sall}.} \bibinfo{year}{2011}\natexlab{}.
-\newblock \showarticletitle{JMP statistical discovery software}.
-\newblock \bibinfo{journal}{\emph{Wiley Interdisciplinary Reviews:
-  Computational Statistics}} \bibinfo{volume}{3}, \bibinfo{number}{3}
-  (\bibinfo{year}{2011}), \bibinfo{pages}{188--194}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Jones, Oliphant, Peterson,
-  et~al\mbox{.}}{Jones et~al\mbox{.}}{2021a}]%
-        {scipy}
-\bibfield{author}{\bibinfo{person}{Eric Jones}, \bibinfo{person}{Travis
-  Oliphant}, \bibinfo{person}{Pearu Peterson}, {et~al\mbox{.}}}
-  \bibinfo{year}{2001--2021}\natexlab{a}.
-\newblock \bibinfo{title}{{SciPy}: Open source scientific tools for {Python}}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{http://www.scipy.org/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Jones, Oliphant, Peterson,
-  et~al\mbox{.}}{Jones et~al\mbox{.}}{2021b}]%
-        {scipyStats}
-\bibfield{author}{\bibinfo{person}{Eric Jones}, \bibinfo{person}{Travis
-  Oliphant}, \bibinfo{person}{Pearu Peterson}, {et~al\mbox{.}}}
-  \bibinfo{year}{2001--2021}\natexlab{b}.
-\newblock \bibinfo{title}{{SciPy}: Open source scientific tools for {Python}}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://docs.scipy.org/doc/scipy/reference/stats.html}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Jones, Oliphant, Peterson,
-  et~al\mbox{.}}{Jones et~al\mbox{.}}{2021c}]%
-        {scipyOptimize}
-\bibfield{author}{\bibinfo{person}{Eric Jones}, \bibinfo{person}{Travis
-  Oliphant}, \bibinfo{person}{Pearu Peterson}, {et~al\mbox{.}}}
-  \bibinfo{year}{2001--2021}\natexlab{c}.
-\newblock \bibinfo{title}{{SciPy}: Open source scientific tools for {Python}}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://docs.scipy.org/doc/scipy/reference/optimize.html}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Jun, Birchfield, De~Moura, Heer, and Just}{Jun
-  et~al\mbox{.}}{2022a}]%
-        {jun2022hypoForm}
-\bibfield{author}{\bibinfo{person}{Eunice Jun}, \bibinfo{person}{Melissa
-  Birchfield}, \bibinfo{person}{Nicole De~Moura}, \bibinfo{person}{Jeffrey
-  Heer}, {and} \bibinfo{person}{Rene Just}.} \bibinfo{year}{2022}\natexlab{a}.
-\newblock \showarticletitle{Hypothesis formalization: Empirical findings,
-  software limitations, and design implications}.
-\newblock \bibinfo{journal}{\emph{ACM Transactions on Computer-Human
-  Interaction (TOCHI)}} \bibinfo{volume}{29}, \bibinfo{number}{1}
-  (\bibinfo{year}{2022}), \bibinfo{pages}{1--28}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Jun, Birchfield, De~Moura, Heer, and Just}{Jun
-  et~al\mbox{.}}{2022b}]%
-        {jun2021hypothesisFormalization}
-\bibfield{author}{\bibinfo{person}{Eunice Jun}, \bibinfo{person}{Melissa
-  Birchfield}, \bibinfo{person}{Nicole De~Moura}, \bibinfo{person}{Jeffrey
-  Heer}, {and} \bibinfo{person}{Rene Just}.} \bibinfo{year}{2022}\natexlab{b}.
-\newblock \showarticletitle{Hypothesis Formalization: Empirical Findings,
-  Software Limitations, and Design Implications}. In
-  \bibinfo{booktitle}{\emph{ACM Transactions on Computer-Human Interaction
-  (TOCHI)}}, Vol.~\bibinfo{volume}{29}.
-\newblock
-Issue 1.
-\urldef\tempurl%
-\url{"https://arxiv.org/abs/2104.02712"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Jun, Daum, Roesch, Chasins, Berger, Just, and
-  Reinecke}{Jun et~al\mbox{.}}{2019}]%
-        {jun2019tea}
-\bibfield{author}{\bibinfo{person}{Eunice Jun}, \bibinfo{person}{Maureen Daum},
-  \bibinfo{person}{Jared Roesch}, \bibinfo{person}{Sarah~E Chasins},
-  \bibinfo{person}{Emery~D Berger}, \bibinfo{person}{Rene Just}, {and}
-  \bibinfo{person}{Katharina Reinecke}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Tea: A High-level Language and Runtime System for
-  Automating Statistical Analysis}. In \bibinfo{booktitle}{\emph{Proceedings of
-  the 32nd Annual Symposium on User Interface Software and Technology}}. ACM.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Jun, Misback, Heer, and Just}{Jun
-  et~al\mbox{.}}{[n. d.]}]%
-        {jun2023rTisane}
-\bibfield{author}{\bibinfo{person}{Eunice Jun}, \bibinfo{person}{Edward
-  Misback}, \bibinfo{person}{Jeffrey Heer}, {and} \bibinfo{person}{Ren{\'e}
-  Just}.} \bibinfo{year}{[n. d.]}\natexlab{}.
-\newblock \showarticletitle{rTisane: Formalizing conceptual models to author
-  statistical models reduces error, increases awareness, and teaches novices}.
-  In \bibinfo{booktitle}{\emph{Under submission}}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Jun and Seo}{Jun and Seo}{[n. d.]}]%
-        {tisaneWebsite}
-\bibfield{author}{\bibinfo{person}{Eunice Jun} {and} \bibinfo{person}{Audrey
-  Seo}.} \bibinfo{year}{[n. d.]}\natexlab{}.
-\newblock \bibinfo{title}{Tisane}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://tisane-stats.org/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Jun, Seo, Heer, and Just}{Jun
-  et~al\mbox{.}}{2022c}]%
-        {jun2022tisane}
-\bibfield{author}{\bibinfo{person}{Eunice Jun}, \bibinfo{person}{Audrey Seo},
-  \bibinfo{person}{Jeffrey Heer}, {and} \bibinfo{person}{Ren{\'e} Just}.}
-  \bibinfo{year}{2022}\natexlab{c}.
-\newblock \showarticletitle{Tisane: Authoring Statistical Models via Formal
-  Reasoning from Conceptual and Data Relationships}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2022 CHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{pages}{1--16}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Kabacoff}{Kabacoff}{2011}]%
-        {kabacoff2011action}
-\bibfield{author}{\bibinfo{person}{Robert~I Kabacoff}.}
-  \bibinfo{year}{2011}\natexlab{}.
-\newblock \showarticletitle{R: In Action}.
-\newblock  (\bibinfo{year}{2011}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Kale, Kay, and Hullman}{Kale
-  et~al\mbox{.}}{2019}]%
-        {kale2019decision}
-\bibfield{author}{\bibinfo{person}{Alex Kale}, \bibinfo{person}{Matthew Kay},
-  {and} \bibinfo{person}{Jessica Hullman}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Decision-making under uncertainty in research
-  synthesis: Designing for the garden of forking paths}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{pages}{1--14}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Kandel, Paepcke, Hellerstein, and Heer}{Kandel
-  et~al\mbox{.}}{2011}]%
-        {kandel2011wrangler}
-\bibfield{author}{\bibinfo{person}{Sean Kandel}, \bibinfo{person}{Andreas
-  Paepcke}, \bibinfo{person}{Joseph Hellerstein}, {and}
-  \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2011}\natexlab{}.
-\newblock \showarticletitle{Wrangler: Interactive visual specification of data
-  transformation scripts}. In \bibinfo{booktitle}{\emph{Proceedings of the
-  SIGCHI Conference on Human Factors in Computing Systems}}. ACM,
-  \bibinfo{pages}{3363--3372}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Kandel, Paepcke, Hellerstein, and Heer}{Kandel
-  et~al\mbox{.}}{2012}]%
-        {kandel2012enterprise}
-\bibfield{author}{\bibinfo{person}{Sean Kandel}, \bibinfo{person}{Andreas
-  Paepcke}, \bibinfo{person}{Joseph~M Hellerstein}, {and}
-  \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2012}\natexlab{}.
-\newblock \showarticletitle{Enterprise data analysis and visualization: An
-  interview study}.
-\newblock \bibinfo{journal}{\emph{IEEE Transactions on Visualization and
-  Computer Graphics}} \bibinfo{volume}{18}, \bibinfo{number}{12}
-  (\bibinfo{year}{2012}), \bibinfo{pages}{2917--2926}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Kaptein and Robertson}{Kaptein and
-  Robertson}{2012}]%
-        {kaptein2012rethinking}
-\bibfield{author}{\bibinfo{person}{Maurits Kaptein} {and} \bibinfo{person}{Judy
-  Robertson}.} \bibinfo{year}{2012}\natexlab{}.
-\newblock \showarticletitle{Rethinking statistical analysis methods for CHI}.
-  In \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI Conference on Human
-  Factors in Computing Systems}}. ACM, \bibinfo{pages}{1105--1114}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Kay, Nelson, and Hekler}{Kay
-  et~al\mbox{.}}{2016}]%
-        {kay2016researcher}
-\bibfield{author}{\bibinfo{person}{Matthew Kay}, \bibinfo{person}{Gregory~L
-  Nelson}, {and} \bibinfo{person}{Eric~B Hekler}.}
-  \bibinfo{year}{2016}\natexlab{}.
-\newblock \showarticletitle{Researcher-centered design of statistics: Why
-  Bayesian statistics better fit the culture and incentives of HCI}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2016 CHI Conference on Human
-  Factors in Computing Systems}}. ACM, \bibinfo{pages}{4521--4532}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Kerr}{Kerr}{1998}]%
-        {kerr1998harking}
-\bibfield{author}{\bibinfo{person}{Norbert~L Kerr}.}
-  \bibinfo{year}{1998}\natexlab{}.
-\newblock \showarticletitle{HARKing: Hypothesizing after the results are
-  known}.
-\newblock \bibinfo{journal}{\emph{Personality and social psychology review}}
-  \bibinfo{volume}{2}, \bibinfo{number}{3} (\bibinfo{year}{1998}),
-  \bibinfo{pages}{196--217}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Klahr and Dunbar}{Klahr and Dunbar}{1988}]%
-        {klahr1988dual}
-\bibfield{author}{\bibinfo{person}{David Klahr} {and} \bibinfo{person}{Kevin
-  Dunbar}.} \bibinfo{year}{1988}\natexlab{}.
-\newblock \showarticletitle{Dual space search during scientific reasoning}.
-\newblock \bibinfo{journal}{\emph{Cognitive science}} \bibinfo{volume}{12},
-  \bibinfo{number}{1} (\bibinfo{year}{1988}), \bibinfo{pages}{1--48}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Klahr and Simon}{Klahr and Simon}{1999}]%
-        {klahr1999studies}
-\bibfield{author}{\bibinfo{person}{David Klahr} {and}
-  \bibinfo{person}{Herbert~A Simon}.} \bibinfo{year}{1999}\natexlab{}.
-\newblock \showarticletitle{Studies of scientific discovery: Complementary
-  approaches and convergent findings.}
-\newblock \bibinfo{journal}{\emph{Psychological Bulletin}}
-  \bibinfo{volume}{125}, \bibinfo{number}{5} (\bibinfo{year}{1999}),
-  \bibinfo{pages}{524}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Klein, Phillips, Rall, and Peluso}{Klein
-  et~al\mbox{.}}{2007}]%
-        {klein2007dataFrame}
-\bibfield{author}{\bibinfo{person}{Gary Klein}, \bibinfo{person}{Jennifer~K
-  Phillips}, \bibinfo{person}{Erica~L Rall}, {and} \bibinfo{person}{Deborah~A
-  Peluso}.} \bibinfo{year}{2007}\natexlab{}.
-\newblock \showarticletitle{A data--frame theory of sensemaking}.
-\newblock In \bibinfo{booktitle}{\emph{Expertise out of context}}.
-  \bibinfo{publisher}{Psychology Press}, \bibinfo{pages}{118--160}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Klemmer and Wobbrock}{Klemmer and
-  Wobbrock}{2019}]%
-        {klemmerCoursera}
-\bibfield{author}{\bibinfo{person}{Scott Klemmer} {and} \bibinfo{person}{Jacob
-  Wobbrock}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \bibinfo{title}{Designing, Running, and Analyzing Experiments}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://www.coursera.org/learn/designexperiments}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Koch, Lucero, Hegemann, and Oulasvirta}{Koch
-  et~al\mbox{.}}{2019}]%
-        {CHI6}
-\bibfield{author}{\bibinfo{person}{Janin Koch}, \bibinfo{person}{Andr{\'e}s
-  Lucero}, \bibinfo{person}{Lena Hegemann}, {and} \bibinfo{person}{Antti
-  Oulasvirta}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{May AI? Design ideation with cooperative contextual
-  bandits}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference
-  on Human Factors in Computing Systems}}. \bibinfo{pages}{1--12}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Korstanje}{Korstanje}{2019}]%
-        {sumsofsquaresBlog}
-\bibfield{author}{\bibinfo{person}{Joos Korstanje}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{"ANOVA’s three types of estimating Sums of
-  Squares: don’t make the wrong choice!"}.
-\newblock \bibinfo{journal}{\emph{Towards Data Science, Medium}}
-  (\bibinfo{year}{2019}).
-\newblock
-\urldef\tempurl%
-\url{"https://towardsdatascience.com/anovas-three-types-of-estimating-sums-of-squares-don-t-make-the-wrong-choice-91107c77a27a"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Kouchaki, Gino, and Feldman}{Kouchaki
-  et~al\mbox{.}}{2019}]%
-        {PS6}
-\bibfield{author}{\bibinfo{person}{Maryam Kouchaki}, \bibinfo{person}{Francesca
-  Gino}, {and} \bibinfo{person}{Yuval Feldman}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{The Ethical Perils of Personal, Communal Relations:
-  A Language Perspective}.
-\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
-  \bibinfo{number}{12} (\bibinfo{year}{2019}), \bibinfo{pages}{1745--1766}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Kreft, Kreft, and de~Leeuw}{Kreft
-  et~al\mbox{.}}{1998}]%
-        {kreft1998introducing}
-\bibfield{author}{\bibinfo{person}{Ita~GG Kreft}, \bibinfo{person}{Ita Kreft},
-  {and} \bibinfo{person}{Jan de Leeuw}.} \bibinfo{year}{1998}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Introducing multilevel modeling}}.
-\newblock \bibinfo{publisher}{Sage}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Kuhn, Vaughan, and RStudio}{Kuhn
-  et~al\mbox{.}}{2020}]%
-        {parsnip}
-\bibfield{author}{\bibinfo{person}{Max Kuhn}, \bibinfo{person}{Davis Vaughan},
-  {and} \bibinfo{person}{RStudio}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{title}{parsnip: A Common API to Modeling and Analysis
-  Functions}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{"https://parsnip.tidymodels.org/"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Kuhn and Wickham}{Kuhn and Wickham}{2020}]%
-        {tidymodels}
-\bibfield{author}{\bibinfo{person}{Max Kuhn} {and} \bibinfo{person}{Hadley
-  Wickham}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Tidymodels: a collection of packages for
-  modeling and machine learning using tidyverse principles.}}
-\newblock
-\urldef\tempurl%
-\url{"https://www.tidymodels.org"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{LeDell and Poirier}{LeDell and
-  Poirier}{2020}]%
-        {H2OAutoML20}
-\bibfield{author}{\bibinfo{person}{Erin LeDell} {and}
-  \bibinfo{person}{Sebastien Poirier}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{{H2O} {A}uto{ML}: Scalable Automatic Machine
-  Learning}.
-\newblock \bibinfo{journal}{\emph{7th ICML Workshop on Automated Machine
-  Learning (AutoML)}} (\bibinfo{date}{July} \bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{https://www.automl.org/wp-content/uploads/2020/07/AutoML_2020_paper_61.pdf}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Lee, Ackermans, van As, Chang, Lucas, and
-  IJsselsteijn}{Lee et~al\mbox{.}}{2019a}]%
-        {CHI8}
-\bibfield{author}{\bibinfo{person}{Minha Lee}, \bibinfo{person}{Sander
-  Ackermans}, \bibinfo{person}{Nena van As}, \bibinfo{person}{Hanwen Chang},
-  \bibinfo{person}{Enzo Lucas}, {and} \bibinfo{person}{Wijnand IJsselsteijn}.}
-  \bibinfo{year}{2019}\natexlab{a}.
-\newblock \showarticletitle{Caring for Vincent: A Chatbot for Self-Compassion}.
-  In \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{pages}{1--13}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Lee, Criss, Devezer, Donkin, Etz, Leite,
-  Matzke, Rouder, Trueblood, White, et~al\mbox{.}}{Lee et~al\mbox{.}}{2019b}]%
-        {lee2019robust}
-\bibfield{author}{\bibinfo{person}{Michael~D Lee}, \bibinfo{person}{Amy~H
-  Criss}, \bibinfo{person}{Berna Devezer}, \bibinfo{person}{Christopher
-  Donkin}, \bibinfo{person}{Alexander Etz}, \bibinfo{person}{F{\'a}bio~P
-  Leite}, \bibinfo{person}{Dora Matzke}, \bibinfo{person}{Jeffrey~N Rouder},
-  \bibinfo{person}{Jennifer~S Trueblood}, \bibinfo{person}{Corey~N White},
-  {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{b}.
-\newblock \showarticletitle{Robust modeling in cognitive science}.
-\newblock \bibinfo{journal}{\emph{Computational Brain \& Behavior}}
-  \bibinfo{volume}{2}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{141--153}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Leong, Cheung, Dai, Tsao, Tsang, Dawson, Mun
-  Yee~Ko, and Lung}{Leong et~al\mbox{.}}{2019}]%
-        {PNAS7}
-\bibfield{author}{\bibinfo{person}{Merrin Man~Long Leong},
-  \bibinfo{person}{Arthur Kwok~Leung Cheung}, \bibinfo{person}{Wei Dai},
-  \bibinfo{person}{Sai~Wah Tsao}, \bibinfo{person}{Chi~Man Tsang},
-  \bibinfo{person}{Christopher~W. Dawson}, \bibinfo{person}{Josephine Mun
-  Yee~Ko}, {and} \bibinfo{person}{Maria~Li Lung}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{EBV infection is associated with histone bivalent
-  switch modifications in squamous epithelial cells}.
-\newblock  \bibinfo{volume}{116}, \bibinfo{number}{28} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{14144--14153}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Libraries}{Libraries}{2019}]%
-        {kent:tutorials}
-\bibfield{author}{\bibinfo{person}{Kent State~University Libraries}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \bibinfo{title}{SPSS Tutorials: Analyzing Data}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://libguides.library.kent.edu/SPSS/AnalyzeData}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Liu, Ge, Liu, Dong, Shan, Chen, Yao, Li, Yao,
-  Zhou, Zhang, Jiang, Zhao, and Yan}{Liu et~al\mbox{.}}{2019c}]%
-        {PNAS8}
-\bibfield{author}{\bibinfo{person}{Chang Liu}, \bibinfo{person}{Hui-Min Ge},
-  \bibinfo{person}{Bai-Hui Liu}, \bibinfo{person}{Rui Dong},
-  \bibinfo{person}{Kun Shan}, \bibinfo{person}{Xue Chen},
-  \bibinfo{person}{Mu-Di Yao}, \bibinfo{person}{Xiu-Miao Li},
-  \bibinfo{person}{Jin Yao}, \bibinfo{person}{Rong-Mei Zhou},
-  \bibinfo{person}{Shu-Jie Zhang}, \bibinfo{person}{Qin Jiang},
-  \bibinfo{person}{Chen Zhao}, {and} \bibinfo{person}{Biao Yan}.}
-  \bibinfo{year}{2019}\natexlab{c}.
-\newblock \showarticletitle{Targeting pericyte{\textendash}endothelial cell
-  crosstalk by circular RNA-cPWWP2A inhibition aggravates diabetes-induced
-  microvascular dysfunction}.
-\newblock  \bibinfo{volume}{116}, \bibinfo{number}{15} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{7455--7464}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Liu, Boukhelifa, and Eagan}{Liu
-  et~al\mbox{.}}{2019b}]%
-        {liu2019understanding}
-\bibfield{author}{\bibinfo{person}{Jiali Liu}, \bibinfo{person}{Nadia
-  Boukhelifa}, {and} \bibinfo{person}{James~R Eagan}.}
-  \bibinfo{year}{2019}\natexlab{b}.
-\newblock \showarticletitle{Understanding the Role of Alternatives in Data
-  Analysis Practices}.
-\newblock \bibinfo{journal}{\emph{IEEE transactions on visualization and
-  computer graphics}} \bibinfo{volume}{26}, \bibinfo{number}{1}
-  (\bibinfo{year}{2019}), \bibinfo{pages}{66--76}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Liu, Althoff, and Heer}{Liu
-  et~al\mbox{.}}{2019a}]%
-        {liu2019paths}
-\bibfield{author}{\bibinfo{person}{Yang Liu}, \bibinfo{person}{Tim Althoff},
-  {and} \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2019}\natexlab{a}.
-\newblock \showarticletitle{Paths Explored, Paths Omitted, Paths Obscured:
-  Decision Points \& Selective Reporting in End-to-End Data Analysis}.
-\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1910.13602}}
-  (\bibinfo{year}{2019}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{LLC}{LLC}{2020a}]%
-        {stataLang}
-\bibfield{author}{\bibinfo{person}{StataCorp LLC}.}
-  \bibinfo{year}{2020}\natexlab{a}.
-\newblock \bibinfo{title}{Language syntax}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://www.stata.com/manuals13/u11.pdf}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{LLC}{LLC}{2020b}]%
-        {stataRef}
-\bibfield{author}{\bibinfo{person}{StataCorp LLC}.}
-  \bibinfo{year}{2020}\natexlab{b}.
-\newblock \bibinfo{title}{Stata 16 Documentation}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://www.stata.com/features/documentation/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Lloyd, Duvenaud, Grosse, Tenenbaum, and
-  Ghahramani}{Lloyd et~al\mbox{.}}{2014}]%
-        {lloyd2014automatic}
-\bibfield{author}{\bibinfo{person}{James Lloyd}, \bibinfo{person}{David
-  Duvenaud}, \bibinfo{person}{Roger Grosse}, \bibinfo{person}{Joshua
-  Tenenbaum}, {and} \bibinfo{person}{Zoubin Ghahramani}.}
-  \bibinfo{year}{2014}\natexlab{}.
-\newblock \showarticletitle{Automatic construction and natural-language
-  description of nonparametric regression models}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the AAAI Conference on Artificial
-  Intelligence}}, Vol.~\bibinfo{volume}{28}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Lo and Andrews}{Lo and Andrews}{2015}]%
-        {lo2015transform}
-\bibfield{author}{\bibinfo{person}{Steson Lo} {and} \bibinfo{person}{Sally
-  Andrews}.} \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{To transform or not to transform: Using generalized
-  linear mixed models to analyse reaction time data}.
-\newblock \bibinfo{journal}{\emph{Frontiers in psychology}}
-  \bibinfo{volume}{6} (\bibinfo{year}{2015}), \bibinfo{pages}{1171}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Loncaric, Torlak, and Ernst}{Loncaric
-  et~al\mbox{.}}{2016}]%
-        {loncaric2016cozy}
-\bibfield{author}{\bibinfo{person}{Calvin Loncaric}, \bibinfo{person}{Emina
-  Torlak}, {and} \bibinfo{person}{Michael~D Ernst}.}
-  \bibinfo{year}{2016}\natexlab{}.
-\newblock \showarticletitle{Fast synthesis of fast collections}.
-\newblock \bibinfo{journal}{\emph{ACM SIGPLAN Notices}} \bibinfo{volume}{51},
-  \bibinfo{number}{6} (\bibinfo{year}{2016}), \bibinfo{pages}{355--368}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Lunn, Thomas, Best, and Spiegelhalter}{Lunn
-  et~al\mbox{.}}{2000}]%
-        {bugs}
-\bibfield{author}{\bibinfo{person}{David~J. Lunn}, \bibinfo{person}{Andrew
-  Thomas}, \bibinfo{person}{Nicky Best}, {and} \bibinfo{person}{David
-  Spiegelhalter}.} \bibinfo{year}{2000}\natexlab{}.
-\newblock \showarticletitle{WinBUGS - A Bayesian modelling framework: Concepts,
-  structure, and extensibility}.
-\newblock \bibinfo{journal}{\emph{Statistics and Computing}}
-  \bibinfo{volume}{10}, \bibinfo{number}{4} (\bibinfo{date}{01 Oct}
-  \bibinfo{year}{2000}), \bibinfo{pages}{325--337}.
-\newblock
-\showISSN{1573-1375}
-\urldef\tempurl%
-\url{https://doi.org/10.1023/A:1008929526011}
-\showDOI{\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Mackay, Appert, Beaudouin-Lafon, Chapuis, Du,
-  Fekete, and Guiard}{Mackay et~al\mbox{.}}{2007}]%
-        {mackay2007touchstone}
-\bibfield{author}{\bibinfo{person}{Wendy~E Mackay}, \bibinfo{person}{Caroline
-  Appert}, \bibinfo{person}{Michel Beaudouin-Lafon}, \bibinfo{person}{Olivier
-  Chapuis}, \bibinfo{person}{Yangzhou Du}, \bibinfo{person}{Jean-Daniel
-  Fekete}, {and} \bibinfo{person}{Yves Guiard}.}
-  \bibinfo{year}{2007}\natexlab{}.
-\newblock \showarticletitle{Touchstone: exploratory design of experiments}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI conference on Human
-  factors in computing systems}}. ACM, \bibinfo{pages}{1425--1434}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Magnusson, Skaug, Nielsen, Berg, Kristensen,
-  Maechler, van Bentham, Bolker, Sadat, L{\"u}decke, Lenth, O'Brien, and
-  Brooks}{Magnusson et~al\mbox{.}}{2020}]%
-        {glmmtmbRef}
-\bibfield{author}{\bibinfo{person}{Arni Magnusson}, \bibinfo{person}{Hans
-  Skaug}, \bibinfo{person}{Anders Nielsen}, \bibinfo{person}{Casper Berg},
-  \bibinfo{person}{Kasper Kristensen}, \bibinfo{person}{Martin Maechler},
-  \bibinfo{person}{Koen van Bentham}, \bibinfo{person}{Ben Bolker},
-  \bibinfo{person}{Nafis Sadat}, \bibinfo{person}{Daniel L{\"u}decke},
-  \bibinfo{person}{Russ Lenth}, \bibinfo{person}{Joseph O'Brien}, {and}
-  \bibinfo{person}{Mollie Brooks}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Package ‘glmmTMB’}.
-\newblock  (\bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{"https://cran.r-project.org/web/packages/glmmTMB/index.html"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Mauffrey, Tchitchek, Barroca, Bemelmans,
-  Firlej, Allory, Romeo, and Magnon}{Mauffrey et~al\mbox{.}}{2019}]%
-        {N9}
-\bibfield{author}{\bibinfo{person}{Philippe Mauffrey}, \bibinfo{person}{Nicolas
-  Tchitchek}, \bibinfo{person}{Vilma Barroca}, \bibinfo{person}{Alexis
-  Bemelmans}, \bibinfo{person}{Virginie Firlej}, \bibinfo{person}{Yves Allory},
-  \bibinfo{person}{Paul-Henri Romeo}, {and} \bibinfo{person}{Claire Magnon}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Progenitors from the central nervous system drive
-  neurogenesis in cancer}.
-\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{569},
-  \bibinfo{number}{7758} (\bibinfo{year}{2019}), \bibinfo{pages}{672--678}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{McCloskey, Taly, Monti, Brenner, and
-  Colwell}{McCloskey et~al\mbox{.}}{2019}]%
-        {PNAS9}
-\bibfield{author}{\bibinfo{person}{Kevin McCloskey}, \bibinfo{person}{Ankur
-  Taly}, \bibinfo{person}{Federico Monti}, \bibinfo{person}{Michael~P.
-  Brenner}, {and} \bibinfo{person}{Lucy~J. Colwell}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Using attribution to decode binding mechanism in
-  neural network models for chemistry}.
-\newblock  \bibinfo{volume}{116}, \bibinfo{number}{24} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{11624--11629}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{McDonald, Schoenebeck, and Forte}{McDonald
-  et~al\mbox{.}}{2019}]%
-        {mcdonald2019reliability}
-\bibfield{author}{\bibinfo{person}{Nora McDonald}, \bibinfo{person}{Sarita
-  Schoenebeck}, {and} \bibinfo{person}{Andrea Forte}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Reliability and inter-rater reliability in
-  qualitative research: Norms and guidelines for CSCW and HCI practice}.
-\newblock \bibinfo{journal}{\emph{Proceedings of the ACM on Human-Computer
-  Interaction}} \bibinfo{volume}{3}, \bibinfo{number}{CSCW}
-  (\bibinfo{year}{2019}), \bibinfo{pages}{1--23}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{McElreath}{McElreath}{2020}]%
-        {mcelreath2020statistical}
-\bibfield{author}{\bibinfo{person}{Richard McElreath}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Statistical rethinking: A Bayesian course
-  with examples in R and Stan}}.
-\newblock \bibinfo{publisher}{CRC press}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{McNamara}{McNamara}{2018}]%
-        {mcnamara2018keyAttributes}
-\bibfield{author}{\bibinfo{person}{Amelia McNamara}.}
-  \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Key attributes of a modern statistical computing
-  tool}.
-\newblock \bibinfo{journal}{\emph{The American Statistician}}
-  (\bibinfo{year}{2018}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Moritz, Wang, Nelson, Lin, Smith, Howe, and
-  Heer}{Moritz et~al\mbox{.}}{2019}]%
-        {moritz2019formalizing}
-\bibfield{author}{\bibinfo{person}{Dominik Moritz}, \bibinfo{person}{Chenglong
-  Wang}, \bibinfo{person}{Greg~L Nelson}, \bibinfo{person}{Halden Lin},
-  \bibinfo{person}{Adam~M Smith}, \bibinfo{person}{Bill Howe}, {and}
-  \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Formalizing visualization design knowledge as
-  constraints: Actionable and extensible models in Draco}.
-\newblock \bibinfo{journal}{\emph{IEEE transactions on visualization and
-  computer graphics}} \bibinfo{volume}{25}, \bibinfo{number}{1}
-  (\bibinfo{year}{2019}), \bibinfo{pages}{438--448}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Muthén}{Muthén}{[n. d.]}]%
-        {mplus}
-\bibfield{author}{\bibinfo{person}{Muthén~\& Muthén}.} \bibinfo{year}{[n.
-  d.]}\natexlab{}.
-\newblock \bibinfo{title}{MPlus}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://www.statmodel.com/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Nadauld, Sensoy, Vorkink, and
-  Weisbach}{Nadauld et~al\mbox{.}}{2019}]%
-        {JFE2}
-\bibfield{author}{\bibinfo{person}{Taylor~D Nadauld}, \bibinfo{person}{Berk~A
-  Sensoy}, \bibinfo{person}{Keith Vorkink}, {and} \bibinfo{person}{Michael~S
-  Weisbach}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{The liquidity cost of private equity investments:
-  Evidence from secondary market transactions}.
-\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
-  \bibinfo{volume}{132}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{158--181}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Navarro}{Navarro}{[n. d.]}]%
-        {xprmntr}
-\bibfield{author}{\bibinfo{person}{Danielle Navarro}.} \bibinfo{year}{[n.
-  d.]}\natexlab{}.
-\newblock \bibinfo{title}{xprmntr}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://djnavarro.net/xprmntr/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Navarro}{Navarro}{2021}]%
-        {jaysire}
-\bibfield{author}{\bibinfo{person}{Danielle Navarro}.}
-  \bibinfo{year}{2021}\natexlab{}.
-\newblock \bibinfo{title}{Jaysire: Building jsPysch Experiments in R}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://github.com/djnavarro/jaysire}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Nelder and Wedderburn}{Nelder and
-  Wedderburn}{1972}]%
-        {nelder1972generalized}
-\bibfield{author}{\bibinfo{person}{John~Ashworth Nelder} {and}
-  \bibinfo{person}{Robert~WM Wedderburn}.} \bibinfo{year}{1972}\natexlab{}.
-\newblock \showarticletitle{Generalized linear models}.
-\newblock \bibinfo{journal}{\emph{Journal of the Royal Statistical Society:
-  Series A (General)}} \bibinfo{volume}{135}, \bibinfo{number}{3}
-  (\bibinfo{year}{1972}), \bibinfo{pages}{370--384}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Newell, Simon, et~al\mbox{.}}{Newell
-  et~al\mbox{.}}{1972}]%
-        {newell1972humanProblemSolving}
-\bibfield{author}{\bibinfo{person}{Allen Newell},
-  \bibinfo{person}{Herbert~Alexander Simon}, {et~al\mbox{.}}}
-  \bibinfo{year}{1972}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Human problem solving}}.
-  Vol.~\bibinfo{volume}{104}.
-\newblock \bibinfo{publisher}{Prentice-Hall Englewood Cliffs, NJ}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Ngo, Horner, Newcombe, and Olson}{Ngo
-  et~al\mbox{.}}{2019}]%
-        {PS9}
-\bibfield{author}{\bibinfo{person}{Chi~T. Ngo}, \bibinfo{person}{Aidan~J.
-  Horner}, \bibinfo{person}{Nora~S. Newcombe}, {and} \bibinfo{person}{Ingrid~R.
-  Olson}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Development of Holistic Episodic Recollection}.
-\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
-  \bibinfo{number}{12} (\bibinfo{year}{2019}), \bibinfo{pages}{1696--1706}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Norman}{Norman}{2013}]%
-        {norman2013doet}
-\bibfield{author}{\bibinfo{person}{Don Norman}.}
-  \bibinfo{year}{2013}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{The design of everyday things: Revised and
-  expanded edition}}.
-\newblock \bibinfo{publisher}{Basic books}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Norman}{Norman}{1986}]%
-        {norman1986cognitive}
-\bibfield{author}{\bibinfo{person}{Donald~A Norman}.}
-  \bibinfo{year}{1986}\natexlab{}.
-\newblock \showarticletitle{Cognitive engineering}.
-\newblock \bibinfo{journal}{\emph{User centered system design}}
-  \bibinfo{volume}{31} (\bibinfo{year}{1986}), \bibinfo{pages}{61}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{of~Amsterdam}{of~Amsterdam}{2020}]%
-        {jasp}
-\bibfield{author}{\bibinfo{person}{University of Amsterdam}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{title}{JASP: A Fresh Way to do Statistics}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{"https://jasp-stats.org/"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Oliphant}{Oliphant}{2006}]%
-        {oliphant2006numpy}
-\bibfield{author}{\bibinfo{person}{Travis~E Oliphant}.}
-  \bibinfo{year}{2006}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{A guide to NumPy}}.
-  Vol.~\bibinfo{volume}{1}.
-\newblock \bibinfo{publisher}{Trelgol Publishing USA}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Ombrato, Nolan, Kurelac, Mavousian, Bridgeman,
-  Heinze, Chakravarty, Horswell, Gonzalez-Gualda, Matacchione,
-  et~al\mbox{.}}{Ombrato et~al\mbox{.}}{2019}]%
-        {N4}
-\bibfield{author}{\bibinfo{person}{Luigi Ombrato}, \bibinfo{person}{Emma
-  Nolan}, \bibinfo{person}{Ivana Kurelac}, \bibinfo{person}{Antranik
-  Mavousian}, \bibinfo{person}{Victoria~Louise Bridgeman},
-  \bibinfo{person}{Ivonne Heinze}, \bibinfo{person}{Probir Chakravarty},
-  \bibinfo{person}{Stuart Horswell}, \bibinfo{person}{Estela Gonzalez-Gualda},
-  \bibinfo{person}{Giulia Matacchione}, {et~al\mbox{.}}}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Metastatic-niche labelling reveals parenchymal
-  cells with stem features}.
-\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{572},
-  \bibinfo{number}{7771} (\bibinfo{year}{2019}), \bibinfo{pages}{603--608}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Otrokov, Klimovskikh, Bentmann, Estyunin,
-  Zeugner, Aliev, Ga{\ss}, Wolter, Koroleva, Shikin, et~al\mbox{.}}{Otrokov
-  et~al\mbox{.}}{2019}]%
-        {N7}
-\bibfield{author}{\bibinfo{person}{Mikhail~M Otrokov}, \bibinfo{person}{Ilya~I
-  Klimovskikh}, \bibinfo{person}{Hendrik Bentmann}, \bibinfo{person}{D
-  Estyunin}, \bibinfo{person}{Alexander Zeugner}, \bibinfo{person}{Ziya~S
-  Aliev}, \bibinfo{person}{S Ga{\ss}}, \bibinfo{person}{AUB Wolter},
-  \bibinfo{person}{AV Koroleva}, \bibinfo{person}{Alexander~M Shikin},
-  {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Prediction and observation of an antiferromagnetic
-  topological insulator}.
-\newblock \bibinfo{journal}{\emph{Nature}} \bibinfo{volume}{576},
-  \bibinfo{number}{7787} (\bibinfo{year}{2019}), \bibinfo{pages}{416--422}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Panchekha, Geller, Ernst, Tatlock, and
-  Kamil}{Panchekha et~al\mbox{.}}{2018}]%
-        {panchekha2018verifying}
-\bibfield{author}{\bibinfo{person}{Pavel Panchekha}, \bibinfo{person}{Adam~T
-  Geller}, \bibinfo{person}{Michael~D Ernst}, \bibinfo{person}{Zachary
-  Tatlock}, {and} \bibinfo{person}{Shoaib Kamil}.}
-  \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Verifying that web pages have accessible layout}.
-  In \bibinfo{booktitle}{\emph{Proceedings of the 39th ACM SIGPLAN Conference
-  on Programming Language Design and Implementation}}. ACM,
-  \bibinfo{pages}{1--14}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Papeo, Goupil, and Soto-Faraco}{Papeo
-  et~al\mbox{.}}{2019}]%
-        {PS7}
-\bibfield{author}{\bibinfo{person}{Liuba Papeo}, \bibinfo{person}{Nicolas
-  Goupil}, {and} \bibinfo{person}{Salvador Soto-Faraco}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Visual Search for People Among People}.
-\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
-  \bibinfo{number}{10} (\bibinfo{year}{2019}), \bibinfo{pages}{1483--1496}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Pearl}{Pearl}{1995a}]%
-        {pearl1995causal}
-\bibfield{author}{\bibinfo{person}{Judea Pearl}.}
-  \bibinfo{year}{1995}\natexlab{a}.
-\newblock \showarticletitle{Causal diagrams for empirical research}.
-\newblock \bibinfo{journal}{\emph{Biometrika}} \bibinfo{volume}{82},
-  \bibinfo{number}{4} (\bibinfo{year}{1995}), \bibinfo{pages}{669--688}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Pearl}{Pearl}{1995b}]%
-        {pearl1995doCalculus}
-\bibfield{author}{\bibinfo{person}{Judea Pearl}.}
-  \bibinfo{year}{1995}\natexlab{b}.
-\newblock \showarticletitle{Causal diagrams for empirical research}.
-\newblock \bibinfo{journal}{\emph{Biometrika}} \bibinfo{volume}{82},
-  \bibinfo{number}{4} (\bibinfo{year}{1995}), \bibinfo{pages}{669--688}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Pearl et~al\mbox{.}}{Pearl
-  et~al\mbox{.}}{2000}]%
-        {pearl2000models}
-\bibfield{author}{\bibinfo{person}{Judea Pearl} {et~al\mbox{.}}}
-  \bibinfo{year}{2000}\natexlab{}.
-\newblock \showarticletitle{Models, reasoning and inference}.
-\newblock \bibinfo{journal}{\emph{Cambridge, UK: CambridgeUniversityPress}}
-  \bibinfo{volume}{19} (\bibinfo{year}{2000}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Pedregosa, Varoquaux, Gramfort, Michel,
-  Thirion, Grisel, Blondel, Prettenhofer, Weiss, Dubourg,
-  et~al\mbox{.}}{Pedregosa et~al\mbox{.}}{2011}]%
-        {scikitPaper}
-\bibfield{author}{\bibinfo{person}{Fabian Pedregosa}, \bibinfo{person}{Ga{\"e}l
-  Varoquaux}, \bibinfo{person}{Alexandre Gramfort}, \bibinfo{person}{Vincent
-  Michel}, \bibinfo{person}{Bertrand Thirion}, \bibinfo{person}{Olivier
-  Grisel}, \bibinfo{person}{Mathieu Blondel}, \bibinfo{person}{Peter
-  Prettenhofer}, \bibinfo{person}{Ron Weiss}, \bibinfo{person}{Vincent
-  Dubourg}, {et~al\mbox{.}}} \bibinfo{year}{2011}\natexlab{}.
-\newblock \showarticletitle{Scikit-learn: Machine learning in Python}.
-\newblock \bibinfo{journal}{\emph{the Journal of machine Learning research}}
-  \bibinfo{volume}{12} (\bibinfo{year}{2011}), \bibinfo{pages}{2825--2830}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Peirce}{Peirce}{2007}]%
-        {peirce2007psychopy}
-\bibfield{author}{\bibinfo{person}{Jonathan~W Peirce}.}
-  \bibinfo{year}{2007}\natexlab{}.
-\newblock \showarticletitle{PsychoPy—psychophysics software in Python}.
-\newblock \bibinfo{journal}{\emph{Journal of neuroscience methods}}
-  \bibinfo{volume}{162}, \bibinfo{number}{1-2} (\bibinfo{year}{2007}),
-  \bibinfo{pages}{8--13}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Perktold, Seabold, Taylor, and statsmodels
-  developers}{Perktold et~al\mbox{.}}{2020}]%
-        {statsmodelsRef}
-\bibfield{author}{\bibinfo{person}{Josef Perktold}, \bibinfo{person}{Skipper
-  Seabold}, \bibinfo{person}{Jonathan Taylor}, {and}
-  \bibinfo{person}{statsmodels developers}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Statsmodels v0.10.2 Reference Guide}.
-\newblock  (\bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{"https://www.statsmodels.org/stable"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Persson, Asutay, Heilig, Löfberg, Pedersen,
-  Västfjäll, and Tinghög}{Persson et~al\mbox{.}}{2019}]%
-        {PS5}
-\bibfield{author}{\bibinfo{person}{Emil Persson}, \bibinfo{person}{Erkin
-  Asutay}, \bibinfo{person}{Markus Heilig}, \bibinfo{person}{Andreas Löfberg},
-  \bibinfo{person}{Nancy Pedersen}, \bibinfo{person}{Daniel Västfjäll}, {and}
-  \bibinfo{person}{Gustav Tinghög}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Variation in the $\mu$-Opioid Receptor Gene (OPRM1)
-  Does Not Moderate Social-Rejection Sensitivity in Humans}.
-\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
-  \bibinfo{number}{7} (\bibinfo{year}{2019}), \bibinfo{pages}{1050--1062}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Pfannkuch}{Pfannkuch}{1997}]%
-        {pfannkuch1997statistical}
-\bibfield{author}{\bibinfo{person}{M Pfannkuch}.}
-  \bibinfo{year}{1997}\natexlab{}.
-\newblock \showarticletitle{Statistical thinking: One statistician’s
-  perspective}.
-\newblock \bibinfo{journal}{\emph{Research papers on stochastics education}}
-  (\bibinfo{year}{1997}), \bibinfo{pages}{171--178}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Pfannkuch, Wild, et~al\mbox{.}}{Pfannkuch
-  et~al\mbox{.}}{2000}]%
-        {pfannkuch2000statistical}
-\bibfield{author}{\bibinfo{person}{Maxine Pfannkuch}, \bibinfo{person}{Chris~J
-  Wild}, {et~al\mbox{.}}} \bibinfo{year}{2000}\natexlab{}.
-\newblock \showarticletitle{Statistical Thinking an Statistical Practice:
-  Themes Gleaned from Professional Statisticians}.
-\newblock \bibinfo{journal}{\emph{Statistical science}} \bibinfo{volume}{15},
-  \bibinfo{number}{2} (\bibinfo{year}{2000}), \bibinfo{pages}{132--152}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Pinheiro, Bates, DebRoy, Sarkar, authors,
-  Heisterkamp, Willigen, and R-core}{Pinheiro et~al\mbox{.}}{2020}]%
-        {nlmeRef}
-\bibfield{author}{\bibinfo{person}{Jos{\'e} Pinheiro}, \bibinfo{person}{Douglas
-  Bates}, \bibinfo{person}{Saikat DebRoy}, \bibinfo{person}{Deepayan Sarkar},
-  \bibinfo{person}{EISPACK authors}, \bibinfo{person}{Siem Heisterkamp},
-  \bibinfo{person}{Bert~Van Willigen}, {and} \bibinfo{person}{R-core}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Package ‘nlme`}.
-\newblock  (\bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{"https://cran.r-project.org/web/packages/nlme/nlme.pdf"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Pirolli and Card}{Pirolli and Card}{2005}]%
-        {pirolli2005sensemaking}
-\bibfield{author}{\bibinfo{person}{Peter Pirolli} {and} \bibinfo{person}{Stuart
-  Card}.} \bibinfo{year}{2005}\natexlab{}.
-\newblock \showarticletitle{The sensemaking process and leverage points for
-  analyst technology as identified through cognitive task analysis}. In
-  \bibinfo{booktitle}{\emph{Proceedings of international conference on
-  intelligence analysis}}, Vol.~\bibinfo{volume}{5}. McLean, VA, USA,
-  \bibinfo{pages}{2--4}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Poon, Giroux, Eloundou-Enyegue,
-  Guimbreti{\`e}re, and Dell}{Poon et~al\mbox{.}}{2019}]%
-        {CHI1}
-\bibfield{author}{\bibinfo{person}{Anthony Poon}, \bibinfo{person}{Sarah
-  Giroux}, \bibinfo{person}{Parfait Eloundou-Enyegue},
-  \bibinfo{person}{Fran{\c{c}}ois Guimbreti{\`e}re}, {and}
-  \bibinfo{person}{Nicola Dell}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Engaging high school students in cameroon with exam
-  practice quizzes via sms and whatsapp}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{pages}{1--13}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Prabhu}{Prabhu}{2019}]%
-        {prabhu2019:topPython}
-\bibfield{author}{\bibinfo{person}{Tanu~N Prabhu}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Top Python Libraries Used In Data Science}.
-\newblock \bibinfo{journal}{\emph{Towards Data Science, Medium}}
-  (\bibinfo{year}{2019}).
-\newblock
-\urldef\tempurl%
-\url{"https://towardsdatascience.com/top-python-libraries-used-in-data-science-a58e90f1b4ba"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Ripley, Venables, Bates, Hornik, Gebhardt, ,
-  and Firth}{Ripley et~al\mbox{.}}{2020}]%
-        {mass}
-\bibfield{author}{\bibinfo{person}{Brian Ripley}, \bibinfo{person}{Bill
-  Venables}, \bibinfo{person}{Douglas~M. Bates}, \bibinfo{person}{Kurt Hornik},
-  \bibinfo{person}{Albrecht Gebhardt}, \bibinfo{person}{}, {and}
-  \bibinfo{person}{David Firth}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Package ‘MASS`}.
-\newblock  (\bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{"https://cran.r-project.org/web/packages/MASS/MASS.pdf"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Rubin}{Rubin}{2004}]%
-        {rubin2004teaching}
-\bibfield{author}{\bibinfo{person}{Donald~B Rubin}.}
-  \bibinfo{year}{2004}\natexlab{}.
-\newblock \showarticletitle{Teaching statistical inference for causal effects
-  in experiments and observational studies}.
-\newblock \bibinfo{journal}{\emph{Journal of Educational and Behavioral
-  Statistics}} \bibinfo{volume}{29}, \bibinfo{number}{3}
-  (\bibinfo{year}{2004}), \bibinfo{pages}{343--367}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Russell, Stefik, Pirolli, and Card}{Russell
-  et~al\mbox{.}}{1993}]%
-        {russell1993cost}
-\bibfield{author}{\bibinfo{person}{Daniel~M Russell}, \bibinfo{person}{Mark~J
-  Stefik}, \bibinfo{person}{Peter Pirolli}, {and} \bibinfo{person}{Stuart~K
-  Card}.} \bibinfo{year}{1993}\natexlab{}.
-\newblock \showarticletitle{The cost structure of sensemaking}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the INTERACT'93 and CHI'93
-  conference on Human factors in computing systems}}. ACM,
-  \bibinfo{pages}{269--276}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Salvatier, Wiecki, and Fonnesbeck}{Salvatier
-  et~al\mbox{.}}{2016}]%
-        {pymc3}
-\bibfield{author}{\bibinfo{person}{John Salvatier}, \bibinfo{person}{Thomas~V
-  Wiecki}, {and} \bibinfo{person}{Christopher Fonnesbeck}.}
-  \bibinfo{year}{2016}\natexlab{}.
-\newblock \showarticletitle{Probabilistic programming in Python using PyMC3}.
-\newblock \bibinfo{journal}{\emph{PeerJ Computer Science}}  \bibinfo{volume}{2}
-  (\bibinfo{year}{2016}), \bibinfo{pages}{e55}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Sanner et~al\mbox{.}}{Sanner
-  et~al\mbox{.}}{1999}]%
-        {sanner1999python}
-\bibfield{author}{\bibinfo{person}{Michel~F Sanner} {et~al\mbox{.}}}
-  \bibinfo{year}{1999}\natexlab{}.
-\newblock \showarticletitle{Python: a programming language for software
-  integration and development}.
-\newblock \bibinfo{journal}{\emph{J Mol Graph Model}} \bibinfo{volume}{17},
-  \bibinfo{number}{1} (\bibinfo{year}{1999}), \bibinfo{pages}{57--61}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{SAS}{SAS}{2020a}]%
-        {jmp}
-\bibfield{author}{\bibinfo{person}{SAS}.} \bibinfo{year}{2020}\natexlab{a}.
-\newblock \bibinfo{title}{JMP}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{"https://www.jmp.com/en_us/home.html"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{SAS}{SAS}{2020b}]%
-        {jmpDOE}
-\bibfield{author}{\bibinfo{person}{SAS}.} \bibinfo{year}{2020}\natexlab{b}.
-\newblock \bibinfo{title}{JMP}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{"https://www.jmp.com/en_us/home.html"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Satyanarayan, Moritz, Wongsuphasawat, and
-  Heer}{Satyanarayan et~al\mbox{.}}{2017}]%
-        {satyanarayan2017vega}
-\bibfield{author}{\bibinfo{person}{Arvind Satyanarayan},
-  \bibinfo{person}{Dominik Moritz}, \bibinfo{person}{Kanit Wongsuphasawat},
-  {and} \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{Vega-lite: A grammar of interactive graphics}.
-\newblock \bibinfo{journal}{\emph{IEEE transactions on visualization and
-  computer graphics}} \bibinfo{volume}{23}, \bibinfo{number}{1}
-  (\bibinfo{year}{2017}), \bibinfo{pages}{341--350}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Schunn and Klahr}{Schunn and Klahr}{1995}]%
-        {schunn1995FourSpace}
-\bibfield{author}{\bibinfo{person}{Christian~D Schunn} {and}
-  \bibinfo{person}{David Klahr}.} \bibinfo{year}{1995}\natexlab{}.
-\newblock \showarticletitle{A 4-space model of scientific discovery}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 17th annual conference of the
-  cognitive science society}}. \bibinfo{pages}{106--111}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Schunn and Klahr}{Schunn and Klahr}{1996}]%
-        {schunn1996BeyondTwoSpace}
-\bibfield{author}{\bibinfo{person}{Christian~D Schunn} {and}
-  \bibinfo{person}{David Klahr}.} \bibinfo{year}{1996}\natexlab{}.
-\newblock \showarticletitle{When and how to go beyond a 2-space model of
-  scientific discovery}. In \bibinfo{booktitle}{\emph{Proceedings of the
-  Eighteenth Annual Conference of the Cognitive Science Society: July 12-15,
-  1996, University of California, San Diego}}, Vol.~\bibinfo{volume}{18}.
-  Psychology Press, \bibinfo{pages}{25}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{scikit-learn developers}{scikit-learn
-  developers}{2020}]%
-        {scikitRef}
-\bibfield{author}{\bibinfo{person}{scikit-learn developers}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \bibinfo{title}{Scikit-Learn v0.23.2 Documentation}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://scikit-learn.org/stable/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Seabold and Perktold}{Seabold and
-  Perktold}{2010}]%
-        {statsmodelsPaper}
-\bibfield{author}{\bibinfo{person}{Skipper Seabold} {and}
-  \bibinfo{person}{Josef Perktold}.} \bibinfo{year}{2010}\natexlab{}.
-\newblock \showarticletitle{Statsmodels: Econometric and statistical modeling
-  with python}. In \bibinfo{booktitle}{\emph{Proceedings of the 9th Python in
-  Science Conference}}, Vol.~\bibinfo{volume}{57}. Scipy, \bibinfo{pages}{61}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Shadish}{Shadish}{2010}]%
-        {shadish2010campbell}
-\bibfield{author}{\bibinfo{person}{William~R Shadish}.}
-  \bibinfo{year}{2010}\natexlab{}.
-\newblock \showarticletitle{Campbell and Rubin: A primer and comparison of
-  their approaches to causal inference in field settings.}
-\newblock \bibinfo{journal}{\emph{Psychological methods}} \bibinfo{volume}{15},
-  \bibinfo{number}{1} (\bibinfo{year}{2010}), \bibinfo{pages}{3}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Shin, Onchi, Reyes, Song, Lee, Lee, and
-  Saakes}{Shin et~al\mbox{.}}{2019a}]%
-        {CHI5}
-\bibfield{author}{\bibinfo{person}{Joon-Gi Shin}, \bibinfo{person}{Eiji Onchi},
-  \bibinfo{person}{Maria~Jose Reyes}, \bibinfo{person}{Junbong Song},
-  \bibinfo{person}{Uichin Lee}, \bibinfo{person}{Seung-Hee Lee}, {and}
-  \bibinfo{person}{Daniel Saakes}.} \bibinfo{year}{2019}\natexlab{a}.
-\newblock \showarticletitle{Slow Robots for Unobtrusive Posture Correction}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{pages}{1--10}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Shin, Onchi, Reyes, Song, Lee, Lee, and
-  Saakes}{Shin et~al\mbox{.}}{2019b}]%
-        {CHI7}
-\bibfield{author}{\bibinfo{person}{Joon-Gi Shin}, \bibinfo{person}{Eiji Onchi},
-  \bibinfo{person}{Maria~Jose Reyes}, \bibinfo{person}{Junbong Song},
-  \bibinfo{person}{Uichin Lee}, \bibinfo{person}{Seung-Hee Lee}, {and}
-  \bibinfo{person}{Daniel Saakes}.} \bibinfo{year}{2019}\natexlab{b}.
-\newblock \showarticletitle{Slow Robots for Unobtrusive Posture Correction}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{pages}{1--10}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Sloane and Hardin}{Sloane and Hardin}{2017}]%
-        {gosset}
-\bibfield{author}{\bibinfo{person}{N.J.A. Sloane} {and} \bibinfo{person}{R.H.
-  Hardin}.} \bibinfo{year}{2017}\natexlab{}.
-\newblock \bibinfo{title}{Gosset: A General-purpose program for designing
-  experiments}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{http://neilsloane.com/gosset/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Smolyansky}{Smolyansky}{2019}]%
-        {JFE4}
-\bibfield{author}{\bibinfo{person}{Michael Smolyansky}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Policy externalities and banking integration}.
-\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
-  \bibinfo{volume}{132}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{118--139}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Spirtes}{Spirtes}{1994}]%
-        {spirtes1994conditional}
-\bibfield{author}{\bibinfo{person}{Peter Spirtes}.}
-  \bibinfo{year}{1994}\natexlab{}.
-\newblock \showarticletitle{Conditional independence in directed cyclic
-  graphical models for feedback}.
-\newblock  (\bibinfo{year}{1994}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Spirtes, Richardson, Meek, Scheines, and
-  Glymour}{Spirtes et~al\mbox{.}}{1996}]%
-        {spirtes1996using}
-\bibfield{author}{\bibinfo{person}{Peter Spirtes}, \bibinfo{person}{Thomas
-  Richardson}, \bibinfo{person}{Christopher Meek}, \bibinfo{person}{Richard
-  Scheines}, {and} \bibinfo{person}{Clark Glymour}.}
-  \bibinfo{year}{1996}\natexlab{}.
-\newblock \showarticletitle{Using d-separation to calculate zero partial
-  correlations in linear models with correlated errors}.
-\newblock \bibinfo{journal}{\emph{Publisher: Carnegie Mellon University}}
-  (\bibinfo{year}{1996}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{SPSS}{SPSS}{2021}]%
-        {spss}
-\bibfield{author}{\bibinfo{person}{IBM SPSS}.} \bibinfo{year}{2021}\natexlab{}.
-\newblock \bibinfo{title}{SPSS Software}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://www.ibm.com/analytics/spss-statistics-software}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Stata}{Stata}{2021}]%
-        {stata}
-\bibfield{author}{\bibinfo{person}{Stata}.} \bibinfo{year}{2021}\natexlab{}.
-\newblock \bibinfo{title}{Stata Software}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://www.stata.com/}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Suh}{Suh}{2014}]%
-        {pewDataset}
-\bibfield{author}{\bibinfo{person}{Michael Suh}.}
-  \bibinfo{year}{2014}\natexlab{}.
-\newblock \bibinfo{title}{Higher Education, Gender \& Work Dataset}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{"https://www.pewsocialtrends.org/category/datasets/?download=20041"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Suzuki, Shinozaki, and Yamamoto}{Suzuki
-  et~al\mbox{.}}{2020}]%
-        {suzuki2020causal}
-\bibfield{author}{\bibinfo{person}{Etsuji Suzuki}, \bibinfo{person}{Tomohiro
-  Shinozaki}, {and} \bibinfo{person}{Eiji Yamamoto}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Causal diagrams: pitfalls and tips}.
-\newblock \bibinfo{journal}{\emph{Journal of epidemiology}}
-  (\bibinfo{year}{2020}), \bibinfo{pages}{JE20190192}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Suzuki and VanderWeele}{Suzuki and
-  VanderWeele}{2018}]%
-        {suzuki2018mechanisms}
-\bibfield{author}{\bibinfo{person}{Etsuji Suzuki} {and}
-  \bibinfo{person}{Tyler~J VanderWeele}.} \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Mechanisms and uncertainty in randomized controlled
-  trials: A commentary on Deaton and Cartwright}.
-\newblock \bibinfo{journal}{\emph{Social science \& medicine (1982)}}
-  \bibinfo{volume}{210} (\bibinfo{year}{2018}), \bibinfo{pages}{83--85}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Swearngin, Ko, and Fogarty}{Swearngin
-  et~al\mbox{.}}{2018}]%
-        {swearngin2018scout}
-\bibfield{author}{\bibinfo{person}{Amanda Swearngin}, \bibinfo{person}{Andrew~J
-  Ko}, {and} \bibinfo{person}{James Fogarty}.} \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Scout: Mixed-Initiative Exploration of Design
-  Variations through High-Level Design Constraints}. In
-  \bibinfo{booktitle}{\emph{The 31st Annual ACM Symposium on User Interface
-  Software and Technology Adjunct Proceedings}}. ACM,
-  \bibinfo{pages}{134--136}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Tanaka}{Tanaka}{2021}]%
-        {edibble}
-\bibfield{author}{\bibinfo{person}{Emi Tanaka}.}
-  \bibinfo{year}{2021}\natexlab{}.
-\newblock \bibinfo{title}{Edibble: An R-package to construct designs using the
-  grammar of experimental design}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{https://github.com/emitanaka/edibble}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Team et~al\mbox{.}}{Team
-  et~al\mbox{.}}{2013}]%
-        {team2013r}
-\bibfield{author}{\bibinfo{person}{R~Core Team} {et~al\mbox{.}}}
-  \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{R: A language and environment for statistical
-  computing}.
-\newblock  (\bibinfo{year}{2013}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Team and contributors worldwide}{Team and
-  contributors worldwide}{2020}]%
-        {statsCoreRRef}
-\bibfield{author}{\bibinfo{person}{R~Core Team} {and}
-  \bibinfo{person}{contributors worldwide}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Package `stats` v4.1.0}.
-\newblock \bibinfo{journal}{\emph{CRAN}} (\bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{"https://stat.ethz.ch/R-manual/R-devel/library/stats/html/00Index.html"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Textor, Hardt, and Kn{\"u}ppel}{Textor
-  et~al\mbox{.}}{2011}]%
-        {textor2011dagitty}
-\bibfield{author}{\bibinfo{person}{Johannes Textor}, \bibinfo{person}{Juliane
-  Hardt}, {and} \bibinfo{person}{Sven Kn{\"u}ppel}.}
-  \bibinfo{year}{2011}\natexlab{}.
-\newblock \showarticletitle{DAGitty: a graphical tool for analyzing causal
-  diagrams}.
-\newblock \bibinfo{journal}{\emph{Epidemiology}} \bibinfo{volume}{22},
-  \bibinfo{number}{5} (\bibinfo{year}{2011}), \bibinfo{pages}{745}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{The~MathWorks}{The~MathWorks}{2020a}]%
-        {matlab}
-\bibfield{author}{\bibinfo{person}{Inc. The~MathWorks}.}
-  \bibinfo{year}{2020}\natexlab{a}.
-\newblock \bibinfo{title}{Matlab}.
-\newblock
-\newblock
-\urldef\tempurl%
-\url{"https://www.mathworks.com/"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{The~MathWorks}{The~MathWorks}{2020b}]%
-        {matlabStats}
-\bibfield{author}{\bibinfo{person}{Inc. The~MathWorks}.}
-  \bibinfo{year}{2020}\natexlab{b}.
-\newblock \showarticletitle{Statistics and Machine Learning Toolbox}.
-\newblock  (\bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{"https://www.mathworks.com/help/stats/index.html"}
-\showURL{%
-\tempurl}
-
-
-\bibitem[\protect\citeauthoryear{Thigpen, Petro, Oschwald, Oberauer, and
-  Keil}{Thigpen et~al\mbox{.}}{2019}]%
-        {PS4}
-\bibfield{author}{\bibinfo{person}{Nina Thigpen}, \bibinfo{person}{Nathan~M.
-  Petro}, \bibinfo{person}{Jessica Oschwald}, \bibinfo{person}{Klaus Oberauer},
-  {and} \bibinfo{person}{Andreas Keil}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Selection of Visual Objects in Perception and
-  Working Memory One at a Time}.
-\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
-  \bibinfo{number}{9} (\bibinfo{year}{2019}), \bibinfo{pages}{1259--1272}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Thornton, Hutter, Hoos, and
-  Leyton-Brown}{Thornton et~al\mbox{.}}{2013}]%
-        {autoweka}
-\bibfield{author}{\bibinfo{person}{C. Thornton}, \bibinfo{person}{F. Hutter},
-  \bibinfo{person}{H.~H. Hoos}, {and} \bibinfo{person}{K. Leyton-Brown}.}
-  \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{Auto-{WEKA}: Combined Selection and Hyperparameter
-  Optimization of Classification Algorithms}. In
-  \bibinfo{booktitle}{\emph{Proc.~of KDD-2013}}. \bibinfo{pages}{847--855}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Vandaele}{Vandaele}{1987}]%
-        {vandaele1987participation}
-\bibfield{author}{\bibinfo{person}{Walter Vandaele}.}
-  \bibinfo{year}{1987}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Participation in illegitimate activities:
-  Ehrlich revisited, 1960}}. Vol.~\bibinfo{volume}{8677}.
-\newblock \bibinfo{publisher}{Inter-university Consortium for Political and
-  Social Research}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{VanderWeele}{VanderWeele}{2019}]%
-        {vanderweele2019modifiedDisjunctiveCriterion}
-\bibfield{author}{\bibinfo{person}{Tyler~J VanderWeele}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Principles of confounder selection}.
-\newblock \bibinfo{journal}{\emph{European journal of epidemiology}}
-  \bibinfo{volume}{34}, \bibinfo{number}{3} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{211--219}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Vargha and Delaney}{Vargha and
-  Delaney}{2000}]%
-        {vargha2000critique}
-\bibfield{author}{\bibinfo{person}{Andr{\'a}s Vargha} {and}
-  \bibinfo{person}{Harold~D Delaney}.} \bibinfo{year}{2000}\natexlab{}.
-\newblock \showarticletitle{A critique and improvement of the CL common
-  language effect size statistics of McGraw and Wong}.
-\newblock \bibinfo{journal}{\emph{Journal of Educational and Behavioral
-  Statistics}} \bibinfo{volume}{25}, \bibinfo{number}{2}
-  (\bibinfo{year}{2000}), \bibinfo{pages}{101--132}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Velentgas, Dreyer, Nourjah, Smith, Torchia,
-  et~al\mbox{.}}{Velentgas et~al\mbox{.}}{2013}]%
-        {velentgas2013developing}
-\bibfield{author}{\bibinfo{person}{Priscilla Velentgas},
-  \bibinfo{person}{Nancy~A Dreyer}, \bibinfo{person}{Parivash Nourjah},
-  \bibinfo{person}{Scott~R Smith}, \bibinfo{person}{Marion~M Torchia},
-  {et~al\mbox{.}}} \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{Developing a protocol for observational comparative
-  effectiveness research: a user's guide}.
-\newblock  (\bibinfo{year}{2013}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Venables and Ripley}{Venables and
-  Ripley}{2013}]%
-        {venables2013modern}
-\bibfield{author}{\bibinfo{person}{William~N Venables} {and}
-  \bibinfo{person}{Brian~D Ripley}.} \bibinfo{year}{2013}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Modern applied statistics with S-PLUS}}.
-\newblock \bibinfo{publisher}{Springer Science \& Business Media}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Veneziano, Tomasello, Balatti, Palamarchuk,
-  Rassenti, Kipps, Pekarsky, and Croce}{Veneziano et~al\mbox{.}}{2019}]%
-        {PNAS2}
-\bibfield{author}{\bibinfo{person}{Dario Veneziano}, \bibinfo{person}{Luisa
-  Tomasello}, \bibinfo{person}{Veronica Balatti}, \bibinfo{person}{Alexey
-  Palamarchuk}, \bibinfo{person}{Laura~Z. Rassenti}, \bibinfo{person}{Thomas~J.
-  Kipps}, \bibinfo{person}{Yuri Pekarsky}, {and} \bibinfo{person}{Carlo~M.
-  Croce}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Dysregulation of different classes of tRNA
-  fragments in chronic lymphocytic leukemia}.
-\newblock  \bibinfo{volume}{116}, \bibinfo{number}{48} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{24252--24258}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Verou, Alrashed, and Karger}{Verou
-  et~al\mbox{.}}{2018}]%
-        {verou2018extending}
-\bibfield{author}{\bibinfo{person}{Lea Verou}, \bibinfo{person}{Tarfah
-  Alrashed}, {and} \bibinfo{person}{David Karger}.}
-  \bibinfo{year}{2018}\natexlab{}.
-\newblock \showarticletitle{Extending a Reactive Expression Language with Data
-  Update Actions for End-User Application Authoring}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 31st Annual ACM Symposium on
-  User Interface Software and Technology}}. \bibinfo{pages}{379--387}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Wacharamanotham, Subramanian, Volkel, and
-  Borchers}{Wacharamanotham et~al\mbox{.}}{2015}]%
-        {wacharamanotham2015statsplorer}
-\bibfield{author}{\bibinfo{person}{Chat Wacharamanotham},
-  \bibinfo{person}{Krishna Subramanian}, \bibinfo{person}{Sarah~Theres Volkel},
-  {and} \bibinfo{person}{Jan Borchers}.} \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Statsplorer: Guiding novices in statistical
-  analysis}. In \bibinfo{booktitle}{\emph{Proceedings of the 33rd Annual ACM
-  Conference on Human Factors in Computing Systems}}. ACM,
-  \bibinfo{pages}{2693--2702}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Wickham et~al\mbox{.}}{Wickham
-  et~al\mbox{.}}{2014}]%
-        {wickham2014tidy}
-\bibfield{author}{\bibinfo{person}{Hadley Wickham} {et~al\mbox{.}}}
-  \bibinfo{year}{2014}\natexlab{}.
-\newblock \showarticletitle{Tidy data}.
-\newblock \bibinfo{journal}{\emph{Journal of Statistical Software}}
-  \bibinfo{volume}{59}, \bibinfo{number}{10} (\bibinfo{year}{2014}),
-  \bibinfo{pages}{1--23}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Wickham, Averick, Bryan, Chang, McGowan,
-  Fran{\c{c}}ois, Grolemund, Hayes, Henry, Hester, et~al\mbox{.}}{Wickham
-  et~al\mbox{.}}{2019}]%
-        {tidyverse}
-\bibfield{author}{\bibinfo{person}{Hadley Wickham}, \bibinfo{person}{Mara
-  Averick}, \bibinfo{person}{Jennifer Bryan}, \bibinfo{person}{Winston Chang},
-  \bibinfo{person}{Lucy~D'Agostino McGowan}, \bibinfo{person}{Romain
-  Fran{\c{c}}ois}, \bibinfo{person}{Garrett Grolemund}, \bibinfo{person}{Alex
-  Hayes}, \bibinfo{person}{Lionel Henry}, \bibinfo{person}{Jim Hester},
-  {et~al\mbox{.}}} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Welcome to the Tidyverse}.
-\newblock \bibinfo{journal}{\emph{Journal of Open Source Software}}
-  \bibinfo{volume}{4}, \bibinfo{number}{43} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{1686}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{{Wikipedia contributors}}{{Wikipedia
-  contributors}}{2019a}]%
-        {wiki:jmp}
-\bibfield{author}{\bibinfo{person}{{Wikipedia contributors}}.}
-  \bibinfo{year}{2019}\natexlab{a}.
-\newblock \bibinfo{title}{JMP (statistical software) --- {Wikipedia}{,} The
-  Free Encyclopedia}.
-\newblock
-  \bibinfo{howpublished}{\url{https://en.wikipedia.org/w/index.php?title=JMP_(statistical_software)&oldid=887217350}}.
-\newblock
-\newblock
-\shownote{[Online; accessed 5-April-2019].}
-
-
-\bibitem[\protect\citeauthoryear{{Wikipedia contributors}}{{Wikipedia
-  contributors}}{2019b}]%
-        {wiki:r-language}
-\bibfield{author}{\bibinfo{person}{{Wikipedia contributors}}.}
-  \bibinfo{year}{2019}\natexlab{b}.
-\newblock \bibinfo{title}{R (programming language) --- {Wikipedia}{,} The Free
-  Encyclopedia}.
-\newblock
-  \bibinfo{howpublished}{\url{https://en.wikipedia.org/w/index.php?title=R_(programming_language)&oldid=890657071}}.
-\newblock
-\newblock
-\shownote{[Online; accessed 5-April-2019].}
-
-
-\bibitem[\protect\citeauthoryear{{Wikipedia contributors}}{{Wikipedia
-  contributors}}{2019c}]%
-        {wiki:sas}
-\bibfield{author}{\bibinfo{person}{{Wikipedia contributors}}.}
-  \bibinfo{year}{2019}\natexlab{c}.
-\newblock \bibinfo{title}{SAS (software) --- {Wikipedia}{,} The Free
-  Encyclopedia}.
-\newblock
-  \bibinfo{howpublished}{\url{https://en.wikipedia.org/w/index.php?title=SAS_(software)&oldid=890451452}}.
-\newblock
-\newblock
-\shownote{[Online; accessed 5-April-2019].}
-
-
-\bibitem[\protect\citeauthoryear{{Wikipedia contributors}}{{Wikipedia
-  contributors}}{2019d}]%
-        {wiki:spss}
-\bibfield{author}{\bibinfo{person}{{Wikipedia contributors}}.}
-  \bibinfo{year}{2019}\natexlab{d}.
-\newblock \bibinfo{title}{SPSS --- {Wikipedia}{,} The Free Encyclopedia}.
-\newblock
-  \bibinfo{howpublished}{\url{https://en.wikipedia.org/w/index.php?title=SPSS&oldid=888470477}}.
-\newblock
-\newblock
-\shownote{[Online; accessed 5-April-2019].}
-
-
-\bibitem[\protect\citeauthoryear{Wild and Pfannkuch}{Wild and
-  Pfannkuch}{1999}]%
-        {wild1999statisticalThinking}
-\bibfield{author}{\bibinfo{person}{Chris~J Wild} {and} \bibinfo{person}{Maxine
-  Pfannkuch}.} \bibinfo{year}{1999}\natexlab{}.
-\newblock \showarticletitle{Statistical thinking in empirical enquiry}.
-\newblock \bibinfo{journal}{\emph{International statistical review}}
-  \bibinfo{volume}{67}, \bibinfo{number}{3} (\bibinfo{year}{1999}),
-  \bibinfo{pages}{223--248}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Wilkinson}{Wilkinson}{1999}]%
-        {wilkinson1999statistical}
-\bibfield{author}{\bibinfo{person}{Leland Wilkinson}.}
-  \bibinfo{year}{1999}\natexlab{}.
-\newblock \showarticletitle{Statistical methods in psychology journals:
-  Guidelines and explanations.}
-\newblock \bibinfo{journal}{\emph{American psychologist}} \bibinfo{volume}{54},
-  \bibinfo{number}{8} (\bibinfo{year}{1999}), \bibinfo{pages}{594}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Winters, Walker, and Leslie}{Winters
-  et~al\mbox{.}}{2021}]%
-        {winters2021heartbeat}
-\bibfield{author}{\bibinfo{person}{R~Michael Winters}, \bibinfo{person}{Bruce~N
-  Walker}, {and} \bibinfo{person}{Grace Leslie}.}
-  \bibinfo{year}{2021}\natexlab{}.
-\newblock \showarticletitle{Can You Hear My Heartbeat?: Hearing an Expressive
-  Biosignal Elicits Empathy}. In \bibinfo{booktitle}{\emph{Proceedings of the
-  2021 CHI Conference on Human Factors in Computing Systems}}.
-  \bibinfo{pages}{1--11}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Wongsuphasawat, Liu, and Heer}{Wongsuphasawat
-  et~al\mbox{.}}{2019}]%
-        {wongsuphasawat2019EDAgoals}
-\bibfield{author}{\bibinfo{person}{Kanit Wongsuphasawat}, \bibinfo{person}{Yang
-  Liu}, {and} \bibinfo{person}{Jeffrey Heer}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Goals, Process, and Challenges of Exploratory Data
-  Analysis: An Interview Study}.
-\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1911.00568}}
-  (\bibinfo{year}{2019}).
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Yu and Kumbier}{Yu and Kumbier}{2020}]%
-        {yu2020veridical}
-\bibfield{author}{\bibinfo{person}{Bin Yu} {and} \bibinfo{person}{Karl
-  Kumbier}.} \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Veridical data science}.
-\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of
-  Sciences}} \bibinfo{volume}{117}, \bibinfo{number}{8} (\bibinfo{year}{2020}),
-  \bibinfo{pages}{3920--3929}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Yu, Wei, Vachher, Qin, Liang, Weng, Gu, and
-  Shi}{Yu et~al\mbox{.}}{2019}]%
-        {CHI3}
-\bibfield{author}{\bibinfo{person}{Chun Yu}, \bibinfo{person}{Xiaoying Wei},
-  \bibinfo{person}{Shubh Vachher}, \bibinfo{person}{Yue Qin},
-  \bibinfo{person}{Chen Liang}, \bibinfo{person}{Yueting Weng},
-  \bibinfo{person}{Yizheng Gu}, {and} \bibinfo{person}{Yuanchun Shi}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{HandSee: Enabling Full Hand Interaction on
-  Smartphone with Front Camera-based Stereo Vision}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{pages}{1--13}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Zhao, Huang, and Chory}{Zhao
-  et~al\mbox{.}}{2019}]%
-        {PNAS0}
-\bibfield{author}{\bibinfo{person}{Xiaobo Zhao}, \bibinfo{person}{Jianyan
-  Huang}, {and} \bibinfo{person}{Joanne Chory}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{GUN1 interacts with MORF2 to regulate plastid RNA
-  editing during retrograde signaling}.
-\newblock \bibinfo{journal}{\emph{Proceedings of the National Academy of
-  Sciences}} \bibinfo{volume}{116}, \bibinfo{number}{20}
-  (\bibinfo{year}{2019}), \bibinfo{pages}{10162--10167}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Zheng, Tucker-Drob, and Briley}{Zheng
-  et~al\mbox{.}}{2019}]%
-        {PS8}
-\bibfield{author}{\bibinfo{person}{Anqing Zheng}, \bibinfo{person}{Elliot~M.
-  Tucker-Drob}, {and} \bibinfo{person}{Daniel~A. Briley}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{National Gross Domestic Product, Science Interest,
-  and Science Achievement: A Direct Replication and Extension of the
-  Tucker-Drob, Cheung, and Briley (2014) Study}.
-\newblock \bibinfo{journal}{\emph{Psychological Science}} \bibinfo{volume}{30},
-  \bibinfo{number}{5} (\bibinfo{year}{2019}), \bibinfo{pages}{776--788}.
-\newblock
-
-
-\bibitem[\protect\citeauthoryear{Zhou, Wu, Yan, Zheng, Chen, Liu, Qi,
-  Calandrelli, Chen, Chien, Su, and Zhong}{Zhou et~al\mbox{.}}{2019}]%
-        {PNAS6}
-\bibfield{author}{\bibinfo{person}{Zixu Zhou}, \bibinfo{person}{Qiuyang Wu},
-  \bibinfo{person}{Zhangming Yan}, \bibinfo{person}{Haizi Zheng},
-  \bibinfo{person}{Chien-Ju Chen}, \bibinfo{person}{Yuan Liu},
-  \bibinfo{person}{Zhijie Qi}, \bibinfo{person}{Riccardo Calandrelli},
-  \bibinfo{person}{Zhen Chen}, \bibinfo{person}{Shu Chien},
-  \bibinfo{person}{H.~Irene Su}, {and} \bibinfo{person}{Sheng Zhong}.}
-  \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{Extracellular RNA in a single droplet of human
-  serum reflects physiologic and disease states}.
-\newblock  \bibinfo{volume}{116}, \bibinfo{number}{38} (\bibinfo{year}{2019}),
-  \bibinfo{pages}{19200--19208}.
-\newblock
-
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{HAPGNN{\etalchar{+}}19}
+
+\bibitem[A{\etalchar{+}}83]{american1983publication}
+American~Psychological Association et~al.
+\newblock {\em Publication manual}.
+\newblock American Psychological Association Washington, DC, 1983.
+
+\bibitem[ACM{\etalchar{+}}19]{N5}
+Ricard Argelaguet, Stephen~J Clark, Hisham Mohammed, L~Carine Stapel, Christel
+  Krueger, Chantriolnt-Andreas Kapourani, Ivan Imaz-Rosshandler, Tim Lohoff,
+  Yunlong Xiang, Courtney~W Hanna, et~al.
+\newblock Multi-omics profiling of mouse gastrulation at single-cell
+  resolution.
+\newblock {\em Nature}, 576(7787):487--491, 2019.
+
+\bibitem[ADP19]{JFE8}
+Reena Aggarwal, Sandeep Dahiya, and Nagpurnanand~R Prabhala.
+\newblock The power of shareholder votes: Evidence from uncontested director
+  elections.
+\newblock {\em Journal of Financial Economics}, 133(1):134--153, 2019.
+
+\bibitem[Ass96]{APATFSI}
+American~Psychological Association.
+\newblock Task force on statistical inference, 1996.
+
+\bibitem[AWT20]{arslan2020formr}
+Ruben~C Arslan, Matthias~P Walther, and Cyril~S Tata.
+\newblock formr: A study framework allowing for automated feedback generation
+  and complex longitudinal experience-sampling studies using r.
+\newblock {\em Behavior Research Methods}, 52(1):376--387, 2020.
+
+\bibitem[AZL{\etalchar{+}}18]{alspaugh2018futzing}
+Sara Alspaugh, Nava Zokaei, Andrea Liu, Cindy Jin, and Marti~A Hearst.
+\newblock Futzing and moseying: Interviews with professional data analysts on
+  exploration practices.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  25(1):22--31, 2018.
+
+\bibitem[B{\etalchar{+}}17]{burkner2017brms}
+Paul-Christian B{\"u}rkner et~al.
+\newblock brms: An r package for bayesian multilevel models using stan.
+\newblock {\em Journal of statistical software}, 80(1):1--28, 2017.
+
+\bibitem[Bar13]{barr2013randomUpdated}
+Dale~J Barr.
+\newblock Random effects structure for testing interactions in linear
+  mixed-effects models.
+\newblock {\em Frontiers in psychology}, 4:328, 2013.
+
+\bibitem[BB16]{brmsRef}
+Paul-Christian B{\"u}rkner and Maintainer Paul-Christian Buerkner.
+\newblock Package ‘brms'.
+\newblock 2016.
+
+\bibitem[BBC{\etalchar{+}}09]{bolker2009generalized}
+Benjamin~M Bolker, Mollie~E Brooks, Connie~J Clark, Shane~W Geange, John~R
+  Poulsen, M~Henry~H Stevens, and Jada-Simone~S White.
+\newblock Generalized linear mixed models: a practical guide for ecology and
+  evolution.
+\newblock {\em Trends in ecology \& evolution}, 24(3):127--135, 2009.
+
+\bibitem[BCCH19a]{blair2019declaring}
+Graeme Blair, Jasper Cooper, Alexander Coppock, and Macartan Humphreys.
+\newblock Declaring and diagnosing research designs.
+\newblock {\em American Political Science Review}, 113(3):838--859, 2019.
+
+\bibitem[BCCH19b]{blair2019declareDesign}
+Graeme Blair, Jasper Cooper, Alexander Coppock, and Macartan Humphreys.
+\newblock Declaring and diagnosing research designs.
+\newblock {\em American Political Science Review}, 113(3):838--859, 2019.
+
+\bibitem[BCJ{\etalchar{+}}19]{pyro}
+Eli Bingham, Jonathan~P Chen, Martin Jankowiak, Fritz Obermeyer, Neeraj
+  Pradhan, Theofanis Karaletsos, Rohit Singh, Paul Szerlip, Paul Horsfall, and
+  Noah~D Goodman.
+\newblock Pyro: Deep universal probabilistic programming.
+\newblock {\em The Journal of Machine Learning Research}, 20(1):973--978, 2019.
+
+\bibitem[BCK{\etalchar{+}}19]{N2}
+Ambre~M Bertholet, Edward~T Chouchani, Lawrence Kazak, Alessia Angelin, Andriy
+  Fedorenko, Jonathan~Z Long, Sara Vidoni, Ryan Garrity, Joonseok Cho, Naohiro
+  Terada, et~al.
+\newblock H+ transport is an integral function of the mitochondrial adp/atp
+  carrier.
+\newblock {\em Nature}, 571(7766):515--520, 2019.
+
+\bibitem[BCLW18]{randomForestR}
+Leo Breiman, Adele Cutler, Andy Liaw, and Matthew Wiener.
+\newblock Package ‘randomforest`.
+\newblock 2018.
+
+\bibitem[BDSDL{\etalchar{+}}19]{N6}
+Alexandre~P B{\'e}n{\'e}chet, Giorgia De~Simone, Pietro Di~Lucia, Francesco
+  Cilenti, Giulia Barbiera, Nina Le~Bert, Valeria Fumagalli, Eleonora Lusito,
+  Federica Moalli, Valentina Bianchessi, et~al.
+\newblock Dynamics and genomic landscape of cd8+ t cells undergoing hepatic
+  priming.
+\newblock {\em Nature}, 574(7777):200--205, 2019.
+
+\bibitem[BEB14]{bakshy2014planout}
+Eytan Bakshy, Dean Eckles, and Michael~S Bernstein.
+\newblock Designing and deploying online field experiments.
+\newblock In {\em Proceedings of the 23rd international conference on World
+  wide web}, pages 283--292. ACM, 2014.
+
+\bibitem[Ber11]{bertin2011graphics}
+Jacques Bertin.
+\newblock {\em Graphics and graphic information processing}.
+\newblock Walter de Gruyter, 2011.
+
+\bibitem[Bet20]{betancourt2020bayesianWorkflow}
+Michael Betancourt.
+\newblock Towards a principled bayesian workflow, 2020.
+
+\bibitem[BH19]{battle2019EVA}
+Leilani Battle and Jeffrey Heer.
+\newblock Characterizing exploratory visual analysis: A literature review and
+  evaluation of analytic provenance in tableau.
+\newblock {\em Computer Graphics Forum (Proc. EuroVis)}, 2019.
+
+\bibitem[BHM19]{PNAS5}
+Farah Bughio, Gary~R. Huckell, and Keith~A. Maggert.
+\newblock Monitoring of switches in heterochromatin-induced silencing shows
+  incomplete establishment and developmental instabilities.
+\newblock 116(40):20043--20053, 2019.
+
+\bibitem[BKvB{\etalchar{+}}17]{glmmtmbPaper}
+Mollie~E Brooks, Kasper Kristensen, Koen~J van Benthem, Arni Magnusson,
+  Casper~W Berg, Anders Nielsen, Hans~J Skaug, Martin Machler, and Benjamin~M
+  Bolker.
+\newblock glmmtmb balances speed and flexibility among packages for
+  zero-inflated generalized linear mixed modeling.
+\newblock {\em The R journal}, 9(2):378--400, 2017.
+
+\bibitem[BLB{\etalchar{+}}13]{scikitAPIPaper}
+Lars Buitinck, Gilles Louppe, Mathieu Blondel, Fabian Pedregosa, Andreas
+  Mueller, Olivier Grisel, Vlad Niculae, Peter Prettenhofer, Alexandre
+  Gramfort, Jaques Grobler, et~al.
+\newblock Api design for machine learning software: experiences from the
+  scikit-learn project.
+\newblock {\em arXiv preprint arXiv:1309.0238}, 2013.
+
+\bibitem[BLST13]{barr2013random}
+Dale~J Barr, Roger Levy, Christoph Scheepers, and Harry~J Tily.
+\newblock Random effects structure for confirmatory hypothesis testing: Keep it
+  maximal.
+\newblock {\em Journal of memory and language}, 68(3):255--278, 2013.
+
+\bibitem[BLT{\etalchar{+}}19]{PS0}
+Natalie Biderman, Roy Luria, Andrei~R. Teodorescu, Ron Hajaj, and Yonatan
+  Goshen-Gottstein.
+\newblock Working memory has better fidelity than long-term memory: The
+  fidelity constraint is not a general property of memory after all.
+\newblock {\em Psychological Science}, 30(2):223--237, 2019.
+
+\bibitem[BMB{\etalchar{+}}19]{bates2014lme4Ref}
+Douglas Bates, Martin M{\"a}chler, Ben Bolker, Steve Walker, Rune~H.B.
+  Christensen, Henrik Singmann, Bin Dai, Fabian Scheipl, Gabor Grothendieck,
+  Peter Green, and John Fox.
+\newblock Package `lme4`.
+\newblock {\em CRAN}, 2019.
+
+\bibitem[BMBW14]{bates2014fittingLme4}
+Douglas Bates, Martin M{\"a}chler, Ben Bolker, and Steve Walker.
+\newblock Fitting linear mixed-effects models using lme4.
+\newblock {\em arXiv preprint arXiv:1406.5823}, 2014.
+
+\bibitem[Bob17]{bobriakov2017:top15Python}
+Igor Bobriakov.
+\newblock Top 15 python libraries for data science in 2017.
+\newblock {\em ActiveWizards in Medium}, 2017.
+
+\bibitem[Bob18]{bobriakov2018:top20Python}
+Igor Bobriakov.
+\newblock Top 20 python libraries for data science in 2018.
+\newblock {\em ActiveWizards in Medium}, 2018.
+
+\bibitem[Bru19]{ucla:whatstat}
+J.~Bruin.
+\newblock Choosing the correct statistical test in sas, stata, spss and r,
+  2019.
+
+\bibitem[BSCN19]{PS2}
+Timothy Ballard, David~K. Sewell, Daniel Cosgrove, and Andrew Neal.
+\newblock Information processing under reward versus under punishment.
+\newblock {\em Psychological Science}, 30(5):757--764, 2019.
+
+\bibitem[BSG12]{borgo2012psychtoolbox}
+Mauro Borgo, Alessandro Soranzo, and Massimo Grassi.
+\newblock Psychtoolbox: sound, keyboard and mouse.
+\newblock In {\em MATLAB for Psychologists}, pages 249--273. Springer, 2012.
+
+\bibitem[C{\etalchar{+}}15]{keras}
+Fran\c{c}ois Chollet et~al.
+\newblock Keras.
+\newblock \url{https://keras.io}, 2015.
+
+\bibitem[Cai07]{cairns2007hci}
+Paul Cairns.
+\newblock Hci... not as it should be: inferential statistics in hci research.
+\newblock In {\em Proceedings of the 21st British HCI Group Annual Conference
+  on People and Computers: HCI... but not as we know it-Volume 1}, pages
+  195--201. British Computer Society, 2007.
+
+\bibitem[CCM19a]{JFE6}
+Andrea Caggese, Vicente Cu{\~n}at, and Daniel Metzger.
+\newblock Firing the wrong workers: Financing constraints and labor
+  misallocation.
+\newblock {\em Journal of Financial Economics}, 133(3):589--607, 2019.
+
+\bibitem[CCM19b]{JFE7}
+Andrea Caggese, Vicente Cu{\~n}at, and Daniel Metzger.
+\newblock Firing the wrong workers: Financing constraints and labor
+  misallocation.
+\newblock {\em Journal of Financial Economics}, 133(3):589--607, 2019.
+
+\bibitem[CCWA13]{cohen2013applied}
+Jacob Cohen, Patricia Cohen, Stephen~G West, and Leona~S Aiken.
+\newblock {\em Applied multiple regression/correlation analysis for the
+  behavioral sciences}.
+\newblock Routledge, 2013.
+
+\bibitem[CDdME19]{N8}
+Samuel~H Church, Seth Donoughe, Bruno~AS de~Medeiros, and Cassandra~G Extavour.
+\newblock Insect egg size and shape evolve with ecology but not developmental
+  rate.
+\newblock {\em Nature}, 571(7763):58--62, 2019.
+
+\bibitem[CEG{\etalchar{+}}16]{carver2016guidelines}
+Robert Carver, Michelle Everson, John Gabrosek, Nicholas Horton, Robin Lock,
+  Megan Mocko, Allan Rossman, Ginger~Holmes Roswell, Paul Velleman, Jeffrey
+  Witmer, et~al.
+\newblock Guidelines for assessment and instruction in statistics education
+  (gaise) college report 2016.
+\newblock 2016.
+
+\bibitem[CFP20]{cinelli2020controls}
+Carlos Cinelli, Andrew Forney, and Judea Pearl.
+\newblock A crash course in good and bad controls.
+\newblock {\em Sociological Methods \& Research}, page 00491241221099552, 2020.
+
+\bibitem[CGDH{\etalchar{+}}17]{stan}
+Bob Carpenter, Andrew Gelman, Matthew D.~Hoffman, Daniel Lee, Ben Goodrich,
+  Michael Betancourt, Marcus Brubaker, Jiqiang Guo, Peter Li, and Allen
+  Riddell.
+\newblock Stan : A probabilistic programming language.
+\newblock {\em Journal of Statistical Software}, 76, 01 2017.
+
+\bibitem[Che76]{chen1976ERDiagram}
+Peter Pin-Shan Chen.
+\newblock The entity-relationship model—toward a unified view of data.
+\newblock {\em ACM transactions on database systems (TODS)}, 1(1):9--36, 1976.
+
+\bibitem[CKM19]{JFE3}
+Alan~D Crane, Andrew Koch, and S{\'e}bastien Michenaud.
+\newblock Institutional investor cliques and governance.
+\newblock {\em Journal of Financial Economics}, 133(1):175--197, 2019.
+
+\bibitem[Cla73]{clark1973language}
+Herbert~H Clark.
+\newblock The language-as-fixed-effect fallacy: A critique of language
+  statistics in psychological research.
+\newblock {\em Journal of verbal learning and verbal behavior}, 12(4):335--359,
+  1973.
+
+\bibitem[CLD{\etalchar{+}}19]{PS3}
+Nadia Chernyak, Kristin~L. Leimgruber, Yarrow~C. Dunham, Jingshi Hu, and
+  Peter~R. Blake.
+\newblock Paying back people who harmed us but not people who helped us: Direct
+  negative reciprocity precedes direct positive reciprocity in early
+  development.
+\newblock {\em Psychological Science}, 30(9):1273--1286, 2019.
+
+\bibitem[CLM{\etalchar{+}}20]{edgeROverview}
+Yunshun Chen, Aaron~TL Lun, Davis~J McCarthy, Matthew~E Ritchie, Belinda
+  Phipson, Yifang Hu, Xiaobei Zhou, Mark~D Robinson, and Gordon~K Smyth.
+\newblock Empirical analysis of digital gene expression data in r (v3.30.3).
+\newblock 2020.
+
+\bibitem[CMB18]{chasins2018rousillon}
+Sarah~E Chasins, Maria Mueller, and Rastislav Bodik.
+\newblock Rousillon: Scraping distributed hierarchical web data.
+\newblock In {\em Proceedings of the 31st Annual ACM Symposium on User
+  Interface Software and Technology}, pages 963--975, 2018.
+
+\bibitem[CMR{\etalchar{+}}19]{PNAS4}
+Meng~S. Choy, Thomas~M. Moon, Rini Ravindran, Johnny~A. Bray, Lucy~C. Robinson,
+  Tara~L. Archuleta, Wuxian Shi, Wolfgang Peti, Kelly Tatchell, and Rebecca
+  Page.
+\newblock Sds22 selectively recognizes and traps metal-deficient inactive pp1.
+\newblock 116(41):20472--20481, 2019.
+
+\bibitem[CMR{\etalchar{+}}20]{edgeRUsersGuide}
+Yunshun Chen, David McCarthy, Matthew Ritchie, Mark Robinson, and Gordon Smyth.
+\newblock edger: differential analysisof sequence read count data.
+\newblock 2020.
+
+\bibitem[Coh88]{cohen1988statistical}
+Jacob Cohen.
+\newblock Statistical power analysis for the social sciences.
+\newblock 1988.
+
+\bibitem[Com23]{plotlyDash}
+Plotly~Dash Community.
+\newblock Plotly dash, 2023.
+
+\bibitem[Cru19]{jspsychR}
+Matthew~J.C. Crump.
+\newblock Jspsychr, 2019.
+
+\bibitem[CWM{\etalchar{+}}19]{N3}
+Ethan~C Campbell, Earle~A Wilson, GW~Kent Moore, Stephen~C Riser, Casey~E
+  Brayton, Matthew~R Mazloff, and Lynne~D Talley.
+\newblock Antarctic offshore polynyas linked to southern hemisphere climate
+  anomalies.
+\newblock {\em Nature}, 570(7761):319--325, 2019.
+
+\bibitem[DL15a]{deLeeuw2015jspsych}
+Joshua~R De~Leeuw.
+\newblock jspsych: A javascript library for creating behavioral experiments in
+  a web browser.
+\newblock {\em Behavior research methods}, 47(1):1--12, 2015.
+
+\bibitem[DL15b]{de2015jspsych}
+Joshua~R De~Leeuw.
+\newblock jspsych: A javascript library for creating behavioral experiments in
+  a web browser.
+\newblock {\em Behavior research methods}, 47(1):1--12, 2015.
+
+\bibitem[DMB08]{de2008z3}
+Leonardo De~Moura and Nikolaj Bj{\o}rner.
+\newblock Z3: An efficient smt solver.
+\newblock In {\em International conference on Tools and Algorithms for the
+  Construction and Analysis of Systems}, pages 337--340. Springer, 2008.
+
+\bibitem[DMC{\etalchar{+}}19]{N1}
+Florent D{\'e}troit, Armand~Salvador Mijares, Julien Corny, Guillaume Daver,
+  Cl{\'e}ment Zanolli, Eusebio Dizon, Emil Robles, Rainer Gr{\"u}n, and
+  Philip~J Piper.
+\newblock A new species of homo from the late pleistocene of the philippines.
+\newblock {\em Nature}, 568(7751):181--186, 2019.
+
+\bibitem[DMFKS19]{JFE0}
+Marco Di~Maggio, Francesco Franzoni, Amir Kermani, and Carlo Sommavilla.
+\newblock The relevance of broker networks for information diffusion in the
+  stock market.
+\newblock {\em Journal of Financial Economics}, 134(2):419--446, 2019.
+
+\bibitem[Efr92]{efron1992bootstrap}
+Bradley Efron.
+\newblock Bootstrap methods: another look at the jackknife.
+\newblock In {\em Breakthroughs in statistics}, pages 569--593. Springer, 1992.
+
+\bibitem[Ehr73]{ehrlich1973participation}
+Isaac Ehrlich.
+\newblock Participation in illegitimate activities: A theoretical and empirical
+  investigation.
+\newblock {\em Journal of political Economy}, 81(3):521--565, 1973.
+
+\bibitem[EVL{\etalchar{+}}19]{CHI4}
+Motahhare Eslami, Kristen Vaccaro, Min~Kyung Lee, Amit Elazari Bar~On, Eric
+  Gilbert, and Karrie Karahalios.
+\newblock User attitudes towards algorithmic opacity and transparency in online
+  reviewing platforms.
+\newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--14, 2019.
+
+\bibitem[EWBLM19]{eiselmayer2019touchstone2}
+Alexander Eiselmayer, Chatchavan Wacharamanotham, Michel Beaudouin-Lafon, and
+  Wendy Mackay.
+\newblock Touchstone2: An interactive environment for exploring trade-offs in
+  hci experiment design.
+\newblock 2019.
+
+\bibitem[FHT{\etalchar{+}}20]{glmnetRef}
+Jerome Friedman, Trevor Hastie, Rob Tibshirani, Balasubramanian Narasimhan,
+  Kenneth Tay, Noah Simon, and Junyang Qian.
+\newblock Package ‘glmnet`.
+\newblock 2020.
+
+\bibitem[Fis37]{fisher1937design}
+Ronald~Aylmer Fisher.
+\newblock {\em The design of experiments}.
+\newblock Oliver And Boyd; Edinburgh; London, 1937.
+
+\bibitem[FKE{\etalchar{+}}15]{autosklearn}
+Matthias Feurer, Aaron Klein, Katharina Eggensperger, Jost Springenberg, Manuel
+  Blum, and Frank Hutter.
+\newblock Efficient and robust automated machine learning.
+\newblock In C.~Cortes, N.~Lawrence, D.~Lee, M.~Sugiyama, and R.~Garnett,
+  editors, {\em Advances in Neural Information Processing Systems}, volume~28.
+  Curran Associates, Inc., 2015.
+
+\bibitem[FKL{\etalchar{+}}12]{feigenspan2012measuring}
+Janet Feigenspan, Christian K{\"a}stner, J{\"o}rg Liebig, Sven Apel, and Stefan
+  Hanenberg.
+\newblock Measuring programming experience.
+\newblock In {\em 2012 20th IEEE International Conference on Program
+  Comprehension (ICPC)}, pages 73--82. IEEE, 2012.
+
+\bibitem[FMF12]{field2012discoveringR}
+Andy Field, Jeremy Miles, and Zo{\"e} Field.
+\newblock {\em Discovering statistics using R}.
+\newblock Sage publications, 2012.
+
+\bibitem[FRG{\etalchar{+}}19]{PNAS1}
+Janos Fuzik, Sabah Rehman, Fatima Girach, Andras~G Miklosi, Solomiia
+  Korchynska, Gloria Arque, Roman~A Romanov, J{\'a}nos Hanics, Ludwig Wagner,
+  Konstantinos Meletis, et~al.
+\newblock Brain-wide genetic mapping identifies the indusium griseum as a
+  prenatal target of pharmacologically unrelated psychostimulants.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  116(51):25958--25967, 2019.
+
+\bibitem[FSD{\etalchar{+}}19]{CHI9}
+Dylan Fafard, Ian Stavness, Martin Dechant, Regan Mandryk, Qian Zhou, and
+  Sidney Fels.
+\newblock Ftvr in vr: Evaluation of 3d perception with a simulated volumetric
+  fish-tank virtual reality display.
+\newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--12, 2019.
+
+\bibitem[GAL{\etalchar{+}}19]{CHI0}
+Lukas Gehrke, Sezen Akman, Pedro Lopes, Albert Chen, Avinash~Kumar Singh,
+  Hsiang-Ting Chen, Chin-Teng Lin, and Klaus Gramann.
+\newblock Detecting visuo-haptic mismatches in virtual reality using the
+  prediction error negativity of event-related brain potentials.
+\newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--11, 2019.
+
+\bibitem[GCS{\etalchar{+}}13]{gelman2013bayesianTextbook}
+Andrew Gelman, John~B Carlin, Hal~S Stern, David~B Dunson, Aki Vehtari, and
+  Donald~B Rubin.
+\newblock {\em Bayesian data analysis}.
+\newblock CRC press, 2013.
+
+\bibitem[GDH07]{guimbretiere2007experiscope}
+Fran{\c{c}}ois Guimbreti{\`e}re, Morgan Dixon, and Ken Hinckley.
+\newblock Experiscope: an analysis tool for interaction data.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 1333--1342. ACM, 2007.
+
+\bibitem[Gel05]{gelmanFixedRandom}
+Andrew Gelman.
+\newblock Why i don't use the term “fixed and random effects”, 2005.
+
+\bibitem[GH06]{gelmanHill2006regression}
+Andrew Gelman and Jennifer Hill.
+\newblock {\em Data analysis using regression and multilevel/hierarchical
+  models}.
+\newblock Cambridge university press, 2006.
+
+\bibitem[GKM19]{JFE5}
+John~M Griffin, Samuel Kruger, and Gonzalo Maturana.
+\newblock Do labor markets discipline? evidence from rmbs bankers.
+\newblock {\em Journal of Financial Economics}, 133(3):726--750, 2019.
+
+\bibitem[GL13]{gelman2013garden}
+Andrew Gelman and Eric Loken.
+\newblock The garden of forking paths: Why multiple comparisons can be a
+  problem, even when there is no “fishing expedition” or “p-hacking”
+  and the research hypothesis was posited ahead of time.
+\newblock {\em Department of Statistics, Columbia University}, 2013.
+
+\bibitem[GPR99]{greenland1999causal}
+Sander Greenland, Judea Pearl, and James~M Robins.
+\newblock Causal diagrams for epidemiologic research.
+\newblock {\em Epidemiology}, pages 37--48, 1999.
+
+\bibitem[Gro19]{grolemund2019:recommendedR}
+Garrett Grolemund.
+\newblock Quick list of useful r packages.
+\newblock {\em R Studio Support}, 2019.
+
+\bibitem[GS20]{graphPadUserGuide}
+LLC. GraphPad~Software.
+\newblock Graphpad prism 8 user guide.
+\newblock 2020.
+
+\bibitem[GSV{\etalchar{+}}19]{gabry2019visualization}
+Jonah Gabry, Daniel Simpson, Aki Vehtari, Michael Betancourt, and Andrew
+  Gelman.
+\newblock Visualization in bayesian workflow.
+\newblock {\em Journal of the Royal Statistical Society: Series A (Statistics
+  in Society)}, 182(2):389--402, 2019.
+
+\bibitem[GSY19]{JFE9}
+Robin Greenwood, Andrei Shleifer, and Yang You.
+\newblock Bubbles for fama.
+\newblock {\em Journal of Financial Economics}, 131(1):20--43, 2019.
+
+\bibitem[GVS{\etalchar{+}}20]{gelman2020bayesianWorkflow}
+Andrew Gelman, Aki Vehtari, Daniel Simpson, Charles~C Margossian, Bob
+  Carpenter, Yuling Yao, Lauren Kennedy, Jonah Gabry, Paul-Christian
+  B{\"u}rkner, and Martin Modr{\'a}k.
+\newblock Bayesian workflow.
+\newblock {\em arXiv preprint arXiv:2011.01808}, 2020.
+
+\bibitem[GW14]{grolemund2014cognitive}
+Garrett Grolemund and Hadley Wickham.
+\newblock A cognitive interpretation of data analysis.
+\newblock {\em International Statistical Review}, 82(2):184--204, 2014.
+
+\bibitem[H{\etalchar{+}}10]{MCMCglmmPaper}
+Jarrod~D Hadfield et~al.
+\newblock Mcmc methods for multi-response generalized linear mixed models: the
+  mcmcglmm r package.
+\newblock {\em Journal of Statistical Software}, 33(2):1--22, 2010.
+
+\bibitem[Had20]{MCMCglmmRef}
+Jarrod Hadfield.
+\newblock Package ‘mcmcglmm`.
+\newblock 2020.
+
+\bibitem[HAPGNN{\etalchar{+}}19]{PS1}
+Mireia Hern\'{a}ndez, Mar\'{i}a \'{A}ngeles Palomar-Garc\'{i}a, Benito
+  Nohales-Nieto, Gustau Olcina-Sempere, Esteban Villar-Rodr\'{i}guez, Ra\'{u}l
+  Pastor, C\'{e}sar \'{A}vila, and Maria-Ant\'{o}nia Parcet.
+\newblock Separate contribution of striatum volume and pitch discrimination to
+  individual differences in music reward.
+\newblock {\em Psychological Science}, 30(9):1352--1361, 2019.
+
+\bibitem[Har20]{harrison2020psychtestr}
+Peter Harrison.
+\newblock psychtestr: An r package for designing and conducting behavioural
+  psychological experiments.
+\newblock {\em The Journal of Open Source Software}, 5(49), 2020.
+
+\bibitem[HBH18]{hoffswell2018setcola}
+Jane Hoffswell, Alan Borning, and Jeffrey Heer.
+\newblock Setcola: High-level constraints for graph layout.
+\newblock In {\em Computer Graphics Forum}, volume~37, pages 537--548. Wiley
+  Online Library, 2018.
+
+\bibitem[HHNT89]{holland1989induction}
+John~H Holland, Keith~J Holyoak, Richard~E Nisbett, and Paul~R Thagard.
+\newblock {\em Induction: Processes of inference, learning, and discovery}.
+\newblock MIT press, 1989.
+
+\bibitem[HHZ19]{JFE1}
+Pinghsun Huang, Hsin-Yi Huang, and Yan Zhang.
+\newblock Do firms hedge with foreign currency derivatives for employees?
+\newblock {\em Journal of Financial Economics}, 133(2):418--440, 2019.
+
+\bibitem[HLC19]{hempel2019sketch}
+Brian Hempel, Justin Lubin, and Ravi Chugh.
+\newblock Sketch-n-sketch: Output-directed programming for svg.
+\newblock In {\em Proceedings of the 32nd Annual ACM Symposium on User
+  Interface Software and Technology}, pages 281--292, 2019.
+
+\bibitem[HM19]{PNAS3}
+Sebok~K. Halder and Richard Milner.
+\newblock A critical role for microglia in maintaining vascular integrity in
+  the hypoxic spinal cord.
+\newblock 116(51):26029--26037, 2019.
+
+\bibitem[Hol79]{holm1979simple}
+Sture Holm.
+\newblock A simple sequentially rejective multiple test procedure.
+\newblock {\em Scandinavian journal of statistics}, pages 65--70, 1979.
+
+\bibitem[Hoy95]{hoyle1995SEM}
+Rick~H Hoyle.
+\newblock {\em Structural equation modeling: Concepts, issues, and
+  applications}.
+\newblock Sage, 1995.
+
+\bibitem[HQ14]{glmnetVignette}
+Trevor Hastie and Junyang Qian.
+\newblock Glmnet vignette.
+\newblock 2014.
+
+\bibitem[HWV{\etalchar{+}}19]{CHI2}
+Nur Al-huda Hamdan, Adrian Wagner, Simon Voelker, J{\"u}rgen Steimle, and Jan
+  Borchers.
+\newblock Springlets: Expressive, flexible and silent on-skin tactile
+  interfaces.
+\newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--14, 2019.
+
+\bibitem[Inc21]{sas}
+SAS~Institute Inc.
+\newblock Sas, 2021.
+
+\bibitem[JBDM{\etalchar{+}}22a]{jun2022hypoForm}
+Eunice Jun, Melissa Birchfield, Nicole De~Moura, Jeffrey Heer, and Rene Just.
+\newblock Hypothesis formalization: Empirical findings, software limitations,
+  and design implications.
+\newblock {\em ACM Transactions on Computer-Human Interaction (TOCHI)},
+  29(1):1--28, 2022.
+
+\bibitem[JBDM{\etalchar{+}}22b]{jun2021hypothesisFormalization}
+Eunice Jun, Melissa Birchfield, Nicole De~Moura, Jeffrey Heer, and Rene Just.
+\newblock Hypothesis formalization: Empirical findings, software limitations,
+  and design implications.
+\newblock In {\em ACM Transactions on Computer-Human Interaction (TOCHI)},
+  volume~29, 2022.
+
+\bibitem[JDR{\etalchar{+}}19]{jun2019tea}
+Eunice Jun, Maureen Daum, Jared Roesch, Sarah~E Chasins, Emery~D Berger, Rene
+  Just, and Katharina Reinecke.
+\newblock Tea: A high-level language and runtime system for automating
+  statistical analysis.
+\newblock In {\em Proceedings of the 32nd Annual Symposium on User Interface
+  Software and Technology}. ACM, 2019.
+
+\bibitem[JMHJ23]{jun2023rTisane}
+Eunice Jun, Edward Misback, Jeffrey Heer, and Ren{\'e} Just.
+\newblock rtisane: Formalizing conceptual models to author statistical models
+  reduces error, increases awareness, and teaches novices.
+\newblock In {\em Under submission}, 2023.
+
+\bibitem[Jol18]{jolly2018pymer4}
+Eshin Jolly.
+\newblock Pymer4: connecting r and python for linear mixed modeling.
+\newblock {\em Journal of Open Source Software}, 3(31):862, 2018.
+
+\bibitem[JOP{\etalchar{+}}21a]{scipy}
+Eric Jones, Travis Oliphant, Pearu Peterson, et~al.
+\newblock {SciPy}: Open source scientific tools for {Python}, 2001--2021.
+
+\bibitem[JOP{\etalchar{+}}21b]{scipyStats}
+Eric Jones, Travis Oliphant, Pearu Peterson, et~al.
+\newblock {SciPy}: Open source scientific tools for {Python}, 2001--2021.
+
+\bibitem[JOP{\etalchar{+}}21c]{scipyOptimize}
+Eric Jones, Travis Oliphant, Pearu Peterson, et~al.
+\newblock {SciPy}: Open source scientific tools for {Python}, 2001--2021.
+
+\bibitem[JS11]{jones2011jmp}
+Bradley Jones and John Sall.
+\newblock Jmp statistical discovery software.
+\newblock {\em Wiley Interdisciplinary Reviews: Computational Statistics},
+  3(3):188--194, 2011.
+
+\bibitem[JS23]{tisaneWebsite}
+Eunice Jun and Audrey Seo.
+\newblock Tisane, 2022-2023.
+
+\bibitem[JSHJ22]{jun2022tisane}
+Eunice Jun, Audrey Seo, Jeffrey Heer, and Ren{\'e} Just.
+\newblock Tisane: Authoring statistical models via formal reasoning from
+  conceptual and data relationships.
+\newblock In {\em Proceedings of the 2022 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--16, 2022.
+
+\bibitem[JSP{\etalchar{+}}19]{N0}
+Robert~J Johnston, Linhui~Julie Su, Jason Pinckney, David Critton, Eric Boyer,
+  Arathi Krishnakumar, Martin Corbett, Andrew~L Rankin, Rose Dibella, Lynne
+  Campbell, et~al.
+\newblock Vista is an acidic ph-selective ligand for psgl-1.
+\newblock {\em Nature}, 574(7779):565--570, 2019.
+
+\bibitem[Kab11]{kabacoff2011action}
+Robert~I Kabacoff.
+\newblock R: In action.
+\newblock 2011.
+
+\bibitem[KD88]{klahr1988dual}
+David Klahr and Kevin Dunbar.
+\newblock Dual space search during scientific reasoning.
+\newblock {\em Cognitive science}, 12(1):1--48, 1988.
+
+\bibitem[Ker98]{kerr1998harking}
+Norbert~L Kerr.
+\newblock Harking: Hypothesizing after the results are known.
+\newblock {\em Personality and social psychology review}, 2(3):196--217, 1998.
+
+\bibitem[KGF19]{PS6}
+Maryam Kouchaki, Francesca Gino, and Yuval Feldman.
+\newblock The ethical perils of personal, communal relations: A language
+  perspective.
+\newblock {\em Psychological Science}, 30(12):1745--1766, 2019.
+
+\bibitem[KKdL98]{kreft1998introducing}
+Ita~GG Kreft, Ita Kreft, and Jan de~Leeuw.
+\newblock {\em Introducing multilevel modeling}.
+\newblock Sage, 1998.
+
+\bibitem[KKH19]{kale2019decision}
+Alex Kale, Matthew Kay, and Jessica Hullman.
+\newblock Decision-making under uncertainty in research synthesis: Designing
+  for the garden of forking paths.
+\newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--14, 2019.
+
+\bibitem[KLHO19]{CHI6}
+Janin Koch, Andr{\'e}s Lucero, Lena Hegemann, and Antti Oulasvirta.
+\newblock May ai? design ideation with cooperative contextual bandits.
+\newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--12, 2019.
+
+\bibitem[KNH16]{kay2016researcher}
+Matthew Kay, Gregory~L Nelson, and Eric~B Hekler.
+\newblock Researcher-centered design of statistics: Why bayesian statistics
+  better fit the culture and incentives of hci.
+\newblock In {\em Proceedings of the 2016 CHI Conference on Human Factors in
+  Computing Systems}, pages 4521--4532. ACM, 2016.
+
+\bibitem[Kor19]{sumsofsquaresBlog}
+Joos Korstanje.
+\newblock "anova's three types of estimating sums of squares: don't make the
+  wrong choice!".
+\newblock {\em Towards Data Science, Medium}, 2019.
+
+\bibitem[KPHH11]{kandel2011wrangler}
+Sean Kandel, Andreas Paepcke, Joseph Hellerstein, and Jeffrey Heer.
+\newblock Wrangler: Interactive visual specification of data transformation
+  scripts.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 3363--3372. ACM, 2011.
+
+\bibitem[KPHH12]{kandel2012enterprise}
+Sean Kandel, Andreas Paepcke, Joseph~M Hellerstein, and Jeffrey Heer.
+\newblock Enterprise data analysis and visualization: An interview study.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  18(12):2917--2926, 2012.
+
+\bibitem[KPRP07]{klein2007dataFrame}
+Gary Klein, Jennifer~K Phillips, Erica~L Rall, and Deborah~A Peluso.
+\newblock A data--frame theory of sensemaking.
+\newblock In {\em Expertise out of context}, pages 118--160. Psychology Press,
+  2007.
+
+\bibitem[KR12]{kaptein2012rethinking}
+Maurits Kaptein and Judy Robertson.
+\newblock Rethinking statistical analysis methods for chi.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 1105--1114. ACM, 2012.
+
+\bibitem[KS99]{klahr1999studies}
+David Klahr and Herbert~A Simon.
+\newblock Studies of scientific discovery: Complementary approaches and
+  convergent findings.
+\newblock {\em Psychological Bulletin}, 125(5):524, 1999.
+
+\bibitem[KVR20]{parsnip}
+Max Kuhn, Davis Vaughan, and RStudio.
+\newblock parsnip: A common api to modeling and analysis functions, 2020.
+
+\bibitem[KW19]{klemmerCoursera}
+Scott Klemmer and Jacob Wobbrock.
+\newblock Designing, running, and analyzing experiments, 2019.
+
+\bibitem[KW20]{tidymodels}
+Max Kuhn and Hadley Wickham.
+\newblock {\em Tidymodels: a collection of packages for modeling and machine
+  learning using tidyverse principles.}, 2020.
+
+\bibitem[LA15]{lo2015transform}
+Steson Lo and Sally Andrews.
+\newblock To transform or not to transform: Using generalized linear mixed
+  models to analyse reaction time data.
+\newblock {\em Frontiers in psychology}, 6:1171, 2015.
+
+\bibitem[LAH19]{liu2019paths}
+Yang Liu, Tim Althoff, and Jeffrey Heer.
+\newblock Paths explored, paths omitted, paths obscured: Decision points \&
+  selective reporting in end-to-end data analysis.
+\newblock {\em arXiv preprint arXiv:1910.13602}, 2019.
+
+\bibitem[LAvA{\etalchar{+}}19]{CHI8}
+Minha Lee, Sander Ackermans, Nena van As, Hanwen Chang, Enzo Lucas, and Wijnand
+  IJsselsteijn.
+\newblock Caring for vincent: A chatbot for self-compassion.
+\newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--13, 2019.
+
+\bibitem[LBE19]{liu2019understanding}
+Jiali Liu, Nadia Boukhelifa, and James~R Eagan.
+\newblock Understanding the role of alternatives in data analysis practices.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  26(1):66--76, 2019.
+
+\bibitem[LCD{\etalchar{+}}19a]{lee2019robust}
+Michael~D Lee, Amy~H Criss, Berna Devezer, Christopher Donkin, Alexander Etz,
+  F{\'a}bio~P Leite, Dora Matzke, Jeffrey~N Rouder, Jennifer~S Trueblood,
+  Corey~N White, et~al.
+\newblock Robust modeling in cognitive science.
+\newblock {\em Computational Brain \& Behavior}, 2(3):141--153, 2019.
+
+\bibitem[LCD{\etalchar{+}}19b]{PNAS7}
+Merrin Man~Long Leong, Arthur Kwok~Leung Cheung, Wei Dai, Sai~Wah Tsao, Chi~Man
+  Tsang, Christopher~W. Dawson, Josephine Mun Yee~Ko, and Maria~Li Lung.
+\newblock Ebv infection is associated with histone bivalent switch
+  modifications in squamous epithelial cells.
+\newblock 116(28):14144--14153, 2019.
+
+\bibitem[LDG{\etalchar{+}}14]{lloyd2014automatic}
+James Lloyd, David Duvenaud, Roger Grosse, Joshua Tenenbaum, and Zoubin
+  Ghahramani.
+\newblock Automatic construction and natural-language description of
+  nonparametric regression models.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~28, 2014.
+
+\bibitem[LGL{\etalchar{+}}19]{PNAS8}
+Chang Liu, Hui-Min Ge, Bai-Hui Liu, Rui Dong, Kun Shan, Xue Chen, Mu-Di Yao,
+  Xiu-Miao Li, Jin Yao, Rong-Mei Zhou, Shu-Jie Zhang, Qin Jiang, Chen Zhao, and
+  Biao Yan.
+\newblock Targeting pericyte{\textendash}endothelial cell crosstalk by circular
+  rna-cpwwp2a inhibition aggravates diabetes-induced microvascular dysfunction.
+\newblock 116(15):7455--7464, 2019.
+
+\bibitem[Lib19]{kent:tutorials}
+Kent State~University Libraries.
+\newblock Spss tutorials: Analyzing data, 2019.
+
+\bibitem[LLC20a]{stataLang}
+StataCorp LLC.
+\newblock Language syntax, 2020.
+
+\bibitem[LLC20b]{stataRef}
+StataCorp LLC.
+\newblock Stata 16 documentation, 2020.
+
+\bibitem[LP20]{H2OAutoML20}
+Erin LeDell and Sebastien Poirier.
+\newblock {H2O} {A}uto{ML}: Scalable automatic machine learning.
+\newblock {\em 7th ICML Workshop on Automated Machine Learning (AutoML)}, July
+  2020.
+
+\bibitem[LTBS00]{bugs}
+David~J. Lunn, Andrew Thomas, Nicky Best, and David Spiegelhalter.
+\newblock Winbugs - a bayesian modelling framework: Concepts, structure, and
+  extensibility.
+\newblock {\em Statistics and Computing}, 10(4):325--337, Oct 2000.
+
+\bibitem[LTE16]{loncaric2016cozy}
+Calvin Loncaric, Emina Torlak, and Michael~D Ernst.
+\newblock Fast synthesis of fast collections.
+\newblock {\em ACM SIGPLAN Notices}, 51(6):355--368, 2016.
+
+\bibitem[MABL{\etalchar{+}}07]{mackay2007touchstone}
+Wendy~E Mackay, Caroline Appert, Michel Beaudouin-Lafon, Olivier Chapuis,
+  Yangzhou Du, Jean-Daniel Fekete, and Yves Guiard.
+\newblock Touchstone: exploratory design of experiments.
+\newblock In {\em Proceedings of the SIGCHI conference on Human factors in
+  computing systems}, pages 1425--1434. ACM, 2007.
+
+\bibitem[McE20]{mcelreath2020statistical}
+Richard McElreath.
+\newblock {\em Statistical rethinking: A Bayesian course with examples in R and
+  Stan}.
+\newblock CRC press, 2020.
+
+\bibitem[McN18]{mcnamara2018keyAttributes}
+Amelia McNamara.
+\newblock Key attributes of a modern statistical computing tool.
+\newblock {\em The American Statistician}, 2018.
+
+\bibitem[MSF19]{mcdonald2019reliability}
+Nora McDonald, Sarita Schoenebeck, and Andrea Forte.
+\newblock Reliability and inter-rater reliability in qualitative research:
+  Norms and guidelines for cscw and hci practice.
+\newblock {\em Proceedings of the ACM on Human-Computer Interaction},
+  3(CSCW):1--23, 2019.
+
+\bibitem[MSN{\etalchar{+}}20]{glmmtmbRef}
+Arni Magnusson, Hans Skaug, Anders Nielsen, Casper Berg, Kasper Kristensen,
+  Martin Maechler, Koen van Bentham, Ben Bolker, Nafis Sadat, Daniel
+  L{\"u}decke, Russ Lenth, Joseph O'Brien, and Mollie Brooks.
+\newblock Package ‘glmmtmb'.
+\newblock 2020.
+
+\bibitem[MTB{\etalchar{+}}19]{N9}
+Philippe Mauffrey, Nicolas Tchitchek, Vilma Barroca, Alexis Bemelmans, Virginie
+  Firlej, Yves Allory, Paul-Henri Romeo, and Claire Magnon.
+\newblock Progenitors from the central nervous system drive neurogenesis in
+  cancer.
+\newblock {\em Nature}, 569(7758):672--678, 2019.
+
+\bibitem[MTM{\etalchar{+}}19]{PNAS9}
+Kevin McCloskey, Ankur Taly, Federico Monti, Michael~P. Brenner, and Lucy~J.
+  Colwell.
+\newblock Using attribution to decode binding mechanism in neural network
+  models for chemistry.
+\newblock 116(24):11624--11629, 2019.
+
+\bibitem[Mut23]{mplus}
+Muthén~\& Muthén.
+\newblock Mplus, 2023.
+
+\bibitem[MWN{\etalchar{+}}19]{moritz2019formalizing}
+Dominik Moritz, Chenglong Wang, Greg~L Nelson, Halden Lin, Adam~M Smith, Bill
+  Howe, and Jeffrey Heer.
+\newblock Formalizing visualization design knowledge as constraints: Actionable
+  and extensible models in draco.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  25(1):438--448, 2019.
+
+\bibitem[Nav19]{xprmntr}
+Danielle Navarro.
+\newblock xprmntr, 2019.
+
+\bibitem[Nav21]{jaysire}
+Danielle Navarro.
+\newblock Jaysire: Building jspysch experiments in r, 2021.
+
+\bibitem[NHNO19]{PS9}
+Chi~T. Ngo, Aidan~J. Horner, Nora~S. Newcombe, and Ingrid~R. Olson.
+\newblock Development of holistic episodic recollection.
+\newblock {\em Psychological Science}, 30(12):1696--1706, 2019.
+
+\bibitem[Nor86]{norman1986cognitive}
+Donald~A Norman.
+\newblock Cognitive engineering.
+\newblock {\em User centered system design}, 31:61, 1986.
+
+\bibitem[Nor13]{norman2013doet}
+Don Norman.
+\newblock {\em The design of everyday things: Revised and expanded edition}.
+\newblock Basic books, 2013.
+
+\bibitem[NS{\etalchar{+}}72]{newell1972humanProblemSolving}
+Allen Newell, Herbert~Alexander Simon, et~al.
+\newblock {\em Human problem solving}, volume 104.
+\newblock Prentice-Hall Englewood Cliffs, NJ, 1972.
+
+\bibitem[NSVW19]{JFE2}
+Taylor~D Nadauld, Berk~A Sensoy, Keith Vorkink, and Michael~S Weisbach.
+\newblock The liquidity cost of private equity investments: Evidence from
+  secondary market transactions.
+\newblock {\em Journal of Financial Economics}, 132(3):158--181, 2019.
+
+\bibitem[NW72]{nelder1972generalized}
+John~Ashworth Nelder and Robert~WM Wedderburn.
+\newblock Generalized linear models.
+\newblock {\em Journal of the Royal Statistical Society: Series A (General)},
+  135(3):370--384, 1972.
+
+\bibitem[oA20]{jasp}
+University of~Amsterdam.
+\newblock Jasp: A fresh way to do statistics, 2020.
+
+\bibitem[OKB{\etalchar{+}}19]{N7}
+Mikhail~M Otrokov, Ilya~I Klimovskikh, Hendrik Bentmann, D~Estyunin, Alexander
+  Zeugner, Ziya~S Aliev, S~Ga{\ss}, AUB Wolter, AV~Koroleva, Alexander~M
+  Shikin, et~al.
+\newblock Prediction and observation of an antiferromagnetic topological
+  insulator.
+\newblock {\em Nature}, 576(7787):416--422, 2019.
+
+\bibitem[Oli06]{oliphant2006numpy}
+Travis~E Oliphant.
+\newblock {\em A guide to NumPy}, volume~1.
+\newblock Trelgol Publishing USA, 2006.
+
+\bibitem[ONK{\etalchar{+}}19]{N4}
+Luigi Ombrato, Emma Nolan, Ivana Kurelac, Antranik Mavousian, Victoria~Louise
+  Bridgeman, Ivonne Heinze, Probir Chakravarty, Stuart Horswell, Estela
+  Gonzalez-Gualda, Giulia Matacchione, et~al.
+\newblock Metastatic-niche labelling reveals parenchymal cells with stem
+  features.
+\newblock {\em Nature}, 572(7771):603--608, 2019.
+
+\bibitem[P{\etalchar{+}}00]{pearl2000models}
+Judea Pearl et~al.
+\newblock Models, reasoning and inference.
+\newblock {\em Cambridge, UK: CambridgeUniversityPress}, 19, 2000.
+
+\bibitem[PAH{\etalchar{+}}19]{PS5}
+Emil Persson, Erkin Asutay, Markus Heilig, Andreas Löfberg, Nancy Pedersen,
+  Daniel Västfjäll, and Gustav Tinghög.
+\newblock Variation in the $\mu$-opioid receptor gene (oprm1) does not moderate
+  social-rejection sensitivity in humans.
+\newblock {\em Psychological Science}, 30(7):1050--1062, 2019.
+
+\bibitem[PBD{\etalchar{+}}20]{nlmeRef}
+Jos{\'e} Pinheiro, Douglas Bates, Saikat DebRoy, Deepayan Sarkar, EISPACK
+  authors, Siem Heisterkamp, Bert~Van Willigen, and R-core.
+\newblock Package ‘nlme`.
+\newblock 2020.
+
+\bibitem[PC05]{pirolli2005sensemaking}
+Peter Pirolli and Stuart Card.
+\newblock The sensemaking process and leverage points for analyst technology as
+  identified through cognitive task analysis.
+\newblock In {\em Proceedings of international conference on intelligence
+  analysis}, volume~5, pages 2--4. McLean, VA, USA, 2005.
+
+\bibitem[Pea95a]{pearl1995causal}
+Judea Pearl.
+\newblock Causal diagrams for empirical research.
+\newblock {\em Biometrika}, 82(4):669--688, 1995.
+
+\bibitem[Pea95b]{pearl1995doCalculus}
+Judea Pearl.
+\newblock Causal diagrams for empirical research.
+\newblock {\em Biometrika}, 82(4):669--688, 1995.
+
+\bibitem[Pei07]{peirce2007psychopy}
+Jonathan~W Peirce.
+\newblock Psychopy—psychophysics software in python.
+\newblock {\em Journal of neuroscience methods}, 162(1-2):8--13, 2007.
+
+\bibitem[Pfa97]{pfannkuch1997statistical}
+M~Pfannkuch.
+\newblock Statistical thinking: One statistician's perspective.
+\newblock {\em Research papers on stochastics education}, pages 171--178, 1997.
+
+\bibitem[PGE{\etalchar{+}}18]{panchekha2018verifying}
+Pavel Panchekha, Adam~T Geller, Michael~D Ernst, Zachary Tatlock, and Shoaib
+  Kamil.
+\newblock Verifying that web pages have accessible layout.
+\newblock In {\em Proceedings of the 39th ACM SIGPLAN Conference on Programming
+  Language Design and Implementation}, pages 1--14. ACM, 2018.
+
+\bibitem[PGEE{\etalchar{+}}19]{CHI1}
+Anthony Poon, Sarah Giroux, Parfait Eloundou-Enyegue, Fran{\c{c}}ois
+  Guimbreti{\`e}re, and Nicola Dell.
+\newblock Engaging high school students in cameroon with exam practice quizzes
+  via sms and whatsapp.
+\newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--13, 2019.
+
+\bibitem[PGSF19]{PS7}
+Liuba Papeo, Nicolas Goupil, and Salvador Soto-Faraco.
+\newblock Visual search for people among people.
+\newblock {\em Psychological Science}, 30(10):1483--1496, 2019.
+
+\bibitem[Pra19]{prabhu2019:topPython}
+Tanu~N Prabhu.
+\newblock Top python libraries used in data science.
+\newblock {\em Towards Data Science, Medium}, 2019.
+
+\bibitem[PSTsd20]{statsmodelsRef}
+Josef Perktold, Skipper Seabold, Jonathan Taylor, and statsmodels developers.
+\newblock Statsmodels v0.10.2 reference guide.
+\newblock 2020.
+
+\bibitem[PVG{\etalchar{+}}11]{scikitPaper}
+Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel,
+  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
+  Weiss, Vincent Dubourg, et~al.
+\newblock Scikit-learn: Machine learning in python.
+\newblock {\em the Journal of machine Learning research}, 12:2825--2830, 2011.
+
+\bibitem[PW{\etalchar{+}}00]{pfannkuch2000statistical}
+Maxine Pfannkuch, Chris~J Wild, et~al.
+\newblock Statistical thinking an statistical practice: Themes gleaned from
+  professional statisticians.
+\newblock {\em Statistical science}, 15(2):132--152, 2000.
+
+\bibitem[RSPC93]{russell1993cost}
+Daniel~M Russell, Mark~J Stefik, Peter Pirolli, and Stuart~K Card.
+\newblock The cost structure of sensemaking.
+\newblock In {\em Proceedings of the INTERACT'93 and CHI'93 conference on Human
+  factors in computing systems}, pages 269--276. ACM, 1993.
+
+\bibitem[Rub04]{rubin2004teaching}
+Donald~B Rubin.
+\newblock Teaching statistical inference for causal effects in experiments and
+  observational studies.
+\newblock {\em Journal of Educational and Behavioral Statistics},
+  29(3):343--367, 2004.
+
+\bibitem[RVB{\etalchar{+}}20]{mass}
+Brian Ripley, Bill Venables, Douglas~M. Bates, Kurt Hornik, Albrecht Gebhardt,
+  , and David Firth.
+\newblock Package ‘mass`.
+\newblock 2020.
+
+\bibitem[S{\etalchar{+}}99]{sanner1999python}
+Michel~F Sanner et~al.
+\newblock Python: a programming language for software integration and
+  development.
+\newblock {\em J Mol Graph Model}, 17(1):57--61, 1999.
+
+\bibitem[SAS20a]{jmp}
+SAS.
+\newblock Jmp, 2020.
+
+\bibitem[SAS20b]{jmpDOE}
+SAS.
+\newblock Jmp, 2020.
+
+\bibitem[SH17]{gosset}
+N.J.A. Sloane and R.H. Hardin.
+\newblock Gosset: A general-purpose program for designing experiments, 2017.
+
+\bibitem[Sha10]{shadish2010campbell}
+William~R Shadish.
+\newblock Campbell and rubin: A primer and comparison of their approaches to
+  causal inference in field settings.
+\newblock {\em Psychological methods}, 15(1):3, 2010.
+
+\bibitem[SK95]{schunn1995FourSpace}
+Christian~D Schunn and David Klahr.
+\newblock A 4-space model of scientific discovery.
+\newblock In {\em Proceedings of the 17th annual conference of the cognitive
+  science society}, pages 106--111, 1995.
+
+\bibitem[SK96]{schunn1996BeyondTwoSpace}
+Christian~D Schunn and David Klahr.
+\newblock When and how to go beyond a 2-space model of scientific discovery.
+\newblock In {\em Proceedings of the Eighteenth Annual Conference of the
+  Cognitive Science Society: July 12-15, 1996, University of California, San
+  Diego}, volume~18, page~25. Psychology Press, 1996.
+
+\bibitem[SKF18]{swearngin2018scout}
+Amanda Swearngin, Andrew~J Ko, and James Fogarty.
+\newblock Scout: Mixed-initiative exploration of design variations through
+  high-level design constraints.
+\newblock In {\em The 31st Annual ACM Symposium on User Interface Software and
+  Technology Adjunct Proceedings}, pages 134--136. ACM, 2018.
+
+\bibitem[sld20]{scikitRef}
+scikit-learn developers.
+\newblock Scikit-learn v0.23.2 documentation, 2020.
+
+\bibitem[Smo19]{JFE4}
+Michael Smolyansky.
+\newblock Policy externalities and banking integration.
+\newblock {\em Journal of Financial Economics}, 132(3):118--139, 2019.
+
+\bibitem[SMWH17]{satyanarayan2017vega}
+Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, and Jeffrey Heer.
+\newblock Vega-lite: A grammar of interactive graphics.
+\newblock {\em IEEE transactions on visualization and computer graphics},
+  23(1):341--350, 2017.
+
+\bibitem[SOR{\etalchar{+}}19a]{CHI5}
+Joon-Gi Shin, Eiji Onchi, Maria~Jose Reyes, Junbong Song, Uichin Lee, Seung-Hee
+  Lee, and Daniel Saakes.
+\newblock Slow robots for unobtrusive posture correction.
+\newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--10, 2019.
+
+\bibitem[SOR{\etalchar{+}}19b]{CHI7}
+Joon-Gi Shin, Eiji Onchi, Maria~Jose Reyes, Junbong Song, Uichin Lee, Seung-Hee
+  Lee, and Daniel Saakes.
+\newblock Slow robots for unobtrusive posture correction.
+\newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--10, 2019.
+
+\bibitem[SP10]{statsmodelsPaper}
+Skipper Seabold and Josef Perktold.
+\newblock Statsmodels: Econometric and statistical modeling with python.
+\newblock In {\em Proceedings of the 9th Python in Science Conference},
+  volume~57, page~61. Scipy, 2010.
+
+\bibitem[Spi94]{spirtes1994conditional}
+Peter Spirtes.
+\newblock Conditional independence in directed cyclic graphical models for
+  feedback.
+\newblock 1994.
+
+\bibitem[SPS21]{spss}
+IBM SPSS.
+\newblock Spss software, 2021.
+
+\bibitem[SRM{\etalchar{+}}96]{spirtes1996using}
+Peter Spirtes, Thomas Richardson, Christopher Meek, Richard Scheines, and Clark
+  Glymour.
+\newblock Using d-separation to calculate zero partial correlations in linear
+  models with correlated errors.
+\newblock {\em Publisher: Carnegie Mellon University}, 1996.
+
+\bibitem[SSY20]{suzuki2020causal}
+Etsuji Suzuki, Tomohiro Shinozaki, and Eiji Yamamoto.
+\newblock Causal diagrams: pitfalls and tips.
+\newblock {\em Journal of epidemiology}, page JE20190192, 2020.
+
+\bibitem[Sta21]{stata}
+Stata.
+\newblock Stata software, 2021.
+
+\bibitem[Suh14]{pewDataset}
+Michael Suh.
+\newblock Higher education, gender \& work dataset, 2014.
+
+\bibitem[SV18]{suzuki2018mechanisms}
+Etsuji Suzuki and Tyler~J VanderWeele.
+\newblock Mechanisms and uncertainty in randomized controlled trials: A
+  commentary on deaton and cartwright.
+\newblock {\em Social science \& medicine (1982)}, 210:83--85, 2018.
+
+\bibitem[SWF16]{pymc3}
+John Salvatier, Thomas~V Wiecki, and Christopher Fonnesbeck.
+\newblock Probabilistic programming in python using pymc3.
+\newblock {\em PeerJ Computer Science}, 2:e55, 2016.
+
+\bibitem[T{\etalchar{+}}13]{team2013r}
+R~Core Team et~al.
+\newblock R: A language and environment for statistical computing.
+\newblock 2013.
+
+\bibitem[Tan21]{edibble}
+Emi Tanaka.
+\newblock Edibble: An r-package to construct designs using the grammar of
+  experimental design, 2021.
+
+\bibitem[Tcw20]{statsCoreRRef}
+R~Core Team and contributors worldwide.
+\newblock Package `stats` v4.1.0.
+\newblock {\em CRAN}, 2020.
+
+\bibitem[THHLB13]{autoweka}
+C.~Thornton, F.~Hutter, H.~H. Hoos, and K.~Leyton-Brown.
+\newblock Auto-{WEKA}: Combined selection and hyperparameter optimization of
+  classification algorithms.
+\newblock In {\em Proc.~of KDD-2013}, pages 847--855, 2013.
+
+\bibitem[THK11]{textor2011dagitty}
+Johannes Textor, Juliane Hardt, and Sven Kn{\"u}ppel.
+\newblock Dagitty: a graphical tool for analyzing causal diagrams.
+\newblock {\em Epidemiology}, 22(5):745, 2011.
+
+\bibitem[TM20a]{matlab}
+Inc. The~MathWorks.
+\newblock Matlab, 2020.
+
+\bibitem[TM20b]{matlabStats}
+Inc. The~MathWorks.
+\newblock Statistics and machine learning toolbox.
+\newblock 2020.
+
+\bibitem[TPO{\etalchar{+}}19]{PS4}
+Nina Thigpen, Nathan~M. Petro, Jessica Oschwald, Klaus Oberauer, and Andreas
+  Keil.
+\newblock Selection of visual objects in perception and working memory one at a
+  time.
+\newblock {\em Psychological Science}, 30(9):1259--1272, 2019.
+
+\bibitem[VAK18]{verou2018extending}
+Lea Verou, Tarfah Alrashed, and David Karger.
+\newblock Extending a reactive expression language with data update actions for
+  end-user application authoring.
+\newblock In {\em Proceedings of the 31st Annual ACM Symposium on User
+  Interface Software and Technology}, pages 379--387, 2018.
+
+\bibitem[Van87]{vandaele1987participation}
+Walter Vandaele.
+\newblock {\em Participation in illegitimate activities: Ehrlich revisited,
+  1960}, volume 8677.
+\newblock Inter-university Consortium for Political and Social Research, 1987.
+
+\bibitem[Van19]{vanderweele2019modifiedDisjunctiveCriterion}
+Tyler~J VanderWeele.
+\newblock Principles of confounder selection.
+\newblock {\em European journal of epidemiology}, 34(3):211--219, 2019.
+
+\bibitem[VD00]{vargha2000critique}
+Andr{\'a}s Vargha and Harold~D Delaney.
+\newblock A critique and improvement of the cl common language effect size
+  statistics of mcgraw and wong.
+\newblock {\em Journal of Educational and Behavioral Statistics},
+  25(2):101--132, 2000.
+
+\bibitem[VDN{\etalchar{+}}13]{velentgas2013developing}
+Priscilla Velentgas, Nancy~A Dreyer, Parivash Nourjah, Scott~R Smith, Marion~M
+  Torchia, et~al.
+\newblock Developing a protocol for observational comparative effectiveness
+  research: a user's guide.
+\newblock 2013.
+
+\bibitem[VR13]{venables2013modern}
+William~N Venables and Brian~D Ripley.
+\newblock {\em Modern applied statistics with S-PLUS}.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem[VTB{\etalchar{+}}19]{PNAS2}
+Dario Veneziano, Luisa Tomasello, Veronica Balatti, Alexey Palamarchuk,
+  Laura~Z. Rassenti, Thomas~J. Kipps, Yuri Pekarsky, and Carlo~M. Croce.
+\newblock Dysregulation of different classes of trna fragments in chronic
+  lymphocytic leukemia.
+\newblock 116(48):24252--24258, 2019.
+
+\bibitem[W{\etalchar{+}}14]{wickham2014tidy}
+Hadley Wickham et~al.
+\newblock Tidy data.
+\newblock {\em Journal of Statistical Software}, 59(10):1--23, 2014.
+
+\bibitem[WAB{\etalchar{+}}19]{tidyverse}
+Hadley Wickham, Mara Averick, Jennifer Bryan, Winston Chang, Lucy~D'Agostino
+  McGowan, Romain Fran{\c{c}}ois, Garrett Grolemund, Alex Hayes, Lionel Henry,
+  Jim Hester, et~al.
+\newblock Welcome to the tidyverse.
+\newblock {\em Journal of Open Source Software}, 4(43):1686, 2019.
+
+\bibitem[{Wik}19a]{wiki:jmp}
+{Wikipedia contributors}.
+\newblock Jmp (statistical software) --- {Wikipedia}{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=JMP_(statistical_software)&oldid=887217350},
+  2019.
+\newblock [Online; accessed 5-April-2019].
+
+\bibitem[{Wik}19b]{wiki:r-language}
+{Wikipedia contributors}.
+\newblock R (programming language) --- {Wikipedia}{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=R_(programming_language)&oldid=890657071},
+  2019.
+\newblock [Online; accessed 5-April-2019].
+
+\bibitem[{Wik}19c]{wiki:sas}
+{Wikipedia contributors}.
+\newblock Sas (software) --- {Wikipedia}{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=SAS_(software)&oldid=890451452},
+  2019.
+\newblock [Online; accessed 5-April-2019].
+
+\bibitem[{Wik}19d]{wiki:spss}
+{Wikipedia contributors}.
+\newblock Spss --- {Wikipedia}{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=SPSS&oldid=888470477}, 2019.
+\newblock [Online; accessed 5-April-2019].
+
+\bibitem[Wil99]{wilkinson1999statistical}
+Leland Wilkinson.
+\newblock Statistical methods in psychology journals: Guidelines and
+  explanations.
+\newblock {\em American psychologist}, 54(8):594, 1999.
+
+\bibitem[WLH19]{wongsuphasawat2019EDAgoals}
+Kanit Wongsuphasawat, Yang Liu, and Jeffrey Heer.
+\newblock Goals, process, and challenges of exploratory data analysis: An
+  interview study.
+\newblock {\em arXiv preprint arXiv:1911.00568}, 2019.
+
+\bibitem[WP99]{wild1999statisticalThinking}
+Chris~J Wild and Maxine Pfannkuch.
+\newblock Statistical thinking in empirical enquiry.
+\newblock {\em International statistical review}, 67(3):223--248, 1999.
+
+\bibitem[WSVB15]{wacharamanotham2015statsplorer}
+Chat Wacharamanotham, Krishna Subramanian, Sarah~Theres Volkel, and Jan
+  Borchers.
+\newblock Statsplorer: Guiding novices in statistical analysis.
+\newblock In {\em Proceedings of the 33rd Annual ACM Conference on Human
+  Factors in Computing Systems}, pages 2693--2702. ACM, 2015.
+
+\bibitem[WWL21]{winters2021heartbeat}
+R~Michael Winters, Bruce~N Walker, and Grace Leslie.
+\newblock Can you hear my heartbeat?: Hearing an expressive biosignal elicits
+  empathy.
+\newblock In {\em Proceedings of the 2021 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--11, 2021.
+
+\bibitem[YK20]{yu2020veridical}
+Bin Yu and Karl Kumbier.
+\newblock Veridical data science.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  117(8):3920--3929, 2020.
+
+\bibitem[YWV{\etalchar{+}}19]{CHI3}
+Chun Yu, Xiaoying Wei, Shubh Vachher, Yue Qin, Chen Liang, Yueting Weng,
+  Yizheng Gu, and Yuanchun Shi.
+\newblock Handsee: Enabling full hand interaction on smartphone with front
+  camera-based stereo vision.
+\newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
+  Computing Systems}, pages 1--13, 2019.
+
+\bibitem[ZHC19]{PNAS0}
+Xiaobo Zhao, Jianyan Huang, and Joanne Chory.
+\newblock Gun1 interacts with morf2 to regulate plastid rna editing during
+  retrograde signaling.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  116(20):10162--10167, 2019.
+
+\bibitem[ZTDB19]{PS8}
+Anqing Zheng, Elliot~M. Tucker-Drob, and Daniel~A. Briley.
+\newblock National gross domestic product, science interest, and science
+  achievement: A direct replication and extension of the tucker-drob, cheung,
+  and briley (2014) study.
+\newblock {\em Psychological Science}, 30(5):776--788, 2019.
+
+\bibitem[ZWY{\etalchar{+}}19]{PNAS6}
+Zixu Zhou, Qiuyang Wu, Zhangming Yan, Haizi Zheng, Chien-Ju Chen, Yuan Liu,
+  Zhijie Qi, Riccardo Calandrelli, Zhen Chen, Shu Chien, H.~Irene Su, and Sheng
+  Zhong.
+\newblock Extracellular rna in a single droplet of human serum reflects
+  physiologic and disease states.
+\newblock 116(38):19200--19208, 2019.
 
 \end{thebibliography}
