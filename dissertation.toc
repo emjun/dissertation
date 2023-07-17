@@ -1,10 +1,10 @@
 \contentsline {chapter}{\numberline {1}Introduction}{19}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Thesis Approach and Statement}{19}{section.1.1}%
+\contentsline {section}{\numberline {1.1}Thesis Approach and Statement}{20}{section.1.1}%
 \contentsline {section}{Thesis statement}{20}{section.1.1}%
 \contentsline {paragraph}{Thesis statement}{20}{section*.5}%
 \contentsline {subsection}{Challenge 1}{20}{section*.5}%
 \contentsline {subsection}{Challenge 2}{20}{section*.6}%
-\contentsline {subsection}{Challenge 3}{20}{section*.7}%
+\contentsline {subsection}{Challenge 3}{21}{section*.7}%
 \contentsline {section}{\numberline {1.2}Summary of Contributions}{21}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Thesis outline}{22}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Related work}{25}{chapter.2}%

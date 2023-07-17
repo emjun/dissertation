@@ -1,34 +1,64 @@
 \polish{Expand to describe importance, severity, and prevalence of the issues you are addressing.}
 \polish{Way to expand: Add a statement/section about who the intended users of the systems are? -- statistically conversant, domain experts, limited statistical expertise}
 
+% Prevalence
+Statistical analysis plays a critical role in how people make decisions. Policy
+makers rely on models to track disease, inform health recommendations, and
+allocate resources. Scientists develop, evaluate, and compare theories based on
+statistical results. Journalists report on new findings in science, which
+individuals use to make decisions that impact their nutrition, finances, and
+other aspects of their lives. Faulty statistical models can lead to spurious
+estimations, findings that do not generalize or reproduce, and a misinformed
+public. 
 
-Statistical analysis plays a critical role in how people evaluate data and make
-decisions. Policy makers rely on models to track disease, inform health
-recommendations, and allocate resources. Scientists develop, evaluate, and
-compare theories based on statistical results. Journalists report on new
-findings in science, which individuals use to make decisions that impact their
-nutrition, finances, and other aspects of their lives. Faulty statistical models
-can lead to spurious estimations, findings that do not generalize or reproduce,
-and a misinformed public. 
+Add more to severity and importance 
 
-Despite the prevalence of statistical analyses and their central importance to a
-number of disciplines, they remain challenging to author accurately. The key
-challenge in developing accurate statistical models lies not in a lack of access
-to computational tools, of which there are many (e.g., R~\cite{team2013r},
+In the context of scientific research, accurate statistical analyses are
+essential to scientific reproducibility. Indeed, a recent survey, Nature asked
+1,500 scientists what they believed contributed to the reproducibility crisis in
+their disciplines. The top three contributors that scientists identified were A,
+B, and C. Furthermore, those same scientists articulated improved understanding
+of statistics (add direct quote) would be the best approach to improve
+reproducibility~\cite{}. 
+
+Despite the prevalence and central importance of statistical analyses, they
+remain challenging to author accurately. The key challenge in developing
+accurate statistical models lies not in a lack of access to computational tools,
+of which there are many (e.g., R~\cite{team2013r},
 Python~\cite{sanner1999python}, SPSS~\cite{spss}, and SAS~\cite{sas}), but in
-accurately applying them in conjunction with domain theory, data collection,
-statistical knowledge, and programming ability~\cite{mcelreath2020statistical}.
-Analysts must translate their implicit domain knowledge into statistical models
-that they can then implement and execute in code. However, this process---which
-requires disciplinary, statistical, and programming expertise---is out of reach
-for statistical non-experts who depend on accurate analyses, including many
-researchers. 
+accurately applying them in conjunction with domain theory, data collection
+details, statistical knowledge, and programming
+ability~\cite{mcelreath2020statistical}. Analysts must translate their implicit
+domain knowledge into statistical models that they can then implement and
+execute in code. Indeed, this translation process is central to statistical
+thinking and application~\cite{}. However, this process---which requires
+disciplinary, statistical, and programming expertise---is out of reach for
+statistical non-experts, including many researchers. Even if statistical
+non-experts are able to move between domain and statistical concerns, the tools
+they have to implement statistical analyses are not designed to support this
+process. For instance, R, a primary programming language of statistical
+analysis, was designed by and for statisticians~\cite{}. As more and more people
+of diverse statistical training backgrounds analyze data, sometimes without
+formal statistical training, understanding what makes statistical analyses
+difficult to author and addressing these challenges in computational tools is
+crucial. This dissertation addresses both of these concerns. 
+
 % This process requires
 % expertise in a discipline, statistics, and programming.
 % Analysts must integrate multiple knowledge sources to specify statistical
 % analyses. Yet, this integrative process is out of reach for statistical
 % non-experts who depend on accurate analyses, including many researchers. 
 
+% Indeed, statistical non-experts are an appropriate and promising group of
+% end-users to target/design for in this dissertation. 
+
+\begin{comment}
+One naive approach....
+The naive approach would be to provide analysts with software that automatically tells them which analyses to use.
+
+But that approach is not enough. Therefore, we should look at fundamentally
+changing how we write code -- evolution vs. revolution? 
+\end{comment}
 
 \section{Thesis Approach and Statement}
 This dissertation asks if separating the above concerns and incorporating
