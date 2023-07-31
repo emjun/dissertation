@@ -88,6 +88,10 @@ rationale for analysis decisions and conclusions. We also compared two goodness
 of fit measures between statistical models: AIC and BIC. We iterated on the
 thematic analysis and artifact analysis separately at first and then interpreted
 emergent observations across the two analyses. 
+
+One of the 13 participants dropped out part way through the study due to
+discomfort with programming in front of the researchers. We analyzed the data we
+were able to collect from them. 
 % The artifact analysis helped to
 % ground and explain aspects of the thematic analysis.
 
@@ -157,11 +161,12 @@ differences, and surprises between statistical models.
 
 \subsection{Findings}
 \polish{1-2 sentences highlighting key findings.}
-\subsubsection{\rTisane's impact on conceptual models}
-\textbf{Key takeaway: For conceptual modeling, \rTisane imposed productive
-constraints of expression and a structure to specification and disambiguation
-that facilitated reflection of implicit domain assumptions, consideration of new
-relationships, and accurate externalization of implicit assumptions.}
+\subsubsection{RQ1: \rTisane's Impact on Conceptual Models}
+
+\textbf{Key takeaway: \rTisane scaffolded and productively constrained how analysts expressed
+their conceptual models. As a result, analysts reflected on implicit domain
+assumptions more deeply, considered new relationships, and felt they
+accurately externalized their implicit assumptions.}
 
 The conceptual models analysts expressed on their own were diverse in form,
 meaning/content, and complexity. The majority [P2, P4, P5, P8, P11, P13] invoked
@@ -169,227 +174,257 @@ a graph-like structure. [P2, P4, P8 used \rTisane second; P5, P11, P13 used
 \rTisane first]. \polish{Figure A} illustrates two example conceptual
 models.\footnote{An example conceptual model given in the task instructions may
 have biased analysts towards a graphical structure.} Participants also described
-their conceptual models verbally [P10], in text [P6, P9], or as timeline [P12].
-P12 developed a visual hierarchy to communicate how variables on the left were
-variables that individuals had control over and would influence income
-\polish{(see Figure B)}. P7, who used \rTisane first, even jumped to expressing
-their conceptual model in a statistical model. 
+their conceptual models verbally [P10], in natural language text [P6, P9], and
+as a timeline [P12]. P7, who used \rTisane first, even jumped to expressing
+their conceptual model in a statistical model. P12's conceptual model was
+particularly creative. His timeline featured variables ordered starting on the
+left by how much an individual could intervene upon them \polish{(see Figure
+B)}. P12's conceptual model reiterates our finding from the exploratory lab
+study that analysts want to capture nuanced meaning in a conceptual model. 
 
-Ten participants involved all five independent variables available in the task
-description and data in their conceptual models [P2, P3, P4, P5, P7, P8, P9,
-P11, P12, P13]. Two participants [P7, P13] even included interaction variables
-in their conceptual models. P13 specified a relatively complex conceptual model
+Ten participants involved all five independent variables from the \dataSet in
+their conceptual models [P2, P3, P4, P5, P7, P8, P9, P11, P12, P13]. Two
+participants [P7, P13] also included interactions between variables in their
+conceptual models. For instance, P13 specified a complex conceptual model
 \polish{(see Figure C)} where age, race, and sex interacted to cause an
-interaction between education and employment to determine an individual’s
-income. \polish{GET A QUOTE.}
+interaction between education and employment, which then causes income.
 
-\theme{Without \rTisane, analysts found it more difficult to express nuances in their domain knowledge.}
+\theme{Without \rTisane, analysts found it difficult to express conceptual nuances.}
 In a survey and interview about their conceptual modeling experiences,
 participants shared that they found it difficult to author conceptual models
-without tool support due to concerns about mis-specifying relationships beyond
-their domain knowledge [P5, P10] and doubts about how to communicate nuances in
-relationships [P3, 13]. P13 explained, ``Identify how I may weigh certain
-variables based on my general awareness and knowledge and overall weights of
-each variable of how one may affect income more or less in various
+without tool support due to doubts about how to communicate nuances in
+relationships [P3, 13] and concerns about mis-specifying relationships beyond
+their domain knowledge [P5, P10]. P13 explained, ``Identify how I may weigh
+certain variables based on my general awareness and knowledge and overall
+weights of each variable of how one may affect income more or less in various
 circumstances.'' Similarly, P8 described specifying their conceptual model as a
 general ``struggle'' because ``When doing it myself, there are so many
-possibilities.''
+possibilities [of expression].'' While \rTisane is not designed to prevent
+mis-specifications due to limited domain knowledge, we found that \rTisane's
+formalism removed the need for analysts to come up with how to express their
+domain knowledge. They could focus on expressing what they knew. 
 
 % With rTisane 
+\theme{\rTisane encouraged analysts to think about their domains more deeply.}
+\rTisane’s DSL deepened participants’ thinking [P3, P4, P7, P8, P10, P12, P13],
+giving them, as P12 described, a structure to explore the ``boundaries of their
+domain knowledge.'' P3 explained how even after specifying conceptual models on
+her own, \rTisane’s four composable relationships (\assume/\hypothesize $x$
+\causes, \relates) facilitated a deeper consideration of each relationship and
+what she knew about each: ``Having to think about specifics like 'Do we know the
+direction of the relationship' or 'What happens when a category
+increases/decreases' actually helped me put my thoughts out more clearly. I was
+able to think about more possible scenarios that could conflict with my current
+assumption, which I was probably not doing [before]...In conclusion, I want to
+say that looking at four possible ways to write a relationship made me think
+more about each one of them.'' [P3] Similar to P3, P10 explained, ``My thinking
+was that before I didn’t have much idea about how can I link my variable with
+the output [variable], and how this can interact. And so it may need some trial
+and error... using this API, there are predefined functions, they are translated
+in R language, cause or relates, it made my task easier. This translation was
+not on me anymore.'' Furthermore, P4 explained how the DSL’s support for
+optional specificity ``encouraged [them] to think about the directionality of my
+hypothesized relationships and for categorical variables to think about the
+effect of each individual category.'' 
+% Additionally, \rTisane’s language
+% constructs helped participants more easily make explicit what they had in mind. 
+
 \theme{\rTisane provided structure to express and inspect conceptual models.}
-In contrast, participants appreciated how rTisane structured their
-conceptual modeling process [P2,4,9,10,11,12,13]. Participants found the rTisane
-DSL particularly helpful. For instance, P9 explained how rTisane``led [him] to
-think about the relationships first, and then whether they were what [he] was
-hypothesizing’’ and how this process was the ``reverse of the way [he] would
-think about it normally.’’ Similarly, P4 explained how using the rTisane
-language constructs required them to think through how different values of a
-variable (e.g., different categories) could change income, so they observed that
-their conceptual model with rTisane was ``more specific’’ than without. P4
-further explained how rTisane’s DSL "encouraged me to think about interactions,
-which I hadn't thought about before using rTisane.” P13 also found that rTisane
-encouraged them to consider new relationships. Four participants even said that
-rTisane made it easier for them to specify their conceptual models [P4, P8, P10,
-P12]. P4 and P10 even believed that rTisane’s “formal structure made [conceptual
-modeling] more rigorous” [P4] and ``more disciplined'' [P10].
+Participants appreciated how \rTisane structured their conceptual modeling
+process [P2, P4, P9, P10, P11, P12, P13]. Participants found the \rTisane DSL
+particularly helpful. P9 explained how rTisane ``led [him] to think about the
+relationships first, and then whether they were what [he] was hypothesizing''
+and how this process was the ``reverse of the way [he] would think about it
+normally.'' Similarly, P4 explained how using the rTisane language constructs
+required them to think through how different values of a variable (e.g.,
+different categories) could change income. They observed that their conceptual
+model with \rTisane was ``more specific'' than without tool support. P4 further
+explained how \rTisane’s DSL ``encouraged [them] to think about interactions,
+which [they] hadn't thought about before using rTisane.'' Four participants said
+that \rTisane generally made it easier for them to specify their conceptual
+models [P4, P8, P10, P12]. P4 and P10 even believed that rTisane’s ``formal
+structure made [conceptual modeling] more rigorous'' [P4] and ``more
+disciplined'' [P10].
 
 Participants relied on the conceptual disambiguation step to verify that what
 they expressed in code accurately represented their implicit assumptions [P2,
-P8, P12]. P2 said ``The idea of a graph made me think much differently about the
-model. I am not sure if this improved my model but it definitely made me
-approach it differently.’’ Interestingly, P2 had drawn a conceptual model as a
-graph on his own prior to using rTisane. However, it seems that moving back and
-forth between code and a graph helped him to think about his assumptions in
-different ways because he also expressed, “The interactive process was a good
+P8, P12]. P2, who had drawn a conceptual model as a graph on his own prior to
+using \rTisane, said, ``The interactive process was a good
 way to check that the graph came out the same way I was picturing it. It was
 helpful because it is easier to look at than code'' [P2]. 
+% said ``The idea of a graph made me think much differently about the
+% model. I am not sure if this improved my model but it definitely made me
+% approach it differently.'' Interestingly, P2 had drawn a conceptual model as a
+% graph on his own prior to using rTisane. However, it seems that moving back and
+% forth between code and a graph helped him to think about his assumptions in
+% different ways because he also expressed, `
 
-\theme{\rTisane helped analysts think about their domains more deeply.}
-In addition to organizing their conceptual modeling process, rTisane’s DSL
-deepened participants’ thinking [P3, 4, 7, 8, 12, 13], giving them, as P12
-described, a structure to explore the “boundaries of their domain knowledge.” P3
-explained how even after specifying conceptual models on their own, rTisane’s
-four composable relationships (assume, hypothesize x causes, relates)
-facilitated a deeper consideration of each relationship and what they knew:
-"Having to think about specifics like 'do we know the direction of the
-relationship' or 'what happens when a category increases/decreases' actually
-helped me put my thoughts out more clearly. I was able to think about more
-possible scenarios that could conflict with my current assumption. (which i was
-probably not doing when i was initially making generic diagram looking at the
-broad picture.) In conclusion, I want to say that looking at 4 possible ways to
-write a relationship made me think more about each one of them." [P3] P4 further
-explained how the DSL’s support for optional specificity “encouraged [them] to
-think about the directionality of my hypothesized relationships and for
-categorical variables to think about the effect of each individual category."
-rTisane’s language constructs also helped participants more easily make explicit
-what they had in mind. P10 explained, "My thinking was that before I didn’t have
-much idea about how can I link my variable with the output [variable], and how
-this can interact. And so it may need some trial and error... using this API,
-there are predefined functions, they are translated in R language, cause or
-relates, it made my task easier–this translation was not on me anymore."
-
-\theme{\rTisane ...}
+\theme{\rTisane is expressive enough to capture analysts' conceptual models accurately.}
 Importantly, rTisane scaffolded the conceptual modeling process without
-compromising the integrity of the expressed conceptual models to what
-participants truly believed. Participants reported that rTisane had no perceived
-influence on their conceptual models [P3, 4,5,6,11]. These findings give
-evidence for not only the expressivity of rTisane’s DSL. Moreover, three
-participants expressed identical conceptual models with and without rTisane [P9,
-P11, P12]. Three participants included different variables [P13, P6] and
-relationships [P10] between conditions. For six participants, the conceptual
-models they authored with rTisane were subgraphs of conceptual models authored
-without rTisane. For P2, P3, P4, and P8, who were in the Scaffold-Tisane
-condition, rTisane seemed to have helped focus them on a set of variables and
-relationships to analyze. P3 explained, "As I started working with rTisane, my
-first instinct was still to go back to the canvas and do a brainstorming. The
-process of listing down the categories and the generic relationship between the
-variables (which was biased to my personal opinion) was still the same (with or
-without rTisane)." For P5 and P7, who were in the rTisane-Scaffold condition,
-rTisane provided a starting point for them to then expand upon on their own. For
-example, P7 authored a statistical model involving an interaction between
-variables in their rTisane conceptual model when asked to specify a conceptual
-model on their own. Both these scenarios suggest that rTisane’s DSL for
-expressing conceptual models can support both convergent and divergent creative
-thinking about a domain, even to the point of helping an analyst, like P7,
-arrive at a statistical model on their own. 
+compromising expressivity. Five participants reported that rTisane had no
+perceived influence on their conceptual models [P3, P4, P5, P6, P11]. Indeed,
+three participants expressed identical conceptual models with and without
+\rTisane [P9, P11, P12]. Interestingly, for six participants, the
+conceptual models they authored with \rTisane were subgraphs of conceptual models
+authored without \rTisane[P2, P3, P4, P5, P7, P8]. 
+% Three participants included different variables [P13,
+% P6] and relationships [P10] between conditions. 
+For P2, P3, P4, and P8, who used \rTisane second, \rTisane appeared to help
+focus them on a set of variables and relationships to analyze. P3 explained,
+``As I started working with \rTisane, my first instinct was still to go back to
+the canvas and do a brainstorming. The process of listing down the categories
+and the generic relationship between the variables (which was biased to my
+personal opinion) was still the same (with or without rTisane).'' For P5 and P7,
+who used \rTisane first, \rTisane provided a starting conceptual model expand
+upon on their own. For example, P7 authored a statistical model involving an
+interaction between variables in their \rTisane conceptual model when asked to
+specify a conceptual model on their own. It seems that just conceptual modeling
+with \rTisane helped P7 translate a conceptual model to a statistical model on
+his own. Taking these observations together, it seems that \rTisane's DSL can
+support both convergent and divergent creative thinking about analysts' domain
+knowledge. 
+% Both these scenarios suggest that rTisane’s DSL for expressing
+% conceptual models can support both convergent and divergent creative thinking
+% about a domain, even to the point of helping an analyst, like P7, arrive at a
+% statistical model on their own. 
 
 % Key takeaway: rTisane was expressive, as seen in how particpiants felt free and
 % able to express their diverse conceptual models using rTisane, rTisane did not
 % impose the content. Rather, the key benefit of rTisane was in providing
 % structure to / facilitating this process more.
 
-\subsubsection{\rTisane's impact on statistical models}
-\textbf{Key takeaway:} For statistical modeling, \rTisane
-focused participants on their analysis goals over low-level details that bogged
-them down without tool support, with the exception of picking family and link
-functions. rTisane can improve statistical model authoring, resulting models,
-and communication about statistical analyses. In the future, rTisane could
-improve explanations for analysis decisions and alternatives. 
+\subsubsection{RQ2: \rTisane's Impact on Statistical Models}
+\textbf{Key takeaway: With the exception of picking family and link functions,
+\rTisane focused participants on their analysis goals over low-level details
+that bogged them down without tool support. As a result, \rTisane improved the
+statistical model authoring process, output statistical models, and
+communication about statistical analyses.
+% In the future, rTisane could improve explanations for
+% analysis decisions and alternatives. 
+}
 
-On their own, six participants successfully authored linear regression models
+On their own, three participants were not able to author a statistical model due
+to unfamiliarity with statistical methods [P3], lack of time [P5], and reliance
+on visual analyses (ie.g., heatmaps, scatterplots) [P12]. Of the remaining nine
+participants who completed the study, six participants successfully authored linear regression models
 [P2, P4, P7, P8, P9, P10]. A seventh participant, P6, started to author a
 logistic regression model with Race and Income but stopped before binarizing
 either variable. Two participants, both of whom had just finished authoring
-statistical models with rTisane, implemented GLMs [P11, P13]. P11 started from
-the rTisane’s output model script. After observing the model had “poor fit”
-\polish{(quote)}, they log-transformed the income variable. Finally, three participants
-were not able to author a statistical model due to unfamiliarity with
-statistical methods [P3], lack of time [P5], and reliance on visual analyses
-(ie.g., heatmaps, scatterplots) [P12]. 
+statistical models with rTisane, implemented GLMs [P11, P13]. Despite task
+instructions, P11 started from the \rTisane’s output model script to author
+their own. After observing the model had ``poor fit'' \polish{(quote)}, they
+log-transformed the income variable and fit the \rTisane output model as their
+own. P11's experience mirrors how we anticipate analysts to build upon \rTisane
+output statistical models in the future. 
 
-\theme{Statistical models authored with \rTisane fit the data just as well or better in most cases.}
+\theme{Statistical models authored with \rTisane fit the data just as well or better than statistical models without \rTisane.}
 Of the eight participants who successfully authored linear regression or
 generalized linear models on their own, three implemented identical models with
-or without rTisane [P7, P9, P13]. Notably, all had authored a statistical model
-with rTisane before on their own. For three participants [P4, P8, P10], their
-statistical models with rTisane had lower AIC and BIC scores than the
-statistical models without rTisane. In other words, rTisane models fit the data
+or without \rTisane [P7, P9, P13]. Notably, all three had authored the
+statistical model with \rTisane first, suggesting that \rTisane may have biased
+their own modeling process. For another three participants [P4, P8, P10], their
+statistical models with \rTisane had lower AIC and BIC scores than the
+statistical models without \rTisane. In other words, \rTisane models fit the data
 better or equally well for six out of eight participants. For P11, the
-statistical model they authored without rTisane dropped some observations, so
-the models are directly comparable. For P2, the rTisane statistical model fit
-worse than his own statistical model in part due to a change in his motivation
-for analysis. 
+statistical model they authored without \rTisane dropped some observations, so
+the models are not directly comparable. For P2, the \rTisane statistical model fit
+worse than his own statistical model in part due to an observed change in his
+motivation for analysis, discussed below. 
 
-\theme{...}
-P2’s experience authoring statistical models without then with rTisane
-illustrates the impact rTisane had on participants. P2 was curious about the
-influence of occupation, or employment, on income. His conceptual model in
-rTisane had the variables Education, Age, Race, and Sex causing Occupation,
-which in turn, causes Income \polish{(see Figure X)}. On his own, he first authored an
-ANOVA with Occupation as the IV and Income as the DV. Once he saw that
-Occupation had a statistically significant influence on Income, he wanted to see
-if the variables causing Occupation would “be able to predict which
-occupation…And then…the income from the occupation just because that’s how I
-like structured it [in the conceptual model] initially.” However, P2 did not
-know how to author a model with Occupation as the outcome variable because it
-was categorical, saying, “But the way I structured it in like the diagram. I'm
-not sure exactly how to do that, because occupations like categorical. Um, so
-I'm not sure like exactly…how to model that.” This roadblock led P2 to consider
-an alternative ``regression model with income as like the output and then…all
-[the IVs] as terms and then just include the interactions between Occupation and
-the terms that were pointing into it, and that would just be one model.'' In
-other words, P2 was trying to represent his conceptual model in a statistical
-model, but he was not aware that, given his conceptual model, he did not need to
-account for the other variables to estimate the causal influence of Occupation
-on Income (i.e., through a blocked path). What he really wanted to do, however,
-was determine if he had evidence in support for his entire conceptual model,
-which led him to include interactions which he falsely presumed would capture
-the dependencies in the conceptual model. What P2 really needed was a structural
-equation model. 
+\theme{Without \rTisane, analysts change their analysis intent during statistical modeling.}
+Without \rTisane, participants [P2, P5, P6, P8, P10], adopted a more exploratory
+or ``data-driven'' approach, changing their analysis goals while authoring
+statistical models. This theme is best illustrated by P2, who started with a
+hypothesis that Occupation, or Employment, influenced Income. His conceptual
+model in \rTisane had the variables Education, Age, Race, and Sex causing
+Occupation, which in turn, causes Income \polish{(see Figure X)}. 
 
-P2’s analysis experience illustrates a key observation: Without rTisane,
-participants adopted a more exploratory approach. Trying out different models
-and seeing how each one assessed their entire conceptual models. From one
-perspective, analysts subtly changed their implicit analysis goal from assessing
-the evidence of the influence a variable or set of variables on Income to the
-seeing how the data supported their implicit assumptions. While statistical
-models can suggest evidence (or lack thereof) for supporting a conceptual model,
-to rigorously assess an entire conceptual model, analysts would really need to
-author structural equation models, which we did not observe at all. Therefore,
-we observe two things: First, rTisane keeps analysts focused on considering a
-set of variables based on their domain knowledge whereas without, analysts
-either struggle to author statistical models, try to justify analysis decisions
-based on results, or author poor fitting statistical models. 
+He started authoring statistical models with the intent to assess this
+hypothesis. On his own, he first authored an ANOVA with Occupation as the IV and
+Income as the DV. Once he saw that Occupation had a statistically significant
+influence on Income, he changed his analysis goal to assessing if the variables
+causing Occupation would ``be able to predict which occupation...And then...the
+income from the occupation just because that’s how I like structured it [in the
+conceptual model] initially.'' However, P2 got stuck on how to author a model
+with Occupation as the outcome variable because it was categorical, saying,
+``But the way I structured it in like the diagram. I'm not sure exactly how to
+do that, because Occupation's like categorical. Um, so I'm not sure like
+exactly...how to model that.'' This roadblock led P2 to consider an alternative
+``regression model with Income as like the output and then...all [the IVs] as
+terms and then just include the interactions between Occupation and the terms
+that were pointing into it, and that would just be one model.'' In other words,
+P2 tried to author a single statistical model to assess if there was evidence
+for his conceptual model. However, he was unaware of three key things. First,
+given his conceptual model, he did not need to account for the other variables
+to estimate the influence of Occupation on Income and assess his hypothesis.
+Second, adding interaction terms would not capture the dependencies in the
+conceptual model. Third, what P2 likely needs to assess all the relationships in
+his conceptual model is a structural equation model.
 
-Second, to prevent faulty interpretation of statistical modeling results as
-support for an entire conceptual model, rTisane should support analysts in
-expressing a query to author SEMs to assess a conceptual model. 
+While it is well documented that statistical analysis is an iterative
+process~\cite{grolemund2014cognitive, jun2022hypoForm} and we saw evidence of
+this among participants [P5, P6, P10, P11, P12], what P2's experience
+exemplifies is how creative participants can be in convincing themselves that the
+statistical model they authored not only assessed a particular hypothesis but
+could also arbitrate if their conceptual models were supported by data.
+Furthermore, this suggests an opportunity for \rTisane to support a more
+iterative analysis process and help analysts author multiple models to assess an
+entire conceptual model, not just the influence of a single independent variable
+on a dependent variable. 
+
+% First, rTisane keeps analysts
+% focused on considering a set of variables based on their domain knowledge
+% whereas without, analysts either struggle to author statistical models, try to
+% justify analysis decisions based on results, or author poor fitting statistical
+% models. 
+% Second, to prevent faulty interpretation of statistical modeling results as
+% support for an entire conceptual model, rTisane should support analysts in
+% expressing a query to author SEMs to assess a conceptual model. 
+
+% Trying out different models and seeing how each one assessed their
+% entire conceptual models. From one perspective, analysts subtly changed their
+% implicit analysis goal from assessing the evidence of the influence a variable
+% or set of variables on Income to the seeing how the data supported their
+% implicit assumptions. While statistical models can suggest evidence (or lack
+% thereof) for supporting a conceptual model, to rigorously assess an entire
+% conceptual model, analysts would really need to author structural equation
+% models, which we did not observe at all. Therefore, we observe two things:
 
 % Participants thought their statistical models gave support for their conceptual
 % models based on the statistical significance of variables in the authored
 % models.
 
 \theme{Without \rTisane, analysts find statistical model formulation challenging.}
-Participants reported formulating and evaluating statistical models [2, 3, 5, 8,
-12], programming [6, 13], and preparing data [7, 14] as the major challenges to
-authoring statistical models without rTisane. 
+Participants reported formulating and evaluating statistical models [P2, P3, P5,
+P8, P12], programming [P6, P13], and preparing data [P7] as the major challenges
+to authoring statistical models without rTisane. For example, P3 explained how
+``There are a number of statistical tests and it gets confusing if I don't
+practice it frequently. This is what happened today, I haven't worked on a
+hypothesis testing problem recently and while I knew what libraries to go to, I
+was not sure which test to implement.'' Similarly, discussing the details of
+which covariates to include in a statistical model given a conceptual model, P8
+explained how he was uncertain about which ``upstream relationships,'' or
+indirect causes, to include in a statistical model. Without \rTisane, he
+described statistical model authoring as ``It immediately feels harder doing it
+directly [without rTisane] like this'' [P8].
+% P5 explained how ``A good understanding of all stats models to
+% choose from is required.'' 
 
-For example, P3 explained how "There are a number of statistical tests and it
-gets confusing if I don't practice it frequently. This is what happened today, I
-haven't worked on a hypothesis testing problem recently and while I knew what
-libraries to go to, I was not sure which test to implement."
-
-For example, P5 explained how "A good understanding of all stats models to
-choose from is required.” Similarly, discussing the nuanced of which covariates
-to include in a statistical model given a conceptual model, P8 explained how he
-was uncertain about which “upstream relationships” (indirect causes) to include
-in a statistical model, so believed rTisane to “better” [look up quote]: “It
-immediately feels harder doing it directly [without rTisane] like this” [P8].
-
-\theme{Could combine with the above? \rTisane focused analysts on their motivation for analysis.}
+\theme{\rTisane focused analysts on their motivation for analysis.}
 % rTisane’s main impact was that it turned analysts’ focus away from details that
 % can distract from formulating a statistical model towards their motivation for
 % analysis. As a result, 
-In contrast, participants reported that rTisane guided them to think
-about their domains more [P2, P12], lightened their burden in authoring
-statistical models [P10], and even promoted research transparency [P5] and
-reproducibility [P4]. Furthermore, rTisane reinforced prior knowledge about statistical methods [P6,
-P11] and helped participants learn more about GLMs [P4, 6, 7, 13]. P6, <who had
-tried to author regression models on their own> explained how she could take
-what she learned from using rTisane to future analyses: “I like that a
-multivariate linear regression was used, because this will inform any future
-data analysis approach that I may be able to work on.”
+In contrast, participants reported that \rTisane guided them to think about
+their domains more [P2, P12], lightened their burden in authoring statistical
+models [P10], and even promoted research transparency [P5] and reproducibility
+[P4]. Furthermore, rTisane reinforced prior knowledge about statistical methods
+[P6, P11] and helped participants learn more about GLMs [P4, P6, P7, P13]. P6,
+who had tried to author a logistic regression model on her own, explained how
+she could apply what she learned from using \rTisane to future analyses: ``I
+like that a multivariate linear regression was used because this will inform
+any future data analysis...''
 
+\begin{comment}
 Nevertheless, participants expected \rTisane to do more automatically.
 Participants were expected rTisane’s output statistical model to include more
 IVs [P2, P5], have interaction terms [P5, P6], and have coefficient values that
@@ -397,42 +432,48 @@ were similar to ones from their own statistical models without rTisane [P10].
 Yet, when asked if anything surprised them about rTisane’s output statistical
 model, six participants said the models were as they expected [P4, 6, 10, 11,
 12, 13]. 
+\end{comment}
 
 % When using rTisane, P2 got as output a GLM with Occupation as the only IV and Income as the DV. While P2 wanted more of an explanation for why additional variables were not needed, he found that using rTisane made him think ``more about how things were related...more about relationships, what’s proven beforehand and what you’re looking to prove’’ [P2]. 
 % This suggesting opportunities to not only explain the result of an analysis but also why the tool did the SM. 
 
-\theme{}
-When asked who analysts imagined would benefit from using rTisane, analysts
-identified two groups. First, participants described how experienced and novice
-analysts alike would benefit from using statistical models [P2, 4, 9, 10, 12].
-Second, participants mentioned how conceptual models written using rTisane could
-be used as boundary objects in collaboration with less technical stakeholders
-[P8, P9]. P8 imagined how a conceptual model written using rTisane could be a
-communication tool, saying how the “visual representation would play a role in a
-dialogue with the PI.” P8 went on to imagine how he would like to use rTisane’s
-conceptual model to generate process diagrams in scientific papers, suggesting
-how rTisane’s conceptual model could serve as an intermediate representation for
-multiple kinds of outputs, not just statistical models. 
-
 \theme{\rTisane needs to provide more support for selecting family and link functions.}
 Despite benefiting from rTisane, many participants had difficulty picking family
-and link functions in rTisane [P2, 4, 5, 9, 10, 11]. Triangulating from how
-participants repeatedly described rTisane as facilitating a higher-level of
-thinking, we attribute the difficulty of selecting family and link functions to
-the stark contrast between rTisane’s relatively high-level conceptual modeling
-abstractions and the low-level family and link selection options. In the future,
-it may be more usable for rTisane to suggest a specific pair and explain its
+and link functions in rTisane [P2, P4, P5, P9, P10, P11]. P4 explained, ``I
+didn't understand the benefit or tradeoffs between different specifications. It
+wasn't obvious to me how to create a linear OLS regression, or why I would want
+to use a specification besides linear OLS.'' Given how frequently participants
+described \rTisane as facilitating higher-level of thinking, we attribute the
+difficulty of selecting family and link functions to the stark contrast between
+\rTisane’s relatively high-level conceptual modeling abstractions and the
+low-level nature of selecting family and link functions. In the future, it will
+likely be more usable for \rTisane to suggest a specific pair and explain its
 suggestion rather than require the analyst to pick.
 
-Given that asking about family and link functions is a low-level statistical
-implementation detail, the contrast between rTisane’s conceptual modeling
-abstractions and the family and link selection options was particularly stark.
-For example, P4 explained, ``I didn't understand the benefit or tradeoffs
-between different specifications. It wasn't obvious to me how to create a linear
-OLS regression, or why I would want to use a specification besides linear OLS.''
-In the future, it may be more usable for rTisane to suggest a specific pair and
-explain its suggestion rather than require the analyst to pick.
+% Given that asking about family and link functions is a low-level statistical
+% implementation detail, the contrast between rTisane’s conceptual modeling
+% abstractions and the family and link selection options was particularly stark.
+% For example, 
+% In the future, it may be more usable for rTisane to suggest a specific pair and
+% explain its suggestion rather than require the analyst to pick.
 
+\theme{Analysts want to use \rTisane for scientific communication, not just statistical authoring.}
+When asked how they might imagine using \rTisane, participants identified two
+groups who would benefit: analysts regardless of experience and less technical
+team members. First, participants described how experienced and novice analysts
+alike would benefit from using \rTisane [P2, P4, P9, P10, P12]. Second,
+participants mentioned how conceptual models written using \rTisane could be
+used as boundary objects~\cite{star1989boundaryObjects} in collaboration with less technical
+stakeholders [P8, P9]. P8 detailed how a conceptual model written using rTisane
+could be a communication tool, saying how the ``visual representation would play
+a role in a dialogue with the PI.'' P8 went on to imagine how he would like to
+use \rTisane’s conceptual model to generate process diagrams in scientific
+papers. In other words, how \rTisane’s conceptual model could serve as an
+intermediate representation for multiple kinds of outputs, not just statistical
+models. 
+
+
+\begin{comment}
 \theme{Analysts want to use \rTisane iteratively.}
 Participants described their typical analysis approach without rTisane as
 iterative. During the study, this looked like visualizing the data [P6, 10,
@@ -453,9 +494,12 @@ background:``[if she had] more of a social science...background knowledge that
 we have to dig deeper.'' While P5 could have interpreted her statistical models
 in light of the conceptual model she authored, her observation about background
 is nevertheless indicative of….
+\end{comment}
 
 
 \subsection{Discussion}
+\polish{*Short* discussion of rTisane! GOAL: 10 sentences}
+
 rTisane allowed less-experienced analysts to author (check SM output: valid?)
 statistical analyses that they would not have been able to author on their own
 or would have taken them a lot more time. Two ingredients were critical: the
