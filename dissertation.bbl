@@ -42,6 +42,11 @@ Paul-Christian B{\"u}rkner et~al.
 \newblock brms: An r package for bayesian multilevel models using stan.
 \newblock {\em Journal of statistical software}, 80(1):1--28, 2017.
 
+\bibitem[Bak16]{baker2016NatureSurvey}
+Monya Baker.
+\newblock 1,500 scientists lift the lid on reproducibility.
+\newblock {\em Nature}, 533(7604), 2016.
+
 \bibitem[Bar13]{barr2013randomUpdated}
 Dale~J Barr.
 \newblock Random effects structure for testing interactions in linear
@@ -579,10 +584,6 @@ Nur Al-huda Hamdan, Adrian Wagner, Simon Voelker, J{\"u}rgen Steimle, and Jan
 \newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
   Computing Systems}, pages 1--14, 2019.
 
-\bibitem[Inc21]{sas}
-SAS~Institute Inc.
-\newblock Sas, 2021.
-
 \bibitem[JBDM{\etalchar{+}}22a]{jun2022hypoForm}
 Eunice Jun, Melissa Birchfield, Nicole De~Moura, Jeffrey Heer, and Rene Just.
 \newblock Hypothesis formalization: Empirical findings, software limitations,
@@ -845,6 +846,12 @@ Richard McElreath.
   Stan}.
 \newblock CRC press, 2020.
 
+\bibitem[McN15]{mcnamara2015bridging}
+Amelia~Ahlers McNamara.
+\newblock {\em Bridging the gap between tools for learning and for doing
+  statistics}.
+\newblock PhD thesis, UCLA, 2015.
+
 \bibitem[McN18]{mcnamara2018keyAttributes}
 Amelia McNamara.
 \newblock Key attributes of a modern statistical computing tool.
@@ -1062,12 +1069,6 @@ Brian Ripley, Bill Venables, Douglas~M. Bates, Kurt Hornik, Albrecht Gebhardt,
 \newblock Package ‘mass`.
 \newblock 2020.
 
-\bibitem[S{\etalchar{+}}99]{sanner1999python}
-Michel~F Sanner et~al.
-\newblock Python: a programming language for software integration and
-  development.
-\newblock {\em J Mol Graph Model}, 17(1):57--61, 1999.
-
 \bibitem[SAS20a]{jmp}
 SAS.
 \newblock Jmp, 2020.
@@ -1181,11 +1182,6 @@ Etsuji Suzuki and Tyler~J VanderWeele.
 John Salvatier, Thomas~V Wiecki, and Christopher Fonnesbeck.
 \newblock Probabilistic programming in python using pymc3.
 \newblock {\em PeerJ Computer Science}, 2:e55, 2016.
-
-\bibitem[T{\etalchar{+}}13]{team2013r}
-R~Core Team et~al.
-\newblock R: A language and environment for statistical computing.
-\newblock 2013.
 
 \bibitem[Tan21]{edibble}
 Emi Tanaka.

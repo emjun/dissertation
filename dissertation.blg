@@ -2,20 +2,20 @@ This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
 The style file: alpha.bst
-Reallocated field_info (elt_size=4) to 10359 items from 5000.
+Reallocated field_info (elt_size=4) to 10336 items from 5000.
 Database file #1: references.bib
 Warning--entry type for "klemmerCoursera" isn't style-file defined
---line 1686 of file references.bib
+--line 1696 of file references.bib
 Warning--string name "january" is undefined
---line 1689 of file references.bib
+--line 1699 of file references.bib
 Warning--entry type for "ucla:whatstat" isn't style-file defined
---line 1694 of file references.bib
+--line 1704 of file references.bib
 Warning--string name "april" is undefined
---line 1697 of file references.bib
+--line 1707 of file references.bib
 Warning--entry type for "kent:tutorials" isn't style-file defined
---line 1702 of file references.bib
+--line 1712 of file references.bib
 Warning--string name "march" is undefined
---line 1705 of file references.bib
+--line 1715 of file references.bib
 Database file #2: lit-survey-papers.bib
 Warning--I didn't find a database entry for ""
 Warning--empty journal in brmsRef
@@ -44,50 +44,49 @@ Warning--empty journal in nlmeRef
 Warning--empty journal in statsmodelsRef
 Warning--empty journal in mass
 Warning--empty journal in spirtes1994conditional
-Warning--empty journal in team2013r
 Warning--empty journal in matlabStats
 Warning--empty journal in velentgas2013developing
 Warning--empty journal in PNAS2
 Warning--empty journal in PNAS6
-You've used 232 entries,
+You've used 231 entries,
             2543 wiz_defined-function locations,
-            1729 strings with 44266 characters,
-and the built_in function-call counts, 102851 in all, are:
-= -- 9931
-> -- 6139
-< -- 120
-+ -- 2238
-- -- 2203
-* -- 7862
-:= -- 17135
-add.period$ -- 692
-call.type$ -- 232
-change.case$ -- 1741
-chr.to.int$ -- 217
-cite$ -- 263
-duplicate$ -- 3648
-empty$ -- 6751
-format.name$ -- 2421
-if$ -- 20594
+            1727 strings with 44228 characters,
+and the built_in function-call counts, 102413 in all, are:
+= -- 9889
+> -- 6109
+< -- 121
++ -- 2228
+- -- 2193
+* -- 7834
+:= -- 17065
+add.period$ -- 690
+call.type$ -- 231
+change.case$ -- 1735
+chr.to.int$ -- 216
+cite$ -- 261
+duplicate$ -- 3637
+empty$ -- 6716
+format.name$ -- 2413
+if$ -- 20502
 int.to.chr$ -- 16
 int.to.str$ -- 0
-missing$ -- 213
-newline$ -- 1138
-num.names$ -- 698
-pop$ -- 1804
+missing$ -- 212
+newline$ -- 1134
+num.names$ -- 695
+pop$ -- 1793
 preamble$ -- 1
-purify$ -- 1990
+purify$ -- 1984
 quote$ -- 0
-skip$ -- 3200
+skip$ -- 3182
 stack$ -- 0
-substring$ -- 4946
+substring$ -- 4920
 swap$ -- 621
-text.length$ -- 120
-text.prefix$ -- 60
+text.length$ -- 121
+text.prefix$ -- 61
 top$ -- 0
-type$ -- 1792
-warning$ -- 31
-while$ -- 916
-width$ -- 240
-write$ -- 2878
-(There were 38 warnings)
+type$ -- 1784
+warning$ -- 30
+while$ -- 910
+width$ -- 239
+write$ -- 2870
+(There were 37 warnings)
