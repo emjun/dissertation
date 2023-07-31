@@ -1,47 +1,100 @@
-\polish{Expand to describe importance, severity, and prevalence of the issues you are addressing.}
-\polish{Way to expand: Add a statement/section about who the intended users of the systems are? -- statistically conversant, domain experts, limited statistical expertise}
+% \polish{Expand to describe importance, severity, and prevalence of the issues you are addressing.}
+% \polish{Way to expand: Add a statement/section about who the intended users of the systems are? -- statistically conversant, domain experts, limited statistical expertise}
 
 % Prevalence
 Statistical analysis plays a critical role in how people make decisions. Policy
 makers rely on models to track disease, inform health recommendations, and
 allocate resources. Scientists develop, evaluate, and compare theories based on
-statistical results. Journalists report on new findings in science, which
-individuals use to make decisions that impact their nutrition, finances, and
+data. Journalists report on new findings in science, which
+individuals use to inform decisions that impact their nutrition, finances, and
 other aspects of their lives. Faulty statistical models can lead to spurious
 estimations, findings that do not generalize or reproduce, and a misinformed
 public. 
 
-Add more to severity and importance 
+% Add more to severity and importance 
 
 In the context of scientific research, accurate statistical analyses are
-essential to scientific reproducibility. Indeed, a recent survey, Nature asked
-1,500 scientists what they believed contributed to the reproducibility crisis in
-their disciplines. The top three contributors that scientists identified were A,
-B, and C. Furthermore, those same scientists articulated improved understanding
-of statistics (add direct quote) would be the best approach to improve
-reproducibility~\cite{}. 
+essential to scientific reproducibility. In a 2016 Nature survey, 1,500
+identified ``selective reporting'', ``pressure to publish,'' and ``low
+statistical power or poor analysis'' as the top three contributors to the
+reproducibility crises in their disciplines~\cite{baker2016NatureSurvey}. The
+scientists also articulated that a ``better understanding of statistics'' would
+be the best approach to improve reproducibility~\cite{baker2016NatureSurvey}. 
 
 Despite the prevalence and central importance of statistical analyses, they
-remain challenging to author accurately. The key challenge in developing
-accurate statistical models lies not in a lack of access to computational tools,
-of which there are many (e.g., R~\cite{team2013r},
-Python~\cite{sanner1999python}, SPSS~\cite{spss}, and SAS~\cite{sas}), but in
-accurately applying them in conjunction with domain theory, data collection
-details, statistical knowledge, and programming
-ability~\cite{mcelreath2020statistical}. Analysts must translate their implicit
-domain knowledge into statistical models that they can then implement and
-execute in code. Indeed, this translation process is central to statistical
-thinking and application~\cite{}. However, this process---which requires
-disciplinary, statistical, and programming expertise---is out of reach for
-statistical non-experts, including many researchers. Even if statistical
-non-experts are able to move between domain and statistical concerns, the tools
-they have to implement statistical analyses are not designed to support this
-process. For instance, R, a primary programming language of statistical
-analysis, was designed by and for statisticians~\cite{}. As more and more people
-of diverse statistical training backgrounds analyze data, sometimes without
-formal statistical training, understanding what makes statistical analyses
-difficult to author and addressing these challenges in computational tools is
-crucial. This dissertation addresses both of these concerns. 
+remain challenging to author accurately. Key to analysis authoring is grappling
+with and translating implicit domain knowledge into statistical models
+executable in code~\cite{wild1999statisticalThinking,carver2016guidelines}. This
+dissertation hypothesizes that better understanding and supporting this
+translation process can enable statistical non-experts author analyses
+accurately. 
+%  (i) probes into how and why this translation process is difficult for
+% statistical non-experts and (ii) develops new computational tools that
+% support this process. 
+
+% Want to include this but IDK where:
+% Translation requires disciplinary, statistical, and programming expertise is out
+% of reach for many researchers and other statistical non-experts. Yet,
+% statistical non-experts statistical, and programming expertise is out of reach
+% for many researchers and other statistical non-experts.
+
+% Analysts must not only organize but also translate their implicit domain
+% knowledge into statistical models that they can then implement and execute in
+% code.
+
+% This dissertation probes into what
+% makes authoring difficult and posits that new computational tools can enable
+% statistical non-experts author analyses accurately. 
+
+
+% attention to how analysts grapple with
+% multiple concerns and integrate them ....
+
+% Prior work has found a gap in the tools that people have available to use:
+% Existing statistical analysis tools are either designed for students learning
+% basic statistics or statistical experts~\cite{mcnamara2015bridging}. 
+
+% Analysts must not only organize but also translate their implicit domain
+% knowledge into statistical models that they can then implement and execute in
+% code. Grappling with multiple concerns and integrating them into a statistical
+% model is central to statistical thinking and
+% practice~\cite{wild1999statisticalThinking}. However, possessing disciplinary,
+% statistical, and programming expertise is out of reach for many researchers and
+% other statistical non-experts. 
+
+
+% The key challenge in developing
+% accurate statistical models lies not in a lack of access to computational tools,
+% of which there are many (e.g., R~\cite{team2013r},
+% Python~\cite{sanner1999python}, SPSS~\cite{spss}, and SAS~\cite{sas}), but in
+% applying them in conjunction with domain theory, data collection details,
+% statistical knowledge, and programming ability~\cite{mcelreath2020statistical}.
+% Analysts must not only organize but also translate their implicit domain
+% knowledge into statistical models that they can then implement and execute in
+% code. Grappling with multiple concerns and integrating them into a statistical
+% model is central to statistical thinking and
+% practice~\cite{wild1999statisticalThinking}. However, possessing disciplinary,
+% statistical, and programming expertise is out of reach for many researchers and
+% other statistical non-experts. 
+
+% Even if statistical non-experts are able to move between domain and statistical
+% concerns, e
+
+% Existing statistical analysis tools are either designed for students learning
+% basic statistics or statistical experts~\cite{mcnamara2015bridging}.
+% Tools do
+% not support statistical non-experts, such as researchers, through the process of
+% authoring accurate statistical models. 
+
+% not designed to support
+% analysts through the translation process. For instance, R, a primary programming
+% language of statistical analysis, was designed by and for statisticians~\cite{}.
+
+% Given that people from diverse statistical backgrounds will only continue to
+% author analyses to inform decision-making~\cite{}, understanding what makes
+% statistical analyses difficult to author and addressing these challenges in
+% computational tools is crucial. This dissertation addresses both of these
+% concerns. 
 
 % This process requires
 % expertise in a discipline, statistics, and programming.
@@ -61,16 +114,17 @@ changing how we write code -- evolution vs. revolution?
 \end{comment}
 
 \section{Thesis Approach and Statement}
-This dissertation asks if separating the above concerns and incorporating
-automated reasoning in statistical software could benefit statistical
-non-experts. Towards this goal, I combine techniques from human-computer
-interaction, programming languages/software engineering, and statistics to (i)
-characterize the cognitive and operational steps to author statistical analyses
-and (ii) develop novel interactive systems that enable statistical non-experts
-to author valid analyses. As detailed below, I not only move between systems
-building and empirical studies but use each to deepen and enhance the other.
+% This dissertation (i) characterizes the cognitive and operational steps to author
+% statistical analyses and (ii) develops novel interactive systems that enable
+% statistical non-experts to author valid analyses. As detailed below, I not only
 
-The work described in this dissertation demonstrates the following:% thesis statement: 
+
+This dissertation (i) probes into how and why translating domain knowledge into
+executable statistical models in code is difficult and (ii) develops new
+computational tools that help statistical non-experts author valid analyes by
+integrating disciplinary, statistical, and programming details. Moving between
+building systems and empirically studying analysts, this dissertation
+demonstrates the following:% thesis statement: 
 \addcontentsline{toc}{section}{Thesis statement}
 \paragraph{Thesis statement} \label{para:thesisStatement}
 % Centered on the insight that domain experts using statistical methods are
@@ -99,18 +153,18 @@ DSL specifications into statistical analysis code.
 % Rather than
 % directly specifying statistical modeling decisions, analysis 
 
-Three challenges fall out of this thesis statement: 
+The following three challenges fall out of this thesis statement.
 
 \addcontentsline{toc}{subsection}{Challenge 1}
-\section*{Challenge 1: How to make implicit domain knowledge explicit.} %- domain knowledge
+\section*{Challenge 1: Make implicit domain knowledge explicit} %- domain knowledge
 Designing abstractions focused on conceptual knowledge requires identifying what
 domain knowledge analysts want and can express and then balancing these
 constraints with what automated reasoning approaches may require. What is easy
 to express and what is easy to assume for the sake of automation may be at odds,
 especially when analysts provide ambiguous specifications that could be compiled
 into multiple statistical analyses. The challenge, therefore, is to design
-language constructs that are usable for analysts, useful for automated
-reasoning, and support interactive program specification as necessary.
+language constructs that are usable for analysts and useful for automated
+reasoning, leveraging interactive program specification as necessary.
 
 % Finding: interactive disambiguation not just necessary for refinement and automated reasoning but *useful* to analysts for reflection
 
@@ -122,10 +176,10 @@ reasoning, and support interactive program specification as necessary.
 \section*{Challenge 2: Represent and reason about key statistical analysis decisions} %- programming
 A central idea in this thesis is that software systems should take on the
 responsibility of translating conceptual knowledge into statistical analyses.
-This is akin to a compilation process that requires representing the conceptual
-knowledge analysts express and reasoning over it to derive statistical
-analyses that respect statistical best practices and rules. A
-major challenge is in picking representations so that the reasoning is straightforward. 
+This is akin to representing the conceptual
+knowledge analysts express and compiling it to statistical
+analyses that respect statistical best practices and rules. 
+To achieve this, picking representations where the reasoning approach ``falls out'' is a technical challenge.
 % not only straightforward but also beneficial in someway (expressivity, extensibility for both Tea and Tisane)
 
 \addcontentsline{toc}{subsection}{Challenge 3}
@@ -140,7 +194,7 @@ and impact of statistical decisions and guiding their interpretation of results
 are important.
 
 \section{Summary of Contributions}
-This dissertation contributes principles and systems for designing data analysis
+This dissertation contributes principles and systems for designing statistical analysis
 tools for statistical non-experts. The contributions can be summarized as follows: 
 
 \begin{comment}
@@ -170,24 +224,25 @@ and graphs (\autoref{fig:tools}).
 \end{comment}
 
 \begin{enumerate} 
-    \item An assessment of the existing state of data analysis practice and tool support.
+    \item A conceptual framework characterizing statistical analysis authoring.
     \begin{enumerate}
         \item Our theory of \hypoForm describes the cognitive and operational
         steps involved in translating a high-level conceptual research question
-        and hypothesis into a statistical analysis implemented in code. This
-        conceptual framework is useful for explaining what support existing
-        statistical tools fail to provide statistical non-experts and justifying
-        the design of systems developed in this dissertation.
+        and hypothesis into a statistical analysis implemented in code.
+        \HypoForm explains why existing statistical
+        tools fail to support statistical non-experts and informs the design
+        of systems developed in this dissertation.
         \item We provide the first account scrutinizing the \hypoForm process in
         situ. Whereas previous studies of data analysis have relied on
-        self-reports about analyses, we conduct an in-depth lab study where we
+        self-reports about analysis processes, we conduct an in-depth lab study where we
         observe analysts prepare and even start to implement statistical
-        analyses. 
+        models. 
         \item We qualitatively assess 20 statistical analysis libraries and
-        standalone systems in order ot understand how they structure data
-        analysis authoring. Combining our theory of \hypoForm and this tools
-        assessment, we develop three design implications for how data analysis
-        software could better serve statistical non-experts. 
+        standalone systems and illustrate how their designs represent the
+        current ecosystem of statistical tools and presently influence data
+        analysis practice. Furthermore, combining our theory of \hypoForm and
+        this assessment of tools, we develop three design implications for how
+        data analysis software could better serve statistical non-experts. 
     \end{enumerate}
 
     \item The design, implementation, and evaluation of new DSLs. These DSLs
@@ -195,17 +250,17 @@ and graphs (\autoref{fig:tools}).
     knowledge explicit. 
     \begin{enumerate}
         \item The \tea DSL provides a high-level API so that analysts can make
-        explicit their asumptions about the data and their hypotheses to test
+        explicit their asumptions about the data and their hypotheses to assess
         using Null Hypothesis Significance Tests. 
         \item The \tisane DSL captures analysts' ``fuzzy'' assumptions about how
-        variables relate in their discipline in the form of a \textit{conceptual
-        model}.
+        variables relate in their discipline. The variables and relationships
+        comprise a \textit{conceptual model}.
         \item A formative study showed how statistical non-experts implicitly
         think about causality, how they would like to express their implicit
         assumptions, and what they expect language constructs describing
         conceptual models to mean. These findings informed the re-design of
-        \tisane's DSL, release as \rTisane.
-        \item Case studies and a controlled lab study demonstrate the benefit of
+        \tisane's DSL, released as \rTisane.
+        \item A benchmark comparison, series of case studies, and a controlled lab study demonstrate the benefit of
         these DSLs in helping analysts become more aware of their implicit
         assumptions. 
     \end{enumerate}
@@ -221,7 +276,7 @@ and graphs (\autoref{fig:tools}).
         summarize key conceptual assumptions and data collection details.
         Importantly, a subgraph of the representation is a causal diagram useful
         for deriving statistical models formally. 
-        \item Finally, we develop an interaction model for \textit{interactively
+        \item Finally, we develop an approach for \textit{interactively
         compiling} high-level conceptual specifications into statistical models.
         % \polish{In a controlled lab study, we find that interactive compilation
         % contributes to analysts' increased awareness of their domain, data, and
@@ -257,8 +312,8 @@ languages (DSLs), representations, and reasoning approaches for authoring
 statistical analyses.
 
 \autoref{chapter:tea} presents \tea, a DSL and runtime system for Null
-Hypothesis Significance Testing. After discussing more specific related work and
-the statistical scope (\autoref{sec:relatedWorkTea}), the chapter describes a
+Hypothesis Significance Testing (NHST). After discussing more specific related work and
+explaining the rationale behind supporting NHST (\autoref{sec:relatedWorkTea}), the chapter describes a
 usage scenario that illustrates how an analyst would use \tea and how it differs
 from existing tools (\autoref{usageScenarioTea}), discusses key design
 considerations to improve statistical testing practice
@@ -269,47 +324,49 @@ against a corpus of expert test choices and a naive test selection regime
 for future work (\autoref{sec:discussionTea}). The chapter concludes with a
 summary of how our work on \tea furthers the thesis of this dissertation. 
 
-\autoref{chapter:hypoForm} introduces our theory of \hypoForm. While \tea was an
-exciting foray into how designing a DSL focused on capturing implicit data
-assumptions and hypotheses and developing a formal model of statistical test
-selection is not only feasible but also beneficial, this chapter steps back to
-describe data analysis more holistically. In fact, this chapter retrospectively
-justifies our design in \tea and directly informs our work on \tisane, the
-following chapter. \autoref{chapter:hypoForm} starts by connecting hypothesis
-formalization to characterizations of ``statistical thinking'' and situating
-data analysis in the larger context of scientific discovery
-(\autoref{sec:relatedWorkHypoForm}). The chapter proceeds to describing a
-content analysis that sensitized us to key hypothesis formalization steps
-(\autoref{sec:contentAnalysisHypoForm}), a lab study observing data analysts in
-situ (\autoref{sec:labStudyHypoForm}), and a qualitative assessment of existing
-statistical analysis tools (\autoref{sec:toolsAnalysis}). Based on these
-empirical studies, we derive three design implications for how tools can
+\autoref{chapter:hypoForm} introduces our theory of \hypoForm. While \tea
+established the feasibility and benefits of designing a DSL focused on capturing
+implicit data assumptions and hypotheses and developing a formal model of
+statistical test selection, this
+chapter steps back to describe data analysis more holistically. This
+chapter retrospectively justifies our design in \tea and directly informs our
+work on \tisane, the following chapter. \autoref{chapter:hypoForm} connects hypothesis formalization to characterizations of ``statistical
+thinking'' and situates data analysis in the larger context of scientific
+discovery (\autoref{sec:relatedWorkHypoForm}). The chapter proceeds to
+describe a content analysis that sensitized us to key hypothesis formalization
+steps (\autoref{sec:contentAnalysisHypoForm}), a lab study observing data
+analysts in situ (\autoref{sec:labStudyHypoForm}), and a qualitative assessment
+of existing statistical analysis tools (\autoref{sec:toolsAnalysis}). Based on
+these empirical studies, we derive three design implications for how tools can
 facilitate hypothesis formalization (\autoref{sec:implications}) and discuss
 what problem solving strategies (and shortcuts) analysts employ without explicit
 support for hypothesis formalization (\autoref{sec:discussionHypoForm}). This
-chapter also concludes with a summary of the theory of \hypoForm informs the
+chapter also concludes with a summary of how the theory of \hypoForm informs the
 thesis. 
 
 \autoref{chapter:tisane} is the best representation of how this dissertation
 grapples with an understanding of data analysis practices (i.e., \hypoForm),
-statistical methods, and empirical evidence for what analysts want to express in
+statistical methods, and empirical evidence for what analysts find usable in
 order to iteratively design and evaluate a DSL and interactive disambiguation
-process. After covering related work and background on statistical scope
+process. After covering related work and background on linear modeling
 (\autoref{sec:relatedWorkTisane}), this chapter describes the first version of
 the \tisane DSL (\autoref{sec:tisane}), case studies evaluating \tisane
 (\autoref{sec:tisane_case_studies}), a study to refine the DSL
 (\autoref{sec:exploratoryStudy}), the second major iteration released as
 \rTisane (\autoref{sec:rTisane}), and a controlled lab study
 (\autoref{sec:summativeEval}). The controlled lab study serves as a summative
-evaluation of the key tenets of this dissertation. This chapter concludes with a
+evaluation of the key tenets of this dissertation. \textcolor{orange}{Revisit: This chapter concludes with a
 brief discussion of the key lessons learned and limitations of \tisane (and
-\rTisane) and a summary of this work relates to the thesis. 
+\rTisane) and a summary of this work relates to the thesis.}
 
 Finally, \autoref{chapter:conclusion} revisits the key challenges of the thesis
 and how the projects in this dissertation address each
-(\autoref{sec:discussionChallenges}) and outlines
-(exciting!) challenges that remain to make data analysis approachable for
-statistical non-experts and valid by design (\autoref{sec:futureWork}). 
+(\autoref{sec:discussionChallenges}). \autoref{chapter:conclusion} also briefly
+discusses the real-world impact the DSLs developed in this dissertation have
+had, offering another form of evidence in support of the thesis. The chapter
+also discusses how the projects in this dissertation and recent developments in
+AI-driven code generation create new opportunities to make data analysis authoring valid
+by design and more approachable (\autoref{sec:futureWork}). \textcolor{orange}{Revisit: Add another sentence here emphasizing key contributions?}
 
 % , discusses recent developments
 % (\autoref{sec:recentDevelopments}), touches on the impact the systems in this
