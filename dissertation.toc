@@ -122,10 +122,11 @@
 \contentsline {subsection}{\numberline {5.8.2}Analysis and Results}{112}{subsection.5.8.2}%
 \contentsline {subsubsection}{\textbf {RQ1 - Conceptual models}\xspace }{112}{section*.73}%
 \contentsline {subsubsection}{\textbf {RQ2 - Statistical models}\xspace }{112}{section*.74}%
-\contentsline {subsubsection}{\textbf {RQ3 - Learning}\xspace }{112}{section*.75}%
-\contentsline {subsection}{\numberline {5.8.3}Limitations}{112}{subsection.5.8.3}%
+\contentsline {subsubsection}{\textbf {RQ3 - Learning}\xspace }{113}{section*.75}%
+\contentsline {subsubsection}{Key takeaways}{113}{section*.76}%
+\contentsline {subsection}{\numberline {5.8.3}Limitations}{113}{subsection.5.8.3}%
 \contentsline {section}{\numberline {5.9}Discussion, Limitations, and Future Work}{113}{section.5.9}%
-\contentsline {section}{\numberline {5.10}Summary of Contributions}{113}{section.5.10}%
+\contentsline {section}{\numberline {5.10}Summary of Contributions}{114}{section.5.10}%
 \contentsline {chapter}{\numberline {6}Conclusion}{115}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Discussion}{115}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Challenge 1: Designing the \textit {right} level of abstraction}{115}{subsection.6.1.1}%
