@@ -1,13 +1,21 @@
 \section{Second Release: rTisane} \label{sec:rTisane}
 
-\rTisane provides a DSL for analysts to express their implicit conceptual
-assumptions and interactively compiles this high-level specification into a
-script to fit a statistical model. The key challenge in designing a language for
-expressing conceptual models is in identifying the language primitives that
-allows analysts to express their implicit, often ``fuzzy,'' assumptions as
-accurately to their internalized conceptual models as possible yet is precise
-enough to rigorously derive a statistical model. Our approach in \rTisane is to
-prioritize expressivity in the DSL and precision during interactive compilation. 
+\rTisane consists of (i) a DSL for analysts to express their conceptual
+models and (ii) interactive disambiguation steps to compile this high-level specification into a
+script fitting a statistical model. 
+
+So far, we have implemented \rTisane for GLMs. Given the breadth of findings
+from the elicitation lab study, we narrowed the scope from \tisane in order to
+really focus on designing and testing a set of language constructs core to
+conceptual modeling. 
+% Given the breadth of findings from the elicitation lab study, we decided to
+% really focus on a set of language constructs core to conceptual modeling. 
+% a DSL for expressing conceptual models
+There are two key challenges to designing \rTisane: (i) ensuring the DSL's
+constructs can express analysts' implicit conceptual models accurately and (ii) %identifying DSL primitives that 
+balancing usability with rigor, allowing
+analysts to express their often ``fuzzy'' conceptual assumptions without losing
+precision to derive a statistical model.
 
 % \rTisane supports a two-step process for analysts to specify conceptual models
 % that are both expressive and precise. 
@@ -19,19 +27,31 @@ prioritize expressivity in the DSL and precision during interactive compilation.
 \def\Condition{\texttt{Condition}\xspace}
 \def\Conditions{\texttt{Condition}s\xspace}
 
-\subsection{Declaring variables}
+\subsection{\rTisane's DSL}
+Like \tisane, analysts express variables, a conceptual model, and a query for a
+statistical model. \rTisane's DSL prioritizes expressivity and usability 
+
+\subsubsection{Declaring variables}
 Analysts can express two types of variables: Units and Measures. Units represent
 observational or experimental units from which analysts collect data. \polish{reference prog} 
-A common
-unit is a participant in a study, so \rTisane provides syntactic sugar for
-constructing a \Participant variable directly. \Participant is a wrapper for
+A common unit is a participant in a study, so \rTisane provides syntactic sugar for
+constructing a \Participant unit directly. \Participant is implemented as a wrapper for
 declaring a \Unit.
 
-Measures are attributes of Units collected in a \dataSet. \polish{For example, reference prog} 
-Measures can be one of four types: continuous, unordered
-categories (i.e., nominal), ordered categories (i.e., ordinal), and counts.
-\rTisane provides syntactic sugar for declaring \Conditions as either unordered
-or ordered categories. 
+Measures are attributes of Units collected in a \dataSet, so they are declared
+through a Unit. \polish{For example, reference prog} Measures can be one of four
+types: continuous, unordered categories (i.e., nominal), ordered categories
+(i.e., ordinal), and counts. \rTisane provides syntactic sugar for declaring
+\Conditions as either unordered or ordered categories. Analysts declare
+unordered and ordered categories through the \texttt{categories} function.
+Analysts can specify a variable is ordered by passing a list to the
+\texttt{order} parameter. Otherwise, the variable is considered unordered.
+Analysts can use \texttt{continuous} and \texttt{count} functions to declare
+continuous and count Measures. 
+% We
+% chose this design to reduce the number of unique functions and better match
+% semantic similarity. 
+
 
 \begin{comment}
 Units
@@ -49,41 +69,55 @@ syntactic sugar: `condition'
 \def\assume{\texttt{assume}\xspace}
 \def\hypothesize{\texttt{hypothesize}\xspace}
 
-\subsection{Expressing a conceptual model}
-Analysts specify how the variables relate conceptually in their conceptual
-model. These relationships are stored in an intermediate graph representation
-where the variables are nodes and the relationships are edges. 
+\subsubsection{Expressing a conceptual model}
+Once analysts have constructed variables, they can specify how these variables
+relate conceptually. To do so, they construct a \texttt{ConceptualModel} and add
+variable relationships to it (\polish{ref prog}). The conceptual model %\texttt{ConceptualModel}
+is represented as a graph where the variables are nodes and the relationships
+are edges. 
 
 There are two types of relationships: \causes and \relates. \causes indicates a
-unidirectional influence from a cause to an effect. \polish{Ref prog}. 
-Internally,
-\causes introduces a directed edge from the cause node to the effect node. As we
-found in the exploratory lab study, analysts want opportunities to provide more
-detail describing conceptual relationship. Towards this design goal
-(\optionalSpecificity), \rTisane allows analysts to optionally specify \when and
-\then parameters in the \causes and \relates functions. \polish{Ref prog}. 
-There are four comparisons analysts can specify in \when and \then:
-\texttt{increases} (for continuous, ordered categories, counts),
-\texttt{decreases} (for continuous, ordered categories, counts), \texttt{equals}
-(for any measure type), and \texttt{notEquals} (for any measure type). The
-optional specificity is used when suggesting ways to resolve ambiguity in the
-input program during disambiguation (\autoref{subsec:conceptualModelDisambig}).
+unidirectional influence from a cause to an effect. \polish{Ref prog}. \causes
+introduces a directed edge from the cause node to the effect node. \relates
+indicates that two variables are related but exactly how is ambiguous because
+the analyst is uncertain about the direction of influence. \relates introduces a
+bi-directional edge  between two variables. During a disambiguation step,
+\rTisane will walk analysts through possible graphical structures that a
+bi-directional edge could represent (\considerPossibilities). To derive a
+statistical model, \rTisane requires an analyst to assume a direction of
+influence.
 
-Analysts in the exploratory lab study also distinguished between assumed, or
-strongly held, and hypothesized, or more uncertain, relationships. \rTisane
-requires analysts to make these explicit distinctions (\assumeHypothesize) when
-adding conceptual relationships to a conceptual model. In addition to specifying
-a relationship type, analysts must either \assume or \hypothesize a relationship.
-\polish{ref program}.
+
+Towards the design goal of \optionalSpecificity, \rTisane allows analysts to
+optionally specify \when and \then parameters in the \causes and \relates
+functions. \polish{Ref prog}. There are four comparisons analysts can specify in
+\when and \then: \texttt{increases} (for continuous, ordered categories,
+counts), \texttt{decreases} (for continuous, ordered categories, counts),
+\texttt{equals} (for any measure type), and \texttt{notEquals} (for any measure
+type). Supporting optional specificity is designed to (i) make the \rTisane
+program an accurate document of analysts' implicit assumptions and (ii) suggest
+ways to resolve conceptual ambiguity during disambiguation
+(\considerPossibilities). 
+% used when suggesting ways to resolve
+% ambiguity in the input program during disambiguation
+% (\autoref{subsec:conceptualModelDisambig}).
+
+To add relationships to the conceptual model, analysts must assume or
+hypothesize a relationship. This distinction supports how analysts distinguish
+between assumed, or strongly held, and hypothesized, or more uncertain,
+relationships. \rTisane requires analysts to make these explicit distinctions
+(\assumeHypothesize) when adding conceptual relationships to a conceptual model.
+In addition to specifying a relationship type, analysts must either \assume or
+\hypothesize a relationship. \polish{ref program}.
 
 % While analysts are thinking through and specifying \causes and \relates
 % relationships, 
 
-Analysts can also specify interactions between two or more variables when
-specifying their conceptual models. %Unlike binary relationships (i.e., \causes, \relates), 
-Analysts can directly add interactions to conceptual models. Interactions do not
-need to be assumed or hypothesized because they provide additional information
-about existing relationships in the conceptual model. 
+Analysts can also specify interactions between two or more variables by
+declaring \texttt{interacts}. Interactions are annotations to conceptual models
+and are added to the graph without \assume or \hypothesize. Interactions provide
+additional information about existing relationships in the conceptual model
+(\interactionAsPartialSpec). 
 
 % Causes / relates (types of relationships)
 % Optional specificity: when, then annotations
@@ -92,66 +126,82 @@ about existing relationships in the conceptual model.
 % - default semantics: if labeled, interactions considered. Otherwise, not
 
 \def\query{\texttt{query}\xspace}
-\subsection{Querying for a statistical model}
+\subsubsection{Querying for a statistical model}
 Analysts \query \rTisane for a statistical model based on the input conceptual
-model. The querying process initiates the interactive compilation process and
-results in an \texttt{R} script specifying and fitting a generalized linear
-model. During interactive compilation, analysts engage in two loops to
+model (\polish{ref prog}). The query asks for a statistical model to accurately
+estimate the average causal effect (ACE) of the independent variable on the
+dependent variable. The querying process initiates the interactive compilation
+process and results in an \texttt{R} script specifying and fitting a generalized
+linear model. During interactive compilation, analysts engage in two loops to
 disambiguate their (i) conceptual model and (ii) output statistical model. 
 
-\subsection{Conceptual Model Disambiguation} \label{subsec:conceptualModelDisambig}
+\subsection{Two-step interactive compilation}
+There are two phases to interactively compiling a conceptual model to a
+statistical model: (i) conceptual model disambiguation and (ii) statistical
+model disambiguation. We added conceptual model disambiguation to address the
+need to explore possible conceptual structures for resolving ambiguities
+introduced by \relates (\considerPossibilities).
+
+\subsubsection{Conceptual Model Disambiguation} \label{subsec:conceptualModelDisambig} 
+
 The goal of conceptual model disambiguation is to make analysts' expressed
-conceptual models more precise. This precision is necessary to derive
-statistical models rigorously. Conceptual model disambiguation involves breaking
-cycles in the conceptual model by (i) picking a direction for any \relates
-relationships and (ii) removing edges. Cycles are necessary to break because
-they imply multiple different data generating processes that could lead to
-different statistical models. 
+conceptual models precise enough to derive a statistical model, achieving
+usability and rigor. Conceptual model disambiguation involves breaking cycles in
+the conceptual model by (i) picking a direction for any \relates relationships
+and/or (ii) removing edges. Cycles are necessary to break because they imply
+multiple different data generating processes that could lead to different
+statistical models. In this way, conceptual model disambiguation can help analysts
+reflect on and clarify their implicit assumptions. 
 
-To disambiguate conceptual models, \rTisane uses a GUI that shows a graph
-representing analysts' conceptual models. If there are any \relates
+To disambiguate conceptual models, \rTisane uses a GUI. The GUI shows a graph
+representing analysts' conceptual models (\polish{ref fig}). If there are any \relates
 relationships, \rTisane suggests ways analysts could assume a direction of
-influence. Additionally, \rTisane suggests ways to break any cycles in the
-conceptual model. As analysts make changes, the visible graph updates. The GUI
-explains why both these steps are necessary to derive a statistical model. 
+influence (\polish{ref fig}). Additionally, \rTisane suggests ways to break any cycles in the
+conceptual model (\polish{ref fig}). As analysts make changes, the visible graph updates. The GUI
+also explains why both these steps are necessary to derive a statistical model. 
 
-Once analysts have disambiguated their conceptual models, \rTisane will derive a
-space of possible statistical models using the updated conceptual model. To
-narrow this space down to one output statistical model, \rTisane will ask
-additional follow-up disambiguating questions. 
+Once analysts have disambiguated their conceptual models, \rTisane updates the
+internal graph representation and derives a space of possible statistical
+models. To narrow this space of possible statistical models down to one output
+statistical model, \rTisane asks additional follow-up disambiguating questions. 
 
 \begin{comment}
 This problem is actually challenging because detecting all cycles in a graph is
 an NP-hard problem. We adapt a version of Johnson's(?) algorithm.
 \end{comment}
 
-\subsection{Statistical model derivation and disambiguation}
-In order to derive statistical models, \rTisane considers confounders and
-interactions to include as covariates, interactions, and family and link
+\subsubsection{Statistical model derivation and disambiguation}
+To formulate possible statistical models, \rTisane considers potential
+covariates to control for confounding, interactions, and family and link
 functions.
 
-To determine confounders, \tisane relied on Vanderweele's recommendations for
-confounder selection~\cite{vanderweele2019modifiedDisjunctiveCriterion}.
-\rTisane uses more recent recommendations from Cinelli, Forney, and
-Pearl~\cite{cinelli2020controls}. Cinelli et al.'s recommendations are based on
-a meta-analysis of studies examining the impact of confounder selection based on
-graphical structures on statistical modeling accuracy. By following Cinelli et
-al.'s recommendations, \rTisane includes confounders that help assess the
-average causal effect of the query's independent variable on the dependent
+To determine confounders, \rTisane uses more recent recommendations from
+Cinelli, Forney, and Pearl~\cite{cinelli2020controls}\footnote{\tisane relied on
+Vanderweele's recommendations for confounder
+selection~\cite{vanderweele2019modifiedDisjunctiveCriterion}, but in \rTisane we
+opted for more recent recommendations}. Cinelli et al.'s recommendations are
+based on a meta-analysis of studies examining the impact of confounder selection
+based on graphical structures on statistical modeling accuracy. By following
+Cinelli et al.'s recommendations, \rTisane includes confounders that help assess
+the average causal effect of the query's independent variable on the dependent
 variable as accurately as possible. 
 
-Furthermore, \rTisane includes any interactions analysts have specified in their
-conceptual models. Otherwise, \rTisane does not consider any interactions. In
-the interface, analysts have the option to remove any confounders or
-interactions based on their domain knowledge. 
+\rTisane searches for interactions analysts annotated in their conceptual models
+and suggests any involving the query's dependent variable. Otherwise, \rTisane
+does not consider any interactions. 
 
-\rTisane determines family and link functions based on the variable data types.
-Because \rTisane compiles down to statistical models fit using the \lme package
-in \texttt{R}, \rTisane is limited to the family and link functions supported in
-\lme. For instance, for queries involving continuous dependent variables,
-\rTisane considers Gaussian, Inverse Gaussian, and Gamma families. For counts,
-\rTisane considers Poisson and Negative Binomial families. For ordered
-categories, \rTisane considers Binomial, Multinomial, Gaussian, Inverse
-Gaussian, and Gamma family functions. For unordered categories, \rTisane
+\rTisane determines family and link functions based on the query's dependent
+variable data type. Because \rTisane compiles down to statistical models fit
+using the \lme package in \texttt{R}, \rTisane is limited to the family and link
+functions supported in \lme. For instance, for queries involving continuous
+dependent variables, \rTisane considers Gaussian, Inverse Gaussian, and Gamma
+families. For counts, \rTisane considers Poisson and Negative Binomial families.
+For ordered categories, \rTisane considers Binomial, Multinomial, Gaussian,
+Inverse Gaussian, and Gamma family functions. For unordered categories, \rTisane
 considers Binomial and Multinomial family functions. \rTisane considers any link
 functions \lme supports for these family functions. 
+
+In the GUI, analysts have the option to remove any confounders or interactions
+based on their domain knowledge. Based on prior experience or domain
+recommendations, analysts can also pick a family and link function pair if
+multiple possibilities could apply. 
