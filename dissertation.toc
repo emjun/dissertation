@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Tools for conceptual modeling}{28}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Tools for study design}{28}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Tools for statistical specification}{29}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Validity in statistical data analysis}{30}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Validity in statistical data analysis}{29}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Tea: A Domain-Specific Language and Runtime System for Hypothesis Testing}{31}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Background and Related work}{32}{section.3.1}%
 \contentsline {subsection}{Statistical scope}{33}{section*.9}%
