@@ -1,45 +1,58 @@
 \section{Discussion}
+Iteratively designing, developing, and evaluating \tisane's key insight---to
+compile statistical models from conceptual models---led to \rTisane. A key step
+in designing \rTisane was the exploratory lab study that used \tisane as a
+probe. The exploratory lab study suggested the need to allow analysts to express
+their conceptual models using more granular, low-level functions. Although
+obvious in hindsight, this finding was \textit{counterintuitive} at the time. 
 
+A widely held belief, especially within the HCI community, is that the higher
+the level of abstraction for a task, the better for end-users. However, we saw
+the opposite. Statistical non-experts engaged deeply with conceptual models
+about their domain and wanted to be more detailed and specific when describing
+their conceptual models. In other words, while the focus on the abstraction
+should be at the conceptual level, within that, analysts want to move up and
+down the ladder of abstraction. Indeed, in the summative evaluation of \rTisane,
+we saw that analysts made use of all language constructs and reported finding
+them instrumental to deepening their consideration of domain knowledge.
+Arguably, the conceptual modeling language constructs also benefited the quality
+of statistical models output from \rTisane. Using \rTisane, analysts authored
+statistical models that fit the data better than their own or authored identical
+statistical models after using \rTisane.
 
-**important**Interpreted using the theory of hypothesis formalization, we find
-that analysts author statistical models following a pattern similar to
-hypothesis formalization. rTisane embodies hypothesis formalization, a core
-activity in statistical authoring + skill in developing statistical expertise.
-Therefore, we gain evidence of the benefits of supporting hypothesis
-formalization in tools. 
-Larger takeaway: ** Not about just the scaffolded steps but about the tool
-support for executing each of these steps**
-
-\textbf{Ideally, this section discusses key findings from Tisane/case studies + rTisane/summative evaluation}
-
-\textbf{Expand support from \rTisane to GLMMs:} To limit the number of language constructs in \rTisane introduced, we only
-assessed language constructs for specifying a GLM. Given that the summative
-evaluation was really focused on the core of \rTisane--the impact of conceptual
-modeling on statistical modeling--we expect the results to apply. In fact, for
-more complex data collection procedures that require mixed-effects, \rTisane may
-have an even larger effect on statistical models and learning. 
-
-
-The exploratory lab study suggested the need to allow analysts to express their
-conceptual models using more granular, low-level functions. Although obvious in
-hindsight, this finding was \textit{counterintuitive} at the time. A widely held
-belief, especially within the HCI community, is that the higher the level of
-abstraction for a task, the better for end-users. However, we saw the opposite.
-Statistical non-experts engaged deeply with conceptual models about their domain
-and wanted to be more detailed and specific. In other words, while the focus on
-the abstraction should be at the conceptual level, within that, analysts want to
-move up and down the ladder of abstraction. More generally, our iterative
-language design work with \tisane and \rTisane suggests that as long as
-abstractions match the content-focus of end-users, there should be opportunities
-to get low-level within those abstractions. This gives end-users the agency to
-express themselves more fully, transforming the programming task from strictly a
-means to an end to specification as a meaningful activity in itself. 
+Based on my experience with \tisane and \rTisane, I speculate that abstractions
+can achieve usability and rigor by matching the content-focus of end-users while
+giving them opportunities to get into the low-level details of specifications.
+This gives end-users the agency to express themselves more fully, transforming
+the programming task from strictly a means to an end to a meaningful, reflective
+activity in itself. 
 
 % Second, Tisane's specification process could be more tiered, and disambiguation
 % could leverage ambiguity in analysts' specification as opportunities for more
 % numerous intelligent suggestions and guidance. 
 % \todo{Mention that the focus needs to be on conceptual level, but within conceptual level, there should be opportunity to move up and down the ladder of conceptual abstraction}
 
+\begin{comment}
+    **important**Interpreted using the theory of hypothesis formalization, we find
+    that analysts author statistical models following a pattern similar to
+    hypothesis formalization. rTisane embodies hypothesis formalization, a core
+    activity in statistical authoring + skill in developing statistical expertise.
+    Therefore, we gain evidence of the benefits of supporting hypothesis
+    formalization in tools. 
+    Larger takeaway: ** Not about just the scaffolded steps but about the tool
+    support for executing each of these steps**
+    
+    \textbf{Ideally, this section discusses key findings from Tisane/case studies + rTisane/summative evaluation}
+    
+    \textbf{Expand support from \rTisane to GLMMs:} To limit the number of language constructs in \rTisane introduced, we only
+    assessed language constructs for specifying a GLM. Given that the summative
+    evaluation was really focused on the core of \rTisane--the impact of conceptual
+    modeling on statistical modeling--we expect the results to apply. In fact, for
+    more complex data collection procedures that require mixed-effects, \rTisane may
+    have an even larger effect on statistical models and learning. 
+\end{comment}
+
+\begin{comment}
 In designing \rTisane, a key challenge was in finding the right point to bring
 in lower-level statistical modeling details. Concretely, in \rTisane analysts at some point must grapple with graphical and
 mathematical representations in the disambiguation phases. This is because it
@@ -63,7 +76,6 @@ prioritize expressivity in the DSL and precision during interactive compilation.
 \polish{Discussion of rTisane results}
 Novel for non-expert audience: formalizing a porcess that is innate among statistical experts
 
-\begin{comment}
 
 Despite the goal to lower the
 barriers to statistical specification, at some point, 
