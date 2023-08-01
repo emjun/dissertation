@@ -145,14 +145,15 @@
 \contentsline {subsection}{\numberline {6.1.1}Challenge 1: Make implicit domain knowledge explicit}{125}{subsection.6.1.1}%
 \contentsline {subsection}{\numberline {6.1.2}Challenge 2: Represent and reason about key statistical analysis decisions}{126}{subsection.6.1.2}%
 \contentsline {subsection}{\numberline {6.1.3}Challenge 3: Increase analysts' statistical understanding}{126}{subsection.6.1.3}%
-\contentsline {section}{\numberline {6.2}Limitations and Future work}{127}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Support interpretation of statistical results}{127}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Guide statistical model revision and iteration}{127}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Connect statistical modeling and testing}{128}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Design for additional aspects of validity during statistical analysis}{128}{subsection.6.2.4}%
-\contentsline {section}{\numberline {6.3}Impact}{128}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Closing Remarks}{129}{section.6.4}%
-\contentsline {chapter}{Bibliography}{130}{section.6.4}%
+\contentsline {section}{\numberline {6.2}Impact}{127}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Limitations and Future work}{127}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Support interpretation of statistical results}{127}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Guide statistical model revision and iteration}{128}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Connect statistical modeling and testing}{128}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Design for additional aspects of validity during statistical analysis}{128}{subsection.6.3.4}%
+\contentsline {subsection}{\numberline {6.3.5}Support the larger data life-cycle}{129}{subsection.6.3.5}%
+\contentsline {section}{\numberline {6.4}Closing Remarks}{130}{section.6.4}%
+\contentsline {chapter}{Bibliography}{131}{section.6.4}%
 \contentsline {chapter}{\numberline {A}Appendix A: Content analysis resources}{149}{chapter.1}%
 \contentsline {section}{\numberline {A.1}Dataset overview}{149}{section.1.1}%
 \contentsline {section}{\numberline {A.2}Procedure}{149}{section.1.2}%

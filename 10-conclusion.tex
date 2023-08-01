@@ -112,6 +112,22 @@ But how do people express their domain knowledge, make the process meaningful
 Mention LLMs as a technology to use here?
 \end{comment}
 
+\section{Impact}
+% \ej{Include details of where this code is available, open source, etc.}
+The most rewarding part of conducting the work in this dissertation has been to
+see real-world use case of tools. As of May 2023, \tea has been downloaded 15K
+times, and the first release of \tisane has been downloaded 12K times. All code
+is open source and available \href{https://github.com/tea-lang-org}{online}.
+Over the last few years, I have also enjoyed reading and answering flurries of
+emails where analysts, including many scientists and social scientists, share
+anecdotes of how they have used (and sometimes failed to use) \tea and \tisane.
+There are a couple success stories I want to highlight. First, an HCI researcher
+used \tisane and caught an analysis bug prior to submitting and ultimately
+publishing a research paper at ACM CHI~\cite{baughan2022dissociation}. Second, a
+collaborator at IHME used \tisane to validate a model as part of a larger health
+policy research project, which was published at a top
+journal~\cite{johnson2022varied}.
+
 \section{Limitations and Future work} \label{sec:futureWork}
 % \todo{Add ideas from defense}
 By addressing each of core challenges, the DSLs and automated reasoning
@@ -315,6 +331,93 @@ process into a reflective activity.
 % Tisane facilitates the hypothesis
 % formalization~\cite{jun2021hypothesisFormalization} process, which can be an
 % error-prone and cognitively demanding process that existing tools do not yet support.
+\subsection{Support the larger data life-cycle}
+% Assume data collected or could be collected in ways expressed 
+
+This thesis has focused on scenarios where analysts either have collected data
+or can articulate how they will collect data. This simplification helped focus
+us on tools for automated statistical analysis formulation. However, statistical
+analysis occurs late in the data life-cycle and is rarely separate from other
+steps. The ability to draw reliable conclusions based on statistical analyses
+depends on the configuration and quality of data available to analyze. 
+
+% Idea 1: Support study design, Incorporate ways of 
+
+A limitation of this thesis is that it under-serves the bi-directional
+connection between data collection and data analysis. While \tea, \tisane, and
+\rTisane all use data collection details to determine valid statistical
+analyses, they do not help analysts who may not know how to collect their data
+but do know what kinds of conclusions they would like to claim. New tools are
+needed to help analysts start with implications of analyses they would like to
+make and then work ``backwards'' to figure out what data their studies should
+collect, what proxies to randomize, how to allocate observations, and how to
+handle data collection constraints. These tools require new abstractions for
+expressing analysis goals or partial study designs as well as representations
+that reify the connection between statistical analyses and experimental designs.
+Addressing these challenges will create a tighter loop between data collection
+and analysis and promote improved planning and practice in science.
+% Addressing these challenges requires combining techniques
+% in HCI, experimental design, and statistics. 
+
+% One overlooked dimension of analytical provenance that this thesis
+% highlights is the evolving conceptual model. 
+Another limitation of this thesis is that it neglects how prior steps of the
+data lifecycle, such as visual analysis, inform an analyst's understanding of
+the domain. How might interfaces to steps earlier in the data life-cycle elicit
+conceptual knowledge? Or what might interaction traces tell us about the
+conceptual model an analyst is constructing? For instance, in the context of
+visual analysis, what if interfaces could show the implied conceptual model
+based on a series of visualization recommendation selections and user-provided
+annotations? Over time, interfaces and techniques for eliciting and tracking
+conceptual models could help explain how highly skilled analysts arrive at
+different, even contradictory, statistical conclusions from the same research
+question and data~\cite{silberzahn2018manyAnalysts}. Furthermore, as analysts in
+the summative evaluation of \rTisane noted, conceptual models could facilitate
+communication between domain experts, statistical experts, and the public.
+Investigating how to design interfaces for expressing, tracking, sharing, and
+debating conceptual models could be one step towards improving reproducibility in science.
+
+% given that multiple
+% analysts, with varying degrees of statistical expertise, are often involved. As
+% analysts  Therefore, interfaces for sharing and deabting
+% Multiple analysts are often involved in the analysis and sensemking process. Use
+% conceptual models as a boundary object for communication and collaboration.
+% Explore interfaces for sharing and productively debating conceptual models,
+% proxy choices, and analysis choices. 
+
+% Idea 3: Likely require communication between collaborators. 
+% Participants already start dreaming up. Could we do more, like not just improving the output but also generating diagrams
+
+
+% Idea 2: Visualization + Statistical modeling; key connection is domain knowledge evolution? Analytical provenance? 
+% This dissertation emphasizes the need for abstractions that capture analysts'
+% implicit domain knowledge. These abstractions enable valid analysis formulation
+% and promote reflective thinking. Building upon this, we can begin to ask how the
+% same ideas---abstractions and automated reasoning for conceptual knowledge often
+% implicit in statistical analyses---could apply to other phases of the data
+% lifecycle. 
+
+
+% By supporting statistical model iteration,
+% \tisane and \rTisane in particular can become platforms for future research on
+% how to support more phases of the data lifecycle, such as experimental design
+% and data collection.
+
+\begin{comment}
+\subsection{Evaluating usability of DSLs/Methods for designing and evaluating DSLs with end-users}
+Through combination of formative and summative evaluations that leveraged
+content analyses, <name methods used in this dissertation>, we were able to
+identify and assess design goals for enabling end-users who are not trained as
+programmers author programs using DSLs. Recent attention in how to apply HCI
+techniques (cite PLIERS). What distinguishes this work, however, is how grounded
+the constructs were in exploration of existing end-user libraries and testing
+with users throughout, even to the point of renaming moderates in \tisane to
+interacts in \rTisane and changing its semantics. 
+
+Relevant measures and objects of study 
+
+Relevant measures -- comparing expression without and with
+\end{comment}
 
 \begin{comment}
 \subsection{Promote analytical best practices in science}
@@ -386,22 +489,6 @@ specification from implementation, an essential perspective in computer science.
 So that if students need to implement more complex analyses, they have some
 awareness of how to organize their computational approach. 
 \end{comment}
-
-\section{Impact}
-% \ej{Include details of where this code is available, open source, etc.}
-The most rewarding part of conducting the work in this dissertation has been to
-see real-world use case of tools. As of May 2023, \tea has been downloaded 15K
-times, and the first release of \tisane has been downloaded 12K times. All code
-is open source and available \href{https://github.com/tea-lang-org}{online}.
-Over the last few years, I have also enjoyed reading and answering flurries of
-emails where analysts, including many scientists and social scientists, share
-anecdotes of how they have used (and sometimes failed to use) \tea and \tisane.
-There are a couple success stories I want to highlight. First, an HCI researcher
-used \tisane and caught an analysis bug prior to submitting and ultimately
-publishing a research paper at ACM CHI~\cite{baughan2022dissociation}. Second, a
-collaborator at IHME used \tisane to validate a model as part of a larger health
-policy research project, which was published at a top
-journal~\cite{johnson2022varied}.
 
 \begin{comment}
 To more systematically capture and act on these kinds of anecdotes in the

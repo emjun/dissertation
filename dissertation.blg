@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
 The style file: alpha.bst
-Reallocated field_info (elt_size=4) to 10451 items from 5000.
+Reallocated field_info (elt_size=4) to 10474 items from 5000.
 Database file #1: references.bib
 Warning--entry type for "klemmerCoursera" isn't style-file defined
 --line 1696 of file references.bib
@@ -48,45 +48,45 @@ Warning--empty journal in matlabStats
 Warning--empty journal in velentgas2013developing
 Warning--empty journal in PNAS2
 Warning--empty journal in PNAS6
-You've used 236 entries,
+You've used 237 entries,
             2543 wiz_defined-function locations,
-            1746 strings with 45644 characters,
-and the built_in function-call counts, 105671 in all, are:
-= -- 10179
-> -- 6391
+            1752 strings with 46081 characters,
+and the built_in function-call counts, 106368 in all, are:
+= -- 10241
+> -- 6456
 < -- 120
-+ -- 2335
-- -- 2300
-* -- 8137
-:= -- 17632
-add.period$ -- 705
-call.type$ -- 236
-change.case$ -- 1796
-chr.to.int$ -- 220
-cite$ -- 266
-duplicate$ -- 3717
-empty$ -- 6886
-format.name$ -- 2519
-if$ -- 21126
++ -- 2360
+- -- 2325
+* -- 8208
+:= -- 17757
+add.period$ -- 708
+call.type$ -- 237
+change.case$ -- 1810
+chr.to.int$ -- 221
+cite$ -- 267
+duplicate$ -- 3731
+empty$ -- 6916
+format.name$ -- 2544
+if$ -- 21254
 int.to.chr$ -- 17
 int.to.str$ -- 0
-missing$ -- 220
-newline$ -- 1159
-num.names$ -- 710
-pop$ -- 1854
+missing$ -- 221
+newline$ -- 1164
+num.names$ -- 713
+pop$ -- 1865
 preamble$ -- 1
-purify$ -- 2051
+purify$ -- 2066
 quote$ -- 0
-skip$ -- 3249
+skip$ -- 3261
 stack$ -- 0
-substring$ -- 5075
-swap$ -- 632
+substring$ -- 5107
+swap$ -- 633
 text.length$ -- 120
 text.prefix$ -- 59
 top$ -- 0
-type$ -- 1816
+type$ -- 1824
 warning$ -- 30
-while$ -- 936
-width$ -- 244
-write$ -- 2933
+while$ -- 941
+width$ -- 245
+write$ -- 2946
 (There were 37 warnings)
