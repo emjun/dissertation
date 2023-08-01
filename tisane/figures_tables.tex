@@ -907,7 +907,47 @@
 \newcommand{\rTisaneProgram}{
     \lstinputlisting[
         language={}, 
-        caption={Sample \rTisane program.\polish{Update; mention: cardinality is optional with data}},
+        caption={Sample \rTisane program adapted from P8's in the summative evaluation. Specifying cardinality is optional with data.},
         label={lst:rTisaneProgram}
     ]{tisane/figures/rTisane-example.R}
+}
+
+\newcommand{\conceptualModelsScaffold}{
+    \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=.75\linewidth]{tisane/figures/conceptual-models.png}
+        \caption{Example conceptual models from participants in the summative evaluation without using \rTisane.}
+        \label{fig:figureConceptualModelsScaffold}
+    \end{figure}
+}
+
+\newcommand{\conceptualModelDisambiguation}{
+    \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=.85\linewidth]{tisane/figures/conceptual-model-disambiguation.png}
+        \caption{\textbf{\rTisane's conceptual model disambiguation interface.} A. Options for resolving ambiguities in the conceptual model due to \relates relationships.
+        B. Check and follow-up questions for breaking any cycles that hinder statistical model derivation. C. Graph visualizing expressed conceptual model. }
+        \label{fig:figureConceptualModelsDisambiguation}
+    \end{figure}
+}
+
+\newcommand{\statisticalModelDisambiguation}{
+    \begin{figure}[htbp]
+        \centering
+        \includegraphics[width=.75\linewidth]{tisane/figures/statistical-model-disambiguation.png}
+        \caption{\rTisane's statistical model disambiguation interface.}
+        \label{fig:figureStatisticalModelsDisambiguation}
+    \end{figure}
+}
+
+\newcommand{\tableSummativeEvalParticipants}{
+  \begin{table}[ht]
+    \begin{tabular}{|l|l|l|l|l|l}
+    \textbf{Participant}   &	\textbf{Field} & \textbf{Job role} & \textbf{Reported experience} & \textbf{Familiarity with GLM} & \textbf{Comfort using R} \\ 
+    P1	&	& & & &	\\ 
+    \end{tabular}
+    \caption{Participants in summative evaluation.}
+    \label{tab:summativeEvaluationParticipants}
+  \end{table}
+
 }

@@ -7,10 +7,9 @@ Two research questions motivated our evaluation of \rTisane:
     \item \evalConceptualModels What is the impact of \rTisane on conceptual
     modeling?
     \item \evalStatisticalModels How does \rTisane impact the statistical models
-    analysts implement? Specifically, do the covariates, family functions, and
-    link functions analysts include/exclude differ when implementing statistical
-    models on their own vs. using \rTisane? How well do statistical models
-    analysts author on their own vs. using rTisane fit the data? \polish{Revise the specific questions}
+    analysts implement? Specifically, how well do the statistical models
+    analysts author on their own vs. with \rTisane fit the data? How are their
+    formulations similar or different?
     % \item \evalLearning Do analysts learn about their discipline or data
     % analysis as a result of using rTisane?
 \end{itemize}
@@ -61,16 +60,22 @@ materials.
 
 \noindent \paragraph{Participants} We recruited 13 data analysts on Upwork. We
 screened for participants who reported having experience with authoring
-generalized linear models and using R. \polish{Update based on recruitment:On
+generalized linear models and using R at a three or higher on a five-point
+scale.~\autoref{tab:summativeEvaluationParticipants} summarizes the participants' backgrounds. 
+
+\polish{Update based on recruitment:On
 average, participants reported having conducted N projects using generalized
 linear models. Participants were familiar with a range of software tools,
-including...} All studies were conducted over Zoom. Participants used \rTisane
+including...} 
+
+All studies were conducted over Zoom. Participants used \rTisane
 on a remote controlled computer, so they did not have to install it on their
 own. Each study lasted between two and three hours. Participant was compensated
 \$25 per hour. We recorded participants' screens, video, and audio throughout
 the study. We then transcribed the audio and used detailed researcher notes for
 qualitative analyses.
 
+\tableSummativeEvalParticipants
 % One dataset was on demographic factors and income in the U.S. in 2018 from the
 % U.S. Census Bureau (\datasetIncome). The other dataset was about demographic
 % factors and health conditions in the U.S. (\datasetHealth) from \ej{FILL IN}.
@@ -161,6 +166,7 @@ differences, and surprises between statistical models.
 
 \subsection{Findings}
 \subsubsection{RQ1: \rTisane's Impact on Conceptual Models}
+\conceptualModelsScaffold
 
 \textbf{Key takeaway: \rTisane scaffolded and productively constrained how analysts expressed
 their conceptual models. As a result, analysts reflected on implicit domain
@@ -170,22 +176,21 @@ accurately externalized their implicit assumptions.}
 The conceptual models analysts expressed on their own were diverse in form,
 meaning/content, and complexity. The majority [P2, P4, P5, P8, P11, P13] invoked
 a graph-like structure. [P2, P4, P8 used \rTisane second; P5, P11, P13 used
-\rTisane first]. \polish{Figure A} illustrates two example conceptual
-models.\footnote{An example conceptual model given in the task instructions may
+\rTisane first].~\autoref{fig:figureConceptualModelsScaffold} illustrates four example conceptual
+models from participants.\footnote{An example conceptual model given in the task instructions may
 have biased analysts towards a graphical structure.} Participants also described
 their conceptual models verbally [P10], in natural language text [P6, P9], and
 as a timeline [P12]. P7, who used \rTisane first, even jumped to expressing
 their conceptual model in a statistical model. P12's conceptual model was
 particularly creative. His timeline featured variables ordered starting on the
-left by how much an individual could intervene upon them \polish{(see Figure
-B)}. P12's conceptual model reiterates our finding from the exploratory lab
+left by how much an individual could intervene upon them (\autoref{fig:figureConceptualModelsScaffold}). P12's conceptual model reiterates our finding from the exploratory lab
 study that analysts want to capture nuanced meaning in a conceptual model. 
 
 Ten participants involved all five independent variables from the \dataSet in
 their conceptual models [P2, P3, P4, P5, P7, P8, P9, P11, P12, P13]. Two
 participants [P7, P13] also included interactions between variables in their
 conceptual models. For instance, P13 specified a complex conceptual model
-\polish{(see Figure C)} where age, race, and sex interacted to cause an
+(\autoref{fig:figureConceptualModelsScaffold}) where age, race, and sex interacted to cause an
 interaction between education and employment, which then causes income.
 
 \theme{Without \rTisane, analysts found it difficult to express conceptual nuances.}
@@ -305,16 +310,16 @@ communication about statistical analyses.
 On their own, three participants were not able to author a statistical model due
 to unfamiliarity with statistical methods [P3], lack of time [P5], and reliance
 on visual analyses (ie.g., heatmaps, scatterplots) [P12]. Of the remaining nine
-participants who completed the study, six participants successfully authored linear regression models
-[P2, P4, P7, P8, P9, P10]. A seventh participant, P6, started to author a
-logistic regression model with Race and Income but stopped before binarizing
-either variable. Two participants, both of whom had just finished authoring
-statistical models with rTisane, implemented GLMs [P11, P13]. Despite task
-instructions, P11 started from the \rTisane output model script to author
-their own. After observing the model had ``poor fit'' \polish{(quote)}, they
-log-transformed the income variable and fit the \rTisane output model as their
-own. P11's experience mirrors how we anticipate analysts to build upon \rTisane
-output statistical models in the future. 
+participants who completed the study, six participants successfully authored
+linear regression models [P2, P4, P7, P8, P9, P10]. A seventh participant, P6,
+started to author a logistic regression model with Race and Income but stopped
+before binarizing either variable. Two participants, both of whom had just
+finished authoring statistical models with rTisane, implemented GLMs [P11, P13].
+Despite task instructions, P11 started from the \rTisane output model script to
+author their own. After observing the model's ``AIC is large, the residual is
+large'' P11 determined ``I don't think this [\rTisane output model] is the right
+fit.'' So, they log-transformed the income variable and fit a new statistical model. P11's experience mirrors how we anticipate analysts to build
+upon \rTisane output statistical models in the future. 
 
 \theme{Statistical models authored with \rTisane fit the data just as well or better than statistical models without \rTisane.}
 Of the eight participants who successfully authored linear regression or
@@ -336,7 +341,7 @@ or ``data-driven'' approach, changing their analysis goals while authoring
 statistical models. This theme is best illustrated by P2, who started with a
 hypothesis that Occupation, or Employment, influenced Income. His conceptual
 model in \rTisane had the variables Education, Age, Race, and Sex causing
-Occupation, which in turn, causes Income \polish{(see Figure X)}. 
+Occupation, which in turn, causes Income (\autoref{fig:figureConceptualModelsScaffold}). 
 
 He started authoring statistical models with the intent to assess this
 hypothesis. On his own, he first authored an ANOVA with Occupation as the IV and

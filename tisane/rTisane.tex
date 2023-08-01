@@ -33,15 +33,15 @@ statistical model. \rTisane's DSL prioritizes expressivity and usability
 
 \subsubsection{Declaring variables}
 Analysts can express two types of variables: Units and Measures. Units represent
-observational or experimental units from which analysts collect data. \polish{reference prog} 
+observational or experimental units from which analysts collect data (see Line 5 in~\autoref{lst:rTisaneProgram}). 
 A common unit is a participant in a study, so \rTisane provides syntactic sugar for
 constructing a \Participant unit directly. \Participant is implemented as a wrapper for
 declaring a \Unit.
 
 Measures are attributes of Units collected in a \dataSet, so they are declared
-through a Unit. \polish{For example, reference prog} Measures can be one of four
+through a Unit. Measures can be one of four
 types: continuous, unordered categories (i.e., nominal), ordered categories
-(i.e., ordinal), and counts. \rTisane provides syntactic sugar for declaring
+(i.e., ordinal), and counts (see Lines 7-18 in~\autoref{lst:rTisaneProgram}). \rTisane provides syntactic sugar for declaring
 \Conditions as either unordered or ordered categories. Analysts declare
 unordered and ordered categories through the \texttt{categories} function.
 Analysts can specify a variable is ordered by passing a list to the
@@ -72,12 +72,12 @@ syntactic sugar: `condition'
 \subsubsection{Expressing a conceptual model}
 Once analysts have constructed variables, they can specify how these variables
 relate conceptually. To do so, they construct a \texttt{ConceptualModel} and add
-variable relationships to it (\polish{ref prog}). The conceptual model %\texttt{ConceptualModel}
+variable relationships to it (Lines 21-31 in~\autoref{lst:rTisaneProgram}). The conceptual model %\texttt{ConceptualModel}
 is represented as a graph where the variables are nodes and the relationships
 are edges. 
 
 There are two types of relationships: \causes and \relates. \causes indicates a
-unidirectional influence from a cause to an effect. \polish{Ref prog}. \causes
+unidirectional influence from a cause to an effect. \causes
 introduces a directed edge from the cause node to the effect node. \relates
 indicates that two variables are related but exactly how is ambiguous because
 the analyst is uncertain about the direction of influence. \relates introduces a
@@ -90,7 +90,7 @@ influence.
 
 Towards the design goal of \optionalSpecificity, \rTisane allows analysts to
 optionally specify \when and \then parameters in the \causes and \relates
-functions. \polish{Ref prog}. There are four comparisons analysts can specify in
+functions. There are four comparisons analysts can specify in
 \when and \then: \texttt{increases} (for continuous, ordered categories,
 counts), \texttt{decreases} (for continuous, ordered categories, counts),
 \texttt{equals} (for any measure type), and \texttt{notEquals} (for any measure
@@ -108,7 +108,7 @@ between assumed, or strongly held, and hypothesized, or more uncertain,
 relationships. \rTisane requires analysts to make these explicit distinctions
 (\assumeHypothesize) when adding conceptual relationships to a conceptual model.
 In addition to specifying a relationship type, analysts must either \assume or
-\hypothesize a relationship. \polish{ref program}.
+\hypothesize a relationship. 
 
 % While analysts are thinking through and specifying \causes and \relates
 % relationships, 
@@ -118,7 +118,6 @@ declaring \texttt{interacts}. Interactions are annotations to conceptual models
 and are added to the graph without \assume or \hypothesize. Interactions provide
 additional information about existing relationships in the conceptual model
 (\interactionAsPartialSpec). 
-
 % Causes / relates (types of relationships)
 % Optional specificity: when, then annotations
 % Assume / Hypothesize (label relationships)
@@ -128,7 +127,7 @@ additional information about existing relationships in the conceptual model
 \def\query{\texttt{query}\xspace}
 \subsubsection{Querying for a statistical model}
 Analysts \query \rTisane for a statistical model based on the input conceptual
-model (\polish{ref prog}). The query asks for a statistical model to accurately
+model (Line 31 in~\autoref{lst:rTisaneProgram}). The query asks for a statistical model to accurately
 estimate the average causal effect (ACE) of the independent variable on the
 dependent variable. The querying process initiates the interactive compilation
 process and results in an \texttt{R} script specifying and fitting a generalized
@@ -143,7 +142,7 @@ need to explore possible conceptual structures for resolving ambiguities
 introduced by \relates (\considerPossibilities).
 
 \subsubsection{Conceptual Model Disambiguation} \label{subsec:conceptualModelDisambig} 
-
+\conceptualModelDisambiguation
 The goal of conceptual model disambiguation is to make analysts' expressed
 conceptual models precise enough to derive a statistical model, achieving
 usability and rigor. Conceptual model disambiguation involves breaking cycles in
@@ -153,11 +152,11 @@ multiple different data generating processes that could lead to different
 statistical models. In this way, conceptual model disambiguation can help analysts
 reflect on and clarify their implicit assumptions. 
 
-To disambiguate conceptual models, \rTisane uses a GUI. The GUI shows a graph
-representing analysts' conceptual models (\polish{ref fig}). If there are any \relates
+To disambiguate conceptual models, \rTisane uses a GUI.~\autoref{fig:figureConceptualModelsDisambiguation}) shows the conceptual model disambiguation interface for the input program in~\autoref{lst:rTisaneProgram}. The GUI shows a graph
+representing analysts' conceptual models. If there are any \relates
 relationships, \rTisane suggests ways analysts could assume a direction of
-influence (\polish{ref fig}). Additionally, \rTisane suggests ways to break any cycles in the
-conceptual model (\polish{ref fig}). As analysts make changes, the visible graph updates. The GUI
+influence. Additionally, \rTisane suggests ways to break any cycles in the
+conceptual model. As analysts make changes, the visible graph updates. The GUI
 also explains why both these steps are necessary to derive a statistical model. 
 
 Once analysts have disambiguated their conceptual models, \rTisane updates the
@@ -171,6 +170,7 @@ an NP-hard problem. We adapt a version of Johnson's(?) algorithm.
 \end{comment}
 
 \subsubsection{Statistical model derivation and disambiguation}
+\statisticalModelDisambiguation
 To formulate possible statistical models, \rTisane considers potential
 covariates to control for confounding, interactions, and family and link
 functions.
