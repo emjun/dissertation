@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  1 AUG 2023 09:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  1 AUG 2023 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1419,7 +1419,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 47.
 
 ) [33] (./tea/usage_scenario.tex
-<tea/figures/tea_program.jpg, id=1001, 3863.43375pt x 3922.655pt>
+<tea/figures/tea_program.jpg, id=976, 3863.43375pt x 3922.655pt>
 File: tea/figures/tea_program.jpg Graphic file (type jpg)
 <use tea/figures/tea_program.jpg>
 Package pdftex.def Info: tea/figures/tea_program.jpg  used on input line 2.
@@ -1431,7 +1431,7 @@ Overfull \hbox (106.87238pt too wide) in alignment at lines 1--1
  []
 
 [35]) (./tea/system.tex [36] [37] [38]
-<tea/figures/modes_wide.jpg, id=1080, 6677.94875pt x 4589.145pt>
+<tea/figures/modes_wide.jpg, id=1055, 6677.94875pt x 4589.145pt>
 File: tea/figures/modes_wide.jpg Graphic file (type jpg)
 <use tea/figures/modes_wide.jpg>
 Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 126.
@@ -1461,7 +1461,7 @@ Chapter 4.
 Underfull \vbox (badness 7944) has occurred while \output is active []
 
  [49]
-<hypothesisFormalization/figures/overview_sept_17.png, id=1214, 1027.84pt x 585
+<hypothesisFormalization/figures/overview_sept_17.png, id=1188, 1027.84pt x 585
 .18625pt>
 File: hypothesisFormalization/figures/overview_sept_17.png Graphic file (type p
 ng)
@@ -1478,7 +1478,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51 <./hypothesisFormalization/figures/overview_sept_17.png>]
 (./hypothesisFormalization/related_work.tex [52]
-<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1247,
+<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1222,
  1218.5525pt x 300.12125pt>
 File: hypothesisFormalization/figures/prior_work_combined_july_16_2021.png Grap
 hic file (type png)
@@ -1492,7 +1492,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53]
 [54 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
-<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1269, 835
+<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1244, 835
 .62187pt x 275.0275pt>
 File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic 
 file (type png)
@@ -1509,14 +1509,14 @@ on-tri-bu-tions (e.g., [[];
  []
 
 [58]) [59] (./hypothesisFormalization/lab_study.tex [60] [61] [62]
-<hypothesisFormalization/figures/A11_SS_1.png, id=1381, 548.0475pt x 590.205pt>
+<hypothesisFormalization/figures/A11_SS_1.png, id=1356, 548.0475pt x 590.205pt>
 
 File: hypothesisFormalization/figures/A11_SS_1.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_1.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_1.png  used on 
 input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 204.88174pt.
-<hypothesisFormalization/figures/A11_SS_2.png, id=1382, 564.1075pt x 477.785pt>
+<hypothesisFormalization/figures/A11_SS_2.png, id=1357, 564.1075pt x 477.785pt>
 
 File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
@@ -1618,7 +1618,7 @@ File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 
 pdfTeX warning: pdflatex (file ./tisane/figures/figure4.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<tisane/figures/figure4.pdf, id=1716, 194.47656pt x 147.80219pt>
+<tisane/figures/figure4.pdf, id=1691, 194.47656pt x 147.80219pt>
 File: tisane/figures/figure4.pdf Graphic file (type pdf)
 <use tisane/figures/figure4.pdf>
 Package pdftex.def Info: tisane/figures/figure4.pdf  used on input line 105.
@@ -1668,7 +1668,7 @@ Overfull \hbox (6.92024pt too wide) in paragraph at lines 478--478
 [][]
  []
 
-<tisane/figures/usage_scenario_gui_05012022.png, id=1843, 1343.0175pt x 1002.74
+<tisane/figures/usage_scenario_gui_05012022.png, id=1818, 1343.0175pt x 1002.74
 625pt>
 File: tisane/figures/usage_scenario_gui_05012022.png Graphic file (type png)
 <use tisane/figures/usage_scenario_gui_05012022.png>
@@ -1696,7 +1696,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [108]
 Excluding 'comment' comment. [109]
-<tisane/figures/conceptual-model-disambiguation.png, id=1981, 606.265pt x 348.3
+<tisane/figures/conceptual-model-disambiguation.png, id=1956, 606.265pt x 348.3
 0125pt>
 File: tisane/figures/conceptual-model-disambiguation.png Graphic file (type png
 )
@@ -1710,7 +1710,7 @@ Underfull \vbox (badness 7064) has occurred while \output is active []
  [110]
 Excluding 'comment' comment. [111 <./tisane/figures/conceptual-model-disambigua
 tion.png>]
-<tisane/figures/statistical-model-disambiguation.png, id=1995, 1042.39438pt x 5
+<tisane/figures/statistical-model-disambiguation.png, id=1970, 1042.39438pt x 5
 23.45563pt>
 File: tisane/figures/statistical-model-disambiguation.png Graphic file (type pn
 g)
@@ -1730,7 +1730,7 @@ Overfull \hbox (64.58572pt too wide) in paragraph at lines 78--78
  []
 
 Excluding 'comment' comment. [114]
-<tisane/figures/conceptual-models.png, id=2018, 617.30624pt x 298.11375pt>
+<tisane/figures/conceptual-models.png, id=1993, 617.30624pt x 298.11375pt>
 File: tisane/figures/conceptual-models.png Graphic file (type png)
 <use tisane/figures/conceptual-models.png>
 Package pdftex.def Info: tisane/figures/conceptual-models.png  used on input li
@@ -1747,64 +1747,51 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [122]
 Excluding 'comment' comment. Excluding 'comment' comment.) [123]) [124]
 Chapter 6.
-(./10-conclusion.tex Excluding 'comment' comment. Excluding 'comment' comment.
-Underfull \vbox (badness 5302) has occurred while \output is active []
-
- [125
+(./10-conclusion.tex [125
 
 
-]
+] [126] Excluding 'comment' comment.
+Excluding 'comment' comment. [127] Excluding 'comment' comment.
 Excluding 'comment' comment. Excluding 'comment' comment.
-Underfull \vbox (badness 2495) has occurred while \output is active []
-
- [126]
-
-LaTeX Warning: Reference `todolbl:1' on page 127 undefined on input line 207.
-
-Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment. [127] Excluding 'comment' comment. [128]
-Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment. [129]) [130] [131] (./dissertation.bbl [132
+Excluding 'comment' comment. Excluding 'comment' comment. [128]
+Excluding 'comment' comment.) [129] (./dissertation.bbl [130
 
 
 
-]
+] [131] [132]
 [133] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143] [144]
-[145] [146] [147]
-Underfull \hbox (badness 1199) in paragraph at lines 1301--1307
+[145] [146]
+Underfull \hbox (badness 1199) in paragraph at lines 1320--1326
 []\T1/cmr/m/n/10.95 Wikipedia con-trib-u-tors.  Jmp (sta-tis-ti-cal soft-ware) 
 --- Wikipedia, the free
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 1301--1307
+Underfull \hbox (badness 1924) in paragraph at lines 1320--1326
 \T1/cmr/m/n/10.95 en-cy-clo-pe-dia.  []$\T1/pcr/m/n/10.95 https : / / en . wiki
 pedia . org / w / index . php ? title = JMP _
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 1309--1315
+Underfull \hbox (badness 3746) in paragraph at lines 1328--1334
 []\T1/cmr/m/n/10.95 Wikipedia con-trib-u-tors.  R (pro-gram-ming lan-guage) ---
  Wikipedia, the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1323
+Underfull \hbox (badness 10000) in paragraph at lines 1336--1342
 []$\T1/pcr/m/n/10.95 https : / / en . wikipedia . org / w / index . php ? title
  = SAS _ (software )
  []
 
-[148]
-Underfull \hbox (badness 10000) in paragraph at lines 1325--1330
+
+Underfull \hbox (badness 10000) in paragraph at lines 1344--1349
 \T1/pcr/m/n/10.95 / / en . wikipedia . org / w / index . php ? title = SPSS & o
 ldid = 888470477$[]\T1/cmr/m/n/10.95 ,
  []
 
-) [149] [150
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) 
-has been already used, duplicate ignored
+[147]) [148]pdfTeX warning (ext4): destination with the same identifier (name{c
+hapter.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.72 ...er{Appendix A: Content analysis resources}
@@ -1820,9 +1807,11 @@ identifier (name{section.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.36 \section{Procedure}
-                         \label{appendix:contentAnalysisProcedure} [151]pdfTeX 
-warning (ext4): destination with the same identifier (name{section.1.3}) has be
-en already used, duplicate ignored
+                         \label{appendix:contentAnalysisProcedure} [149
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{section.1.3}
+) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.88 \section{Codebook}
@@ -1846,7 +1835,7 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 89--89
 
 LaTeX Warning: Float too large for page by 321.41754pt on input line 89.
 
-[152] [153]
+[150] [151]
 Overfull \hbox (3.68182pt too wide) in paragraph at lines 133--133
 []|\T1/cmr/bx/n/9 Method| 
  []
@@ -1990,7 +1979,7 @@ Overfull \hbox (48.01431pt too wide) in paragraph at lines 133--133
 
 LaTeX Warning: Float too large for page by 111.274pt on input line 133.
 
-) [154] [155] [156] [157] [158] [159] [160
+) [152] [153] [154] [155] [156] [157] [158
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) 
@@ -2013,21 +2002,21 @@ Overfull \hbox (1.05482pt too wide) in paragraph at lines 2--2
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [161]pdfTeX warning (ext4): destination with the same identifier (name{section
+ [159]pdfTeX warning (ext4): destination with the same identifier (name{section
 .2.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.6 ...ts about adding certain kinds of variables}
                                                   
 <tisane/figures/tisane_screenshots/potential_confounding_association.png, id=23
-95, 886.81313pt x 511.41063pt>
+64, 886.81313pt x 511.41063pt>
 File: tisane/figures/tisane_screenshots/potential_confounding_association.png G
 raphic file (type png)
 <use tisane/figures/tisane_screenshots/potential_confounding_association.png>
 Package pdftex.def Info: tisane/figures/tisane_screenshots/potential_confoundin
 g_association.png  used on input line 7.
 (pdftex.def)             Requested size: 352.31625pt x 203.1794pt.
-) [162 <./tisane/figures/tisane_screenshots/potential_confounding_association.p
+) [160 <./tisane/figures/tisane_screenshots/potential_confounding_association.p
 ng>]pdfTeX warning (ext4): destination with the same identifier (name{chapter.3
 }) has been already used, duplicate ignored
 <to be read again> 
@@ -2045,26 +2034,26 @@ l.1 \section{rTisane study materials}
 Package caption Warning: Unused \captionsetup[sub] on input line 84.
 See the caption package documentation for explanation.
 
-[163
+[161
 
 
 ] (./dissertation.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 37B96BAA6F03D991B202705638D93269;23588.
+(rerunfilecheck)             Checksum: 9712B0B94CBA5D16F4F7091CA84149C7;22663.
  ) 
 Here is how much of TeX's memory you used:
- 41834 strings out of 478994
- 930703 string characters out of 5858184
- 1799788 words of memory out of 5000000
- 57769 multiletter control sequences out of 15000+600000
- 435969 words of font info for 104 fonts, out of 8000000 for 9000
+ 41823 strings out of 478994
+ 930748 string characters out of 5858184
+ 1799741 words of memory out of 5000000
+ 57765 multiletter control sequences out of 15000+600000
+ 434494 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3496b,1916s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not ex
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2117,8 +2106,8 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
-usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/u
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{
+/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/u
 sr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texliv
 e/2021/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb></usr/loc
 al/texlive/2021/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
@@ -2136,31 +2125,29 @@ m/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/
 msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi
-1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi12
-00.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0800
-.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0900.p
-fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb
-></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/l
-ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texli
-ve/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive
-/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2
-021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2021/
-texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texm
-f-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-
-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on dissertation.pdf (163 pages, 10578168 bytes).
+1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx09
+00.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000
+.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.p
+fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/te
+xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on dissertation.pdf (161 pages, 10539701 bytes).
 PDF statistics:
- 2658 PDF objects out of 2984 (max. 8388607)
- 2372 compressed objects within 24 object streams
- 663 named destinations out of 1000 (max. 500000)
- 940 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2619 PDF objects out of 2984 (max. 8388607)
+ 2337 compressed objects within 24 object streams
+ 658 named destinations out of 1000 (max. 500000)
+ 900 words of extra memory for PDF output out of 10000 (max. 10000000)
 

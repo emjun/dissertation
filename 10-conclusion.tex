@@ -1,51 +1,54 @@
 % Reflection: As progress through PhD research, got and grappled with how to get
 % closer to users and to statistical theory in tandem.
 
-While statistical analysis has become more pervasive among end-users who are not
+While statistical analysis has become more pervasive among analysts who are not
 statistical experts, the tools for conducting analyses have continued to require
 high statistical expertise. This dissertation examines how to design and develop
 tools that not only lower the barriers for statistical non-experts but also
 provide guarantees about the validity of authored analyses. We introduce two new
-systems, \tea and \tisane. Both provide DSLs for expressing implicit conceptual
-knowledge and then compile these high-level specifications into statistical
-analyses, Null Hypothesis Significance Tests in \tea (\autoref{chapter:tea}) and
-generalized linear models with or without mixed effects in \tisane
+tools, \tea and \tisane. Both provide DSLs for expressing implicit conceptual
+knowledge. These high-level specifications are then compiled to statistical
+analysis code for Null Hypothesis Significance Tests in \tea (\autoref{chapter:tea}) and
+generalized linear models with or without mixed effects in \tisane/\rTisane.
 (\autoref{chapter:tisane}). 
 % Analysts express their implicit knowledge about
 % their domain and data--as assumptions and hypotheses in Tea and conceptual
 % models in Tisane--and the DSLs compile them into statistical analysis code. 
 Additionally, we develop a theory of hypothesis formalization that describes the
 cognitive and operational steps involved in translating a conceptual research
-question into a statistical analysis implementation in code. Our theory of
-hypothesis formalization retrospectively validated our design in \tea and
-directly inspired the design of \tisane. 
+question into a statistical analysis implementation. Our theory of hypothesis
+formalization retrospectively validated our design in \tea and directly inspired
+the design of \tisane. 
 
-\polish{Relate this work to chasm/bridge that Amelia identified in her work}
-Existing statistical analysis tools are either designed for students learning
-basic statistics or statistical experts~\cite{mcnamara2015bridging}.
-Tools do
-not support statistical non-experts, such as researchers, through the process of
-authoring accurate statistical models. 
+% \polish{Relate this work to chasm/bridge that Amelia identified in her work}
+% Existing statistical analysis tools are either designed for students learning
+% basic statistics or statistical experts~\cite{mcnamara2015bridging}.
+% Tools do
+% not support statistical non-experts, such as researchers, through the process of
+% authoring accurate statistical models. 
 
 \section{Discussion} \label{sec:discussionChallenges} 
 
 This dissertation addresses three challenges central to the thesis that (i)
 programming abstractions focused on capturing analysts' implicit conceptual
-knowledge and (ii) formal representations and reasoning to determine statistical
-analyses benefit statistical non-experts. We discuss each challenge and how the
-projects in this dissertation address them below. 
+knowledge, data collection details, and analysis intents and (ii) automated
+reasoning to determine statistical analyses benefit statistical non-experts. We
+discuss each challenge and how the projects in this dissertation address them
+below. 
 % In developing programming abstractions, formal representations, and automated
 % reasoning approaches for authoring statistical analyses in \tea and \tisane 
 
-\subsection{Challenge 1: Designing the \textit{right} level of abstraction} 
-With any programming language, end-users must learn and use a formalism. \tea
-and \tisane provide high-level abstractions but the key to their design is that
-they abstract the appropriate \textit{conceptual concerns} implicitly involved
-in statistical analyses. In fact, the fact that an abstraction is high or low is
-less relevant. Indeed, a key insight that guided our design of \rTisane
-(\autoref{sec:rTisane}) was that analysts wanted low- and high-level conceptual
-abstractions to express their domain knowledge with varying degrees of detail
-that felt helpful and accurate to them (see~\autoref{sec:exploratoryStudy}).
+\subsection{Challenge 1: Make implicit domain knowledge explicit} 
+% What was key was Designing the \textit{right} level of abstraction
+With any programming language or DSL, end-users must learn a formalism to use
+it. \tea, \tisane, and \rTisane abstract the appropriate \textit{conceptual
+concerns} implicitly involved in statistical analyses. The fact that an
+abstraction is high or low is less relevant than if the abstraction is a the
+\textit{right} level for end-users and their tasks. Indeed, a key insight that
+guided our design of \rTisane (\autoref{sec:rTisane}) was that analysts wanted
+low- and high-level conceptual abstractions to express their domain knowledge
+with varying degrees of detail that felt helpful and accurate to them
+(see~\autoref{sec:exploratoryStudy}).
 
 When comparing the abstractions \tea and \tisane provide, it is easy to see that
 the conceptual relationships between variables were still largely implicit in
@@ -54,23 +57,21 @@ conceptual models, which are present for statistical testing and modeling alike.
 Therefore, conceptual models should be a central concern in designing
 programming abstractions for data analysis. 
 
-\subsection{Challenge 2: Representing and reasoning about analysis decisions}
-% abstractions that are approachable and helpful to users but **amenable to rigorous, formal reasoning**
-% This dissertation argues that formal representations for reasoning about
-% analysis choices is just as important as designing the appropriate programming
-% abstractions. 
-The abstractions that may be usable to statistical non-experts may not be
-precise enough for formal reasoning (\autoref{sec:exploratoryStudy}). Therefore,
-a key challenge in designing representations amenable to reasoning is in finding
-a ``shared representation'' between analysts and computational techniques. Based
-on \tea's key insight that statistical test selection can be reformulated as a
-constraint satisfaction problem, we represented statistical tests using logical
-constraints in a knowledge base. Using \tea's DSL, analysts specify additional
-constraints about their hypothesis and data, which helps \tea's runtime system
-solve a system of constraints to identify valid statistical tests. In \tisane,
-the shared representation is the conceptual model, which \tisane represents as a
-graph. This representation made reasoning about linear model formulations
-straightforward by applying causal reasoning techniques on a part of the graph. 
+\subsection{Challenge 2: Represent and reason about key statistical analysis decisions}
+A key tension when addressing the above challenge is balancing usability with
+rigor. That is, abstractions that are usable to end-users may not be precise
+enough for formal reasoning. Therefore, a key challenge in designing
+representations amenable to reasoning is in finding a ``shared
+representation''~\cite{heer2019agency} between analysts and computational
+techniques. Based on \tea's key insight that statistical test selection can be
+reformulated as a constraint satisfaction problem, we represented statistical
+tests using logical constraints in a knowledge base. Using \tea's DSL, analysts
+specify additional constraints about their hypothesis and data, which helps
+\tea's runtime system solve a system of constraints to identify valid
+statistical tests. In \tisane and \rTisane, the shared representation is the
+conceptual model, which \tisane represents as a graph. This representation made
+reasoning about linear model formulations straightforward by applying causal
+reasoning techniques on a part of the graph. 
 
 In designing these shared representations, a temptation was to fit the DSL on
 top of a reasoning approach that was straightforward. In this view, the DSL
@@ -80,20 +81,21 @@ specific confounders should appear in a generalized linear model. In addition to
 being a clunky way to represent linear model formulation rules when the
 statistics community has converged on using graphs, this prototype required
 analysts to incrementally refine their statistical models by interacting with
-the UNSAT core. This interaction model, though interesting, did not allow us to
-discovery and fully realize the real benefit of expressing conceptual models:
-giving analysts an opportunity to reflect on their assumptions in an open-ended
-way. 
+the UNSAT core. This form of interactivity, though interesting, obfuscated a
+major benefit of expressing conceptual models and disambiguating their graph
+representations: giving analysts an opportunity to reflect on their implicit
+assumptions in an open-ended way.
 
-\subsection{Challenge 3: Interaction as reflection}
+\subsection{Challenge 3: Increase analysts' statistical understanding}
 As we saw in the case studies with \tisane, providing abstractions and
 interactions with shared representations for formal reasoning increases
 analysts' awareness of their implicit assumptions, data, and analysis practices.
-By providing the appropriate abstractions, DSLs can make the specification
-process a useful form of documentation. This may later be useful for sharing and
-inspection. For instance, by stating their implicit conceptual and data
-assumptions in \tea and \tisane, researchers can help improve scientific
-replicability and reproducibility. 
+By providing the appropriate abstractions, DSLs can make the specification a
+useful form of documentation and the process of specifying a reflective
+activity. Both are particularly important for statistical analysis.
+Documentation can improve reproducibility. As we saw in the summative
+evaluation, reflection throughout analysis can also deepen domain thinking and
+prevent drifting analysis goals that lead to questionable conclusions. 
 % Through their involvement in interactive compilation, 
 % reify the connection between the conceptual and
 % statistical in our software tools. In this way, this dissertation brings to the
@@ -111,84 +113,97 @@ Mention LLMs as a technology to use here?
 \end{comment}
 
 \section{Limitations and Future work} \label{sec:futureWork}
-\todo{Add ideas from defense}
+% \todo{Add ideas from defense}
+By addressing each of core challenges, the DSLs and automated reasoning
+approaches in this dissertation makes it possible for statistical non-experts to
+more readily author valid analyses. There are important limitations of this work
+that suggest promising future directions for further lowering the barriers to
+statistical analysis. 
+% We elaborate one some of the
+% limitations of this work and opportunities for future research. 
 
-This dissertation scrutinizes how statistical non-experts author statistical
-analyses. We elaborate one some of the limitations of this work and
-opportunities for future research. 
+\subsection{Support interpretation of statistical results}
+% \polish{Mention: Did not fully address Challenge 3 fully, this is a fertile ground for future work}
+While \tea, \tisane and \rTisane effectively address the gulf of execution by
+compiling conceptual knowledge, data collection details, and intents for
+analysis into statistical analyses, they fall short of bridging the gulf of
+evaluation. \tisane and \rTisane doe not yet provide support for analysts to
+interpret the results of their statistical models. Accurate interpretation of
+statistical results is critical for follow-up analyses, such as model revisions,
+and communication. Future work should address two key challenges: (i)
+statistical reporting designs to enhance the understanding of
+results~\footnote{In unpublished work building on \tea, we started to explore
+the first challenge by using a combination of textual explanations and
+visualizations. A next step is to evaluate the changes.} and (ii) support for
+navigating the consequences of the results, such as updates to analysts'
+conceptual models or the need to revise statistical models. A promising first
+step is to directly answer a query in \rTisane by providing the estimate of the
+independent variable's influence on the dependent variable, not just a
+statistical modeling script. Even this small change would better address
+\thesisChallengeUnderstanding. 
 
-\paragraph{Address additional aspects of validity}
-This thesis focused on internal, external, and statistical conclusion validity. However, could reason about construct validity with LLMs.
+\begin{comment}
+Tisane's focus is on authoring GLMs/GLMMs, but accurate interpretation is also necessary. For instance, analysts may need
+help interpreting what their statistical models and results mean in relation to
+their input conceptual models. Do the results suggest their conceptual model is
+correct? What kind of inferences should they make? Future work should address
+these interpretation challenges, which may require eliciting hypotheses and expected results from analysts.
 
-Campbell's theory of validity -- encompassing statistical conclusion, internal,
-external, and construct
-validity~\cite{campbell2015quasiexperimentalDesigns,cook2002generalizedCausalInference}
--- has influenced disciplines widely (e.g.,~\cite{shadish2010campbell}),
-including epidemiology (e.g.,~\cite{matthay2020causalDAGEpi}), software
-engineering (e.g.,~\cite{neto2013conceptual}), and psychology
-(e.g.,~\cite{campbell2015quasiexperimentalDesigns}). Viewed through the
-Campbellian framework, Tisane helps analysts avoid four common threats to
-statistical conclusion and external validity: (i) violation of statistical
-method assumptions, (ii) fishing for statistical results, (iii) not accounting
-for the influence of specific units, and (iv) overlooking the influence of data
-collection procedures on outcomes~\cite{cook2002generalizedCausalInference}.
-
-Most notable is construct validity -- which LLMs could help with? 
-
-* Pull on thread that the specification process can be a meaningful one - finding in summative evaluation*
+Although researchers in our pilot or case studies did not presume
+Tisane helped with formal causal analysis, the ability to express causal
+relationships (\texttt{causes}) may lead some analysts to erroneously assume
+that their models assess causality. Changing the name of the language construct
+and/or building out support to interpret GLM/GLMM results may resolve this concern. One way to support accurate interpretation and reporting could be to
+output a figure representing the input conceptual model along with visual
+summaries of the data and/or statistical model for direct inclusion in publications. 
+Tisane could also allow analysts to annotate their disambiguation decisions with
+their own rationale and provide a richer log of selections than currently
+supported. Tisane could even accept these augmented logs to save the state of the GUI in between analysis sessions.
+\end{comment}
 
 
-Correct analyses are more important than ever -- Mention stanford university prof?
+\subsection{Guide statistical model revision and iteration}
+Analysts in the summative evaluation of \rTisane (\autoref{sec:summativeEval})
+started to iterate on \rTisane's output statistical model and sought more
+support for model revision. There are two key challenges in supporting a more
+iterative modeling workflow, such as a Bayesian
+Workflow~\cite{gelman2020bayesianWorkflow}: (i) recognizing when conceptual
+revisions are necessary and (ii) identifying and suggesting model changes that
+maintain conceptual validity or, at the very least, quantify conceptual shifts.
+Furthermore, in the model revision process, analysts may consider multiple
+alternatives. Addressing these challenges will likely require reasoning from
+statistical models to conceptual models and may benefit from the fact that
+\tisane and \rTisane already generate a space of statistical models to seed
+statistical model disambiguation. 
+% By supporting statistical model iteration,
+% \tisane and \rTisane in particular can become platforms for future research on
+% how to support more phases of the data lifecycle, such as experimental design
+% and data collection.
 
-Tisane fills a need to align analysts' conceptual models with the statistical
-models they want to implement but find difficult to express with the current
-tools available. By integrating conceptual, data, and statistical concerns,
-Tisane facilitates the hypothesis
-formalization~\cite{jun2021hypothesisFormalization} process, which can be an
-error-prone and cognitively demanding process that existing tools do not yet support.
+% In the future, we plan to develop additional strategies for enhancing the
+% validity of analyses authored with Tisane. As discussed in
+% Section~\ref{sec:disambiguation}, our current approach to family and link
+% functions is only an initial step. We look forward to developing and
+% comparing multiple strategies for scaffolding the family and link function
+% selection and revision process. For example, what if the Tisane GUI allowed
+% analysts to fit multiple models that varied in their family and link functions,
+% plotted each model's residuals against the predicted values, and gave analysts
+% visual guides for comparing models? To avoid false discovery rate inflation,
+% Tisane could partition analysts' data, fit models to only a subset, and output a
+% script for fitting a selected model using another subset. Although possible for
+% large datasets, this strategy would encounter limited statistical power for smaller
+% datasets. Alternatively, what if Tisane calculated Bayes factors for variables
+% in the
+% models~\cite{raftery1996approximate,gelfand1994bayesian,czado2006choosing} after
+% analysts tried multiple family and link combinations? Carefully balancing
+% statistical rigor and usefulness to domain researchers who may be statistical
+% non-experts deserves careful consideration.
 
-\subsection{Explicit support for statistical model revision and iteration}
-In the future, we plan to develop additional strategies for enhancing the
-validity of analyses authored with Tisane. As discussed in
-Section~\ref{sec:disambiguation}, our current approach to family and link
-functions is only an initial step. We look forward to developing and
-comparing multiple strategies for scaffolding the family and link function
-selection and revision process. For example, what if the Tisane GUI allowed
-analysts to fit multiple models that varied in their family and link functions,
-plotted each model's residuals against the predicted values, and gave analysts
-visual guides for comparing models? To avoid false discovery rate inflation,
-Tisane could partition analysts' data, fit models to only a subset, and output a
-script for fitting a selected model using another subset. Although possible for
-large datasets, this strategy would encounter limited statistical power for smaller
-datasets. Alternatively, what if Tisane calculated Bayes factors for variables
-in the
-models~\cite{raftery1996approximate,gelfand1994bayesian,czado2006choosing} after
-analysts tried multiple family and link combinations? Carefully balancing
-statistical rigor and usefulness to domain researchers who may be statistical
-non-experts deserves careful consideration.
-
-We
-look forward to extending Tisane to support model iteration, which presents two
-technical challenges: (i) recognizing when conceptual revisions are necessary
-and (ii) identifying and suggesting model changes that maintain conceptual
-validity or, at the very least, quantify conceptual shifts. Furthermore, in the model revision process, analysts may consider
-multiple alternatives. As R3 described, he preferred to run multiple variations
-of a model and compare them, a workflow akin to a multiverse
-analysis~\cite{steegen2016increasing}. Given that Tisane already generates a
-combinatorial space of candidate statistical models, Tisane could generate a
-multiverse script for Boba~\cite{liu2020boba} instead. A multiverse could help
-check the robustness of findings, and Boba's visual analyzer could help analysts
-further develop an understanding of their data and modeling choices. A
-multiverse may also help analysts explore and compare family and link
-combinations as well.
-
-Tisane is one tool designed to enable analysts with limited statistical expertise to
-author valid statistical models. Tisane enables future possibilities and raises
-open research questions for creating an ecosystem of analysis tools that align
-tool interfaces with analysts' conceptual goals.
-
---> Could be first step towards supporting more phases of the lifecycle?
-
+% Tisane is one tool designed to enable analysts with limited statistical expertise to
+% author valid statistical models. Tisane enables future possibilities and raises
+% open research questions for creating an ecosystem of analysis tools that align
+% tool interfaces with analysts' conceptual goals.
+\begin{comment}
 \subsection{Support more phases of the data lifecycle}
 This dissertation emphasizes the need for abstractions that capture analysts'
 implicit domain knowledge. These abstractions enable valid analysis formulation
@@ -204,46 +219,44 @@ inter-operating tools to track and ensure validity throughout the data lifecycle
 % meaningful evolution of conceptual knowledge? By tackling these questions, we
 % can revolutionize data analysis and develop comprehensive tools that seamlessly
 % integrate domain expertise.
-
-\subsection{Support interpretation of statistical results}
-While Tisane effectively addresses the gulf of execution by compiling conceptual
-models into statistical models, it falls short of bridging the gulf of
-evaluation. Tisane does not yet provide support for analysts to interpret the
-results of their statistical models. Future research should focus on two related
-challenges: (i) improving statistical reporting to enhance the understanding of
-results and (ii) providing support for navigating the consequences of the
-results, such as updates to analysts' conceptual models or the need to revise
-statistical models.
-
-Tisane's focus is on authoring GLMs/GLMMs, but accurate interpretation is also necessary. For instance, analysts may need
-help interpreting what their statistical models and results mean in relation to
-their input conceptual models. Do the results suggest their conceptual model is
-correct? What kind of inferences should they make? Future work should address
-these interpretation challenges, which may require eliciting hypotheses and expected results from analysts.}
-
-Although researchers in our pilot or case studies did not presume
-Tisane helped with formal causal analysis, the ability to express causal
-relationships (\texttt{causes}) may lead some analysts to erroneously assume
-that their models assess causality. Changing the name of the language construct
-and/or building out support to interpret GLM/GLMM results may resolve this concern. One way to support accurate interpretation and reporting could be to
-output a figure representing the input conceptual model along with visual
-summaries of the data and/or statistical model for direct inclusion in publications. 
-Tisane could also allow analysts to annotate their disambiguation decisions with
-their own rationale and provide a richer log of selections than currently
-supported. Tisane could even accept these augmented logs to save the state of the GUI in between analysis sessions.
+\end{comment}
 
 \subsection{Connect statistical modeling and testing} 
-A natural question arising from this dissertation is the choice between Tea and
-Tisane for analysts. Tea focuses on statistical testing, determining evidence
-for or against a specific claim, while Tisane emphasizes statistical modeling,
-estimating variable influences in the presence of other variables (e.g.,
-confounders, mediators, etc.) However, statistical testing and modeling are not
-mutually exclusive. Analysts often want to conduct tests after building models
-to answer substantive questions as well as assess model fit. A compelling future
-direction is to enable analysts to ask follow-up questions about specific
-estimates and effects from a statistical model. 
+A natural question arising from this dissertation is the choice between \tea and
+\tisane/\rTisane for analysts. \tea focuses on statistical testing, determining
+evidence for or against a specific claim, while \tisane and \rTisane emphasize
+statistical modeling, estimating variable influences in the presence of other
+variables (e.g., confounders, mediators, etc.) However, statistical testing and
+modeling are not mutually exclusive. Analysts often want to conduct tests after
+building models to answer substantive questions as well as assess model fit. A
+compelling future direction is to enable analysts to ask follow-up questions
+about specific estimates and effects from a statistical model, which may itself
+prompt additional statistical modeling. 
 
+\begin{comment}
 \subsection{Develop a grammar of study design}
+In \tea, \tisane, and \rTisane we explored different primitives for expressing
+data collection details. \tea provides constructs for explicitly specifying a
+study type and independent/dependent variables. \tisane and \rTisane focus on
+capturing the frequency of measurement and any nesting of observations. The goal
+of these constructs is to leverage a data schema
+
+
+These
+different approaches start to touch on different representations of data that
+are worth exploring. Tisane's graph IR is an entity-relationship (ER)
+model~\cite{chen1976ERDiagram}. ER models, or diagrams, are used to describe
+data schema. 
+
+Primitives in existing
+libraries for experimental design and data collection influenced our language
+constructs. However, there may be more usable ways to express data collection
+details. For instance, participants in the exploratory lab study
+(\autoref{sec:exploratoryStudy}) suggested syntactic sugar. However, 
+
+, which start
+to touch on different representations of data
+
 \polish{Mention syntactic sugar from exploratory study}
 There are relationships between Tisane's language constructs for specifying data
 collection details, data schema specification, and experimental design. How
@@ -255,11 +268,55 @@ entities relate to other entities and attributes. In Tisane, a variable of Unit
 type can be viewed as an entity. The \texttt{nests\_within} edge describes how
 two units, or entities, relate to one another. Tisane's graph IR also relates
 units (entities) to measures (attributes).
+\end{comment}
 
+\begin{comment}
 \subsection{Specialized domain-specific language constructs?}
 \polish{Mention domain-specific language constructs?}
+\end{comment}
 
+\subsection{Design for additional aspects of validity during statistical analysis}
+A goal of the tools in this thesis is to produce statistical analyses that are
+valid-by-design based on an expressed analysis intent. We prioritized internal,
+external, and statistical conclusion validity. For instance, viewed through the
+Campbellian framework of
+validity~\cite{campbell2015quasiexperimentalDesigns,cook2002generalizedCausalInference},
+\tisane helps analysts avoid four common threats to statistical conclusion and
+external validity: (i) violation of statistical method assumptions, (ii) fishing
+for statistical results, (iii) not accounting for the influence of specific
+units, and (iv) overlooking the influence of data collection procedures on
+outcomes~\cite{cook2002generalizedCausalInference}. A major barrier to designing
+for construct validity was in having access to and incorporating a knowledge
+base about any domain of analysis. However, recent advances in language models,
+such as GPT-3~\cite{brown2020language} and GPT-4, now provide one form of said knowledge base.
+Therefore, future work should explore ways to leverage such technologies to help
+analysts assess the reasonableness of proxies for constructs of interest, author
+conceptual models using proxies, compare construct models that may exist in the
+wild, and validate the ``reasonableness'' of expressed conceptual models. These
+directions to support construct validity will likely benefit analysts because
+they further a benefit of \rTisane: turning the conceptual model specification
+process into a reflective activity. 
+% marshall
 
+% Campbell's theory of validity -- encompassing statistical conclusion, internal,
+% external, and construct
+% validity~\cite{campbell2015quasiexperimentalDesigns,cook2002generalizedCausalInference}
+% -- has influenced disciplines widely (e.g.,~\cite{shadish2010campbell}),
+% including epidemiology (e.g.,~\cite{matthay2020causalDAGEpi}), software
+% engineering (e.g.,~\cite{neto2013conceptual}), and psychology
+% (e.g.,~\cite{campbell2015quasiexperimentalDesigns}). 
+% Most notable is construct validity -- which LLMs could help with? 
+
+% Correct analyses are more important than ever -- Mention stanford university prof?
+
+% Tisane fills a need to align analysts' conceptual models with the statistical
+% models they want to implement but find difficult to express with the current
+% tools available. By integrating conceptual, data, and statistical concerns,
+% Tisane facilitates the hypothesis
+% formalization~\cite{jun2021hypothesisFormalization} process, which can be an
+% error-prone and cognitively demanding process that existing tools do not yet support.
+
+\begin{comment}
 \subsection{Promote analytical best practices in science}
 In the long term...
 Tea and Tisane primarily follow a top-down authoring approach, where analysts
@@ -285,6 +342,7 @@ both be consistent with aspects of conceptual models researchers know and assess
 evidence for other competing aspects of conceptual models.
 
 Motivation: Recent news about Stanford University president
+\end{comment}
 
 \begin{comment}
 \subsection{Improving data science education}
@@ -330,17 +388,22 @@ awareness of how to organize their computational approach.
 \end{comment}
 
 \section{Impact}
-\ej{Include details of where this code is available, open source, etc.}
+% \ej{Include details of where this code is available, open source, etc.}
 The most rewarding part of conducting the work in this dissertation has been to
-see real-world use cases and adoption of tools. As of May 2023, \tea has been
-downloaded 15K times, and the first release of \tisane has been downloaded 12K
-times. Over the last few years, I have also enjoyed reading and answering a
-flurry of emails where analysts, including scientists and social scientists,
-share anecdotes of how they have used (and sometimes failed to use) \tea and
-\tisane.
+see real-world use case of tools. As of May 2023, \tea has been downloaded 15K
+times, and the first release of \tisane has been downloaded 12K times. All code
+is open source and available \href{https://github.com/tea-lang-org}{online}.
+Over the last few years, I have also enjoyed reading and answering flurries of
+emails where analysts, including many scientists and social scientists, share
+anecdotes of how they have used (and sometimes failed to use) \tea and \tisane.
+There are a couple success stories I want to highlight. First, an HCI researcher
+used \tisane and caught an analysis bug prior to submitting and ultimately
+publishing a research paper at ACM CHI~\cite{baughan2022dissociation}. Second, a
+collaborator at IHME used \tisane to validate a model as part of a larger health
+policy research project, which was published at a top
+journal~\cite{johnson2022varied}.
 
-\ej{Add IHME anecdote/story/example?}
-
+\begin{comment}
 To more systematically capture and act on these kinds of anecdotes in the
 future, I am excited to develop a web platform for \tea and \tisane, where users
 can share their programs, data, and insights. Over time, I hope to collect a
@@ -351,26 +414,15 @@ if end-users repeatedly use \tea and \tisane or if these are one-off
 engagements. I look forward to not only pursuing ideas and systems developed in
 this dissertation but also fostering a community of users. 
 % who can not only inform future research but also benefit from future systems. 
-
 % Also future opportunities for deploying and testing a community of users 
+\end{comment}
 
 \section{Closing Remarks}
-
-designed and implemented two systems, Tea~\cite{jun2019tea} and
-Tisane~\cite{jun2022tisane}, that leverage \textbf{domain-specific languages}
-(DSLs) to capture analysts' implicit assumptions and conceptual knowledge. Users
-\textbf{interactively compile} these high-level specifications into low-level
-code. To infer valid statistical analyses, the systems \textbf{programmatically
-represent and reason about core statistical authoring challenges} as constraints
-and graphs.% (\autoref{fig:tools}).
-As a result, my systems prevent common analysis
-mistakes~\cite{jun2019tea,jun2022tisane}. 
-
-This thesis furthers our understanding of what makes statistical analyses
-difficult to author and then designs and implements two domain-specific
-languages (DSLs) to addressing these issues. The DSLs illustrate that automating
-aspects of statistical analysis benefits statistical non-experts. However, more
-importantly, this dissertation illustrates how we can 
-- designing abstractions that capture intent 
-- reifying the connection between domain knowledge and statistical analysis 
-- designing interfaces and interactions that increase analyst awareness of the impact of analysis, rationale. <-- change this based on rTisane eval? 
+Statistical data analysis shapes science, policy, and business. Software tools
+for authoring analyses are essential. However, these tools do not serve a long
+tail of users who are not statistical experts. Statistical analysis software
+must help these analysts (i) express what they know about their domain, the
+data, and their intents for analysis and (ii) guide them towards valid
+statistical analyses and conclusions. This dissertation aims to enable people,
+regardless of statistical background, reliably analyze data to guide discovery
+and inform decision-making. 
