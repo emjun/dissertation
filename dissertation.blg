@@ -1,12 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: dissertation.aux
-White space in argument---line 490 of file dissertation.aux
- : \citation{bayesian
- :                    workflow}
-I'm skipping whatever remains of this command
 The style file: alpha.bst
-Reallocated field_info (elt_size=4) to 10336 items from 5000.
+Reallocated field_info (elt_size=4) to 10405 items from 5000.
 Database file #1: references.bib
 Warning--entry type for "klemmerCoursera" isn't style-file defined
 --line 1696 of file references.bib
@@ -52,45 +48,45 @@ Warning--empty journal in matlabStats
 Warning--empty journal in velentgas2013developing
 Warning--empty journal in PNAS2
 Warning--empty journal in PNAS6
-You've used 231 entries,
+You've used 234 entries,
             2543 wiz_defined-function locations,
-            1727 strings with 44228 characters,
-and the built_in function-call counts, 102413 in all, are:
-= -- 9889
-> -- 6109
+            1741 strings with 44868 characters,
+and the built_in function-call counts, 104113 in all, are:
+= -- 10045
+> -- 6253
 < -- 121
-+ -- 2228
-- -- 2193
-* -- 7834
-:= -- 17065
-add.period$ -- 690
-call.type$ -- 231
-change.case$ -- 1735
-chr.to.int$ -- 216
-cite$ -- 261
-duplicate$ -- 3637
-empty$ -- 6716
-format.name$ -- 2413
-if$ -- 20502
-int.to.chr$ -- 16
++ -- 2283
+- -- 2247
+* -- 7991
+:= -- 17369
+add.period$ -- 699
+call.type$ -- 234
+change.case$ -- 1769
+chr.to.int$ -- 218
+cite$ -- 264
+duplicate$ -- 3678
+empty$ -- 6797
+format.name$ -- 2468
+if$ -- 20819
+int.to.chr$ -- 17
 int.to.str$ -- 0
-missing$ -- 212
-newline$ -- 1134
-num.names$ -- 695
-pop$ -- 1793
+missing$ -- 215
+newline$ -- 1149
+num.names$ -- 704
+pop$ -- 1820
 preamble$ -- 1
-purify$ -- 1984
+purify$ -- 2021
 quote$ -- 0
-skip$ -- 3182
+skip$ -- 3217
 stack$ -- 0
-substring$ -- 4920
-swap$ -- 621
+substring$ -- 4997
+swap$ -- 624
 text.length$ -- 121
 text.prefix$ -- 61
 top$ -- 0
-type$ -- 1784
+type$ -- 1808
 warning$ -- 30
-while$ -- 910
-width$ -- 239
-write$ -- 2870
-(There was 1 error message)
+while$ -- 923
+width$ -- 242
+write$ -- 2908
+(There were 37 warnings)

@@ -160,7 +160,6 @@ differences, and surprises between statistical models.
 \end{comment}
 
 \subsection{Findings}
-\polish{1-2 sentences highlighting key findings.}
 \subsubsection{RQ1: \rTisane's Impact on Conceptual Models}
 
 \textbf{Key takeaway: \rTisane scaffolded and productively constrained how analysts expressed
@@ -498,88 +497,120 @@ is nevertheless indicative of….
 
 
 \subsection{Discussion}
-\polish{*Short* discussion of rTisane! GOAL: 10 sentences}
+\rTisane benefits analysts' conceptual models and statistical models. \rTisane's
+DSL is expressive to capture analysts' diverse, nuanced conceptual models. In
+addition, Importantly, the DSL's language constructs served as a starting point
+for statistical analysts to reflect on their domain knowledge. A consequence of
+\rTisane's DSL and interactive compilation process is that some participants
+were able to author statistical analyses that they were not able to author on
+their own. Others could author statistical models that fit the data better than
+their own statistical models. These results highlight three key insights in
+\rTisane: the benefits of a formalism, balancing usability and rigor, and the
+potential for re-purposing the intermediate representation. 
 
-rTisane allowed less-experienced analysts to author (check SM output: valid?)
-statistical analyses that they would not have been able to author on their own
-or would have taken them a lot more time. Two ingredients were critical: the
-formalism provided in rTisane’s DSL and the conceptual model disambiguation
-interface.
+% Benefit of formalism: Usability - communication tension Formalism as scaffolding
+% and reflection While rTisane does not address the challenges of domain
+% knowledge, it does focus analysts on aspects they can have control over.
+% [Address how rTisane does not address all the problems users face] 
 
-Benefit of formalism: Usability - communication tension Formalism as scaffolding
-and reflection While rTisane does not address the challenges of domain
-knowledge, it does focus analysts on aspects they can have control over.
-[Address how rTisane does not address all the problems users face] While
-unbounded expression (as tempting with ChatGPT) is enticing, but a key benefit
-of rTisane is that it reduces the potentially infinite space of conceptual
-relationships into a finite set that is expressible in the API. The API is good
-enough to capture what people want to say. The formalism has the added benefit
-that it provides constraints/scaffolds for end-users to explore the boundaries
-of their domain knowledge. A map for reflection. 
+While unbounded expression in natural language, especially in the era of
+ChatGPT~\cite{brown2020language}, is enticing, we found that participants found
+the prospect of expressing their conceptual models using any means daunting. A
+key benefit of \rTisane is that it introduces a formalism that productively
+reduces the potentially infinite space of how to express conceptual
+relationships into a finite set that is expressible in the API. Furthermore,
+based on feedback from participants in the summative evaluation, it seems that
+the DSL is effective because it is not only expressive but also usable, which we
+attribute to our iterative language design process involving end-users.
+Moreover, learning to use \rTisane's formalism required participants to reflect
+on their domain knowledge. This highlights how a DSL structures the
+specification and can turn the process of specification into a reflective
+activity. In this regard, the conceptual disambiguation step was critical. The
+graph visualization in the GUI helped analysts reflect on what they expressed
+and how to resolve any ambiguities present. 
 
-The CM disambiguation interface enabled participants to ensure that their
-expressed conceptual model is what they intended and think more deeply about
-their domain. Participants emphasized using these conceptual models as boundary
-objects with collaborators, especially those with less statistical expertise.
-One participant, P8, even equated conceptual models to the process diagrams in
-scientific papers. Put another way, conceptual models are useful intermediate
-representation for not just statistical analysis but also communication, a
-direction we are excited to pursue in the future. 
+% The API is good enough to capture what people want to
+% say. The formalism has the added benefit that it provides constraints/scaffolds
+% for end-users to explore the boundaries of their domain knowledge. A map for
+% reflection. 
 
-**important**Interpreted using the theory of hypothesis formalization, we find
-that analysts author statistical models following a pattern similar to
-hypothesis formalization. rTisane embodies hypothesis formalization, a core
-activity in statistical authoring + skill in developing statistical expertise.
-Therefore, we gain evidence of the benefits of supporting hypothesis
-formalization in tools. 
+A key challenge in designing \rTisane was balancing usability and rigor. On one
+hand, we wanted to make it easy for analysts to express their conceptual models
+(usability), but we also wanted to ensure that the conceptual models they
+expressed were amenable to formal causal reasoning to derive statistical models
+(rigor). We were able to achieve both in \rTisane by designing usable language
+constructs in the DSL and increasing precision for rigor during disambiguation.
 
-Larger takeaway: ** Not about just the scaffolded steps but about the tool
-support for executing each of these steps**
+Finally, participants discussed the potential for using conceptual models to
+communicate with less technical collaborators. Implicit in this recommendation
+is an acknowledgement of the usefulness of a conceptual model as an intermediate
+representation. While \rTisane is focused on using conceptual models to derive
+statistical models, there may be additional ``backends'' to target, such as
+scientific model diagramming or planning study procedures. 
+% While a concern for adoption is that analysts may not want to express conceptual
+% models if they do not see additional benefit
+% Participants emphasized using these conceptual models as boundary
+% objects with collaborators, especially those with less statistical expertise.
+% One participant, P8, even equated conceptual models to the process diagrams in
+% scientific papers. Put another way, conceptual models are useful intermediate
+% representation for not just statistical analysis but also communication, a
+% direction we are excited to pursue in the future. 
 
-\subsubsection{Key takeaways}
-\textbf{Larger takeaway: ** Not about just the scaffolded steps but about the tool support for executing each of these steps**}
+% The CM disambiguation interface enabled participants to ensure that their
+% expressed conceptual model is what they intended and think more deeply about
+% their domain. Participants emphasized using these conceptual models as boundary
+% objects with collaborators, especially those with less statistical expertise.
+% One participant, P8, even equated conceptual models to the process diagrams in
+% scientific papers. Put another way, conceptual models are useful intermediate
+% representation for not just statistical analysis but also communication, a
+% direction we are excited to pursue in the future. 
+
+% **important**Interpreted using the theory of hypothesis formalization, we find
+% that analysts author statistical models following a pattern similar to
+% hypothesis formalization. rTisane embodies hypothesis formalization, a core
+% activity in statistical authoring + skill in developing statistical expertise.
+% Therefore, we gain evidence of the benefits of supporting hypothesis
+% formalization in tools. 
+% Larger takeaway: ** Not about just the scaffolded steps but about the tool
+% support for executing each of these steps**
+
+% \subsubsection{Key takeaways}
+% \textbf{Larger takeaway: ** Not about just the scaffolded steps but about the tool support for executing each of these steps**}
 
 \subsection{Limitations and Future Work on \rTisane}
-While participants found rTisane helpful, they suggested three major areas of
+While participants found \rTisane helpful, they suggested three major areas of
 improvement: (i) statistical model interpretation, (ii) iterative model
 revision, (iii) system usability. 
 
-Once analysts execute the output statistical model from rTisane, they find the
-output results too low-level. Because rTisane uses lme4 under the hood, the
-outputs are the default model outputs from lme4. However, given that rTisane’s
+Once analysts execute the output statistical model from \rTisane, they find the
+output results too low-level. Because \rTisane uses lme4 under the hood, the
+outputs are the default model outputs from lme4. However, given that \rTisane's
 input language is at the conceptual level, analysts expected the outputs to at
 least relate back to the conceptual model they input. In other words, the input
 and output levels of abstraction should be commensurate. This support would
 facilitate what analysts already try to do with statistical analyses they author
-on their own without rTisane. P8 found the output from lme4 overwhelming,
-saying, “Looking at the summary() in R was too much to look at.” He suggested a
-simple way to tie the results back to his input conceptual model: “Would be nice
-if you could have the same visual representation with p-values/coefficients!”
-
-{While an output table with coefficient values might be appropriate for a
-low-level library that takes as input low-level statistical model syntax, the
-output should be commensurately high level with the input language Participants
-wanted to know what the results meant and their implications for their
-conceptual models. They wanted tighter/further connection between conceptual and
-statistical models. For instance, quote…..}
+on their own without \rTisane. P8 found the output from lme4 overwhelming,
+saying, ``Looking at the summary() in R was too much to look at.'' He suggested a
+simple way to tie the results back to his input conceptual model: ``Would be nice
+if you could have the same visual representation with p-values/coefficients!''
 
 Furthermore, while participants could iterate on their conceptual models by
 adding or removing variables and relationships, they could not engage in a
-larger iteration loop with their output statistical model from rTisane.
+larger iteration loop with their output statistical model from \rTisane.
 Improving statistical result interpretation would help with model iteration. In
 addition, participants also sought more direct support. For instance, P11
-described the rTisane output statistical model as “an initial or baseline model
-but follow-up evaluation of the model is needed.” They wanted to “go back and
-tweak things a bit” about their statistical model. This kind of model iteration
-is not only typical of the participants’ workflows but also even a best practice
-recommendation from the statistics community~\cite{bayesian workflow}.
+described the \rTisane output statistical model as ``an initial or baseline model
+but follow-up evaluation of the model is needed.'' They wanted to ``go back and
+tweak things a bit'' about their statistical model. This kind of model iteration
+is not only typical of the participants' workflows but also even a best practice
+recommendation from the statistics community~\cite{gelman2020modelExpansion}.
 Supporting novice and more experienced analysts revise models will likely
 require different levels of abstraction and automation. 
 
 Finally, participants found going back and forth between code and an interface
 outside their IDE complicated and ``clunky.'' While part of this may have been
-in part due to the fact that participants were using rTisane on a remote
-desktop, embedding rTisane in a notebook seems likely to reduce major usability
+in part due to the fact that participants were using \rTisane on a remote
+desktop, embedding \rTisane in a notebook seems likely to reduce major usability
 issues. Additionally, participants gave suggestions for syntactic sugar for
 specifying conceptual models. For example, instead of specifying multiple causes
 and relates statements, they wished they could batch specify and add them to the

@@ -171,6 +171,14 @@ Douglas Bates, Martin M{\"a}chler, Ben Bolker, and Steve Walker.
 \newblock Fitting linear mixed-effects models using lme4.
 \newblock {\em arXiv preprint arXiv:1406.5823}, 2014.
 
+\bibitem[BMR{\etalchar{+}}20]{brown2020language}
+Tom Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared~D Kaplan, Prafulla
+  Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell,
+  et~al.
+\newblock Language models are few-shot learners.
+\newblock {\em Advances in neural information processing systems},
+  33:1877--1901, 2020.
+
 \bibitem[Bob17]{bobriakov2017:top15Python}
 Igor Bobriakov.
 \newblock Top 15 python libraries for data science in 2017.
@@ -495,7 +503,14 @@ Robin Greenwood, Andrei Shleifer, and Yang You.
 \newblock Bubbles for fama.
 \newblock {\em Journal of Financial Economics}, 131(1):20--43, 2019.
 
-\bibitem[GVS{\etalchar{+}}20]{gelman2020bayesianWorkflow}
+\bibitem[GVS{\etalchar{+}}20a]{gelman2020bayesianWorkflow}
+Andrew Gelman, Aki Vehtari, Daniel Simpson, Charles~C Margossian, Bob
+  Carpenter, Yuling Yao, Lauren Kennedy, Jonah Gabry, Paul-Christian
+  B{\"u}rkner, and Martin Modr{\'a}k.
+\newblock Bayesian workflow.
+\newblock {\em arXiv preprint arXiv:2011.01808}, 2020.
+
+\bibitem[GVS{\etalchar{+}}20b]{gelman2020modelExpansion}
 Andrew Gelman, Aki Vehtari, Daniel Simpson, Charles~C Margossian, Bob
   Carpenter, Yuling Yao, Lauren Kennedy, Jonah Gabry, Paul-Christian
   B{\"u}rkner, and Martin Modr{\'a}k.
@@ -1076,6 +1091,12 @@ SAS.
 \bibitem[SAS20b]{jmpDOE}
 SAS.
 \newblock Jmp, 2020.
+
+\bibitem[SG89]{star1989boundaryObjects}
+Susan~Leigh Star and James~R Griesemer.
+\newblock Institutional ecology,translations' and boundary objects: Amateurs
+  and professionals in berkeley's museum of vertebrate zoology, 1907-39.
+\newblock {\em Social studies of science}, 19(3):387--420, 1989.
 
 \bibitem[SH17]{gosset}
 N.J.A. Sloane and R.H. Hardin.
