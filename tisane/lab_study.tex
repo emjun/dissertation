@@ -61,14 +61,8 @@ materials.
 \noindent \paragraph{Participants} We recruited 13 data analysts on Upwork. We
 screened for participants who reported having experience with authoring
 generalized linear models and using R at a three or higher on a five-point
-scale.~\autoref{tab:summativeEvaluationParticipants} summarizes the participants' backgrounds. 
-
-\polish{Update based on recruitment:On
-average, participants reported having conducted N projects using generalized
-linear models. Participants were familiar with a range of software tools,
-including...} 
-
-All studies were conducted over Zoom. Participants used \rTisane
+scale.~\autoref{tab:summativeEvaluationParticipants} summarizes the
+participants' backgrounds. All studies were conducted over Zoom. Participants used \rTisane
 on a remote controlled computer, so they did not have to install it on their
 own. Each study lasted between two and three hours. Participant was compensated
 \$25 per hour. We recorded participants' screens, video, and audio throughout
@@ -441,19 +435,6 @@ model, six participants said the models were as they expected [P4, 6, 10, 11,
 % When using rTisane, P2 got as output a GLM with Occupation as the only IV and Income as the DV. While P2 wanted more of an explanation for why additional variables were not needed, he found that using rTisane made him think ``more about how things were related...more about relationships, what’s proven beforehand and what you’re looking to prove’’ [P2]. 
 % This suggesting opportunities to not only explain the result of an analysis but also why the tool did the SM. 
 
-\theme{\rTisane needs to provide more support for selecting family and link functions.}
-Despite benefiting from rTisane, many participants had difficulty picking family
-and link functions in rTisane [P2, P4, P5, P9, P10, P11]. P4 explained, ``I
-didn't understand the benefit or tradeoffs between different specifications. It
-wasn't obvious to me how to create a linear OLS regression, or why I would want
-to use a specification besides linear OLS.'' Given how frequently participants
-described \rTisane as facilitating higher-level of thinking, we attribute the
-difficulty of selecting family and link functions to the stark contrast between
-\rTisane’s relatively high-level conceptual modeling abstractions and the
-low-level nature of selecting family and link functions. In the future, it will
-likely be more usable for \rTisane to suggest a specific pair and explain its
-suggestion rather than require the analyst to pick.
-
 % Given that asking about family and link functions is a low-level statistical
 % implementation detail, the contrast between rTisane’s conceptual modeling
 % abstractions and the family and link selection options was particularly stark.
@@ -583,9 +564,23 @@ scientific model diagramming or planning study procedures.
 % \textbf{Larger takeaway: ** Not about just the scaffolded steps but about the tool support for executing each of these steps**}
 
 \subsection{Limitations and Future Work on \rTisane}
-While participants found \rTisane helpful, they suggested three major areas of
-improvement: (i) statistical model interpretation, (ii) iterative model
-revision, (iii) system usability. 
+While participants found \rTisane helpful, they suggested four areas of
+improvement: (i) family and link function selection, (ii) statistical model
+interpretation, (iii) iterative model revision, and (iv) general system
+usability. 
+
+% \theme{\rTisane needs to provide more support for selecting family and link functions.}
+Despite benefiting from rTisane, many participants had difficulty picking family
+and link functions in rTisane [P2, P4, P5, P9, P10, P11]. P4 explained, ``I
+didn't understand the benefit or tradeoffs between different specifications. It
+wasn't obvious to me how to create a linear OLS regression, or why I would want
+to use a specification besides linear OLS.'' Given how frequently participants
+described \rTisane as facilitating higher-level of thinking, we attribute the
+difficulty of selecting family and link functions to the stark contrast between
+\rTisane’s relatively high-level conceptual modeling abstractions and the
+low-level nature of selecting family and link functions. In the future, it will
+likely be more usable for \rTisane to suggest a specific pair and explain its
+suggestion rather than require the analyst to pick.
 
 Once analysts execute the output statistical model from \rTisane, they find the
 output results too low-level. Because \rTisane uses lme4 under the hood, the

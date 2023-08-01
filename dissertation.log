@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  1 AUG 2023 15:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  1 AUG 2023 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1387,13 +1387,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \tf@lot=\write8
 \openout8 = `dissertation.lot'.
 
- [17] [18
-
-
-
-]
+ [17] [18]
 Chapter 1.
-(./04-intro.tex Excluding 'comment' comment. [19] Excluding 'comment' comment.
+(./04-intro.tex Excluding 'comment' comment. [19
+
+
+
+] Excluding 'comment' comment.
 Underfull \vbox (badness 1997) has occurred while \output is active []
 
  [20]
@@ -1419,7 +1419,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 47.
 
 ) [33] (./tea/usage_scenario.tex
-<tea/figures/tea_program.jpg, id=981, 3863.43375pt x 3922.655pt>
+<tea/figures/tea_program.jpg, id=983, 3863.43375pt x 3922.655pt>
 File: tea/figures/tea_program.jpg Graphic file (type jpg)
 <use tea/figures/tea_program.jpg>
 Package pdftex.def Info: tea/figures/tea_program.jpg  used on input line 2.
@@ -1431,7 +1431,7 @@ Overfull \hbox (106.87238pt too wide) in alignment at lines 1--1
  []
 
 [35]) (./tea/system.tex [36] [37] [38]
-<tea/figures/modes_wide.jpg, id=1060, 6677.94875pt x 4589.145pt>
+<tea/figures/modes_wide.jpg, id=1062, 6677.94875pt x 4589.145pt>
 File: tea/figures/modes_wide.jpg Graphic file (type jpg)
 <use tea/figures/modes_wide.jpg>
 Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 126.
@@ -1461,7 +1461,7 @@ Chapter 4.
 Underfull \vbox (badness 7944) has occurred while \output is active []
 
  [49]
-<hypothesisFormalization/figures/overview_sept_17.png, id=1194, 1027.84pt x 585
+<hypothesisFormalization/figures/overview_sept_17.png, id=1196, 1027.84pt x 585
 .18625pt>
 File: hypothesisFormalization/figures/overview_sept_17.png Graphic file (type p
 ng)
@@ -1478,7 +1478,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51 <./hypothesisFormalization/figures/overview_sept_17.png>]
 (./hypothesisFormalization/related_work.tex [52]
-<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1227,
+<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1229,
  1218.5525pt x 300.12125pt>
 File: hypothesisFormalization/figures/prior_work_combined_july_16_2021.png Grap
 hic file (type png)
@@ -1492,7 +1492,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53]
 [54 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
-<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1249, 835
+<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1251, 835
 .62187pt x 275.0275pt>
 File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic 
 file (type png)
@@ -1509,14 +1509,14 @@ on-tri-bu-tions (e.g., [[];
  []
 
 [58]) [59] (./hypothesisFormalization/lab_study.tex [60] [61] [62]
-<hypothesisFormalization/figures/A11_SS_1.png, id=1361, 548.0475pt x 590.205pt>
+<hypothesisFormalization/figures/A11_SS_1.png, id=1363, 548.0475pt x 590.205pt>
 
 File: hypothesisFormalization/figures/A11_SS_1.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_1.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_1.png  used on 
 input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 204.88174pt.
-<hypothesisFormalization/figures/A11_SS_2.png, id=1362, 564.1075pt x 477.785pt>
+<hypothesisFormalization/figures/A11_SS_2.png, id=1364, 564.1075pt x 477.785pt>
 
 File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
@@ -1618,7 +1618,7 @@ File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 
 pdfTeX warning: pdflatex (file ./tisane/figures/figure4.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<tisane/figures/figure4.pdf, id=1696, 194.47656pt x 147.80219pt>
+<tisane/figures/figure4.pdf, id=1698, 194.47656pt x 147.80219pt>
 File: tisane/figures/figure4.pdf Graphic file (type pdf)
 <use tisane/figures/figure4.pdf>
 Package pdftex.def Info: tisane/figures/figure4.pdf  used on input line 105.
@@ -1668,7 +1668,7 @@ Overfull \hbox (6.92024pt too wide) in paragraph at lines 478--478
 [][]
  []
 
-<tisane/figures/usage_scenario_gui_05012022.png, id=1823, 1343.0175pt x 1002.74
+<tisane/figures/usage_scenario_gui_05012022.png, id=1825, 1343.0175pt x 1002.74
 625pt>
 File: tisane/figures/usage_scenario_gui_05012022.png Graphic file (type png)
 <use tisane/figures/usage_scenario_gui_05012022.png>
@@ -1696,7 +1696,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [108]
 Excluding 'comment' comment. [109]
-<tisane/figures/conceptual-model-disambiguation.png, id=1961, 606.265pt x 348.3
+<tisane/figures/conceptual-model-disambiguation.png, id=1963, 606.265pt x 348.3
 0125pt>
 File: tisane/figures/conceptual-model-disambiguation.png Graphic file (type png
 )
@@ -1710,7 +1710,7 @@ Underfull \vbox (badness 7064) has occurred while \output is active []
  [110]
 Excluding 'comment' comment. [111 <./tisane/figures/conceptual-model-disambigua
 tion.png>]
-<tisane/figures/statistical-model-disambiguation.png, id=1975, 1042.39438pt x 5
+<tisane/figures/statistical-model-disambiguation.png, id=1977, 1042.39438pt x 5
 23.45563pt>
 File: tisane/figures/statistical-model-disambiguation.png Graphic file (type pn
 g)
@@ -1719,30 +1719,20 @@ Package pdftex.def Info: tisane/figures/statistical-model-disambiguation.png  u
 sed on input line 173.
 (pdftex.def)             Requested size: 352.31625pt x 176.91823pt.
 ) [112 <./tisane/figures/statistical-model-disambiguation.png>]
-(./tisane/lab_study.tex [113]
-Overfull \hbox (483.66296pt too wide) in paragraph at lines 69--70
-[][][][][][][] 
- []
-
-
-Overfull \hbox (64.58572pt too wide) in paragraph at lines 78--78
-[][] 
- []
-
-Excluding 'comment' comment. [114]
-<tisane/figures/conceptual-models.png, id=1998, 617.30624pt x 298.11375pt>
+(./tisane/lab_study.tex [113] [114] Excluding 'comment' comment.
+<tisane/figures/conceptual-models.png, id=2000, 617.30624pt x 298.11375pt>
 File: tisane/figures/conceptual-models.png Graphic file (type png)
 <use tisane/figures/conceptual-models.png>
 Package pdftex.def Info: tisane/figures/conceptual-models.png  used on input li
-ne 169.
+ne 163.
 (pdftex.def)             Requested size: 352.31625pt x 170.14494pt.
- [115 <./tisane/figures/conceptual-models.png>] [116] [117]
-Underfull \vbox (badness 3690) has occurred while \output is active []
+ [115 <./tisane/figures/conceptual-models.png>] [116] [117] [118]
+Underfull \vbox (badness 7851) has occurred while \output is active []
 
- [118]
-[119] Excluding 'comment' comment. [120] Excluding 'comment' comment. [121])
+ [119]
+Excluding 'comment' comment. Excluding 'comment' comment. [120] [121])
 (./tisane/discussion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1990) has occurred while \output is active []
 
  [122]
 Excluding 'comment' comment. Excluding 'comment' comment.) [123]) [124]
@@ -2009,7 +1999,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 l.6 ...ts about adding certain kinds of variables}
                                                   
 <tisane/figures/tisane_screenshots/potential_confounding_association.png, id=23
-71, 886.81313pt x 511.41063pt>
+72, 886.81313pt x 511.41063pt>
 File: tisane/figures/tisane_screenshots/potential_confounding_association.png G
 raphic file (type png)
 <use tisane/figures/tisane_screenshots/potential_confounding_association.png>
@@ -2042,10 +2032,10 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 255AEAE86796A7416F6A206BF5A03D82;22908.
  ) 
 Here is how much of TeX's memory you used:
- 41829 strings out of 478994
- 930915 string characters out of 5858184
- 1799768 words of memory out of 5000000
- 57769 multiletter control sequences out of 15000+600000
+ 41827 strings out of 478994
+ 930887 string characters out of 5858184
+ 1799905 words of memory out of 5000000
+ 57768 multiletter control sequences out of 15000+600000
  434494 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3496b,1916s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2144,10 +2134,10 @@ ve/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 1/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on dissertation.pdf (161 pages, 10542980 bytes).
+Output written on dissertation.pdf (161 pages, 10543707 bytes).
 PDF statistics:
- 2626 PDF objects out of 2984 (max. 8388607)
- 2344 compressed objects within 24 object streams
- 660 named destinations out of 1000 (max. 500000)
+ 2627 PDF objects out of 2984 (max. 8388607)
+ 2345 compressed objects within 24 object streams
+ 659 named destinations out of 1000 (max. 500000)
  908 words of extra memory for PDF output out of 10000 (max. 10000000)
 
