@@ -50,7 +50,7 @@ Warning--empty journal in PNAS2
 Warning--empty journal in PNAS6
 You've used 237 entries,
             2543 wiz_defined-function locations,
-            1752 strings with 46081 characters,
+            1752 strings with 46134 characters,
 and the built_in function-call counts, 106368 in all, are:
 = -- 10241
 > -- 6456

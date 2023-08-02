@@ -644,8 +644,9 @@ Eunice Jun, Maureen Daum, Jared Roesch, Sarah~E Chasins, Emery~D Berger, Rene
 
 \bibitem[JMHJ23]{jun2023rTisane}
 Eunice Jun, Edward Misback, Jeffrey Heer, and Ren{\'e} Just.
-\newblock rtisane: Formalizing conceptual models to author statistical models
-  reduces error, increases awareness, and teaches novices.
+\newblock \textit{Work in progress:} {rTisane}: Formalizing conceptual models
+  to author statistical models fosters deeper reflection on domain knowledge
+  and enhances statistical modeling.
 \newblock In {\em Under submission}, 2023.
 
 \bibitem[Jol18]{jolly2018pymer4}
