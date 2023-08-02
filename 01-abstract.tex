@@ -33,29 +33,64 @@ researchers with expertise outside of statistics. Existing statistical tools,
 prioritizing mathematical expressivity and computational control, are low-level
 while researchers' motivating questions and hypotheses are high-level.
 Researchers need to translate their questions and hypotheses into low-level
-statistical code in an error-prone process that involves grappling with their
-domain knowledge, statistics, and programming. 
+statistical code in an error-prone process. 
+% This thesis views statistical analysis authoring as an end-user software
+% engineering problem.
+This thesis views statistical analysis authoring as a sensemaking process that
+involves grappling with domain knowledge, statistics, and programming concerns.
+To this end, I develop a framework characterizing the cognitive and operational
+steps involved in translating research questions into statistical analysis code,
+which I call \hypoForm. I also design, implement, and evaluate two new DSLs and
+runtimes that embody \hypoForm. The DSLs leverage automated reasoning to compile
+high-level specifications of analysis intent into analysis code.
 
-This dissertation introduces two tools that embody a new way of authoring
-analyses: Tea and Tisane. Researchers directly express their domain knowledge
-through higher level abstractions, and the tools will validate the data, select
-a statistical analysis, and implement it, all while educating analysts about why
-a statistical approach is valid. Tea helps analysts author statistical tests.
-Tea's key insight is that statistical test selection can be cast as a constraint
-satisfaction problem. Tisane enables analysts to author generalized linear
-models with or without mixed effects, which are difficult for even statistical
-experts to author. Using Tisane, analysts can express their conceptual models
-using a high-level domain specific language. Tisane translates these conceptual
-models into causal DAGs and engages analysts in a disambiguation process to
-arrive at an output statistical model. Real-world researchers have already used
-these tools to conduct analyses in published research that push their own
-disciplines forward. I will also introduce ``hypothesis formalization,'' a series
-of cognitive and operational steps analysts take to translate their research
-questions into statistical implementations. Hypothesis formalization
-retrospectively explains why Tea improves statistical testing and directly
-inspired the design of Tisane. 
+The first of these is \tea for authoring Null Hypothesis Significance
+Tests. Analysts specify their study design, assumptions about data, and
+hypotheses in \tea's DSL. \tea represents statistical test selection as
+constraint satisfaction, so it compiles an analyst's specification into a system
+of constraints to identify a set of valid statistical tests. A benchmark
+comparison found that \tea's test selection is comparable to that of experts and
+better than a naive test selection approach. 
 
-Tea and Tisane serve as platforms for further research into computational
-support for statistical analysis. This work also exemplifies how combining
-human-computer interaction with other areas in and outside of computer science
-leads to software tools that impact real-world users.
+This dissertation also introduces \tisane for authoring generalized linear
+models with or without mixed effects. Analysts specify their domain knowledge in
+the form of a conceptual model, data collection details, and focus of analysis
+in \tisane's DSL. Internally, \tisane represents this conceptual model as a
+graph, which it traverses to derive a space of statistical models based on
+causal reasoning recommendations. Then, in an interactive disambiguation
+process, \tisane involves analysts in narrowing the space of possible
+statistical models to one final output statistical modeling script. In case
+studies, we found that \tisane shifted researchers' focus from analysis details
+to their research questions and streamlined the analysis authoring process. To
+further improve the usability of the \tisane DSL, I conducted an exploratory
+elicitation study using \tisane as a probe, re-designed and re-implemented
+\tisane in R as \rTisane, and then evaluated \rTisane in a controlled lab study.
+The summative evaluation demonstrated that \rTisane's DSL helped analysts
+introspect on their implicit domain assumptions more deeply, stay true to their
+analysis intent, and produce statistical models that better fit the data. In
+all, these systems and evaluations are evidence for how conceptually focused
+DSLs coupled with automated reasoning do lower the barriers to valid analyses.
+
+
+% This dissertation introduces a new way of authoring analyses two tools that embody a new way of authoring
+% analyses: Tea and Tisane. Researchers directly express their domain knowledge
+% through higher level abstractions, and the tools will validate the data, select
+% a statistical analysis, and implement it, all while educating analysts about why
+% a statistical approach is valid. Tea helps analysts author statistical tests.
+% Tea's key insight is that  Tisane enables analysts to author generalized linear
+% models with or without mixed effects, which are difficult for even statistical
+% experts to author. Using Tisane, analysts can express their conceptual models
+% using a high-level domain specific language. Tisane translates these conceptual
+% models into causal DAGs and engages analysts in a disambiguation process to
+% arrive at an output statistical model. Real-world researchers have already used
+% these tools to conduct analyses in published research that push their own
+% disciplines forward. I will also introduce ``hypothesis formalization,'' a series
+% of cognitive and operational steps analysts take to translate their research
+% questions into statistical implementations. Hypothesis formalization
+% retrospectively explains why Tea improves statistical testing and directly
+% inspired the design of Tisane. 
+
+% Tea and Tisane serve as platforms for further research into computational
+% support for statistical analysis. This work also exemplifies how combining
+% human-computer interaction with other areas in and outside of computer science
+% leads to software tools that impact real-world users.
