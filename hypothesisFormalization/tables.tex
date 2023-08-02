@@ -1,6 +1,8 @@
 \DeclareUnicodeCharacter{2212}{-}
 \newcommand{\tquote}[1]{\emph{\textcolor{darkgray}{``#1''}}}
 \newcommand{\tableLitSurveyCodes}{
+\footnotesize
+\setlength{\extrarowheight}{10pt} % Add extra space
     \begin{longtable}{>{\raggedright}p{0.16\linewidth} p{0.80\linewidth} p{0.04\linewidth}}
         % xsize
         \caption{The \codebook for analyzing the content of research publications. The rightmost column is the percentage of paragraphs tagged with the code.} \\ 
@@ -13,119 +15,141 @@
             %%%%
             \multicolumn{2}{l}{\textbf{Research Goals}}
             & \\
+            & & \\ % For formatting
             %%% 
             Question or statement of unknown & 
             Explicit, clear statement about an unknown phenomenon or an open-ended question \newline
             \tquote{However, the ontogeny of holistic recollection is uncharted.}~\cite{PS9}
             & 4.2 \\
+            & & \\ % For formatting
             %%% 
             Predicted outcomes & 
             A clear conjecture of an outcome that does not specify a specific mathematical relationship \newline
             \tquote{We hypothesized that the outward current is mainly carried by FA anions...}~\cite{N2}
             & 6.8 \\
+            & & \\ % For formatting
             %%% 
             Specific statistical expectation & 
             A conjecture specifying how observations will be related to one another mathematically/statistically \newline
             \tquote{If this dependency measure (data-independent model) was significantly greater than zero, this provided evidence for significant retrieval dependency...}~\cite{PS9}
             & 0.1 \\
+            & & \\ % For formatting
             %%% 
             Specific objectives & 
             Statements about reaching objectives \newline
             \tquote{To assess the potential clinical relevance of the neo-development of a neuronal network in prostate cancer, DCX+ cells were quantified in benign prostate hyperplasia...}~\cite{N9}
             & 2.6 \\
+            & & \\ % For formatting
             %%% 
             Examination of associations & 
             A statement about examining a relationship between two or more concepts \newline
             \tquote{We next examine whether proxies for these factors appear to affect the transactions costs in the secondary market for private equity stakes.}~\cite{JFE2}
             & 3.8 \\
+            & & \\ % For formatting
             %%% 
             \midrule
             %%%%
             \multicolumn{2}{l}{\textbf{Data Sample Information}} \\
+            & & \\ % For formatting
             %%% 
             Study design and protocol & 
             Information about the procedures used or prototypes developed to collect the data for analysis, such as any assays or experimental designs, including any limitations (e.g, conditions/randomization, interventions, treatments) \newline
             \tquote{Before the experiment, we introduced the working principle of HandSee. Then we tested the techniques one by one. For each technique, we first demonstrated our interaction technique. After...}~\cite{CHI3}
             & 20.8 \\
+            & & \\ % For formatting
             %%% 
             Initial data sourcing & 
             Information about the source, size, and characteristics of the data sample that was collected or analyzed \newline
             \tquote{A total of 32 four-year-old children (15 female; age: M = 52.05 months, SD = 3.37) and 30 six-year-old children (17 female; age: M = 76.37 months; SD = 2.16) from the Philadelphia area participated in the study...} ~\cite{PS9}
             & 9.8 \\
+            & & \\ % For formatting
             %%% 
             Data filtering/sampling & 
             Any criteria, procedures, and decisions to filter, remove, combine, and split data for data quality, sub-analyses, or robustness (e.g., sampling from existing datasets, removing outliers, etc.) \newline
             \tquote{As for the US data, we restrict our attention to sectors with ten or more firms. } ~\cite{JFE9}
             & 6.4 \\
+            & & \\ % For formatting
             %%% 
             Details about data used for analysis & 
             Any summary statistics (e.g., mean, standard deviation, distribution, etc.) and other information describing the final data sample used for statistical analysis \newline
             \tquote{All subjects' mean values were within 2.5 standard deviations from the group mean; therefore, they were all included in the following analyses.} ~\cite{PS7}
             & 2.9 \\
+            & & \\ % For formatting
             %%%
             \midrule
             %%%%
-            & & \\ % For formatting 
-            & & \\ % For formatting 
             \multicolumn{2}{l}{\textbf{Statistical Analysis}} \\
+            & & \\ % For formatting
             %%% 
             Proxy & 
             Any information about how concepts are measured, including any limitations, etc.; Can be established or new ways of measuring a construct \newline
             \tquote{Our definition of a price run-up is based on the industry value-weighted return.} ~\cite{JFE9}
             & 12.3 \\
+            & & \\ % For formatting
             %%% 
             Equation & 
             Any mathematical equation, using symbols or sentences \newline
             \tquote{The absolute number of cells was calculated as ((number of Lin−eYFP+ cells acquired $×$ cellularity of the organ)/number of live single cells acquired).} ~\cite{N9}
             & 2.4 \\
+            & & \\ % For formatting
             %%% 
             Statistical specification & 
             Describing a statistical model (e.g., linear regression), test (e.g. Student's t-test), or other procedure (e.g., contingency table) for analyzing the data \newline
             \tquote{Frequentist null-hypothesis significance testing was complemented with Bayesian hypothesis testing, which quantified the evidence for the presence or absence of effects...} ~\cite{PS0}
             & 18.7 \\
+            & & \\ % For formatting
             %%% 
             \midrule
             %%%%
             \multicolumn{2}{l}{\textbf{Results}} \\
+            & & \\ % For formatting
             %%% 
             Statistical results & 
             Reporting the findings (not usage) of statistical analyses or models, refer to specific quantified metrics (e.g., ratio, coefficient, correlation, etc.) with specific values (e.g., numbers) or aspects of values (e.g., positive estimate, positive relationship) \newline
-            \tquote{In all experiments, when the entire sample size (N 24) was included in the analyses, the main findings in each experiment remained significant for all color-memory estimates (for paired comparisons, all ts > 2.74, ps  .012, and BF10s = 4.32; for three-group comparisons, all Fs > 7.07, ps  .0021, and BF10s = 16.64). } ~\cite{PS0}
+            \tquote{In all experiments, when the entire sample size (N 24) was included in the analyses, the main findings in each experiment remained significant for all color-memory estimates (for paired comparisons, all ts > 2.74, ps  .012, and BF10s = 4.32; for three-group comparisons, all Fs > 7.07, ps  .0021, and BF10s = 16.64).}~\cite{PS0}
             & 10.7 \\
+            & & \\ % For formatting
             %%% 
             Interpreted results & 
             What the statistical results mean conceptually \newline
             \tquote{This result supports the notion that the economies of scale...can induce larger firms to hedge more extensively.} ~\cite{JFE1}
             & 30.9 \\
+            & & \\ % For formatting
             %%% 
             Causal model & 
             A causal model or mechanism (with a clear cause and effect) supported by the data and statistical analysis results \newline
             \tquote{Here we show that GUN1 interacts with MORF2/RIP2 (herein only the name MORF2 will be used) to affect the efficiency of editing for multiple sites in plastid RNAs during...} ~\cite{PNAS0}
             & 0.2 \\
+            & & \\ % For formatting
             %%% 
             Results from other non-statistical methods & 
             Any results derived from methods other than statistics; could be from qualitative, observational, or visual analyses \newline
             \tquote{Feeling deceived by Yelp, users (n=14) demanded a “full disclosure” (O120) of the algorithm's presence through the interface design by putting the filtered reviews in “PLAIN SIGHT” (O120)...} ~\cite{CHI4}
             & 7.3 \\
+            & & \\ % For formatting
             %%% 
             Other outcomes & 
             Implications for what the results could lead to, future research \newline
             \tquote{Lastly, our work might fuel a new investigation into the uncanny valley of haptics [4].} ~\cite{CHI0}
             & 1.6 \\
+            & & \\ % For formatting
             %%% 
             Limitations & 
             Any caveats or limitations about the statistical results \newline
             \tquote{We acknowledge that a limitation of the present study is that the sample size may not be considered particularly large.} ~\cite{PS1}
             & 1.1 \\
+            & & \\ % For formatting
             %%% 
             \midrule
             %%%%
             \multicolumn{2}{l}{\textbf{Computation}} \\
+            & & \\ % For formatting
             %%% 
             Software & 
             Any mention of software used for data analysis \newline
             \tquote{We calculated BFs using the BayesFactor package...for the R software environment...} ~\cite{PS0}
             & 2.9 \\
+            & & \\ % For formatting
             %%% 
             Computational details & 
             Any details about parameters or other settings used for data analysis \newline
@@ -140,18 +164,20 @@
         %\vspace{1pt}
         % \footnotesize
         \label{table:litSurveyCodeBook}
-        \end{longtable}    
+        \end{longtable}  
+        \normalsize  
 }
 
 \newcommand{\tableCHIContribs}{
-\begin{table*}
-        \centering
-        \footnotesize
-        \caption{Summary of CHI papers in our dataset.}
+\setlength{\extrarowheight}{10pt} % Add extra space
+\begin{longtable}{>{\raggedright}p{0.23\textwidth} p{0.4\textwidth}p{0.06\textwidth}p{0.06\textwidth}p{0.09\textwidth}p{0.06\textwidth}}
+        % \centering
+        % \footnotesize
+        \caption{Summary of CHI papers in our dataset.} \\
         % \vspace{-15pt}
         \setlength{\tabcolsep}{4pt}
-        \begin{tabular}{>{\raggedright}p{0.31\linewidth} p{0.42\linewidth}p{0.06\linewidth}p{0.06\linewidth}p{0.09\linewidth}p{0.06\linewidth}}
-        \hline
+        % \begin{tabular}{>{\raggedright}p{0.31\linewidth} p{0.42\linewidth}p{0.06\linewidth}p{0.06\linewidth}p{0.09\linewidth}p{0.06\linewidth}}
+        % \hline
         \textbf{Title} & \textbf{Short summary} & \textbf{Method} & \textbf{System} & \textbf{Empirical} & \textbf{Other} \\
         \toprule 
         %%%%
@@ -166,54 +192,63 @@
         \no & 
         \no &
         \no \\
+        & & & & & \\ % For formatting
         Engaging High School Students in Cameroon with Exam Practice Quizzes via SMS and WhatsApp~\cite{CHI1} & 
         The researchers provide study support through quiz questions delivered through SMS or WhatsApp. The researchers observe differences in participation during a three-week deployment. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Springlets: Expressive, Flexible and Silent On-Skin Tactile Interfaces~\cite{CHI2} & 
         Springlets is a mechano-tactile interface for skin. The authors discuss its design, fabrication, user perceptions, and possible applications. & 
         \no & 
         \yes & 
         \no &
         \no \\
+        & & & & & \\ % For formatting
         HandSee: Enabling Full Hand Interaction on Smartphones with Front Camera-based Stereo Vision~\cite{CHI3} & 
         The authors are able to detect a phone user's gripping and touching interactions by using a mirror on the front camera to obtain stereo vision. & 
         \yes & 
         \yes & 
         \no &
         \yes \\
+        & & & & & \\ % For formatting
         User Attitudes towards Algorithmic Opacity and Transparency in Online Reviewing Platforms~\cite{CHI4} & 
         The authors ask three research questions around how Yelp users view algorithmic control/intervention on the platform and how increasing their awareness of it through a system changes their perspectives and opinions about it. The authors find that individuals that are more invested in Yelp as reviewers are more likely to defend the platform's algorithms. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Slow Robots for Unobtrusive Posture Correction~\cite{CHI5} & 
         The authors develop and evaluate a system for automatically correcting user posture. The authors conduct two empirical studies, one formative and one evaluation. The formative study identifies end user perception of moving screens. The evaluation study evaluates user experience and how often users corrected their posture. The authors use mixed methods, both quantitative and qualitative/observational in their studies. & 
         \no & 
         \yes & 
         \no &
         \no \\
+        & & & & & \\ % For formatting
         May AI? Design Ideation with Cooperative Contextual Bandits~\cite{CHI6} & 
         The authors develop a new technique and system for co-creation with an AI. They evaluate the effects of the AI on a series of task and creativity measures. They find that the AI is helpful in some dimensions. & 
         \no & 
         \yes & 
         \no &
         \no \\
+        & & & & & \\ % For formatting
         The Effects of Interruption Timings on Autonomous Height-Adjustable Desks that Respond to Task Changes~\cite{CHI7} & 
         The authors investigate the most opportune time to adjust desks for improved ergonomics while minimizing interruption and annoyance/negative experiences during tasks. The authors find that changing desk height during task transition periods are the least disruptive, but end-users are dubious/have less trust in the automated adjustments. On the other hand, adjusting desk height after end-users have initiated a new task/changed tasks causes increased disruption but also increased trust in the automated desk. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Caring for Vincent: A Chatbot for Self-compassion~\cite{CHI8} & 
         The authors design a chatbot and then see how taking care of or being taken by the chatbot affects self-compassion. The authors test this hypothesis quantitatively and then follow-up with additional analyses about gender and tendency for self-compassion. The authors further contextualize these quantitative results with qualitative analyses about what and how participants interact with the chatbots. Synthesizing the quantitative and qualitative results together, the authors derive implications for designing chatbots. & 
         \no & 
         \yes & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         FTVR in VR: Evaluating 3D Performance With a Simulated Volumetric Fish-Tank Virtual Reality Display~\cite{CHI9} & 
         The authors test the perceptual benefits and subjective preferences of Stereo, NonStereo, and Monocular views in VR. They find that Stereo has time and accuracy benefits for a variety of tasks (Experiment 3). & 
         \no & 
@@ -221,19 +256,21 @@
         \yes &
         \no \\
         \bottomrule
-        \end{tabular}
+        % \end{tabular}
+        % \footnotesize
         \label{table:CHIContribs}
-        \end{table*}
+        \end{longtable}
 }
 \newcommand{\tableJFEContribs}{
-        \begin{table*}
-        \centering
-        \footnotesize
-        \caption{Summary of JFE papers in our dataset.}
+        \setlength{\extrarowheight}{10pt} % Add extra space
+        \begin{longtable}{>{\raggedright}p{0.23\textwidth} p{0.4\textwidth}p{0.06\textwidth}p{0.06\textwidth}p{0.09\textwidth}p{0.06\textwidth}}
+        % \centering
+        % \footnotesize
+        \caption{Summary of JFE papers in our dataset.} \\
         % \vspace{-15pt}
         \setlength{\tabcolsep}{4pt}
-        \begin{tabular}{>{\raggedright}p{0.35\linewidth} p{0.37\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}}
-        \hline
+        % \begin{tabular}{>{\raggedright}p{0.35\linewidth} p{0.37\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}}
+        % \hline
         \textbf{Title} & \textbf{Short summary} & \textbf{Method} & \textbf{System} & \textbf{Empirical} & \textbf{Other} \\
         \toprule 
         %%%%
@@ -247,54 +284,63 @@
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Do firms hedge with foreign currency derivatives for employees?~\cite{JFE1} & 
         The authors present evidence of a relationship between firms' employee treatment scores and the fraction of revenue hedged with currency-based derivatives. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         The liquidity cost of private equity investments: Evidence from secondary market transactions~\cite{JFE2} & 
         The authors characterize how transaction costs in the secondary market for private equity stakes are determined. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Institutional investor cliques and governance~\cite{JFE3} & 
         The authors examine how investors coordinate to influence governance. & 
         \yes & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Policy externalities and banking integration~\cite{JFE4} & 
         The author investigates if and how policies aimed at the banking sector in one region have ripple effects in other regions. The author identifies ``financial linkages'' as the ``transmission channel'' for these policies to affect other areas. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Do labor markets discipline? Evidence from RMBS bankers~\cite{JFE5} & 
         The authors examine if and how there were any disciplinary actions taken in the mortgage/housing banking industry after the housing crisis of 2008. The authors consider internal and external discipline (within firms and overall). They find that there were no disciplinary measures taken. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Firing the wrong workers: Financing constraints and labor misallocation~\cite{JFE6} & 
         The authors develop a theoretical model for the impact of financial constraints on firing. They find that firms first fire short-term workers even though those workers might provide longer-term value to the firms. & 
         \yes & 
         \no & 
         \no &
         \no \\
+        & & & & & \\ % For formatting
         Time-varying ambiguity, credit spreads, and the levered equity premium~\cite{JFE7} & 
         The authors propose a new proxy of ambiguity that captures Knightian uncertainty. They build a new model using this proxy to explain credit spreads and pricing of equity and other financial metrics. & 
         \yes & 
         \no & 
         \no &
         \no \\
+        & & & & & \\ % For formatting
         The power of shareholder votes: Evidence from uncontested director elections~\cite{JFE8} & 
         The authors investigate the impact of dissenting votes on directors who are elected without contestation. The authors find that shareholder votes impact director's career trajectories negatively. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Bubbles for Fama~\cite{JFE9} & 
         The authors test a widely held theory/hypothesis about if stock prices experience bubbles and can be detected a priori. They find that they cannot (cannot disprove hypothesis) and find that sharp price increases predict a probability of a crash, and several other factors predict future crashes and returns. & 
         \no & 
@@ -302,19 +348,20 @@
         \yes &
         \no \\
         \bottomrule
-        \end{tabular}
+        % \end{tabular}
         \label{table:JFEContribs}
-        \end{table*}
+        \end{longtable}
 }
 \newcommand{\tableNatureContribs}{
-        \begin{table*}
-        \centering
-        \footnotesize
-        % \vspace{-15pt}
-        \caption{Summary of Nature papers in our dataset.}
+        \setlength{\extrarowheight}{10pt} % Add extra space
+        \begin{longtable}{>{\raggedright}p{0.23\textwidth} p{0.4\textwidth}p{0.06\textwidth}p{0.06\textwidth}p{0.09\textwidth}p{0.06\textwidth}}
+        % \centering
+        % \footnotesize
+        % % \vspace{-15pt}
+        \caption{Summary of Nature papers in our dataset.} \\ 
         \setlength{\tabcolsep}{4pt}
-        \begin{tabular}{>{\raggedright}p{0.35\linewidth} p{0.37\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}}
-        \hline
+        % \begin{tabular}{>{\raggedright}p{0.35\linewidth} p{0.37\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}}
+        % \hline
         \textbf{Title} & \textbf{Short summary} & \textbf{Method} & \textbf{System} & \textbf{Empirical} & \textbf{Other} \\
         \toprule 
         %%%%
@@ -328,53 +375,62 @@
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         A new species of Homo from the Late Pleistocene of the Philippines~\cite{N1} & The authors discover and analyze bones that they conclude to be a new species, which they call Homo luzonensis. & 
         \no & 
         \no & 
         \no &
         \yes \\
+        & & & & & \\ % For formatting
         H+ transport is an integral function of the mitochondrial ADP/ATP carrier~\cite{N2} & 
         The authors discover two transport modes for ADP/ATP in mitochondria that explain how energy conversion occurs in mitochondria. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Antarctic offshore polynyas linked to Southern Hemisphere climate anomalies~\cite{N3} & 
         Researchers find that polynyas, ``large openings in the winter sea ice cover,'' develop because of simultaneous upper-ocean preconditioning and meteorological changes. They predict that global warming will continue to create conditions under which polynyas occur. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Metastatic-niche labelling reveals parenchymal cells with stem features~\cite{N4} & 
         The authors present a system where metastatic cancer cells “stain” surrounding tissue cells so that researchers can learn about the local cancer environment. The system may enable new discoveries. & 
         \no & 
         \yes & 
         \no &
         \yes \\
+        & & & & & \\ % For formatting
         Multi-omics profiling of mouse gastrulation at single-cell resolution~\cite{N5} & 
         The authors discover the process by which three germ layers develop and differentiate during gastrulation. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Dynamics and genomic landscape of CD8\textsuperscript{+} T cells undergoing hepatic priming~\cite{N6} & 
         The authors identify a cellular reproduction mechanism leveraging the liver (novel) that seems to boost the immune system reactions among HBV patients. & 
         \no & 
         \no & 
         \yes &
         \yes \\
+        & & & & & \\ % For formatting
         Prediction and observation of an antiferromagnetic topological insulator~\cite{N7} & 
         The authors develop a theory about a compound based on measurements of its properties and then use follow-up experiments to test the theory. The authors employ simulations to develop their theory and then a series of experiments that triangulate and test the theorized properties. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Insect egg size and shape evolve with ecology but not developmental rate~\cite{N8} & 
         The authors test three (main) hypotheses in the literature about the factors influencing egg size among insects. The authors find that ecology (where an egg is laid) predicts egg size rather than previously believed-in universal constraints. & 
         \no & 
         \no & 
         \yes &
         \yes \\
+        & & & & & \\ % For formatting
         Progenitors from the central nervous system drive neurogenesis in cancer~\cite{N9} & 
         The authors identify the role of nerves in cancer cell neurogenesis and develop a new model of cancer cell neurogenesis in prostate tumors. Their model incorporates ``crosstalk'' between the central nervous system and the prostate tumors. They develop this model through the identification of associations between cell groups (``lower-level'') and in mice/humans (host). Their model challenges existing models of cancer. & 
         \no & 
@@ -382,19 +438,20 @@
         \yes &
         \no \\
         \bottomrule
-        \end{tabular}
+        % \end{tabular}
         \label{table:NatureContribs}
-        \end{table*}
+        \end{longtable}
 }
 \newcommand{\tablePNASContribs}{
-        \begin{table*}
-        \centering
-        \footnotesize
-        % \vspace{-15pt}
-        \caption{Summary of PNAS papers in our dataset.}
+        \setlength{\extrarowheight}{10pt} % Add extra space
+        \begin{longtable}{>{\raggedright}p{0.23\textwidth} p{0.4\textwidth}p{0.06\textwidth}p{0.06\textwidth}p{0.09\textwidth}p{0.06\textwidth}}
+        % \centering
+        % \footnotesize
+        % % \vspace{-15pt}
+        \caption{Summary of PNAS papers in our dataset.} \\
         \setlength{\tabcolsep}{4pt}
-        \begin{tabular}{>{\raggedright}p{0.35\linewidth} p{0.37\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}}
-        \hline
+        % \begin{tabular}{>{\raggedright}p{0.35\linewidth} p{0.37\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}}
+        % \hline
         \textbf{Title} & \textbf{Short summary} & \textbf{Method} & \textbf{System} & \textbf{Empirical} & \textbf{Other} \\
         \toprule 
         %%%%
@@ -408,54 +465,63 @@
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Brain-wide genetic mapping identifies the indusium griseum as a prenatal target of pharmacologically unrelated psychostimulants~\cite{PNAS1} & 
         The authors find the effects of psychostimulants on fetal development. They find exposure can delay specific kinds of cellular and regional development that may impact child behavior. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Dysregulation of different classes of tRNA fragments in chronic lymphocytic leukemia~\cite{PNAS2} & 
         The authors find how two different classes of RNAs are associated with CLL, a type of leukemia most prevalent among humans. Based on their findings, the authors conclude that these classes of RNAs may influence the development of CLL. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         A critical role for microglia in maintaining vascular integrity in the hypoxic spinal cord~\cite{PNAS3} & 
         Through a series of experiments, the authors identify the response/roles of microglia in maintaining the health of a hypoxic spinal cord. The findings suggest microglia's importance in Central Nervous System vascular health. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         SDS22 selectively recognizes and traps metal-deficient inactive PP1~\cite{PNAS4} & 
         The authors investigate how SDS22 can both inhibit and activate PP1 (an enzyme). The authors identify a mechanism for SDS22 that explains its behavior. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Monitoring of switches in heterochromatin-induced silencing shows incomplete establishment and developmental instabilities~\cite{PNAS5} & 
         The authors were interested in investigating what determines/explains the Position Effect Variegation (PEV) in heterochromatin. Through both mathematical modeling and empirical studies, the researchers find that gene silencing that influences PEV occurs early in embryogenesis but is not stable and changes throughout development. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Extracellular RNA in a single droplet of human serum reflects physiologic and disease states~\cite{PNAS6} & 
         The authors develop and test a new method for sequencing RNAs directly on cell serums using ``complementary DNA (cDNA).'' The authors test the method/tool's validity by examining how it can differentiate among many different characteristics in the data\textemdash sex, cancer, etc. & 
         \no & 
         \yes & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         EBV infection is associated with histone bivalent switch modifications in squamous epithelial cells~\cite{PNAS7} & 
         Epstein-Barr virus (EBV) infection occurs with some cancers. The authors find evidence that suggests that EBV infection may be related to changes in epithelial cells. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Targeting pericyte-endothelial cell crosstalk by circular RNA-cPWWP2A inhibition aggravates diabetes-induced microvascular dysfunction~\cite{PNAS8} & 
         The authors find a mechanism between two different cell ``types'' that are affected by diabetes. The mechanism suggests new therapeutic interventions for diabetes. & 
         \no & 
         \no & 
         \yes &
         \yes \\
+        & & & & & \\ % For formatting
         Using attribution to decode binding mechanism in neural network models for chemistry~\cite{PNAS9} & 
         The authors develop a metric/process for using ``Attribution'' as a way to de-bias ML models for learning causal relationships between molecules and binding behaviors. & 
         \yes & 
@@ -463,19 +529,20 @@
         \yes &
         \yes \\
         \bottomrule
-        \end{tabular}
+        % \end{tabular}
         \label{table:tablePNASContribs}
-        \end{table*}
+        \end{longtable}
 }
 \newcommand{\tablePSContribs}{
-        \begin{table*}
-        \centering
-        \footnotesize
-        % \vspace{-15pt}
-        \caption{Summary of PS papers in our dataset.}
+        \setlength{\extrarowheight}{10pt} % Add extra space
+        \begin{longtable}{>{\raggedright}p{0.23\textwidth} p{0.4\textwidth}p{0.06\textwidth}p{0.06\textwidth}p{0.09\textwidth}p{0.06\textwidth}}
+        % \centering
+        % \footnotesize
+        % % \vspace{-15pt}
+        \caption{Summary of PS papers in our dataset.} \\
         \setlength{\tabcolsep}{4pt}
-        \begin{tabular}{>{\raggedright}p{0.35\linewidth} p{0.37\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}}
-        \hline
+        % \begin{tabular}{>{\raggedright}p{0.35\linewidth} p{0.37\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}p{0.07\linewidth}}
+        % \hline
         \textbf{Title} & \textbf{Short summary} & \textbf{Method} & \textbf{System} & \textbf{Empirical} & \textbf{Other} \\
         \toprule 
         %%%%
@@ -489,54 +556,63 @@
         \no & 
         \yes &
         \yes \\
+        & & & & & \\ % For formatting
         Separate Contribution of Striatum Volume and Pitch Discrimination to Individual Differences in Music Reward~\cite{PS1} & 
         The authors asked if people's enjoyment of music is related to neurological structure and ability. The authors find how enjoyment/reward, structure, and ability are related. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Information Processing Under Reward Versus Under Punishment~\cite{PS2} & 
         The authors investigate how punishment and reward incentives affect decision making. The authors find that punishment incentives negatively impact decision making. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Paying Back People Who Harmed Us but Not People Who Helped Us: Direct Negative Reciprocity Precedes Direct Positive Reciprocity in Early Development~\cite{PS3} & 
         The authors asked when and how children learn reciprocity, a key aspect of social coordination. They find that direct negative reciprocity (``paying back'' harm) develops earlier than positive reciprocity (``paying back'' good), which is generalized rather than directed until children learn social norms. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Selection of Visual Objects in Perception and Working Memory One at a Time~\cite{PS4} & 
         The authors investigate how things we have seen before (in visual working memory) affect how we perceive what we see now (visual environment). The authors find that humans pay attention to visual aspects that are consistent with memory (``memory-relevant'') and that this processing occurs sequentially in the presence of multiple visual stimuli. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Variation in the $\mu$-Opioid Receptor Gene (\textit{OPRM1}) Does Not Moderate Social-Rejection Sensitivity in Humans~\cite{PS5} & 
         Using a much larger sample size and more experimental controls, authors conduct a “conceptual replication” of prior work examining the relationship between a gene and feelings of social-rejection. The authors also provide empirical evidence/test a hypothesis extending prior work. & 
         \no & 
         \no & 
         \yes &
         \yes \\
+        & & & & & \\ % For formatting
         The Ethical Perils of Personal, Communal Relations: A Language Perspective~\cite{PS6} & 
         The authors find a link between the warmth of language used and dishonest/cheating behavior. The authors use both controlled experiments and a survey to test mechanisms of this link. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         Visual Search for People Among People~\cite{PS7} & 
         The authors ask if there is a perceptual unit or mechanism that differentiates between interacting dyads and not interacting dyads. They find evidence for some fundamental perceptual grouping unit that makes grouping interacting/facing dyads easier and individuating interacting dyads harder. & 
         \no & 
         \no & 
         \yes &
         \no \\
+        & & & & & \\ % For formatting
         National Gross Domestic Product, Science Interest, and Science Achievement: A Direct Replication and Extension of the Tucker-Drob, Cheung, and Briley (2014) Study~\cite{PS8} & 
         The authors replicate a previous study that found connections among science interest, science achievement, national wealth, and other national characteristics with more recent data. & 
         \no & 
         \no & 
         \yes &
         \yes \\
+        & & & & & \\ % For formatting
         Development of Holistic Episodic Recollection~\cite{PS9} & 
         The authors aim to provide further detail about episodic memory development in humans. Holistic episodic recollection is part of episodic memory, but its development is unknown. They find that holistic recollection increased from 4 to adulthood, finding that 6-year-olds exhibit memory retrieval that is similar to adults despite being less accurate. & 
         \no & 
@@ -544,16 +620,23 @@
         \yes &
         \no \\
         \bottomrule
-        \end{tabular}
+        % \end{tabular}
         %\vspace{1pt}
         \label{table:PSContribs}
-        \end{table*}    
+        \end{longtable}    
 }
 
 \newcommand{\tableContributions}{
+        {
+        \footnotesize
         \tableCHIContribs
+        \clearpage
         \tableJFEContribs
+        \clearpage
         \tableNatureContribs
+        \clearpage
         \tablePNASContribs
+        \clearpage
         \tablePSContribs
+        }
 }
