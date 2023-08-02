@@ -1,15 +1,14 @@
 \DeclareUnicodeCharacter{2212}{-}
 \newcommand{\tquote}[1]{\emph{\textcolor{darkgray}{``#1''}}}
 \newcommand{\tableLitSurveyCodes}{
-    \begin{table*}
-        \centering
-        \footnotesize
-        \caption{The \codebook for analyzing the content of research publications.}
+    \begin{longtable}{>{\raggedright}p{0.16\linewidth} p{0.80\linewidth} p{0.04\linewidth}}
+        % xsize
+        \caption{The \codebook for analyzing the content of research publications. The rightmost column is the percentage of paragraphs tagged with the code.} \\ 
         % \vspace{-15pt}
         \setlength{\tabcolsep}{4pt}
-        \begin{tabular}{>{\raggedright}p{0.16\linewidth} p{0.80\linewidth} p{0.04\linewidth}}
-        \hline
-        \textbf{Codes} & \textbf{Definitions and Examples} & \textbf{\%Occurrences} \\
+        % \begin{tabular}
+        % x\hline
+        \textbf{Codes} & \textbf{Definitions and Examples} & \textbf{\%Freq.} \\
         \toprule 
             %%%%
             \multicolumn{2}{l}{\textbf{Research Goals}}
@@ -66,6 +65,8 @@
             %%%
             \midrule
             %%%%
+            & & \\ % For formatting 
+            & & \\ % For formatting 
             \multicolumn{2}{l}{\textbf{Statistical Analysis}} \\
             %%% 
             Proxy & 
@@ -131,14 +132,15 @@
             \tquote{For mean comparisons, we used the t-test BF function with default settings (medium prior scale).} ~\cite{PS0}
             & 1.4 \\
             %%% 
-            \midrule
+        %     \midrule
             %%%%
             %%% 
         \bottomrule
-        \end{tabular}
+        % \end{tabular}
         %\vspace{1pt}
+        % \footnotesize
         \label{table:litSurveyCodeBook}
-        \end{table*}    
+        \end{longtable}    
 }
 
 \newcommand{\tableCHIContribs}{
