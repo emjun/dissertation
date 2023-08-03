@@ -5,8 +5,12 @@
 \section{Elicitation lab study} \label{sec:exploratoryStudy}
 % Motivation
 % Our motivating question was, ``What implicit semantics do analysts use to construct conceptual models of how variables relate?''. 
-Our aim was to increase the expressivity of rTisane to represent analysts'
-implicit domain knowledge. We used the first release of
+\polish{rTisane should be (re-)introduced before this mention. Maybe note in 5.5
+the goal of creating a revised Tisane version for R?: For the lab study, we
+re-implemented \tisane (originally in Python) in R since (i) R is a widely used
+programming language for data science and (ii) the research methods course
+taught and used R.} Our aim was to increase the expressivity of \rTisane to
+represent analysts' implicit domain knowledge. We used the first release of
 \tisane~\cite{jun2022tisane} to probe analysts' internal processes and derive
 design goals~\autoref{sec:rtisane_design_implications} for re-designing \tisane.
 
@@ -49,10 +53,7 @@ participants completed three tasks: (i) declaring variables, (ii) expressing
 conceptual models, and (iii) specifying study designs. For each task,
 participants started with \tisane's language constructs to express their intent
 and discussed their confusions, how they understood each presented construct,
-and what they wanted to specify but could not (if applicable).\footnote{For the
-lab study, we re-implemented \tisane (originally in Python) in R since (i) R is
-a widely used programming language for data science and (ii) the research
-methods course taught and used R.} The researcher repeatedly reminded
+and what they wanted to specify but could not (if applicable). The researcher repeatedly reminded
 participants that the constructs presented were prototype possibilities and that
 expressing their intentions was more important than using the constructs or
 getting the syntax correct. Throughout, the researcher paid particular attention
@@ -183,7 +184,7 @@ relationships as assumptions or the focus of the present analysis could make
 Participants grappled with what specific structures in a conceptual model meant. P1 and P3
 described how a bidirectional relationship between two variables were really due
 to hidden, confounding variables causing both variables. P3 described how ``in
-the real world, when, when these bidirectional things happen, it means there's
+the real world...when these bidirectional things happen, it means there's
 sort of this middleman complex system. Or some like underlying process of which
 [two variables are] both components...'' Another participant, P2, wondered aloud
 about how even what appears like a direct relationship, may actually be a chain
@@ -241,6 +242,7 @@ procedures.
 % this IDE.'' 
 
 \subsection{DSL Re-design Goals} \label{sec:rtisane_design_implications} 
+\polish{ It might be worth mentioning that, even if Tisane does not use some of the more nuanced annotations for model suggestion, these are valuable for externalizing analysts' conceptual models for documentation and communication (potentially including preregistration).}
 
 Based on our lab study observations, we derived four design goals for
 re-designing Tisane's DSL to more accurately capture analysts' implicit
@@ -266,6 +268,10 @@ conceptual models:
 In the second release of \tisane, we addressed these goals through new language
 constructs. We also supported syntactic sugar to more accurately capture
 study design details. 
+
+\polish{"We also supported syntactic sugar to more accurately capture study design details."
+> Not clear to me why syntactic sugar more "accurately" captures details as opposed to more "efficiently"/"concisely".
+> Also, what exactly was the sugar? If you stated this, it did not stick in my memory...}
 
 \begin{comment}
 \textbf{Deconstruct statistical constructs for clarity.}

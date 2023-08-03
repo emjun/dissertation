@@ -145,7 +145,7 @@
 
 %\newcommand\betweendistance[1]{1.5cm of #1}
 \newcommand{\figureCandidateMainEffects}{
-%     \begin{figure*}%[h]
+    \begin{figure}%[h]
 % \centering
 % \includegraphics{tisane/figures/figure5}
        \def\arrowend{.4}
@@ -267,9 +267,9 @@
            \node[inner sep=0pt]	(cap3)	at	($(ref1)!(n3)!(ref2)$)	{(c) \textit{possible confounding associations}};
            % \node[below=0.05cm of cap3,inner sep=0pt]	(cap4)	{\textit{\& possible causal omissions}};
         \end{tikzpicture}
-        % \caption{Graphs demonstrating causal parents, possible causal omissions, and possible confounding associations. In graphs (a) and (b) (left and middle), all edges are causal. Independent variables are marked ``IV'', discovered candidate main effects ``CME'', dependent variables ``DV'', and causal parents ``CP''.}
+        \caption{\polish{Suplots overlap?}Graphs demonstrating causal parents, possible causal omissions, and possible confounding associations. In graphs (a) and (b) (left and middle), all edges are causal. Independent variables are marked ``IV'', discovered candidate main effects ``CME'', dependent variables ``DV'', and causal parents ``CP''.}
         \label{fig:figureCandidateMainEffects}
-    % \end{figure*}
+    \end{figure}
 }
 
 \newcommand{\figureOnlyAssociatesOrCausesEdgesCandidateMainEffects}{
@@ -370,7 +370,7 @@
    \def\mynodefont{\normalsize}
    \def\myedgequotesfont{\scriptsize}
    \def\mynodedistance{0.9cm}
-%     \begin{figure*}%[H]
+    \begin{figure}%[H]
 % \centering
 % \includegraphics{tisane/figures/figure3}
        \begin{tikzpicture}[minigraph/.style={fill=gray!10,rounded corners=4pt},
@@ -509,11 +509,11 @@
            \node[closecaption,left=of nests]    {(d)};
            \node[closecaption,left=of has]      {(e)};
 
-       \end{tikzpicture}
-        % \caption{Code snippets of conceptual and data measurement relationships written in Tisane's \SDSLlong and their representation in Tisane's graph IR. Variables are named with \texttt{u} for units, \texttt{m} for measures, and \texttt{v} for data variables that can be either units or measures. All edges depicted are those that are added due to the relationship. In the \texttt{moderates} example, we assume that \texttt{m1} and \texttt{m2} both belong to the same unit, and for simplicity, the attribution edge (labeled as ``has'') from \texttt{m1} and \texttt{m2}'s unit is not shown.}
+        \end{tikzpicture}
+        \caption{Code snippets of conceptual and data measurement relationships written in Tisane's \SDSLlong and their representation in Tisane's graph IR. Variables are named with \texttt{u} for units, \texttt{m} for measures, and \texttt{v} for data variables that can be either units or measures. All edges depicted are those that are added due to the relationship. In the \texttt{moderates} example, we assume that \texttt{m1} and \texttt{m2} both belong to the same unit, and for simplicity, the attribution edge (labeled as ``has'') from \texttt{m1} and \texttt{m2}'s unit is not shown.}
         \label{fig:figureSDSLToGraphIR}
         % \Description{Five directed graphs are shown. All nodes are labeled with a monospaced font. The first directed graph has two nodes, labeled “v1” and “v2”, both circles. There is a solid edge from “v1” to “v2” labeled “causes”. Below this graph is a code snippet reading “v1.causes(v2)”. The second directed graph also has two nodes, also labeled “v1” and “v2” and both circles. There are solid edges from “v1” to “v2” and from “v2” to “v1”. Both edges are labeled “assoc.” Below the graph is a code snippet: “v1.associates_with(v2)”. The third directed graph contains four nodes, which are labeled “m1*m2”, “m1”, “m2”, and “m3”. All are circles. There are six edges in the graph, all solid and labeled “assoc.” The edges are from “m1*m2” to “m3”, “m3” to “m1*m2”, “m1” to “m3”, “m3” to “m1”, “m2” to “m3”, and “m3” to “m2”. Below the graph is a code snippet: “m1.moderates(m2, on=m3)”. The fourth directed graph contains two nodes, labeled “u1” and “u2”. Both are squares. There is a dashed edge labeled “nests” from “u1” to “u2”. Below the graph is the code snippet “u1.nests_within(u2)”. The fifth, and final, directed graph contains two nodes labeled “u” and “m”. “u” is square-shaped and “m” is circle-shaped. There is a dotted edge from “u” to “m”, labeled “has”. Below the graph is the code snippet “u.has(m)”.}
-    % \end{figure*}
+    \end{figure}
 }
 
 \newcommand{\figureComplexModeratesGraphIR}{
@@ -671,7 +671,7 @@
 %
 \newcommand{\tableFamilyLinkFunctions}{
  \begin{table}[h]
-   \caption{The available family and link functions in Tisane. Tisane generates code to fit models using \texttt{statsmodels} and \texttt{pymer4}. The package \texttt{statsmodels} supports GLMs without mixed-effects and a wider variety of family and link function combinations. The package \texttt{pymer4} supports GLMs with mixed effects and has much more limited support for family and link functions. As \texttt{statsmodels} and \texttt{pymer} add more support, Tisane can be extended.}
+   \caption{\textbf{The available family and link functions in Tisane.} \polish{Fix overlapping} Tisane generates code to fit models using \texttt{statsmodels} and \texttt{pymer4}. The package \texttt{statsmodels} supports GLMs without mixed-effects and a wider variety of family and link function combinations. The package \texttt{pymer4} supports GLMs with mixed effects and has much more limited support for family and link functions. As \texttt{statsmodels} and \texttt{pymer} add more support, Tisane can be extended.}
    \begin{tabular}{lll} \hline
    %   \multirow{3}{*}{\multicolumn{1}{c}{Family functions}}	&	\multicolumn{2}{c}{Link functions (*default)} \\ \cline{2-3}
      &	\multicolumn{2}{c}{Link functions (*default)} \\ \cline{2-3}
@@ -907,7 +907,7 @@
 \newcommand{\rTisaneProgram}{
     \lstinputlisting[
         language={}, 
-        caption={Sample \rTisane program adapted from P8's in the summative evaluation. Specifying cardinality is optional with data.},
+        caption={Sample \rTisane program adapted from P8's script in the summative evaluation. Specifying cardinality is optional with data.},
         label={lst:rTisaneProgram}
     ]{tisane/figures/rTisane-example.R}
 }
@@ -925,7 +925,7 @@
     \begin{figure}[htbp]
         \centering
         \includegraphics[width=.85\linewidth]{tisane/figures/conceptual-model-disambiguation.png}
-        \caption{\textbf{\rTisane's conceptual model disambiguation interface.} A. Options for resolving ambiguities in the conceptual model due to \relates relationships.
+        \caption{\textbf{\rTisanes conceptual model disambiguation interface.} A. Options for resolving ambiguities in the conceptual model due to \relates relationships.
         B. Check and follow-up questions for breaking any cycles that hinder statistical model derivation. C. Graph visualizing expressed conceptual model. }
         \label{fig:figureConceptualModelsDisambiguation}
     \end{figure}
@@ -935,7 +935,7 @@
     \begin{figure}[htbp]
         \centering
         \includegraphics[width=.75\linewidth]{tisane/figures/statistical-model-disambiguation.png}
-        \caption{\rTisane's statistical model disambiguation interface.}
+        \caption{\rTisanes statistical model disambiguation interface.}
         \label{fig:figureStatisticalModelsDisambiguation}
     \end{figure}
 }

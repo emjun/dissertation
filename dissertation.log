@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  1 AUG 2023 22:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.3)  3 AUG 2023 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1353,7 +1353,17 @@ File: lstlang3.sty 2020/03/24 1.8d listings language file
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-]) (./01-abstract.tex [3]) [4] (./02-ack.tex [5
+]) (./01-abstract.tex
+Overfull \hbox (26.15752pt too wide) in paragraph at lines 31--38
+[][][][][][] [][][][][][] 
+ []
+
+
+Overfull \hbox (451.77132pt too wide) in paragraph at lines 31--38
+[][][][][][] 
+ []
+
+[3]) [4] (./02-ack.tex [5
 
 
 ]
@@ -1397,7 +1407,7 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 12
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1107) has occurred while \output is active []
 
  [15
 
@@ -1427,15 +1437,19 @@ Chapter 1.
 Underfull \vbox (badness 1997) has occurred while \output is active []
 
  [22]
-[23] [24] Excluding 'comment' comment.) [25] [26
+[23]
+Overfull \hbox (72.95894pt too wide) in paragraph at lines 283--288
+\T1/cmr/m/n/10.95 ca-tions into sta-tis-ti-cal mod-els. [][][][][][] 
+ []
+
+[24] Excluding 'comment' comment.) [25] [26
 
 
 ]
 Chapter 2.
 (./05-relatedWork.tex [27] [28] [29] [30]
-Overfull \hbox (24.96684pt too wide) in paragraph at lines 225--247
-[]\T1/cmr/m/n/10.95 Research has in-tro-duced tools to sup-port sta-tis-ti-cal 
-anal-y-sis in di-verse do-mains. Ex-periScope [[]]
+Overfull \hbox (399.87073pt too wide) in paragraph at lines 248--261
+\T1/cmr/m/n/10.95 sta-tis-ti-cal meth-ods more widely us-able. [][][][][][]
  []
 
 [31]) [32]
@@ -1449,7 +1463,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 47.
 
 ) [35] (./tea/usage_scenario.tex
-<tea/figures/tea_program.jpg, id=986, 3863.43375pt x 3922.655pt>
+<tea/figures/tea_program.jpg, id=1008, 3863.43375pt x 3922.655pt>
 File: tea/figures/tea_program.jpg Graphic file (type jpg)
 <use tea/figures/tea_program.jpg>
 Package pdftex.def Info: tea/figures/tea_program.jpg  used on input line 2.
@@ -1460,29 +1474,29 @@ Overfull \hbox (106.87238pt too wide) in alignment at lines 1--1
 [][][][][][][] 
  []
 
-[37]) (./tea/system.tex [38] [39] [40]
-<tea/figures/modes_wide.jpg, id=1066, 6677.94875pt x 4589.145pt>
+[37]) [38] (./tea/system.tex [39] [40]
+<tea/figures/modes_wide.jpg, id=1088, 6677.94875pt x 4589.145pt>
 File: tea/figures/modes_wide.jpg Graphic file (type jpg)
 <use tea/figures/modes_wide.jpg>
-Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 126.
+Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 134.
 (pdftex.def)             Requested size: 469.75502pt x 322.81352pt.
- [41] [42] [43]) (./tea/eval.tex
-(./tea/tea_results.tex
-Underfull \hbox (badness 10000) in paragraph at lines 112--112
-[]|\T1/cmr/m/n/10.95 Wilcoxon signed
- []
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Overfull \hbox (12.0pt too wide) in alignment at lines 112--112
+ [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42 <./tea/figures/modes_wide.jpg>] [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44])
+(./tea/eval.tex (./tea/tea_results.tex
+Overfull \hbox (12.0pt too wide) in alignment at lines 113--113
 [][][][] 
  []
 
-
-LaTeX Warning: Float too large for page by 100.46695pt on input line 114.
-
-) [44] [45]) [46] Excluding 'comment' comment. Excluding 'comment' comment.
-[47] Excluding 'comment' comment.) [48] [49 <./tea/figures/modes_wide.jpg>]
-[50
+) [45] [46]) [47] Excluding 'comment' comment. Excluding 'comment' comment.
+[48] Excluding 'comment' comment.) [49] [50
 
 
 ]
@@ -1491,7 +1505,7 @@ Chapter 4.
 Underfull \vbox (badness 7944) has occurred while \output is active []
 
  [51]
-<hypothesisFormalization/figures/overview_sept_17.png, id=1200, 1027.84pt x 585
+<hypothesisFormalization/figures/overview_sept_17.png, id=1223, 1027.84pt x 585
 .18625pt>
 File: hypothesisFormalization/figures/overview_sept_17.png Graphic file (type p
 ng)
@@ -1508,7 +1522,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53 <./hypothesisFormalization/figures/overview_sept_17.png>]
 (./hypothesisFormalization/related_work.tex [54]
-<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1234,
+<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1257,
  1218.5525pt x 300.12125pt>
 File: hypothesisFormalization/figures/prior_work_combined_july_16_2021.png Grap
 hic file (type png)
@@ -1522,14 +1536,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55]
 [56 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
-<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1257, 835
+<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1280, 835
 .62187pt x 275.0275pt>
 File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic 
 file (type png)
 <use hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>
 Package pdftex.def Info: hypothesisFormalization/figures/ps9_reorderableMatrixL
 abeled.png  used on input line 41.
-(pdftex.def)             Requested size: 422.77664pt x 139.15007pt.
+(pdftex.def)             Requested size: 446.26582pt x 146.88016pt.
 
 [57 <./hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>]
 [58] [59]
@@ -1539,14 +1553,14 @@ on-tri-bu-tions (e.g., [[];
  []
 
 [60]) [61] (./hypothesisFormalization/lab_study.tex [62] [63] [64]
-<hypothesisFormalization/figures/A11_SS_1.png, id=1368, 548.0475pt x 590.205pt>
+<hypothesisFormalization/figures/A11_SS_1.png, id=1391, 548.0475pt x 590.205pt>
 
 File: hypothesisFormalization/figures/A11_SS_1.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_1.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_1.png  used on 
 input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 204.88174pt.
-<hypothesisFormalization/figures/A11_SS_2.png, id=1369, 564.1075pt x 477.785pt>
+<hypothesisFormalization/figures/A11_SS_2.png, id=1392, 564.1075pt x 477.785pt>
 
 File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
@@ -1561,11 +1575,7 @@ Overfull \hbox (17.86227pt too wide) in paragraph at lines 308--308
 y end up with dif-fer-ent re-sults...actually
  []
 
-[69]
-Underfull \vbox (badness 6332) has occurred while \output is active []
-
- [70]
-[71]) (./hypothesisFormalization/tools_analysis.tex [72]
+[69] [70] [71]) (./hypothesisFormalization/tools_analysis.tex [72]
 Underfull \hbox (badness 10000) in paragraph at lines 72--72
 
  []
@@ -1582,7 +1592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--72
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]| \T1/cmr/m/n/9 [[]; [];
+[]|\T1/cmr/m/n/9 [[]; [];
  []
 
 
@@ -1601,20 +1611,8 @@ Excluding 'comment' comment.) (./hypothesisFormalization/implications.tex
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 13.
 
-[78]
-Overfull \hbox (43.07494pt too wide) in paragraph at lines 38--45
-[]\T1/cmr/m/n/10.95 Probabilistic pro-gram-ming lan-guages (PPLs), such as Pyro
- [[]], Stan [[]], BUGS [[]],
- []
-
-[79]
-Overfull \hbox (21.23764pt too wide) in paragraph at lines 144--154
-[]\T1/cmr/m/n/10.95 Although bidi-rec-tional pro-gram-ming en-vi-ron-ments al-r
-eady ex-ist for vec-tor graph-ics cre-ation [[]],
- []
-
-[80] Excluding 'comment' comment.) (./hypothesisFormalization/discussion.tex
-[81] [82])) [83] [84
+[78] [79] [80] Excluding 'comment' comment.)
+(./hypothesisFormalization/discussion.tex [81] [82])) [83] [84
 
 
 ]
@@ -1626,6 +1624,11 @@ and test the mo-ti-vat-ing causal graph [[];
  []
 
 [87] Excluding 'comment' comment.) (./tisane/system.tex [88]
+Overfull \hbox (13.98523pt too wide) in paragraph at lines 41--54
+\T1/cmr/m/n/10.95 cover new anal-y-sis paths (P1, P2, P3)[][][][][][].
+ []
+
+
 Underfull \hbox (badness 3623) in paragraph at lines 62--62
 []|\T1/cmr/m/n/10 JMP De-sign of Ex-per-i-
  []
@@ -1636,7 +1639,7 @@ Overfull \hbox (24.39998pt too wide) in paragraph at lines 62--62
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7203) has occurred while \output is active []
 
  [89]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 8
@@ -1648,12 +1651,15 @@ File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 
 pdfTeX warning: pdflatex (file ./tisane/figures/figure4.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<tisane/figures/figure4.pdf, id=1703, 194.47656pt x 147.80219pt>
+<tisane/figures/figure4.pdf, id=1726, 194.47656pt x 147.80219pt>
 File: tisane/figures/figure4.pdf Graphic file (type pdf)
 <use tisane/figures/figure4.pdf>
 Package pdftex.def Info: tisane/figures/figure4.pdf  used on input line 105.
 (pdftex.def)             Requested size: 194.47607pt x 147.80182pt.
-[91 <./tisane/figures/figure4.pdf>]
+
+Underfull \vbox (badness 1472) has occurred while \output is active []
+
+ [91 <./tisane/figures/figure4.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [92]
@@ -1698,92 +1704,141 @@ Overfull \hbox (6.92024pt too wide) in paragraph at lines 478--478
 [][]
  []
 
-<tisane/figures/usage_scenario_gui_05012022.png, id=1831, 1343.0175pt x 1002.74
+<tisane/figures/usage_scenario_gui_05012022.png, id=1852, 1343.0175pt x 1002.74
 625pt>
 File: tisane/figures/usage_scenario_gui_05012022.png Graphic file (type png)
 <use tisane/figures/usage_scenario_gui_05012022.png>
 Package pdftex.def Info: tisane/figures/usage_scenario_gui_05012022.png  used o
 n input line 481.
 (pdftex.def)             Requested size: 352.31625pt x 263.04887pt.
-[98] [99 <./tisane/figures/usage_scenario_gui_05012022.png>])
-(./tisane/case_studies.tex [100] [101] Excluding 'comment' comment.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98]
+[99 <./tisane/figures/usage_scenario_gui_05012022.png>] [100])
+(./tisane/case_studies.tex [101] Excluding 'comment' comment. [102]
 Overfull \hbox (12.11485pt too wide) in paragraph at lines 133--165
 \T1/pcr/m/n/10.95 number_of_instances\T1/cmr/m/n/10.95 , R2 de-clared all the m
 ea-sures with the pa-ram-e-ter \T1/pcr/m/n/10.95 number_of_instances
  []
 
-[102] Excluding 'comment' comment. [103] [104]) (./tisane/exploratory.tex
-Underfull \vbox (badness 7397) has occurred while \output is active []
-
- [105]
-[106] [107] Excluding 'comment' comment.
-Underfull \vbox (badness 1383) has occurred while \output is active []
-
- [108]
-Excluding 'comment' comment.) (./tisane/rTisane.tex [109]
-(./tisane/figures/rTisane-example.R)
+Excluding 'comment' comment. [103] [104]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [110]
-Excluding 'comment' comment. [111]
-<tisane/figures/conceptual-model-disambiguation.png, id=1968, 606.265pt x 348.3
+ [105])
+(./tisane/exploratory.tex
+Overfull \hbox (1083.41725pt too wide) in paragraph at lines 12--16
+[][][][][][]
+ []
+
+[106] [107] [108] Excluding 'comment' comment.
+Overfull \hbox (814.28586pt too wide) in paragraph at lines 245--246
+[][][][][][] 
+ []
+
+[109]
+Overfull \hbox (959.70975pt too wide) in paragraph at lines 274--275
+[][][][][][][] 
+ []
+
+Excluding 'comment' comment.) (./tisane/rTisane.tex
+(./tisane/figures/rTisane-example.R [110])
+Overfull \hbox (804.87193pt too wide) in paragraph at lines 24--30
+[][][][][][] [][][][][][]
+ []
+
+[111] Excluding 'comment' comment.
+Underfull \vbox (badness 4505) has occurred while \output is active []
+
+ [112]
+<tisane/figures/conceptual-model-disambiguation.png, id=1993, 606.265pt x 348.3
 0125pt>
 File: tisane/figures/conceptual-model-disambiguation.png Graphic file (type png
 )
 <use tisane/figures/conceptual-model-disambiguation.png>
 Package pdftex.def Info: tisane/figures/conceptual-model-disambiguation.png  us
-ed on input line 145.
+ed on input line 151.
 (pdftex.def)             Requested size: 399.29463pt x 229.3959pt.
 
-Underfull \vbox (badness 7064) has occurred while \output is active []
-
- [112]
-Excluding 'comment' comment. [113 <./tisane/figures/conceptual-model-disambigua
-tion.png>]
-<tisane/figures/statistical-model-disambiguation.png, id=1982, 1042.39438pt x 5
+[113 <./tisane/figures/conceptual-model-disambiguation.png>]
+Excluding 'comment' comment.
+<tisane/figures/statistical-model-disambiguation.png, id=2004, 1042.39438pt x 5
 23.45563pt>
 File: tisane/figures/statistical-model-disambiguation.png Graphic file (type pn
 g)
 <use tisane/figures/statistical-model-disambiguation.png>
 Package pdftex.def Info: tisane/figures/statistical-model-disambiguation.png  u
-sed on input line 173.
+sed on input line 179.
 (pdftex.def)             Requested size: 352.31625pt x 176.91823pt.
-) [114 <./tisane/figures/statistical-model-disambiguation.png>]
-(./tisane/lab_study.tex [115] [116] Excluding 'comment' comment.
-<tisane/figures/conceptual-models.png, id=2006, 617.30624pt x 298.11375pt>
+ [114 <./tisane/figures/statistical-model-disambiguation.png>]) (./tisane/lab_s
+tudy.tex [115] [116] Excluding 'comment' comment.
+<tisane/figures/conceptual-models.png, id=2027, 617.30624pt x 298.11375pt>
 File: tisane/figures/conceptual-models.png Graphic file (type png)
 <use tisane/figures/conceptual-models.png>
 Package pdftex.def Info: tisane/figures/conceptual-models.png  used on input li
-ne 163.
+ne 164.
 (pdftex.def)             Requested size: 352.31625pt x 170.14494pt.
- [117 <./tisane/figures/conceptual-models.png>] [118] [119] [120]
-Underfull \vbox (badness 1472) has occurred while \output is active []
 
- [121]
-Excluding 'comment' comment. Excluding 'comment' comment. [122] [123]
+[117] [118 <./tisane/figures/conceptual-models.png>] [119]
+Overfull \hbox (6.24251pt too wide) in paragraph at lines 263--293
+\T1/cmr/m/n/10.95 ables and re-la-tion-ships to an-a-lyze. [][][][][][]
+ []
+
+
+Overfull \hbox (382.38263pt too wide) in paragraph at lines 310--324
+\T1/cmr/m/n/10.95 out-put model script to au-thor their own. [][][][][][]
+ []
+
+[120] [121]
+Underfull \vbox (badness 1533) has occurred while \output is active []
+
+ [122]
+Excluding 'comment' comment. Excluding 'comment' comment. [123] [124]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10.95> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 597.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 611.
 )
 (./tisane/discussion.tex
-Underfull \vbox (badness 1990) has occurred while \output is active []
+Overfull \hbox (203.66895pt too wide) in paragraph at lines 2--9
+\T1/cmr/m/n/10.95 sight, this find-ing was \T1/cmr/m/it/10.95 coun-ter-in-tu-it
+ive \T1/cmr/m/n/10.95 at the time. [][][][][][] 
+ []
 
- [124]
-Excluding 'comment' comment. Excluding 'comment' comment.) [125]) [126]
+[125]
+Overfull \hbox (415.45634pt too wide) in paragraph at lines 12--23
+[][][][][][][]
+ []
+
+Excluding 'comment' comment. Excluding 'comment' comment.) [126]) [127]
+[128
+
+
+]
 Chapter 6.
-(./10-conclusion.tex [127
+(./10-conclusion.tex
+Overfull \hbox (462.53981pt too wide) in paragraph at lines 32--41
+[][][][][][]
+ []
 
 
-] [128] Excluding 'comment' comment. [129]
+Overfull \hbox (286.68658pt too wide) in paragraph at lines 44--53
+[][][][][][] 
+ []
+
+[129]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [130]
+Excluding 'comment' comment. [131] Excluding 'comment' comment.
 Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment. Excluding 'comment' comment. [130] [131]
+Excluding 'comment' comment. [132] [133] Excluding 'comment' comment.
 Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment. Excluding 'comment' comment.) [132]
-(./dissertation.bbl [133
+Excluding 'comment' comment.) [134] (./dissertation.bbl [135
 
 
 
-] [134] [135] [136] [137] [138] [139] [140] [141]
-[142] [143] [144] [145] [146] [147] [148]
+] [136] [137]
+[138] [139] [140] [141] [142] [143] [144] [145] [146] [147] [148] [149]
+[150]
 Underfull \hbox (badness 1199) in paragraph at lines 1330--1336
 []\T1/cmr/m/n/10.95 Wikipedia con-trib-u-tors.  Jmp (sta-tis-ti-cal soft-ware) 
 --- Wikipedia, the free
@@ -1813,7 +1868,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1354--1359
 ldid = 888470477$[]\T1/cmr/m/n/10.95 ,
  []
 
-[149]) [150]pdfTeX warning (ext4): destination with the same identifier (name{c
+[151]) [152]pdfTeX warning (ext4): destination with the same identifier (name{c
 hapter.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1830,11 +1885,11 @@ identifier (name{section.1.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.36 \section{Procedure}
-                         \label{appendix:contentAnalysisProcedure} [151
+                         \label{appendix:contentAnalysisProcedure} [153
 
 
 ]
-[152]pdfTeX warning (ext4): destination with the same identifier (name{section.
+[154]pdfTeX warning (ext4): destination with the same identifier (name{section.
 1.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1866,9 +1921,9 @@ Overfull \hbox (35.99997pt too wide) in alignment at lines 90--90
  [] [] [] 
  []
 
-[153
+[155
 
-] [154] [155]
+] [156] [157]
 Overfull \hbox (8.38397pt too wide) in paragraph at lines 134--134
 []|\T1/cmr/bx/n/9 Method| 
  []
@@ -1903,9 +1958,9 @@ Overfull \hbox (32.09053pt too wide) in alignment at lines 134--134
  [] [] [] [] [] [] 
  []
 
-[156
+[158
 
-] [157]
+] [159]
 Overfull \hbox (8.38397pt too wide) in paragraph at lines 134--134
 []|\T1/cmr/bx/n/9 Method| 
  []
@@ -1935,9 +1990,9 @@ Overfull \hbox (25.01442pt too wide) in alignment at lines 134--134
  [] [] [] [] [] [] 
  []
 
-[158
+[160
 
-] [159]
+] [161]
 Overfull \hbox (8.38397pt too wide) in paragraph at lines 134--134
 []|\T1/cmr/bx/n/9 Method| 
  []
@@ -1967,9 +2022,9 @@ Overfull \hbox (25.01442pt too wide) in alignment at lines 134--134
  [] [] [] [] [] [] 
  []
 
-[160
+[162
 
-] [161]
+] [163]
 Overfull \hbox (8.38397pt too wide) in paragraph at lines 134--134
 []|\T1/cmr/bx/n/9 Method| 
  []
@@ -2004,9 +2059,9 @@ Overfull \hbox (25.01442pt too wide) in alignment at lines 134--134
  [] [] [] [] [] [] 
  []
 
-[162
+[164
 
-] [163]
+] [165]
 Overfull \hbox (8.38397pt too wide) in paragraph at lines 134--134
 []|\T1/cmr/bx/n/9 Method| 
  []
@@ -2031,9 +2086,9 @@ Overfull \hbox (25.01442pt too wide) in alignment at lines 134--134
  [] [] [] [] [] [] 
  []
 
-[164
+[166
 
-]) [165] [166
+]) [167] [168
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) 
@@ -2056,21 +2111,21 @@ Overfull \hbox (1.05482pt too wide) in paragraph at lines 2--2
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [167]pdfTeX warning (ext4): destination with the same identifier (name{section
+ [169]pdfTeX warning (ext4): destination with the same identifier (name{section
 .2.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.6 ...ts about adding certain kinds of variables}
                                                   
 <tisane/figures/tisane_screenshots/potential_confounding_association.png, id=24
-03, 886.81313pt x 511.41063pt>
+34, 886.81313pt x 511.41063pt>
 File: tisane/figures/tisane_screenshots/potential_confounding_association.png G
 raphic file (type png)
 <use tisane/figures/tisane_screenshots/potential_confounding_association.png>
 Package pdftex.def Info: tisane/figures/tisane_screenshots/potential_confoundin
 g_association.png  used on input line 7.
 (pdftex.def)             Requested size: 352.31625pt x 203.1794pt.
-) [168 <./tisane/figures/tisane_screenshots/potential_confounding_association.p
+) [170 <./tisane/figures/tisane_screenshots/potential_confounding_association.p
 ng>]pdfTeX warning (ext4): destination with the same identifier (name{chapter.3
 }) has been already used, duplicate ignored
 <to be read again> 
@@ -2078,48 +2133,45 @@ ng>]pdfTeX warning (ext4): destination with the same identifier (name{chapter.3
 l.80 ...r{Appendix C: Exploratory study materials}
                                                   
 Chapter C.
-(./app-rTisane.tex [169
+(./app-rTisane.tex [171
 
 
 ]
-<tisane/figures/example-conceptual-model.png, id=2415, 534.99875pt x 266.9975pt
+<tisane/figures/example-conceptual-model.png, id=2445, 534.99875pt x 266.9975pt
 >
 File: tisane/figures/example-conceptual-model.png Graphic file (type png)
 <use tisane/figures/example-conceptual-model.png>
 Package pdftex.def Info: tisane/figures/example-conceptual-model.png  used on i
 nput line 33.
 (pdftex.def)             Requested size: 399.29463pt x 199.28206pt.
- [170
+ [172
 
  <./tisane/figures/example-conceptual-model.png>]
-[171
+[173
 
-] [172
+] [174
 
 ])
 
 Package caption Warning: Unused \captionsetup[sub] on input line 84.
 See the caption package documentation for explanation.
 
-[173
+[175
 
 ] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: C61C11410D2D546A6CB77D869A2767D5;22731.
+(rerunfilecheck)             Checksum: 1824BBD231851FF98737DFCEF2B17878;22763.
  ) 
 Here is how much of TeX's memory you used:
- 41984 strings out of 478994
- 933117 string characters out of 5858184
- 1804468 words of memory out of 5000000
- 57898 multiletter control sequences out of 15000+600000
+ 41991 strings out of 478994
+ 933215 string characters out of 5858185
+ 1719735 words of memory out of 5000000
+ 57901 multiletter control sequences out of 15000+600000
  435231 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,18n,119p,3496b,1916s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not ex
+ 116i,18n,119p,3496b,1949s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not ex
 ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
-t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2211,10 +2263,10 @@ ve/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist
 /fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on dissertation.pdf (173 pages, 10706439 bytes).
+Output written on dissertation.pdf (175 pages, 10720327 bytes).
 PDF statistics:
- 2691 PDF objects out of 2984 (max. 8388607)
- 2394 compressed objects within 24 object streams
- 678 named destinations out of 1000 (max. 500000)
- 905 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2724 PDF objects out of 2984 (max. 8388607)
+ 2424 compressed objects within 25 object streams
+ 682 named destinations out of 1000 (max. 500000)
+ 913 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -43,7 +43,7 @@ was straightforward. P2 remarked, ``The API is very simple and elegant. It's
 very intuitive. It gets me really thinking about what's the essential or most
 important part of the analysis.'' Needing to explicitly state variable
 relationships in Tisane prompted P1 and P2 to think more critically about their
-domain and discover new analysis paths (P1, P2, P3). For example, Tisane helped
+domain and discover new analysis paths (P1, P2, P3)\polish{Should P3 be listed here? Replace parens with square brackets}. For example, Tisane helped
 P1, who previously had erroneously believed multiple t-tests with Bonferonni
 corrections were more appropriate than a GLM for his data, realize how a GLM
 could have helped him answer questions he had not had the foresight to ask
@@ -111,7 +111,7 @@ describe how the data was, or will be, collected. Below, we define each of the
 relationships in Tisane' \SDSL and describe how Tisane
 %represents these relationships under the hood as a graph.
 internally represents these relationships as a graph (as illustrated
-in~\ref{fig:figureSDSLToGraphIR}).~\ref{fig:figureGraphIRExample} shows
+in~\autoref{fig:figureSDSLToGraphIR}).~\autoref{fig:figureGraphIRExample} shows
 the graph representation constructed from the usage scenario.
 
 Tisane's graph IR is a %multi-edge directed graph.
@@ -286,7 +286,7 @@ operators are useful for specifying that a measure's frequency depends on
 another variable, which is expressible through the \texttt{per} function. For
 example, participants may use two \inputdevice{}s \textit{per}
 \texttt{condition} assigned: \texttt{device = subject.nominal(\upquote{Input
-device}, number\_of\_instances=ts.Exactly(2).per(condition))}. The \texttt{per}
+device}, number\_of\_instances=ts.Exactly(2).per(condition))}. \polish{Overruns column?} The \texttt{per}
 function uses the Tisane variable's cardinality by default but can instead use a
 data variable's \numberofinstances by specifying \texttt{use\_cardinality=False}
 as a parameter to \texttt{per}. Moreover, specifying a measure's

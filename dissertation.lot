@@ -1,21 +1,21 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces \textbf {Comparison of Tea to other tools.} Despite the published best practices for statistical analyses, most tools do not help users select appropriate tests. Tea not only addresses the best practices but also supports reproducing analyses.\relax }}{38}{table.caption.12}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces \textbf {Results of applying Tea to 12 textbook tutorials.}\relax }}{45}{table.caption.24}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces \textbf {Comparison of Tea to other tools.} \color@box {}{yellow!30}{Format to fit (not run over) horizontally} Despite the published best practices for statistical analyses, most tools do not help users select appropriate tests. Tea not only addresses the best practices but also supports reproducing analyses.\relax }}{38}{table.caption.12}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces \textbf {Results of applying Tea to 12 textbook tutorials.}\relax }}{46}{table.caption.24}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces \textbf {Overview of the software tools included in our analysis.}\relax }}{74}{table.caption.40}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces Overview of study design tools that informed Tisane's study design specification language\xspace . The first five tools provide higher-level abstractions. They are designed to help researchers reason about their study designs more holistically. The latter eight tools are lower-level and are more focused on stimuli, trials, and progressions between trials. *JsPsych is the base package to which JsPsychR, xprmtnr, and Jaysire provide wrappers and extensions.\relax }}{90}{table.caption.49}%
-\contentsline {table}{\numberline {5.2}{\ignorespaces The available family and link functions in Tisane. Tisane generates code to fit models using \texttt {statsmodels} and \texttt {pymer4}. The package \texttt {statsmodels} supports GLMs without mixed-effects and a wider variety of family and link function combinations. The package \texttt {pymer4} supports GLMs with mixed effects and has much more limited support for family and link functions. As \texttt {statsmodels} and \texttt {pymer} add more support, Tisane can be extended.\relax }}{98}{table.caption.63}%
-\contentsline {table}{\numberline {5.3}{\ignorespaces \textbf {Participants in summative evaluation.} Participants came from a diversity of fields and job roles. All self-reported having significant experience with statistical analysis.\relax }}{116}{table.caption.81}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces \textbf {The available family and link functions in Tisane.} \color@box {}{yellow!30}{Fix overlapping} Tisane generates code to fit models using \texttt {statsmodels} and \texttt {pymer4}. The package \texttt {statsmodels} supports GLMs without mixed-effects and a wider variety of family and link function combinations. The package \texttt {pymer4} supports GLMs with mixed effects and has much more limited support for family and link functions. As \texttt {statsmodels} and \texttt {pymer} add more support, Tisane can be extended.\relax }}{98}{table.caption.65}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces \textbf {Participants in summative evaluation.} Participants came from a diversity of fields and job roles. All self-reported having significant experience with statistical analysis.\relax }}{117}{table.caption.83}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces The codebook\xspace for analyzing the content of research publications. The rightmost column is the percentage of paragraphs tagged with the code.\relax }}{153}{table.1.1}%
-\contentsline {table}{\numberline {A.2}{\ignorespaces Summary of CHI papers in our dataset.\relax }}{156}{table.1.2}%
-\contentsline {table}{\numberline {A.3}{\ignorespaces Summary of JFE papers in our dataset.\relax }}{158}{table.1.3}%
-\contentsline {table}{\numberline {A.4}{\ignorespaces Summary of Nature papers in our dataset.\relax }}{160}{table.1.4}%
-\contentsline {table}{\numberline {A.5}{\ignorespaces Summary of PNAS papers in our dataset.\relax }}{162}{table.1.5}%
-\contentsline {table}{\numberline {A.6}{\ignorespaces Summary of PS papers in our dataset.\relax }}{164}{table.1.6}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces The codebook\xspace for analyzing the content of research publications. The rightmost column is the percentage of paragraphs tagged with the code.\relax }}{155}{table.1.1}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Summary of CHI papers in our dataset.\relax }}{158}{table.1.2}%
+\contentsline {table}{\numberline {A.3}{\ignorespaces Summary of JFE papers in our dataset.\relax }}{160}{table.1.3}%
+\contentsline {table}{\numberline {A.4}{\ignorespaces Summary of Nature papers in our dataset.\relax }}{162}{table.1.4}%
+\contentsline {table}{\numberline {A.5}{\ignorespaces Summary of PNAS papers in our dataset.\relax }}{164}{table.1.5}%
+\contentsline {table}{\numberline {A.6}{\ignorespaces Summary of PS papers in our dataset.\relax }}{166}{table.1.6}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

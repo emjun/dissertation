@@ -50,7 +50,7 @@ following order.
 In order to assess the effect of tooling on conceptual models and the quality of
 statistical models, we counterbalanced the order of tool support, or if
 participants completed each task with or without rTisane first. The order of
-tool use was the same for Phase 2 and Phase 3. Within each of Phase 2 and Phase,
+tool use was the same for Phase 2 and Phase 3. Within each of Phase 2 and Phase 3,
 half the participants completed the task on their own (without \rTisane) then
 with \rTisane. The other half started with \rTisane and then did the task on
 their own. Prior to using \rTisane in Phases 2 and 3, participants followed a
@@ -64,7 +64,7 @@ generalized linear models and using R at a three or higher on a five-point
 scale.~\autoref{tab:summativeEvaluationParticipants} summarizes the
 participants' backgrounds. All studies were conducted over Zoom. Participants used \rTisane
 on a remote controlled computer, so they did not have to install it on their
-own. Each study lasted between two and three hours. Participant was compensated
+own. Each study lasted between two and three hours. Each participant was compensated
 \$25 per hour. We recorded participants' screens, video, and audio throughout
 the study. We then transcribed the audio and used detailed researcher notes for
 qualitative analyses.
@@ -159,7 +159,8 @@ differences, and surprises between statistical models.
 \end{comment}
 
 \subsection{Findings}
-\subsubsection{RQ1: \rTisane's Impact on Conceptual Models}
+\polish{Add table/figure with quantitative model + AIC/BIC comparisons}
+\subsubsection{RQ1: \rTisanes Impact on Conceptual Models}
 \conceptualModelsScaffold
 
 \textbf{Key takeaway: \rTisane scaffolded and productively constrained how analysts expressed
@@ -199,7 +200,7 @@ affect income more or less in various circumstances.} Similarly, P8 described
 specifying their conceptual model as a general \shortquote{struggle} because \shortquote{When doing
 it myself, there are so many possibilities [of expression].} While \rTisane is
 not designed to prevent mis-specifications due to limited domain knowledge, we
-found that \rTisane's formalism removed the need for analysts to come up with
+found that \rTisanes formalism removed the need for analysts to come up with
 how to express their domain knowledge. They could focus on expressing what they
 knew. 
 
@@ -275,13 +276,14 @@ focus them on a set of variables and relationships to analyze.
 % the canvas and do a brainstorming. The process of listing down the categories
 % and the generic relationship between the variables (which was biased to my
 % personal opinion) was still the same (with or without rTisane).} 
+\polish{Missing connective text before "expand upon on [sic] their own"}
 For P5 and P7,
 who used \rTisane first, \rTisane provided a starting conceptual model expand
 upon on their own. For example, P7 authored a statistical model involving an
 interaction between variables in their \rTisane conceptual model when asked to
 specify a conceptual model on their own. It seems that just conceptual modeling
 with \rTisane helped P7 translate a conceptual model to a statistical model on
-his own. Taking these observations together, it seems that \rTisane's DSL can
+his own. Taking these observations together, it seems that \rTisanes DSL can
 support both convergent and divergent creative thinking about analysts' domain
 knowledge. 
 % Both these scenarios suggest that rTisane’s DSL for expressing
@@ -294,7 +296,7 @@ knowledge.
 % impose the content. Rather, the key benefit of rTisane was in providing
 % structure to / facilitating this process more.
 
-\subsubsection{RQ2: \rTisane's Impact on Statistical Models}
+\subsubsection{RQ2: \rTisanes Impact on Statistical Models}
 \textbf{Key takeaway: 
 % With the exception of picking family and link functions,
 \rTisane focused participants on their analysis goals over low-level details
@@ -314,12 +316,14 @@ started to author a logistic regression model with Race and Income but stopped
 before binarizing either variable. Two participants, both of whom had just
 finished authoring statistical models with rTisane, implemented GLMs [P11, P13].
 Despite task instructions, P11 started from the \rTisane output model script to
-author their own. After observing the model's \shortquote{AIC is large, the residual is
+author their own. \polish{Not super clear. What were the relevant instructions? Did P11 base their "own" script on prior rTisane output? If so, make this clearer.} After observing the model's \shortquote{AIC is large, the residual is
 large} P11 determined \shortquote{I don't think this [\rTisane output model] is the right
-fit.} So, they log-transformed the income variable and fit a new statistical model. P11's experience mirrors how we anticipate analysts to build
-upon \rTisane output statistical models in the future. 
+fit.} So, they log-transformed the income variable and fit a new statistical model. 
+P11’s experience mirrors how we anticipate analysts will iteratively refine
+\rTisane output statistical models in the future.
 
 \theme{Statistical models authored with \rTisane fit the data just as well or better than statistical models without \rTisane.}
+\polish{Add table to compare AIC/BIC}
 Of the eight participants who successfully authored linear regression or
 generalized linear models on their own, three implemented identical models with
 or without \rTisane [P7, P9, P13]. Notably, all three had authored the
@@ -360,8 +364,7 @@ for his conceptual model. However, he was unaware of three key things. First,
 given his conceptual model, he did not need to account for the other variables
 to estimate the influence of Occupation on Income and assess his hypothesis.
 Second, adding interaction terms would not capture the dependencies in the
-conceptual model. Third, what P2 likely needs to assess all the relationships in
-his conceptual model is a structural equation model.
+conceptual model. Third, P2 likely needs a structural equation model to assess all the relationships in his conceptual model.
 
 While it is well documented that statistical analysis is an iterative
 process~\cite{grolemund2014cognitive, jun2022hypoForm} and we saw evidence of
@@ -487,11 +490,11 @@ is nevertheless indicative of….
 
 
 \subsection{Discussion}
-\rTisane benefits analysts' conceptual models and statistical models. \rTisane's
+\rTisane benefits analysts' conceptual models and statistical models. \rTisanes
 DSL is expressive to capture analysts' diverse, nuanced conceptual models. In
-addition, Importantly, the DSL's language constructs served as a starting point
+addition, the DSL's language constructs served as a starting point
 for statistical analysts to reflect on their domain knowledge. A consequence of
-\rTisane's DSL and interactive compilation process is that some participants
+\rTisanes DSL and interactive compilation process is that some participants
 were able to author statistical analyses that they were not able to author on
 their own. Others could author statistical models that fit the data better than
 their own statistical models. These results highlight three key insights in
@@ -507,12 +510,12 @@ While unbounded expression in natural language, especially in the era of
 ChatGPT~\cite{brown2020language}, is enticing, we found that participants found
 the prospect of expressing their conceptual models using any means daunting. A
 key benefit of \rTisane is that it introduces a formalism that productively
-reduces the potentially infinite space of how to express conceptual
+reduces the vast combinatorial space of how to express conceptual
 relationships into a finite set that is expressible in the API. Furthermore,
 based on feedback from participants in the summative evaluation, it seems that
 the DSL is effective because it is not only expressive but also usable, which we
 attribute to our iterative language design process involving end-users.
-Moreover, learning to use \rTisane's formalism required participants to reflect
+Moreover, learning to use \rTisanes formalism required participants to reflect
 on their domain knowledge. This highlights how a DSL structures the
 specification and can turn the process of specification into a reflective
 activity. In this regard, the conceptual disambiguation step was critical. The
@@ -567,7 +570,18 @@ scientific model diagramming or planning study procedures.
 % \subsubsection{Key takeaways}
 % \textbf{Larger takeaway: ** Not about just the scaffolded steps but about the tool support for executing each of these steps**}
 
-\subsection{Limitations and Future Work on \rTisane}
+\subsection{Limitations}
+\polish{Mention composition of participants from Upwork, background, etc.}
+
+1 sentence: characterize the relative skill levels (both in terms of domain knowledge and
+modeling savvy) of the participants
+
+1 sentence: Upwork, self-report bias
+
+1 sentence: how does that affect how we should
+think about the results more broadly?
+
+\subsection{Future Work on \rTisane}
 While participants found \rTisane helpful, they suggested four areas of
 improvement: (i) family and link function selection, (ii) statistical model
 interpretation, (iii) iterative model revision, and (iv) general system
@@ -575,7 +589,7 @@ usability.
 
 % \theme{\rTisane needs to provide more support for selecting family and link functions.}
 Despite benefiting from rTisane, many participants had difficulty picking family
-and link functions in rTisane [P2, P4, P5, P9, P10, P11]. P4 explained, \shortquote{I
+and link functions [P2, P4, P5, P9, P10, P11]. P4 explained, \shortquote{I
 didn't understand the benefit or tradeoffs between different specifications. It
 wasn't obvious to me how to create a linear OLS regression, or why I would want
 to use a specification besides linear OLS.} Given how frequently participants
@@ -588,7 +602,7 @@ suggestion rather than require the analyst to pick.
 
 Once analysts execute the output statistical model from \rTisane, they find the
 output results too low-level. Because \rTisane uses lme4 under the hood, the
-outputs are the default model outputs from lme4. However, given that \rTisane's
+outputs are the default model outputs from lme4. However, given that \rTisanes
 input language is at the conceptual level, analysts expected the outputs to at
 least relate back to the conceptual model they input. In other words, the input
 and output levels of abstraction should be commensurate. This support would
@@ -609,8 +623,7 @@ but follow-up evaluation of the model is needed.} They wanted to \shortquote{go 
 tweak things a bit} about their statistical model. This kind of model iteration
 is not only typical of the participants' workflows but also even a best practice
 recommendation from the statistics community~\cite{gelman2020modelExpansion}.
-Supporting novice and more experienced analysts revise models will likely
-require different levels of abstraction and automation. 
+Supporting model revision by both novice and experienced analysts will likely require different levels of abstraction and automation.
 
 Finally, participants found going back and forth between code and an interface
 outside their IDE complicated and \shortquote{clunky.} While part of this may have been

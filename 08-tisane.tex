@@ -6,6 +6,8 @@
 \def\group{\texttt{group}\xspace}
 \def\age{\texttt{age}\xspace}
 
+\polish{Break up into Tisane and rTisane chapters?}
+
 Authoring statistical models requires analysts to jointly reason about their
 conceptual domain knowledge, statistical methods, and analysis implementations
 in code, as our theory of hypothesis formalization describes. For instance,
@@ -18,7 +20,7 @@ of implementation further constrains the statistical models that analysts try
 and use. These issues are especially salient for domain experts who lack deep
 statistical or programming expertise (e.g., many researchers).
 
-Existing statistical software exacerbate these issues because they do not allow
+Existing statistical software exacerbates these issues because they do not allow
 analysts to externalize their implicit conceptual knowledge, receive guidance on
 analysis approaches, and help authoring low-level statistical modeling
 code~\autoref{sec:toolsAnalysis}. Our work on Tisane hypothesizes that in order
@@ -39,28 +41,16 @@ models prior to authoring statistical models, analysts run the risk of
 introducing inconsistencies between their domain knowledge and statistical
 models, which can lead to unintentionally answering a different research
 question and asserting a conceptual model based on preferred results (i.e.,
-HARKing~\cite{}). 
+HARKing~\cite{kerr1998harking}). 
 
 To facilitate more accurate hypothesis formalization and analysis, we asked,
 \textbf{How might we derive (initial) statistical models from conceptual
-models?}. Inferring a statistical model raises two technical challenges: (1) How
+models?} Inferring a statistical model raises two technical challenges: (1) How
 do we elicit the information necessary for inferring a statistical model? and
 (2) How do we infer a statistical model, given this information? We explore and
 address these issues by iteratively designing, developing, and evaluating
 \textbf{Tisane, a system for implementing generalized linear models (GLMs) and
-generalized linear mixed-effects models (GLMMs) from explicit statements of
-implicit conceptual assumptions}. 
-
-The first implementation of Tisane (\autoref{sec:tisane}) was as an open-source
-Python package available on \texttt{pip} (see~\cite{tisaneWebsite}). Case studies and
-real-world use of Tisane demonstrated not only the viability but also
-the desirability of tool support for authoring statistical models from
-conceptual models (\autoref{sec:tisane_case_studies}). Therefore, we explored how to further improve Tisane's
-programming and interaction models to better suit novice analysts
-(\autoref{sec:exploratoryStudy}) and released a second version in R as the
-\rTisane library~\cite{jun2023rTisane} (see~\cite{tisaneWebsite}). The R implementation allowed us to more
-directly compare \rTisane to a scaffolded workflow using widely used linear
-modeling libraries, including the \texttt{lme4}, in R. 
+generalized linear mixed-effects models (GLMMs) from explicit statements of conceptual assumptions}. 
 
 Tisane provides a \textbf{\SDSLlong} for expressing % conceptual and data
 relationships between variables. Tisane compiles the explicitly stated
@@ -83,6 +73,17 @@ compromise generalizability of statistical results. %(\higherLevel, \connectConc
 % assumptions about a dataset. 
 % Figure~\ref{fig:figureSystemOverview} provides an overview
 % of this process.
+
+The first implementation of Tisane (\autoref{sec:tisane}) was as an open-source
+Python package available on \texttt{pip} (see~\cite{tisaneWebsite}). Case studies and
+real-world use of Tisane demonstrated not only the viability but also
+the desirability of tool support for authoring statistical models from
+conceptual models (\autoref{sec:tisane_case_studies}). Therefore, we explored how to further improve Tisane's
+programming and interaction models to better suit novice analysts
+(\autoref{sec:exploratoryStudy}) and released a second version in R as the
+\rTisane library~\cite{jun2023rTisane} (see~\cite{tisaneWebsite}). The R implementation allowed us to more
+directly compare \rTisane to a scaffolded workflow using widely used linear
+modeling libraries, including \texttt{lme4}, in R. 
 
 \input{tisane/related_work.tex}
 % \section{Tisane's DSL: Formalizing implicit domain assumptions as conceptual models}
@@ -118,7 +119,7 @@ into statistical analysis code (\thesisChallengeRep). \rTisane implements these
 changes. In case studies of \tisane and a controlled lab study of \rTisane, we
 found that the DSL is expressive enough to capture analysts' conceptual models
 accurately, eases the burden of making their implicit assumptions explicit, and
-pushes analysts to think about their domains more deeply. \rTisane's automated
+pushes analysts to think about their domains more deeply. \rTisanes automated
 reasoning led to statistical models that fit the data just as well as or better
 than statistical models authored without. \rTisane even helped analysts who were
 not able to author statistical models on their own get to an output statistical
@@ -150,7 +151,7 @@ without such support.
 
 % The summative evaluation study concretizes the impact of \tisane. Analysts
 % report being more reflective and systematic in their thinking about implicit
-% conceptual assumptions due to \rTisane's DSL and conceptual model disambiguation
+% conceptual assumptions due to \rTisanes DSL and conceptual model disambiguation
 % process. The statistical models analysts produce also more accurately estimate
 % the true relationships in the data, lower AIC/BIC and higher R-squared. 
 

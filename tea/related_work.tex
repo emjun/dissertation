@@ -8,7 +8,7 @@ burden of accurate processing from users to systems through specialized
 reasoning. In the context of the data lifecycle, researchers have developed DSLs
 that focus on supporting various stages of data exploration, experiment design,
 and data cleaning. To support data exploration,
-Vega-lite~\cite{satyanarayan2017vega} is a high-level declarative language that
+Vega-Lite~\cite{satyanarayan2017vega} is a high-level declarative language that
 supports users in developing interactive data visualizations without writing
 functional reactive components. PlanOut~\cite{bakshy2014planout} is a DSL for
 expressing and coordinating online field experiments. More niche than PlanOut,
@@ -51,10 +51,11 @@ Testing (NHST). While there are calls to incorporate other methods of
 statistical analysis~\cite{kay2016researcher,kaptein2012rethinking}, Null
 Hypothesis Significance Testing (NHST) remains the norm in HCI and other
 disciplines. Therefore, Tea currently implements a module for NHST with the
-tests found to be most common by~\cite{wacharamanotham2015statsplorer}. In
-particular, Tea supports four classes of tests: correlation (parametric: \r,
-\pb; non-parametric: \ktau, \srho), bivariate mean comparison (parametric:
-\student, \paired; non-parametric: \mannu, \wilcox, \welch), multivariate mean
-comparison (parametric: \f, \rm, \facANOVA, \twoANOVA; non-parametric: \kw,
-\friedman), and comparison of proportions (\chiSq, \fisher). Tea also supports
-an implementation of bootstrapping~\cite{efron1992bootstrap}.
+tests found to be most common by Wacharamanotham et
+al.~\cite{wacharamanotham2015statsplorer}. In particular, Tea supports four
+classes of tests: correlation (parametric: \r, \pb; non-parametric: \ktau,
+\srho), bivariate mean comparison (parametric: \student, \paired;
+non-parametric: \mannu, \wilcox, \welch), multivariate mean comparison
+(parametric: \f, \rm, \facANOVA, \twoANOVA; non-parametric: \kw, \friedman), and
+comparison of proportions (\chiSq, \fisher). Tea also supports an implementation
+of bootstrapping~\cite{efron1992bootstrap}.

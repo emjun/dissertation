@@ -21,15 +21,21 @@ precision to derive a statistical model.
 % that are both expressive and precise. 
 
 \rTisaneProgram
+\polish{Listing 5.1 should ideally reside on a single page, not across pages.}
+\polish{The comment says 5 categories for "Race", but the code has cardinality = 9
+
+"sex <− categories(unit = person, "Sex",cardinality = 2)" ->
+"sex <− categories(unit = person, "Sex", cardinality = 2)"} 
+\polish{Code formatting: Why is hypothesize bolded but others not?}
 
 \def\Participant{\texttt{Participant}\xspace}
 \def\Unit{\texttt{Unit}\xspace}
 \def\Condition{\texttt{Condition}\xspace}
 \def\Conditions{\texttt{Condition}s\xspace}
 
-\subsection{\rTisane's DSL}
+\subsection{\rTisanes DSL}
 Like \tisane, analysts express variables, a conceptual model, and a query for a
-statistical model. \rTisane's DSL prioritizes expressivity and usability 
+statistical model. \rTisanes DSL prioritizes expressivity and usability 
 
 \subsubsection{Declaring variables}
 Analysts can express two types of variables: Units and Measures. Units represent
@@ -152,7 +158,7 @@ multiple different data generating processes that could lead to different
 statistical models. In this way, conceptual model disambiguation can help analysts
 reflect on and clarify their implicit assumptions. 
 
-To disambiguate conceptual models, \rTisane uses a GUI.~\autoref{fig:figureConceptualModelsDisambiguation}) shows the conceptual model disambiguation interface for the input program in~\autoref{lst:rTisaneProgram}. The GUI shows a graph
+To disambiguate conceptual models, \rTisane uses a GUI.~\autoref{fig:figureConceptualModelsDisambiguation} shows the conceptual model disambiguation interface for the input program in~\autoref{lst:rTisaneProgram}. The GUI shows a graph
 representing analysts' conceptual models. If there are any \relates
 relationships, \rTisane suggests ways analysts could assume a direction of
 influence. Additionally, \rTisane suggests ways to break any cycles in the
@@ -191,7 +197,7 @@ and suggests any involving the query's dependent variable. Otherwise, \rTisane
 does not consider any interactions. 
 
 \rTisane determines family and link functions based on the query's dependent
-variable data type. Because \rTisane compiles down to statistical models fit
+variable data type. \polish{Explain the above sentence, see what do for \tisane} Because \rTisane compiles down to statistical models fit
 using the \lme package in \texttt{R}, \rTisane is limited to the family and link
 functions supported in \lme. For instance, for queries involving continuous
 dependent variables, \rTisane considers Gaussian, Inverse Gaussian, and Gamma

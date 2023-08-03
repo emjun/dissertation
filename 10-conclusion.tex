@@ -29,6 +29,7 @@ the design of \tisane.
 
 \section{Discussion} \label{sec:discussionChallenges} 
 
+\polish{I first interpreted the two thesis points (i) and (ii) as being the "challenges" and wondered where the third bullet was before I realized I had misparsed the sentence. Consider revising for clarity.}
 This dissertation addresses three challenges central to the thesis that (i)
 programming abstractions focused on capturing analysts' implicit conceptual
 knowledge, data collection details, and analysis intents and (ii) automated
@@ -43,12 +44,12 @@ below.
 With any programming language or DSL, end-users must learn a formalism to use
 it. \tea, \tisane, and \rTisane abstract the appropriate \textit{conceptual
 concerns} implicitly involved in statistical analyses. The fact that an
-abstraction is high or low is less relevant than if the abstraction is a the
+abstraction is high or low is less relevant than if the abstraction is at the
 \textit{right} level for end-users and their tasks. Indeed, a key insight that
 guided our design of \rTisane (\autoref{sec:rTisane}) was that analysts wanted
 low- and high-level conceptual abstractions to express their domain knowledge
 with varying degrees of detail that felt helpful and accurate to them
-(see~\autoref{sec:exploratoryStudy}).
+(see~\autoref{sec:exploratoryStudy}). \polish{Rather "lower" and "higher" than some reference point might make more sense. Or, changing the descriptive language to avoid false or ambiguous contrasts.}
 
 When comparing the abstractions \tea and \tisane provide, it is easy to see that
 the conceptual relationships between variables were still largely implicit in
@@ -78,7 +79,7 @@ top of a reasoning approach that was straightforward. In this view, the DSL
 would be a thin wrapper around the automated reasoning engine. For example, a
 very early prototype of \tisane used Answer Set Programming (ASP) to define when
 specific confounders should appear in a generalized linear model. In addition to
-being a clunky way to represent linear model formulation rules when the
+being an inelegant way to represent linear model formulation rules when the
 statistics community has converged on using graphs, this prototype required
 analysts to incrementally refine their statistical models by interacting with
 the UNSAT core. This form of interactivity, though interesting, obfuscated a
@@ -94,7 +95,7 @@ By providing the appropriate abstractions, DSLs can make the specification a
 useful form of documentation and the process of specifying a reflective
 activity. Both are particularly important for statistical analysis.
 Documentation can improve reproducibility. As we saw in the summative
-evaluation, reflection throughout analysis can also deepen domain thinking and
+evaluation (\autoref{sec:summativeEval}), reflection throughout analysis can also deepen domain thinking and
 prevent drifting analysis goals that lead to questionable conclusions. 
 % Through their involvement in interactive compilation, 
 % reify the connection between the conceptual and
@@ -130,8 +131,9 @@ journal~\cite{johnson2022varied}.
 
 \section{Limitations and Future work} \label{sec:futureWork}
 % \todo{Add ideas from defense}
-By addressing each of core challenges, the DSLs and automated reasoning
-approaches in this dissertation makes it possible for statistical non-experts to
+\polish{Is it clear what the core challenges refer to?}
+By addressing each of the core challenges, the DSLs and automated reasoning
+approaches in this dissertation make it possible for statistical non-experts to
 more readily author valid analyses. There are important limitations of this work
 that suggest promising future directions for further lowering the barriers to
 statistical analysis. 
@@ -143,7 +145,7 @@ statistical analysis.
 While \tea, \tisane and \rTisane effectively address the gulf of execution by
 compiling conceptual knowledge, data collection details, and intents for
 analysis into statistical analyses, they fall short of bridging the gulf of
-evaluation. \tisane and \rTisane doe not yet provide support for analysts to
+~\cite{norman2013doet}. \tisane and \rTisane doe not yet provide support for analysts to
 interpret the results of their statistical models. Accurate interpretation of
 statistical results is critical for follow-up analyses, such as model revisions,
 and communication. Future work should address two key challenges: (i)
@@ -180,7 +182,7 @@ supported. Tisane could even accept these augmented logs to save the state of th
 
 \subsection{Guide statistical model revision and iteration}
 Analysts in the summative evaluation of \rTisane (\autoref{sec:summativeEval})
-started to iterate on \rTisane's output statistical model and sought more
+started to iterate on \rTisanes output statistical model and sought more
 support for model revision. There are two key challenges in supporting a more
 iterative modeling workflow, such as a Bayesian
 Workflow~\cite{gelman2020bayesianWorkflow}: (i) recognizing when conceptual
@@ -302,7 +304,7 @@ external validity: (i) violation of statistical method assumptions, (ii) fishing
 for statistical results, (iii) not accounting for the influence of specific
 units, and (iv) overlooking the influence of data collection procedures on
 outcomes~\cite{cook2002generalizedCausalInference}. A major barrier to designing
-for construct validity was in having access to and incorporating a knowledge
+for construct validity lies in having access to and incorporating a knowledge
 base about any domain of analysis. However, recent advances in language models,
 such as GPT-3~\cite{brown2020language} and GPT-4, now provide one form of said knowledge base.
 Therefore, future work should explore ways to leverage such technologies to help
@@ -511,5 +513,5 @@ tail of users who are not statistical experts. Statistical analysis software
 must help these analysts (i) express what they know about their domain, the
 data, and their intents for analysis and (ii) guide them towards valid
 statistical analyses and conclusions. This dissertation aims to enable people,
-regardless of statistical background, reliably analyze data to guide discovery
+regardless of statistical background, to reliably analyze data to guide discovery
 and inform decision-making. 

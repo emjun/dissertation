@@ -1586,6 +1586,7 @@ OUTPUT dissertation.toc
 INPUT ./dissertation.lof
 INPUT dissertation.lof
 INPUT dissertation.lof
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbi1095.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -1750,7 +1751,6 @@ INPUT ./hypothesisFormalization/figures/A11_SS_2.png
 INPUT hypothesisFormalization/figures/A11_SS_2.png
 INPUT ./hypothesisFormalization/figures/A11_SS_2.png
 INPUT ./hypothesisFormalization/figures/A11_SS_2.png
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbi1095.tfm
 INPUT ./hypothesisFormalization/tools_analysis.tex
 INPUT hypothesisFormalization/tools_analysis.tex
 INPUT ./hypothesisFormalization/tools_analysis.tex
