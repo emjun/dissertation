@@ -173,7 +173,7 @@ as structural equation modeling~\cite{hoyle1995SEM}, that are out of Tisane's
 scope.
 
 In the graph IR, a \texttt{causes} relationship introduces a causal edge from
-one node, the cause, to another node, the effect (\ref{fig:figureSDSLToGraphIR}(a)). Because a
+one node, the cause, to another node, the effect (\autoref{fig:figureSDSLToGraphIR}(a)). Because a
 variable cannot be both the cause and effect of the same variable, any pair of
 nodes can only have one causal edge between them. Furthermore, from a formal
 causal analysis perspective, associations may indicate the presence of a hidden,
@@ -181,11 +181,11 @@ unobserved variable that mediates the causal effect of a variable on another or
 that influences two or more variables simultaneously. Thus, rather than
 inferring or requiring analysts to specify hidden variables, which may be
 unknown and/or unmeasurable, the \texttt{associates\_with} relationship introduces two directed edges in
-opposing directions, representing the bidirectionality of association (\ref{fig:figureSDSLToGraphIR}(b)). A \texttt{moderates}
+opposing directions, representing the bidirectionality of association (\autoref{fig:figureSDSLToGraphIR}(b)). A \texttt{moderates}
 relationship creates a new node that is eventually transformed into an interaction term in the model, introduces associative edges between the new
 interaction node and the target (variable) node, creates associative edges between the moderated variable's node and the target node, and adds associative
 edges between the moderating variables' nodes and the
-target node if there is not a causal or associative edge already (\ref{fig:figureSDSLToGraphIR}(c)).
+target node if there is not a causal or associative edge already (\autoref{fig:figureSDSLToGraphIR}(c)).
 Furthermore, each interaction node inherits the attribution edges from the nodes of the
 \nobreak moderating variables that comprise it. This means that every interaction node is
 also the attribute of
@@ -243,7 +243,7 @@ how data were collected.
 Thus, Tisane addresses the three problems by (i) eliciting data measurement
 relationships from analysts to infer clusters and (ii) formulating the maximal
 random effects structure, optimizing for external validity
-(\ref{sec:interaction_model}). Below, we describe language features for expressing data measurement relationships.
+(\autoref{sec:interaction_model}). Below, we describe language features for expressing data measurement relationships.
 
 \paragraph{Nesting relationships: Hierarchies}
 \textbf{Hierarchies} arise when a unit (e.g., an \adult) is nested within another
@@ -254,13 +254,13 @@ recruitment strategies. To express such designs, Tisane provides the
 observational/experimental units, so Tisane type checks that the variables
 that nest are both Units. %Tisane assumes there are multiple nested units within a nesting unit.
 In the graph IR, a nesting relationship is encoded as an edge between two unit
-nodes (\ref{fig:figureSDSLToGraphIR}(d)). There is one edge from the nested
+nodes (\autoref{fig:figureSDSLToGraphIR}(d)). There is one edge from the nested
 unit (e.g., \adult) to the nesting unit (e.g., \group)~\footnote{The GitHub repo contains a gallery of examples that include nesting relationships.}.
 
 \paragraph{Frequency of measures: Repeated measures, Non-nesting composition}
 \def\numberofinstances{\texttt{number\_of\_instances}\xspace}
 When a measure is declared through a unit, Tisane adds an
-attribution edge (``has') from a unit node to a measure node (\ref{fig:figureSDSLToGraphIR}(e)).
+attribution edge (``has'') from a unit node to a measure node (\autoref{fig:figureSDSLToGraphIR}(e)).
 A unit's measure can be taken one or more times in a study. The frequency of
 measurement is useful for detecting repeated measures and non-nesting
 composition. In \textbf{repeated measures} study designs, each unit provides
@@ -354,7 +354,7 @@ multicollinearity issues that may arise.
 
 \paragraph{Deriving Candidate Main Effects}
 In a query to infer a statistical model, analysts specify a single dependent
-variable and a set of one or more IVs. After passing the checks described in~\ref{sec:prelim-checks}, %As described above, the input IVs are
+variable and a set of one or more IVs. After passing the checks described in~\autoref{sec:prelim-checks}, %As described above, the input IVs are
 %checked to make sure that they have conceptually causal or associative %relationships. %Given that they do,
 the query's independent variables are considered candidates. In addition, Tisane
 derives three additional sets of candidate main effects intended to control for
@@ -366,7 +366,7 @@ criterion''~\cite{vanderweele2019modifiedDisjunctiveCriterion}:
 
 \begin{itemize}    
     \item \textbf{Causal parents.} For each IV in the query, Tisane finds its
-    causal parents (see~\ref{fig:figureCandidateMainEffects}(a)).
+    causal parents (see~\autoref{fig:figureCandidateMainEffects}(a)).
     % , as recommended
     % by~\cite{vanderweele2019modifiedDisjunctiveCriterion}.
     \item \textbf{Possible causal omissions.} Tisane looks to see if any other
@@ -374,11 +374,11 @@ criterion''~\cite{vanderweele2019modifiedDisjunctiveCriterion}:
     % , as recommended
     % in~\cite{vanderweele2019modifiedDisjunctiveCriterion} 
     (see
-    in~\ref{fig:figureCandidateMainEffects}(b)). They are relevant to the DV
+    in~\autoref{fig:figureCandidateMainEffects}(b)). They are relevant to the DV
     but may have been erroneously omitted.
     \item \textbf{Possible confounding associations.} For each IV, Tisane looks
     for variables that are associated with both the IV and the DV (see
-    in~\ref{fig:figureCandidateMainEffects}(c)). Because associations
+    in~\autoref{fig:figureCandidateMainEffects}(c)). Because associations
     between variables can have multiple underlying causal structures, Tisane
     recommends variables with associative relationships with caution. Tisane
     issues a warning describing when not to include such a variable in the GUI.
@@ -425,7 +425,7 @@ Candidate interaction effects are the interaction nodes whose (i) moderated and 
 \paragraph{Deriving Candidate Random Effects} \label{sec:deriveRandomEffects}
 Random effects occur when there are clusters in the data, which occur when
 we have repeated measures,
-nested hierarchies, or non-nesting composition (as defined in subsection~\ref{sec:data-measurement-relationships}). Tisane implements Barr et al.'s recommendations
+nested hierarchies, or non-nesting composition (as defined in~\autoref{sec:data-measurement-relationships}). Tisane implements Barr et al.'s recommendations
 for specifying the maximal random effects structure of linear mixed effects
 models for increasing the generalizability of statistical
 results~\cite{barr2013random, barr2013randomUpdated}.
@@ -442,7 +442,7 @@ that are within-subjects where each instance of the unit has multiple
 observations per value of another variable. For interaction effects, random
 slopes are included for the largest subset of within-subjects variables (see~\cite{barr2013randomUpdated}). %,
 %according to Barr's updated recommendations~\cite{barr2013randomUpdated}.
-Tisane handles correlation of random slopes and intercepts during disambiguation (subsection~\ref{sec:disambiguation}).
+Tisane handles correlation of random slopes and intercepts during disambiguation (\autoref{sec:disambiguation}).
 %When there are both random slopes and random intercepts for the same unit, Tisane asks analysts if they are correlated during disambiguation. By default, Tisane assumes correlation.
 % due to computational limitations or insufficient data,
 Maximal random effects may lead to model convergence issues that analysts
@@ -527,7 +527,7 @@ after choosing a family and link function in the first place.
 
 For an initial statistical model to consider, Tisane narrows the set of family
 functions considered based on the declared data type of variables
-(see~\ref{sec:family_link_functions}) and lightweight viability checks, such
+(see~\autoref{sec:family_link_functions}) and lightweight viability checks, such
 as ensuring that a Poisson distribution is only applicable for variables that
 have nonnegative integer values. Tisane asks questions designed to uncover
 more semantically meaningful data types (e.g., counts) than are provided at

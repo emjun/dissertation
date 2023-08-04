@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.3)  3 AUG 2023 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  4 AUG 2023 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1354,12 +1354,12 @@ File: lstlang3.sty 2020/03/24 1.8d listings language file
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]) (./01-abstract.tex
-Overfull \hbox (507.99988pt too wide) in paragraph at lines 30--41
+Overfull \hbox (507.99988pt too wide) in paragraph at lines 30--40
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--41
+Underfull \hbox (badness 10000) in paragraph at lines 30--40
 
  []
 
@@ -1628,8 +1628,8 @@ and test the mo-ti-vat-ing causal graph [[];
  []
 
 [87] Excluding 'comment' comment.) (./tisane/system.tex [88]
-Overfull \hbox (13.98523pt too wide) in paragraph at lines 41--54
-\T1/cmr/m/n/10.95 cover new anal-y-sis paths (P1, P2, P3)[][][][][][].
+Overfull \hbox (11.56738pt too wide) in paragraph at lines 41--54
+\T1/cmr/m/n/10.95 cover new anal-y-sis paths [P1, P2, P3][][][][][][].
  []
 
 
@@ -2168,7 +2168,7 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  41991 strings out of 478994
- 933215 string characters out of 5858185
+ 933215 string characters out of 5858184
  1719735 words of memory out of 5000000
  57901 multiletter control sequences out of 15000+600000
  435231 words of font info for 104 fonts, out of 8000000 for 9000
@@ -2267,7 +2267,7 @@ ve/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist
 /fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on dissertation.pdf (175 pages, 10720917 bytes).
+Output written on dissertation.pdf (175 pages, 10720881 bytes).
 PDF statistics:
  2724 PDF objects out of 2984 (max. 8388607)
  2424 compressed objects within 25 object streams
