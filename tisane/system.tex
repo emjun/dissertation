@@ -70,7 +70,7 @@ specification from which to infer statistical models: (1) determining the set of
 relationships that are essential for statistical modeling and (2) determining
 the level of granularity to express relationships.
 
-\subsection{Study design specification language and graph representation} \label{sec:dsl}
+\subsection{Study Design Specification Language and Graph Representation} \label{sec:dsl}
 
 In Tisane's SDSL, analysts can express conceptual and data measurement
 relationships between variables. Both are necessary to specify the domain
@@ -311,7 +311,7 @@ are non-nesting.
 %         \Description{A directed graph of five nodes is depicted. The nodes are labeled “group”, “condition”, “pounds_lost”, “motivation”, and “member”, all in monospace font. The “group” node is square-shaped (indicating the node represents a Unit), and has a dotted edge pointing to the circle-shaped (indicating it's a Measure) “condition” node. The “condition” node has a solid edge labeled “causes” pointing to the circle-shaped, gray “pounds_lost” node. The gray color indicates that “pounds_lost” was the dependent variable. The “pounds_lost” node has one outgoing solid edge labeled “assoc.” (for associative relationships), to the circle-shaped node “motivation.” The “motivation” node has an outgoing, solid “assoc.” edges to the “pounds_lost” node. The final node, “member,” is square-shaped and has a dashed outgoing edge to the “group” node and dotted outgoing edges to the “pounds_lost” and “motivation” nodes. The dashed edge means “member” nests in “group” and the dotted edges mean that “pounds_lost” and “motivation” are measures of the “member” unit.}
 %     \end{figure}
 
-\subsection{Statistical model inference: Interactively querying the graph IR}
+\subsection{Statistical Model Derivation: Interactively Querying the Graph IR}
 \label{sec:interaction_model} After specifying variable relationships, analysts
 can query Tisane for a statistical model. Queries are constructed by specifying
 a study design with a dependent variable (the value to be predicted) and a set

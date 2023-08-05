@@ -89,6 +89,16 @@
 \usepackage{graphicx}
 \usepackage{comment}
 \usepackage{longtable} % for long tables
+% For uniform capitalization of section titles
+% \usepackage{sectsty}
+\usepackage{titlecaps}
+% \sectionfont{\titlecap}
+\let\oldsection\section
+\renewcommand{\section}[1]{\oldsection{\titlecap{#1}}}
+\Addlcwords{and or of as on in with rTisane for} % Keep these words lowercase
+% \let\oldsubsection\subsection
+% \renewcommand{\subsection}[1]{\oldsubsection{\titlecap{#1}}}
+
 
 % For Tikz graphics
 \usepackage{tikz}
