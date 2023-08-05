@@ -100,6 +100,48 @@
 % \renewcommand{\subsection}[1]{\oldsubsection{\titlecap{#1}}}
 
 
+% For code snippets
+\usepackage{upquote}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{float}
+
+\newcommand\upquote[1]{\textquotesingle#1\textquotesingle}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{mauve}{rgb}{0.58, 0, 0.82}
+% \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{white},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+\definecolor{light-gray}{gray}{0.95}
+% \lstset{basicstyle=\linespread{1.1}\ttfamily\footnotesize,
+%     backgroundcolor=\color{light-gray}, xleftmargin=0.7cm,
+%     frame=tlbr, framesep=0.2cm, framerule=0pt,
+% }
+
+\lstset{style=mystyle}
+\definecolor{lightgray}{rgb}{0.83, 0.83, 0.83}
+
 % For Tikz graphics
 \usepackage{tikz}
 \usetikzlibrary{positioning,arrows.meta,graphs,backgrounds,fit,calc,quotes,shapes.multipart}
@@ -195,7 +237,7 @@
 \def\lme{\texttt{lme4}\xspace}
 \def\statsmodels{\texttt{statsmodels}\xspace}
 \def\pymer{\texttt{pymer4}\xspace}
-\newcommand\upquote[1]{\textquotesingle#1\textquotesingle}
+% \newcommand\upquote[1]{\textquotesingle#1\textquotesingle}
 %% Referencing sections
 \def\sectionautorefname{Section}
 %% Referencing subsections
