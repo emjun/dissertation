@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  4 AUG 2023 17:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  4 AUG 2023 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1434,11 +1434,15 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 
 
 ]
-(./dissertation.lot [17])
+(./dissertation.lot)
 \tf@lot=\write8
 \openout8 = `dissertation.lot'.
 
- [18]
+ [17] [18
+
+
+
+]
 Chapter 1.
 (./04-intro.tex Excluding 'comment' comment.
 
@@ -1449,11 +1453,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 128.
 
-[19
-
-
-
-]
+[19]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 200.
@@ -1511,7 +1511,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
-<tea/figures/tea_program.jpg, id=973, 3863.43375pt x 3922.655pt>
+<tea/figures/tea_program.jpg, id=958, 3863.43375pt x 3922.655pt>
 File: tea/figures/tea_program.jpg Graphic file (type jpg)
 <use tea/figures/tea_program.jpg>
 Package pdftex.def Info: tea/figures/tea_program.jpg  used on input line 2.
@@ -1525,13 +1525,13 @@ Overfull \hbox (106.87238pt too wide) in alignment at lines 1--1
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 3.
 
-[35]) (./tea/system.tex [36]
+[35]) [36] (./tea/system.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
 [37] [38]
-<tea/figures/modes_wide.jpg, id=1051, 6677.94875pt x 4589.145pt>
+<tea/figures/modes_wide.jpg, id=1036, 6677.94875pt x 4589.145pt>
 File: tea/figures/modes_wide.jpg Graphic file (type jpg)
 <use tea/figures/modes_wide.jpg>
 Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 134.
@@ -1575,7 +1575,7 @@ Chapter 4.
 Underfull \vbox (badness 7944) has occurred while \output is active []
 
  [49]
-<hypothesisFormalization/figures/overview_sept_17.png, id=1187, 1027.84pt x 585
+<hypothesisFormalization/figures/overview_sept_17.png, id=1172, 1027.84pt x 585
 .18625pt>
 File: hypothesisFormalization/figures/overview_sept_17.png Graphic file (type p
 ng)
@@ -1597,7 +1597,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
 [52]
-<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1220,
+<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1205,
  1218.5525pt x 300.12125pt>
 File: hypothesisFormalization/figures/prior_work_combined_july_16_2021.png Grap
 hic file (type png)
@@ -1616,7 +1616,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53]
 [54 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
-<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1243, 835
+<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1228, 835
 .62187pt x 275.0275pt>
 File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic 
 file (type png)
@@ -1638,14 +1638,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
 [60] [61] [62]
-<hypothesisFormalization/figures/A11_SS_1.png, id=1354, 548.0475pt x 590.205pt>
+<hypothesisFormalization/figures/A11_SS_1.png, id=1339, 548.0475pt x 590.205pt>
 
 File: hypothesisFormalization/figures/A11_SS_1.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_1.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_1.png  used on 
 input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 204.88174pt.
-<hypothesisFormalization/figures/A11_SS_2.png, id=1355, 564.1075pt x 477.785pt>
+<hypothesisFormalization/figures/A11_SS_2.png, id=1340, 564.1075pt x 477.785pt>
 
 File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
@@ -1753,7 +1753,7 @@ Underfull \hbox (badness 3623) in paragraph at lines 62--62
 
 
 Overfull \hbox (24.39998pt too wide) in paragraph at lines 62--62
-[][]
+[]
  []
 
 
@@ -1773,7 +1773,7 @@ File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 
 pdfTeX warning: pdflatex (file ./tisane/figures/figure4.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<tisane/figures/figure4.pdf, id=1690, 194.47656pt x 147.80219pt>
+<tisane/figures/figure4.pdf, id=1675, 194.47656pt x 147.80219pt>
 File: tisane/figures/figure4.pdf Graphic file (type pdf)
 <use tisane/figures/figure4.pdf>
 Package pdftex.def Info: tisane/figures/figure4.pdf  used on input line 105.
@@ -1823,27 +1823,29 @@ Overfull \vbox (8.83994pt too high) detected at line 478
 
 
 Overfull \hbox (6.92024pt too wide) in paragraph at lines 478--478
-[][]
+[]
  []
 
-<tisane/figures/usage_scenario_gui_05012022.png, id=1815, 1343.0175pt x 1002.74
+<tisane/figures/usage_scenario_gui_05012022.png, id=1800, 1343.0175pt x 1002.74
 625pt>
 File: tisane/figures/usage_scenario_gui_05012022.png Graphic file (type png)
 <use tisane/figures/usage_scenario_gui_05012022.png>
 Package pdftex.def Info: tisane/figures/usage_scenario_gui_05012022.png  used o
 n input line 481.
 (pdftex.def)             Requested size: 352.31625pt x 263.04887pt.
-
+[96] [97 <./tisane/figures/usage_scenario_gui_05012022.png>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96]
-[97 <./tisane/figures/usage_scenario_gui_05012022.png>] [98])
+ [98]
 (./tisane/case_studies.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 2.
 
-[99] Excluding 'comment' comment. [100]
+[99] Excluding 'comment' comment.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100]
 Overfull \hbox (12.11485pt too wide) in paragraph at lines 133--165
 \T1/pcr/m/n/10.95 number_of_instances\T1/cmr/m/n/10.95 , R2 de-clared all the m
 ea-sures with the pa-ram-e-ter \T1/pcr/m/n/10.95 number_of_instances
@@ -1854,11 +1856,7 @@ Excluding 'comment' comment. [101] [102]
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 308.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [103])
-(./tisane/exploratory.tex
+[103]) (./tisane/exploratory.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 5.
@@ -1868,7 +1866,14 @@ Overfull \hbox (1083.41725pt too wide) in paragraph at lines 12--16
 [][][][][][]
  []
 
-[104] [105] [106] Excluding 'comment' comment.
+[104]
+Underfull \vbox (badness 3019) has occurred while \output is active []
+
+ [105]
+Underfull \vbox (badness 4608) has occurred while \output is active []
+
+ [106]
+Excluding 'comment' comment.
 Overfull \hbox (814.28586pt too wide) in paragraph at lines 245--246
 [][][][][][] 
  []
@@ -1888,11 +1893,8 @@ Overfull \hbox (804.87193pt too wide) in paragraph at lines 24--30
 [][][][][][] [][][][][][]
  []
 
-[109] Excluding 'comment' comment.
-Underfull \vbox (badness 4505) has occurred while \output is active []
-
- [110]
-<tisane/figures/conceptual-model-disambiguation.png, id=1957, 606.265pt x 348.3
+Excluding 'comment' comment. [109] [110]
+<tisane/figures/conceptual-model-disambiguation.png, id=1943, 606.265pt x 348.3
 0125pt>
 File: tisane/figures/conceptual-model-disambiguation.png Graphic file (type png
 )
@@ -1900,10 +1902,9 @@ File: tisane/figures/conceptual-model-disambiguation.png Graphic file (type png
 Package pdftex.def Info: tisane/figures/conceptual-model-disambiguation.png  us
 ed on input line 151.
 (pdftex.def)             Requested size: 399.29463pt x 229.3959pt.
-
-[111 <./tisane/figures/conceptual-model-disambiguation.png>]
-Excluding 'comment' comment.
-<tisane/figures/statistical-model-disambiguation.png, id=1967, 1042.39438pt x 5
+ [111 <./tisane/figures/conceptual-model-disambiguation.png>] Excluding 'commen
+t' comment.
+<tisane/figures/statistical-model-disambiguation.png, id=1952, 1042.39438pt x 5
 23.45563pt>
 File: tisane/figures/statistical-model-disambiguation.png Graphic file (type pn
 g)
@@ -1918,7 +1919,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
 [113] [114] Excluding 'comment' comment.
-<tisane/figures/conceptual-models.png, id=1989, 617.30624pt x 298.11375pt>
+<tisane/figures/conceptual-models.png, id=1974, 617.30624pt x 298.11375pt>
 File: tisane/figures/conceptual-models.png Graphic file (type png)
 <use tisane/figures/conceptual-models.png>
 Package pdftex.def Info: tisane/figures/conceptual-models.png  used on input li
@@ -1935,10 +1936,10 @@ Overfull \hbox (382.38263pt too wide) in paragraph at lines 310--324
  []
 
 [118] [119] [120] Excluding 'comment' comment. Excluding 'comment' comment.
-[121] [122]
+[121]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10.95> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 611.
-) (./tisane/discussion.tex
+ [122]) (./tisane/discussion.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
@@ -1949,17 +1950,17 @@ Overfull \hbox (203.66895pt too wide) in paragraph at lines 2--9
 ive \T1/cmr/m/n/10.95 at the time. [][][][][][] 
  []
 
-[123]
+
 Overfull \hbox (415.45634pt too wide) in paragraph at lines 12--23
 [][][][][][][]
  []
 
-Excluding 'comment' comment. Excluding 'comment' comment.)
+[123] Excluding 'comment' comment. Excluding 'comment' comment.)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 103.
 
-[124]) [125] [126
+) [124] [125] [126
 
 
 ]
@@ -2282,7 +2283,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 6.
 
 <tisane/figures/tisane_screenshots/potential_confounding_association.png, id=23
-97, 886.81313pt x 511.41063pt>
+82, 886.81313pt x 511.41063pt>
 File: tisane/figures/tisane_screenshots/potential_confounding_association.png G
 raphic file (type png)
 <use tisane/figures/tisane_screenshots/potential_confounding_association.png>
@@ -2300,7 +2301,7 @@ Appendix C.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 10.
 
-<tisane/figures/example-conceptual-model.png, id=2409, 534.99875pt x 266.9975pt
+<tisane/figures/example-conceptual-model.png, id=2394, 534.99875pt x 266.9975pt
 >
 File: tisane/figures/example-conceptual-model.png Graphic file (type png)
 <use tisane/figures/example-conceptual-model.png>
@@ -2349,7 +2350,7 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 Here is how much of TeX's memory you used:
  42248 strings out of 478994
  936397 string characters out of 5858184
- 1713983 words of memory out of 5000000
+ 1722923 words of memory out of 5000000
  58138 multiletter control sequences out of 15000+600000
  436473 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2448,10 +2449,10 @@ texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2021/texmf-dist
 /fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
 ype1/urw/courier/ucrro8a.pfb>
-Output written on dissertation.pdf (174 pages, 10724607 bytes).
+Output written on dissertation.pdf (174 pages, 10722645 bytes).
 PDF statistics:
- 2693 PDF objects out of 2984 (max. 8388607)
- 2397 compressed objects within 24 object streams
+ 2678 PDF objects out of 2984 (max. 8388607)
+ 2382 compressed objects within 24 object streams
  691 named destinations out of 1000 (max. 500000)
  953 words of extra memory for PDF output out of 10000 (max. 10000000)
 

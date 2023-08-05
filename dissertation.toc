@@ -97,14 +97,14 @@
 \contentsline {paragraph}{Deriving Candidate Interaction Effects}{95}{section*.61}%
 \contentsline {paragraph}{Deriving Candidate Random Effects}{95}{section*.62}%
 \contentsline {paragraph}{Deriving Candidate Family and Link Functions}{96}{section*.63}%
-\contentsline {subsubsection}{Eliciting Analyst Input for Disambiguation\xspace }{98}{section*.65}%
+\contentsline {subsubsection}{Eliciting Analyst Input for Disambiguation\xspace }{96}{section*.65}%
 \contentsline {subsubsection}{Output}{99}{section*.67}%
 \contentsline {section}{\numberline {5.4}\titlecap {Initial evaluation: Case studies with researchers}}{99}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Case Study 1: Planning a New Study}{100}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}Case Study 2: Analyzing Data for a Paper Submission}{101}{subsection.5.4.2}%
 \contentsline {subsection}{\numberline {5.4.3}Case Study 3: Developing Models to Inform Future Models}{102}{subsection.5.4.3}%
 \contentsline {subsubsection}{System changes and Takeaways}{103}{section*.68}%
-\contentsline {section}{\numberline {5.5}\titlecap {Limitations and Motivation for Re-design}}{104}{section.5.5}%
+\contentsline {section}{\numberline {5.5}\titlecap {Limitations and Motivation for Re-design}}{103}{section.5.5}%
 \contentsline {section}{\numberline {5.6}\titlecap {Elicitation lab study}}{104}{section.5.6}%
 \contentsline {subsection}{\numberline {5.6.1}Method}{104}{subsection.5.6.1}%
 \contentsline {subsection}{\numberline {5.6.2}Key Observations}{105}{subsection.5.6.2}%
@@ -118,14 +118,14 @@
 \contentsline {subsection}{\numberline {5.7.1}rTisane's\xspace Domain-Specific Language}{109}{subsection.5.7.1}%
 \contentsline {subsubsection}{Declaring variables}{109}{section*.74}%
 \contentsline {subsubsection}{Expressing a conceptual model}{110}{section*.75}%
-\contentsline {subsubsection}{Querying for a statistical model}{111}{section*.76}%
+\contentsline {subsubsection}{Querying for a statistical model}{110}{section*.76}%
 \contentsline {subsection}{\numberline {5.7.2}Two-step Interactive Compilation}{111}{subsection.5.7.2}%
 \contentsline {subsubsection}{Conceptual Model Disambiguation}{111}{section*.77}%
 \contentsline {subsubsection}{Statistical model derivation and disambiguation}{112}{section*.79}%
 \contentsline {section}{\numberline {5.8}\titlecap {Summative Evaluation: Controlled lab study}}{113}{section.5.8}%
 \contentsline {subsection}{\numberline {5.8.1}Study Design}{113}{subsection.5.8.1}%
 \contentsline {paragraph}{Participants}{114}{section*.81}%
-\contentsline {subsection}{\numberline {5.8.2}Analysis Approach}{115}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.2}Analysis Approach}{114}{subsection.5.8.2}%
 \contentsline {subsection}{\numberline {5.8.3}Findings}{115}{subsection.5.8.3}%
 \contentsline {subsubsection}{RQ1: rTisane's\xspace Impact on Conceptual Models}{115}{section*.83}%
 \contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts found it difficult to express conceptual nuances.}{116}{section*.85}%
@@ -136,7 +136,7 @@
 \contentsline {subsubsection}{Theme: Statistical models authored with rTisane\xspace fit the data just as well or better than statistical models without rTisane\xspace .}{119}{section*.90}%
 \contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts change their analysis intent during statistical modeling.}{119}{section*.91}%
 \contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts find statistical model formulation challenging.}{120}{section*.92}%
-\contentsline {subsubsection}{Theme: rTisane\xspace focused analysts on their motivation for analysis.}{121}{section*.93}%
+\contentsline {subsubsection}{Theme: rTisane\xspace focused analysts on their motivation for analysis.}{120}{section*.93}%
 \contentsline {subsubsection}{Theme: Analysts want to use rTisane\xspace for scientific communication, not just statistical authoring.}{121}{section*.94}%
 \contentsline {subsection}{\numberline {5.8.4}Discussion}{121}{subsection.5.8.4}%
 \contentsline {subsection}{\numberline {5.8.5}Limitations}{122}{subsection.5.8.5}%

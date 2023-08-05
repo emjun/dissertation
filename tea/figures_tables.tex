@@ -187,7 +187,12 @@
 \newcommand{\otherSystems}{
     \begin{table*}[t]
         \centering \small
-        \caption{\textbf{Comparison of Tea to other tools.} \polish{Format to fit (not run over) horizontally} Despite the published best practices for statistical analyses, most tools do not help users select appropriate tests. Tea not only addresses the best practices but also supports reproducing analyses.}
+        \caption{\textbf{Comparison of Tea to other tools.}}
+          \begin{small}
+          \begin{minipage}{\linewidth}
+            \polish{Format to fit (not run over) horizontally} Despite the published best practices for statistical analyses, most tools do not help users select appropriate tests. Tea not only addresses the best practices but also supports reproducing analyses.
+          \end{minipage}
+          \end{small}
         \label{tab:otherSystems}
         \begin{tabularx}{\linewidth}{r|c|c|c|c|c|c}
             \colHR{Best practices} & \colH{SAS} & \colH{SPSS} & \colH{JMP} & \colH{R} & \colH{Statsplorer~\cite{wacharamanotham2015statsplorer}} & \colH{Tea} \\

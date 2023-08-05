@@ -697,7 +697,12 @@
 %
 \newcommand{\tableFamilyLinkFunctions}{
  \begin{table}[h]
-   \caption{\textbf{The available family and link functions in Tisane.} \polish{Fix overlapping} Tisane generates code to fit models using \texttt{statsmodels} and \texttt{pymer4}. The package \texttt{statsmodels} supports GLMs without mixed-effects and a wider variety of family and link function combinations. The package \texttt{pymer4} supports GLMs with mixed effects and has much more limited support for family and link functions. As \texttt{statsmodels} and \texttt{pymer} add more support, Tisane can be extended.}
+   \caption{\textbf{The available family and link functions in Tisane.}} 
+    \begin{small}
+    \begin{minipage}{\linewidth}
+        \polish{Fix overlapping} Tisane generates code to fit models using \texttt{statsmodels} and \texttt{pymer4}. The package \texttt{statsmodels} supports GLMs without mixed-effects and a wider variety of family and link function combinations. The package \texttt{pymer4} supports GLMs with mixed effects and has much more limited support for family and link functions. As \texttt{statsmodels} and \texttt{pymer} add more support, Tisane can be extended.
+    \end{minipage}
+    \end{small}
    \begin{tabular}{lll} \hline
    %   \multirow{3}{*}{\multicolumn{1}{c}{Family functions}}	&	\multicolumn{2}{c}{Link functions (*default)} \\ \cline{2-3}
      &	\multicolumn{2}{c}{Link functions (*default)} \\ \cline{2-3}
@@ -816,12 +821,16 @@
 \newcommand{\tableStudyDesignTools}{
   \begin{table}
     \small
-    \caption{Overview of study design tools that informed Tisane's \SDSLlong.
-    The first five tools provide higher-level
-    abstractions. They are designed to help researchers reason about their study
-    designs more holistically. The latter eight tools are lower-level and are more focused on stimuli,
-    trials, and progressions between trials. *JsPsych is the base package to which JsPsychR, xprmtnr, and
-    Jaysire provide wrappers and extensions.}
+    \caption{\textbf{Overview of the study design tools that informed Tisane's \SDSLlong.}}
+        \begin{small}
+        \begin{minipage}{\linewidth}
+            The first five tools provide higher-level
+            abstractions. They are designed to help researchers reason about their study
+            designs more holistically. The latter eight tools are lower-level and are more focused on stimuli,
+            trials, and progressions between trials. *JsPsych is the base package to which JsPsychR, xprmtnr, and
+            Jaysire provide wrappers and extensions.
+        \end{minipage}
+        \end{small}
     \begin{tabular}{p{0.25\linewidth}|p{0.75\linewidth}}
       \textbf{Tool}	&	\textbf{Support provided} \\
       \hline
@@ -1011,7 +1020,12 @@
             P12 & Data Analytics & Data Engineer & 5 \\ 
             P13 & Unspecified & Unspecified & 7 \\
         \end{tabular}
-    \caption{\textbf{Participants in summative evaluation.} Participants came from a diversity of fields and job roles. All self-reported having significant experience with statistical analysis.}
+    \caption{\textbf{Participants in summative evaluation.}}
+        \begin{small}
+        \begin{minipage}{\linewidth}
+            Participants came from a diversity of fields and job roles. All self-reported having significant experience with statistical analysis.
+        \end{minipage}
+        \end{small}
     \label{tab:summativeEvaluationParticipants}
   \end{table}
 
