@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  4 AUG 2023 17:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  4 AUG 2023 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1367,12 +1367,17 @@ File: lstlang3.sty 2020/03/24 1.8d listings language file
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]) (./01-abstract.tex
-Overfull \hbox (507.99988pt too wide) in paragraph at lines 30--38
+Overfull \hbox (0.1621pt too wide) in paragraph at lines 30--37
+[][][][][][][] 
+ []
+
+
+Overfull \hbox (507.99988pt too wide) in paragraph at lines 30--37
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--38
+Underfull \hbox (badness 10000) in paragraph at lines 30--37
 
  []
 
@@ -1575,7 +1580,7 @@ Chapter 4.
 Underfull \vbox (badness 7944) has occurred while \output is active []
 
  [49]
-<hypothesisFormalization/figures/overview_sept_17.png, id=1172, 1027.84pt x 585
+<hypothesisFormalization/figures/overview_sept_17.png, id=1173, 1027.84pt x 585
 .18625pt>
 File: hypothesisFormalization/figures/overview_sept_17.png Graphic file (type p
 ng)
@@ -1597,7 +1602,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
 [52]
-<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1205,
+<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1206,
  1218.5525pt x 300.12125pt>
 File: hypothesisFormalization/figures/prior_work_combined_july_16_2021.png Grap
 hic file (type png)
@@ -1616,7 +1621,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53]
 [54 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
-<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1228, 835
+<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1229, 835
 .62187pt x 275.0275pt>
 File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic 
 file (type png)
@@ -1638,14 +1643,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
 [60] [61] [62]
-<hypothesisFormalization/figures/A11_SS_1.png, id=1339, 548.0475pt x 590.205pt>
+<hypothesisFormalization/figures/A11_SS_1.png, id=1340, 548.0475pt x 590.205pt>
 
 File: hypothesisFormalization/figures/A11_SS_1.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_1.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_1.png  used on 
 input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 204.88174pt.
-<hypothesisFormalization/figures/A11_SS_2.png, id=1340, 564.1075pt x 477.785pt>
+<hypothesisFormalization/figures/A11_SS_2.png, id=1341, 564.1075pt x 477.785pt>
 
 File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
@@ -2449,7 +2454,7 @@ texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/te
 xmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2021/texmf-dist
 /fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
 ype1/urw/courier/ucrro8a.pfb>
-Output written on dissertation.pdf (174 pages, 10722645 bytes).
+Output written on dissertation.pdf (174 pages, 10722776 bytes).
 PDF statistics:
  2678 PDF objects out of 2984 (max. 8388607)
  2382 compressed objects within 24 object streams
