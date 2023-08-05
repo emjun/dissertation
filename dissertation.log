@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  4 AUG 2023 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  4 AUG 2023 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1367,12 +1367,12 @@ File: lstlang3.sty 2020/03/24 1.8d listings language file
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]) (./01-abstract.tex
-Overfull \hbox (507.99988pt too wide) in paragraph at lines 30--39
+Overfull \hbox (507.99988pt too wide) in paragraph at lines 30--38
 [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--39
+Underfull \hbox (badness 10000) in paragraph at lines 30--38
 
  []
 
@@ -1414,33 +1414,31 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \openout6 = `dissertation.toc'.
 
  [14] (./dissertation.lof
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 12
-.
+Overfull \hbox (1.37503pt too wide) in paragraph at lines 14--14
+ [][] [][][][][][][][]\T1/cmr/bx/n/10.95 Graphs demon-strat-ing causal par-ents
+, pos-si-ble causal omis- 
+ []
 
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 22
+.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Underfull \vbox (badness 1107) has occurred while \output is active []
+))
+\tf@lof=\write7
+\openout7 = `dissertation.lof'.
 
  [15
 
 
+] [16
+
+
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16])
-\tf@lof=\write7
-\openout7 = `dissertation.lof'.
-
-
-[17] [18
-
-
-] (./dissertation.lot [19])
+(./dissertation.lot [17])
 \tf@lot=\write8
 \openout8 = `dissertation.lot'.
 
- [20]
+ [18]
 Chapter 1.
 (./04-intro.tex Excluding 'comment' comment.
 
@@ -1451,7 +1449,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 128.
 
-[21
+[19
 
 
 
@@ -1460,7 +1458,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 200.
 
-Excluding 'comment' comment. [22] [23]
+Excluding 'comment' comment. [20] [21]
 Overfull \hbox (72.95894pt too wide) in paragraph at lines 283--288
 \T1/cmr/m/n/10.95 ca-tions into sta-tis-ti-cal mod-els. [][][][][][] 
  []
@@ -1469,7 +1467,7 @@ Overfull \hbox (72.95894pt too wide) in paragraph at lines 283--288
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 311.
 
-[24] Excluding 'comment' comment.) [25] [26
+[22] Excluding 'comment' comment.) [23] [24
 
 
 ]
@@ -1479,17 +1477,17 @@ Chapter 2.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 7.
 
-[27]
+[25]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 64.
 
-[28]
+[26]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 145.
 
-[29] [30]
+[27] [28]
 Overfull \hbox (399.87073pt too wide) in paragraph at lines 248--261
 \T1/cmr/m/n/10.95 sta-tis-ti-cal meth-ods more widely us-able. [][][][][][]
  []
@@ -1498,9 +1496,9 @@ Overfull \hbox (399.87073pt too wide) in paragraph at lines 248--261
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 264.
 
-[31]) [32]
+[29]) [30]
 Chapter 3.
-(./06-tea.tex [33
+(./06-tea.tex [31
 
 
 ] (./tea/related_work.tex
@@ -1508,17 +1506,17 @@ Chapter 3.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
-[34]) [35] (./tea/usage_scenario.tex
+[32]) [33] (./tea/usage_scenario.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
-<tea/figures/tea_program.jpg, id=1041, 3863.43375pt x 3922.655pt>
+<tea/figures/tea_program.jpg, id=973, 3863.43375pt x 3922.655pt>
 File: tea/figures/tea_program.jpg Graphic file (type jpg)
 <use tea/figures/tea_program.jpg>
 Package pdftex.def Info: tea/figures/tea_program.jpg  used on input line 2.
 (pdftex.def)             Requested size: 234.8775pt x 238.4616pt.
-[36 <./tea/figures/tea_program.jpg>]) (./tea/design_considerations.tex
+[34 <./tea/figures/tea_program.jpg>]) (./tea/design_considerations.tex
 Overfull \hbox (106.87238pt too wide) in alignment at lines 1--1
 [][][][][][][] 
  []
@@ -1527,13 +1525,13 @@ Overfull \hbox (106.87238pt too wide) in alignment at lines 1--1
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 3.
 
-[37]) (./tea/system.tex [38]
+[35]) (./tea/system.tex [36]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
-[39] [40]
-<tea/figures/modes_wide.jpg, id=1121, 6677.94875pt x 4589.145pt>
+[37] [38]
+<tea/figures/modes_wide.jpg, id=1051, 6677.94875pt x 4589.145pt>
 File: tea/figures/modes_wide.jpg Graphic file (type jpg)
 <use tea/figures/modes_wide.jpg>
 Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 134.
@@ -1541,13 +1539,13 @@ Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 134.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42 <./tea/figures/modes_wide.jpg>] [43]
+ [40 <./tea/figures/modes_wide.jpg>] [41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44])
+ [42])
 (./tea/eval.tex (./tea/tea_results.tex
 Overfull \hbox (12.0pt too wide) in alignment at lines 113--113
 [][][][] 
@@ -1558,17 +1556,17 @@ Overfull \hbox (12.0pt too wide) in alignment at lines 113--113
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 2.
 
-[45] [46])
+[43] [44])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 109.
 
-[47] Excluding 'comment' comment. Excluding 'comment' comment.
+[45] Excluding 'comment' comment. Excluding 'comment' comment.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 247.
 
-[48] Excluding 'comment' comment.) [49] [50
+[46] Excluding 'comment' comment.) [47] [48
 
 
 ]
@@ -1576,8 +1574,8 @@ Chapter 4.
 (./07-hypothesisFormalization.tex
 Underfull \vbox (badness 7944) has occurred while \output is active []
 
- [51]
-<hypothesisFormalization/figures/overview_sept_17.png, id=1256, 1027.84pt x 585
+ [49]
+<hypothesisFormalization/figures/overview_sept_17.png, id=1187, 1027.84pt x 585
 .18625pt>
 File: hypothesisFormalization/figures/overview_sept_17.png Graphic file (type p
 ng)
@@ -1589,17 +1587,17 @@ used on input line 69.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[52]
+[50]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53 <./hypothesisFormalization/figures/overview_sept_17.png>]
+ [51 <./hypothesisFormalization/figures/overview_sept_17.png>]
 (./hypothesisFormalization/related_work.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
-[54]
-<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1290,
+[52]
+<hypothesisFormalization/figures/prior_work_combined_july_16_2021.png, id=1220,
  1218.5525pt x 300.12125pt>
 File: hypothesisFormalization/figures/prior_work_combined_july_16_2021.png Grap
 hic file (type png)
@@ -1616,9 +1614,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
-[56 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
-<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1313, 835
+ [53]
+[54 <./hypothesisFormalization/figures/prior_work_combined_july_16_2021.png>]
+<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1243, 835
 .62187pt x 275.0275pt>
 File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic 
 file (type png)
@@ -1627,46 +1625,46 @@ Package pdftex.def Info: hypothesisFormalization/figures/ps9_reorderableMatrixL
 abeled.png  used on input line 41.
 (pdftex.def)             Requested size: 446.26582pt x 146.88016pt.
 
-[57 <./hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>]
-[58] [59]
+[55 <./hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>]
+[56] [57]
 Overfull \hbox (10.21542pt too wide) in paragraph at lines 187--197
 \T1/cmr/m/n/10.95 (e.g., [[]; []; []]) or pa-pers that make method-olog-i-cal c
 on-tri-bu-tions (e.g., [[];
  []
 
-[60]) [61] (./hypothesisFormalization/lab_study.tex
+[58]) [59] (./hypothesisFormalization/lab_study.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
-[62] [63] [64]
-<hypothesisFormalization/figures/A11_SS_1.png, id=1424, 548.0475pt x 590.205pt>
+[60] [61] [62]
+<hypothesisFormalization/figures/A11_SS_1.png, id=1354, 548.0475pt x 590.205pt>
 
 File: hypothesisFormalization/figures/A11_SS_1.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_1.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_1.png  used on 
 input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 204.88174pt.
-<hypothesisFormalization/figures/A11_SS_2.png, id=1425, 564.1075pt x 477.785pt>
+<hypothesisFormalization/figures/A11_SS_2.png, id=1355, 564.1075pt x 477.785pt>
 
 File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_2.png  used on 
 input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 161.13248pt.
- [65] [66 <./hypothesisFormalization/figures/A11_SS_1.png> <./hypothesisFormali
-zation/figures/A11_SS_2.png>] [67] [68]
+ [63] [64 <./hypothesisFormalization/figures/A11_SS_1.png> <./hypothesisFormali
+zation/figures/A11_SS_2.png>] [65] [66]
 Overfull \hbox (17.86227pt too wide) in paragraph at lines 308--308
 \T1/cmr/m/it/10.95 num-bers [un-like a physi-cist]. So like, they may ac-tu-all
 y end up with dif-fer-ent re-sults...actually
  []
 
-[69] [70] [71]) (./hypothesisFormalization/tools_analysis.tex
+[67] [68] [69]) (./hypothesisFormalization/tools_analysis.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
-[72]
+[70]
 Underfull \hbox (badness 10000) in paragraph at lines 72--72
 
  []
@@ -1696,7 +1694,7 @@ Overfull \hbox (41.69698pt too wide) in paragraph at lines 72--72
 [][]
  []
 
-[73] [74] [75] [76] Excluding 'comment' comment. [77]
+[71] [72] [73] [74] Excluding 'comment' comment. [75]
 Excluding 'comment' comment.) (./hypothesisFormalization/implications.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1706,44 +1704,44 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 13.
 
-[78] [79] [80] Excluding 'comment' comment.)
+[76] [77] [78] Excluding 'comment' comment.)
 (./hypothesisFormalization/discussion.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 2.
 
-[81]
+[79]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 67.
 
-[82])
+[80])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 126.
 
-) [83] [84
+) [81] [82
 
 
 ]
 Chapter 5.
-(./08-tisane.tex [85] (./tisane/related_work.tex
+(./08-tisane.tex [83] (./tisane/related_work.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
-[86]
+[84]
 Overfull \hbox (3.13489pt too wide) in paragraph at lines 24--43
 \T1/cmr/m/n/10.95 rived from causal graphs to make sta-tis-ti-cal in-fer-ences 
 and test the mo-ti-vat-ing causal graph [[];
  []
 
-[87] Excluding 'comment' comment.) (./tisane/system.tex
+[85] Excluding 'comment' comment.) (./tisane/system.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
-[88]
+[86]
 Overfull \hbox (11.56738pt too wide) in paragraph at lines 41--54
 \T1/cmr/m/n/10.95 cover new anal-y-sis paths [P1, P2, P3][][][][][][].
  []
@@ -1765,29 +1763,29 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 7203) has occurred while \output is active []
 
- [89]
+ [87]
 LaTeX Font Info:    Trying to load font information for TS1+pcr on input line 8
 9.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1pcr.fd
 File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
-) [90]
+) [88]
 
 pdfTeX warning: pdflatex (file ./tisane/figures/figure4.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<tisane/figures/figure4.pdf, id=1759, 194.47656pt x 147.80219pt>
+<tisane/figures/figure4.pdf, id=1690, 194.47656pt x 147.80219pt>
 File: tisane/figures/figure4.pdf Graphic file (type pdf)
 <use tisane/figures/figure4.pdf>
 Package pdftex.def Info: tisane/figures/figure4.pdf  used on input line 105.
 (pdftex.def)             Requested size: 194.47607pt x 147.80182pt.
 
-Underfull \vbox (badness 1472) has occurred while \output is active []
+Underfull \vbox (badness 1430) has occurred while \output is active []
 
- [91 <./tisane/figures/figure4.pdf>]
+ [89 <./tisane/figures/figure4.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92]
-[93]
+ [90]
+[91]
 Overfull \hbox (7.43387pt too wide) in paragraph at lines 278--296
 \T1/pcr/m/n/10.95 number_of_instances \T1/cmr/m/n/10.95 pa-ram-e-ter. This pa-r
 am-e-ter ac-cepts an in-te-ger, vari-able, a Ti-sane \T1/pcr/m/n/10.95 Exactly
@@ -1800,22 +1798,22 @@ evice\TS1/pcr/m/n/10.95 '\T1/pcr/m/n/10.95 , number_of_instances=ts.Exactly(2).
 per(condition))\T1/cmr/m/n/10.95 .
  []
 
+[92] [93]
+Overfull \hbox (7.22116pt too wide) in paragraph at lines 387--387
+ []\T1/cmr/m/n/9 CME 
+ []
+
+
+Overfull \hbox (7.22116pt too wide) in paragraph at lines 387--387
+ []\T1/cmr/m/n/9 CME 
+ []
+
+
+Overfull \hbox (7.22116pt too wide) in paragraph at lines 387--387
+ []\T1/cmr/m/n/9 CME 
+ []
+
 [94] [95]
-Overfull \hbox (7.22116pt too wide) in paragraph at lines 387--387
- []\T1/cmr/m/n/9 CME 
- []
-
-
-Overfull \hbox (7.22116pt too wide) in paragraph at lines 387--387
- []\T1/cmr/m/n/9 CME 
- []
-
-
-Overfull \hbox (7.22116pt too wide) in paragraph at lines 387--387
- []\T1/cmr/m/n/9 CME 
- []
-
-[96] [97]
 Overfull \vbox (8.83994pt too high) detected at line 478
  []
 
@@ -1828,7 +1826,7 @@ Overfull \hbox (6.92024pt too wide) in paragraph at lines 478--478
 [][]
  []
 
-<tisane/figures/usage_scenario_gui_05012022.png, id=1885, 1343.0175pt x 1002.74
+<tisane/figures/usage_scenario_gui_05012022.png, id=1815, 1343.0175pt x 1002.74
 625pt>
 File: tisane/figures/usage_scenario_gui_05012022.png Graphic file (type png)
 <use tisane/figures/usage_scenario_gui_05012022.png>
@@ -1838,20 +1836,20 @@ n input line 481.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98]
-[99 <./tisane/figures/usage_scenario_gui_05012022.png>] [100])
+ [96]
+[97 <./tisane/figures/usage_scenario_gui_05012022.png>] [98])
 (./tisane/case_studies.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 2.
 
-[101] Excluding 'comment' comment. [102]
+[99] Excluding 'comment' comment. [100]
 Overfull \hbox (12.11485pt too wide) in paragraph at lines 133--165
 \T1/pcr/m/n/10.95 number_of_instances\T1/cmr/m/n/10.95 , R2 de-clared all the m
 ea-sures with the pa-ram-e-ter \T1/pcr/m/n/10.95 number_of_instances
  []
 
-Excluding 'comment' comment. [103] [104]
+Excluding 'comment' comment. [101] [102]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 308.
@@ -1859,7 +1857,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [105])
+ [103])
 (./tisane/exploratory.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1870,12 +1868,12 @@ Overfull \hbox (1083.41725pt too wide) in paragraph at lines 12--16
 [][][][][][]
  []
 
-[106] [107] [108] Excluding 'comment' comment.
+[104] [105] [106] Excluding 'comment' comment.
 Overfull \hbox (814.28586pt too wide) in paragraph at lines 245--246
 [][][][][][] 
  []
 
-[109]
+[107]
 Overfull \hbox (959.70975pt too wide) in paragraph at lines 274--275
 [][][][][][][] 
  []
@@ -1885,16 +1883,16 @@ Excluding 'comment' comment.) (./tisane/rTisane.tex
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
-(./tisane/figures/rTisane-example.R [110])
+(./tisane/figures/rTisane-example.R [108])
 Overfull \hbox (804.87193pt too wide) in paragraph at lines 24--30
 [][][][][][] [][][][][][]
  []
 
-[111] Excluding 'comment' comment.
+[109] Excluding 'comment' comment.
 Underfull \vbox (badness 4505) has occurred while \output is active []
 
- [112]
-<tisane/figures/conceptual-model-disambiguation.png, id=2027, 606.265pt x 348.3
+ [110]
+<tisane/figures/conceptual-model-disambiguation.png, id=1957, 606.265pt x 348.3
 0125pt>
 File: tisane/figures/conceptual-model-disambiguation.png Graphic file (type png
 )
@@ -1903,9 +1901,9 @@ Package pdftex.def Info: tisane/figures/conceptual-model-disambiguation.png  us
 ed on input line 151.
 (pdftex.def)             Requested size: 399.29463pt x 229.3959pt.
 
-[113 <./tisane/figures/conceptual-model-disambiguation.png>]
+[111 <./tisane/figures/conceptual-model-disambiguation.png>]
 Excluding 'comment' comment.
-<tisane/figures/statistical-model-disambiguation.png, id=2037, 1042.39438pt x 5
+<tisane/figures/statistical-model-disambiguation.png, id=1967, 1042.39438pt x 5
 23.45563pt>
 File: tisane/figures/statistical-model-disambiguation.png Graphic file (type pn
 g)
@@ -1913,20 +1911,20 @@ g)
 Package pdftex.def Info: tisane/figures/statistical-model-disambiguation.png  u
 sed on input line 179.
 (pdftex.def)             Requested size: 352.31625pt x 176.91823pt.
- [114 <./tisane/figures/statistical-model-disambiguation.png>]) (./tisane/lab_s
+ [112 <./tisane/figures/statistical-model-disambiguation.png>]) (./tisane/lab_s
 tudy.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
-[115] [116] Excluding 'comment' comment.
-<tisane/figures/conceptual-models.png, id=2060, 617.30624pt x 298.11375pt>
+[113] [114] Excluding 'comment' comment.
+<tisane/figures/conceptual-models.png, id=1989, 617.30624pt x 298.11375pt>
 File: tisane/figures/conceptual-models.png Graphic file (type png)
 <use tisane/figures/conceptual-models.png>
 Package pdftex.def Info: tisane/figures/conceptual-models.png  used on input li
 ne 164.
 (pdftex.def)             Requested size: 352.31625pt x 170.14494pt.
- [117] [118 <./tisane/figures/conceptual-models.png>] [119]
+ [115] [116 <./tisane/figures/conceptual-models.png>] [117]
 Overfull \hbox (6.24251pt too wide) in paragraph at lines 263--293
 \T1/cmr/m/n/10.95 ables and re-la-tion-ships to an-a-lyze. [][][][][][]
  []
@@ -1936,15 +1934,11 @@ Overfull \hbox (382.38263pt too wide) in paragraph at lines 310--324
 \T1/cmr/m/n/10.95 out-put model script to au-thor their own. [][][][][][]
  []
 
-[120] [121]
-Underfull \vbox (badness 1533) has occurred while \output is active []
-
- [122]
-Excluding 'comment' comment. Excluding 'comment' comment. [123] [124]
+[118] [119] [120] Excluding 'comment' comment. Excluding 'comment' comment.
+[121] [122]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10.95> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 611.
-)
-(./tisane/discussion.tex
+) (./tisane/discussion.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
@@ -1955,7 +1949,7 @@ Overfull \hbox (203.66895pt too wide) in paragraph at lines 2--9
 ive \T1/cmr/m/n/10.95 at the time. [][][][][][] 
  []
 
-[125]
+[123]
 Overfull \hbox (415.45634pt too wide) in paragraph at lines 12--23
 [][][][][][][]
  []
@@ -1965,7 +1959,7 @@ Excluding 'comment' comment. Excluding 'comment' comment.)
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 103.
 
-[126]) [127] [128
+[124]) [125] [126
 
 
 ]
@@ -1985,10 +1979,10 @@ Overfull \hbox (286.68658pt too wide) in paragraph at lines 44--53
 [][][][][][] 
  []
 
-[129]
+[127]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [130]
+ [128]
 Excluding 'comment' comment.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1998,20 +1992,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 132.
 
-[131] Excluding 'comment' comment. Excluding 'comment' comment.
-Excluding 'comment' comment. Excluding 'comment' comment. [132] [133]
+[129] Excluding 'comment' comment. Excluding 'comment' comment.
+Excluding 'comment' comment. Excluding 'comment' comment. [130] [131]
 Excluding 'comment' comment. Excluding 'comment' comment.
 Excluding 'comment' comment. Excluding 'comment' comment.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 509.
 
-) [134] (./dissertation.bbl [135
+) [132] (./dissertation.bbl [133
 
 
 
-] [136] [137] [138] [139] [140] [141] [142]
-[143] [144] [145] [146] [147] [148] [149] [150]
+] [134] [135] [136] [137] [138] [139] [140]
+[141] [142] [143] [144] [145] [146] [147] [148]
 Underfull \hbox (badness 1199) in paragraph at lines 1330--1336
 []\T1/cmr/m/n/10.95 Wikipedia con-trib-u-tors.  Jmp (sta-tis-ti-cal soft-ware) 
 --- Wikipedia, the free
@@ -2041,7 +2035,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1354--1359
 ldid = 888470477$[]\T1/cmr/m/n/10.95 ,
  []
 
-[151]) [152]
+[149]) [150]
 Appendix A.
 (./app-hypoForm.tex
 
@@ -2052,10 +2046,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 36.
 
-[153
+[151
 
 
-] [154]
+] [152]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 89.
@@ -2087,14 +2081,14 @@ Overfull \hbox (35.99997pt too wide) in alignment at lines 90--90
  [] [] [] 
  []
 
-[155
+[153
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 92.
 
-[156] [157]
+[154] [155]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 133.
@@ -2134,9 +2128,9 @@ Overfull \hbox (32.09053pt too wide) in alignment at lines 134--134
  [] [] [] [] [] [] 
  []
 
-[158
+[156
 
-] [159]
+] [157]
 Overfull \hbox (8.38397pt too wide) in paragraph at lines 134--134
 []|\T1/cmr/bx/n/9 Method| 
  []
@@ -2166,9 +2160,9 @@ Overfull \hbox (25.01442pt too wide) in alignment at lines 134--134
  [] [] [] [] [] [] 
  []
 
-[160
+[158
 
-] [161]
+] [159]
 Overfull \hbox (8.38397pt too wide) in paragraph at lines 134--134
 []|\T1/cmr/bx/n/9 Method| 
  []
@@ -2198,9 +2192,9 @@ Overfull \hbox (25.01442pt too wide) in alignment at lines 134--134
  [] [] [] [] [] [] 
  []
 
-[162
+[160
 
-] [163]
+] [161]
 Overfull \hbox (8.38397pt too wide) in paragraph at lines 134--134
 []|\T1/cmr/bx/n/9 Method| 
  []
@@ -2235,9 +2229,9 @@ Overfull \hbox (25.01442pt too wide) in alignment at lines 134--134
  [] [] [] [] [] [] 
  []
 
-[164
+[162
 
-] [165]
+] [163]
 Overfull \hbox (8.38397pt too wide) in paragraph at lines 134--134
 []|\T1/cmr/bx/n/9 Method| 
  []
@@ -2262,9 +2256,9 @@ Overfull \hbox (25.01442pt too wide) in alignment at lines 134--134
  [] [] [] [] [] [] 
  []
 
-[166
+[164
 
-]) [167] [168
+]) [165] [166
 
 
 ]
@@ -2282,23 +2276,23 @@ Overfull \hbox (1.05482pt too wide) in paragraph at lines 2--2
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [169]
+ [167]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 6.
 
-<tisane/figures/tisane_screenshots/potential_confounding_association.png, id=24
-68, 886.81313pt x 511.41063pt>
+<tisane/figures/tisane_screenshots/potential_confounding_association.png, id=23
+97, 886.81313pt x 511.41063pt>
 File: tisane/figures/tisane_screenshots/potential_confounding_association.png G
 raphic file (type png)
 <use tisane/figures/tisane_screenshots/potential_confounding_association.png>
 Package pdftex.def Info: tisane/figures/tisane_screenshots/potential_confoundin
 g_association.png  used on input line 7.
 (pdftex.def)             Requested size: 352.31625pt x 203.1794pt.
-) [170 <./tisane/figures/tisane_screenshots/potential_confounding_association.p
+) [168 <./tisane/figures/tisane_screenshots/potential_confounding_association.p
 ng>]
 Appendix C.
-(./app-rTisane.tex [171
+(./app-rTisane.tex [169
 
 
 ]
@@ -2306,35 +2300,35 @@ Appendix C.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 10.
 
-<tisane/figures/example-conceptual-model.png, id=2479, 534.99875pt x 266.9975pt
+<tisane/figures/example-conceptual-model.png, id=2409, 534.99875pt x 266.9975pt
 >
 File: tisane/figures/example-conceptual-model.png Graphic file (type png)
 <use tisane/figures/example-conceptual-model.png>
 Package pdftex.def Info: tisane/figures/example-conceptual-model.png  used on i
 nput line 33.
 (pdftex.def)             Requested size: 399.29463pt x 199.28206pt.
-[172
+[170
 
  <./tisane/figures/example-conceptual-model.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 45.
 
-[173
+[171
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 76.
 
-[174
+[172
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 80.
 
-[175
+[173
 
 ]
 
@@ -2346,18 +2340,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package caption Warning: Unused \captionsetup[sub] on input line 84.
 See the caption package documentation for explanation.
 
-[176
+[174
 
 ] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: BC5A184D8885715EA08F042411B5FDDE;24507.
  ) 
 Here is how much of TeX's memory you used:
- 42245 strings out of 478994
- 936366 string characters out of 5858184
- 1723338 words of memory out of 5000000
- 58136 multiletter control sequences out of 15000+600000
- 435231 words of font info for 104 fonts, out of 8000000 for 9000
+ 42248 strings out of 478994
+ 936397 string characters out of 5858184
+ 1713983 words of memory out of 5000000
+ 58138 multiletter control sequences out of 15000+600000
+ 436473 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3496b,1949s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not ex
@@ -2451,12 +2445,13 @@ ve/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive
 021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/202
 1/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist
-/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on dissertation.pdf (176 pages, 10723411 bytes).
+xmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2021/texmf-dist
+/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/t
+ype1/urw/courier/ucrro8a.pfb>
+Output written on dissertation.pdf (174 pages, 10724607 bytes).
 PDF statistics:
- 2761 PDF objects out of 2984 (max. 8388607)
- 2460 compressed objects within 25 object streams
- 693 named destinations out of 1000 (max. 500000)
+ 2693 PDF objects out of 2984 (max. 8388607)
+ 2397 compressed objects within 24 object streams
+ 691 named destinations out of 1000 (max. 500000)
  953 words of extra memory for PDF output out of 10000 (max. 10000000)
 

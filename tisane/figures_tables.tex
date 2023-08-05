@@ -137,7 +137,13 @@
 %                (group)			->[has]			(condition);
 %            };
 %        \end{tikzpicture}
-        \caption{The graph representation of the variables and relationships from the usage scenario. \texttt{causes} edges are labeled with ``causes''. \texttt{associates\_with} edges are labeled with ``assoc.'' Dashed edges indicate \texttt{nests\_within} relationships, and dotted edges indicate \texttt{has} relationships.}
+        % \caption{The graph representation of the variables and relationships from the usage scenario (\autoref{}).}
+        \caption{\textbf{Example graph representation variables and relationships.}}
+            \begin{small}
+            \begin{minipage}{\linewidth}
+                \texttt{causes} edges are labeled with ``causes.'' \texttt{associates\_with} edges are labeled with ``assoc.'' Dashed edges indicate \texttt{nests\_within} relationships, and dotted edges indicate \texttt{has} relationships.
+            \end{minipage}
+            \end{small}
         \label{fig:figureGraphIRExample}
         % \Description{A directed graph of five nodes is depicted. The nodes are labeled “group”, “condition”, “pounds_lost”, “motivation”, and “member”, all in monospace font. The “group” node is square-shaped (indicating the node represents a Unit), and has a dotted edge pointing to the circle-shaped (indicating it's a Measure) “condition” node. The “condition” node has a solid edge labeled “causes” pointing to the circle-shaped, gray “pounds_lost” node. The gray color indicates that “pounds_lost” was the dependent variable. The “pounds_lost” node has one outgoing solid edge labeled “assoc.” (for associative relationships), to the circle-shaped node “motivation.” The “motivation” node has an outgoing, solid “assoc.” edges to the “pounds_lost” node. The final node, “member,” is square-shaped and has a dashed outgoing edge to the “group” node and dotted outgoing edges to the “pounds_lost” and “motivation” nodes. The dashed edge means “member” nests in “group” and the dotted edges mean that “pounds_lost” and “motivation” are measures of the “member” unit.}
     \end{figure}
@@ -267,7 +273,12 @@
            \node[inner sep=0pt]	(cap3)	at	($(ref1)!(n3)!(ref2)$)	{(c) \textit{possible confounding associations}};
            % \node[below=0.05cm of cap3,inner sep=0pt]	(cap4)	{\textit{\& possible causal omissions}};
         \end{tikzpicture}
-        \caption{\polish{Suplots overlap?}Graphs demonstrating causal parents, possible causal omissions, and possible confounding associations. In graphs (a) and (b) (left and middle), all edges are causal. Independent variables are marked ``IV'', discovered candidate main effects ``CME'', dependent variables ``DV'', and causal parents ``CP''.}
+        \caption{\polish{Suplots overlap?}\textbf{Graphs demonstrating causal parents, possible causal omissions, and possible confounding associations.}}
+            \begin{small}
+            \begin{minipage}{\linewidth}
+                In graphs (a) and (b) (left and middle), all edges are causal. Independent variables are marked ``IV,'' discovered candidate main effects ``CME,'' dependent variables ``DV,'' and causal parents ``CP.''
+            \end{minipage}
+            \end{small}
         \label{fig:figureCandidateMainEffects}
     \end{figure}
 }
@@ -360,7 +371,12 @@
         %     % \node	(cap2)	at	($(ref1)!(n2)!(ref2)$)	{(b) \textit{shared causal ancestors}};
         %     \node	(cap3)	at	($(ref1)!(n3)!(ref2)$)	{(a) \textit{only associative edges}};
         \end{tikzpicture}
-        \caption{A graph demonstrating an edge case for candidate main effect identification, where the graph contains only associative edges. Candidate main effects are labeled ``CME'', independent variables ``IV'', and dependent variables ``DV''. Variables that are none of the above are left unlabeled. When a graph contains only associative edges, candidate main effects are identified as those that are either associated with the DV or are associated with both the IV and the DV. (Note that the graph could contain additional edges/nodes other than the ones pictured, but the additional edges would not violate any of the initial checks that Tisane makes on the graph IR.)}
+        \caption{\textbf{A graph demonstrating an edge case for candidate main effect identification, where the graph contains only associative edges.}}
+            \begin{small}
+            \begin{minipage}{\linewidth}
+                Candidate main effects are labeled ``CME'', independent variables ``IV'', and dependent variables ``DV''. Variables that are none of the above are left unlabeled. When a graph contains only associative edges, candidate main effects are identified as those that are either associated with the DV or are associated with both the IV and the DV. (Note that the graph could contain additional edges/nodes other than the ones pictured, but the additional edges would not violate any of the initial checks that Tisane makes on the graph IR.)
+            \end{minipage}
+            \end{small}
         \label{fig:figureOnlyAssociatesOrCausesEdgesCandidateMainEffects}
     \end{figure}
 }
@@ -510,7 +526,12 @@
            \node[closecaption,left=of has]      {(e)};
 
         \end{tikzpicture}
-        \caption{Code snippets of conceptual and data measurement relationships written in Tisane's \SDSLlong and their representation in Tisane's graph IR. Variables are named with \texttt{u} for units, \texttt{m} for measures, and \texttt{v} for data variables that can be either units or measures. All edges depicted are those that are added due to the relationship. In the \texttt{moderates} example, we assume that \texttt{m1} and \texttt{m2} both belong to the same unit, and for simplicity, the attribution edge (labeled as ``has'') from \texttt{m1} and \texttt{m2}'s unit is not shown.}
+        \caption{\textbf{Code snippets of conceptual and data measurement relationships written in Tisane's \SDSLlong and their representation in Tisane's graph IR.}}
+            \begin{small}
+            \begin{minipage}{\linewidth}
+                Variables are named with \texttt{u} for units, \texttt{m} for measures, and \texttt{v} for data variables that can be either units or measures. All edges depicted are those that are added due to the relationship. In the \texttt{moderates} example, we assume that \texttt{m1} and \texttt{m2} both belong to the same unit, and for simplicity, the attribution edge (labeled as ``has'') from \texttt{m1} and \texttt{m2}'s unit is not shown.
+            \end{minipage}
+            \end{small}
         \label{fig:figureSDSLToGraphIR}
         % \Description{Five directed graphs are shown. All nodes are labeled with a monospaced font. The first directed graph has two nodes, labeled “v1” and “v2”, both circles. There is a solid edge from “v1” to “v2” labeled “causes”. Below this graph is a code snippet reading “v1.causes(v2)”. The second directed graph also has two nodes, also labeled “v1” and “v2” and both circles. There are solid edges from “v1” to “v2” and from “v2” to “v1”. Both edges are labeled “assoc.” Below the graph is a code snippet: “v1.associates_with(v2)”. The third directed graph contains four nodes, which are labeled “m1*m2”, “m1”, “m2”, and “m3”. All are circles. There are six edges in the graph, all solid and labeled “assoc.” The edges are from “m1*m2” to “m3”, “m3” to “m1*m2”, “m1” to “m3”, “m3” to “m1”, “m2” to “m3”, and “m3” to “m2”. Below the graph is a code snippet: “m1.moderates(m2, on=m3)”. The fourth directed graph contains two nodes, labeled “u1” and “u2”. Both are squares. There is a dashed edge labeled “nests” from “u1” to “u2”. Below the graph is the code snippet “u1.nests_within(u2)”. The fifth, and final, directed graph contains two nodes labeled “u” and “m”. “u” is square-shaped and “m” is circle-shaped. There is a dotted edge from “u” to “m”, labeled “has”. Below the graph is the code snippet “u.has(m)”.}
     \end{figure}
@@ -640,7 +661,12 @@
            \node[caption,below=of moderates2]      {(b) \texttt{m1.moderates(m2, on=m3)}};
            \node[caption,below=of moderates3]      {(c) \texttt{m1.moderates(m2, on=m3)}};
        \end{tikzpicture}
-       \caption{More complex examples of \texttt{moderates} written in Tisane's \SDSLlong, and their representation in Tisane's graph IR. Variables are named with \texttt{u} for units, \texttt{m} for measures, and \texttt{v} for data variables that can be either units or measures. Black edges have been added due to the \texttt{moderates} relationship. Gray edges already existed in the graph. In (a), only \mone is a measure, whose unit is \utwo, so \umone inherits an attribution edge only from \utwo. In (b), \mone and \mtwo are measures, with units \uone and \utwo respectively, so \monetwo inherits attribution edges from both \uone and \utwo. In (c), measures \mone and \mtwo share a unit, \u, and \monetwo inherits only one attribution edge from \u.}
+       \caption{\textbf{More complex examples of \texttt{moderates} written in Tisane's \SDSLlong, and their representation in Tisane's graph IR.}}
+        \begin{small}
+        \begin{minipage}{\linewidth}
+            Variables are named with \texttt{u} for units, \texttt{m} for measures, and \texttt{v} for data variables that can be either units or measures. Black edges have been added due to the \texttt{moderates} relationship. Gray edges already existed in the graph. In (a), only \mone is a measure, whose unit is \utwo, so \umone inherits an attribution edge only from \utwo. In (b), \mone and \mtwo are measures, with units \uone and \utwo respectively, so \monetwo inherits attribution edges from both \uone and \utwo. In (c), measures \mone and \mtwo share a unit, \u, and \monetwo inherits only one attribution edge from \u.
+        \end{minipage}
+        \end{small}
        \label{fig:figureComplexModeratesGraphIR}
    \end{figure}
 }
@@ -752,14 +778,18 @@
     \begin{figure*}
         \centering
         \includegraphics[width=.75\linewidth]{tisane/figures/usage_scenario_gui_05012022.png}
-        \caption{Example Tisane GUI for disambiguation. Tisane asks analysts disambiguating questions about variables that are conceptually relevant and that analysts may have overlooked in their query.
-        (A) The left hand panel gives an overview of the model the analyst is constructing.
-        (B) Based on the variable relationships analysts specify, Tisane infers candidate main effects that may be potential confounders. Tisane asks analysts if they would like to include these variables, explaining in a tooltip
-        (C) why the variable may be important to include.
-        (D) Tisane only suggests interaction effects if analysts specify moderating relationships in their specification. This way, Tisane ensures that model structures are conceptually justifiable.
-        (E) From the data measurement relationships analysts provide, Tisane automatically infers and includes random effects to increase generalizability and external validity of statistical findings.
-        (F) Tisane assists analysts in choosing an initial family and link function by asking them a series of questions about their dependent (e.g., Is the variable continuous or about count data?). To help analysts answer these questions and verify their assumptions about the data, Tisane shows a histogram of the dependent variable.
-        }
+        \caption{\textbf{Example Tisane GUI for disambiguation.}}
+            \begin{small}
+            \begin{minipage}{\linewidth}
+                Tisane asks analysts disambiguating questions about variables that are conceptually relevant and that analysts may have overlooked in their query.
+                (A) The left hand panel gives an overview of the model the analyst is constructing.
+                (B) Based on the variable relationships analysts specify, Tisane infers candidate main effects that may be potential confounders. Tisane asks analysts if they would like to include these variables, explaining in a tooltip
+                (C) why the variable may be important to include.
+                (D) Tisane only suggests interaction effects if analysts specify moderating relationships in their specification. This way, Tisane ensures that model structures are conceptually justifiable.
+                (E) From the data measurement relationships analysts provide, Tisane automatically infers and includes random effects to increase generalizability and external validity of statistical findings.
+                (F) Tisane assists analysts in choosing an initial family and link function by asking them a series of questions about their dependent (e.g., Is the variable continuous or about count data?). To help analysts answer these questions and verify their assumptions about the data, Tisane shows a histogram of the dependent variable.
+            \end{minipage}
+            \end{small}
         % (G) \diff{After answering all the disambiguation questions, analysts can generate a script that fits a statistical model and outputs a plot to diagnose the fit of the family function.}
         % }
         % (G) Tisane informs analysts that they should use the histogram to inspect their dependent variable, which may help them select initial family and link functions to try. The normality tests check if the dependent variable is normally distributed, an assumption analysts commonly make but may not apply to their data.}
@@ -773,7 +803,12 @@
     \begin{figure}[H]
         \centering
         \includegraphics[width=.75\linewidth]{tisane/figures/tisane_screenshots/potential_confounding_association.png}
-        \caption{An example of the warning text given for potential confounding associations. When analysts hover over the ``Warning'' badge, a tooltip pops up that explains that they should be careful about adding this variable. Associative relationships may in actuality be causal relationships, and if in fact \texttt{pounds\_lost} \textbf{caused} \texttt{age}, then adding \texttt{age} would invalidate the model.}
+        \caption{\textbf{An example of the warning text given for potential confounding associations.}}
+            \begin{small}
+            \begin{minipage}{\linewidth}
+                When analysts hover over the ``Warning'' badge, a tooltip pops up that explains that they should be careful about adding this variable. Associative relationships may in actuality be causal relationships, and if in fact \texttt{pounds\_lost} \textbf{caused} \texttt{age}, then adding \texttt{age} would invalidate the model.
+            \end{minipage}
+            \end{small}
         \label{fig:figurePossibleConfoundingAssociation}
     \end{figure}
 }
@@ -916,7 +951,12 @@
     \begin{figure}[htbp]
         \centering
         \includegraphics[width=.75\linewidth]{tisane/figures/conceptual-models.png}
-        \caption{Example conceptual models from participants in the summative evaluation without using \rTisane.}
+        \caption{\textbf{Example conceptual models from participants in the summative evaluation without using \rTisane.}}
+            \begin{small}
+            \begin{minipage}{\linewidth}
+                \polish{FILL IN}
+            \end{minipage}
+            \end{small}
         \label{fig:figureConceptualModelsScaffold}
     \end{figure}
 }
@@ -925,8 +965,13 @@
     \begin{figure}[htbp]
         \centering
         \includegraphics[width=.85\linewidth]{tisane/figures/conceptual-model-disambiguation.png}
-        \caption{\textbf{\rTisanes conceptual model disambiguation interface.} A. Options for resolving ambiguities in the conceptual model due to \relates relationships.
-        B. Check and follow-up questions for breaking any cycles that hinder statistical model derivation. C. Graph visualizing expressed conceptual model. }
+        \caption{\textbf{\rTisanes conceptual model disambiguation interface.}}
+            \begin{small}
+            \begin{minipage}{\linewidth}
+                A. Options for resolving ambiguities in the conceptual model due to \relates relationships.
+                B. Check and follow-up questions for breaking any cycles that hinder statistical model derivation. C. Graph visualizing expressed conceptual model.
+            \end{minipage}
+            \end{small}
         \label{fig:figureConceptualModelsDisambiguation}
     \end{figure}
 }
@@ -935,7 +980,12 @@
     \begin{figure}[htbp]
         \centering
         \includegraphics[width=.75\linewidth]{tisane/figures/statistical-model-disambiguation.png}
-        \caption{\rTisanes statistical model disambiguation interface.}
+        \caption{\textbf{\rTisanes statistical model disambiguation interface.}}
+            \begin{small}
+            \begin{minipage}{\linewidth}
+                \polish{FILL IN!}
+            \end{minipage}
+            \end{small}
         \label{fig:figureStatisticalModelsDisambiguation}
     \end{figure}
 }
