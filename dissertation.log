@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  7 AUG 2023 11:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  7 AUG 2023 11:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1267,7 +1267,10 @@ File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic f
 <use hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>
 Package pdftex.def Info: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png  used on input line 41.
 (pdftex.def)             Requested size: 446.26582pt x 146.88016pt.
- [55 <./hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>] [56] [57]
+ [55 <./hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>] [56]
+Underfull \vbox (badness 1472) has occurred while \output is active []
+
+ [57]
 Overfull \hbox (10.21542pt too wide) in paragraph at lines 187--197
 \T1/cmr/m/n/10.95 (e.g., [[]; []; []]) or pa-pers that make method-olog-i-cal con-tri-bu-tions (e.g., [[];
  []
@@ -1288,17 +1291,20 @@ File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_2.png  used on input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 161.13248pt.
- [63] [64 <./hypothesisFormalization/figures/A11_SS_1.png> <./hypothesisFormalization/figures/A11_SS_2.png>] [65] [66]
+ [63] [64 <./hypothesisFormalization/figures/A11_SS_1.png> <./hypothesisFormalization/figures/A11_SS_2.png>] [65]
 Overfull \hbox (17.86227pt too wide) in paragraph at lines 308--308
 \T1/cmr/m/it/10.95 num-bers [un-like a physi-cist]. So like, they may ac-tu-ally end up with dif-fer-ent re-sults...actually
  []
 
-[67] [68] [69]) (./hypothesisFormalization/tools_analysis.tex
+[66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67] [68]) (./hypothesisFormalization/tools_analysis.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
-[70]
+[69] [70]
 Underfull \hbox (badness 10000) in paragraph at lines 72--72
 
  []
@@ -1337,22 +1343,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 13.
 
-[76] [77] [78] Excluding 'comment' comment.) (./hypothesisFormalization/discussion.tex
+[76] [77] Excluding 'comment' comment.) (./hypothesisFormalization/discussion.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 2.
 
-[79]
+[78] [79]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 67.
 
-[80])
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 126.
 
-) [81] [82
+[80]) [81] [82
 
 
 ]
@@ -1938,7 +1944,7 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 Here is how much of TeX's memory you used:
  42890 strings out of 478994
  943559 string characters out of 5858184
- 1728237 words of memory out of 5000000
+ 1728264 words of memory out of 5000000
  58740 multiletter control sequences out of 15000+600000
  436766 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1980,7 +1986,7 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on dissertation.pdf (174 pages, 8614397 bytes).
+Output written on dissertation.pdf (174 pages, 8614501 bytes).
 PDF statistics:
  2714 PDF objects out of 2984 (max. 8388607)
  2417 compressed objects within 25 object streams

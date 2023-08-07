@@ -60,10 +60,10 @@
 \contentsline {subsubsection}{Theme: Data workers consider proxies and data collection while articulating hypotheses.}{62}{section*.32}%
 \contentsline {subsubsection}{Theme: Data workers consider implementation and tools when specifying statistical models.}{63}{section*.33}%
 \contentsline {subsubsection}{Theme: Data workers try to fit analyses to previous projects and familiar approaches.}{65}{section*.35}%
-\contentsline {subsubsection}{Theme: Data workers try to minimize their biases by focusing on data.}{67}{section*.36}%
+\contentsline {subsubsection}{Theme: Data workers try to minimize their biases by focusing on data.}{66}{section*.36}%
 \contentsline {subsubsection}{Theme: Data workers face challenges obtaining and integrating conceptual and statistical information.}{68}{section*.37}%
-\contentsline {subsection}{\numberline {4.3.3}Takeaways from the Lab Study}{69}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}\titlecap {Analysis of Software Tools}}{70}{section.4.4}%
+\contentsline {subsection}{\numberline {4.3.3}Takeaways from the Lab Study}{68}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}\titlecap {Analysis of Software Tools}}{69}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Method}{70}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Findings and Discussion}{71}{subsection.4.4.2}%
 \contentsline {subsubsection}{Theme: Specialization.}{71}{section*.39}%
@@ -77,7 +77,7 @@
 \contentsline {subsection}{Co-author Conceptual and Statistical Models}{78}{section*.45}%
 \contentsline {section}{\numberline {4.6}\titlecap {Discussion}}{79}{section.4.6}%
 \contentsline {section}{\numberline {4.7}\titlecap {Future Work}}{80}{section.4.7}%
-\contentsline {section}{\numberline {4.8}\titlecap {Summary of Contributions}}{81}{section.4.8}%
+\contentsline {section}{\numberline {4.8}\titlecap {Summary of Contributions}}{80}{section.4.8}%
 \contentsline {chapter}{\numberline {5}Tisane: Authoring Statistical Models via Formal Reasoning of Conceptual and Data Relationships}{83}{chapter.5}%
 \contentsline {section}{\numberline {5.1}\titlecap {Background and Related work}}{84}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Statistical Scope}{85}{subsection.5.1.1}%
