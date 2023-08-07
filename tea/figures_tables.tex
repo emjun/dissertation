@@ -250,17 +250,21 @@
         \caption{\textbf{Comparison of Tea to other tools.}}
           \begin{small}
           \begin{minipage}{\linewidth}
-            \polish{Format to fit (not run over) horizontally} Despite the published best practices for statistical analyses, most tools do not help users select appropriate tests. Tea not only addresses the best practices but also supports reproducing analyses.
+            Despite the published best practices for statistical analyses, most
+            tools do not help users select appropriate tests. Tea not only
+            addresses the best practices but also supports reproducing analyses.
+            Below, $\sim$ indicates a practice is sometimes supported.
           \end{minipage}
           \end{small}
         \label{tab:otherSystems}
         \begin{tabularx}{\linewidth}{r|c|c|c|c|c|c}
-            \colHR{Best practices} & \colH{SAS} & \colH{SPSS} & \colH{JMP} & \colH{R} & \colH{Statsplorer~\cite{wacharamanotham2015statsplorer}} & \colH{Tea} \\
+            \colHR{Best practices} & \colH{SAS} & \colH{SPSS} & \colH{JMP} & \colH{R} & \colH{Statsplorer} & \colH{Tea} \\
+            & & & & & \colH{\cite{wacharamanotham2015statsplorer}} & \\
             Explicit statement of user assumptions & \no & \no & \no & \no & \no & \yes \\
-            Automatic verification of test preconditions & \no & \no & sometimes & sometimes & \yes & \yes \\
+            Automatic verification of test preconditions & \no & \no & $\sim$ & $\sim$ & \yes & \yes \\
             Automatic accounting of multiple comparisons & \no & \no & \no & \no & \yes & \yes \\
             Surface alternative analyses & \no & \no & \no & \no & \no & \yes \\
-            Contextualize results & \yes & sometimes & \yes & sometimes & \yes & \yes \\
+            Contextualize results & \yes & $\sim$ & \yes & $\sim$ & \yes & \yes \\
             Easy to reproduce analysis & \yes & \yes & \no & \yes & \no & \yes \\
         \end{tabularx}
     \end{table*}
