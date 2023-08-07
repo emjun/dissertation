@@ -7,9 +7,8 @@
         \footnotesize
         \caption{\textbf{Overview of the software tools included in our analysis.}\label{tableAnalysisOfTools}}
         \begin{small}
-        \vspace*{-10pt}
+        % \vspace*{-10pt}
         \begin{minipage}{\linewidth}
-        \polish{Fit horizontal page margins. References column appears off.}
         Half of the tools
         are specialized for specific modeling use cases. Most tools
         use mathematical notation (T18--T20 (\yes*) even use
@@ -24,39 +23,44 @@
         \end{small}
         
         \setlength{\tabcolsep}{4pt}
-        \begin{tabular}{l>{\raggedright}p{0.3\linewidth}p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}p{0.2\linewidth}}
+        % \begin{tabular}{l>{\raggedright}p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}p{0.15\linewidth}p{0.2\linewidth}}
+        \begin{tabularx}{\linewidth}{l l l l l X }
         \toprule
-        ID & Tool name                                          & Specialized Scope    & Mathematical Notation        & Computational Control            & References                               \\                     
-        \multicolumn{2}{l}{\textbf{R Packages}} \\
+        \colH{ID} & \colH{Tool name}                                          & \colH{Specialized}    & \colH{Mathematical}        & \colH{Computational}            & \colH{References}                               \\                     
+        & & \colH{Scope} & \colH{Notation} & \colH{Control} & \\
+        \multicolumn{2}{l}{R Packages} \\
         \midrule\\
-        T1 & MASS                                               & \no                  & \yes                         & \yes                             & ~\cite{mass}                                 \\                     
-        T2 & brms                                               & \yes                 & \yes                         & \yes                             & ~\cite{burkner2017brms,brmsRef}                                 \\                     
-        T3 & edgeR                                              & \yes                  & \yes                        & \yes                            & ~\cite{edgeROverview,edgeRUsersGuide}                                 \\                     
-        T4 & glmmTMB                                            & \yes                 & \yes                         & \yes                             & ~\cite{glmmtmbPaper,glmmtmbRef}                                 \\                     
-        T5 & glmnet                                             & \yes                 & \no                          & \yes (additional)                & ~\cite{glmnetRef,glmnetVignette}                                 \\                     
-        T6 & lme4                                               & \yes                 & \yes                         & \yes                             & ~\cite{bates2014fittingLme4,bates2014lme4Ref}                                 \\                     
-        T7 & MCMCglmm                                           & \yes                 & \yes                         & \yes                             & ~\cite{MCMCglmmPaper,MCMCglmmRef}                                 \\                     
-        T8 & nlme                                               & \yes                 & \yes                         & \yes                             & ~\cite{nlmeRef}                                 \\                     
-        T9 & RandomForest                                       & \yes                 & \yes                         & \yes (minimal)                   & ~\cite{randomForestR}                                 \\                     
-        T10 & stats (core library)                              & \no                  & \yes                         & \yes                             & ~\cite{statsCoreRRef}                                 \\                     
-        \multicolumn{2}{l}{\textbf{Python Packages}} \\                 
+        T1 & MASS                                               & \no                  & \yes                         & \yes                             &\cite{mass}                                 \\                     
+        T2 & brms                                               & \yes                 & \yes                         & \yes                             &\cite{burkner2017brms,brmsRef}                                 \\                     
+        T3 & edgeR                                              & \yes                  & \yes                        & \yes                             &\cite{edgeROverview,edgeRUsersGuide}                                 \\                     
+        T4 & glmmTMB                                            & \yes                 & \yes                         & \yes                             &\cite{glmmtmbPaper,glmmtmbRef}                                 \\                     
+        T5 & glmnet                                             & \yes                 & \no                          & \yes (additional)                &\cite{glmnetRef,glmnetVignette}                                 \\                     
+        T6 & lme4                                               & \yes                 & \yes                         & \yes                             &\cite{bates2014fittingLme4,bates2014lme4Ref}                                 \\                     
+        T7 & MCMCglmm                                           & \yes                 & \yes                         & \yes                             &\cite{MCMCglmmPaper,MCMCglmmRef}                                 \\                     
+        T8 & nlme                                               & \yes                 & \yes                         & \yes                             &\cite{nlmeRef}                                 \\                     
+        T9 & RandomForest                                       & \yes                 & \yes                         & \yes (minimal)                   &\cite{randomForestR}                                 \\                     
+        T10 & stats (core library)                              & \no                  & \yes                         & \yes                             &\cite{statsCoreRRef}                                 \\                     
+        & & & & & \\ % For formatting
+        \multicolumn{2}{l}{Python Packages} \\                 
         \midrule\\                  
-        T11 & Keras                                             & \yes                 & \no                          & \yes (minimal)                   & ~\cite{keras}                                 \\                     
-        T12 & Scikit-learn                                      & \yes                 & \no                          & \yes                             & \cite{scikitRef,scikitPaper,scikitAPIPaper}                                 \\                                                                            
-        T13 & Scipy (scipy.stats)                               & \no                  & \no                          & \yes (additional)                & ~\cite{scipy,scipyStats,scipyOptimize}                                 \\                     
-        T14 & Statsmodels                                       & \no                  & \yes                         & \no                              & ~\cite{statsmodelsPaper,statsmodelsRef}                                 \\                                                                                  
-        \multicolumn{2}{l}{\textbf{Suites, with DSLs for programming}} \\                   
+        T11 & Keras                                             & \yes                 & \no                          & \yes (minimal)                   &\cite{keras}                                 \\                     
+        T12 & Scikit-learn                                      & \yes                 & \no                          & \yes                             &\cite{scikitRef,scikitPaper,scikitAPIPaper}                                 \\                                                                            
+        T13 & Scipy (scipy.stats)                               & \no                  & \no                          & \yes (additional)                &\cite{scipy,scipyStats,scipyOptimize}                                 \\                     
+        T14 & Statsmodels                                       & \no                  & \yes                         & \no                              &\cite{statsmodelsPaper,statsmodelsRef}                                 \\                                                                                  
+        & & & & & \\ % For formatting
+        \multicolumn{2}{l}{Suites, with DSLs for programming} \\                   
         \midrule\\                  
-        T15 & Matlab (Statistics and ML Toolbox)                & \no                  & \no                          & \yes                             & ~\cite{matlab,matlabStats}                                 \\                     
-        T16 & SPSS                                              & \no                  & \yes                         & \yes                             & ~\cite{spss}                                 \\                                    
-        T17 & Stata                                             & \no                  & \yes                         & \no                              & ~\cite{stata,stataRef,stataLang}                                 \\                     
-        \multicolumn{2}{l}{\textbf{Suites, without programming}} \\                 
+        T16 & SPSS                                              & \no                  & \yes                         & \yes                             &\cite{spss}                                 \\                                    
+        T15 & Matlab (Statistics and ML Toolbox)                & \no                  & \no                          & \yes                             &\cite{matlab,matlabStats}                                 \\                     
+        T17 & Stata                                             & \no                  & \yes                         & \no                              &\cite{stata,stataRef,stataLang}                                 \\                     
+        & & & & & \\ % For formatting
+        \multicolumn{2}{l}{Suites, without programming} \\                 
         \midrule\\                  
-        T18 & GraphPrism                                        & \no                  & \yes *                       & \yes                             & ~\cite{graphPadUserGuide}                                 \\                                    
-        T19 & JASP                                              & \no                  & \yes *                       & \no                              & ~\cite{jasp}                                 \\                                    
-        T20 & JMP                                               & \no                  & \yes *                       & \no                              & ~\cite{jmp,jones2011jmp}                                 \\                                                                                  
+        T18 & GraphPrism                                        & \no                  & \yes *                       & \yes                             &\cite{graphPadUserGuide}                                 \\                                    
+        T19 & JASP                                              & \no                  & \yes *                       & \no                              &\cite{jasp}                                 \\                                    
+        T20 & JMP                                               & \no                  & \yes *                       & \no                              &\cite{jmp,jones2011jmp}                                 \\                                                                                  
         \bottomrule 
-        \end{tabular}
+        \end{tabularx}
         \vspace{-4mm}
         \end{table*}
         
