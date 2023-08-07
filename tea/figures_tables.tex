@@ -17,13 +17,43 @@
 \def\fisher{Fisher's Exact\xspace}
 \def\boot{Bootstrap\xspace}
 
+\lstdefinestyle{teastyle}{
+    backgroundcolor=\color{white},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    deletekeywords={input, print, id},
+    % alsoletter={_},
+    % literate={define_variables}{\textcolor{magenta}{define\_variables}}1,
+    otherkeywords={tea.data, tea.define_variables, tea.define_study_design, tea.assume, tea.hypothesize}
+    % here are the additional keywords
+%     emph={data, define_variables, define_study_design, assume, hypothesize, <, >, =, !},
+    % they are underlines
+%     emphstyle={\textbf}
+}
 
 \newcommand{\figureTeaProgram}{
-  \lstset{deletekeywords={hypothesize}}
+  % \lstset{deletekeywords={hypothesize}}
   \lstinputlisting[
-        language=Python, 
-        morekeywords={define_study_design}
-        caption={\textbf{Sample Tea program.} The specification outlines an experiment to analyze the relationship between geographic location (`So') and probability of imprisonment (`Prob') in a common USCrime data set~\protect\cite{venables2013modern,kabacoff2011action}. See~\autoref{usageScenarioTea} for an explanation of the code. Tea programs specify 1) data, 2) variables, 3) study design, 4) assumptions, and 5) hypotheses.
+        style=teastyle,
+        % language=Python, 
+        % keywordstyle=\color{black},  % choose your preferred color
+        % morekeywords={},
+        caption={\textbf{Sample Tea program.} 
+        The specification outlines an experiment to analyze the relationship between geographic location (`So') and probability of imprisonment (`Prob') in a common USCrime data set~\protect\cite{venables2013modern,kabacoff2011action}. 
+        See~\autoref{usageScenarioTea} for an explanation of the code. Tea programs specify 1) data, 2) variables, 3) study design, 4) assumptions, and 5) hypotheses.
         % \end{small}
         },
         label={lst:tea_program}
@@ -175,13 +205,14 @@
 \end{table*}
 }
 
+\begin{comment}
 % make a custom style that looks good and can highlight some additional keywords
 \lstdefinestyle{tea}{
   basicstyle=\ttfamily,
   deletekeywords={input, print, id},
   language=Python,
   % here are the additional keywords
-  emph={load_data, hypothesize, <, >, =, !},
+  emph={data, define_variables, define_study_design, assume, hypothesize, <, >, =, !},
   % they are underlines
   emphstyle={\bf},
 }
@@ -197,7 +228,7 @@
   numberstyle=\tiny,
   escapechar=|,
 }
-
+\end{comment}
 
 \newcommand{\teaHypotheses}{
   \begin{figure}[t]

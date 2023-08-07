@@ -29,7 +29,7 @@
 \contentsline {subsubsection}{Variables}{39}{section*.12}%
 \contentsline {subsubsection}{Study Design}{39}{section*.13}%
 \contentsline {subsubsection}{Assumptions}{39}{section*.14}%
-\contentsline {subsubsection}{Hypotheses}{40}{section*.16}%
+\contentsline {subsubsection}{Hypotheses}{41}{section*.16}%
 \contentsline {subsection}{\numberline {3.4.2}Tea's Constraint-based Runtime System}{41}{subsection.3.4.2}%
 \contentsline {subsubsection}{SMT Solver}{41}{section*.17}%
 \contentsline {subsubsection}{Logical Encodings}{41}{section*.18}%
@@ -39,8 +39,8 @@
 \contentsline {section}{\numberline {3.5}\titlecap {Evaluation}}{43}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}How does Tea compare to textbook tutorials?}{43}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Does Tea avoid common mistakes made by non-expert users?}{45}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}\titlecap {Discussion, Limitations, and Future Work}}{45}{section.3.6}%
-\contentsline {section}{\numberline {3.7}\titlecap {Summary of Contributions}}{46}{section.3.7}%
+\contentsline {section}{\numberline {3.6}\titlecap {Discussion, Limitations, and Future Work}}{46}{section.3.6}%
+\contentsline {section}{\numberline {3.7}\titlecap {Summary of Contributions}}{47}{section.3.7}%
 \contentsline {chapter}{\numberline {4}Hypothesis Formalization: A Conceptual Framework Characterizing How Analysts Translate Research Questions into Statistical Analyses}{49}{chapter.4}%
 \contentsline {section}{\numberline {4.1}\titlecap {Background and Related Work}}{52}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Statistical Thinking}{52}{subsection.4.1.1}%

@@ -112,6 +112,8 @@
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{mauve}{rgb}{0.58, 0, 0.82}
+\definecolor{magenta}{RGB}{255,0,255}
+\definecolor{lightgray}{rgb}{0.83, 0.83, 0.83}
 % \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 
 \lstdefinestyle{mystyle}{
@@ -130,7 +132,14 @@
     showspaces=false,
     showstringspaces=false,
     showtabs=false,
-    tabsize=2
+    tabsize=2,
+    deletekeywords={input, print, id},
+    alsoletter={_},
+    morekeywords={data, define_variables, tea.define_study_design, assume, hypothesize}
+    % here are the additional keywords
+%     emph={data, define_variables, define_study_design, assume, hypothesize, <, >, =, !},
+    % they are underlines
+%     emphstyle={\textbf}
 }
 
 \definecolor{light-gray}{gray}{0.95}
@@ -139,8 +148,31 @@
 %     frame=tlbr, framesep=0.2cm, framerule=0pt,
 % }
 
-\lstset{style=mystyle}
-\definecolor{lightgray}{rgb}{0.83, 0.83, 0.83}
+% \lstset{style=mystyle}
+
+
+% make a custom style that looks good and can highlight some additional keywords
+% \lstdefinestyle{tea}{
+%   basicstyle=\ttfamily,
+%   deletekeywords={input, print, id},
+%   language=Python,
+%   % here are the additional keywords
+%   emph={data, define_variables, define_study_design, assume, hypothesize, <, >, =, !},
+%   % they are underlines
+%   emphstyle={\bf},
+% }
+% \lstset{
+%   % use this style by default
+%   style=mystyle,
+%   % look better
+%   columns=flexible,
+%   showstringspaces=false,
+%   % spacing, size, numbers, etc.
+%   numbers=left,
+%   xleftmargin=2em,
+%   numberstyle=\tiny,
+%   escapechar=|,
+% }
 
 % For Tikz graphics
 \usepackage{tikz}
