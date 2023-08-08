@@ -125,7 +125,7 @@
 \contentsline {section}{\numberline {5.8}\titlecap {Summative Evaluation: Controlled lab study}}{113}{section.5.8}%
 \contentsline {subsection}{\numberline {5.8.1}Study Design}{113}{subsection.5.8.1}%
 \contentsline {paragraph}{Participants}{114}{section*.80}%
-\contentsline {subsection}{\numberline {5.8.2}Analysis Approach}{114}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.2}Analysis Approach}{115}{subsection.5.8.2}%
 \contentsline {subsection}{\numberline {5.8.3}Findings}{115}{subsection.5.8.3}%
 \contentsline {subsubsection}{RQ1: rTisane's\xspace Impact on Conceptual Models}{115}{section*.83}%
 \contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts found it difficult to express conceptual nuances.}{117}{section*.85}%
@@ -136,7 +136,7 @@
 \contentsline {subsubsection}{Theme: Statistical models authored with rTisane\xspace fit the data just as well or better than statistical models without rTisane\xspace .}{120}{section*.90}%
 \contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts change their analysis intent during statistical modeling.}{120}{section*.91}%
 \contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts find statistical model formulation challenging.}{121}{section*.92}%
-\contentsline {subsubsection}{Theme: rTisane\xspace focused analysts on their motivation for analysis.}{121}{section*.93}%
+\contentsline {subsubsection}{Theme: rTisane\xspace focused analysts on their motivation for analysis.}{122}{section*.93}%
 \contentsline {subsubsection}{Theme: Analysts want to use rTisane\xspace for scientific communication, not just statistical authoring.}{122}{section*.94}%
 \contentsline {subsection}{\numberline {5.8.4}Discussion}{122}{subsection.5.8.4}%
 \contentsline {subsection}{\numberline {5.8.5}Limitations}{123}{subsection.5.8.5}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  8 AUG 2023 11:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  8 AUG 2023 12:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1488,7 +1488,7 @@ Overfull \hbox (814.28586pt too wide) in paragraph at lines 245--246
 [][][][][][] 
  []
 
-
+[107]
 Overfull \hbox (959.70975pt too wide) in paragraph at lines 274--275
 [][][][][][][] 
  []
@@ -1499,26 +1499,23 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 File: lstlang2.sty 2020/03/24 1.8d listings language file
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2020/03/24 1.8d listings language file
-) [107] (./tisane/figures/rTisane-example.R)
+) (./tisane/figures/rTisane-example.R) [108]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 2.
 
-
-Underfull \vbox (badness 2772) has occurred while \output is active []
-
- [108] Excluding 'comment' comment. [109] [110]
+Excluding 'comment' comment. [109] [110]
 <tisane/figures/conceptual-model-disambiguation.png, id=2072, 606.265pt x 348.30125pt>
 File: tisane/figures/conceptual-model-disambiguation.png Graphic file (type png)
 <use tisane/figures/conceptual-model-disambiguation.png>
 Package pdftex.def Info: tisane/figures/conceptual-model-disambiguation.png  used on input line 143.
-(pdftex.def)             Requested size: 399.29463pt x 229.3959pt.
+(pdftex.def)             Requested size: 446.26582pt x 256.38365pt.
  [111 <./tisane/figures/conceptual-model-disambiguation.png>] Excluding 'comment' comment.
 <tisane/figures/statistical-model-disambiguation.png, id=2083, 1042.39438pt x 523.45563pt>
 File: tisane/figures/statistical-model-disambiguation.png Graphic file (type png)
 <use tisane/figures/statistical-model-disambiguation.png>
 Package pdftex.def Info: tisane/figures/statistical-model-disambiguation.png  used on input line 171.
-(pdftex.def)             Requested size: 352.31625pt x 176.91823pt.
+(pdftex.def)             Requested size: 446.26582pt x 224.09909pt.
  [112 <./tisane/figures/statistical-model-disambiguation.png>]) (./tisane/lab_study.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1604,10 +1601,10 @@ Overfull \hbox (382.38263pt too wide) in paragraph at lines 311--325
 \T1/cmr/m/n/10.95 out-put model script to au-thor their own. [][][][][][]
  []
 
-[119] [120] [121] Excluding 'comment' comment. Excluding 'comment' comment. [122]
+[119] [120] [121] Excluding 'comment' comment. Excluding 'comment' comment. [122] [123]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10.95> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 612.
- [123]) (./tisane/discussion.tex
+) (./tisane/discussion.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
@@ -1617,20 +1614,17 @@ Overfull \hbox (203.66895pt too wide) in paragraph at lines 2--9
 \T1/cmr/m/n/10.95 sight, this find-ing was \T1/cmr/m/it/10.95 coun-ter-in-tu-itive \T1/cmr/m/n/10.95 at the time. [][][][][][] 
  []
 
-
+[124]
 Overfull \hbox (415.45634pt too wide) in paragraph at lines 12--23
 [][][][][][][]
  []
 
-[124] Excluding 'comment' comment. Excluding 'comment' comment.)
+Excluding 'comment' comment. Excluding 'comment' comment.)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 103.
 
-) [125] [126
-
-
-]
+[125]) [126]
 Chapter 6.
 (./10-conclusion.tex
 
@@ -1647,7 +1641,10 @@ Overfull \hbox (286.68658pt too wide) in paragraph at lines 44--53
 [][][][][][] 
  []
 
-[127]
+[127
+
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [128] Excluding 'comment' comment.
@@ -2001,7 +1998,7 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 Here is how much of TeX's memory you used:
  42869 strings out of 478994
  943358 string characters out of 5858184
- 1835875 words of memory out of 5000000
+ 1832653 words of memory out of 5000000
  58719 multiletter control sequences out of 15000+600000
  436429 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2043,7 +2040,7 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on dissertation.pdf (174 pages, 8623076 bytes).
+Output written on dissertation.pdf (174 pages, 8623327 bytes).
 PDF statistics:
  2822 PDF objects out of 2984 (max. 8388607)
  2427 compressed objects within 25 object streams
