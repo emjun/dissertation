@@ -178,11 +178,10 @@ reasoning, leveraging interactive program specification as necessary.
 \paragraph{Challenge 2: Represent and reason about key statistical analysis decisions} %- programming
 A central idea in this thesis is that software systems should take on the
 responsibility of translating conceptual knowledge into statistical analyses.
-This is akin to representing the conceptual
-knowledge analysts express and compiling it to statistical
-analyses that respect statistical best practices and rules. 
-\polish{ I don't really know what you mean by "falls out" here. Revise?}
-To achieve this, picking representations where the reasoning approach ``falls out'' is a technical challenge.
+This is akin to representing the conceptual knowledge analysts express and
+compiling it to statistical analyses that respect statistical best practices and
+rules. To achieve this, selecting representations that lend themselves to
+elegant reasoning methods is a technical challenge.
 % not only straightforward but also beneficial in someway (expressivity, extensibility for both Tea and Tisane)
 
 \addcontentsline{toc}{subsection}{Challenge 3}
@@ -281,7 +280,10 @@ and graphs (\autoref{fig:tools}).
         Importantly, a subgraph of the representation is a causal diagram useful
         for deriving statistical models formally. 
         \item Finally, we develop an approach for \textit{interactively
-        compiling} high-level conceptual specifications into statistical models. \polish{> Might you (tersely) indicate the key ideas/features of this approach?}
+        compiling} high-level conceptual specifications into statistical models.
+        Interfaces surface key aspects of specifications, encourage deeper reflection
+        on implicit knowledge, and elicit
+        clarification when needed. 
         % \polish{In a controlled lab study, we find that interactive compilation
         % contributes to analysts' increased awareness of their domain, data, and
         % statistics during data analysis.}

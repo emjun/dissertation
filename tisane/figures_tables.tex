@@ -138,9 +138,10 @@
 %            };
 %        \end{tikzpicture}
         % \caption{The graph representation of the variables and relationships from the usage scenario (\autoref{}).}
-        \caption{\polish{Add example program}\textbf{Example graph representation variables and relationships.}}
+        \caption{\textbf{Example graph representation variables and relationships.}}
             \begin{small}
             \begin{minipage}{\linewidth}
+                The graph representation of the variables and relationships from \autoref{lst:tisaneProgram}. 
                 \texttt{causes} edges are labeled with ``causes.'' \texttt{associates\_with} edges are labeled with ``assoc.'' Dashed edges indicate \texttt{nests\_within} relationships, and dotted edges indicate \texttt{has} relationships.
             \end{minipage}
             \end{small}
@@ -152,128 +153,128 @@
 %\newcommand\betweendistance[1]{1.5cm of #1}
 \newcommand{\figureCandidateMainEffects}{
     \begin{figure}%[h]
-% \centering
-% \includegraphics{tisane/figures/figure5}
-       \def\arrowend{.4}
-       \def\dotsbegin{.43}
-       \def\dotsend{.55}
-       \def\arrowbegin{.59}
+    \centering
+    \includegraphics{tisane/figures/figure5}
+    %    \def\arrowend{.4}
+    %    \def\dotsbegin{.43}
+    %    \def\dotsend{.55}
+    %    \def\arrowbegin{.59}
 
-       \begin{tikzpicture}
-           \node[fill=gray!10,rounded corners=4pt]		(n1)			{%
-               \begin{tikzpicture}[>=Stealth,
-                               causes/.style={thick,draw=black, "causes",text=black},
-                               associates/.style={thick,draw=black, "assoc."},
-                               min/.style={minimum size=1cm},
-                               unit/.style={min,draw=black},
-                               measure/.style={fill=white,min,circle,draw=black},
-                               has/.style={densely dotted,thick},
-                               nests/.style={dashed,thick},
-                               depvar/.style={fill=gray!30},
-                               every edge quotes/.style={fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt},
-                               tightly/.style={inner sep=1pt},
-                               loosely/.style={inner sep=.7em},
-                               scale=0.9,transform shape,
-                               cme/.style={inner sep=0pt,text width=0.5cm,align=center,node font=\footnotesize}]
-               \node[measure]	(iv1)		{IV};
-               \node[measure,right=of iv1]	(iv2)		{IV};
-               \node[measure,left=0.5cm of iv1]	(iv3)		{IV};
-               \node[measure,above=of iv1,cme]	(p1)		{CP\\CME};
-               \node[measure,above=of iv2,cme] (p2)		{CP\\CME};
-               \node[measure,above=of iv3,cme]	(p3)		{CP\\CME};
-               \coordinate	(point1) at ($ (p1) !.5! (p2) $)	{};
-               \coordinate	(point2) at ($ (iv2) !.5! (iv3) $)	{};
-               % \node[measure] (a1)	at ($ (point1) + (0,2cm) $)	{CME};
-               % \draw (a1) edge[left,->] ($(a1)!\arrowend!(p1)$);
-               % \draw ($(a1)!\dotsbegin!(p1)$) edge[dotted,thick]	($(a1)!\dotsend!(p1)$);
-               %  edge[->] (p1);
-               % \draw ($(a1)!\arrowbegin!(p1)$) edge[left,->] (p1);
+    %    \begin{tikzpicture}
+    %        \node[fill=gray!10,rounded corners=4pt]		(n1)			{%
+    %            \begin{tikzpicture}[>=Stealth,
+    %                            causes/.style={thick,draw=black, "causes",text=black},
+    %                            associates/.style={thick,draw=black, "assoc."},
+    %                            min/.style={minimum size=1cm},
+    %                            unit/.style={min,draw=black},
+    %                            measure/.style={fill=white,min,circle,draw=black},
+    %                            has/.style={densely dotted,thick},
+    %                            nests/.style={dashed,thick},
+    %                            depvar/.style={fill=gray!30},
+    %                            every edge quotes/.style={fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt},
+    %                            tightly/.style={inner sep=1pt},
+    %                            loosely/.style={inner sep=.7em},
+    %                            scale=0.9,transform shape,
+    %                            cme/.style={inner sep=0pt,text width=0.5cm,align=center,node font=\footnotesize}]
+    %            \node[measure]	(iv1)		{IV};
+    %            \node[measure,right=of iv1]	(iv2)		{IV};
+    %            \node[measure,left=0.5cm of iv1]	(iv3)		{IV};
+    %            \node[measure,above=of iv1,cme]	(p1)		{CP\\CME};
+    %            \node[measure,above=of iv2,cme] (p2)		{CP\\CME};
+    %            \node[measure,above=of iv3,cme]	(p3)		{CP\\CME};
+    %            \coordinate	(point1) at ($ (p1) !.5! (p2) $)	{};
+    %            \coordinate	(point2) at ($ (iv2) !.5! (iv3) $)	{};
+    %            % \node[measure] (a1)	at ($ (point1) + (0,2cm) $)	{CME};
+    %            % \draw (a1) edge[left,->] ($(a1)!\arrowend!(p1)$);
+    %            % \draw ($(a1)!\dotsbegin!(p1)$) edge[dotted,thick]	($(a1)!\dotsend!(p1)$);
+    %            %  edge[->] (p1);
+    %            % \draw ($(a1)!\arrowbegin!(p1)$) edge[left,->] (p1);
 
-               % \draw (a1) edge[right,->] ($(a1)!\arrowend!(p2)$);
-               % \draw ($(a1)!\dotsbegin!(p2)$) edge[dotted,thick]	($(a1)!\dotsend!(p2)$);
-               %  edge[->] (p1);
-               % \draw ($(a1)!\arrowbegin!(p2)$) edge[right,->] (p2);
-               \graph{
-                   (p1) -> (iv1);
-                   (p2) -> (iv1);
-                   (p2) -> (iv2);
-                   (p3) -> (iv3);
-               };
-           \end{tikzpicture}%
-           };
+    %            % \draw (a1) edge[right,->] ($(a1)!\arrowend!(p2)$);
+    %            % \draw ($(a1)!\dotsbegin!(p2)$) edge[dotted,thick]	($(a1)!\dotsend!(p2)$);
+    %            %  edge[->] (p1);
+    %            % \draw ($(a1)!\arrowbegin!(p2)$) edge[right,->] (p2);
+    %            \graph{
+    %                (p1) -> (iv1);
+    %                (p2) -> (iv1);
+    %                (p2) -> (iv2);
+    %                (p3) -> (iv3);
+    %            };
+    %        \end{tikzpicture}%
+    %        };
 
-           \node[right=1.5cm of n1,fill=gray!10,rounded corners=4pt]	(n2)	{%
-               \begin{tikzpicture}[>=Stealth,
-                                   causes/.style={thick,draw=black, "causes",text=black},
-                                   associates/.style={thick,draw=black, "assoc."},
-                                   min/.style={minimum size=1cm},
-                                   unit/.style={min,draw=black},
-                                   measure/.style={fill=white,min,circle,draw=black},
-                                   has/.style={densely dotted,thick},
-                                   nests/.style={dashed,thick},
-                                   depvar/.style={fill=gray!30},
-                                   every edge quotes/.style={fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt},
-                                   tightly/.style={inner sep=1pt},
-                                   loosely/.style={inner sep=.7em},
-                                   scale=0.9,transform shape,
-                                   cme/.style={inner sep=0pt,text width=0.5cm,align=center,node font=\footnotesize}]
-                   \node[measure]  (cme)   {CME};
-                   \node[measure,depvar,below=of cme]  (dv)    {DV};
-                   \graph{
-                       (cme) -> (dv);
-                   };
-               \end{tikzpicture}
-           };
-           \node[right=1.5cm of n2,fill=gray!10,rounded corners=4pt]	(n3)	{%
-               \begin{tikzpicture}[>=Stealth,
-                                   causes/.style={draw=black, "causes",text=black},
-                                   associates/.style={draw=black, "assoc.",bend right},
-                                   min/.style={minimum size=1cm},
-                                   unit/.style={min,draw=black},
-                                   measure/.style={fill=white,min,circle,draw=black},
-                                   has/.style={densely dotted,thick},
-                                   nests/.style={dashed,thick},
-                                   depvar/.style={fill=gray!30},
-                                   every edge quotes/.style={fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt,node font=\scriptsize},
-                                   tightly/.style={inner sep=1pt},
-                                   loosely/.style={inner sep=.7em},
-                                   scale=0.9,transform shape,
-                                   smalldot/.style={circle,minimum size=5pt,fill=blue,draw=none}]
-                   \node[measure]	(iv)		{IV};
-                   \node[measure,depvar,above=of iv]	(dv)	{DV};
-                   \coordinate (center)    at ($(iv)!0.5!(dv)$);
-                   \coordinate (centeroffset) at ($(center)+ (3pt,0)$);
-                   \coordinate[right=of iv.east] (rightcoord);
-                   \coordinate[left=of iv.west] (leftcoord);
-                   \coordinate (leftleftcoord) at ($(leftcoord)-(1cm,0)$);
+    %        \node[right=1.5cm of n1,fill=gray!10,rounded corners=4pt]	(n2)	{%
+    %            \begin{tikzpicture}[>=Stealth,
+    %                                causes/.style={thick,draw=black, "causes",text=black},
+    %                                associates/.style={thick,draw=black, "assoc."},
+    %                                min/.style={minimum size=1cm},
+    %                                unit/.style={min,draw=black},
+    %                                measure/.style={fill=white,min,circle,draw=black},
+    %                                has/.style={densely dotted,thick},
+    %                                nests/.style={dashed,thick},
+    %                                depvar/.style={fill=gray!30},
+    %                                every edge quotes/.style={fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt},
+    %                                tightly/.style={inner sep=1pt},
+    %                                loosely/.style={inner sep=.7em},
+    %                                scale=0.9,transform shape,
+    %                                cme/.style={inner sep=0pt,text width=0.5cm,align=center,node font=\footnotesize}]
+    %                \node[measure]  (cme)   {CME};
+    %                \node[measure,depvar,below=of cme]  (dv)    {DV};
+    %                \graph{
+    %                    (cme) -> (dv);
+    %                };
+    %            \end{tikzpicture}
+    %        };
+    %        \node[right=1.5cm of n2,fill=gray!10,rounded corners=4pt]	(n3)	{%
+    %            \begin{tikzpicture}[>=Stealth,
+    %                                causes/.style={draw=black, "causes",text=black},
+    %                                associates/.style={draw=black, "assoc.",bend right},
+    %                                min/.style={minimum size=1cm},
+    %                                unit/.style={min,draw=black},
+    %                                measure/.style={fill=white,min,circle,draw=black},
+    %                                has/.style={densely dotted,thick},
+    %                                nests/.style={dashed,thick},
+    %                                depvar/.style={fill=gray!30},
+    %                                every edge quotes/.style={fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt,node font=\scriptsize},
+    %                                tightly/.style={inner sep=1pt},
+    %                                loosely/.style={inner sep=.7em},
+    %                                scale=0.9,transform shape,
+    %                                smalldot/.style={circle,minimum size=5pt,fill=blue,draw=none}]
+    %                \node[measure]	(iv)		{IV};
+    %                \node[measure,depvar,above=of iv]	(dv)	{DV};
+    %                \coordinate (center)    at ($(iv)!0.5!(dv)$);
+    %                \coordinate (centeroffset) at ($(center)+ (3pt,0)$);
+    %                \coordinate[right=of iv.east] (rightcoord);
+    %                \coordinate[left=of iv.west] (leftcoord);
+    %                \coordinate (leftleftcoord) at ($(leftcoord)-(1cm,0)$);
 
-                   % \node[measure,left=of iv]	(m1)		{\footnotesize CME};
-                   \node[measure]	(m2)	at ($(center)!(rightcoord)!(centeroffset)$)	{\footnotesize CME};
-                   \node[measure]	(m3)    at ($(centeroffset)!(leftleftcoord)!(center)$)		{};
+    %                % \node[measure,left=of iv]	(m1)		{\footnotesize CME};
+    %                \node[measure]	(m2)	at ($(center)!(rightcoord)!(centeroffset)$)	{\footnotesize CME};
+    %                \node[measure]	(m3)    at ($(centeroffset)!(leftleftcoord)!(center)$)		{};
 
-                   \graph{
-                       % (iv) ->[associates,above] (m1);
-                       (iv) ->[associates,above left] (m2);
-                       (iv) ->[associates,below left] (m3);
-                       % (m1) ->[associates,below] (iv);
-                       (m2) ->[associates,below right] (iv);
-                       (m3) ->[associates,above right] (iv);
-                       % (m1) ->[causes,above left] (dv);
-                       (m2) ->[associates,below left] (dv);
-                       (dv) ->[associates,above right] (m2);
-                       % (dv) ->[draw=black,"assoc.",below left,pos=0.25] (m2);
-                   };
-               \end{tikzpicture}%
-           };
-           \coordinate	(ref1)	at	($(n2.south)-(1cm,0.3cm)$) {};
-           \coordinate (ref2)	at	($(n2.south)-(-1cm,0.3cm)$) {};
+    %                \graph{
+    %                    % (iv) ->[associates,above] (m1);
+    %                    (iv) ->[associates,above left] (m2);
+    %                    (iv) ->[associates,below left] (m3);
+    %                    % (m1) ->[associates,below] (iv);
+    %                    (m2) ->[associates,below right] (iv);
+    %                    (m3) ->[associates,above right] (iv);
+    %                    % (m1) ->[causes,above left] (dv);
+    %                    (m2) ->[associates,below left] (dv);
+    %                    (dv) ->[associates,above right] (m2);
+    %                    % (dv) ->[draw=black,"assoc.",below left,pos=0.25] (m2);
+    %                };
+    %            \end{tikzpicture}%
+    %        };
+    %        \coordinate	(ref1)	at	($(n2.south)-(1cm,0.3cm)$) {};
+    %        \coordinate (ref2)	at	($(n2.south)-(-1cm,0.3cm)$) {};
 
-           \node	(cap1)	at	($(ref1)!(n1)!(ref2)$)	{(a) \textit{causal parents}};
-           \node	(cap2)	at	($(ref1)!(n2)!(ref2)$)	{(b) \textit{possible causal omissions}};
-           \node[inner sep=0pt]	(cap3)	at	($(ref1)!(n3)!(ref2)$)	{(c) \textit{possible confounding associations}};
-           % \node[below=0.05cm of cap3,inner sep=0pt]	(cap4)	{\textit{\& possible causal omissions}};
-        \end{tikzpicture}
-        \caption{\polish{Suplots overlap?}\textbf{Graphs demonstrating causal parents, possible causal omissions, and possible confounding associations.}}
+    %        \node	(cap1)	at	($(ref1)!(n1)!(ref2)$)	{(a) \textit{causal parents}};
+    %        \node	(cap2)	at	($(ref1)!(n2)!(ref2)$)	{(b) \textit{possible causal omissions}};
+    %        \node[inner sep=0pt]	(cap3)	at	($(ref1)!(n3)!(ref2)$)	{(c) \textit{possible confounding associations}};
+    %        % \node[below=0.05cm of cap3,inner sep=0pt]	(cap4)	{\textit{\& possible causal omissions}};
+    %     \end{tikzpicture}
+        \caption{\textbf{Graphs demonstrating causal parents, possible causal omissions, and possible confounding associations.}}
             \begin{small}
             \begin{minipage}{\linewidth}
                 In graphs (a) and (b) (left and middle), all edges are causal. Independent variables are marked ``IV,'' discovered candidate main effects ``CME,'' dependent variables ``DV,'' and causal parents ``CP.''
@@ -387,145 +388,145 @@
    \def\myedgequotesfont{\scriptsize}
    \def\mynodedistance{0.9cm}
     \begin{figure}%[H]
-% \centering
-% \includegraphics{tisane/figures/figure3}
-       \begin{tikzpicture}[minigraph/.style={fill=gray!10,rounded corners=4pt},
-                           caption/.style={node distance=.2cm,rounded corners=4pt,node font=\footnotesize},
-                           closecaption/.style={node distance=.05cm,rounded corners=4pt,node font=\footnotesize}]
-           \node[minigraph]		(causes)			{%
-               \begin{tikzpicture}[>=Stealth,
-                               every node/.style={node distance=\mynodedistance},
-                               causes/.style={draw=black, "causes",text=black},
-                               associates/.style={draw=black, "assoc."},
-                               min/.style={minimum size=\minsize,node font=\mynodefont},
-                               unit/.style={min,fill=white,draw=black},
-                               measure/.style={fill=white,min,circle,draw=black},
-                               has/.style={densely dotted,thick,"has"},
-                               nests/.style={dashed,thick,"nests"},
-                               depvar/.style={fill=gray!30},
-                               every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
-                   \node[measure]       (v1)        {\texttt{v1}};
-                   \node[measure,right=of v1]  (v2) {\texttt{v2}};
-                   \graph{
-                       (v1) ->[causes,below] (v2);
-                   };
-               \end{tikzpicture}
-           };
+    \centering
+\includegraphics{tisane/figures/figure3}
+    %    \begin{tikzpicture}[minigraph/.style={fill=gray!10,rounded corners=4pt},
+    %                        caption/.style={node distance=.2cm,rounded corners=4pt,node font=\footnotesize},
+    %                        closecaption/.style={node distance=.05cm,rounded corners=4pt,node font=\footnotesize}]
+    %        \node[minigraph]		(causes)			{%
+    %            \begin{tikzpicture}[>=Stealth,
+    %                            every node/.style={node distance=\mynodedistance},
+    %                            causes/.style={draw=black, "causes",text=black},
+    %                            associates/.style={draw=black, "assoc."},
+    %                            min/.style={minimum size=\minsize,node font=\mynodefont},
+    %                            unit/.style={min,fill=white,draw=black},
+    %                            measure/.style={fill=white,min,circle,draw=black},
+    %                            has/.style={densely dotted,thick,"has"},
+    %                            nests/.style={dashed,thick,"nests"},
+    %                            depvar/.style={fill=gray!30},
+    %                            every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
+    %                \node[measure]       (v1)        {\texttt{v1}};
+    %                \node[measure,right=of v1]  (v2) {\texttt{v2}};
+    %                \graph{
+    %                    (v1) ->[causes,below] (v2);
+    %                };
+    %            \end{tikzpicture}
+    %        };
 
-           \node[minigraph,below=of causes]		(assoc)			{%
-               \begin{tikzpicture}[>=Stealth,
-                               every node/.style={node distance=\mynodedistance},
-                               causes/.style={draw=black, "causes",text=black},
-                               associates/.style={draw=black, "assoc.",bend right},
-                               min/.style={minimum size=\minsize,node font=\mynodefont},
-                               unit/.style={min,fill=white,draw=black},
-                               measure/.style={fill=white,min,circle,draw=black},
-                               has/.style={densely dotted,thick,"has"},
-                               nests/.style={dashed,thick,"nests"},
-                               depvar/.style={fill=gray!30},
-                               every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
-                   \node[measure]       (v1)        {\texttt{v1}};
-                   \node[measure,right=of v1]  (v2) {\texttt{v2}};
-                   \graph{
-                       (v1) ->[associates,above] (v2);
-                       (v2) ->[associates,below] (v1);
-                   };
-               \end{tikzpicture}
-           };
-           \coordinate (mid)   at ($(causes.east)!0.5!(assoc.east)$);
+    %        \node[minigraph,below=of causes]		(assoc)			{%
+    %            \begin{tikzpicture}[>=Stealth,
+    %                            every node/.style={node distance=\mynodedistance},
+    %                            causes/.style={draw=black, "causes",text=black},
+    %                            associates/.style={draw=black, "assoc.",bend right},
+    %                            min/.style={minimum size=\minsize,node font=\mynodefont},
+    %                            unit/.style={min,fill=white,draw=black},
+    %                            measure/.style={fill=white,min,circle,draw=black},
+    %                            has/.style={densely dotted,thick,"has"},
+    %                            nests/.style={dashed,thick,"nests"},
+    %                            depvar/.style={fill=gray!30},
+    %                            every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
+    %                \node[measure]       (v1)        {\texttt{v1}};
+    %                \node[measure,right=of v1]  (v2) {\texttt{v2}};
+    %                \graph{
+    %                    (v1) ->[associates,above] (v2);
+    %                    (v2) ->[associates,below] (v1);
+    %                };
+    %            \end{tikzpicture}
+    %        };
+    %        \coordinate (mid)   at ($(causes.east)!0.5!(assoc.east)$);
 
-           \node[minigraph,right=of mid]		(moderates)			{%
-               \begin{tikzpicture}[>=Stealth,
-                               every node/.style={node distance=\mynodedistance},
-                               causes/.style={draw=black, "causes",text=black},
-                               associates/.style={draw=black, "assoc.",bend right},
-                               min/.style={minimum size=\minsize,node font=\mynodefont},
-                               unit/.style={min,fill=white,draw=black},
-                               measure/.style={fill=white,min,circle,draw=black},
-                               has/.style={densely dotted,"has"},
-                               nests/.style={dashed,thick,"nests"},
-                               depvar/.style={fill=gray!30},
-                               every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
-                   \node[measure]       (v3)        {\texttt{m3}};
-                   \node[measure,left=of v3,inner sep=0pt]  (v1v2) {\footnotesize \texttt{m1*m2}};
-                   \node[measure,above right=of v3]    (v1)          {\texttt{m1}};
-                   \node[measure,below right=of v3]    (v2)          {\texttt{m2}};
-                   \coordinate (ref) at ($(v2) + (3pt,0)$);
-                   % \node[unit,rounded corners=0pt] (u) at ($(v2)!(v1v2.west)!(ref)$)         {\texttt{u}};
-                   \graph{
-                       (v1v2) ->[associates,below] (v3);
-                       (v3) ->[associates,above] (v1v2);
-                       (v1) ->[associates,above left] (v3);
-                       (v3) ->[associates,below right] (v1);
-                       (v2) ->[associates,above right] (v3);
-                       (v3) ->[associates,below left] (v2);
-                       % (u)  ->[has,below,draw=gray,text=gray] (v2);
-                       % (u)  ->[has,right] (v1v2);
-                   };
-               \end{tikzpicture}
-           };
+    %        \node[minigraph,right=of mid]		(moderates)			{%
+    %            \begin{tikzpicture}[>=Stealth,
+    %                            every node/.style={node distance=\mynodedistance},
+    %                            causes/.style={draw=black, "causes",text=black},
+    %                            associates/.style={draw=black, "assoc.",bend right},
+    %                            min/.style={minimum size=\minsize,node font=\mynodefont},
+    %                            unit/.style={min,fill=white,draw=black},
+    %                            measure/.style={fill=white,min,circle,draw=black},
+    %                            has/.style={densely dotted,"has"},
+    %                            nests/.style={dashed,thick,"nests"},
+    %                            depvar/.style={fill=gray!30},
+    %                            every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
+    %                \node[measure]       (v3)        {\texttt{m3}};
+    %                \node[measure,left=of v3,inner sep=0pt]  (v1v2) {\footnotesize \texttt{m1*m2}};
+    %                \node[measure,above right=of v3]    (v1)          {\texttt{m1}};
+    %                \node[measure,below right=of v3]    (v2)          {\texttt{m2}};
+    %                \coordinate (ref) at ($(v2) + (3pt,0)$);
+    %                % \node[unit,rounded corners=0pt] (u) at ($(v2)!(v1v2.west)!(ref)$)         {\texttt{u}};
+    %                \graph{
+    %                    (v1v2) ->[associates,below] (v3);
+    %                    (v3) ->[associates,above] (v1v2);
+    %                    (v1) ->[associates,above left] (v3);
+    %                    (v3) ->[associates,below right] (v1);
+    %                    (v2) ->[associates,above right] (v3);
+    %                    (v3) ->[associates,below left] (v2);
+    %                    % (u)  ->[has,below,draw=gray,text=gray] (v2);
+    %                    % (u)  ->[has,right] (v1v2);
+    %                };
+    %            \end{tikzpicture}
+    %        };
 
-           \node[minigraph,inner sep=0pt,right=of moderates]		(nests)			{%
-               \begin{tikzpicture}[>=Stealth,
-                               every node/.style={node distance=\mynodedistance},
-                               causes/.style={draw=black, "causes",text=black},
-                               associates/.style={draw=black, "assoc.",bend right},
-                               min/.style={minimum size=\minsize,node font=\mynodefont},
-                               unit/.style={min,fill=white,draw=black,rounded corners=0pt},
-                               measure/.style={fill=white,min,circle,draw=black},
-                               has/.style={densely dotted,thick,"has"},
-                               nests/.style={dashed,"nests"},
-                               depvar/.style={fill=gray!30},
-                               every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt}]
-                   \node[unit]       (u1)        {\texttt{u1}};
-                   \node[unit,above=of u1]  (u2) {\texttt{u2}};
-                   \node[inner sep=0pt] at ($(u2.north)+(0,3pt)$)  {};
-                   \node[inner sep=0pt] at ($(u2.east)+(2pt,0)$) {};
-                   \node[inner sep=0pt] at ($(u2.west)-(3pt,0)$) {};
-                   \node[inner sep=0pt] at ($(u1.south)-(0,3pt)$) {};
-                   \coordinate (ref)   at ($(u1)!0.5!(u2)$);
-                   \node[right=2pt of ref,inner sep=0pt,node font=\scriptsize] {nests};
-                   \graph{
-                       (u1) ->[dashed] (u2);
-                   };
-               \end{tikzpicture}};
+    %        \node[minigraph,inner sep=0pt,right=of moderates]		(nests)			{%
+    %            \begin{tikzpicture}[>=Stealth,
+    %                            every node/.style={node distance=\mynodedistance},
+    %                            causes/.style={draw=black, "causes",text=black},
+    %                            associates/.style={draw=black, "assoc.",bend right},
+    %                            min/.style={minimum size=\minsize,node font=\mynodefont},
+    %                            unit/.style={min,fill=white,draw=black,rounded corners=0pt},
+    %                            measure/.style={fill=white,min,circle,draw=black},
+    %                            has/.style={densely dotted,thick,"has"},
+    %                            nests/.style={dashed,"nests"},
+    %                            depvar/.style={fill=gray!30},
+    %                            every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt}]
+    %                \node[unit]       (u1)        {\texttt{u1}};
+    %                \node[unit,above=of u1]  (u2) {\texttt{u2}};
+    %                \node[inner sep=0pt] at ($(u2.north)+(0,3pt)$)  {};
+    %                \node[inner sep=0pt] at ($(u2.east)+(2pt,0)$) {};
+    %                \node[inner sep=0pt] at ($(u2.west)-(3pt,0)$) {};
+    %                \node[inner sep=0pt] at ($(u1.south)-(0,3pt)$) {};
+    %                \coordinate (ref)   at ($(u1)!0.5!(u2)$);
+    %                \node[right=2pt of ref,inner sep=0pt,node font=\scriptsize] {nests};
+    %                \graph{
+    %                    (u1) ->[dashed] (u2);
+    %                };
+    %            \end{tikzpicture}};
 
-           \node[minigraph,right=of nests,inner sep=0pt]		(has)			{%
-               \begin{tikzpicture}[>=Stealth,
-                               every node/.style={node distance=\mynodedistance},
-                               causes/.style={draw=black, "causes",text=black},
-                               associates/.style={draw=black, "assoc.",bend right},
-                               min/.style={minimum size=\minsize,node font=\mynodefont},
-                               unit/.style={min,fill=white,draw=black,rounded corners=0pt},
-                               measure/.style={fill=white,min,circle,draw=black},
-                               has/.style={densely dotted,"has"},
-                               nests/.style={dashed,"nests"},
-                               depvar/.style={fill=gray!30},
-                               every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
-                   \node[unit]       (u)        {\texttt{u}};
-                   \node[measure,below=of u]  (m) {\texttt{m}};
-                   \node[inner sep=0pt] at ($(u.north)+(0,3pt)$)  {};
-                   \node[inner sep=0pt] at ($(u.east)+(2pt,0)$) {};
-                   \node[inner sep=0pt] at ($(u.west)-(3pt,0)$) {};
-                   \node[inner sep=0pt] at ($(m.south)-(0,3pt)$) {};
-                   \graph{
-                       (u) ->[has,right] (m);
-                   };
-               \end{tikzpicture}
-           };
+    %        \node[minigraph,right=of nests,inner sep=0pt]		(has)			{%
+    %            \begin{tikzpicture}[>=Stealth,
+    %                            every node/.style={node distance=\mynodedistance},
+    %                            causes/.style={draw=black, "causes",text=black},
+    %                            associates/.style={draw=black, "assoc.",bend right},
+    %                            min/.style={minimum size=\minsize,node font=\mynodefont},
+    %                            unit/.style={min,fill=white,draw=black,rounded corners=0pt},
+    %                            measure/.style={fill=white,min,circle,draw=black},
+    %                            has/.style={densely dotted,"has"},
+    %                            nests/.style={dashed,"nests"},
+    %                            depvar/.style={fill=gray!30},
+    %                            every edge quotes/.style={node font=\myedgequotesfont,fill=none,fill opacity=.9,text opacity=1,rounded corners=3pt,inner sep=2pt}]
+    %                \node[unit]       (u)        {\texttt{u}};
+    %                \node[measure,below=of u]  (m) {\texttt{m}};
+    %                \node[inner sep=0pt] at ($(u.north)+(0,3pt)$)  {};
+    %                \node[inner sep=0pt] at ($(u.east)+(2pt,0)$) {};
+    %                \node[inner sep=0pt] at ($(u.west)-(3pt,0)$) {};
+    %                \node[inner sep=0pt] at ($(m.south)-(0,3pt)$) {};
+    %                \graph{
+    %                    (u) ->[has,right] (m);
+    %                };
+    %            \end{tikzpicture}
+    %        };
 
-           \node[caption,below=of causes]  (causescaption) {\texttt{v1.causes(v2)}};
-           \node[caption,below=of assoc]   (assoccaption)  {\texttt{v1.associates\_with(v2)}};
-           \node[caption,below=of moderates]   (moderatescaption)  {\texttt{m1.moderates(m2, on=m3)}};
-           \node[caption,below=of nests]       (nestscaption)      {\texttt{u1.nests\_within(u2)}};
-           \node[caption,below=of has]         (hascaption)        {\texttt{u.has(m)}};
-           \node[closecaption,left=of causes]   {(a)};
-           \node[closecaption,left=of assoc]    {(b)};
-           \node[closecaption,left=of moderates]    {(c)};
-           \node[closecaption,left=of nests]    {(d)};
-           \node[closecaption,left=of has]      {(e)};
+    %        \node[caption,below=of causes]  (causescaption) {\texttt{v1.causes(v2)}};
+    %        \node[caption,below=of assoc]   (assoccaption)  {\texttt{v1.associates\_with(v2)}};
+    %        \node[caption,below=of moderates]   (moderatescaption)  {\texttt{m1.moderates(m2, on=m3)}};
+    %        \node[caption,below=of nests]       (nestscaption)      {\texttt{u1.nests\_within(u2)}};
+    %        \node[caption,below=of has]         (hascaption)        {\texttt{u.has(m)}};
+    %        \node[closecaption,left=of causes]   {(a)};
+    %        \node[closecaption,left=of assoc]    {(b)};
+    %        \node[closecaption,left=of moderates]    {(c)};
+    %        \node[closecaption,left=of nests]    {(d)};
+    %        \node[closecaption,left=of has]      {(e)};
 
-        \end{tikzpicture}
+    %     \end{tikzpicture}
         \caption{\textbf{Code snippets of conceptual and data measurement relationships written in Tisane's \SDSLlong and their representation in Tisane's graph IR.}}
             \begin{small}
             \begin{minipage}{\linewidth}
@@ -748,10 +749,37 @@
 %    ]{code/usage_scenario_group_exercise_statsmodels.py}
 }
 
-\newcommand{\groupExerciseCode}{
-    \lstinputlisting[language=Python, caption={Example Tisane program from usage scenario (\autoref{sec:usage_scenario}).
+\lstdefinestyle{tisanestyle}{
+    backgroundcolor=\color{white},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta}, % Default color for keywords
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    alsoletter={_},
+    deletekeywords={import},
+    morekeywords={Unit, numeric, nominal, causes, associates_with, nests_within, Design, infer_model, assign_data}
+}
+
+\newcommand{\tisaneProgram}{
+    \lstinputlisting[language=Python, 
+                    style=tisanestyle, 
+                    linewidth=\linewidth, 
+                    breaklines=true,
+    caption={\textbf{Example Tisane program.}
     A Tisane program consists of a set of observed variables, expresses relationships between them, and queries Tisane for a statistical model by specifying a study design.
-    Based on this input program, Tisane involves analysts in a disambiguation process to generate a final output statistical modeling script.}, label={lst:groupExerciseCode}]{code/usage_scenario_group_exercise.py}
+    Based on this input program, Tisane involves analysts in a disambiguation process to generate a final output statistical modeling script.}, 
+    label={lst:tisaneProgram}]{tisane/figures/tisane_program.py}
 }
 
 \newcommand{\groupExerciseCodeVariables}{\par\vspace*{6pt}%
@@ -787,7 +815,7 @@
 \newcommand{\groupExerciseDisambiguation}{
     \begin{figure*}[tbp]
         \centering
-        \includegraphics[width=.75\linewidth]{tisane/figures/usage_scenario_gui_05012022.png}
+        \includegraphics[width=.85\linewidth]{tisane/figures/usage_scenario_gui_05012022.png}
         \caption{\textbf{Example Tisane GUI for disambiguation.}}
             \begin{small}
             \begin{minipage}{\linewidth}
@@ -954,7 +982,7 @@
 %   morekeywords={*,...}            % if you want to add more keywords to the set
 % } 
 
-\lstdefinestyle{tisanestyle}{
+\lstdefinestyle{rtisanestyle}{
     backgroundcolor=\color{white},
     commentstyle=\color{codegreen},
     keywordstyle=\color{magenta}, % Default color for keywords
@@ -984,7 +1012,7 @@
 \newcommand{\rTisaneProgram}{
     \lstinputlisting[
         language={R}, 
-        style=tisanestyle,
+        style=rtisanestyle,
         caption={\textbf{Sample \rTisane program adapted from P8's script in the summative evaluation.} When declaring variables (lines 3-18), specifying cardinality is optional with data.
         Executing this program opens up the conceptual model disambiguation interface in \autoref{fig:figureConceptualModelsDisambiguation}.},
         label={lst:rTisaneProgram}

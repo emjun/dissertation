@@ -29,15 +29,22 @@ the design of \tisane.
 
 \section{Discussion} \label{sec:discussionChallenges} 
 
-\polish{I first interpreted the two thesis points (i) and (ii) as being the "challenges" and wondered where the third bullet was before I realized I had misparsed the sentence. Consider revising for clarity.}
-This dissertation addresses three challenges central to the thesis that (i)
-programming abstractions focused on capturing analysts' implicit conceptual
-knowledge, data collection details, and analysis intents and (ii) automated
-reasoning to determine statistical analyses benefit statistical non-experts. We
-discuss each challenge and how the projects in this dissertation address them
-below. 
+% \polish{I first interpreted the two thesis points (i) and (ii) as being the "challenges" and wondered where the third bullet was before I realized I had misparsed the sentence. Consider revising for clarity.}
+% This dissertation addresses three challenges central to the thesis that (i)
+% programming abstractions focused on capturing analysts' implicit conceptual
+% knowledge, data collection details, and analysis intents and (ii) automated
+% reasoning to determine statistical analyses benefit statistical non-experts. We
+% discuss each challenge and how the projects in this dissertation address them
+% below. 
 % In developing programming abstractions, formal representations, and automated
 % reasoning approaches for authoring statistical analyses in \tea and \tisane 
+
+This dissertation is centered on the thesis that two primary elements benefit
+statistical non-experts: (i) programming abstractions designed to capture
+analysts' implicit conceptual knowledge, data collection details, and analysis
+intents, and (ii) the use of automated reasoning to determine statistical
+analyses. Below, I discuss three key challenges related to this thesis and
+how the projects in this dissertation address them.
 
 \subsection{Challenge 1: Make implicit domain knowledge explicit} 
 % What was key was Designing the \textit{right} level of abstraction
@@ -47,9 +54,9 @@ concerns} implicitly involved in statistical analyses. The fact that an
 abstraction is high or low is less relevant than if the abstraction is at the
 \textit{right} level for end-users and their tasks. Indeed, a key insight that
 guided our design of \rTisane (\autoref{sec:rTisane}) was that analysts wanted
-low- and high-level conceptual abstractions to express their domain knowledge
+conceptual abstraction choices to express their domain knowledge
 with varying degrees of detail that felt helpful and accurate to them
-(see~\autoref{sec:exploratoryStudy}). \polish{Rather "lower" and "higher" than some reference point might make more sense. Or, changing the descriptive language to avoid false or ambiguous contrasts.}
+(see~\autoref{sec:exploratoryStudy}). %\polish{Rather "lower" and "higher" than some reference point might make more sense. Or, changing the descriptive language to avoid false or ambiguous contrasts.}
 
 When comparing the abstractions \tea and \tisane provide, it is easy to see that
 the conceptual relationships between variables were still largely implicit in
@@ -131,8 +138,10 @@ journal~\cite{johnson2022varied}.
 
 \section{Limitations and Future work} \label{sec:futureWork}
 % \todo{Add ideas from defense}
-\polish{Is it clear what the core challenges refer to?}
-By addressing each of the core challenges, the DSLs and automated reasoning
+% \polish{Is it clear what the core challenges refer to?}
+By addressing the core challenges---(i) explicating domain knowledge,
+representing and reasoning about statistical analysis decisions, and (iii)
+promoting statistical understanding---the DSLs and automated reasoning
 approaches in this dissertation make it possible for statistical non-experts to
 more readily author valid analyses. There are important limitations of this work
 that suggest promising future directions for further lowering the barriers to
@@ -275,7 +284,7 @@ details. For instance, participants in the exploratory lab study
 , which start
 to touch on different representations of data
 
-\polish{Mention syntactic sugar from exploratory study}
+% \polish{Mention syntactic sugar from exploratory study}
 There are relationships between Tisane's language constructs for specifying data
 collection details, data schema specification, and experimental design. How
 could we draw these connections out and formalize them? 
@@ -290,7 +299,7 @@ units (entities) to measures (attributes).
 
 \begin{comment}
 \subsection{Specialized domain-specific language constructs?}
-\polish{Mention domain-specific language constructs?}
+% \polish{Mention domain-specific language constructs?}
 \end{comment}
 
 \subsection{Design for Additional Aspects of Validity During Statistical Analysis}
