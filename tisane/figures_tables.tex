@@ -985,7 +985,8 @@
     \lstinputlisting[
         language={R}, 
         style=tisanestyle,
-        caption={Sample \rTisane program adapted from P8's script in the summative evaluation. Specifying cardinality is optional with data.},
+        caption={\textbf{Sample \rTisane program adapted from P8's script in the summative evaluation.} When declaring variables (lines 3-18), specifying cardinality is optional with data.
+        Executing this program opens up the conceptual model disambiguation interface in \autoref{fig:figureConceptualModelsDisambiguation}.},
         label={lst:rTisaneProgram}
     ]{tisane/figures/rTisane-example.R}
 }
@@ -1011,8 +1012,11 @@
         \caption{\textbf{\rTisanes conceptual model disambiguation interface.}}
             \begin{small}
             \begin{minipage}{\linewidth}
-                A. Options for resolving ambiguities in the conceptual model due to \relates relationships.
-                B. Check and follow-up questions for breaking any cycles that hinder statistical model derivation. C. Graph visualizing expressed conceptual model.
+                Upon executing the example program in \autoref{lst:rTisaneProgram}, analysts see the above interface. 
+                To answer the query and derive a statistical model from a conceptual model, \rTisane has analysts clarify and confirm their conceptual model. 
+                (A) The side panel shows options for resolving ambiguities in the conceptual model due to \relates relationships (lines 24-28 in \autoref{lst:rTisaneProgram}).
+                (B) \rTisane checks and follows-up with questions about breaking any cycles that hinder statistical model derivation. 
+                (C) The interface visualizes the expressed conceptual model, updating as analysts resolve ambiguities and break cycles.
             \end{minipage}
             \end{small}
         \label{fig:figureConceptualModelsDisambiguation}
@@ -1026,7 +1030,11 @@
         \caption{\textbf{\rTisanes statistical model disambiguation interface.}}
             \begin{small}
             \begin{minipage}{\linewidth}
-                \polish{FILL IN!}
+                \rTisane asks analysts questions to narrow the space of possible
+                statistical models to a final one. Statistical model
+                disambiguation is the final step in executing the program
+                in~\autoref{lst:rTisaneProgram} and occurs after conceptual
+                model disambiguation (\autoref{fig:figureConceptualModelsDisambiguation}).
             \end{minipage}
             \end{small}
         \label{fig:figureStatisticalModelsDisambiguation}
