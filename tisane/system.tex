@@ -450,6 +450,7 @@ address by later removing or adding independent variables and random effects. Ne
 a maximal, valid model is important for ensuring that future revisions are also valid (\dcValidity).
 
 \paragraph{Deriving Candidate Family and Link Functions} \label{sec:family_link_functions}
+\tableFamilyLinkFunctions
 The DV's data type determines the set of candidate family and
 link functions. For example, numeric % or continuous data
 variables cannot have
@@ -475,10 +476,9 @@ support for GLMs grows in the future, Tisane can be extended.
 % extended to take advantage of new family and link implementations in these
 % libraries.
 
-\tableFamilyLinkFunctions
+
 
 \subsubsection{Eliciting Analyst Input for \Disambiguation}\label{sec:disambiguation}
-\groupExerciseDisambiguation
 % Upon generating a set of candidate main, interaction, and random effects, Tisane
 % asks analysts questions before outputting a statistical model.
 The disambiguation process provides an opportunity for analysts to explore the
@@ -490,6 +490,8 @@ Dash~\cite{plotlyDash}. Analysts can either execute their Tisane programs and us
 GUI inside a Jupyter notebook (no additional widgets needed) or run
 their Tisane programs in an IDE or terminal, in which case Tisane will open the
 GUI in a web browser. 
+
+\groupExerciseDisambiguation
 % Figure~\ref{fig:groupExerciseDisambiguation}
 % gives an overview of the GUI.
 

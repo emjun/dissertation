@@ -138,7 +138,7 @@
 %            };
 %        \end{tikzpicture}
         % \caption{The graph representation of the variables and relationships from the usage scenario (\autoref{}).}
-        \caption{\textbf{Example graph representation variables and relationships.}}
+        \caption{\polish{Add example program}\textbf{Example graph representation variables and relationships.}}
             \begin{small}
             \begin{minipage}{\linewidth}
                 \texttt{causes} edges are labeled with ``causes.'' \texttt{associates\_with} edges are labeled with ``assoc.'' Dashed edges indicate \texttt{nests\_within} relationships, and dotted edges indicate \texttt{has} relationships.
@@ -700,21 +700,26 @@
    \caption{\textbf{The available family and link functions in Tisane.}} 
     \begin{small}
     \begin{minipage}{\linewidth}
-        \polish{Fix overlapping} Tisane generates code to fit models using \texttt{statsmodels} and \texttt{pymer4}. The package \texttt{statsmodels} supports GLMs without mixed-effects and a wider variety of family and link function combinations. The package \texttt{pymer4} supports GLMs with mixed effects and has much more limited support for family and link functions. As \texttt{statsmodels} and \texttt{pymer} add more support, Tisane can be extended.
+        Tisane generates code to fit models using \texttt{statsmodels} and \texttt{pymer4}. The package \texttt{statsmodels} supports GLMs without mixed-effects and a wider variety of family and link function combinations. The package \texttt{pymer4} supports GLMs with mixed effects and has much more limited support for family and link functions. As \texttt{statsmodels} and \texttt{pymer} add more support, Tisane can be extended.\\\vspace{-5pt}
     \end{minipage}
     \end{small}
-   \begin{tabular}{lll} \hline
+   \begin{tabularx}{\linewidth}{lll} 
+     \toprule
    %   \multirow{3}{*}{\multicolumn{1}{c}{Family functions}}	&	\multicolumn{2}{c}{Link functions (*default)} \\ \cline{2-3}
-     &	\multicolumn{2}{c}{Link functions (*default)} \\ \cline{2-3}
-     \multicolumn{1}{c}{Family functions} & \multicolumn{1}{>{\raggedright}p{0.35\linewidth}}{Generalized linear models without mixed effects (\texttt{statsmodels})} & \multicolumn{1}{>{\raggedright}p{0.35\linewidth}}{Generalized linear models with mixed effects (\texttt{pymer4})}	\\ \hline
-     \multirow{1}{*}{Gaussian} 	&	\multicolumn{1}{>{\raggedright}p{0.35\linewidth}}{Identity*, Inverse, Log}	&	\multirow{1}{*}{Identity*}	\\
+     &	\multicolumn{2}{c}{\textbf{Link functions (*default)}} \\\vspace{-5pt} 
+     & & \\ \cmidrule(r){2-3} 
+     & & \\ % For formatting
+     \multicolumn{1}{c}{\textbf{Family functions}} & \multicolumn{1}{>{\raggedright}p{0.35\linewidth}}{Generalized linear models without mixed effects (\texttt{statsmodels})} & \multicolumn{1}{>{\raggedright}p{0.35\linewidth}}{Generalized linear models with mixed effects (\texttt{pymer4})}	\\ 
+     \midrule \\
+    %  \multirow{1}{*}{Gaussian} 	&	\multicolumn{1}{>{\raggedright}p{0.35\linewidth}}{Identity*, Inverse, Log}	&	\multirow{1}{*}{Identity*}	\\
+     Gaussian 	&	Identity*, Inverse, Log	&	Identity*	\\
      Inverse Gaussian	&	Identity, Inverse, Inverse Squared*, Log	&	Inverse Squared*	\\
      Gamma	&	Identity, Inverse*, Log 	&	Inverse*	\\
      Poisson 	&	Identity, Log*, Square Root	&	Log*	\\
      Binomial	&	Cauchy, CLogLog, Log, Logit*, Probit,	&	Logit*	\\
      Negative Binomial	&	Identity, Log*, Logit, Probit	&	N/A	\\
      Tweedie Family	&	Log*, Power	& N/A		\\
-   \end{tabular}
+   \end{tabularx}
    \label{tab:tableFamilyLinkFunctions}
  \end{table}
 }
@@ -780,7 +785,7 @@
 }
 
 \newcommand{\groupExerciseDisambiguation}{
-    \begin{figure*}
+    \begin{figure*}[tbp]
         \centering
         \includegraphics[width=.75\linewidth]{tisane/figures/usage_scenario_gui_05012022.png}
         \caption{\textbf{Example Tisane GUI for disambiguation.}}
@@ -828,12 +833,13 @@
             abstractions. They are designed to help researchers reason about their study
             designs more holistically. The latter eight tools are lower-level and are more focused on stimuli,
             trials, and progressions between trials. *JsPsych is the base package to which JsPsychR, xprmtnr, and
-            Jaysire provide wrappers and extensions.
+            Jaysire provide wrappers and extensions. \\\vspace{-5pt}
         \end{minipage}
         \end{small}
-    \begin{tabular}{p{0.25\linewidth}|p{0.75\linewidth}}
-      \textbf{Tool}	&	\textbf{Support provided} \\
-      \hline
+    \begin{tabularx}{\linewidth}{l | X}
+      \toprule
+      \colH{Tool}	&	\colH{Support provided} \\
+      \midrule \\ 
       Edibble~\cite{edibble} 	&	reason about end-to-end experimental design, create data collection schema  \\
       JMP Design of Experiments~\cite{jmpDOE}	&	use templates for experiments, some design optimization, some help with modeling \\
       Gosset~\cite{gosset}	&	search for optimal study design \\
@@ -847,7 +853,7 @@
       JsPyschR~\cite{jspsychR} & \\
       xprmtnr~\cite{xprmntr} & \\
       Jaysire~\cite{jaysire} & \\
-    \end{tabular}
+    \end{tabularx}
     \label{tab:tableStudyDesignTools}
   \end{table}
 }
@@ -1001,32 +1007,52 @@
 
 \newcommand{\tableSummativeEvalParticipants}{
   \begin{table}[ht]
-        \centering
-        \begin{tabular}{l|l|l|l}
-            % \begin{tabular}{p{}|p{}|p{}|p{}}
-            \textbf{ID} & \textbf{Field} & \textbf{Role} & \textbf{Experience} \\ 
-                        &                &               & \textbf{(1-10)} \\ \hline
-            P1 & Statistics & Data Scientist & 9 \\ % & ~ & ~ & ~ & ~ \\ \hline
-            P2 & Mechanical Engineering & Grad Student & 5 \\ % & ~ & ~ & ~ & ~ \\ \hline
-            P3 & Data Science & Research Assistant & 8 \\ % & ~ & ~ & ~ & ~ \\ \hline
-            P4 & Political Science & Data Science Educator & 7 \\ % & ~ & ~ & ~ & ~ \\ \hline
-            P5 & Data Science & Professor & 10 \\ % & ~ & ~ & ~ & ~ \\ \hline
-            P6 & Biology & Visiting Scientist & 10 \\ % & ~ & ~ & ~ & ~ \\ \hline
-            P7 & Psychology & Quantitative User Researcher & 9 \\ % & ~ & ~ & ~ & ~ \\ \hline
-            P8 & Bioinformatics  & Researcher  & 7 \\ % & ~ & ~ & ~ & ~ \\ \hline
-            P9 & Data Analytics & Senior Operations Data Analyst & 8 \\ % & ~ & ~ & ~ & ~ \\ \hline
-            P10 & Automotive Engineering & PhD student & 7 \\
-            P11 & Data Analysis & Research Analyst & 9 \\
-            P12 & Data Analytics & Data Engineer & 5 \\ 
-            P13 & Unspecified & Unspecified & 7 \\
-        \end{tabular}
-    \caption{\textbf{Participants in summative evaluation.}}
+        \caption{\textbf{Participants in summative evaluation.}}
         \begin{small}
         \begin{minipage}{\linewidth}
-            Participants came from a diversity of fields and job roles. All self-reported having significant experience with statistical analysis.
+            Participants came from a diversity of fields and job roles. \polish{Add more} \\\vspace{-5pt}
+            % All self-reported having significant experience with statistical analysis. \\\vspace{-5pt}
         \end{minipage}
         \end{small}
+        \centering
+        \begin{tabular}{l|l|l}
+            \toprule
+            % \begin{tabular}{p{}|p{}|p{}|p{}}
+            \colH{ID} & \colH{Field} & \colH{Role} \\ %& \colH{\makecell{Experience\\1(lowest) - 10(highest)}} \\
+                        % &                &               & \textbf{(1-10)} \\ 
+            \midrule \\
+            P1 & Statistics & Data Scientist \\ %& 9 \\ % & ~ & ~ & ~ & ~ \\ \hline
+            P2 & Mechanical Engineering & Graduate Student \\ %& 5 \\ % & ~ & ~ & ~ & ~ \\ \hline
+            P3 & Data Science & Research Assistant \\ %& 8 \\ % & ~ & ~ & ~ & ~ \\ \hline
+            P4 & Political Science & Data Science Educator \\ %& 7 \\ % & ~ & ~ & ~ & ~ \\ \hline
+            P5 & Data Science & Professor \\ %& 10 \\ % & ~ & ~ & ~ & ~ \\ \hline
+            P6 & Biology & Visiting Scientist \\ %& 10 \\ % & ~ & ~ & ~ & ~ \\ \hline
+            P7 & Psychology & Quantitative User Researcher \\ %& 9 \\ % & ~ & ~ & ~ & ~ \\ \hline
+            P8 & Bioinformatics  & Researcher  \\ %& 7 \\ % & ~ & ~ & ~ & ~ \\ \hline
+            P9 & Data Analytics & Senior Operations Data Analyst \\ %& 8 \\ % & ~ & ~ & ~ & ~ \\ \hline
+            P10 & Automotive Engineering & PhD student \\ %& 7 \\
+            P11 & Data Analysis & Research Analyst \\ %& 9 \\
+            P12 & Data Analytics & Data Engineer \\ %& 5 \\ 
+            P13 & Public Health & Data Science \\ %& 7 \\
+        \end{tabular}
     \label{tab:summativeEvaluationParticipants}
   \end{table}
+}
 
+\newcommand{\tableModelScores}{
+    \begin{table}
+        \caption{\textbf{Statistical model comparisons with and without \rTisane.}}
+        \begin{small}
+        \begin{minipage}{\linewidth}
+            \polish{Add something}        
+        \end{minipage}
+        \end{small}
+        \centering
+        \begin{tabularx}{\linewidth}{l l l l l}
+            \toprule
+            \colH{Participant} & \colH{Tool support} & \colH{Statistical model} & \colH{AIC} & \colH{BIC} \\
+            \midrule \\ 
+            \polish{START HERE: FILL IN} & & & & \\
+        \end{tabularx}
+    \end{table}
 }

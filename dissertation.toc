@@ -96,12 +96,12 @@
 \contentsline {paragraph}{Deriving Candidate Main Effects}{94}{section*.58}%
 \contentsline {paragraph}{Deriving Candidate Interaction Effects}{95}{section*.60}%
 \contentsline {paragraph}{Deriving Candidate Random Effects}{95}{section*.61}%
-\contentsline {paragraph}{Deriving Candidate Family and Link Functions}{96}{section*.62}%
-\contentsline {subsubsection}{Eliciting Analyst Input for Disambiguation\xspace }{96}{section*.64}%
-\contentsline {subsubsection}{Output}{99}{section*.66}%
+\contentsline {paragraph}{Deriving Candidate Family and Link Functions}{96}{table.caption.63}%
+\contentsline {subsubsection}{Eliciting Analyst Input for Disambiguation\xspace }{97}{section*.64}%
+\contentsline {subsubsection}{Output}{98}{section*.66}%
 \contentsline {section}{\numberline {5.4}\titlecap {Initial evaluation: Case studies with researchers}}{99}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Case Study 1: Planning a New Study}{100}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Case Study 2: Analyzing Data for a Paper Submission}{101}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.1}Case Study 1: Planning a New Study}{99}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Case Study 2: Analyzing Data for a Paper Submission}{100}{subsection.5.4.2}%
 \contentsline {subsection}{\numberline {5.4.3}Case Study 3: Developing Models to Inform Future Models}{102}{subsection.5.4.3}%
 \contentsline {subsubsection}{System changes and Takeaways}{103}{section*.67}%
 \contentsline {section}{\numberline {5.5}\titlecap {Limitations and Motivation for Re-design}}{103}{section.5.5}%
@@ -109,15 +109,15 @@
 \contentsline {subsection}{\numberline {5.6.1}Method}{104}{subsection.5.6.1}%
 \contentsline {subsection}{\numberline {5.6.2}Key Observations}{105}{subsection.5.6.2}%
 \contentsline {subsubsection}{Participants express conceptual knowledge with varying details.}{105}{section*.68}%
-\contentsline {subsubsection}{Participants find moderation difficult to separate from bivariate relationships.}{106}{section*.69}%
+\contentsline {subsubsection}{Participants find moderation difficult to separate from bivariate relationships.}{105}{section*.69}%
 \contentsline {subsubsection}{Participants distinguish between known and suspected relationships.}{106}{section*.70}%
-\contentsline {subsubsection}{Participants consider alternative conceptual structures in the face of ambiguity.}{107}{section*.71}%
+\contentsline {subsubsection}{Participants consider alternative conceptual structures in the face of ambiguity.}{106}{section*.71}%
 \contentsline {subsubsection}{Participants expected more syntactic sugar for specifying data collection details.}{107}{section*.72}%
 \contentsline {subsection}{\numberline {5.6.3}Domain-Specific Language Re-design Goals}{107}{subsection.5.6.3}%
 \contentsline {section}{\numberline {5.7}\titlecap {Second Release: rTisane}}{108}{section.5.7}%
 \contentsline {subsection}{\numberline {5.7.1}rTisane's\xspace Domain-Specific Language}{109}{subsection.5.7.1}%
 \contentsline {subsubsection}{Declaring variables}{109}{section*.73}%
-\contentsline {subsubsection}{Expressing a conceptual model}{110}{section*.74}%
+\contentsline {subsubsection}{Expressing a conceptual model}{109}{section*.74}%
 \contentsline {subsubsection}{Querying for a statistical model}{110}{section*.75}%
 \contentsline {subsection}{\numberline {5.7.2}Two-step Interactive Compilation}{111}{subsection.5.7.2}%
 \contentsline {subsubsection}{Conceptual Model Disambiguation}{111}{section*.76}%
@@ -127,17 +127,17 @@
 \contentsline {paragraph}{Participants}{114}{section*.80}%
 \contentsline {subsection}{\numberline {5.8.2}Analysis Approach}{114}{subsection.5.8.2}%
 \contentsline {subsection}{\numberline {5.8.3}Findings}{115}{subsection.5.8.3}%
-\contentsline {subsubsection}{RQ1: rTisane's\xspace Impact on Conceptual Models}{115}{section*.82}%
-\contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts found it difficult to express conceptual nuances.}{116}{section*.84}%
-\contentsline {subsubsection}{Theme: rTisane\xspace encouraged analysts to think about their domains more deeply.}{117}{section*.85}%
-\contentsline {subsubsection}{Theme: rTisane\xspace provided structure to express and inspect conceptual models.}{117}{section*.86}%
-\contentsline {subsubsection}{Theme: rTisane\xspace is expressive enough to capture analysts' conceptual models accurately.}{118}{section*.87}%
-\contentsline {subsubsection}{RQ2: rTisane's\xspace Impact on Statistical Models}{118}{section*.88}%
-\contentsline {subsubsection}{Theme: Statistical models authored with rTisane\xspace fit the data just as well or better than statistical models without rTisane\xspace .}{119}{section*.89}%
-\contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts change their analysis intent during statistical modeling.}{119}{section*.90}%
-\contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts find statistical model formulation challenging.}{120}{section*.91}%
-\contentsline {subsubsection}{Theme: rTisane\xspace focused analysts on their motivation for analysis.}{120}{section*.92}%
-\contentsline {subsubsection}{Theme: Analysts want to use rTisane\xspace for scientific communication, not just statistical authoring.}{121}{section*.93}%
+\contentsline {subsubsection}{RQ1: rTisane's\xspace Impact on Conceptual Models}{115}{section*.83}%
+\contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts found it difficult to express conceptual nuances.}{116}{section*.85}%
+\contentsline {subsubsection}{Theme: rTisane\xspace encouraged analysts to think about their domains more deeply.}{117}{section*.86}%
+\contentsline {subsubsection}{Theme: rTisane\xspace provided structure to express and inspect conceptual models.}{117}{section*.87}%
+\contentsline {subsubsection}{Theme: rTisane\xspace is expressive enough to capture analysts' conceptual models accurately.}{118}{section*.88}%
+\contentsline {subsubsection}{RQ2: rTisane's\xspace Impact on Statistical Models}{118}{section*.89}%
+\contentsline {subsubsection}{Theme: Statistical models authored with rTisane\xspace fit the data just as well or better than statistical models without rTisane\xspace .}{119}{section*.90}%
+\contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts change their analysis intent during statistical modeling.}{119}{section*.91}%
+\contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts find statistical model formulation challenging.}{120}{section*.92}%
+\contentsline {subsubsection}{Theme: rTisane\xspace focused analysts on their motivation for analysis.}{121}{section*.93}%
+\contentsline {subsubsection}{Theme: Analysts want to use rTisane\xspace for scientific communication, not just statistical authoring.}{121}{section*.94}%
 \contentsline {subsection}{\numberline {5.8.4}Discussion}{121}{subsection.5.8.4}%
 \contentsline {subsection}{\numberline {5.8.5}Limitations}{122}{subsection.5.8.5}%
 \contentsline {subsection}{\numberline {5.8.6}Future Work on rTisane\xspace }{122}{subsection.5.8.6}%
