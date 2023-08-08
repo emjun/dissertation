@@ -159,7 +159,6 @@ differences, and surprises between statistical models.
 \end{comment}
 
 \subsection{Findings}
-\polish{Add table/figure with quantitative model + AIC/BIC comparisons}
 \tableModelScores
 \subsubsection{RQ1: \rTisanes Impact on Conceptual Models}
 \conceptualModelsScaffold
@@ -301,9 +300,11 @@ knowledge.
 \textbf{Key takeaway: 
 % With the exception of picking family and link functions,
 \rTisane focused participants on their analysis goals over low-level details
-that bogged them down without tool support. As a result, \rTisane improved the
+that bogged them down without tool support. 
+\rTisane helped analysts maintain their analysis intent during statistical modeling.
+As a result, \rTisane improved the
 statistical model authoring process, output statistical models, and
-communication about statistical analyses.
+communication about statistical analyses. 
 % In the future, rTisane could improve explanations for
 % analysis decisions and alternatives. 
 }
@@ -324,7 +325,7 @@ P11’s experience mirrors how we anticipate analysts will iteratively refine
 \rTisane output statistical models in the future.
 
 \theme{Statistical models authored with \rTisane fit the data just as well or better than statistical models without \rTisane.}
-\polish{Add table to compare AIC/BIC}
+\polish{I think my main concern overall would be that you don’t make it clear enough that a key difference between using Tisane and R right now is the lack of iteration. You do say (top of p121) that “P11’s experience mirrors [the way we think rTisane will be used iteratively in the future]”, which is good, but I think P11 has another quote after finishing their SM that says that iteration is where the bulk of the work actually is. So that being hard in rTisane seems like a big limitation.I think there are positive and negative consequences of this mixed together, and you should parse out the good from the bad. Positively, you already say this prevents the analysis intent from drifting. If iteration is supported, I think you’d still want to make changing the intent hard/clearly “wrong”. But in the case of switching to log income, iteration would probably be quite reasonable. (Though you wrote that P11’s SM “dropped some observations”? My understanding was that they removed rows with missing data/income=0 to avoid log(0), but if the log model is actually not better, maybe this is not a reasonable place to allow iteration.)}
 Of the eight participants who successfully authored linear regression or
 generalized linear models on their own, three implemented identical models with
 or without \rTisane [P7, P9, P13]. Notably, all three had authored the
@@ -589,50 +590,60 @@ interpretation, (iii) iterative model revision, and (iv) general system
 usability. 
 
 % \theme{\rTisane needs to provide more support for selecting family and link functions.}
-Despite benefiting from rTisane, many participants had difficulty picking family
-and link functions [P2, P4, P5, P9, P10, P11]. P4 explained, \shortquote{I
-didn't understand the benefit or tradeoffs between different specifications. It
-wasn't obvious to me how to create a linear OLS regression, or why I would want
-to use a specification besides linear OLS.} Given how frequently participants
-described \rTisane as facilitating higher-level of thinking, we attribute the
-difficulty of selecting family and link functions to the stark contrast between
-\rTisanes relatively high-level conceptual modeling abstractions and the
-low-level nature of selecting family and link functions. In the future, it will
-likely be more usable for \rTisane to suggest a specific pair and explain its
-suggestion rather than require the analyst to pick.
-
-Once analysts execute the output statistical model from \rTisane, they find the
-output results too low-level. Because \rTisane uses lme4 under the hood, the
-outputs are the default model outputs from lme4. However, given that \rTisanes
-input language is at the conceptual level, analysts expected the outputs to at
-least relate back to the conceptual model they input. In other words, the input
-and output levels of abstraction should be commensurate. This support would
-facilitate what analysts already try to do with statistical analyses they author
-on their own without \rTisane. P8 found the output from lme4 overwhelming,
-saying, \shortquote{Looking at the \texttt{summary()} in R was too much to look at.} He suggested a
-simple way to tie the results back to his input conceptual model: \shortquote{Would be nice
-if you could have the same visual representation with p-values/coefficients!}
+\rTisane should suggest a specific pair of family and link functions
+and/or explain the \shortquote{tradeoffs} in choices in the future. 
+In stark contrast to \rTisanes relatively high-level conceptual modeling
+abstractions, \rTisane required participants to select specific family and link
+functions, a relatively low-level statistical modeling detail. Participants had
+difficulty picking family and link functions [P2, P4, P5, P9, P10, P11]. P4
+explained, \shortquote{I didn't understand the benefit or tradeoffs between
+different specifications. It wasn't obvious to me how to create a linear OLS
+regression, or why I would want to use a specification besides linear OLS.}
 
 
-Furthermore, while participants could iterate on their conceptual models by
-adding or removing variables and relationships, they could not engage in a
-larger iteration loop with their output statistical model from \rTisane.
-Improving statistical result interpretation would help with model iteration. In
-addition, participants also sought more direct support. For instance, P11
-described the \rTisane output statistical model as \shortquote{an initial or baseline model
-but follow-up evaluation of the model is needed.} They wanted to \shortquote{go back and
-tweak things a bit} about their statistical model. This kind of model iteration
-is not only typical of the participants' workflows but also even a best practice
-recommendation from the statistics community~\cite{gelman2020modelExpansion}.
-Supporting model revision by both novice and experienced analysts will likely require different levels of abstraction and automation.
+% Once analysts execute the output statistical model from \rTisane, they find the
+% output results too low-level. 
+The input and output levels of abstraction should be commensurate. Because
+\rTisane uses lme4 under the hood, the result of executing the output
+statistical modeling script is the output from lme4. However, analysts expected
+the outputs to at least relate back to their conceptual model, given that
+\rTisanes input language is at the conceptual level. For example, P8 found the
+output from lme4 overwhelming, saying, \shortquote{Looking at the
+\texttt{summary()} in R was too much to look at.} He suggested a simple way to
+tie the results back to his input conceptual model: \shortquote{Would be nice if
+you could have the same visual representation with p-values/coefficients!}
+Better matched input and output abstractions would facilitate what analysts
+already try to do with statistical analyses they author on their own.
 
-Finally, participants found going back and forth between code and an interface
-outside their IDE complicated and \shortquote{clunky.} While part of this may have been
-in part due to the fact that participants were using \rTisane on a remote
-desktop, embedding \rTisane in a notebook seems likely to reduce major usability
-issues. Additionally, participants gave suggestions for syntactic sugar for
-specifying conceptual models. For example, instead of specifying multiple causes
-and relates statements, they wished they could batch specify and add them to the
-conceptual model. Ways to reduce the specification burden for analysts by
-providing syntactic sugar or even removing the need to program at all are
-interesting avenues to explore. 
+% \polish{This paragraph about iteration on p125 could be a good place to at least hint at
+% good/planned-to-support vs bad/”data dredging” iteration practice/point to
+% literature?}
+Furthermore, future support for model iteration is crucial. Using \rTisane,
+participants could iterate on their conceptual models by adding or removing
+variables and relationships, but they could not engage in a larger iteration
+loop with their output statistical model. 
+% Improving
+% statistical result interpretation would help with model iteration. In addition,
+% participants also sought more direct support. 
+For instance, P11 described the \rTisane output statistical model as
+\shortquote{an initial or baseline model but follow-up evaluation of the model
+is needed.} They wanted to \shortquote{go back and tweak things a bit} about
+their statistical model. Tools, like \rTisane, should ensure that analysts
+maintain their analysis intents throughout iteration---or at least document
+conceptual shifts---while discouraging or even preventing analysts from
+questionable ``data dredging'' or HARKing~\cite{kerr1998harking} practices. A
+first step may be to support recommended workflows for statistical model
+development and refinement, such as Gelman et al.'s Bayesian
+Workflow~\cite{gelman2020modelExpansion}.
+%  Supporting model revision by both
+% novice and experienced analysts will likely require different levels of
+% abstraction and automation.
+
+Finally, ways to reduce the specification burden for analysts by providing
+syntactic sugar or even removing the need to program at all are interesting
+avenues to explore. Participants found going back and forth between code and an
+interface outside their IDE complicated and \shortquote{clunky} [P12]. While
+part of this may have been in part due to the fact that participants were using
+\rTisane on a remote desktop, embedding \rTisane in a notebook or incorporating
+participants' syntactic sugar suggestions (e.g. how to batch specify and add
+conceptual relationships), are promising first steps. 
