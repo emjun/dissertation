@@ -1085,6 +1085,12 @@ Maxine Pfannkuch, Chris~J Wild, et~al.
   professional statisticians.
 \newblock {\em Statistical science}, 15(2):132--152, 2000.
 
+\bibitem[RFS{\etalchar{+}}23]{ruggles2020ipums}
+Steven Ruggles, Sarah Flood, Matthew Sobek, Danika Brockman, Grace Cooper,
+  Stephanie Richards, and Megan Schouweiler.
+\newblock Ipums usa: version 13.0 [dataset].
+\newblock {\em Minneapolis, Mn: Ipums}, 13:D010, 2023.
+
 \bibitem[RSPC93]{russell1993cost}
 Daniel~M Russell, Mark~J Stefik, Peter Pirolli, and Stuart~K Card.
 \newblock The cost structure of sensemaking.

@@ -189,15 +189,14 @@ and suggests any involving the query's dependent variable. Otherwise, \rTisane
 does not consider any interactions. 
 
 \rTisane determines family and link functions based on the query's dependent
-variable data type. \polish{Explain the above sentence, see what do for \tisane} Because \rTisane compiles down to statistical models fit
-using the \lme package in \texttt{R}, \rTisane is limited to the family and link
-functions supported in \lme. For instance, for queries involving continuous
-dependent variables, \rTisane considers Gaussian, Inverse Gaussian, and Gamma
-families. For counts, \rTisane considers Poisson and Negative Binomial families.
-For ordered categories, \rTisane considers Binomial, Multinomial, Gaussian,
-Inverse Gaussian, and Gamma family functions. For unordered categories, \rTisane
-considers Binomial and Multinomial family functions. \rTisane considers any link
-functions \lme supports for these family functions. 
+variable data type. For queries involving continuous dependent variables,
+\rTisane considers Gaussian, Inverse Gaussian, and Gamma families. For counts,
+\rTisane considers Poisson and Negative Binomial families. For ordered
+categories, \rTisane considers Binomial, Multinomial, Gaussian, Inverse
+Gaussian, and Gamma family functions. For unordered categories, \rTisane
+considers Binomial and Multinomial family functions. \rTisane outputs
+statistical models fit using the \lme package in \texttt{R}, so \rTisane
+considers any family and link function combinations supported in \lme.
 
 In the GUI, analysts have the option to remove any confounders or interactions
 based on their domain knowledge. Based on prior experience or domain

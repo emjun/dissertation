@@ -137,7 +137,7 @@
 \contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts change their analysis intent during statistical modeling.}{121}{section*.91}%
 \contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts find statistical model formulation challenging.}{122}{section*.92}%
 \contentsline {subsubsection}{Theme: rTisane\xspace focused analysts on their motivation for analysis.}{122}{section*.93}%
-\contentsline {subsubsection}{Theme: Analysts want to use rTisane\xspace for scientific communication, not just statistical authoring.}{123}{section*.94}%
+\contentsline {subsubsection}{Theme: Analysts want to use rTisane\xspace for scientific communication, not just statistical authoring.}{122}{section*.94}%
 \contentsline {subsection}{\numberline {5.8.4}Discussion}{123}{subsection.5.8.4}%
 \contentsline {subsection}{\numberline {5.8.5}Limitations}{124}{subsection.5.8.5}%
 \contentsline {subsection}{\numberline {5.8.6}Future Work on rTisane\xspace }{124}{subsection.5.8.6}%
@@ -172,3 +172,4 @@
 \contentsline {section}{\numberline {C.3}\titlecap {Phase 2b: Express Conceptual Models, With rTisane}}{172}{section.C.3}%
 \contentsline {section}{\numberline {C.4}\titlecap {Phase 3a: Implement Statistical Models, Without rTisane}}{173}{section.C.4}%
 \contentsline {section}{\numberline {C.5}\titlecap {Phase 3b: Implement Statistical Models, With rTisane}}{174}{section.C.5}%
+\contentsline {section}{\numberline {C.6}\titlecap {Data Set for Statistical Analysis}}{175}{section.C.6}%

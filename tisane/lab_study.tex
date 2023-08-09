@@ -38,8 +38,9 @@ following order.
     \item \textbf{Phase 3: Implement statistical models} We asked participants
     to implement ``a statistical model that assesses the influence of variables
     [they] believe to be important (in the context of additional potentially
-    influential factors) on income,'' relying on only their conceptual model. We
-    then asked participants about their experiences implementing statistical
+    influential factors) on income,'' relying on only their conceptual model. 
+    % Participants were given a pre-cleaned \dataSet (more details in~\autoref{chapter:apprTisane}). 
+    We then asked participants about their experiences implementing statistical
     models through a brief survey and semi-structured interview. 
     \item \textbf{Phase 4: Exit interview.} The study concluded with a survey
     and semi-structured interview where we asked participants about their
@@ -270,22 +271,19 @@ authored without \rTisane[P2, P3, P4, P5, P7, P8].
 % Three participants included different variables [P13,
 % P6] and relationships [P10] between conditions. 
 For P2, P3, P4, and P8, who used \rTisane second, \rTisane appeared to help
-focus them on a set of variables and relationships to analyze. 
+focus them on the specifics of variables and relationships of interest. P4 explained, \shortquote{coding made it [the conceptual model] more specific}.
 % P3 explained,
 % \longquote{As I started working with \rTisane, my first instinct was still to go back to
 % the canvas and do a brainstorming. The process of listing down the categories
-% and the generic relationship between the variables (which was biased to my
-% personal opinion) was still the same (with or without rTisane).} 
-\polish{Missing connective text before "expand upon on [sic] their own"}
-For P5 and P7,
-who used \rTisane first, \rTisane provided a starting conceptual model expand
-upon on their own. For example, P7 authored a statistical model involving an
-interaction between variables in their \rTisane conceptual model when asked to
-specify a conceptual model on their own. It seems that just conceptual modeling
-with \rTisane helped P7 translate a conceptual model to a statistical model on
-his own. Taking these observations together, it seems that \rTisanes DSL can
-support both convergent and divergent creative thinking about analysts' domain
-knowledge. 
+% and the generic relationship between the variables...was still the same (with or without rTisane).} 
+On the other hand, P5 and P7 expanded upon conceptual models specified with \rTisane when asked to
+subsequently express conceptual models on their own. For example, P7 authored a
+statistical model involving an interaction between variables in their \rTisane
+conceptual model when asked to specify a conceptual model on their own. It seems
+that just conceptual modeling with \rTisane helped P7 translate a conceptual
+model to a statistical model on his own. Taking these observations together, we
+see that \rTisanes DSL can support both convergent and divergent creative
+thinking about analysts' domain knowledge. 
 % Both these scenarios suggest that rTisane’s DSL for expressing
 % conceptual models can support both convergent and divergent creative thinking
 % about a domain, even to the point of helping an analyst, like P7, arrive at a
@@ -317,15 +315,15 @@ linear regression models [P2, P4, P7, P8, P9, P10]. A seventh participant, P6,
 started to author a logistic regression model with Race and Income but stopped
 before binarizing either variable. Two participants, both of whom had just
 finished authoring statistical models with rTisane, implemented GLMs [P11, P13].
-Despite task instructions, P11 started from the \rTisane output model script to
-author their own. \polish{Not super clear. What were the relevant instructions? Did P11 base their "own" script on prior rTisane output? If so, make this clearer.} After observing the model's \shortquote{AIC is large, the residual is
-large} P11 determined \shortquote{I don't think this [\rTisane output model] is the right
+P11 based their own statistical model (supposed to be without tool support) on the \rTisane output model script. 
+After observing the model's \shortquote{AIC is large, the residual is
+large}, P11 determined \shortquote{I don't think this [\rTisane output model] is the right
 fit.} So, they log-transformed the income variable and fit a new statistical model. 
 P11’s experience mirrors how we anticipate analysts will iteratively refine
 \rTisane output statistical models in the future.
+% \polish{I think my main concern overall would be that you don’t make it clear enough that a key difference between using Tisane and R right now is the lack of iteration. You do say (top of p121) that “P11’s experience mirrors [the way we think rTisane will be used iteratively in the future]”, which is good, but I think P11 has another quote after finishing their SM that says that iteration is where the bulk of the work actually is. So that being hard in rTisane seems like a big limitation.I think there are positive and negative consequences of this mixed together, and you should parse out the good from the bad. Positively, you already say this prevents the analysis intent from drifting. If iteration is supported, I think you’d still want to make changing the intent hard/clearly “wrong”. But in the case of switching to log income, iteration would probably be quite reasonable. (Though you wrote that P11’s SM “dropped some observations”? My understanding was that they removed rows with missing data/income=0 to avoid log(0), but if the log model is actually not better, maybe this is not a reasonable place to allow iteration.)}
 
 \theme{Statistical models authored with \rTisane fit the data just as well or better than statistical models without \rTisane.}
-\polish{I think my main concern overall would be that you don’t make it clear enough that a key difference between using Tisane and R right now is the lack of iteration. You do say (top of p121) that “P11’s experience mirrors [the way we think rTisane will be used iteratively in the future]”, which is good, but I think P11 has another quote after finishing their SM that says that iteration is where the bulk of the work actually is. So that being hard in rTisane seems like a big limitation.I think there are positive and negative consequences of this mixed together, and you should parse out the good from the bad. Positively, you already say this prevents the analysis intent from drifting. If iteration is supported, I think you’d still want to make changing the intent hard/clearly “wrong”. But in the case of switching to log income, iteration would probably be quite reasonable. (Though you wrote that P11’s SM “dropped some observations”? My understanding was that they removed rows with missing data/income=0 to avoid log(0), but if the log model is actually not better, maybe this is not a reasonable place to allow iteration.)}
 Of the eight participants who successfully authored linear regression or
 generalized linear models on their own, three implemented identical models with
 or without \rTisane [P7, P9, P13]. Notably, all three had authored the
@@ -573,15 +571,28 @@ scientific model diagramming or planning study procedures.
 % \textbf{Larger takeaway: ** Not about just the scaffolded steps but about the tool support for executing each of these steps**}
 
 \subsection{Limitations}
-\polish{Mention composition of participants from Upwork, background, etc.}
+% \polish{Mention composition of participants from Upwork, background, etc.}
+There are two key limitations to the summative evaluation: the background and
+number of analysts who participated. We recruited participants through the
+online freelance platform Upwork. Participants came from a plurality of
+disciplines and were data analysis practitioners and educators
+(\autoref{tab:summativeEvaluationParticipants}). We filtered for participants
+who self-reported familiarity with generalized linear modeling and R. Yet, we
+observed many struggle with R syntax, suggesting that their self-reported skills
+were inflated. While we anticipate that those with greater modeling and R
+familiarity will more easily learn to use \rTisane, the benefits more advanced
+analysts reap are likely to be different than those we were able to observe. 
+% While we recruited 30 participants, more than half did not show up. 
+Furthermore, our sample size of 13 is limited. Nevertheless, while analyzing
+transcripts and researcher notes, we did feel we reached convergence and
+saturation of observations. Given these limitations, we believe that our findings
+are likely to generalize across disciplines but not necessarily across analysis
+expertise. 
+% There are likely nuanced observations that future
+% work with a larger sample may uncover. 
+% nuances not observed here. 
 
-1 sentence: characterize the relative skill levels (both in terms of domain knowledge and
-modeling savvy) of the participants
-
-1 sentence: Upwork, self-report bias
-
-1 sentence: how does that affect how we should
-think about the results more broadly?
+% Recruiting from a diversity of sources in the future will likely address this issue.
 
 \subsection{Future Work on \rTisane}
 While participants found \rTisane helpful, they suggested four areas of

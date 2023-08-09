@@ -1077,7 +1077,7 @@
         \caption{\textbf{Participants in summative evaluation.}}
         \begin{small}
         \begin{minipage}{\linewidth}
-            Participants came from a diversity of fields and job roles. \polish{Add more} \\\vspace{-5pt}
+            Analysts came from a diversity of fields and job roles. All self-reported having familiarity with generalized linear models, comfort programming in R, and significant data analysis experience. \\\vspace{-5pt}
             % All self-reported having significant experience with statistical analysis. \\\vspace{-5pt}
         \end{minipage}
         \end{small}
@@ -1111,7 +1111,11 @@
         \caption{\textbf{Statistical model comparisons with and without \rTisane.}}
         \begin{small}
         \begin{minipage}{\linewidth}
-            \polish{Add something \\ * = log transformation drops observations}        
+            Using \rTisane, analysts authored statistical models that fit the data just as well or better than without \rTisane. 
+            We did not observe a difference in statistical model quality if participants used \rTisane first except in the case of P11. 
+            When asked to author a statistical model without \rTisane, P11 took the output model from \rTisane, deemed that the model did not fit the data well based on the AIC score, log transformed the income data, and then fit the revised model as their own. 
+            As a result of the log transform, many observations without an Income were dropped, explaining the difference between AIC/BIC scores without tool support and with \rTisane. 
+            For each participant, the better fitting statistical model scores are in bold. For P7, P8, and P13, there are no bold scores because the statistical models without and with \rTisane are identical. 
         \end{minipage}
         \end{small}
         \centering
