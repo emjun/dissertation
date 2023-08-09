@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  9 AUG 2023 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.8.10)  9 AUG 2023 12:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1361,22 +1361,7 @@ your preamble.
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-]) (./01-abstract.tex
-Overfull \hbox (122.24352pt too wide) in paragraph at lines 30--37
-[][][][][][] [][][][][][] 
- []
-
-
-Overfull \hbox (507.99988pt too wide) in paragraph at lines 30--37
-[][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--37
-
- []
-
-[3]) [4] (./02-ack.tex [5
+]) (./01-abstract.tex [3]) [4] (./02-ack.tex [5
 
 
 ]
@@ -2347,13 +2332,13 @@ See the caption package documentation for explanation.
 
 ] (./dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 7B8E273D37DDC34CDEB7E08804198220;24741.
+(rerunfilecheck)             Checksum: 2BABB9DD5910A8D3970946F7C6DE9841;24789.
  ) 
 Here is how much of TeX's memory you used:
- 42754 strings out of 478994
- 940723 string characters out of 5858184
- 1788240 words of memory out of 5000000
- 58579 multiletter control sequences out of 15000+600000
+ 42753 strings out of 478994
+ 940707 string characters out of 5858184
+ 1788250 words of memory out of 5000000
+ 58578 multiletter control sequences out of 15000+600000
  436429 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3496b,2700s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2453,7 +2438,7 @@ f-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2021/texmf-dist/f
 onts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
 e1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/c
 ourier/ucrro8a.pfb>
-Output written on dissertation.pdf (175 pages, 9112198 bytes).
+Output written on dissertation.pdf (175 pages, 9112086 bytes).
 PDF statistics:
  2911 PDF objects out of 2984 (max. 8388607)
  2500 compressed objects within 25 object streams

@@ -166,7 +166,7 @@
 \contentsline {chapter}{\numberline {B}Appendix B: Tisane's First Release: Additional Examples}{167}{appendix.B}%
 \contentsline {section}{\numberline {B.1}\titlecap {Additional examples of graphs that may be constructed}}{167}{section.B.1}%
 \contentsline {section}{\numberline {B.2}\titlecap {Cautioning analysts about adding certain kinds of variables}}{168}{section.B.2}%
-\contentsline {chapter}{\numberline {C}Appendix C: Exploratory Study Materials}{169}{appendix.C}%
+\contentsline {chapter}{\numberline {C}Appendix C: Summative Evaluation Study Materials}{169}{appendix.C}%
 \contentsline {section}{\numberline {C.1}\titlecap {Phase 1: Warm up}}{170}{section.C.1}%
 \contentsline {section}{\numberline {C.2}\titlecap {Phase 2a: Express Conceptual Models, Without rTisane}}{171}{section.C.2}%
 \contentsline {section}{\numberline {C.3}\titlecap {Phase 2b: Express Conceptual Models, With rTisane}}{172}{section.C.3}%
