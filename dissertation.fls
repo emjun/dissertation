@@ -1908,12 +1908,12 @@ INPUT tisane/figures/conceptual-models.png
 INPUT ./tisane/figures/conceptual-models.png
 INPUT ./tisane/figures/conceptual-models.png
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/courier/pcrro8t.tfm
-INPUT ./tisane/discussion.tex
-INPUT tisane/discussion.tex
-INPUT ./tisane/discussion.tex
-INPUT tisane/discussion.tex
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/courier/pcrro8t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/courier/pcrro8r.tfm
+INPUT ./tisane/discussion.tex
+INPUT tisane/discussion.tex
+INPUT ./tisane/discussion.tex
+INPUT tisane/discussion.tex
 INPUT ./10-conclusion.tex
 INPUT ./10-conclusion.tex
 INPUT ./10-conclusion.tex
