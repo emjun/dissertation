@@ -1,0 +1,159 @@
+All materials were presented in editable Markdown files. Each section below was in a separate file.
+
+\section{Variables}
+
+You identified the following constructs and proxies.
+
+For Conceptual Hypothesis 1 (CH1): <Fill in based on homework response construct: proxy>
+
+For CH2:  <Fill in based on homework response construct: proxy>
+
+For CH3: <Fill in based on homework response construct: proxy>
+
+For CH4: <Fill in based on homework response construct: proxy>
+
+\subsection{Current idea}
+\emph{The language constructs presented here and for the remainder of
+the study are an \textbf{initial set} of ideas we have. We are actively
+seeking to \textbf{add, remove, and adapt the language.}}
+
+Variables can be Units, Measures, or SetUp variables.
+
+\subsubsection{1. Units}
+
+\begin{quote}
+A data variable that can have attributes. For example, if you have
+programmers in your dataset. Each programmer has a a level of
+experience, programming language they write, an IDE they were assigned
+(e.g., a condition), etc. Then, programmer variable can be a Unit. In
+statistics, a Unit can represent either an
+\href{https://en.wikipedia.org/wiki/Statistical_unit}{observational or
+experimental unit}.
+\end{quote}
+
+
+A Unit has the following properties:
+\begin{itemize}
+    \item \textbf{name (str)}: The name of the variable. If you have data, this should correspond to the column's name. The dataset must be in long format.
+    \item \textbf{cardinality (int)}: The number of unique values of the variable. cardinality is optional only if you have a data set. If specified, the language will check that the cardinality is correct if you include data in the design. If left unspecified, and data is available, the language will try to calculate the cardinality.
+\end{itemize}
+
+\begin{verbatim}
+For example:
+# To specify that there are 40 unique participants
+# Without data
+programmer <- Unit("participant", 40)
+# With data
+programmer <- Unit("participant") # cardinality is optional
+\end{verbatim}
+
+\hypertarget{measures-nominal-ordinal-and-numeric}{%
+\subsubsection{2. Measures: Nominal, Ordinal, and
+Numeric}\label{measures-nominal-ordinal-and-numeric}}
+
+\begin{quote}
+Measures are variables that describe a Unit. Measures can be nominal,
+ordinal, or numeric. For example, if you have people in your dataset,
+and each programmer has an eye color, height, age, experience level in
+school, etc., then eye color, height, age, and experience level are
+measures of the programmer unit.
+\end{quote}
+
+\subsubsection{2a. Nominal Measure}
+
+\begin{quote}
+Represents a categorical variable whose categories are not ordered. You
+must specify a nominal measure through the Unit the Measure belongs to.
+\end{quote}
+
+A Nominal Measure has the following properties:
+\begin{itemize}
+    \item \textbf{unit (Unit)}: The unit that the measure is of.
+    \item \textbf{name (str)}: The name of the categorical variable. If you have data, this should correspond to the column’s name in the data.
+    \item \textbf{cardinality (int, optional)}: The number of unique values for the variable.
+\end{itemize}
+
+\begin{verbatim}
+For example:
+# To specify that IDE is measured for each programmer unit.
+# Without data, the cardinality must be specified
+ide <- nominal(programmer, "ide", 5)
+# With data, the cardinality is inferred
+ide <- nominal(programmer, "ide")
+\end{verbatim}
+
+\subsubsection{2b. Ordinal Measure}
+
+\begin{quote}
+Represents a categorical variable whose categories are ordered. You must
+specify an ordinal measure through the Unit the Measure belongs to.
+\end{quote}
+
+An Ordinal Measure has the following properties:
+\begin{itemize}
+    \item \textbf{unit (Unit)}: The unit that the measure is of.
+    \item \textbf{name (str)}: The name of the ordinal variable. If you have data, this should be the column name in the data.
+    \item \textbf{order (list)}: The ordering of the categories of the variable.
+\end{itemize}
+
+\begin{verbatim}
+For example:
+# To specify that experience level is measured for each programmer unit.
+experience_level <- ordinal(programmer, "experience level", 
+                            ["low", "medium", "high"])
+\end{verbatim}
+
+\subsubsection{2c. Numeric Measure}\label{c.-numeric-measure}
+
+\begin{quote}
+Represents quantitative variables. Numeric variables take on values that
+are integers and floats. You must specify a numeric measure through the
+Unit the Measure belongs to.
+\end{quote}
+
+A Numeric Measure has the following properties:
+\begin{itemize}
+    \item \textbf{unit (Unit)}: The unit that the measure is of.
+    \item \textbf{name (str)}: The name of the numeric variable. If you have data, this should correspond to the column’s name in the data.
+\end{itemize}
+
+\begin{verbatim}
+For example:
+# To specify that lines of code written in one hour 
+    is measured for each programmer unit.
+loc <- numeric(programmer, "lines of code")
+\end{verbatim}
+
+\subsubsection{3. SetUp}\label{setup}
+
+\begin{quote}
+SetUp variables are variables that describe the data collection setting.
+SetUp variables are neither Units nor Measures. This can represent time,
+year, etc. describing the data collection process. For example, if you
+collected height data from a programmer over the course of four weeks,
+the week number is neither a Unit (programmer) nor a Measure (height) of
+a Unit.
+\end{quote}
+
+A SetUp variable has the following properties:
+\begin{itemize}
+    \item \textbf{name (str)}: The name of the variable. If you have data, this should correspond to the column’s name. The dataset must be in long format.
+    \item \textbf{order (list, optional)}: Use a specific ordering of the values of environment settings.
+    \item \textbf{cardinality (int, optional)}: The number of unique values of the variable.
+\end{itemize}
+
+\begin{verbatim}
+For example:
+week <- SetUp("time", [1, 2, 3, 4])
+\end{verbatim}
+
+\subsection{Your input!}
+
+Starting from these language ideas, specify any variables from the
+paper.
+
+Feel free to adapt or introduce new syntax if you feel it's missing or
+there is a more intuitive way to express what you want to say. Also,
+feel free to introduce new types of variables, language constructs, etc!
+\emph{Really try to fully communicate what you want to express about the
+variables.}
