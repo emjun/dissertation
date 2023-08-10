@@ -1,6 +1,8 @@
-All materials were presented in editable Markdown files. Each section below was in a separate file.
+Materials for the elicitation lab study described in
+\autoref{sec:exploratoryStudy} follow. All materials were presented in editable
+Markdown files. Each section below was in a separate file.
 
-\section{Variables}
+\section{Task 1: Variables}
 
 You identified the following constructs and proxies.
 
@@ -12,7 +14,7 @@ For CH3: <Fill in based on homework response construct: proxy>
 
 For CH4: <Fill in based on homework response construct: proxy>
 
-\subsection{Current idea}
+\subsection*{Current idea}
 \emph{The language constructs presented here and for the remainder of
 the study are an \textbf{initial set} of ideas we have. We are actively
 seeking to \textbf{add, remove, and adapt the language.}}
@@ -147,7 +149,7 @@ For example:
 week <- SetUp("time", [1, 2, 3, 4])
 \end{verbatim}
 
-\subsection{Your input!}
+\subsection*{Your input!}
 
 Starting from these language ideas, specify any variables from the
 paper.
@@ -157,3 +159,277 @@ there is a more intuitive way to express what you want to say. Also,
 feel free to introduce new types of variables, language constructs, etc!
 \emph{Really try to fully communicate what you want to express about the
 variables.}
+\clearpage
+
+
+
+\section{Task 2: Study design and data collection}
+
+You summarized the study design as follows: \textgreater{} FILL IN
+
+\hypertarget{current-idea-data-measurement-relationships}{%
+\subsection*{Current idea: Data measurement
+relationships}\label{current-idea-data-measurement-relationships}}
+
+\emph{As before, the language constructs presented here and for the
+remainder of the study are an \textbf{initial set} of ideas we have. We
+are actively seeking to \textbf{add, remove, and adapt the language.}}
+
+We are thinking about two ways of specifying how data were collected.
+
+\hypertarget{number-of-instances}{%
+\subsubsection{Number of instances}\label{number-of-instances}}
+
+We want to add a \texttt{number\_of\_instances} to how each Measure is
+specified to indicate how many times a Unit provided an observation of
+the Measure.
+
+\begin{verbatim}
+For example:
+# There are 40 programmers in our study
+programmer <- Unit("participant", 40)
+# Each programmer is assigned to exactly one IDE condition
+ide <- nominal(programmer, "ide", number_of_instances=1)
+# Each programmer has an experience level
+experience_level <- ordinal(programmer, "experience level", ["low", "medium", "high"], number_of_instances=1)
+# Each programmer writes lines of code for the study
+loc <- numeric(programmer, "lines of code", number_of_instances=1)
+
+# Each programmer writes lines of code, once per week
+week <- SetUp("time", [1, 2, 3, 4])
+loc <- numeric(programmer, "lines of code", number_of_instances=week)
+# The above is equivalento the below: 
+loc <- numeric(programmer, "lines of code", number_of_instances=Per(Exactly(1), week))
+
+# Each programmer writes lines of code, exactly three times per week (multiple measures)
+loc <- numeric(programmer, "lines of code", number_of_instances=Per(Exactly(3), week))
+
+# Each programmer writes lines of code, at most three times per week if a programmer can have 0, 1, 2, or 3 measures of lines of code 
+loc <- numeric(programmer, "lines of code", number_of_instances=Per(AtMost(1), week))
+\end{verbatim}
+
+\hypertarget{your-input}{%
+\subsection*{Your input!}\label{your-input}}
+
+Specify how the variables were collected in the paper.
+
+\begin{verbatim}
+\end{verbatim}
+
+\hypertarget{data-measurement-relationships}{%
+\subsubsection{Data measurement
+relationships}\label{data-measurement-relationships}}
+
+Previously, you could specify the number of instances or observations
+for each measure. In addition to specifying the number of
+instances/observations a Unit provides for each Measure, we think it
+might be important to specify that a Unit is nested within another Unit.
+
+\begin{quote}
+\emph{Nests within} means the base Unit (e.g., programmer) is nested
+within a group Unit (e.g., team)
+\end{quote}
+
+\begin{verbatim}
+For example:
+# Programmers
+programmer <- Unit("participant", 40)
+# Teams
+team <- Unit("team", 10)
+# To specify that programmers work in teams at their company
+programmer.nests_within(team)
+\end{verbatim}
+
+\hypertarget{your-input-1}{%
+\subsection*{Your input!}\label{your-input-1}}
+
+What types of data measurement relationships would you like to specify
+for this paper? Specify any data measurement relationships between
+variables.
+
+Feel free to adapt or introduce new syntax if you feel it's missing.
+Also, feel free to introduce new relationships, language constructs,
+etc! \emph{Really try to fully communicate what you want to express
+about the data measurement relationships.}
+
+\begin{verbatim}
+\end{verbatim}
+\clearpage
+
+
+
+\hypertarget{conceptual-model}{%
+\section{Task 3: Conceptual model}\label{conceptual-model}}
+
+You summarized the authors' conceptual model as below: \textgreater{}
+FILL IN
+
+\hypertarget{current-idea-conceptual-relationships}{%
+\subsection*{Current idea: Conceptual
+relationships}\label{current-idea-conceptual-relationships}}
+
+\emph{As before, the language constructs presented here and for the
+remainder of the study are an \textbf{initial set} of ideas we have. We
+are actively seeking to \textbf{add, remove, and adapt the language.}}
+
+We currently are thinking about providing three current language
+constructs. We think there may be more or additional ways to fully
+express/capture your conceptual model. We are curious what is most
+natural, or intuitive, for you to express conceptual models.
+
+\hypertarget{causes}{%
+\subsubsection{1. Causes}\label{causes}}
+
+\begin{quote}
+\emph{Causes} means you either know or suspect that a variable causes
+another.
+\end{quote}
+
+\begin{verbatim}
+For example:
+# Specifying all the variables
+programmer <- Unit("participant", 40)
+language <- nominal(programmer, "programming language")
+ide <- nominal(programmer, "ide")
+experience_level <- ordinal(programmer, "experience level", ["low", "medium", "high"])
+loc <- numeric(programmer, "lines of code")
+
+# IDE causes LOC
+causes(ide, loc)
+\end{verbatim}
+
+\hypertarget{associates-with}{%
+\subsubsection{2. Associates with}\label{associates-with}}
+
+\begin{quote}
+\emph{Associates with} means you know or suspect a relationship between
+variables, but you are unsure if a variable causes another. Note,
+\emph{associates with} is commutative.
+\end{quote}
+
+\begin{verbatim}
+For example:
+# Experience level and lines of code e are associated with another.
+associates_with(experience_level, loc)
+# Order does not matter:
+associates_with(loc, experience_level)
+\end{verbatim}
+
+\hypertarget{moderates}{%
+\subsubsection{3. Moderates}\label{moderates}}
+
+\begin{quote}
+\emph{Moderates} means you either know or suspect that a variable's
+effect on another variable is moderated by one or more variables.
+\end{quote}
+
+\begin{verbatim}
+For example:
+```
+# Experience level moderates the effect of programming language on lines of code
+moderates(c(experience_level, language), loc)
+# In other words, programming language moderates the effect of experience level on lines of code
+# Order of moderating variables doesn't matter
+moderates(c(language, experience_level), loc)
+
+# Note: Moderates implies experience and programming language cause or are associated with lines of code (if not already specified)
+\end{verbatim}
+
+\hypertarget{your-input}{%
+\subsection*{Your input!}\label{your-input}}
+
+Starting from these language ideas, specify your conceptual model
+relating the variables.
+
+Feel free to adapt or introduce new syntax if you feel it's missing.
+Also, feel free to introduce new relationships, language constructs,
+etc! \emph{Really try to fully communicate what you want to express
+about the data measurement relationships.}
+\clearpage
+
+\begin{comment}
+\hypertarget{statistical-model}{%
+\section{Statistical model}\label{statistical-model}}
+
+You specified statistical models to assess each conceptual hypothesis. I
+want you to imagine that you had the help of a system to guide you in
+specifying the statistical model.
+
+What was difficult about authoring your own analyses?
+
+\begin{verbatim}
+# Write your response here
+\end{verbatim}
+
+\hypertarget{current-idea-query-for-a-statistical-model}{%
+\subsection*{Current idea: Query for a statistical
+model}\label{current-idea-query-for-a-statistical-model}}
+
+\emph{As before, the language constructs presented here and for the
+remainder of the study are an \textbf{initial set} of ideas we have. We
+are actively seeking to \textbf{add, remove, and adapt the language.}}
+
+After specifying variables and relationshis, we can query for a
+statistical model. In a query, we specify what variables we are
+interested in and allow a system to suggest a statistical model, asking
+for your input if necessary. \textgreater{} A query consists of a
+dependent variable and a set of independent variables.
+
+\begin{verbatim}
+For example
+# To query for a statistical model to answer our research question about how IDEs and experience impact lines of code a programmer writes:
+infer_model(ivs=c(IDE, experience), dv=loc)
+\end{verbatim}
+
+\hypertarget{your-input}{%
+\subsection*{Your input!}\label{your-input}}
+
+Starting from these language ideas, specify each of the following.
+
+Feel free to adapt or introduce new syntax if you feel it's missing.
+Also, feel free to introduce new relationships, language constructs,
+etc! )\emph{Really try to fully communicate what you want to express
+about the data measurement relationships.}
+
+Conceptual Hypothesis 1 (CH1): How would you specify a query to assess
+CH1?
+
+\begin{verbatim}
+\end{verbatim}
+
+Conceptual Hypothesis 2 (CH2): How would you specify a query to assess
+CH2?
+
+\begin{verbatim}
+\end{verbatim}
+
+Conceptual Hypothesis 3 (CH3): How would you specify a query to assess
+CH3?
+
+\begin{verbatim}
+\end{verbatim}
+
+Conceptual Hypothesis 4 (CH4): How would you specify a query to assess
+CH4?
+
+\begin{verbatim}
+\end{verbatim}
+\clearpage
+\end{comment}
+
+\begin{comment}
+\hypertarget{anything-else}{%
+\subsection*{Anything else?}\label{anything-else}}
+
+Taking a step back from the program you've written with this new syntax,
+is there anything you would like to add or change?
+
+What else do you want to express in your program but currently feel
+limited or unable to?
+
+\begin{verbatim}
+# Want to express...
+
+# I would like to express it in this way...
+\end{verbatim}
+\end{comment}

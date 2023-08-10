@@ -171,20 +171,25 @@
 \contentsline {chapter}{\numberline {C}Tisane's First Release: Additional Examples}{173}{appendix.C}%
 \contentsline {section}{\numberline {C.1}\titlecap {Additional examples of graphs that may be constructed}}{173}{section.C.1}%
 \contentsline {section}{\numberline {C.2}\titlecap {Cautioning analysts about adding certain kinds of variables}}{174}{section.C.2}%
-\contentsline {chapter}{\numberline {D}Tisane Re-design Exploratory Study Materials}{175}{appendix.D}%
-\contentsline {section}{\numberline {D.1}\titlecap {Variables}}{175}{section.D.1}%
-\contentsline {subsection}{\numberline {D.1.1}Current idea}{175}{subsection.D.1.1}%
-\contentsline {subsubsection}{1. Units}{175}{section*.99}%
-\contentsline {subsubsection}{2. Measures: Nominal, Ordinal, and Numeric}{176}{section*.100}%
-\contentsline {subsubsection}{2a. Nominal Measure}{176}{section*.101}%
-\contentsline {subsubsection}{2b. Ordinal Measure}{176}{section*.102}%
-\contentsline {subsubsection}{2c. Numeric Measure}{177}{section*.103}%
-\contentsline {subsubsection}{3. SetUp}{177}{section*.104}%
-\contentsline {subsection}{\numberline {D.1.2}Your input!}{177}{subsection.D.1.2}%
-\contentsline {chapter}{\numberline {E}rTisane Summative Evaluation Study Materials}{179}{appendix.E}%
-\contentsline {section}{\numberline {E.1}\titlecap {Phase 1: Warm up}}{180}{section.E.1}%
-\contentsline {section}{\numberline {E.2}\titlecap {Phase 2a: Express Conceptual Models, Without rTisane}}{181}{section.E.2}%
-\contentsline {section}{\numberline {E.3}\titlecap {Phase 2b: Express Conceptual Models, With rTisane}}{182}{section.E.3}%
-\contentsline {section}{\numberline {E.4}\titlecap {Phase 3a: Implement Statistical Models, Without rTisane}}{183}{section.E.4}%
-\contentsline {section}{\numberline {E.5}\titlecap {Phase 3b: Implement Statistical Models, With rTisane}}{184}{section.E.5}%
-\contentsline {section}{\numberline {E.6}\titlecap {Data Set for Statistical Analysis}}{185}{section.E.6}%
+\contentsline {chapter}{\numberline {D}Elicitation Lab Study Materials}{175}{appendix.D}%
+\contentsline {section}{\numberline {D.1}\titlecap {Task 1: Variables}}{175}{section.D.1}%
+\contentsline {subsubsection}{1. Units}{175}{section*.100}%
+\contentsline {subsubsection}{2. Measures: Nominal, Ordinal, and Numeric}{176}{section*.101}%
+\contentsline {subsubsection}{2a. Nominal Measure}{176}{section*.102}%
+\contentsline {subsubsection}{2b. Ordinal Measure}{176}{section*.103}%
+\contentsline {subsubsection}{2c. Numeric Measure}{177}{section*.104}%
+\contentsline {subsubsection}{3. SetUp}{177}{section*.105}%
+\contentsline {section}{\numberline {D.2}\titlecap {Task 2: Study design and data collection}}{178}{section.D.2}%
+\contentsline {subsubsection}{Number of instances}{178}{section*.108}%
+\contentsline {subsubsection}{Data measurement relationships}{178}{section*.110}%
+\contentsline {section}{\numberline {D.3}\titlecap {Task 3: Conceptual model}}{180}{section.D.3}%
+\contentsline {subsubsection}{1. Causes}{180}{section*.113}%
+\contentsline {subsubsection}{2. Associates with}{180}{section*.114}%
+\contentsline {subsubsection}{3. Moderates}{180}{section*.115}%
+\contentsline {chapter}{\numberline {E}rTisane Summative Evaluation Study Materials}{183}{appendix.E}%
+\contentsline {section}{\numberline {E.1}\titlecap {Phase 1: Warm up}}{184}{section.E.1}%
+\contentsline {section}{\numberline {E.2}\titlecap {Phase 2a: Express Conceptual Models, Without rTisane}}{185}{section.E.2}%
+\contentsline {section}{\numberline {E.3}\titlecap {Phase 2b: Express Conceptual Models, With rTisane}}{186}{section.E.3}%
+\contentsline {section}{\numberline {E.4}\titlecap {Phase 3a: Implement Statistical Models, Without rTisane}}{187}{section.E.4}%
+\contentsline {section}{\numberline {E.5}\titlecap {Phase 3b: Implement Statistical Models, With rTisane}}{188}{section.E.5}%
+\contentsline {section}{\numberline {E.6}\titlecap {Data Set for Statistical Analysis}}{189}{section.E.6}%
