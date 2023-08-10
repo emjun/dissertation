@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.3)  10 AUG 2023 10:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.3)  10 AUG 2023 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1031,7 +1031,7 @@ Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]) (/Users/emjun/Git/dissertation/01-abstract.tex
-Underfull \hbox (badness 10000) in paragraph at lines 30--35
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
 
  []
 
@@ -1066,7 +1066,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \openout6 = `dissertation.toc'.
 
  [14] (/Users/emjun/Git/dissertation/dissertation.lof
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 21.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 22.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ))
@@ -1167,7 +1167,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
 [37] [38] [39]
-<tea/figures/modes_wide.jpg, id=1079, 6677.94875pt x 4589.145pt>
+<tea/figures/modes_wide.jpg, id=1109, 6677.94875pt x 4589.145pt>
 File: tea/figures/modes_wide.jpg Graphic file (type jpg)
 <use tea/figures/modes_wide.jpg>
 Package pdftex.def Info: tea/figures/modes_wide.jpg  used on input line 134.
@@ -1203,11 +1203,15 @@ Excluding 'comment' comment.) [47] [48
 
 ]
 Chapter 4.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 41.
+
 (/Users/emjun/Git/dissertation/07-hypothesisFormalization.tex
 Underfull \vbox (badness 7944) has occurred while \output is active []
 
  [49]
-<hypothesisFormalization/figures/overview_sept_17.png, id=1208, 1027.84pt x 585.18625pt>
+<hypothesisFormalization/figures/overview_sept_17.png, id=1239, 1027.84pt x 585.18625pt>
 File: hypothesisFormalization/figures/overview_sept_17.png Graphic file (type png)
 <use hypothesisFormalization/figures/overview_sept_17.png>
 Package pdftex.def Info: hypothesisFormalization/figures/overview_sept_17.png  used on input line 69.
@@ -1225,7 +1229,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
 [52]
-<hypothesisFormalization/figures/prior_work.png, id=1242, 1435.86438pt x 363.3575pt>
+<hypothesisFormalization/figures/prior_work.png, id=1272, 1435.86438pt x 363.3575pt>
 File: hypothesisFormalization/figures/prior_work.png Graphic file (type png)
 <use hypothesisFormalization/figures/prior_work.png>
 Package pdftex.def Info: hypothesisFormalization/figures/prior_work.png  used on input line 106.
@@ -1239,7 +1243,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [53] [54 </Users/emjun/Git/dissertation/hypothesisFormalization/figures/prior_work.png>]
-<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1264, 835.62187pt x 275.0275pt>
+<hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png, id=1294, 835.62187pt x 275.0275pt>
 File: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png Graphic file (type png)
 <use hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png>
 Package pdftex.def Info: hypothesisFormalization/figures/ps9_reorderableMatrixLabeled.png  used on input line 41.
@@ -1258,12 +1262,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 1.
 
 [60] [61] [62]
-<hypothesisFormalization/figures/A11_SS_1.png, id=1376, 548.0475pt x 590.205pt>
+<hypothesisFormalization/figures/A11_SS_1.png, id=1407, 548.0475pt x 590.205pt>
 File: hypothesisFormalization/figures/A11_SS_1.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_1.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_1.png  used on input line 167.
 (pdftex.def)             Requested size: 190.24818pt x 204.88174pt.
-<hypothesisFormalization/figures/A11_SS_2.png, id=1377, 564.1075pt x 477.785pt>
+<hypothesisFormalization/figures/A11_SS_2.png, id=1408, 564.1075pt x 477.785pt>
 File: hypothesisFormalization/figures/A11_SS_2.png Graphic file (type png)
 <use hypothesisFormalization/figures/A11_SS_2.png>
 Package pdftex.def Info: hypothesisFormalization/figures/A11_SS_2.png  used on input line 167.
@@ -1378,7 +1382,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (/Users/emjun/Git/dissertation/tisane/figures/tisane_program.py)
 
 pdfTeX warning: pdflatex (file /Users/emjun/Git/dissertation/tisane/figures/figure4.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<tisane/figures/figure4.pdf, id=1806, 194.47656pt x 147.80219pt>
+<tisane/figures/figure4.pdf, id=1837, 194.47656pt x 147.80219pt>
 File: tisane/figures/figure4.pdf Graphic file (type pdf)
 <use tisane/figures/figure4.pdf>
 Package pdftex.def Info: tisane/figures/figure4.pdf  used on input line 106.
@@ -1389,7 +1393,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [89] [90 </Users/emjun/Git/dissertation/tisane/figures/figure4.pdf>]
 
 pdfTeX warning: pdflatex (file /Users/emjun/Git/dissertation/tisane/figures/figure3.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<tisane/figures/figure3.pdf, id=1890, 350.05579pt x 112.92087pt>
+<tisane/figures/figure3.pdf, id=1921, 350.05579pt x 112.92087pt>
 File: tisane/figures/figure3.pdf Graphic file (type pdf)
 <use tisane/figures/figure3.pdf>
 Package pdftex.def Info: tisane/figures/figure3.pdf  used on input line 197.
@@ -1405,7 +1409,7 @@ Underfull \vbox (badness 1400) has occurred while \output is active []
  [93] [94]
 
 pdfTeX warning: pdflatex (file /Users/emjun/Git/dissertation/tisane/figures/figure5.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<tisane/figures/figure5.pdf, id=1962, 379.04008pt x 100.50047pt>
+<tisane/figures/figure5.pdf, id=1993, 379.04008pt x 100.50047pt>
 File: tisane/figures/figure5.pdf Graphic file (type pdf)
 <use tisane/figures/figure5.pdf>
 Package pdftex.def Info: tisane/figures/figure5.pdf  used on input line 388.
@@ -1416,7 +1420,7 @@ Overfull \hbox (9.87363pt too wide) in alignment at lines 454--454
  []
 
 [96]
-<tisane/figures/usage_scenario_gui_05012022.png, id=2012, 1336.49312pt x 1002.74625pt>
+<tisane/figures/usage_scenario_gui_05012022.png, id=2043, 1336.49312pt x 1002.74625pt>
 File: tisane/figures/usage_scenario_gui_05012022.png Graphic file (type png)
 <use tisane/figures/usage_scenario_gui_05012022.png>
 Package pdftex.def Info: tisane/figures/usage_scenario_gui_05012022.png  used on input line 495.
@@ -1459,7 +1463,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 2.
 
 [109] Excluding 'comment' comment. [110]
-<tisane/figures/conceptual-model-disambiguation.png, id=2149, 1775.13188pt x 1003.24812pt>
+<tisane/figures/conceptual-model-disambiguation.png, id=2180, 1775.13188pt x 1003.24812pt>
 File: tisane/figures/conceptual-model-disambiguation.png Graphic file (type png)
 <use tisane/figures/conceptual-model-disambiguation.png>
 Package pdftex.def Info: tisane/figures/conceptual-model-disambiguation.png  used on input line 142.
@@ -1469,7 +1473,7 @@ Package pdftex.def Info: tisane/figures/conceptual-model-disambiguation.png  use
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [111] Excluding 'comment' comment.
-<tisane/figures/statistical-model-disambiguation.png, id=2160, 1042.39438pt x 523.45563pt>
+<tisane/figures/statistical-model-disambiguation.png, id=2191, 1042.39438pt x 523.45563pt>
 File: tisane/figures/statistical-model-disambiguation.png Graphic file (type png)
 <use tisane/figures/statistical-model-disambiguation.png>
 Package pdftex.def Info: tisane/figures/statistical-model-disambiguation.png  used on input line 171.
@@ -1545,7 +1549,7 @@ Overfull \hbox (7.3559pt too wide) in alignment at lines 163--163
 
 LaTeX Warning: Float too large for page by 42.23282pt on input line 163.
 
-<tisane/figures/conceptual-models.png, id=2190, 617.30624pt x 298.11375pt>
+<tisane/figures/conceptual-models.png, id=2221, 617.30624pt x 298.11375pt>
 File: tisane/figures/conceptual-models.png Graphic file (type png)
 <use tisane/figures/conceptual-models.png>
 Package pdftex.def Info: tisane/figures/conceptual-models.png  used on input line 165.
@@ -1633,33 +1637,33 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ] [152]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\titlecap' on input line 89.
+(hyperref)                removing `\titlecap' on input line 90.
 
 
-Overfull \hbox (13.74458pt too wide) in paragraph at lines 90--90
+Overfull \hbox (13.74458pt too wide) in paragraph at lines 91--91
 []|\T1/cmr/bx/n/9 %Freq.| 
  []
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 90--90
+Underfull \hbox (badness 1057) in paragraph at lines 91--91
 []\T1/cmr/m/it/9 ``We hy-poth-e-sized that the out-ward cur-rent is mainly car-ried by FA an-
  []
 
 
-Underfull \hbox (badness 3579) in paragraph at lines 90--90
+Underfull \hbox (badness 3579) in paragraph at lines 91--91
 []\T1/cmr/m/it/9 ``If this de-pen-dency mea-sure (data-independent model) was sig-nif-i-cantly
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 90--90
+Underfull \hbox (badness 1629) in paragraph at lines 91--91
 \T1/cmr/m/it/9 greater than zero, this pro-vided ev-i-dence for sig-nif-i-cant re-trieval de-pen-
  []
 
 
-LaTeX Warning: Command \texttimes invalid in math mode on input line 90.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 91.
 
 
-LaTeX Warning: Command \texttimes invalid in math mode on input line 90.
+LaTeX Warning: Command \texttimes invalid in math mode on input line 91.
 
 Missing character: There is no Ö in font cmr9!
 [153
@@ -1667,305 +1671,305 @@ Missing character: There is no Ö in font cmr9!
 ] [154]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\titlecap' on input line 93.
+(hyperref)                removing `\titlecap' on input line 94.
 
 [155
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\titlecap' on input line 134.
+(hyperref)                removing `\titlecap' on input line 135.
 
 
-Overfull \hbox (8.38397pt too wide) in paragraph at lines 135--135
+Overfull \hbox (8.38397pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 Method| 
  []
 
 
-Overfull \hbox (5.44943pt too wide) in paragraph at lines 135--135
+Overfull \hbox (5.44943pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 System| 
  []
 
 
-Overfull \hbox (2.67178pt too wide) in paragraph at lines 135--135
+Overfull \hbox (2.67178pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 Empirical| 
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 135--135
+Underfull \hbox (badness 1292) in paragraph at lines 136--136
 \T1/cmr/m/n/9 in par-tic-i-pa-tion dur-ing a three-
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 135--135
+Underfull \hbox (badness 1688) in paragraph at lines 136--136
 []|\T1/cmr/m/n/9 The au-thors ask three re-search
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 135--135
+Underfull \hbox (badness 2073) in paragraph at lines 136--136
 \T1/cmr/m/n/9 tion on the plat-form and how
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 135--135
+Underfull \hbox (badness 1783) in paragraph at lines 136--136
 \T1/cmr/m/n/9 in-creas-ing their aware-ness of it
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 135--135
+Underfull \hbox (badness 1028) in paragraph at lines 136--136
 \T1/cmr/m/n/9 im-proved er-gonomics while min-
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 135--135
+Underfull \hbox (badness 1603) in paragraph at lines 136--136
 \T1/cmr/m/n/9 i-miz-ing in-ter-rup-tion and an-noy-
  []
 
 
-Underfull \hbox (badness 1033) in paragraph at lines 135--135
+Underfull \hbox (badness 1033) in paragraph at lines 136--136
 \T1/cmr/m/n/9 ance/neg-a-tive ex-pe-ri-ences dur-ing
  []
 
 
-Underfull \hbox (badness 2409) in paragraph at lines 135--135
+Underfull \hbox (badness 2409) in paragraph at lines 136--136
 \T1/cmr/m/n/9 ous/have less trust in the au-
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 135--135
+Underfull \hbox (badness 1902) in paragraph at lines 136--136
 \T1/cmr/m/n/9 to-mated ad-just-ments. On the
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 135--135
+Underfull \hbox (badness 1558) in paragraph at lines 136--136
 \T1/cmr/m/n/9 af-ter end-users have ini-ti-ated a
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 135--135
+Underfull \hbox (badness 2460) in paragraph at lines 136--136
 \T1/cmr/m/n/9 creased dis-rup-tion but also in-
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 135--135
+Underfull \hbox (badness 1721) in paragraph at lines 136--136
 \T1/cmr/m/n/9 creased trust in the au-to-mated
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 135--135
+Underfull \hbox (badness 1418) in paragraph at lines 136--136
 \T1/cmr/m/n/9 follow-up with ad-di-tional anal-y-
  []
 
 [156
 
 ] [157]
-Overfull \hbox (8.38397pt too wide) in paragraph at lines 135--135
+Overfull \hbox (8.38397pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 Method| 
  []
 
 
-Overfull \hbox (5.44943pt too wide) in paragraph at lines 135--135
+Overfull \hbox (5.44943pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 System| 
  []
 
 
-Overfull \hbox (2.67178pt too wide) in paragraph at lines 135--135
+Overfull \hbox (2.67178pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 Empirical| 
  []
 
 
-Underfull \hbox (badness 4303) in paragraph at lines 135--135
+Underfull \hbox (badness 4303) in paragraph at lines 136--136
 []|\T1/cmr/m/n/9 The au-thors find ev-i-dence for
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 135--135
+Underfull \hbox (badness 1817) in paragraph at lines 136--136
 \T1/cmr/m/n/9 the spread of in-for-ma-tion from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \T1/cmr/m/n/9 cen-tral bro-kers to their best
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 []|\T1/cmr/m/n/9 The au-thors char-ac-ter-ize how
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 135--135
+Underfull \hbox (badness 2088) in paragraph at lines 136--136
 \T1/cmr/m/n/9 there were any dis-ci-plinary ac-
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 135--135
+Underfull \hbox (badness 2837) in paragraph at lines 136--136
 \T1/cmr/m/n/9 ing bank-ing in-dus-try af-ter the
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 135--135
+Underfull \hbox (badness 1019) in paragraph at lines 136--136
 []|\T1/cmr/m/n/9 The au-thors test a widely held
  []
 
 [158
 
 ] [159]
-Overfull \hbox (8.38397pt too wide) in paragraph at lines 135--135
+Overfull \hbox (8.38397pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 Method| 
  []
 
 
-Overfull \hbox (5.44943pt too wide) in paragraph at lines 135--135
+Overfull \hbox (5.44943pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 System| 
  []
 
 
-Overfull \hbox (2.67178pt too wide) in paragraph at lines 135--135
+Overfull \hbox (2.67178pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 Empirical| 
  []
 
 
-Underfull \hbox (badness 1082) in paragraph at lines 135--135
+Underfull \hbox (badness 1082) in paragraph at lines 136--136
 \T1/cmr/m/n/9 im-munoglob-u-lin sup-pres-sor of T
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 135--135
+Underfull \hbox (badness 2894) in paragraph at lines 136--136
 []|\T1/cmr/m/n/9 Researchers find that polynyas,
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 135--135
+Underfull \hbox (badness 3919) in paragraph at lines 136--136
 []|\T1/cmr/m/n/9 The au-thors present a sys-tem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
 \T1/cmr/m/n/9 where metastatic can-cer cells
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 135--135
+Underfull \hbox (badness 1442) in paragraph at lines 136--136
 \T1/cmr/m/n/9 the liver (novel) that seems to
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 135--135
+Underfull \hbox (badness 1077) in paragraph at lines 136--136
 \T1/cmr/m/n/9 a com-pound based on mea-sure-
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 135--135
+Underfull \hbox (badness 1616) in paragraph at lines 136--136
 \T1/cmr/m/n/9 dicts egg size rather than pre-
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 135--135
+Underfull \hbox (badness 2556) in paragraph at lines 136--136
 \T1/cmr/m/n/9 Their model chal-lenges ex-ist-ing
  []
 
 [160
 
 ] [161]
-Overfull \hbox (8.38397pt too wide) in paragraph at lines 135--135
+Overfull \hbox (8.38397pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 Method| 
  []
 
 
-Overfull \hbox (5.44943pt too wide) in paragraph at lines 135--135
+Overfull \hbox (5.44943pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 System| 
  []
 
 
-Overfull \hbox (2.67178pt too wide) in paragraph at lines 135--135
+Overfull \hbox (2.67178pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 Empirical| 
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 135--135
+Underfull \hbox (badness 1383) in paragraph at lines 136--136
 []|\T1/cmr/m/n/9 The au-thors find the ef-fects of
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 135--135
+Underfull \hbox (badness 3724) in paragraph at lines 136--136
 \T1/cmr/m/n/9 croglia's im-por-tance in Cen-tral
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 135--135
+Underfull \hbox (badness 2065) in paragraph at lines 136--136
 []|\T1/cmr/m/n/9 The au-thors were in-ter-ested in
  []
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 135--135
+Underfull \hbox (badness 1728) in paragraph at lines 136--136
 \T1/cmr/m/n/9 way to de-bias ML mod-els for
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 135--135
+Underfull \hbox (badness 1342) in paragraph at lines 136--136
 \T1/cmr/m/n/9 learn-ing causal re-la-tion-ships be-
  []
 
 [162
 
 ] [163]
-Overfull \hbox (8.38397pt too wide) in paragraph at lines 135--135
+Overfull \hbox (8.38397pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 Method| 
  []
 
 
-Overfull \hbox (5.44943pt too wide) in paragraph at lines 135--135
+Overfull \hbox (5.44943pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 System| 
  []
 
 
-Overfull \hbox (2.67178pt too wide) in paragraph at lines 135--135
+Overfull \hbox (2.67178pt too wide) in paragraph at lines 136--136
 []|\T1/cmr/bx/n/9 Empirical| 
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 135--135
+Underfull \hbox (badness 2302) in paragraph at lines 136--136
 \T1/cmr/m/n/9 study that found that work-ing
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 135--135
+Underfull \hbox (badness 1931) in paragraph at lines 136--136
 \T1/cmr/m/n/9 mem-ory and long-term mem-ory
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 135--135
+Underfull \hbox (badness 1895) in paragraph at lines 136--136
 \T1/cmr/m/n/9 joy-ment of mu-sic is re-lated to
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 135--135
+Underfull \hbox (badness 2158) in paragraph at lines 136--136
 \T1/cmr/m/n/9 find that pun-ish-ment in-cen-tives
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 135--135
+Underfull \hbox (badness 1348) in paragraph at lines 136--136
 \T1/cmr/m/n/9 hu-mans pay at-ten-tion to vi-sual
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 135--135
+Underfull \hbox (badness 1102) in paragraph at lines 136--136
 \T1/cmr/m/n/9 and more ex-per-i-men-tal con-trols,
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 135--135
+Underfull \hbox (badness 6477) in paragraph at lines 136--136
 \T1/cmr/m/n/9 au-thors con-duct a ^^Pcon-cep-tual
  []
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 135--135
+Underfull \hbox (badness 3312) in paragraph at lines 136--136
 []|\T1/cmr/m/n/9 The au-thors repli-cate a pre-vi-
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 135--135
+Underfull \hbox (badness 3668) in paragraph at lines 136--136
 \T1/cmr/m/n/9 among sci-ence in-ter-est, sci-ence
  []
 
@@ -1976,6 +1980,162 @@ Underfull \hbox (badness 3668) in paragraph at lines 135--135
 
 ]
 Appendix B.
+(/Users/emjun/Git/dissertation/app-hypoForm-labStudy.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\titlecap' on input line 4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+[167]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\titlecap' on input line 32.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+
+ []
+
+[168
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+[169]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\titlecap' on input line 129.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+
+ []
+
+[170
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\titlecap' on input line 169.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+) [171
+
+] [172
+
+
+]
+Appendix C.
 (/Users/emjun/Git/dissertation/app-tisane.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1989,60 +2149,65 @@ Overfull \hbox (1.05482pt too wide) in paragraph at lines 2--2
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [167]
+ [173]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 6.
 
-<tisane/figures/tisane_screenshots/potential_confounding_association.png, id=2597, 886.81313pt x 511.41063pt>
+<tisane/figures/tisane_screenshots/potential_confounding_association.png, id=2656, 886.81313pt x 511.41063pt>
 File: tisane/figures/tisane_screenshots/potential_confounding_association.png Graphic file (type png)
 <use tisane/figures/tisane_screenshots/potential_confounding_association.png>
 Package pdftex.def Info: tisane/figures/tisane_screenshots/potential_confounding_association.png  used on input line 7.
 (pdftex.def)             Requested size: 352.31625pt x 203.1794pt.
-) [168 </Users/emjun/Git/dissertation/tisane/figures/tisane_screenshots/potential_confounding_association.png>]
-Appendix C.
-(/Users/emjun/Git/dissertation/app-rTisane.tex [169
+) [174 </Users/emjun/Git/dissertation/tisane/figures/tisane_screenshots/potential_confounding_association.png>]
+Appendix D.
+(/Users/emjun/Git/dissertation/app-tisane-reDesign.tex) [175
+
+
+] [176
 
 
 ]
+Appendix E.
+(/Users/emjun/Git/dissertation/app-rTisane.tex [177]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 10.
 
-<tisane/figures/example-conceptual-model.png, id=2609, 534.99875pt x 266.9975pt>
+<tisane/figures/example-conceptual-model.png, id=2676, 534.99875pt x 266.9975pt>
 File: tisane/figures/example-conceptual-model.png Graphic file (type png)
 <use tisane/figures/example-conceptual-model.png>
 Package pdftex.def Info: tisane/figures/example-conceptual-model.png  used on input line 33.
 (pdftex.def)             Requested size: 399.29463pt x 199.28206pt.
-[170
+[178
 
  </Users/emjun/Git/dissertation/tisane/figures/example-conceptual-model.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 45.
 
-[171
+[179
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 76.
 
-[172
+[180
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 80.
 
-[173
+[181
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 94.
 
-[174
+[182
 
 ]
 
@@ -2054,17 +2219,17 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package caption Warning: Unused \captionsetup[sub] on input line 84.
 See the caption package documentation for explanation.
 
-[175
+[183
 
 ] (/Users/emjun/Git/dissertation/dissertation.aux)
 Package rerunfilecheck Info: File `dissertation.out' has not changed.
-(rerunfilecheck)             Checksum: 2BABB9DD5910A8D3970946F7C6DE9841;24789.
+(rerunfilecheck)             Checksum: A11C9C38F9A3BC3E2C336C448F079E54;26076.
  ) 
 Here is how much of TeX's memory you used:
- 42760 strings out of 478994
- 943867 string characters out of 5858185
- 1788222 words of memory out of 5000000
- 58579 multiletter control sequences out of 15000+600000
+ 42793 strings out of 478994
+ 944450 string characters out of 5858185
+ 1788319 words of memory out of 5000000
+ 58590 multiletter control sequences out of 15000+600000
  436429 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3526b,2700s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2105,10 +2270,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on /Users/emjun/Git/dissertation/dissertation.pdf (175 pages, 9113170 bytes).
+Output written on /Users/emjun/Git/dissertation/dissertation.pdf (183 pages, 9123071 bytes).
 PDF statistics:
- 2911 PDF objects out of 2984 (max. 8388607)
- 2500 compressed objects within 25 object streams
- 742 named destinations out of 1000 (max. 500000)
- 960 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2984 PDF objects out of 2984 (max. 8388607)
+ 2564 compressed objects within 26 object streams
+ 758 named destinations out of 1000 (max. 500000)
+ 1008 words of extra memory for PDF output out of 10000 (max. 10000000)
 

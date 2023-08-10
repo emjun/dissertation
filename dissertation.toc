@@ -41,7 +41,7 @@
 \contentsline {subsection}{\numberline {3.5.2}Does Tea avoid common mistakes made by non-expert users?}{45}{subsection.3.5.2}%
 \contentsline {section}{\numberline {3.6}\titlecap {Discussion, Limitations, and Future Work}}{46}{section.3.6}%
 \contentsline {section}{\numberline {3.7}\titlecap {Summary of Contributions}}{47}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Hypothesis Formalization: A Conceptual Framework Characterizing How Analysts Translate Research Questions into Statistical Analyses}{49}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Hypothesis Formalization: A Conceptual Framework Characterizing\\How Analysts Translate Research Questions into Statistical Analyses}{49}{chapter.4}%
 \contentsline {section}{\numberline {4.1}\titlecap {Background and Related Work}}{52}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Statistical Thinking}{52}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Statistical Data Analysis as Part of Scientific Discovery}{53}{subsection.4.1.2}%
@@ -157,19 +157,25 @@
 \contentsline {subsection}{\numberline {6.3.5}Support the Larger Data Life-cycle}{131}{subsection.6.3.5}%
 \contentsline {section}{\numberline {6.4}\titlecap {Closing Remarks}}{132}{section.6.4}%
 \contentsline {chapter}{Bibliography}{133}{section.6.4}%
-\contentsline {chapter}{\numberline {A}Appendix A: Content Analysis Resources}{151}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Content Analysis Resources}{151}{appendix.A}%
 \contentsline {section}{\numberline {A.1}\titlecap {Dataset overview}}{151}{section.A.1}%
 \contentsline {section}{\numberline {A.2}\titlecap {Procedure}}{151}{section.A.2}%
 \contentsline {section}{\numberline {A.3}\titlecap {Codebook}}{153}{section.A.3}%
 \contentsline {section}{\numberline {A.4}\titlecap {Additional findings: Contribution types}}{155}{section.A.4}%
 \contentsline {section}{\numberline {A.5}\titlecap {Summaries of papers analyzed}}{156}{section.A.5}%
-\contentsline {chapter}{\numberline {B}Appendix B: Tisane's First Release: Additional Examples}{167}{appendix.B}%
-\contentsline {section}{\numberline {B.1}\titlecap {Additional examples of graphs that may be constructed}}{167}{section.B.1}%
-\contentsline {section}{\numberline {B.2}\titlecap {Cautioning analysts about adding certain kinds of variables}}{168}{section.B.2}%
-\contentsline {chapter}{\numberline {C}Appendix C: Summative Evaluation Study Materials}{169}{appendix.C}%
-\contentsline {section}{\numberline {C.1}\titlecap {Phase 1: Warm up}}{170}{section.C.1}%
-\contentsline {section}{\numberline {C.2}\titlecap {Phase 2a: Express Conceptual Models, Without rTisane}}{171}{section.C.2}%
-\contentsline {section}{\numberline {C.3}\titlecap {Phase 2b: Express Conceptual Models, With rTisane}}{172}{section.C.3}%
-\contentsline {section}{\numberline {C.4}\titlecap {Phase 3a: Implement Statistical Models, Without rTisane}}{173}{section.C.4}%
-\contentsline {section}{\numberline {C.5}\titlecap {Phase 3b: Implement Statistical Models, With rTisane}}{174}{section.C.5}%
-\contentsline {section}{\numberline {C.6}\titlecap {Data Set for Statistical Analysis}}{175}{section.C.6}%
+\contentsline {chapter}{\numberline {B}Hypothesis Formalization Lab Study Materials}{167}{appendix.B}%
+\contentsline {section}{\numberline {B.1}\titlecap {Task 1: Hypothesis generation}}{167}{section.B.1}%
+\contentsline {section}{\numberline {B.2}\titlecap {Task 2: Conceptual modeling}}{168}{section.B.2}%
+\contentsline {section}{\numberline {B.3}\titlecap {Task 3: Statisitcal model specification}}{170}{section.B.3}%
+\contentsline {section}{\numberline {B.4}\titlecap {Take-home analysis instructions}}{171}{section.B.4}%
+\contentsline {chapter}{\numberline {C}Tisane's First Release: Additional Examples}{173}{appendix.C}%
+\contentsline {section}{\numberline {C.1}\titlecap {Additional examples of graphs that may be constructed}}{173}{section.C.1}%
+\contentsline {section}{\numberline {C.2}\titlecap {Cautioning analysts about adding certain kinds of variables}}{174}{section.C.2}%
+\contentsline {chapter}{\numberline {D}Tisane Re-design Exploratory Study Materials}{175}{appendix.D}%
+\contentsline {chapter}{\numberline {E}rTisane Summative Evaluation Study Materials}{177}{appendix.E}%
+\contentsline {section}{\numberline {E.1}\titlecap {Phase 1: Warm up}}{178}{section.E.1}%
+\contentsline {section}{\numberline {E.2}\titlecap {Phase 2a: Express Conceptual Models, Without rTisane}}{179}{section.E.2}%
+\contentsline {section}{\numberline {E.3}\titlecap {Phase 2b: Express Conceptual Models, With rTisane}}{180}{section.E.3}%
+\contentsline {section}{\numberline {E.4}\titlecap {Phase 3a: Implement Statistical Models, Without rTisane}}{181}{section.E.4}%
+\contentsline {section}{\numberline {E.5}\titlecap {Phase 3b: Implement Statistical Models, With rTisane}}{182}{section.E.5}%
+\contentsline {section}{\numberline {E.6}\titlecap {Data Set for Statistical Analysis}}{183}{section.E.6}%
