@@ -161,7 +161,7 @@
 \contentsline {section}{\numberline {A.1}\titlecap {Dataset overview}}{151}{section.A.1}%
 \contentsline {section}{\numberline {A.2}\titlecap {Procedure}}{151}{section.A.2}%
 \contentsline {section}{\numberline {A.3}\titlecap {Codebook}}{153}{section.A.3}%
-\contentsline {section}{\numberline {A.4}\titlecap {Additional findings: Contribution types}}{154}{section.A.4}%
+\contentsline {section}{\numberline {A.4}\titlecap {Additional findings: Contribution types}}{155}{section.A.4}%
 \contentsline {section}{\numberline {A.5}\titlecap {Summaries of papers analyzed}}{156}{section.A.5}%
 \contentsline {chapter}{\numberline {B}Appendix B: Tisane's First Release: Additional Examples}{167}{appendix.B}%
 \contentsline {section}{\numberline {B.1}\titlecap {Additional examples of graphs that may be constructed}}{167}{section.B.1}%
