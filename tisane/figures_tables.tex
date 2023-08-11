@@ -1106,47 +1106,68 @@
   \end{table}
 }
 
+\newcommand{\mysmaller}{\fontsize{9pt}{9pt}\selectfont}
+\newcommand{\smalltt}[1]{{\mysmaller \texttt{#1}}}
+
 \newcommand{\tableModelScores}{
+    \renewcommand{\arraystretch}{0.3}
     \begin{table}
         \caption{\textbf{Statistical model comparisons with and without \rTisane.}}
         \begin{small}
         \begin{minipage}{\linewidth}
             Using \rTisane, analysts authored statistical models that fit the data just as well or better than without \rTisane. 
-            We did not observe a difference in statistical model quality if participants used \rTisane first except in the case of P11. 
-            When asked to author a statistical model without \rTisane, P11 took the output model from \rTisane, deemed that the model did not fit the data well based on the AIC score, log transformed the income data, and then fit the revised model as their own. 
-            As a result of the log transform, many observations without an Income were dropped, explaining the difference between AIC/BIC scores without tool support and with \rTisane. 
             For each participant, the better fitting statistical model scores are in bold. For P7, P8, and P13, there are no bold scores because the statistical models without and with \rTisane are identical. 
+            We did not observe a difference in statistical model quality if participants used \rTisane first except in the case of P11. 
+            When asked to author a statistical model without \rTisane, P11 took the output model from \rTisane, deemed poor model fit based on the AIC score, log transformed \texttt{Income}, and then fit the revised model as their own. 
+            To perform the log transform, P11 dropped observations where \texttt{Income$=$0}, explaining the marked difference in AIC/BIC scores between tool support conditions, as indicated by \textsuperscript{a}. 
         \end{minipage}
         \end{small}
         \centering
-        \footnotesize
+        % \footnotesize
+        \mysmaller
+        % \doublespacing
         \begin{tabularx}{\linewidth}{p{.025\linewidth} p{.055\linewidth} >{\raggedright}p{0.53\linewidth} l l}
             \toprule
             \colH{ID} & \colH{Tool} & \colH{Statistical model} & \colH{AIC (df)} & \colH{BIC (df)} \\
             \midrule \\ 
-            P2                       & None       & \texttt{lm(data\$Income $\sim$ data\$Employment + data\$Age + data\$Race + data\$Education + data\$Sex + data\$Age*data\$Employment + data\$Race*data\$Employment + data\$Education*data\$Employment + data\$Sex*data\$Employment)}  & \textbf{60327741 (37)} & \textbf{60328211 (37)} \\
-                                     & \rTisane   & \texttt{glm(formula=Income $\sim$ Employment, family=gaussian(link='identity'), data=data)}                                                                                                                                      & 60781341 (4)           & 60781392 (4)           \\
+            P2                       
+            & None       
+            & \smalltt{lm(data\$Income $\sim$ data\$Employment + data\$Age + data\$Race + data\$Education + data\$Sex + data\$Age*data\$Employment + data\$Race*data\$Employment + data\$Education*data\$Employment + data\$Sex*data\$Employment)}
+            & \textbf{60327741 (37)} 
+            & \textbf{60328211 (37)} \\
+            & & & & \\ % For formatting
+            % & & & & \\ % For formatting
+            & \rTisane   
+            & \smalltt{glm(formula=Income $\sim$ Employment, family=gaussian(link='identity'), data=data)}
+            & 60781341 (4)           
+            & 60781392 (4) \\
             \midrule \\ % For formatting
-            P4                       & None       & \texttt{lm(Income $\sim$ Age + Education + Employment + Race + Sex, data=data)}                                                                                                                                                  & 60358715 (15)           & 60358906 (15)           \\
-                                     & \rTisane   & \texttt{glm(formula=Income $\sim$ Education + Age + Education*Sex + Employment + Race + Sex, family=gaussian(link='identity'), data=data)}                                                                                                 & \textbf{60332919 (19)} & \textbf{60333161 (19)} \\
+            P4                       & None       & \smalltt{lm(Income $\sim$ Age + Education + Employment + Race + Sex, data=data)}                                                                                                                                                  & 60358715 (15)           & 60358906 (15)           \\
+            & & & & \\ % For formatting                         
+                                     & \rTisane   & \smalltt{glm(formula=Income $\sim$ Education + Age + Education*Sex + Employment + Race + Sex, family=gaussian(link='identity'), data=data)}                                                                                                 & \textbf{60332919 (19)} & \textbf{60333161 (19)} \\
             \midrule \\ % For formatting
-            P7                       & None       & \texttt{lm(formula = Income $\sim$ Age + Race + Education + Employment + Sex, data = data)}                                                                                                                                      & 60358715 (15)           & 60358906 (15)          \\
-                                     & \rTisane   & \texttt{glm(formula=Income $\sim$ Sex + Age + Employment + Race + Education, family=gaussian(link='identity'), data=data)}                                                                                                               & 60358715 (15)           & 60358906 (15)          \\
+            P7                       & None       & \smalltt{lm(formula = Income $\sim$ Age + Race + Education + Employment + Sex, data = data)}                                                                                                                                      & 60358715 (15)           & 60358906 (15)          \\
+            & & & & \\ % For formatting
+                                    & \rTisane   & \smalltt{glm(formula=Income $\sim$ Sex + Age + Employment + Race + Education, family=gaussian(link='identity'), data=data)}                                                                                                               & 60358715 (15)           & 60358906 (15)          \\
             \midrule \\ % For formatting
-            P8                       & None       & \texttt{lm(Income $\sim$ Sex*Race + Employment + Education + Race*Sex + Age, data = data)}                                                                                                                                       & 60354038 (20)          & 60354292 (20)          \\
-                                     & \rTisane   & \texttt{glm(formula=Income $\sim$ Age + Race*Sex + Employment + Age*Education, family=gaussian(link='identity'), data=data)}                                                                                                           & \textbf{60351454 (24)} & \textbf{60351759 (24)} \\
+            P8                       & None       & \smalltt{lm(Income $\sim$ Sex*Race + Employment + Education + Race*Sex + Age, data = data)}                                                                                                                                       & 60354038 (20)          & 60354292 (20)          \\
+            & & & & \\ % For formatting
+            & \rTisane   & \smalltt{glm(formula=Income $\sim$ Age + Race*Sex + Employment + Age*Education, family=gaussian(link='identity'), data=data)}                                                                                                           & \textbf{60351454 (24)} & \textbf{60351759 (24)} \\
             \midrule \\ % For formatting
-            P9                       & None       & \texttt{smf.OLS("Income $\sim$ Age + C(Race) + C(Education) + C(Employment) + C(Sex)", data=df)}                                                                                                                                 & 60358715 (15)          & 60358906 (15)          \\
-                                     & \rTisane   & \texttt{glm(formula=Income $\sim$ Employment + Race + Sex + Education + Age, family=gaussian(link='identity'), data=data)}                                                                                                               & 60358715 (15)          & 60358906 (15)          \\
+            P9                       & None       & \smalltt{smf.OLS("Income $\sim$ Age + C(Race) + C(Education) + C(Employment) + C(Sex)", data=df)}                                                                                                                                 & 60358715 (15)          & 60358906 (15)          \\
+                                     & \rTisane   & \smalltt{glm(formula=Income $\sim$ Employment + Race + Sex + Education + Age, family=gaussian(link='identity'), data=data)}                                                                                                               & 60358715 (15)          & 60358906 (15)          \\
             \midrule \\ % For formatting
-            P10                      & None       & \texttt{sm.OLS.from\_formula("Income $\sim$ Age", data=df)}                                                                                                                                                                     & 60876872 (3)           & 60876910 (3)           \\
-                                     & \rTisane   & \texttt{glm(formula=Income $\sim$ Employment + Sex + Education + Age + Sex*Education, family=gaussian(link='identity'), data=data)}                                                                                                      & \textbf{60339137 (14)} & \textbf{60339315 (14)} \\
+            P10                      & None       & \smalltt{sm.OLS.from\_formula("Income $\sim$ Age", data=df)}                                                                                                                                                                     & 60876872 (3)           & 60876910 (3)           \\
+            & & & & \\ % For formatting
+            & \rTisane   & \smalltt{glm(formula=Income $\sim$ Employment + Sex + Education + Age + Sex*Education, family=gaussian(link='identity'), data=data)}                                                                                                      & \textbf{60339137 (14)} & \textbf{60339315 (14)} \\
             \midrule \\ % For formatting
-            P11                      & None*       & \texttt{glm(log\_income $\sim$ Employment + Race + Age + Education + Sex, family = "gaussian", data=data)}                                                                                                                       & 11741899 (15)        & 11742089 (15)          \\
-                                     & \rTisane   & \texttt{glm(formula=Income $\sim$ Employment + Race + Sex + Education + Age, family=gaussian(link='identity'), data=data)}                                                                                                               & 60358715 (15)          & 60358906 (15)          \\
+            P11                      & None       & \smalltt{glm(log\_income $\sim$ Employment + Race + Age + Education + Sex, family = "gaussian", data=data)}                                                                                                                       & 11741899\textsuperscript{a} (15)        & 11742089\textsuperscript{a} (15)          \\
+            & & & & \\ % For formatting
+            & \rTisane   & \smalltt{glm(formula=Income $\sim$ Employment + Race + Sex + Education + Age, family=gaussian(link='identity'), data=data)}                                                                                                               & 60358715 (15)          & 60358906 (15)          \\
             \midrule \\ % For formatting
-            P13                      & None       & \texttt{glm(Income $\sim$ Age*factor(Race)*factor(Sex) + factor(Education)*factor(Employment), family="gaussian", data)}                                                                                                           & 60331749 (39)          & 60332244 (39)          \\
-                                     & \rTisane   & \texttt{glm(formula=Income $\sim$ Employment + Age*Race*Sex + Education*Employment + Education, family=gaussian(link='identity'), data=data)}                                                                                          & 60331749 (39)          & 60332244 (39)         
+            P13                      & None       & \smalltt{glm(Income $\sim$ Age*factor(Race)*factor(Sex) + factor(Education)*factor(Employment), family="gaussian", data)}                                                                                                           & 60331749 (39)          & 60332244 (39)          \\
+            & & & & \\ % For formatting
+            & \rTisane   & \smalltt{glm(formula=Income $\sim$ Employment + Age*Race*Sex + Education*Employment + Education, family=gaussian(link='identity'), data=data)}                                                                                          & 60331749 (39)          & 60332244 (39)         
         \end{tabularx}
     \end{table}
 }
