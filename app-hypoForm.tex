@@ -138,4 +138,12 @@ types, either within or across venues.
 
 \section{Annotated matrices for all papers}
 In the following pages are annotated matrices for each of the papers in our corpus. 
-\includepdf[pages=-, fitpaper=true, scale=0.8]{hypothesisFormalization/annotated-matrices.pdf} 
+\pagestyle{fancy}
+\fancypagestyle{pdfpages}{
+    \fancyhf{} % clear all header and footer fields
+    \cfoot{\hspace{-2cm}\thepage} % Adjust to the left
+    \setlength{\footskip}{200pt} % Adjust height
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+\includepdf[pages=-, fitpaper=true, scale=0.8, pagecommand={\thispagestyle{pdfpages}}]{hypothesisFormalization/annotated-matrices.pdf} 
