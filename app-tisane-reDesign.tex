@@ -6,13 +6,13 @@ Markdown files. Each section below was in a separate file.
 
 You identified the following constructs and proxies.
 
-For Conceptual Hypothesis 1 (CH1): <Fill in based on homework response construct: proxy>
+For Conceptual Hypothesis 1 (CH1): <Fill in based on homework response: construct: proxy>
 
-For CH2:  <Fill in based on homework response construct: proxy>
+For CH2:  <Fill in based on homework response: construct: proxy>
 
-For CH3: <Fill in based on homework response construct: proxy>
+For CH3: <Fill in based on homework response: construct: proxy>
 
-For CH4: <Fill in based on homework response construct: proxy>
+For CH4: <Fill in based on homework response: construct: proxy>
 
 \subsection*{Current idea}
 \emph{The language constructs presented here and for the remainder of
@@ -165,11 +165,9 @@ variables.}
 
 \section{Task 2: Study design and data collection}
 
-You summarized the study design as follows: \textgreater{} FILL IN
+You summarized the study design as follows: <Fill in based on homework response>
 
-\hypertarget{current-idea-data-measurement-relationships}{%
-\subsection*{Current idea: Data measurement
-relationships}\label{current-idea-data-measurement-relationships}}
+\subsection*{Current idea: Data measurement relationships}
 
 \emph{As before, the language constructs presented here and for the
 remainder of the study are an \textbf{initial set} of ideas we have. We
@@ -177,8 +175,7 @@ are actively seeking to \textbf{add, remove, and adapt the language.}}
 
 We are thinking about two ways of specifying how data were collected.
 
-\hypertarget{number-of-instances}{%
-\subsubsection{Number of instances}\label{number-of-instances}}
+\subsubsection{1. Number of instances}
 
 We want to add a \texttt{number\_of\_instances} to how each Measure is
 specified to indicate how many times a Unit provided an observation of
@@ -191,7 +188,9 @@ programmer <- Unit("participant", 40)
 # Each programmer is assigned to exactly one IDE condition
 ide <- nominal(programmer, "ide", number_of_instances=1)
 # Each programmer has an experience level
-experience_level <- ordinal(programmer, "experience level", ["low", "medium", "high"], number_of_instances=1)
+experience_level <- ordinal(programmer, "experience level", 
+                            ["low", "medium", "high"], 
+                            number_of_instances=1)
 # Each programmer writes lines of code for the study
 loc <- numeric(programmer, "lines of code", number_of_instances=1)
 
@@ -199,26 +198,26 @@ loc <- numeric(programmer, "lines of code", number_of_instances=1)
 week <- SetUp("time", [1, 2, 3, 4])
 loc <- numeric(programmer, "lines of code", number_of_instances=week)
 # The above is equivalento the below: 
-loc <- numeric(programmer, "lines of code", number_of_instances=Per(Exactly(1), week))
+loc <- numeric(programmer, "lines of code", 
+                            number_of_instances=Per(Exactly(1), week))
 
-# Each programmer writes lines of code, exactly three times per week (multiple measures)
-loc <- numeric(programmer, "lines of code", number_of_instances=Per(Exactly(3), week))
+# Each programmer writes lines of code, 
+    exactly three times per week (multiple measures)
+loc <- numeric(programmer, "lines of code", 
+                            number_of_instances=Per(Exactly(3), week))
 
-# Each programmer writes lines of code, at most three times per week if a programmer can have 0, 1, 2, or 3 measures of lines of code 
-loc <- numeric(programmer, "lines of code", number_of_instances=Per(AtMost(1), week))
+# Each programmer writes lines of code, 
+    at most three times per week if a programmer can have 
+    0, 1, 2, or 3 measures of lines of code 
+loc <- numeric(programmer, "lines of code", 
+                            number_of_instances=Per(AtMost(1), week))
 \end{verbatim}
 
-\hypertarget{your-input}{%
-\subsection*{Your input!}\label{your-input}}
+\subsection*{Your input!}
 
 Specify how the variables were collected in the paper.
 
-\begin{verbatim}
-\end{verbatim}
-
-\hypertarget{data-measurement-relationships}{%
-\subsubsection{Data measurement
-relationships}\label{data-measurement-relationships}}
+\subsubsection{2. Data measurement relationships}
 
 Previously, you could specify the number of instances or observations
 for each measure. In addition to specifying the number of
@@ -252,21 +251,14 @@ Also, feel free to introduce new relationships, language constructs,
 etc! \emph{Really try to fully communicate what you want to express
 about the data measurement relationships.}
 
-\begin{verbatim}
-\end{verbatim}
 \clearpage
 
 
+\section{Task 3: Conceptual model}
 
-\hypertarget{conceptual-model}{%
-\section{Task 3: Conceptual model}\label{conceptual-model}}
+You summarized the authors' conceptual model as below: <Fill in based on homework response>
 
-You summarized the authors' conceptual model as below: \textgreater{}
-FILL IN
-
-\hypertarget{current-idea-conceptual-relationships}{%
-\subsection*{Current idea: Conceptual
-relationships}\label{current-idea-conceptual-relationships}}
+\subsection*{Current idea: Conceptual relationships}
 
 \emph{As before, the language constructs presented here and for the
 remainder of the study are an \textbf{initial set} of ideas we have. We
@@ -277,8 +269,7 @@ constructs. We think there may be more or additional ways to fully
 express/capture your conceptual model. We are curious what is most
 natural, or intuitive, for you to express conceptual models.
 
-\hypertarget{causes}{%
-\subsubsection{1. Causes}\label{causes}}
+\subsubsection{1. Causes}
 
 \begin{quote}
 \emph{Causes} means you either know or suspect that a variable causes
@@ -291,15 +282,15 @@ For example:
 programmer <- Unit("participant", 40)
 language <- nominal(programmer, "programming language")
 ide <- nominal(programmer, "ide")
-experience_level <- ordinal(programmer, "experience level", ["low", "medium", "high"])
+experience_level <- ordinal(programmer, "experience level", 
+                            ["low", "medium", "high"])
 loc <- numeric(programmer, "lines of code")
 
 # IDE causes LOC
 causes(ide, loc)
 \end{verbatim}
 
-\hypertarget{associates-with}{%
-\subsubsection{2. Associates with}\label{associates-with}}
+\subsubsection{2. Associates with}
 
 \begin{quote}
 \emph{Associates with} means you know or suspect a relationship between
@@ -315,8 +306,8 @@ associates_with(experience_level, loc)
 associates_with(loc, experience_level)
 \end{verbatim}
 
-\hypertarget{moderates}{%
-\subsubsection{3. Moderates}\label{moderates}}
+
+\subsubsection{3. Moderates}
 
 \begin{quote}
 \emph{Moderates} means you either know or suspect that a variable's
@@ -326,17 +317,19 @@ effect on another variable is moderated by one or more variables.
 \begin{verbatim}
 For example:
 ```
-# Experience level moderates the effect of programming language on lines of code
+# Experience level moderates the effect of programming language 
+    on lines of code
 moderates(c(experience_level, language), loc)
-# In other words, programming language moderates the effect of experience level on lines of code
+# In other words, programming language moderates the effect of 
+    experience level on lines of code
 # Order of moderating variables doesn't matter
 moderates(c(language, experience_level), loc)
 
-# Note: Moderates implies experience and programming language cause or are associated with lines of code (if not already specified)
+# Note: Moderates implies experience and programming language 
+    cause or are associated with lines of code (if not already specified)
 \end{verbatim}
 
-\hypertarget{your-input}{%
-\subsection*{Your input!}\label{your-input}}
+\subsection*{Your input!}
 
 Starting from these language ideas, specify your conceptual model
 relating the variables.

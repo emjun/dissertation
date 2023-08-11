@@ -181,8 +181,8 @@
 \contentsline {subsubsection}{2c. Numeric Measure}{229}{section*.104}%
 \contentsline {subsubsection}{3. SetUp}{229}{section*.105}%
 \contentsline {section}{\numberline {D.2}\titlecap {Task 2: Study design and data collection}}{230}{section.D.2}%
-\contentsline {subsubsection}{Number of instances}{230}{section*.108}%
-\contentsline {subsubsection}{Data measurement relationships}{230}{section*.110}%
+\contentsline {subsubsection}{1. Number of instances}{230}{section*.108}%
+\contentsline {subsubsection}{2. Data measurement relationships}{231}{section*.110}%
 \contentsline {section}{\numberline {D.3}\titlecap {Task 3: Conceptual model}}{232}{section.D.3}%
 \contentsline {subsubsection}{1. Causes}{232}{section*.113}%
 \contentsline {subsubsection}{2. Associates with}{232}{section*.114}%
