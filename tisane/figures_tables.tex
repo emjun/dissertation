@@ -662,7 +662,7 @@
            \node[caption,below=of moderates2]      {(b) \texttt{m1.moderates(m2, on=m3)}};
            \node[caption,below=of moderates3]      {(c) \texttt{m1.moderates(m2, on=m3)}};
        \end{tikzpicture}
-       \caption{\textbf{More complex examples of \texttt{moderates} written in Tisane's \SDSLlong, and their representation in Tisane's graph IR.}}
+       \caption{\textbf{More complex examples of \texttt{moderates} written in Tisane's \SDSLlong and their representation in Tisane's graph IR.}}
         \begin{small}
         \begin{minipage}{\linewidth}
             Variables are named with \texttt{u} for units, \texttt{m} for measures, and \texttt{v} for data variables that can be either units or measures. Black edges have been added due to the \texttt{moderates} relationship. Gray edges already existed in the graph. In (a), only \mone is a measure, whose unit is \utwo, so \umone inherits an attribution edge only from \utwo. In (b), \mone and \mtwo are measures, with units \uone and \utwo respectively, so \monetwo inherits attribution edges from both \uone and \utwo. In (c), measures \mone and \mtwo share a unit, \u, and \monetwo inherits only one attribution edge from \u.

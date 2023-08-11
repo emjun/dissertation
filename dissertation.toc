@@ -96,7 +96,7 @@
 \contentsline {paragraph}{Deriving Candidate Main Effects}{94}{section*.58}%
 \contentsline {paragraph}{Deriving Candidate Interaction Effects}{95}{section*.60}%
 \contentsline {paragraph}{Deriving Candidate Random Effects}{96}{section*.61}%
-\contentsline {paragraph}{Deriving Candidate Family and Link Functions}{97}{table.caption.63}%
+\contentsline {paragraph}{Deriving Candidate Family and Link Functions}{96}{table.caption.63}%
 \contentsline {subsubsection}{Eliciting Analyst Input for Disambiguation\xspace }{97}{section*.64}%
 \contentsline {subsubsection}{Output}{99}{section*.66}%
 \contentsline {section}{\numberline {5.4}\titlecap {Initial evaluation: Case studies with researchers}}{99}{section.5.4}%
@@ -163,33 +163,34 @@
 \contentsline {section}{\numberline {A.3}\titlecap {Codebook}}{153}{section.A.3}%
 \contentsline {section}{\numberline {A.4}\titlecap {Additional findings: Contribution types}}{155}{section.A.4}%
 \contentsline {section}{\numberline {A.5}\titlecap {Summaries of papers analyzed}}{156}{section.A.5}%
-\contentsline {chapter}{\numberline {B}Hypothesis Formalization Lab Study Materials}{167}{appendix.B}%
-\contentsline {section}{\numberline {B.1}\titlecap {Task 1: Hypothesis generation}}{167}{section.B.1}%
-\contentsline {section}{\numberline {B.2}\titlecap {Task 2: Conceptual modeling}}{168}{section.B.2}%
-\contentsline {section}{\numberline {B.3}\titlecap {Task 3: Statisitcal model specification}}{170}{section.B.3}%
-\contentsline {section}{\numberline {B.4}\titlecap {Take-home analysis instructions}}{171}{section.B.4}%
-\contentsline {chapter}{\numberline {C}Tisane's First Release: Additional Examples}{173}{appendix.C}%
-\contentsline {section}{\numberline {C.1}\titlecap {Additional examples of graphs that may be constructed}}{173}{section.C.1}%
-\contentsline {section}{\numberline {C.2}\titlecap {Cautioning analysts about adding certain kinds of variables}}{174}{section.C.2}%
-\contentsline {chapter}{\numberline {D}Elicitation Lab Study Materials}{175}{appendix.D}%
-\contentsline {section}{\numberline {D.1}\titlecap {Task 1: Variables}}{175}{section.D.1}%
-\contentsline {subsubsection}{1. Units}{175}{section*.100}%
-\contentsline {subsubsection}{2. Measures: Nominal, Ordinal, and Numeric}{176}{section*.101}%
-\contentsline {subsubsection}{2a. Nominal Measure}{176}{section*.102}%
-\contentsline {subsubsection}{2b. Ordinal Measure}{176}{section*.103}%
-\contentsline {subsubsection}{2c. Numeric Measure}{177}{section*.104}%
-\contentsline {subsubsection}{3. SetUp}{177}{section*.105}%
-\contentsline {section}{\numberline {D.2}\titlecap {Task 2: Study design and data collection}}{178}{section.D.2}%
-\contentsline {subsubsection}{Number of instances}{178}{section*.108}%
-\contentsline {subsubsection}{Data measurement relationships}{178}{section*.110}%
-\contentsline {section}{\numberline {D.3}\titlecap {Task 3: Conceptual model}}{180}{section.D.3}%
-\contentsline {subsubsection}{1. Causes}{180}{section*.113}%
-\contentsline {subsubsection}{2. Associates with}{180}{section*.114}%
-\contentsline {subsubsection}{3. Moderates}{180}{section*.115}%
-\contentsline {chapter}{\numberline {E}rTisane Summative Evaluation Study Materials}{183}{appendix.E}%
-\contentsline {section}{\numberline {E.1}\titlecap {Phase 1: Warm up}}{184}{section.E.1}%
-\contentsline {section}{\numberline {E.2}\titlecap {Phase 2a: Express Conceptual Models, Without rTisane}}{185}{section.E.2}%
-\contentsline {section}{\numberline {E.3}\titlecap {Phase 2b: Express Conceptual Models, With rTisane}}{186}{section.E.3}%
-\contentsline {section}{\numberline {E.4}\titlecap {Phase 3a: Implement Statistical Models, Without rTisane}}{187}{section.E.4}%
-\contentsline {section}{\numberline {E.5}\titlecap {Phase 3b: Implement Statistical Models, With rTisane}}{188}{section.E.5}%
-\contentsline {section}{\numberline {E.6}\titlecap {Dataset for Statistical Analysis}}{189}{section.E.6}%
+\contentsline {section}{\numberline {A.6}\titlecap {Annotated matrices for all papers}}{165}{section.A.6}%
+\contentsline {chapter}{\numberline {B}Hypothesis Formalization Lab Study Materials}{219}{appendix.B}%
+\contentsline {section}{\numberline {B.1}\titlecap {Task 1: Hypothesis generation}}{219}{section.B.1}%
+\contentsline {section}{\numberline {B.2}\titlecap {Task 2: Conceptual modeling}}{220}{section.B.2}%
+\contentsline {section}{\numberline {B.3}\titlecap {Task 3: Statisitcal model specification}}{222}{section.B.3}%
+\contentsline {section}{\numberline {B.4}\titlecap {Take-home analysis instructions}}{223}{section.B.4}%
+\contentsline {chapter}{\numberline {C}Tisane's First Release: Additional Examples}{225}{appendix.C}%
+\contentsline {section}{\numberline {C.1}\titlecap {Additional examples of graphs that may be constructed}}{225}{section.C.1}%
+\contentsline {section}{\numberline {C.2}\titlecap {Cautioning analysts about adding certain kinds of variables}}{226}{section.C.2}%
+\contentsline {chapter}{\numberline {D}Elicitation Lab Study Materials}{227}{appendix.D}%
+\contentsline {section}{\numberline {D.1}\titlecap {Task 1: Variables}}{227}{section.D.1}%
+\contentsline {subsubsection}{1. Units}{227}{section*.100}%
+\contentsline {subsubsection}{2. Measures: Nominal, Ordinal, and Numeric}{228}{section*.101}%
+\contentsline {subsubsection}{2a. Nominal Measure}{228}{section*.102}%
+\contentsline {subsubsection}{2b. Ordinal Measure}{228}{section*.103}%
+\contentsline {subsubsection}{2c. Numeric Measure}{229}{section*.104}%
+\contentsline {subsubsection}{3. SetUp}{229}{section*.105}%
+\contentsline {section}{\numberline {D.2}\titlecap {Task 2: Study design and data collection}}{230}{section.D.2}%
+\contentsline {subsubsection}{Number of instances}{230}{section*.108}%
+\contentsline {subsubsection}{Data measurement relationships}{230}{section*.110}%
+\contentsline {section}{\numberline {D.3}\titlecap {Task 3: Conceptual model}}{232}{section.D.3}%
+\contentsline {subsubsection}{1. Causes}{232}{section*.113}%
+\contentsline {subsubsection}{2. Associates with}{232}{section*.114}%
+\contentsline {subsubsection}{3. Moderates}{232}{section*.115}%
+\contentsline {chapter}{\numberline {E}rTisane Summative Evaluation Study Materials}{235}{appendix.E}%
+\contentsline {section}{\numberline {E.1}\titlecap {Phase 1: Warm up}}{236}{section.E.1}%
+\contentsline {section}{\numberline {E.2}\titlecap {Phase 2a: Express Conceptual Models, Without rTisane}}{237}{section.E.2}%
+\contentsline {section}{\numberline {E.3}\titlecap {Phase 2b: Express Conceptual Models, With rTisane}}{238}{section.E.3}%
+\contentsline {section}{\numberline {E.4}\titlecap {Phase 3a: Implement Statistical Models, Without rTisane}}{239}{section.E.4}%
+\contentsline {section}{\numberline {E.5}\titlecap {Phase 3b: Implement Statistical Models, With rTisane}}{240}{section.E.5}%
+\contentsline {section}{\numberline {E.6}\titlecap {Dataset for Statistical Analysis}}{241}{section.E.6}%
