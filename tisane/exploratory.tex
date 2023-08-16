@@ -14,7 +14,7 @@ research methods course taught and used R. Our aim with \rTisane, the R version
 of \tisane, was to increase the expressivity of the DSL to represent analysts'
 implicit domain knowledge. We used the first release of
 \tisane~\cite{jun2022tisane} to probe analysts' internal processes and derive
-design goals~\autoref{sec:rtisane_design_implications} for re-designing \tisane.
+design goals~\autoref{sec:rtisane_design_implications} for designing \rTisane.
 
 \subsection{Method}
 %Participants
@@ -244,10 +244,9 @@ procedures.
 % like conditions like, like, this person uses this IDE or this person is given
 % this IDE.'' 
 
-\subsection{Domain-Specific Language Re-design Goals} \label{sec:rtisane_design_implications} 
+\subsection{Design Goals} \label{sec:rtisane_design_implications} 
 % \polish{ It might be worth mentioning that, even if Tisane does not use some of the more nuanced annotations for model suggestion, these are valuable for externalizing analysts' conceptual models for documentation and communication (potentially including preregistration).}
-Based on our lab study observations, we derived four design goals for
-re-designing Tisane's DSL to more accurately capture analysts' implicit
+Based on our lab study observations, we derived four design goals to more accurately capture analysts' implicit
 conceptual models: 
 %  about how
 % participants internally represent conceptual models and study designs have three
@@ -268,7 +267,7 @@ conceptual models:
 \end{itemize}
 
 In the second release of \tisane, we addressed these goals through new language
-constructs. We also added constructs to more easily capture
+constructs and two-phase interactive compilation process. We also added DSL constructs to more easily capture
 study design details. 
 
 \begin{comment}

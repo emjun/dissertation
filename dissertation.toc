@@ -104,7 +104,7 @@
 \contentsline {subsection}{\numberline {5.4.2}Case Study 2: Analyzing Data for a Paper Submission}{101}{subsection.5.4.2}%
 \contentsline {subsection}{\numberline {5.4.3}Case Study 3: Developing Models to Inform Future Models}{102}{subsection.5.4.3}%
 \contentsline {section}{\numberline {5.5}\titlecap {Discussion: System changes and Takeaways}}{103}{section.5.5}%
-\contentsline {section}{\numberline {5.6}\titlecap {Limitations and Motivation for Re-design}}{104}{section.5.6}%
+\contentsline {section}{\numberline {5.6}\titlecap {Limitations and Motivation for Iteration}}{104}{section.5.6}%
 \contentsline {section}{\numberline {5.7}\titlecap {Elicitation lab study}}{104}{section.5.7}%
 \contentsline {subsection}{\numberline {5.7.1}Method}{105}{subsection.5.7.1}%
 \contentsline {subsection}{\numberline {5.7.2}Key Observations}{105}{subsection.5.7.2}%
@@ -113,8 +113,8 @@
 \contentsline {subsubsection}{Participants distinguish between known and suspected relationships.}{107}{section*.69}%
 \contentsline {subsubsection}{Participants consider alternative conceptual structures in the face of ambiguity.}{107}{section*.70}%
 \contentsline {subsubsection}{Participants expected more syntactic sugar for specifying data collection details.}{108}{section*.71}%
-\contentsline {subsection}{\numberline {5.7.3}Domain-Specific Language Re-design Goals}{108}{subsection.5.7.3}%
-\contentsline {section}{\numberline {5.8}\titlecap {Second Release: rTisane}}{109}{section.5.8}%
+\contentsline {subsection}{\numberline {5.7.3}Design Goals}{108}{subsection.5.7.3}%
+\contentsline {section}{\numberline {5.8}\titlecap {Second Release: rTisane}}{110}{section.5.8}%
 \contentsline {subsection}{\numberline {5.8.1}rTisane's\xspace Domain-Specific Language}{110}{subsection.5.8.1}%
 \contentsline {subsubsection}{Declaring variables}{110}{section*.72}%
 \contentsline {subsubsection}{Expressing a conceptual model}{110}{section*.73}%
