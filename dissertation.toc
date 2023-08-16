@@ -83,7 +83,7 @@
 \contentsline {subsection}{\numberline {5.1.1}Statistical Scope}{85}{subsection.5.1.1}%
 \contentsline {section}{\numberline {5.2}\titlecap {Early Design Process}}{86}{section.5.2}%
 \contentsline {section}{\numberline {5.3}\titlecap {First Release}}{87}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Study Design Specification Language and Graph Representation}{87}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.1}Tisane's DSL\xspace and Graph Representation}{87}{subsection.5.3.1}%
 \contentsline {subsubsection}{Variables}{88}{section*.48}%
 \contentsline {subsubsection}{Relationships between Variables}{89}{section*.49}%
 \contentsline {paragraph}{Conceptual relationships.}{90}{section*.51}%
@@ -95,7 +95,7 @@
 \contentsline {subsubsection}{Candidate statistical model generation}{94}{section*.57}%
 \contentsline {paragraph}{Deriving Candidate Main Effects}{94}{section*.58}%
 \contentsline {paragraph}{Deriving Candidate Interaction Effects}{95}{section*.60}%
-\contentsline {paragraph}{Deriving Candidate Random Effects}{95}{section*.61}%
+\contentsline {paragraph}{Deriving Candidate Random Effects}{96}{section*.61}%
 \contentsline {paragraph}{Deriving Candidate Family and Link Functions}{96}{table.caption.63}%
 \contentsline {subsubsection}{Eliciting Analyst Input for Disambiguation\xspace }{97}{section*.64}%
 \contentsline {subsubsection}{Output}{99}{section*.66}%

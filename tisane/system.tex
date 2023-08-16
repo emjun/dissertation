@@ -64,14 +64,15 @@ redundant functions.
 \section{First Release} \label{sec:tisane}
 % This work was originally published at ACM CHI, where it received a \textit{Best Paper Honorable Mention awward}.
 
-Tisane provides a \textit{\SDSLlong} for expressing
-relationships between variables. There are two key challenges in designing a
-specification from which to infer statistical models: (1) determining the set of
-relationships that are essential for statistical modeling and (2) determining
-the level of granularity to express relationships.
+Tisane provides (i) a \SDSLlong for expressing relationships between variables
+(\autoref{sec:dsl}) and (ii) an interactive process for deriving
+statistical models from conceptual relationships (\autoref{sec:interaction_model}). There are two key challenges
+in designing a specification from which to infer statistical models: (1)
+determining the set of relationships that are essential for statistical modeling
+and (2) determining the level of granularity to express relationships.
 
-\subsection{Study Design Specification Language and Graph Representation} \label{sec:dsl}
-In Tisane's SDSL, analysts can express conceptual and data measurement
+\subsection{Tisane's \SDSL and Graph Representation} \label{sec:dsl}
+In Tisane's \SDSL, analysts can express conceptual and data measurement
 relationships between variables. Both are necessary to specify the domain
 knowledge and study designs from which Tisane infers statistical models.
 
