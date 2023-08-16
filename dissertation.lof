@@ -8,7 +8,7 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces \textbf {Example reorderable matrix for Ngo et al.'s ``Development of holistic episodic recollection'' published in \textit {Psychological Science} (2019)\nobreakspace {}\cite {PS9} from the formative content analysis.}\relax }}{55}{figure.caption.26}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces \textbf {Sample statistical specification from analyst D8 in the lab study.}\relax }}{64}{figure.caption.34}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces \textbf {Example graph representation variables and relationships.}\relax }}{89}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \textbf {Example graph representation variables and relationships.}\relax }}{90}{figure.caption.50}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces \textbf {Code snippets of conceptual and data measurement relationships written in Tisane's DSL\xspace and their representation in Tisane's graph IR.}\relax }}{91}{figure.caption.52}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces \textbf {Graphs demonstrating causal parents, possible causal omissions, and possible confounding associations.}\relax }}{95}{figure.caption.59}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces \textbf {Example Tisane GUI for disambiguation.}\relax }}{98}{figure.caption.65}%
@@ -19,8 +19,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces \textbf {More complex examples of \texttt {moderates} written in Tisane's DSL\xspace and their representation in Tisane's graph IR.}\relax }}{225}{figure.caption.95}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces \textbf {A graph demonstrating an edge case for candidate main effect identification, where the graph contains only associative edges.}\relax }}{226}{figure.caption.96}%
-\contentsline {figure}{\numberline {C.3}{\ignorespaces \textbf {An example of the warning text given for potential confounding associations.}\relax }}{226}{figure.caption.97}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces \textbf {More complex examples of \texttt {moderates} written in Tisane's DSL\xspace and their representation in Tisane's graph IR.}\relax }}{227}{figure.caption.95}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces \textbf {A graph demonstrating an edge case for candidate main effect identification, where the graph contains only associative edges.}\relax }}{228}{figure.caption.96}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces \textbf {An example of the warning text given for potential confounding associations.}\relax }}{228}{figure.caption.97}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
