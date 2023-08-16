@@ -35,19 +35,21 @@ importance, statistical analyses are difficult to author, especially for
 researchers with expertise outside of statistics. Existing statistical tools,
 prioritizing mathematical expressivity and computational control, are low-level
 while researchers' motivating questions and hypotheses are high-level.
-Researchers need to translate their questions and hypotheses into low-level
-statistical code in an error-prone process. 
+% Researchers need to translate their questions and hypotheses into low-level
+% statistical code in an error-prone process. 
+The process of translating researchers' questions and hypotheses into low-level statistical code is error-prone.
 % This thesis views statistical analysis authoring as an end-user software
 % engineering problem.
+
 This thesis views statistical analysis authoring as a sensemaking process that
 involves grappling with domain knowledge, statistics, and programming concerns.
 To this end, I develop a framework characterizing the cognitive and operational
 steps involved in translating research questions into statistical analysis code,
-which I call \hypoForm. I also design, implement, and evaluate two new domain-specific languages (DSLs) and
+a process I term \hypoForm. I also design, implement, and evaluate three new domain-specific languages (DSLs) and
 runtimes that embody \hypoForm. The DSLs leverage automated reasoning to compile
 high-level specifications of analysis intent into analysis code.
 
-The first of these is \tea for authoring Null Hypothesis Significance
+The first of these, \tea, is used to author Null Hypothesis Significance
 Tests. Analysts specify their study design, assumptions about data, and
 hypotheses in \tea's DSL. \tea represents statistical test selection as
 constraint satisfaction, so it compiles an analyst's specification into a system
@@ -55,11 +57,11 @@ of constraints to identify a set of valid statistical tests. A benchmark
 comparison found that \tea's test selection is comparable to that of experts and
 better than a naive test selection approach. 
 
-This dissertation also introduces \tisane for authoring generalized linear
+I also introduce \tisane, a system for authoring generalized linear
 models with or without mixed effects. Analysts specify their domain knowledge in
 the form of a conceptual model, data collection details, and focus of analysis
 in \tisane's DSL. Internally, \tisane represents this conceptual model as a
-graph, which it traverses to derive a space of statistical models based on
+graph. \tisane traverses the graph to derive a space of statistical models based on
 causal reasoning recommendations. Then, in an interactive disambiguation
 process, \tisane involves analysts in narrowing the space of possible
 statistical models to one final output statistical modeling script. In case
@@ -67,7 +69,7 @@ studies, we found that \tisane shifted researchers' focus from analysis details
 to their research questions and streamlined the analysis authoring process. To
 further improve the usability of the \tisane DSL, I conducted an exploratory
 elicitation study using \tisane as a probe, designed and implemented
-an improved version of \tisane in R as \rTisane, and then evaluated \rTisane in a controlled lab study.
+an improved version of \tisane as \rTisane, and then evaluated \rTisane in a controlled lab study.
 The summative evaluation demonstrated that \rTisanes DSL helped analysts
 introspect on their implicit domain assumptions more deeply, stay true to their
 analysis intent, and produce statistical models that better fit the data. In
