@@ -239,7 +239,7 @@ and graphs (\autoref{fig:tools}).
         situ. Whereas previous studies of data analysis have relied on
         self-reports about analysis processes, we conduct an in-depth lab study where we
         observe analysts prepare and even start to implement statistical
-        models. 
+        models firsthand. 
         \item We qualitatively assess 20 statistical analysis libraries and
         standalone systems and illustrate how their designs represent the
         current ecosystem of statistical tools and presently influence data
@@ -270,7 +270,7 @@ and graphs (\autoref{fig:tools}).
     \item Formal representations and automated reasoning approaches for
     statistical analysis authoring. To support statistical testing and modeling,
     we develop representations that allow automated reasoning to compile
-    conceptual models into statistical models. 
+    conceptual specifications into statistical analyses. 
     \begin{enumerate}
         \item In \tea, we implement a constraint-based model and knowledge base
         for Null Hypothesis Significance Tests. 
@@ -278,7 +278,7 @@ and graphs (\autoref{fig:tools}).
         summarize key conceptual assumptions and data collection details.
         Importantly, a subgraph of the representation is a causal diagram useful
         for deriving statistical models formally. 
-        \item Finally, we develop an approach for \textit{interactively
+        \item Finally, we develop an approach in \tisane and \rTisane for \textit{interactively
         compiling} high-level conceptual specifications into statistical models.
         Interfaces surface key aspects of specifications, encourage deeper reflection
         on implicit knowledge, and elicit
@@ -354,11 +354,11 @@ grapples with an understanding of data analysis practices (i.e., \hypoForm),
 statistical methods, and empirical evidence for what analysts find usable in
 order to iteratively design and evaluate a DSL and interactive disambiguation
 process. After covering related work and background on linear modeling
-(\autoref{sec:relatedWorkTisane}), this chapter describes the first version of
-the \tisane DSL (\autoref{sec:tisane}), case studies evaluating \tisane
-(\autoref{sec:tisane_case_studies}), a study to refine the DSL
-(\autoref{sec:exploratoryStudy}), the second major iteration released as
-\rTisane (\autoref{sec:rTisane}), and a controlled lab study
+(\autoref{sec:relatedWorkTisane}), this chapter describes the first release of
+the \tisane DSL (\autoref{sec:tisane}) and case studies evaluating \tisane
+(\autoref{sec:tisane_case_studies}). The chapter proceeds with a study to refine the DSL
+(\autoref{sec:exploratoryStudy}), the subsequent system iteration released as
+\rTisane (\autoref{sec:rTisane}), and a controlled lab study evaluating \rTisane
 (\autoref{sec:summativeEval}). The controlled lab study serves as a summative
 evaluation of the key tenets of this dissertation. The chapter concludes with
 key insights derived from iteratively designing and evaluating \tisane and
@@ -373,7 +373,7 @@ Finally, \autoref{chapter:conclusion} revisits the key challenges of the thesis
 and how the projects in this dissertation address each
 (\autoref{sec:discussionChallenges}). \autoref{chapter:conclusion} also briefly
 discusses the real-world impact the DSLs developed in this dissertation have
-had, offering another form of evidence in support of the thesis. The chapter
+had, offering another form of evidence in support of the thesis (\autoref{sec:impact}). The chapter
 also discusses how the projects in this dissertation create a foundation for
 pursuing research directions that make data analysis authoring valid-by-design
 and more approachable for statistical non-experts (\autoref{sec:futureWork}). 
