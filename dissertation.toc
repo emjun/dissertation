@@ -113,20 +113,20 @@
 \contentsline {subsubsection}{Participants distinguish between known and suspected relationships.}{107}{section*.69}%
 \contentsline {subsubsection}{Participants consider alternative conceptual structures in the face of ambiguity.}{107}{section*.70}%
 \contentsline {subsubsection}{Participants expected more syntactic sugar for specifying data collection details.}{108}{section*.71}%
-\contentsline {subsection}{\numberline {5.7.3}Design Goals}{108}{subsection.5.7.3}%
-\contentsline {section}{\numberline {5.8}\titlecap {Second Release: rTisane}}{110}{section.5.8}%
-\contentsline {subsection}{\numberline {5.8.1}rTisane's\xspace Domain-Specific Language}{110}{subsection.5.8.1}%
+\contentsline {section}{\numberline {5.8}\titlecap {Design Goals}}{108}{section.5.8}%
+\contentsline {section}{\numberline {5.9}\titlecap {Second Release: rTisane}}{110}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}rTisane's\xspace Domain-Specific Language}{110}{subsection.5.9.1}%
 \contentsline {subsubsection}{Declaring variables}{110}{section*.72}%
 \contentsline {subsubsection}{Expressing a conceptual model}{110}{section*.73}%
 \contentsline {subsubsection}{Querying for a statistical model}{111}{section*.74}%
-\contentsline {subsection}{\numberline {5.8.2}Two-step Interactive Compilation}{111}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.9.2}Two-step Interactive Compilation}{111}{subsection.5.9.2}%
 \contentsline {subsubsection}{Conceptual Model Disambiguation}{112}{section*.76}%
 \contentsline {subsubsection}{Statistical model derivation and disambiguation}{113}{section*.77}%
-\contentsline {section}{\numberline {5.9}\titlecap {Summative Evaluation: Controlled lab study}}{114}{section.5.9}%
-\contentsline {subsection}{\numberline {5.9.1}Study Design}{114}{subsection.5.9.1}%
+\contentsline {section}{\numberline {5.10}\titlecap {Summative Evaluation: Controlled lab study}}{114}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Study Design}{114}{subsection.5.10.1}%
 \contentsline {paragraph}{Participants}{115}{section*.79}%
-\contentsline {subsection}{\numberline {5.9.2}Analysis Approach}{115}{subsection.5.9.2}%
-\contentsline {subsection}{\numberline {5.9.3}Findings}{116}{subsection.5.9.3}%
+\contentsline {subsection}{\numberline {5.10.2}Analysis Approach}{115}{subsection.5.10.2}%
+\contentsline {subsection}{\numberline {5.10.3}Findings}{116}{subsection.5.10.3}%
 \contentsline {subsubsection}{RQ1: rTisane's\xspace Impact on Conceptual Models}{116}{section*.82}%
 \contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts found it difficult to express conceptual nuances.}{118}{section*.84}%
 \contentsline {subsubsection}{Theme: rTisane\xspace encouraged analysts to think about their domains more deeply.}{119}{section*.85}%
@@ -138,11 +138,11 @@
 \contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts find statistical model formulation challenging.}{122}{section*.91}%
 \contentsline {subsubsection}{Theme: rTisane\xspace focused analysts on their motivation for analysis.}{122}{section*.92}%
 \contentsline {subsubsection}{Theme: Analysts want to use rTisane\xspace for scientific communication, not just statistical authoring.}{123}{section*.93}%
-\contentsline {subsection}{\numberline {5.9.4}Discussion}{123}{subsection.5.9.4}%
-\contentsline {subsection}{\numberline {5.9.5}Limitations}{124}{subsection.5.9.5}%
-\contentsline {subsection}{\numberline {5.9.6}Future Work on rTisane\xspace }{124}{subsection.5.9.6}%
-\contentsline {section}{\numberline {5.10}\titlecap {Discussion}}{125}{section.5.10}%
-\contentsline {section}{\numberline {5.11}\titlecap {Summary of Contributions}}{126}{section.5.11}%
+\contentsline {subsection}{\numberline {5.10.4}Discussion}{123}{subsection.5.10.4}%
+\contentsline {subsection}{\numberline {5.10.5}Limitations}{124}{subsection.5.10.5}%
+\contentsline {subsection}{\numberline {5.10.6}Future Work on rTisane\xspace }{124}{subsection.5.10.6}%
+\contentsline {section}{\numberline {5.11}\titlecap {Discussion}}{125}{section.5.11}%
+\contentsline {section}{\numberline {5.12}\titlecap {Summary of Contributions}}{126}{section.5.12}%
 \contentsline {chapter}{\numberline {6}Conclusion}{129}{chapter.6}%
 \contentsline {section}{\numberline {6.1}\titlecap {Discussion}}{129}{section.6.1}%
 \contentsline {subsection}{\numberline {6.1.1}Challenge 1: Make implicit domain knowledge explicit}{129}{subsection.6.1.1}%
