@@ -78,7 +78,7 @@
 \contentsline {section}{\numberline {4.6}\titlecap {Discussion}}{79}{section.4.6}%
 \contentsline {section}{\numberline {4.7}\titlecap {Future Work}}{80}{section.4.7}%
 \contentsline {section}{\numberline {4.8}\titlecap {Summary of Contributions}}{80}{section.4.8}%
-\contentsline {chapter}{\numberline {5}Tisane: Authoring Statistical Models via Formal Reasoning of Conceptual and Data Relationships}{83}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Tisane: Authoring Statistical Models via Formal Reasoning\\of Conceptual and Data Relationships}{83}{chapter.5}%
 \contentsline {section}{\numberline {5.1}\titlecap {Background and Related work}}{85}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Statistical Scope}{86}{subsection.5.1.1}%
 \contentsline {section}{\numberline {5.2}\titlecap {Early Design Process}}{86}{section.5.2}%
