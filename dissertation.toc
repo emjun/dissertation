@@ -48,34 +48,34 @@
 \contentsline {section}{\numberline {4.2}\titlecap {Formative content analysis}}{54}{section.4.2}%
 \contentsline {subsubsection}{Methods}{54}{section*.25}%
 \contentsline {subsubsection}{Findings}{56}{section*.27}%
-\contentsline {subsubsection}{Theme: Researchers decompose hypotheses into sub-goals that correspond to statistical analyses.}{56}{section*.28}%
-\contentsline {subsubsection}{Theme: Researchers concretize hypotheses using proxies that are based on theory or available data.}{57}{section*.29}%
-\contentsline {subsubsection}{Theme: Data collection and sampling influence statistical analysis.}{58}{section*.30}%
+\contentsline {subsubsection}{Researchers deconstruct hypotheses into sub-goals that correspond to statistical analyses.}{56}{section*.28}%
+\contentsline {subsubsection}{Researchers concretize hypotheses using proxies that are based on theory or available data.}{57}{section*.29}%
+\contentsline {subsubsection}{Data collection and sampling influence statistical analysis.}{58}{section*.30}%
 \contentsline {subsection}{\numberline {4.2.1}Discussion}{58}{subsection.4.2.1}%
 \contentsline {subsubsection}{Limitations}{59}{section*.31}%
 \contentsline {subsection}{\numberline {4.2.2}Takeaways: Expected Steps in Hypothesis Formalization}{59}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}\titlecap {Exploratory Lab Study}}{60}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Methods}{60}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Findings and Discussion}{62}{subsection.4.3.2}%
-\contentsline {subsubsection}{Theme: Data workers consider proxies and data collection while articulating hypotheses.}{62}{section*.32}%
-\contentsline {subsubsection}{Theme: Data workers consider implementation and tools when specifying statistical models.}{63}{section*.33}%
-\contentsline {subsubsection}{Theme: Data workers try to fit analyses to previous projects and familiar approaches.}{65}{section*.35}%
-\contentsline {subsubsection}{Theme: Data workers try to minimize their biases by focusing on data.}{66}{section*.36}%
-\contentsline {subsubsection}{Theme: Data workers face challenges obtaining and integrating conceptual and statistical information.}{68}{section*.37}%
+\contentsline {subsubsection}{Data workers consider proxies and data collection while articulating hypotheses.}{62}{section*.32}%
+\contentsline {subsubsection}{Data workers consider implementation and tools when specifying statistical models.}{63}{section*.33}%
+\contentsline {subsubsection}{Data workers try to fit analyses to previous projects and familiar approaches.}{65}{section*.35}%
+\contentsline {subsubsection}{Data workers try to minimize their biases by focusing on data.}{66}{section*.36}%
+\contentsline {subsubsection}{Data workers face challenges obtaining and integrating conceptual and statistical information.}{67}{section*.37}%
 \contentsline {subsection}{\numberline {4.3.3}Takeaways from the Lab Study}{68}{subsection.4.3.3}%
 \contentsline {section}{\numberline {4.4}\titlecap {Analysis of Software Tools}}{69}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Method}{70}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Findings and Discussion}{71}{subsection.4.4.2}%
-\contentsline {subsubsection}{Theme: Specialization.}{71}{section*.39}%
-\contentsline {subsubsection}{Theme: Statistical taxonomies.}{73}{section*.40}%
-\contentsline {subsubsection}{Theme: Model expression: Syntax and semantics}{74}{section*.41}%
-\contentsline {subsubsection}{Theme: Computational issues.}{75}{section*.42}%
-\contentsline {subsection}{\numberline {4.4.3}Takeaways from the Analysis of Tools}{76}{subsection.4.4.3}%
+\contentsline {subsubsection}{Specialization.}{71}{section*.39}%
+\contentsline {subsubsection}{Statistical taxonomies.}{73}{section*.40}%
+\contentsline {subsubsection}{Model expression: Syntax and semantics}{74}{section*.41}%
+\contentsline {subsubsection}{Computational issues.}{75}{section*.42}%
+\contentsline {subsection}{\numberline {4.4.3}Takeaways from the Analysis of Tools}{75}{subsection.4.4.3}%
 \contentsline {section}{\numberline {4.5}\titlecap {Design Implications for Statistical Analysis Software}}{76}{section.4.5}%
 \contentsline {subsection}{Connect Model Implementations with Mathematical Equations}{76}{section*.43}%
 \contentsline {subsection}{Express Conceptual Hypotheses to Bootstrap Statistical Model Implementation}{77}{section*.44}%
 \contentsline {subsection}{Co-author Conceptual and Statistical Models}{78}{section*.45}%
-\contentsline {section}{\numberline {4.6}\titlecap {Discussion}}{79}{section.4.6}%
+\contentsline {section}{\numberline {4.6}\titlecap {Discussion}}{78}{section.4.6}%
 \contentsline {section}{\numberline {4.7}\titlecap {Future Work}}{80}{section.4.7}%
 \contentsline {section}{\numberline {4.8}\titlecap {Summary of Contributions}}{80}{section.4.8}%
 \contentsline {chapter}{\numberline {5}Tisane: Authoring Statistical Models via Formal Reasoning\\of Conceptual and Data Relationships}{83}{chapter.5}%
@@ -128,16 +128,16 @@
 \contentsline {subsection}{\numberline {5.10.2}Analysis Approach}{115}{subsection.5.10.2}%
 \contentsline {subsection}{\numberline {5.10.3}Findings}{116}{subsection.5.10.3}%
 \contentsline {subsubsection}{RQ1: rTisane's\xspace Impact on Conceptual Models}{116}{section*.82}%
-\contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts found it difficult to express conceptual nuances.}{118}{section*.84}%
-\contentsline {subsubsection}{Theme: rTisane\xspace encouraged analysts to think about their domains more deeply.}{119}{section*.85}%
-\contentsline {subsubsection}{Theme: rTisane\xspace provided structure to express and inspect conceptual models.}{119}{section*.86}%
-\contentsline {subsubsection}{Theme: rTisane\xspace is expressive enough to capture analysts' conceptual models accurately.}{120}{section*.87}%
+\contentsline {subsubsection}{Without rTisane\xspace , analysts found it difficult to express conceptual nuances.}{118}{section*.84}%
+\contentsline {subsubsection}{rTisane\xspace encouraged analysts to think about their domains more deeply.}{119}{section*.85}%
+\contentsline {subsubsection}{rTisane\xspace provided structure to express and inspect conceptual models.}{119}{section*.86}%
+\contentsline {subsubsection}{rTisane\xspace is expressive enough to capture analysts' conceptual models accurately.}{120}{section*.87}%
 \contentsline {subsubsection}{RQ2: rTisane's\xspace Impact on Statistical Models}{120}{section*.88}%
-\contentsline {subsubsection}{Theme: Statistical models authored with rTisane\xspace fit the data just as well or better than statistical models without rTisane\xspace .}{121}{section*.89}%
-\contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts change their analysis intent during statistical modeling.}{121}{section*.90}%
-\contentsline {subsubsection}{Theme: Without rTisane\xspace , analysts find statistical model formulation challenging.}{122}{section*.91}%
-\contentsline {subsubsection}{Theme: rTisane\xspace focused analysts on their motivation for analysis.}{122}{section*.92}%
-\contentsline {subsubsection}{Theme: Analysts want to use rTisane\xspace for scientific communication, not just statistical authoring.}{123}{section*.93}%
+\contentsline {subsubsection}{Statistical models authored with rTisane\xspace fit the data just as well or better than statistical models without rTisane\xspace .}{121}{section*.89}%
+\contentsline {subsubsection}{Without rTisane\xspace , analysts change their analysis intent during statistical modeling.}{121}{section*.90}%
+\contentsline {subsubsection}{Without rTisane\xspace , analysts find statistical model formulation challenging.}{122}{section*.91}%
+\contentsline {subsubsection}{rTisane\xspace focused analysts on their motivation for analysis.}{122}{section*.92}%
+\contentsline {subsubsection}{Analysts want to use rTisane\xspace for scientific communication, not just statistical authoring.}{123}{section*.93}%
 \contentsline {subsection}{\numberline {5.10.4}Discussion}{123}{subsection.5.10.4}%
 \contentsline {subsection}{\numberline {5.10.5}Limitations}{124}{subsection.5.10.5}%
 \contentsline {subsection}{\numberline {5.10.6}Future Work on rTisane\xspace }{124}{subsection.5.10.6}%

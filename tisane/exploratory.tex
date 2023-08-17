@@ -7,13 +7,14 @@
 % Our motivating question was, ``What implicit semantics do analysts use to construct conceptual models of how variables relate?''. 
 % \polish{rTisane should be (re-)introduced before this mention. Maybe note in 5.5
 % the goal of creating a revised Tisane version for R?: } 
-Our aim was to understand what challenges statistical non-experts face when
-externalizing their implicit domain knowledge. These challenges could then, in
-turn, inform improvements to \tisane's DSL. Thus, we used the first release of
-\tisane~\cite{jun2022tisane} to probe into analysts' internal processes and derive
-design goals~\autoref{sec:rtisane_design_implications} for designing \rTisane\footnote{For the lab study, we re-implemented \tisane (originally in Python) in R since
-(i) R is a widely used programming language for data science and (ii) the
-research methods course from which we recruited participants used R.}.
+We aimed to understand the ways in which statistical non-experts want to
+articulate their implicit domain knowledge. Observations from this effort, as
+well as any identified challenges, would serve as feedback to enhance \tisane.
+Thus, we used the initial release of \tisane~\cite{jun2022tisane} to probe into analysts' internal processes. This approach helped us articulate
+design goals~\autoref{sec:rtisane_design_implications} for developing
+\rTisane\footnote{For the lab study, we re-implemented \tisane (originally in
+Python) in R due to its widespread adoption in data science and its use in the 
+research methods course from which we recruited participants.}.
 % Our aim with \rTisane, the R version
 % of \tisane, was to increase the expressivity of the DSL to represent analysts'
 % implicit domain knowledge. We used 
@@ -86,8 +87,8 @@ to express their conceptual models: using varying degrees of specificity,
 separating moderation from bivariate relationships, distinguishing between known
 and hypothesized relationships, and considering alternative conceptual models.
 Participants also suggested syntactic sugar options to improve the DSL's
-usability. Based on these observations, we derived design goals for re-designing
-\tisane (see~\autoref{sec:rTisane}).
+usability. Based on these observations, we derived design goals for designing
+\rTisane (see~\autoref{sec:rTisane}).
 
 \subsubsection{Participants express conceptual knowledge with varying details.}
 Contrary to the popular belief that higher levels of abstraction are better for
