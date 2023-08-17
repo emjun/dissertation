@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.3)  16 AUG 2023 14:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.1.3)  17 AUG 2023 12:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1402,7 +1402,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [84]
-Overfull \hbox (3.13489pt too wide) in paragraph at lines 24--43
+Overfull \hbox (3.13489pt too wide) in paragraph at lines 24--42
 \T1/cmr/m/n/10.95 rived from causal graphs to make sta-tis-ti-cal in-fer-ences and test the mo-ti-vat-ing causal graph [[];
  []
 
@@ -1424,7 +1424,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (/Users/emjun/Git/dissertation/tisane/figures/tisane_program.py)
 
 pdfTeX warning: pdflatex (file /Users/emjun/Git/dissertation/tisane/figures/figure4.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<tisane/figures/figure4.pdf, id=1870, 194.47656pt x 147.80219pt>
+<tisane/figures/figure4.pdf, id=1871, 194.47656pt x 147.80219pt>
 File: tisane/figures/figure4.pdf Graphic file (type pdf)
 <use tisane/figures/figure4.pdf>
 Package pdftex.def Info: tisane/figures/figure4.pdf  used on input line 107.
@@ -1435,7 +1435,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [89] [90 </Users/emjun/Git/dissertation/tisane/figures/figure4.pdf>]
 
 pdfTeX warning: pdflatex (file /Users/emjun/Git/dissertation/tisane/figures/figure3.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<tisane/figures/figure3.pdf, id=1954, 350.05579pt x 112.92087pt>
+<tisane/figures/figure3.pdf, id=1955, 350.05579pt x 112.92087pt>
 File: tisane/figures/figure3.pdf Graphic file (type pdf)
 <use tisane/figures/figure3.pdf>
 Package pdftex.def Info: tisane/figures/figure3.pdf  used on input line 198.
@@ -1451,7 +1451,7 @@ Overfull \hbox (7.43387pt too wide) in paragraph at lines 280--298
 [93] [94]
 
 pdfTeX warning: pdflatex (file /Users/emjun/Git/dissertation/tisane/figures/figure5.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<tisane/figures/figure5.pdf, id=2029, 379.04008pt x 100.50047pt>
+<tisane/figures/figure5.pdf, id=2030, 379.04008pt x 100.50047pt>
 File: tisane/figures/figure5.pdf Graphic file (type pdf)
 <use tisane/figures/figure5.pdf>
 Package pdftex.def Info: tisane/figures/figure5.pdf  used on input line 389.
@@ -1465,7 +1465,7 @@ Overfull \hbox (9.87363pt too wide) in alignment at lines 455--455
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [96]
-<tisane/figures/usage_scenario_gui_05012022.png, id=2080, 1336.49312pt x 1002.74625pt>
+<tisane/figures/usage_scenario_gui_05012022.png, id=2081, 1336.49312pt x 1002.74625pt>
 File: tisane/figures/usage_scenario_gui_05012022.png Graphic file (type png)
 <use tisane/figures/usage_scenario_gui_05012022.png>
 Package pdftex.def Info: tisane/figures/usage_scenario_gui_05012022.png  used on input line 496.
@@ -1501,7 +1501,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [104] [105] [106] Excluding 'comment' comment. [107]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\titlecap' on input line 247.
+(hyperref)                removing `\titlecap' on input line 249.
 
 Excluding 'comment' comment.) (/Users/emjun/Git/dissertation/tisane/rTisane.tex [108] (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -1520,13 +1520,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [109
 
 ] Excluding 'comment' comment. [110]
-<tisane/figures/conceptual-model-disambiguation.png, id=2215, 1775.13188pt x 1003.24812pt>
+<tisane/figures/conceptual-model-disambiguation.png, id=2218, 1775.13188pt x 1003.24812pt>
 File: tisane/figures/conceptual-model-disambiguation.png Graphic file (type png)
 <use tisane/figures/conceptual-model-disambiguation.png>
 Package pdftex.def Info: tisane/figures/conceptual-model-disambiguation.png  used on input line 143.
 (pdftex.def)             Requested size: 446.26582pt x 252.20447pt.
  [111] [112 </Users/emjun/Git/dissertation/tisane/figures/conceptual-model-disambiguation.png>] Excluding 'comment' comment.
-<tisane/figures/statistical-model-disambiguation.png, id=2231, 1042.39438pt x 523.45563pt>
+<tisane/figures/statistical-model-disambiguation.png, id=2234, 1042.39438pt x 523.45563pt>
 File: tisane/figures/statistical-model-disambiguation.png Graphic file (type png)
 <use tisane/figures/statistical-model-disambiguation.png>
 Package pdftex.def Info: tisane/figures/statistical-model-disambiguation.png  used on input line 172.
@@ -1596,7 +1596,7 @@ Overfull \hbox (7.3559pt too wide) in alignment at lines 163--163
 [][][][][] 
  []
 
-<tisane/figures/conceptual-models.png, id=2257, 617.30624pt x 298.11375pt>
+<tisane/figures/conceptual-models.png, id=2260, 617.30624pt x 298.11375pt>
 File: tisane/figures/conceptual-models.png Graphic file (type png)
 <use tisane/figures/conceptual-models.png>
 Package pdftex.def Info: tisane/figures/conceptual-models.png  used on input line 165.
@@ -1612,7 +1612,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [125] Excluding 'comment' comment. Excluding 'comment' comment.)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\titlecap' on input line 109.
+(hyperref)                removing `\titlecap' on input line 115.
 
 ) [126] [127] [128
 
@@ -2027,7 +2027,7 @@ Underfull \hbox (badness 3668) in paragraph at lines 136--136
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 139.
 
-<hypothesisFormalization/annotated-matrices.pdf, id=2660, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2663, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf  used on input line 149.
@@ -2036,7 +2036,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf  used on input line 149.
 (pdftex.def)             Requested size: 542.02367pt x 963.59766pt.
-<hypothesisFormalization/annotated-matrices.pdf, id=2663, page=1, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2666, page=1, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 1>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page1 used on input line 149.
@@ -2066,7 +2066,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page1 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [168 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2684, page=2, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2687, page=2, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 2>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page2 used on input line 149.
@@ -2080,7 +2080,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page2 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [169 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2698, page=3, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2701, page=3, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 3>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page3 used on input line 149.
@@ -2094,7 +2094,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page3 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [170 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2712, page=4, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2715, page=4, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 4>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page4 used on input line 149.
@@ -2108,7 +2108,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page4 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [171 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2724, page=5, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2728, page=5, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 5>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page5 used on input line 149.
@@ -2122,7 +2122,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page5 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [172 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2731, page=6, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2734, page=6, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 6>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page6 used on input line 149.
@@ -2136,7 +2136,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page6 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [173 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2737, page=7, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2740, page=7, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 7>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page7 used on input line 149.
@@ -2150,7 +2150,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page7 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [174 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2747, page=8, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2750, page=8, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 8>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page8 used on input line 149.
@@ -2164,7 +2164,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page8 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [175 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2754, page=9, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2757, page=9, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 9>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page9 used on input line 149.
@@ -2178,7 +2178,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page9 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [176 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2760, page=10, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2763, page=10, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 10>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page10 used on input line 149.
@@ -2192,7 +2192,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page10 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [177 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2766, page=11, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2769, page=11, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 11>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page11 used on input line 149.
@@ -2206,7 +2206,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page11 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [178 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2772, page=12, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2775, page=12, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 12>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page12 used on input line 149.
@@ -2220,7 +2220,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page12 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [179 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2778, page=13, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2781, page=13, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 13>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page13 used on input line 149.
@@ -2234,7 +2234,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page13 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [180 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2784, page=14, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2787, page=14, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 14>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page14 used on input line 149.
@@ -2248,7 +2248,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page14 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [181 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2791, page=15, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2794, page=15, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 15>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page15 used on input line 149.
@@ -2262,7 +2262,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page15 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [182 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2797, page=16, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2800, page=16, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 16>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page16 used on input line 149.
@@ -2276,7 +2276,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page16 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [183 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2803, page=17, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2806, page=17, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 17>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page17 used on input line 149.
@@ -2290,7 +2290,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page17 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [184 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2809, page=18, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2812, page=18, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 18>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page18 used on input line 149.
@@ -2304,7 +2304,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page18 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [185 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2815, page=19, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2818, page=19, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 19>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page19 used on input line 149.
@@ -2318,7 +2318,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page19 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [186 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2821, page=20, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2824, page=20, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 20>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page20 used on input line 149.
@@ -2332,7 +2332,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page20 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [187 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2828, page=21, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2831, page=21, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 21>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page21 used on input line 149.
@@ -2346,7 +2346,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page21 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [188 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2834, page=22, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2837, page=22, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 22>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page22 used on input line 149.
@@ -2360,7 +2360,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page22 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [189 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2840, page=23, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2843, page=23, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 23>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page23 used on input line 149.
@@ -2374,7 +2374,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page23 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [190 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2846, page=24, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2849, page=24, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 24>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page24 used on input line 149.
@@ -2388,7 +2388,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page24 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [191 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2852, page=25, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2855, page=25, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 25>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page25 used on input line 149.
@@ -2402,7 +2402,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page25 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [192 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2858, page=26, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2861, page=26, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 26>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page26 used on input line 149.
@@ -2416,7 +2416,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page26 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [193 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2865, page=27, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2868, page=27, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 27>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page27 used on input line 149.
@@ -2430,7 +2430,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page27 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [194 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2871, page=28, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2874, page=28, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 28>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page28 used on input line 149.
@@ -2444,7 +2444,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page28 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [195 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2877, page=29, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2880, page=29, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 29>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page29 used on input line 149.
@@ -2458,7 +2458,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page29 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [196 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2883, page=30, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2886, page=30, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 30>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page30 used on input line 149.
@@ -2472,7 +2472,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page30 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [197 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2889, page=31, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2892, page=31, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 31>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page31 used on input line 149.
@@ -2486,7 +2486,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page31 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [198 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2895, page=32, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2898, page=32, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 32>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page32 used on input line 149.
@@ -2500,7 +2500,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page32 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [199 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2902, page=33, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2905, page=33, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 33>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page33 used on input line 149.
@@ -2514,7 +2514,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page33 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [200 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2908, page=34, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2911, page=34, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 34>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page34 used on input line 149.
@@ -2528,7 +2528,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page34 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [201 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2914, page=35, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2917, page=35, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 35>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page35 used on input line 149.
@@ -2542,7 +2542,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page35 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [202 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2920, page=36, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2923, page=36, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 36>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page36 used on input line 149.
@@ -2556,7 +2556,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page36 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [203 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2926, page=37, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2929, page=37, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 37>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page37 used on input line 149.
@@ -2570,7 +2570,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page37 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [204 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2932, page=38, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2936, page=38, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 38>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page38 used on input line 149.
@@ -2584,7 +2584,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page38 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [205 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2940, page=39, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2943, page=39, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 39>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page39 used on input line 149.
@@ -2598,7 +2598,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page39 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [206 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2946, page=40, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2949, page=40, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 40>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page40 used on input line 149.
@@ -2612,7 +2612,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page40 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [207 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2952, page=41, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2955, page=41, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 41>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page41 used on input line 149.
@@ -2626,7 +2626,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page41 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [208 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2958, page=42, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2961, page=42, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 42>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page42 used on input line 149.
@@ -2640,7 +2640,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page42 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [209 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2964, page=43, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2967, page=43, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 43>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page43 used on input line 149.
@@ -2654,7 +2654,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page43 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [210 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2970, page=44, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2973, page=44, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 44>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page44 used on input line 149.
@@ -2668,7 +2668,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page44 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [211 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2977, page=45, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2980, page=45, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 45>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page45 used on input line 149.
@@ -2682,7 +2682,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page45 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [212 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2983, page=46, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2986, page=46, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 46>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page46 used on input line 149.
@@ -2696,7 +2696,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page46 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [213 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2989, page=47, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2992, page=47, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 47>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page47 used on input line 149.
@@ -2710,7 +2710,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page47 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [214 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=2995, page=48, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=2998, page=48, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 48>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page48 used on input line 149.
@@ -2724,7 +2724,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page48 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [215 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=3001, page=49, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=3004, page=49, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 49>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page49 used on input line 149.
@@ -2738,7 +2738,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page49 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [216 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=3007, page=50, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=3010, page=50, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 50>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page50 used on input line 149.
@@ -2752,7 +2752,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page50 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [217 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=3014, page=51, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=3017, page=51, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 51>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page51 used on input line 149.
@@ -2766,7 +2766,7 @@ File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page51 used on input line 149.
 (pdftex.def)             Requested size: 433.62057pt x 770.88106pt.
  [218 </Users/emjun/Git/dissertation/hypothesisFormalization/annotated-matrices.pdf, page is rotated 270 degrees>]
-<hypothesisFormalization/annotated-matrices.pdf, id=3020, page=52, 542.025pt x 963.6pt>
+<hypothesisFormalization/annotated-matrices.pdf, id=3023, page=52, 542.025pt x 963.6pt>
 File: hypothesisFormalization/annotated-matrices.pdf Graphic file (type pdf)
 <use hypothesisFormalization/annotated-matrices.pdf, page 52>
 Package pdftex.def Info: hypothesisFormalization/annotated-matrices.pdf , page52 used on input line 149.
@@ -2958,7 +2958,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 6.
 
-<tisane/figures/tisane_screenshots/potential_confounding_association.png, id=3062, 886.81313pt x 511.41063pt>
+<tisane/figures/tisane_screenshots/potential_confounding_association.png, id=3065, 886.81313pt x 511.41063pt>
 File: tisane/figures/tisane_screenshots/potential_confounding_association.png Graphic file (type png)
 <use tisane/figures/tisane_screenshots/potential_confounding_association.png>
 Package pdftex.def Info: tisane/figures/tisane_screenshots/potential_confounding_association.png  used on input line 7.
@@ -3025,7 +3025,7 @@ Appendix E.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\titlecap' on input line 10.
 
-<tisane/figures/example-conceptual-model.png, id=3132, 534.99875pt x 266.9975pt>
+<tisane/figures/example-conceptual-model.png, id=3135, 534.99875pt x 266.9975pt>
 File: tisane/figures/example-conceptual-model.png Graphic file (type png)
 <use tisane/figures/example-conceptual-model.png>
 Package pdftex.def Info: tisane/figures/example-conceptual-model.png  used on input line 33.
@@ -3077,13 +3077,15 @@ Package rerunfilecheck Info: File `dissertation.out' has not changed.
 (rerunfilecheck)             Checksum: 60557A5216DCA41550A0B639A81E5AC5;26843.
  ) 
 Here is how much of TeX's memory you used:
- 43806 strings out of 478994
- 968352 string characters out of 5858185
- 1833024 words of memory out of 5000000
+ 43807 strings out of 478994
+ 968364 string characters out of 5858185
+ 1833028 words of memory out of 5000000
  59489 multiletter control sequences out of 15000+600000
  437867 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  116i,18n,119p,3526b,2019s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exist, replaced by a fixed one
@@ -3121,10 +3123,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbi1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on /Users/emjun/Git/dissertation/dissertation.pdf (243 pages, 16136140 bytes).
+Output written on /Users/emjun/Git/dissertation/dissertation.pdf (243 pages, 16136385 bytes).
 PDF statistics:
- 3468 PDF objects out of 3580 (max. 8388607)
- 2861 compressed objects within 29 object streams
- 842 named destinations out of 1000 (max. 500000)
+ 3471 PDF objects out of 3580 (max. 8388607)
+ 2864 compressed objects within 29 object streams
+ 843 named destinations out of 1000 (max. 500000)
  1323 words of extra memory for PDF output out of 10000 (max. 10000000)
 

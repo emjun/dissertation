@@ -7,14 +7,16 @@
 % Our motivating question was, ``What implicit semantics do analysts use to construct conceptual models of how variables relate?''. 
 % \polish{rTisane should be (re-)introduced before this mention. Maybe note in 5.5
 % the goal of creating a revised Tisane version for R?: } 
-
-For the lab study, we re-implemented \tisane (originally in Python) in R since
+Our aim was to understand what challenges statistical non-experts face when
+externalizing their implicit domain knowledge. These challenges could then, in
+turn, inform improvements to \tisane's DSL. Thus, we used the first release of
+\tisane~\cite{jun2022tisane} to probe into analysts' internal processes and derive
+design goals~\autoref{sec:rtisane_design_implications} for designing \rTisane\footnote{For the lab study, we re-implemented \tisane (originally in Python) in R since
 (i) R is a widely used programming language for data science and (ii) the
-research methods course taught and used R. Our aim with \rTisane, the R version
-of \tisane, was to increase the expressivity of the DSL to represent analysts'
-implicit domain knowledge. We used the first release of
-\tisane~\cite{jun2022tisane} to probe analysts' internal processes and derive
-design goals~\autoref{sec:rtisane_design_implications} for designing \rTisane.
+research methods course from which we recruited participants used R.}.
+% Our aim with \rTisane, the R version
+% of \tisane, was to increase the expressivity of the DSL to represent analysts'
+% implicit domain knowledge. We used 
 
 \subsection{Method}
 %Participants
@@ -266,8 +268,8 @@ conceptual models:
     \item \assumeHypothesize: Analysts should be able to distinguish between assumed and hypothesized relationships in their conceptual models. 
 \end{itemize}
 
-In the second release of \tisane, we addressed these goals through new language
-constructs and two-phase interactive compilation process. We also added DSL constructs to more easily capture
+We addressed these goals through new language
+constructs and a two-phase interactive compilation process in \rTisane. We also added DSL constructs to more easily capture
 study design details. 
 
 \begin{comment}
