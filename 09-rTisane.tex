@@ -1,10 +1,12 @@
-While overall positive, the case studies made us aware of confusing keywords and
-language constructs in \tisane's \SDSL. This motivated us to probe more deeply
-into what challenges statistical novices face when expressing their domain
-knowledge. We started with a lab study using \tisane~\cite{jun2022tisane} to
-elicit statistical non-experts' implicit definitions and assumptions about \SDSL
+Researchers in the case studies using \tisane made us aware of confusing
+keywords and language constructs in \tisane's \SDSL. This motivated us to probe
+more deeply into what challenges statistical novices face when expressing their
+domain knowledge. We started with a lab study using \tisane to elicit
+statistical non-experts' implicit definitions and assumptions about \SDSL
 keywords. The study also helped us identify opportunities to refine \tisane's
-interactivity.
+interactivity. Based on study findings, we designed and evaluated \rTisane, a
+system to assist novices in formalizing their conceptual knowledge to author
+statistical models. 
 
 \input{tisane/exploratory.tex}
 
@@ -26,18 +28,18 @@ interactivity.
 \rTisane provides a DSL with language constructs for expressing conceptual
 models (\thesisChallengeExplicit) and integrates a two-phase interactive
 disambiguation process for compiling conceptual knowledge into statistical
-analysis code (\thesisChallengeRep). In case studies of \tisane and a controlled
-lab study of \rTisane, we found that the DSL is expressive enough to capture
-analysts' conceptual models accurately, eases the burden of making their
-implicit assumptions explicit, and pushes analysts to think about their domains
-more deeply. Using \rTisane, analysts were able to author statistical models
-that fit the data just as well as if not better than statistical models authored
-on their own. \rTisane even helped analysts who were not able to author
-statistical models on their own get to an output statistical model. Analysts
-also reported that through the process, they learned about GLMs
-(\thesisChallengeUnderstanding). Together, these results demonstrate how DSLs and
-automated reasoning together in fact do help statistical non-experts author
-valid statistical analyses that they would not be able to author otherwise.
+analysis code (\thesisChallengeRep). In a controlled lab study of \rTisane, we
+found that the DSL is expressive enough to capture analysts' conceptual models
+accurately, eases the burden of making their implicit assumptions explicit, and
+pushes analysts to think about their domains more deeply. Using \rTisane,
+analysts were able to author statistical models that fit the data just as well
+as if not better than statistical models authored on their own. \rTisane even
+helped analysts who were not able to author statistical models on their own get
+to an output statistical model. Analysts also reported that through the process,
+they learned about GLMs (\thesisChallengeUnderstanding). Together, these results
+demonstrate how DSLs and automated reasoning together in fact do help
+statistical non-experts author valid statistical analyses that they would not be
+able to author otherwise.
 % evidence for how
 % connecting conceptual modeling to statistical modeling increases the statistical
 % conclusion and external validity of analyses~\cite{shadish2010campbell}.  
@@ -67,7 +69,7 @@ valid statistical analyses that they would not be able to author otherwise.
 
 
 % Prior publications
-\textit{The exploratory design study, rTisane design and implementation, and the
+\textit{The exploratory study, rTisane design and implementation, and the
 summative evaluation are in collaboration with Edward Misback, Jeffrey Heer, and
-\reneJust. The corresponding paper is under submission and has not yet been
+\reneJust. The corresponding paper~\cite{jun2023rTisane} is under submission and has not yet been
 published.}
