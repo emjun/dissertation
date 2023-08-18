@@ -1,12 +1,23 @@
-Researchers in the case studies using \tisane made us aware of confusing
-keywords and language constructs in \tisane's \SDSL. This motivated us to probe
-more deeply into what challenges statistical novices face when expressing their
-domain knowledge. We started with a lab study using \tisane to elicit
-statistical non-experts' implicit definitions and assumptions about \SDSL
-keywords. The study also helped us identify opportunities to refine \tisane's
-interactivity. Based on study findings, we designed and evaluated \rTisane, a
-system to assist novices in formalizing their conceptual knowledge to author
-statistical models. 
+The previous chapter's case studies (\autoref{sec:tisane_case_studies})
+highlighted \tisane's potential as a tool for statistical non-experts to author
+generalized linear models with or without mixed effects. To build on \tisane's
+strengths, we sought to understand the nuances of how statistical novices wish
+to articulate their implicit domain knowledge and the challenges they confront
+along the way. We started with a lab study using \tisane to elicit statistical
+non-experts' implicit definitions and assumptions about \SDSL keywords
+(\autoref{sec:exploratoryStudy}). The study also helped us identify
+opportunities to refine \tisane's interactivity. Based on study findings, we
+designed and evaluated \textbf{\rTisane, a system to assist novices in
+formalizing their conceptual knowledge to author statistical models}. We
+implemented \rTisane as an open-source R library based on suggestions from
+participants and external research collaborators over the course of the previous
+projects. Analysts suggested that tools like \tisane could benefit a wider
+audience of novice and expert data analysts if there was an R implementation.
+% \rTisane's implementation in R allowed us to reach a potentially wider audience of novice and expert data analysts using R for linear modeling.
+An additional advantage of the R implementation was that it allowed us to directly
+compare \rTisane to a scaffolded workflow using widely used linear modeling
+libraries, including \texttt{lme4}, in R (\autoref{sec:summativeEval}). 
+
 
 \input{tisane/exploratory.tex}
 

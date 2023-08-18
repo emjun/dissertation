@@ -1,5 +1,5 @@
 \section{Early Design Process}
-Tisane's first released DSL was the result of an iterative design process,
+Tisane's DSL was the result of an iterative design process,
 including informal usability critiques of language design and a user study
 with three researchers. We describe the process further below. 
 
@@ -61,7 +61,7 @@ redundant functions.
 
 \tableStudyDesignTools
 
-\section{First Release} \label{sec:tisane}
+\section{System Design and Implementation} \label{sec:tisane}
 % This work was originally published at ACM CHI, where it received a \textit{Best Paper Honorable Mention awward}.
 
 Tisane provides (i) a \SDSLlong for expressing relationships between variables
@@ -75,6 +75,8 @@ and (2) determining the level of granularity to express relationships.
 In Tisane's \SDSL, analysts can express conceptual and data measurement
 relationships between variables. Both are necessary to specify the domain
 knowledge and study designs from which Tisane infers statistical models.
+
+\tisaneProgram
 
 \subsubsection{Variables}
 %Variables are the primary nouns in Tisane's \SDSL.
@@ -100,8 +102,6 @@ type represents study environment settings that are neither units nor measures. 
 example, time is often an environmental variable that differentiates repeated
 measures but is neither a unit nor a measure %associated with
 of a specific unit.
-
-\tisaneProgram
 
 \subsubsection{Relationships between Variables}
 \figureGraphIRExample

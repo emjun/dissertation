@@ -258,13 +258,14 @@ and graphs (\autoref{fig:tools}).
         \item The \tisane DSL captures analysts' ``fuzzy'' assumptions about how
         variables relate in their discipline. The variables and relationships
         comprise a \textit{conceptual model}.
-        \item A formative study showed how statistical non-experts implicitly
+        \item An exploratory elicitation study showed how statistical non-experts implicitly
         think about causality, how they would like to express their implicit
         assumptions, and what they expect language constructs describing
         conceptual models to mean. These findings informed the design of \rTisane's DSL.
-        \item A benchmark comparison, series of case studies, and a controlled lab study demonstrate the benefit of
-        these DSLs in helping analysts become more aware of their implicit
-        assumptions. 
+        \item A benchmark comparison, a series of case studies, and a controlled
+        lab study demonstrate the benefit of these DSLs in helping analysts
+        author valid statistical analyses. The case studies and controlled lab
+        study also show how analysts become more aware of their implicit assumptions as a result of using the DSLs.
     \end{enumerate}
 
     \item Formal representations and automated reasoning approaches for
@@ -349,25 +350,30 @@ support for hypothesis formalization (\autoref{sec:discussionHypoForm}). This
 chapter also concludes with a summary of how the theory of \hypoForm informs the
 thesis. 
 
-\autoref{chapter:tisane} is the best representation of how this dissertation
+After covering related work and background on linear modeling
+(\autoref{sec:relatedWorkTisane}), \autoref{chapter:tisane} describes the
+\tisane DSL (\autoref{sec:tisane}) and case studies evaluating \tisane
+(\autoref{sec:tisane_case_studies}). Based on researchers' feedback in the case
+studies, we conclude that \tisane's DSL and interactive disambiguation process
+are promising ways to assist statistical non-experts in authoring linear models.
+Also, feedback on DSL language constructs motivated us to probe into how novice
+analysts want to express their implicit domain knowledge and challenges they
+face, which led to the following chapter.
+
+\autoref{chapter:rTisane} is the best representation of how this dissertation
 grapples with an understanding of data analysis practices (i.e., \hypoForm),
 statistical methods, and empirical evidence for what analysts find usable in
 order to iteratively design and evaluate a DSL and interactive disambiguation
-process. After covering related work and background on linear modeling
-(\autoref{sec:relatedWorkTisane}), this chapter describes the \tisane DSL
-(\autoref{sec:tisane}) and case studies evaluating \tisane
-(\autoref{sec:tisane_case_studies}). 
-
-\autoref{chapter:rTisane} starts with a study of how statistical non-experts
-want to express their implicit domain knowledge
-(\autoref{sec:exploratoryStudy}). Then, the chapter proceeds with design goals
-and system implementation details for \rTisane (\autoref{sec:rTisane}). This
-chapter concludes with a controlled lab study evaluating \rTisane
-(\autoref{sec:summativeEval}). The controlled lab study serves as a summative
-evaluation of the key tenets of this dissertation. The chapter concludes with
-key insights derived from iteratively designing and evaluating \tisane and
-\rTisane as well as a few immediate next steps for improving \rTisane based on
-study findings.
+process. \autoref{chapter:rTisane} starts with a study of how statistical
+non-experts want to express their implicit domain knowledge
+(\autoref{sec:exploratoryStudy}). The chapter distills key study observations
+into design goals (\autoref{sec:rtisane_design_implications}) and proceeds with
+system implementation details for \rTisane (\autoref{sec:rTisane}). A controlled
+lab study evaluating \rTisane (\autoref{sec:summativeEval}) serves as a
+summative evaluation of the key tenets of this dissertation. The chapter
+concludes with key insights derived from iteratively designing and evaluating
+\tisane and \rTisane as well as a few immediate next steps for improving
+\rTisane based on study findings.
 
 % \textcolor{orange}{Revisit: This chapter concludes with a
 % brief discussion of the key lessons learned and limitations of \tisane (and
@@ -377,10 +383,11 @@ Finally, \autoref{chapter:conclusion} revisits the key challenges of the thesis
 and how the projects in this dissertation address each
 (\autoref{sec:discussionChallenges}). \autoref{chapter:conclusion} also briefly
 discusses the real-world impact the DSLs developed in this dissertation have
-had, offering another form of evidence in support of the thesis (\autoref{sec:impact}). The chapter
-also discusses how the projects in this dissertation create a foundation for
-pursuing research directions that make data analysis authoring valid-by-design
-and more approachable for statistical non-experts (\autoref{sec:futureWork}). 
+had, offering another form of evidence in support of the thesis
+(\autoref{sec:impact}). The chapter culminates with how the projects in this
+dissertation create a foundation for pursuing research directions that make data
+analysis authoring valid-by-design and more approachable for statistical
+non-experts (\autoref{sec:futureWork}). 
 
 % , discusses recent developments
 % (\autoref{sec:recentDevelopments}), touches on the impact the systems in this

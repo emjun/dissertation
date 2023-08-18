@@ -41,7 +41,7 @@
 \contentsline {subsection}{\numberline {3.5.2}Does Tea avoid common mistakes made by non-expert users?}{45}{subsection.3.5.2}%
 \contentsline {section}{\numberline {3.6}\titlecap {Discussion, Limitations, and Future Work}}{46}{section.3.6}%
 \contentsline {section}{\numberline {3.7}\titlecap {Summary of Contributions}}{47}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Hypothesis Formalization: A Conceptual Framework Characterizing\\How Analysts Translate Research Questions into Statistical Analyses}{49}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Hypothesis Formalization: A Conceptual Framework Characterizing How\\Analysts Translate Research Questions into Statistical Analyses}{49}{chapter.4}%
 \contentsline {section}{\numberline {4.1}\titlecap {Background and Related Work}}{52}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Statistical Thinking}{52}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Statistical Data Analysis as Part of Scientific Discovery}{53}{subsection.4.1.2}%
@@ -78,28 +78,28 @@
 \contentsline {section}{\numberline {4.6}\titlecap {Discussion}}{78}{section.4.6}%
 \contentsline {section}{\numberline {4.7}\titlecap {Future Work}}{80}{section.4.7}%
 \contentsline {section}{\numberline {4.8}\titlecap {Summary of Contributions}}{80}{section.4.8}%
-\contentsline {chapter}{\numberline {5}Tisane: Authoring Statistical Models via Formal Reasoning\\of Conceptual and Data Relationships}{83}{chapter.5}%
-\contentsline {section}{\numberline {5.1}\titlecap {Background and Related work}}{85}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Statistical Scope}{86}{subsection.5.1.1}%
+\contentsline {chapter}{\numberline {5}Tisane: Authoring Statistical Models via Formal Reasoning of Conceptual and Data Relationships}{83}{chapter.5}%
+\contentsline {section}{\numberline {5.1}\titlecap {Background and Related work}}{84}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Statistical Scope}{85}{subsection.5.1.1}%
 \contentsline {section}{\numberline {5.2}\titlecap {Early Design Process}}{86}{section.5.2}%
-\contentsline {section}{\numberline {5.3}\titlecap {First Release}}{87}{section.5.3}%
+\contentsline {section}{\numberline {5.3}\titlecap {System Design and Implementation}}{88}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}Tisane's DSL\xspace and Graph Representation}{88}{subsection.5.3.1}%
 \contentsline {subsubsection}{Variables}{88}{section*.48}%
 \contentsline {subsubsection}{Relationships between Variables}{89}{section*.49}%
 \contentsline {paragraph}{Conceptual relationships.}{90}{section*.51}%
-\contentsline {paragraph}{Data measurement relationships.}{92}{section*.53}%
+\contentsline {paragraph}{Data measurement relationships.}{91}{section*.53}%
 \contentsline {paragraph}{Nesting relationships: Hierarchies}{92}{section*.54}%
-\contentsline {paragraph}{Frequency of measures: Repeated measures, Non-nesting composition}{93}{section*.55}%
+\contentsline {paragraph}{Frequency of measures: Repeated measures, Non-nesting composition}{92}{section*.55}%
 \contentsline {subsection}{\numberline {5.3.2}Statistical Model Derivation: Interactively Querying the Graph IR}{93}{subsection.5.3.2}%
-\contentsline {subsubsection}{Preliminary checks}{94}{section*.56}%
+\contentsline {subsubsection}{Preliminary checks}{93}{section*.56}%
 \contentsline {subsubsection}{Candidate statistical model generation}{94}{section*.57}%
 \contentsline {paragraph}{Deriving Candidate Main Effects}{94}{section*.58}%
-\contentsline {paragraph}{Deriving Candidate Interaction Effects}{96}{section*.60}%
-\contentsline {paragraph}{Deriving Candidate Random Effects}{96}{section*.61}%
+\contentsline {paragraph}{Deriving Candidate Interaction Effects}{95}{section*.60}%
+\contentsline {paragraph}{Deriving Candidate Random Effects}{95}{section*.61}%
 \contentsline {paragraph}{Deriving Candidate Family and Link Functions}{96}{table.caption.63}%
 \contentsline {subsubsection}{Eliciting Analyst Input for Disambiguation\xspace }{97}{section*.64}%
 \contentsline {subsubsection}{Output}{99}{section*.66}%
-\contentsline {section}{\numberline {5.4}\titlecap {Initial evaluation: Case studies with researchers}}{100}{section.5.4}%
+\contentsline {section}{\numberline {5.4}\titlecap {Initial evaluation: Case studies with researchers}}{99}{section.5.4}%
 \contentsline {subsection}{\numberline {5.4.1}Case Study 1: Planning a New Study}{100}{subsection.5.4.1}%
 \contentsline {subsection}{\numberline {5.4.2}Case Study 2: Analyzing Data for a Paper Submission}{101}{subsection.5.4.2}%
 \contentsline {subsection}{\numberline {5.4.3}Case Study 3: Developing Models to Inform Future Models}{102}{subsection.5.4.3}%
@@ -107,21 +107,21 @@
 \contentsline {section}{\numberline {5.6}\titlecap {Summary of Contributions}}{104}{section.5.6}%
 \contentsline {chapter}{\numberline {6}rTisane: Formalizing Conceptual Models to Author Statistical Models}{105}{chapter.6}%
 \contentsline {section}{\numberline {6.1}\titlecap {Elicitation lab study}}{105}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Method}{105}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.1}Method}{106}{subsection.6.1.1}%
 \contentsline {subsection}{\numberline {6.1.2}Key Observations}{106}{subsection.6.1.2}%
 \contentsline {subsubsection}{Participants express conceptual knowledge with varying details.}{107}{section*.67}%
 \contentsline {subsubsection}{Participants find moderation difficult to separate from bivariate relationships.}{107}{section*.68}%
 \contentsline {subsubsection}{Participants distinguish between known and suspected relationships.}{108}{section*.69}%
 \contentsline {subsubsection}{Participants consider alternative conceptual structures in the face of ambiguity.}{108}{section*.70}%
-\contentsline {subsubsection}{Participants expected more syntactic sugar for specifying data collection details.}{108}{section*.71}%
+\contentsline {subsubsection}{Participants expected more syntactic sugar for specifying data collection details.}{109}{section*.71}%
 \contentsline {section}{\numberline {6.2}\titlecap {Design Goals}}{109}{section.6.2}%
-\contentsline {section}{\numberline {6.3}\titlecap {Second Release: rTisane}}{111}{section.6.3}%
+\contentsline {section}{\numberline {6.3}\titlecap {System Design and Implementation}}{111}{section.6.3}%
 \contentsline {subsection}{\numberline {6.3.1}rTisane's\xspace Domain-Specific Language}{111}{subsection.6.3.1}%
 \contentsline {subsubsection}{Declaring variables}{111}{section*.72}%
 \contentsline {subsubsection}{Expressing a conceptual model}{111}{section*.73}%
 \contentsline {subsubsection}{Querying for a statistical model}{112}{section*.74}%
 \contentsline {subsection}{\numberline {6.3.2}Two-step Interactive Compilation}{112}{subsection.6.3.2}%
-\contentsline {subsubsection}{Conceptual Model Disambiguation}{113}{section*.76}%
+\contentsline {subsubsection}{Conceptual Model Disambiguation}{113}{section*.75}%
 \contentsline {subsubsection}{Statistical model derivation and disambiguation}{114}{section*.77}%
 \contentsline {section}{\numberline {6.4}\titlecap {Summative Evaluation: Controlled lab study}}{115}{section.6.4}%
 \contentsline {subsection}{\numberline {6.4.1}Study Design}{115}{subsection.6.4.1}%
@@ -170,7 +170,7 @@
 \contentsline {section}{\numberline {B.2}\titlecap {Task 2: Conceptual modeling}}{222}{section.B.2}%
 \contentsline {section}{\numberline {B.3}\titlecap {Task 3: Statisitcal model specification}}{224}{section.B.3}%
 \contentsline {section}{\numberline {B.4}\titlecap {Take-home analysis instructions}}{225}{section.B.4}%
-\contentsline {chapter}{\numberline {C}Tisane's First Release: Additional Examples}{227}{appendix.C}%
+\contentsline {chapter}{\numberline {C}Tisane: Additional Examples}{227}{appendix.C}%
 \contentsline {section}{\numberline {C.1}\titlecap {Additional examples of graphs that may be constructed}}{227}{section.C.1}%
 \contentsline {section}{\numberline {C.2}\titlecap {Cautioning analysts about adding certain kinds of variables}}{228}{section.C.2}%
 \contentsline {chapter}{\numberline {D}Elicitation Lab Study Materials}{229}{appendix.D}%

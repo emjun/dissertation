@@ -1,6 +1,6 @@
 \clearpage % to force the listing to start at the top of the next page
 \rTisaneProgram
-\section{Second Release: rTisane} \label{sec:rTisane}
+\section{System Design and Implementation} \label{sec:rTisane}
 
 \rTisane consists of (i) a DSL for analysts to express their conceptual
 models and (ii) interactive disambiguation steps to compile this high-level specification into a
@@ -32,7 +32,7 @@ statistical model. \rTisanes DSL prioritizes expressivity and usability
 
 \subsubsection{Declaring variables}
 Analysts can express two types of variables: Units and Measures. Units represent
-observational or experimental units from which analysts collect data (see Line 5 in~\autoref{lst:rTisaneProgram}). 
+observational or experimental units from which analysts collect data (see line 5 in~\autoref{lst:rTisaneProgram}). 
 A common unit is a participant in a study, so \rTisane provides syntactic sugar for
 constructing a \Participant unit directly. \Participant is implemented as a wrapper for
 declaring a \Unit.
@@ -40,7 +40,7 @@ declaring a \Unit.
 Measures are attributes of Units collected in a \dataSet, so they are declared
 through a Unit. Measures can be one of four
 types: continuous, unordered categories (i.e., nominal), ordered categories
-(i.e., ordinal), and counts (see Lines 7-18 in~\autoref{lst:rTisaneProgram}). \rTisane provides syntactic sugar for declaring
+(i.e., ordinal), and counts (see lines 6-18 in~\autoref{lst:rTisaneProgram}). \rTisane provides syntactic sugar for declaring
 \Conditions as either unordered or ordered categories. Analysts declare
 unordered and ordered categories through the \texttt{categories} function.
 Analysts can specify a variable is ordered by passing a list to the
@@ -71,7 +71,7 @@ syntactic sugar: `condition'
 \subsubsection{Expressing a conceptual model}
 Once analysts have constructed variables, they can specify how these variables
 relate conceptually. To do so, they construct a \texttt{ConceptualModel} and add
-variable relationships to it (Lines 21-31 in~\autoref{lst:rTisaneProgram}). The conceptual model %\texttt{ConceptualModel}
+variable relationships to it (lines 20-31 in~\autoref{lst:rTisaneProgram}). The conceptual model %\texttt{ConceptualModel}
 is represented as a graph where the variables are nodes and the relationships
 are edges. 
 
@@ -126,7 +126,7 @@ additional information about existing relationships in the conceptual model
 \def\query{\texttt{query}\xspace}
 \subsubsection{Querying for a statistical model}
 Analysts \query \rTisane for a statistical model based on the input conceptual
-model (Line 31 in~\autoref{lst:rTisaneProgram}). The query asks for a statistical model to accurately
+model (lines 33-34 in~\autoref{lst:rTisaneProgram}). The query asks for a statistical model to accurately
 estimate the average causal effect (ACE) of the independent variable on the
 dependent variable. The querying process initiates the interactive compilation
 process and results in an \texttt{R} script specifying and fitting a generalized
@@ -140,8 +140,8 @@ model disambiguation. We added conceptual model disambiguation to address the
 need to explore possible conceptual structures for resolving ambiguities
 introduced by \relates (\considerPossibilities).
 
-\conceptualModelDisambiguation
 \subsubsection{Conceptual Model Disambiguation} \label{subsec:conceptualModelDisambig} 
+\conceptualModelDisambiguation
 The goal of conceptual model disambiguation is to make analysts' expressed
 conceptual models precise enough to derive a statistical model, achieving
 usability and rigor. Conceptual model disambiguation involves breaking cycles in
