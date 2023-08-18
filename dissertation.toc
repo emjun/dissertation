@@ -10,7 +10,7 @@
 \contentsline {paragraph}{Challenge 3: Increase analysts' statistical understanding}{20}{section*.9}%
 \contentsline {section}{\numberline {1.2}\titlecap {Summary of contributions}}{20}{section.1.2}%
 \contentsline {section}{\numberline {1.3}\titlecap {Thesis outline}}{22}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Related work}{25}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Related Work}{25}{chapter.2}%
 \contentsline {section}{\numberline {2.1}\titlecap {Statistical Data Analysis as Sensemaking}}{25}{section.2.1}%
 \contentsline {section}{\numberline {2.2}\titlecap {Empirical accounts of data analysis practice}}{26}{section.2.2}%
 \contentsline {section}{\numberline {2.3}\titlecap {Tools for data analysis}}{27}{section.2.3}%
