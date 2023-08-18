@@ -104,13 +104,6 @@ libraries, including \texttt{lme4}, in R (\autoref{sec:summativeEval}).
 
 \input{tisane/case_studies.tex}
 
-\input{tisane/exploratory.tex}
-
-\input{tisane/rTisane.tex}
-
-\input{tisane/lab_study.tex}
-
-\input{tisane/discussion.tex}
 
 \section{Summary of Contributions}
 
@@ -123,25 +116,14 @@ libraries, including \texttt{lme4}, in R (\autoref{sec:summativeEval}).
 
 \tisane embodies the hypothesis central to this dissertation: A DSL for
 expressing implicit conceptual knowledge and automated reasoning enable
-statistical non-experts to author valid statistical models. Through an iterative
-design and evaluation process, we refined core language constructs for
-expressing conceptual models (\thesisChallengeExplicit) and introduced a
-two-step interactive disambiguation process for compiling conceptual knowledge
-into statistical analysis code (\thesisChallengeRep). \rTisane implements both these
-changes. 
+statistical non-experts to author valid statistical models. In case studies of
+\tisane, we found that the DSL (\thesisChallengeExplicit) makes analysts more aware of
+their implicit domain knowledge. By deriving statistical models from
+externalized conceptual models (\thesisChallengeRep), \tisane also fills in the
+statistical knowledge and programming gaps analysts face when authoring
+statistical analyses. \tisane demonstrates how these two approaches combined,
+can improve statistical model authoring for statistical non-experts. 
 
-In case studies of \tisane and a controlled lab study of \rTisane, we found that
-the DSL is expressive enough to capture analysts' conceptual models accurately,
-eases the burden of making their implicit assumptions explicit, and pushes
-analysts to think about their domains more deeply. Using \rTisane, analysts were
-able to author statistical models that fit the data just as well as
-if not better than statistical models authored on their own. \rTisane even helped
-analysts who were not able to author statistical models on their own get to an
-output statistical model. Analysts also reported that through the process, they
-learned about GLMs (\thesisChallengeUnderstanding). Together, these results show
-how DSLs and automated reasoning together in fact do help statistical
-non-experts author valid statistical analyses that they would not be
-able to author otherwise.
 % evidence for how
 % connecting conceptual modeling to statistical modeling increases the statistical
 % conclusion and external validity of analyses~\cite{shadish2010campbell}.  
@@ -171,9 +153,7 @@ able to author otherwise.
 
 
 % Prior publications
-\textit{The first release of Tisane was a collaboration with Audrey Seo, Jeffrey
+\textit{Tisane was a collaboration with Audrey Seo, Jeffrey
 Heer, and \reneJust. The corresponding paper was originally published and presented at
 \chiConf{2022}~\cite{jun2022tisane}, where it received a \textit{Best Paper Honorable
-Mention Award}. The exploratory design study, rTisane design and implementation, and the
-summative evaluation are in collaboration with Edward Misback, Jeffrey Heer, and
-\reneJust. The corresponding paper is under submission and has not yet been published.}
+Mention Award}.}

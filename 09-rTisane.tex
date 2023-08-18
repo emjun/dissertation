@@ -1,5 +1,73 @@
-\section{rTisane: Re-designing Tisane}
-\section{Exploratory study}
-\section{Key insights and system changes}
-\section{Evaluation: Lab study assessing the impact of connecting conceptual and statistical modeling}
-\section{Summary of contributions}
+While overall positive, the case studies made us aware of confusing keywords and
+language constructs in \tisane's \SDSL. This motivated us to probe more deeply
+into what challenges statistical novices face when expressing their domain
+knowledge. We started with a lab study using \tisane~\cite{jun2022tisane} to
+elicit statistical non-experts' implicit definitions and assumptions about \SDSL
+keywords. The study also helped us identify opportunities to refine \tisane's
+interactivity.
+
+\input{tisane/exploratory.tex}
+
+\input{tisane/rTisane.tex}
+
+\input{tisane/lab_study.tex}
+
+\input{tisane/discussion.tex}
+
+\section{Summary of Contributions}
+
+% Reminder: Thesis statement
+% Domain-specific languages that provide abstractions for expressing conceptual
+% knowledge, data collection procedures, and analysis intents instead of specific
+% statistical modeling decisions coupled with automated reasoning to compile
+% conceptual specifications into statistical analysis code help statistical
+% non-experts more readily author valid analyses. 
+
+\rTisane provides a DSL with language constructs for expressing conceptual
+models (\thesisChallengeExplicit) and integrates a two-phase interactive
+disambiguation process for compiling conceptual knowledge into statistical
+analysis code (\thesisChallengeRep). In case studies of \tisane and a controlled
+lab study of \rTisane, we found that the DSL is expressive enough to capture
+analysts' conceptual models accurately, eases the burden of making their
+implicit assumptions explicit, and pushes analysts to think about their domains
+more deeply. Using \rTisane, analysts were able to author statistical models
+that fit the data just as well as if not better than statistical models authored
+on their own. \rTisane even helped analysts who were not able to author
+statistical models on their own get to an output statistical model. Analysts
+also reported that through the process, they learned about GLMs
+(\thesisChallengeUnderstanding). Together, these results demonstrate how DSLs and
+automated reasoning together in fact do help statistical non-experts author
+valid statistical analyses that they would not be able to author otherwise.
+% evidence for how
+% connecting conceptual modeling to statistical modeling increases the statistical
+% conclusion and external validity of analyses~\cite{shadish2010campbell}.  
+
+% The conceptual model disambiguation process in \rTisane
+% also facilitates reflection on implicit knowledge. 
+
+% we refined what the programming and interaction model
+% for expressing conceptual models and connecting them to statistical models
+% should be. Most notably, the second release of \tisane, as \rTisane, provides
+% more explicit support for conceptual model specification and disambiguation. 
+
+% \tisane and \rTisane are in stark contrast to the current ecosystem of
+% statistical analysis software designed to give analysts maximal mathematical and
+% computational control at the cost of support for connecting conceptual and
+% statistical models. 
+% The pending lab study results will demonstrate the impact of
+% \rTisane on (i) the conceptual models analysts specify and their reflection
+% process, (ii) (output) statistical model quality, and (iii) awareness and
+% learned insights analysts takeaway about their domain and data analysis process.
+
+% The summative evaluation study concretizes the impact of \tisane. Analysts
+% report being more reflective and systematic in their thinking about implicit
+% conceptual assumptions due to \rTisanes DSL and conceptual model disambiguation
+% process. The statistical models analysts produce also more accurately estimate
+% the true relationships in the data, lower AIC/BIC and higher R-squared. 
+
+
+% Prior publications
+\textit{The exploratory design study, rTisane design and implementation, and the
+summative evaluation are in collaboration with Edward Misback, Jeffrey Heer, and
+\reneJust. The corresponding paper is under submission and has not yet been
+published.}

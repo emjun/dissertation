@@ -12,15 +12,16 @@
 \contentsline {figure}{\numberline {5.2}{\ignorespaces \textbf {Code snippets of conceptual and data measurement relationships written in Tisane's DSL\xspace and their representation in Tisane's graph IR.}\relax }}{91}{figure.caption.52}%
 \contentsline {figure}{\numberline {5.3}{\ignorespaces \textbf {Graphs demonstrating causal parents, possible causal omissions, and possible confounding associations.}\relax }}{95}{figure.caption.59}%
 \contentsline {figure}{\numberline {5.4}{\ignorespaces \textbf {Example Tisane GUI for disambiguation.}\relax }}{98}{figure.caption.65}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces \textbf {rTisane's\xspace conceptual model disambiguation interface.}\relax }}{112}{figure.caption.75}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces \textbf {rTisane's\xspace statistical model disambiguation interface.}\relax }}{113}{figure.caption.78}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces \textbf {Example conceptual models from participants without rTisane\xspace .}\relax }}{118}{figure.caption.83}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces \textbf {rTisane's\xspace conceptual model disambiguation interface.}\relax }}{115}{figure.caption.75}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces \textbf {rTisane's\xspace statistical model disambiguation interface.}\relax }}{116}{figure.caption.78}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces \textbf {Example conceptual models from participants without rTisane\xspace .}\relax }}{121}{figure.caption.83}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {C.1}{\ignorespaces \textbf {More complex examples of \texttt {moderates} written in Tisane's DSL\xspace and their representation in Tisane's graph IR.}\relax }}{227}{figure.caption.95}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces \textbf {A graph demonstrating an edge case for candidate main effect identification, where the graph contains only associative edges.}\relax }}{228}{figure.caption.96}%
-\contentsline {figure}{\numberline {C.3}{\ignorespaces \textbf {An example of the warning text given for potential confounding associations.}\relax }}{228}{figure.caption.97}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces \textbf {More complex examples of \texttt {moderates} written in Tisane's DSL\xspace and their representation in Tisane's graph IR.}\relax }}{229}{figure.caption.95}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces \textbf {A graph demonstrating an edge case for candidate main effect identification, where the graph contains only associative edges.}\relax }}{230}{figure.caption.96}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces \textbf {An example of the warning text given for potential confounding associations.}\relax }}{230}{figure.caption.97}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
