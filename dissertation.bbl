@@ -448,6 +448,11 @@ Dylan Fafard, Ian Stavness, Martin Dechant, Regan Mandryk, Qian Zhou, and
 \newblock In {\em Proceedings of the 2019 CHI Conference on Human Factors in
   Computing Systems}, pages 1--12, 2019.
 
+\bibitem[FST14]{fithian2014optimal}
+William Fithian, Dennis Sun, and Jonathan Taylor.
+\newblock Optimal inference after model selection.
+\newblock {\em arXiv preprint arXiv:1410.2597}, 2014.
+
 \bibitem[GAL{\etalchar{+}}19]{CHI0}
 Lukas Gehrke, Sezen Akman, Pedro Lopes, Albert Chen, Avinash~Kumar Singh,
   Hsiang-Ting Chen, Chin-Teng Lin, and Klaus Gramann.
@@ -841,6 +846,12 @@ James Lloyd, David Duvenaud, Roger Grosse, Joshua Tenenbaum, and Zoubin
   nonparametric regression models.
 \newblock In {\em Proceedings of the AAAI Conference on Artificial
   Intelligence}, volume~28, 2014.
+
+\bibitem[LDWR23]{leiner2023dataFission}
+James Leiner, Boyan Duan, Larry Wasserman, and Aaditya Ramdas.
+\newblock Data fission: splitting a single data point.
+\newblock {\em Journal of the American Statistical Association},
+  (just-accepted):1--22, 2023.
 
 \bibitem[LGL{\etalchar{+}}19]{PNAS8}
 Chang Liu, Hui-Min Ge, Bai-Hui Liu, Rui Dong, Kun Shan, Xue Chen, Mu-Di Yao,
@@ -1275,6 +1286,12 @@ Nina Thigpen, Nathan~M. Petro, Jessica Oschwald, Klaus Oberauer, and Andreas
 \newblock Selection of visual objects in perception and working memory one at a
   time.
 \newblock {\em Psychological Science}, 30(9):1259--1272, 2019.
+
+\bibitem[TT15]{taylorTibshirani2015statistical}
+Jonathan Taylor and Robert~J Tibshirani.
+\newblock Statistical learning and selective inference.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  112(25):7629--7634, 2015.
 
 \bibitem[VAK18]{verou2018extending}
 Lea Verou, Tarfah Alrashed, and David Karger.

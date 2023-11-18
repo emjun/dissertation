@@ -118,14 +118,14 @@ of which inflate the Type I Error Rate and can lead to more false discoveries.
 Tea relies on statistical tests (e.g., Shapiro-Wilk's test for normality) to
 assess properties of data to determine which statistical tests (e.g., Student's
 t-test) are used to assess the input hypothesis. Repeated property testing of
-the data is a form of ``double-dipping''~\cite{}, or using the data to make
+the data is a form of ``double-dipping,'' or using the data to make
 decisions about analyses on the data. Preventing this would be ideal to reduce
-the false positive discovery rate. However, the statistics community is still
+the false positive discovery rate~\cite{fithian2014optimal,taylorTibshirani2015statistical}. However, the statistics community is still
 developing techniques to address this issue. A naive approach would be to only
 use a sample of the data to determine the final statistical test and then use
 another sample to make statistical inferences. While viable for large datasets,
 this may not be possible for smaller datasets. A more recently proposed
-technique, data fission~\cite{} overcomes, in theory, this dependence on dataset
+technique, data fission~\cite{leiner2023dataFission} overcomes, in theory, this dependence on dataset
 size.  Data fission introduces noise to the data to make analysis decisions
 (i.e., statistical test selection) and then stripping the noise to obtain final
 results. Tea does not currently implement either of these approaches. In the
